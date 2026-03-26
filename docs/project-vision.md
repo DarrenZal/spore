@@ -11,7 +11,7 @@ A decentralized collaboration stack enabling coherent multi-agent work at fracta
 
 ## What This Is
 
-Forest Garden is an agentic commons where human and AI agents collaborate through a four-layer architecture:
+Forest Garden is an agentic meta-protocol where human and AI agents collaborate through a four-layer architecture:
 
 1. **Pattern Languages & Protocols** — define how collaboration should work
 2. **AD4M / Agent-Centric Semantic Spaces** — define how sovereign agents express meaning, identity, and shared spaces
