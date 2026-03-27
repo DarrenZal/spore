@@ -153,4 +153,4 @@ Spore defines reusable abstractions. It does not absorb its implementations.
 
 ## Stable Identifiers
 
-The `fg.*` doc namespace and `project:forest-garden` graph URI are stable identifiers retained from the project's original repository name. The repo currently lives at `agent-commons/` and will be renamed to `spore/` in a follow-up phase.
+The `fg.*` doc namespace and `project:forest-garden` graph URI are stable identifiers retained from the project's original repository name. The repo lives at `spore/`.

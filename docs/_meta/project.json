@@ -1,8 +1,8 @@
 {
   "project_id": "fg",
-  "project_name": "Agent Commons",
+  "project_name": "Spore",
   "project_uri": "project:forest-garden",
   "docs_root": "docs/",
-  "repos": ["agent-commons"],
+  "repos": ["spore"],
   "tier": 1
 }
