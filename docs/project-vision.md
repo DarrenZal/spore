@@ -11,7 +11,7 @@ Forest Garden is a decentralized knowledge commons for human and AI collaboratio
 
 ## What This Is
 
-Forest Garden is the system-level frame for a federated collaboration stack. It combines shared norms, sovereign agent spaces, knowledge operations, and project governance so agents can coordinate without surrendering autonomy.
+Forest Garden is the system-level name for a federated collaboration stack. It combines shared norms, sovereign agent spaces, knowledge operations, and project governance so agents can coordinate without surrendering autonomy.
 
 This vision is elaborated by the Forest Garden foundations layer: the Mycelial Holarchy architecture, the Mycorrhizal Federation protocol, the Forest Garden meta-protocol, the project bootstrap spec, and the project briefing pattern.
 
@@ -21,9 +21,9 @@ This vision is elaborated by the Forest Garden foundations layer: the Mycelial H
 - **Protocol**: Mycorrhizal Federation — the rules for sovereign exchange across nodes
 - **Architecture**: Mycelial Holarchy — the dual-axis structure of governance and meshwork
 
-## Core Invariants
+## First Principles
 
-The system is grounded in a small set of deep patterns that precede any particular architecture:
+The system is grounded in a small set of invariants and patterns that precede any particular architecture:
 
 - **Sovereignty**: each node/agent holds its own perspective and authority
 - **Federation**: sharing happens across boundaries without collapsing sovereignty
