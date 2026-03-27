@@ -4,11 +4,24 @@ doc_kind: architecture
 status: active
 depends_on:
   - fg.project-vision
+  - fg.relational-agency-and-holons
 ---
 
 # Mycorrhizal Federation Protocol
 
-How sovereign nodes connect through mutualistic exchange — the rules governing what flows between agents, how trust is established, and how federation maintains coherence without central authority.
+How sovereign nodes connect through mutualistic exchange — the rules governing what flows between agents, holons, and collectives, how trust is established, and how federation maintains coherence without central authority.
+
+## What Counts as a Node
+
+In Agent Commons, a node is any sufficiently coherent sovereign party participating in federation, for example:
+
+- a person with local tools and memory
+- a team or working group
+- an organization
+- a federation or network-of-networks
+- a software-hosted agent acting on behalf of one of the above
+
+The current implementation most often represents nodes as software peers with cryptographic identity, but the protocol is intended to describe relations between broader kinds of holons as well.
 
 ## Sovereignty Invariants
 
@@ -16,7 +29,7 @@ These hold at every scale and are non-negotiable:
 
 1. **Each node owns its graph.** No external agent can write to a node's knowledge graph without explicit consent. Data arrives as proposals, not commands.
 2. **Sharing is opt-in.** A node chooses what to share, with whom, and under what conditions. There is no global read access.
-3. **Identity is self-sovereign.** Each node has its own cryptographic identity (currently X25519 keypair). Identity is not delegated by a central authority.
+3. **Identity is self-sovereign.** Each node has its own identity boundary. In the current implementation, software peers use cryptographic identity (currently X25519 keypair). Identity is not delegated by a central authority.
 4. **Local-first operation.** Every node must function fully when disconnected. Federation enhances; it does not enable.
 
 ## What Flows Between Nodes
@@ -44,7 +57,7 @@ Federation exchanges **domain events** — structured notifications that a node 
 
 ## Trust Model
 
-Trust is established progressively:
+Trust is established progressively between sovereign parties.
 
 ### Bilateral Trust (Current)
 
@@ -74,7 +87,7 @@ The current federation backbone is KOI-net (BlockScience design), implementing:
 
 ### Replication Model
 
-Forest Garden uses **event-driven eventual consistency**, not full state replication:
+The current implementation uses **event-driven eventual consistency**, not full state replication:
 
 - Each peer maintains its own materialized view of shared knowledge
 - Events describe changes, not full state — peers apply events to their local graph

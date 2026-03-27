@@ -5,19 +5,24 @@ status: active
 depends_on: []
 ---
 
-# Forest Garden — Project Vision
+# Agent Commons — Project Vision
 
-Forest Garden is a decentralized knowledge commons for human and AI collaboration, designed to support coherent work at fractal scales: personal, peer-to-peer, organizational, and network-of-networks.
+Agent Commons is a decentralized knowledge commons for human and AI collaboration, designed to support coherent work at fractal scales: personal, peer-to-peer, organizational, and network-of-networks.
 
 ## What This Is
 
-Forest Garden is the system-level name for a federated collaboration stack. It combines shared norms, sovereign agent spaces, knowledge operations, and project governance so agents can coordinate without surrendering autonomy.
+Agent Commons is the system-level name for a federated collaboration stack. It combines shared norms, sovereign agent spaces, knowledge operations, and governance patterns so agents can coordinate without surrendering autonomy.
 
-This vision is elaborated by the Forest Garden foundations layer: the Mycelial Holarchy architecture, the Mycorrhizal Federation protocol, the Forest Garden meta-protocol, the project bootstrap spec, and the project briefing pattern.
+This repository currently holds two closely related layers:
+
+- the **umbrella/system layer**: the broader vision for multi-scale human, AI, and collective coordination
+- the **project governance layer**: the current spec-DAG, briefing, and adoption tooling that operationalizes one important slice of that vision
+
+The repository path, `fg.*` namespace, and `project:forest-garden` URI are retained for continuity while the system name shifts to Agent Commons.
 
 ## Naming Stack
 
-- **System**: Forest Garden — the knowledge commons and collaboration ecosystem
+- **System**: Agent Commons — the knowledge commons and collaboration ecosystem
 - **Protocol**: Mycorrhizal Federation — the rules for sovereign exchange across nodes
 - **Architecture**: Mycelial Holarchy — the dual-axis structure of governance and meshwork
 
@@ -34,6 +39,28 @@ The system is grounded in a small set of invariants and patterns that precede an
 - **Pluralism with coherence**: many perspectives and protocols coexist without chaos
 - **Provenance**: meaning, claims, and decisions remain traceable
 
+## Layers In This Repo
+
+### Umbrella / System Layer
+
+These docs describe Agent Commons as the larger system for relational agency, federation, and commoning across scales:
+
+- `fg.project-vision`
+- `fg.relational-agency-and-holons`
+- `fg.mycelial-holarchy-architecture`
+- `fg.mycorrhizal-federation-protocol`
+
+### Project Governance Layer
+
+These docs describe the current governance/documentation layer implemented inside Agent Commons:
+
+- `fg.forest-garden-meta-protocol`
+- `fg.project-bootstrap-spec`
+- `fg.project-briefing-pattern`
+- `fg.adoption-guide`
+
+This layer is important, but it is not the totality of Agent Commons.
+
 ## Reference Stack
 
 These invariants currently take shape as a four-layer reference stack. The layers are ordered by abstraction and scope, not by absolute authority. The stack is directional but recursive: norms shape infrastructure and governance, while lived practice feeds back into norms.
@@ -41,15 +68,15 @@ These invariants currently take shape as a four-layer reference stack. The layer
 1. **Pattern Languages & Protocols** — the normative layer that defines how collaboration should work
 2. **Agent-Centric Semantic Spaces** — the identity and meaning layer where sovereign agents express perspectives, shared spaces, and social logic
 3. **KOI / Knowledge Operations Infrastructure** — the knowledge layer for retrieval, provenance, federation, and governance operations
-4. **Spec DAG / Project Governance** — the project layer connecting vision, architecture, specs, roadmap, tasks, and code
+4. **Project Governance Layer** — the currently implemented slice connecting vision, architecture, specs, roadmap, tasks, and code
 
-AD4M is an important adjacent candidate for Layer 2, but Forest Garden is not reducible to AD4M.
+AD4M is an important adjacent candidate for Layer 2, but Agent Commons is not reducible to AD4M.
 
 ## Dual-Axis Model
 
-Forest Garden combines two coexisting structural axes:
+Agent Commons combines two coexisting structural axes:
 
-- **Holarchic axis**: nested governance, sovereignty boundaries, and authority flow through spec DAGs
+- **Holarchic axis**: nested sovereignty, collective agency, governance boundaries, and authority flow across scales
 - **Mycelial axis**: overlapping knowledge flow, lateral federation, and cross-project membership
 
 A forest is both trees and mycelia. Governance without flow becomes rigid. Flow without governance becomes drift.
@@ -61,12 +88,16 @@ A forest is both trees and mycelia. Governance without flow becomes rigid. Flow 
 - Avoid personal-workflow assumptions in shared infrastructure
 - Prefer lightweight, composable tooling over bureaucratic process
 
-## Current State
+## Current Implementation Focus
 
-- **Phases 1-3 complete**: graph substrate, SpecDoc entity type, ingest tooling, project briefing API
-- **Phase 4 complete**: `/project-context`, `project_briefing`, and Tier 0 bootstrap across multiple projects
-- **Tier 1 complete**: Forest Garden now has a six-node foundations DAG in the knowledge graph
-- **Next**: cross-project references, `doc-check --project fg`, and broader protocol extraction
+The most mature implemented slice of Agent Commons today is the project governance layer:
+
+- spec DAG ingestion and validation
+- project briefing and hierarchy assembly
+- cross-project spec references
+- adoption tiers for projects using the governance layer
+
+That tooling now supports multiple governed projects, but the broader Agent Commons vision remains larger than the tooling itself.
 
 ## Adjacent Projects & Influences
 

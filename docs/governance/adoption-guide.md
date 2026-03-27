@@ -8,7 +8,7 @@ depends_on:
 
 # Adoption Guide
 
-How to register a new project in the Forest Garden spec governance system and grow it from Tier 0 to Tier 1.
+How to register a new project in the Agent Commons project governance layer and grow it from Tier 0 to Tier 1.
 
 ## Prerequisites
 
@@ -60,7 +60,8 @@ Run the ingest script in dry-run mode to check your DAG before writing to the da
 
 ```bash
 cd ~/projects/RegenAI/koi-processor
-source config/personal.env
+source venv/bin/activate
+set -a && source config/personal.env && set +a
 python3 scripts/ingest_spec_dag.py \
   --project-config /path/to/your/docs/_meta/project.json \
   --dry-run

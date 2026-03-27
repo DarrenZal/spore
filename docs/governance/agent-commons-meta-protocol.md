@@ -6,13 +6,13 @@ depends_on:
   - fg.project-vision
 ---
 
-# Forest Garden Meta-Protocol
+# Agent Commons Governance Meta-Protocol
 
-The rules governing how Forest Garden's own artifacts are created, validated, and composed — the protocol that governs protocols.
+The rules governing how artifacts in the Agent Commons project governance layer are created, validated, and composed.
 
 ## Artifact Taxonomy
 
-Every document in a Forest Garden-governed project has a `doc_kind` that determines its role in the spec DAG:
+Every document in a project using the Agent Commons governance layer has a `doc_kind` that determines its role in the spec DAG:
 
 | Kind | Role | Authority | Example |
 |------|------|-----------|---------|
@@ -44,7 +44,7 @@ When document A declares `depends_on: [B]`, it means:
 
 ## Conformance Levels
 
-Projects adopt Forest Garden governance at different depths:
+Projects adopt the Agent Commons governance layer at different depths:
 
 ### Tier 0 — Seed
 
@@ -52,7 +52,7 @@ Projects adopt Forest Garden governance at different depths:
 - `docs/project-vision.md` with frontmatter: `doc_id`, `doc_kind: vision`, `status`, `depends_on: []`
 - `docs/_meta/project.json` with: `project_id`, `project_name`, `project_uri`, `docs_root`, `repos`, `tier`
 
-**What you get:** Project registered in knowledge graph. `GET /project/briefing` returns vision doc info + tasks + sessions.
+**What you get:** Project registered in the knowledge graph. `GET /project/briefing` returns vision doc info + tasks + sessions.
 
 **Effort:** ~2 minutes.
 
@@ -93,7 +93,7 @@ Cross-project dependencies are **informational**, not **authoritative** — Proj
 ### Doc ID Namespacing
 
 All `doc_id` values must be prefixed with the project's `project_id`:
-- `fg.project-vision` (Forest Garden)
+- `fg.project-vision` (Agent Commons, retained `fg` namespace)
 - `bkc.federated-memory-arch` (BKC)
 - `dw.project-vision` (darren-workflow)
 
@@ -108,7 +108,7 @@ No double-namespacing: since `doc_id` already includes the project prefix, the U
 
 ## Governance Flow
 
-The lifecycle of a spec document:
+The lifecycle of a spec document in the governance layer:
 
 1. **Propose**: Author creates a `.md` file with frontmatter in the appropriate directory
 2. **Validate**: `ingest_spec_dag.py --dry-run` checks frontmatter, DAG acyclicity, namespace prefix, and dependency targets

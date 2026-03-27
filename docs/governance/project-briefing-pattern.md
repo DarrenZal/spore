@@ -8,7 +8,7 @@ depends_on:
 
 # Project Briefing Pattern
 
-A reusable pattern for assembling project context from a knowledge graph, extracted from the working Forest Garden system.
+A reusable pattern for assembling project context from a knowledge graph, extracted from the working Agent Commons governance layer.
 
 ## Problem
 
@@ -51,7 +51,7 @@ GET /project/briefing?project=<name-or-id>
 The endpoint resolves the project argument through multiple tiers:
 1. Direct URI match (`project:forest-garden`)
 2. Metadata field match (`project_id = "fg"`)
-3. Normalized name match (`forest garden` → fuzzy match)
+3. Normalized name match (`agent commons` → fuzzy match)
 
 This allows callers to use whatever identifier is natural: short IDs for skills, full URIs for programmatic access.
 
@@ -82,10 +82,10 @@ Each consumer formats the briefing for its medium:
 
 ## Known Uses
 
-- **BKC** (Tier 2): 8-node spec hierarchy, active tasks, full governance graph
-- **Forest Garden** (Tier 0→1): Vision root + foundations layer
-- **darren-workflow** (Tier 0): Single vision doc, meta-tooling project
-- **Salish Sea Dreaming** (Tier 0): Single vision doc, generative art project
+- **Bioregional Knowledge Commons**: larger governance graph with multiple levels
+- **Agent Commons**: umbrella project using its own governance layer
+- **darren-workflow**: personal workflow project consuming the governance layer
+- **Salish Sea Dreaming**: creative project using the same briefing pattern
 
 ## Resulting Context
 

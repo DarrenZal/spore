@@ -8,7 +8,7 @@ depends_on:
 
 # Project Bootstrap Spec
 
-Operational definitions for registering a project in the Forest Garden spec governance system — what's required at each tier and how to get there.
+Operational definitions for registering a project in the Agent Commons project governance layer — what is required at each tier and how to get there.
 
 ## Tier 0: Seed Project
 
@@ -42,7 +42,7 @@ depends_on: []
 ```json
 {
   "project_id": "fg",
-  "project_name": "Forest Garden",
+  "project_name": "Agent Commons",
   "project_uri": "project:forest-garden",
   "docs_root": "docs/",
   "repos": ["forest-garden"],
@@ -130,11 +130,11 @@ Expected: project name, URI, tier, spec_hierarchy with single vision root.
 5. Re-run ingest
 6. Verify: briefing shows complete hierarchy with multiple levels
 
-## Current Projects
+## Example Adopters
 
-| Project | ID | Tier | Spec Docs | URI |
-|---------|----|----- |-----------|-----|
-| Bioregional Knowledge Commons | `bkc` | 2 | 8 | `project:bioregional-knowledge-commons` |
-| Forest Garden | `fg` | 1 | 6 | `project:forest-garden` |
-| darren-workflow | `dw` | 0 | 1 | `project:darren-workflow` |
-| Salish Sea Dreaming | `ssd` | 0 | 1 | `project:salish-sea-dreaming` |
+The governance layer is already used by multiple kinds of projects, including:
+
+- Agent Commons itself
+- darren-workflow
+- Bioregional Knowledge Commons
+- Salish Sea Dreaming

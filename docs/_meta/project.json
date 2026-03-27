@@ -1,6 +1,6 @@
 {
   "project_id": "fg",
-  "project_name": "Forest Garden",
+  "project_name": "Agent Commons",
   "project_uri": "project:forest-garden",
   "docs_root": "docs/",
   "repos": ["forest-garden"],
