@@ -64,7 +64,7 @@ depends_on: []
 ### Bootstrap Commands
 
 ```bash
-# From koi-processor directory, with personal.env sourced:
+# From koi-processor directory, with environment configured:
 
 # Validate (always dry-run first)
 python3 scripts/ingest_spec_dag.py \

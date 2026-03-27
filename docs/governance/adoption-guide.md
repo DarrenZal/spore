@@ -12,8 +12,11 @@ How to register a new project in the Agent Commons project governance layer and 
 
 ## Prerequisites
 
-- PostgreSQL `personal_koi` database running on localhost:5432
+> **Note:** Commands below assume a local [koi-processor](https://github.com/RegenAI/koi-processor) installation. See that repository for setup and deployment details.
+
+- PostgreSQL database with koi-processor schema applied
 - `koi-processor` repository cloned with Python venv active
+- koi-processor API running (default: `localhost:8351`)
 - Your project repository with a `docs/` directory
 
 ## Step 1: Create a Tier 0 Scaffold

@@ -18,7 +18,7 @@ This repository currently holds two closely related layers:
 - the **umbrella/system layer**: the broader vision for multi-scale human, AI, and collective coordination
 - the **project governance layer**: the current spec-DAG, briefing, and adoption tooling that operationalizes one important slice of that vision
 
-The repository path, `fg.*` namespace, and `project:forest-garden` URI are retained for continuity while the system name shifts to Agent Commons.
+The `fg.*` doc namespace and `project:forest-garden` graph URI are stable identifiers retained from the original repository name. The repo now lives at `agent-commons/`.
 
 ## Naming Stack
 
