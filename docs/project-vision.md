@@ -5,102 +5,152 @@ status: active
 depends_on: []
 ---
 
-# Agent Commons — Project Vision
+# Spore — Project Vision
 
-Agent Commons is a decentralized knowledge commons for human and AI collaboration, designed to support coherent work at fractal scales: personal, peer-to-peer, organizational, and network-of-networks.
+Spore is a pattern language, protocol family, and governance-memory layer for multi-agent coordination — where "agent" means any entity with enough coherence to perceive, decide, and act: a person, an AI, a team, an organization, a federation, a mixed human-AI collective.
 
-## What This Is
+The formal name for the protocol family is **Agent Commons**. Spore is the project that develops, tests, and publishes it.
 
-Agent Commons is the system-level name for a federated collaboration stack. It combines shared norms, sovereign agent spaces, knowledge operations, and governance patterns so agents can coordinate without surrendering autonomy.
+## Core Thesis
 
-This repository currently holds two closely related layers:
+Coordination at every scale requires the same primitives — sovereign identity, shared memory, commitment protocols, governance patterns, and federation rules. These compose fractally: the same patterns that let a person manage their workflow let a bioregional network coordinate ecological restoration.
 
-- the **umbrella/system layer**: the broader vision for multi-scale human, AI, and collective coordination
-- the **project governance layer**: the current spec-DAG, briefing, and adoption tooling that operationalizes one important slice of that vision
+## The Problem
 
-The `fg.*` doc namespace and `project:forest-garden` graph URI are stable identifiers retained from the original repository name. The repo now lives at `agent-commons/`.
+Coordination entropy. As the number of agents, scales, and overlapping memberships grows, coherence degrades — unless the system has:
+
+- Legible intent (what are we doing and why)
+- Explicit dependencies (what constrains what)
+- Shared memory (what's been decided, by whom, with what provenance)
+- Machine-readable constraints (validateable, composable, queryable)
+- Cross-boundary references (how local work connects to larger systems)
+- Economic coordination (commitments, not just information)
+- Governance that emerges from artifacts, not authorities
+- Sensory grounding (how do we know the state of the world we're acting in)
+
+## Constitutional Commitments
+
+Not eternal truths, but chosen design commitments for this family of systems:
+
+- **Provenance** — shared memory is unreliable without it
+- **Forkability** — sovereignty is fake without it
+- **Pluralism with interoperability** — without it, this becomes one more centralizing platform
+- **Meaningful local autonomy** — authority and boundary must be explicit; participation must not require total absorption
+- **Authorized boundary crossing** — boundary crossing, representation, and high-stakes action require legitimate authorization (consent, standing agreement, delegated mandate, or governance authority)
+- **Explicit and reviewable authority** — authority should have scope, legibility, escalation paths, and revocation conditions
+- **Contestability** — claims can be questioned, decisions reviewed, outputs challenged, mistakes repaired
+
+## Structure and Flow
+
+The holarchic axis is structure: persistence, memory, boundary, legibility. The mycelial axis is flow: adaptation, exchange, learning, life.
+
+- **Invariants** give structure (constitutional commitments, vision, governance memory)
+- **Protocols** shape flow (how intents travel, how commitments settle, how events propagate)
+- **Patterns** mediate between them (recurring forms that let flow happen without collapse)
+
+Structure without flow is dead. Flow without structure is noise. The system must oscillate between stabilizing, opening, routing, testing, and revising. This is metabolic.
+
+## The Coordination Ecology
+
+Visions are constitutional commitments. Intents are pre-commitment coordination signals. Commitments are bound relations. Evidence validates. Learning revises.
+
+**Vision → Roadmap → Intent → Commitment → Evidence → Learning**
+
+This is a coordination ecology, not a pipeline. Each element serves a different role:
+
+- **Vision commitments** orient (direction, values, constraints)
+- **Roadmap** translates vision into structured needs and sequences
+- **Intents** signal (offers, needs, conditions — pre-commitment coordination where plurality enters)
+- **Commitments** bind (labor, capital, capacity, pooled resources — accepted and governed)
+- **Evidence** validates (observations, attestations, fulfillment)
+- **Learning** revises (update roadmap, refine patterns, adapt vision)
+
+## Dual Representation
+
+Constitutional artifacts (visions, agreements, roadmaps, declarations) have two representations:
+
+- **Narrative form** for humans — text as constitutional statement
+- **Graph projection** for machines — queryable, composable, diffable, groundable
+
+Multiple graph types capture different aspects:
+
+- **Constitutional graph** — values, goals, principles, constraints, domains
+- **Roadmap DAG** — initiatives, milestones, dependencies, sequence
+- **Intent hypergraph** — multi-party offers, needs, conditions (not reducible to binary edges)
+- **Commitment graph** — actors, pools, offers, attestations, fulfillment
+- **Knowledge graph** — entities, claims, evidence, provenance, sensor outputs
+- **Event graph** — what changed, when, due to what, from which node
+- **Routing/flow graph** — how resources, obligations, and information circulate through pools and networks
+
+## Self-Similarity
+
+A node can be treated as a coherent point at one scale and as a graph of visions, intents, commitments, and evidence at another. This self-similarity is what makes fractal coordination possible — the same artifact ecology recurs inside every holon, which is why the same patterns work from personal workflow to planetary federation.
+
+## Five Layers
+
+1. **Personal** — sovereign agent memory, local tools, personal workflow
+2. **Pair/Team** — shared context, handoffs, accumulated knowledge, collaborative governance
+3. **Organizational** — governance DAGs, commitment pooling, project coordination
+4. **Network** — federation between organizations, cross-project dependencies, routed commitments
+5. **Planetary** — the interstitium: connective tissue between all scales, enabling coherence without central command
+
+## How Adoption Works
+
+You don't restructure your project. You add coordination surfaces:
+
+- **Frontmatter** on your docs — they become legible to the governance-memory pattern
+- **A sensor node** on your knowledge garden — your existing content becomes queryable by agents
+- **Edge permissions** — you declare what you share and with whom
+- **Profile declarations** — you state which patterns and protocols you implement
+
+Adoption is incremental. A project can use one pattern (e.g., governance memory) without adopting the full stack.
+
+## Common Core, Local Variation
+
+Interoperability does not mean identical schemas. It means:
+
+- Shared identifiers (RIDs)
+- Shared envelope/event formats
+- Shared provenance rules
+- Declared profiles and capabilities ("I implement profile X version Y")
+- Explicit translation mappings between local ontologies and shared concepts
+- Clear consent and visibility semantics
+
+A node should be able to say what it implements, what it exposes, how it maps to shared concepts, and what trust levels it accepts. Forkability is a feature, not a failure mode.
 
 ## Naming Stack
 
-- **System**: Agent Commons — the knowledge commons and collaboration ecosystem
-- **Protocol**: Mycorrhizal Federation — the rules for sovereign exchange across nodes
-- **Architecture**: Mycelial Holarchy — the dual-axis structure of governance and meshwork
+- **Project**: Spore — a pattern that travels, lands in different contexts, and grows local implementations
+- **Protocol family**: Agent Commons — the pattern language, protocols, and governance-memory layer
+- **Federation protocol**: Mycorrhizal Federation — rules for sovereign exchange across nodes
+- **Architecture**: Mycelial Holarchy — dual-axis structure of governance and meshwork
 
-## First Principles
+## Relationship to Existing Systems
 
-The system is grounded in a small set of invariants and patterns that precede any particular architecture:
+- **KOI-net** (BlockScience): Federation transport layer. Agent Commons patterns ride on KOI-net for inter-node exchange. KOI sensor nodes provide world-state grounding.
+- **AD4M / Coasys**: Shares sovereignty-first philosophy. Agent Commons patterns should be expressible as AD4M Languages. AD4M's Perspectives model is the right idea for sovereign agent memory.
+- **Open Civics**: Sibling effort in civic protocol libraries. Agent Commons patterns could interoperate through shared sensor and profile models.
+- **Sociocracy 3.0**: Reference model for consent-based governance. Concepts borrowed where useful — circles, domains, consent, drivers — but not adopted wholesale.
 
-- **Sovereignty**: each node/agent holds its own perspective and authority
-- **Federation**: sharing happens across boundaries without collapsing sovereignty
-- **Commoning**: norms, knowledge, and governance are cultivated as shared goods
-- **Holarchy**: authority and scope nest across scales
-- **Mycelial exchange**: knowledge, signals, and support flow laterally across overlaps
-- **Recursion**: the system can describe, govern, and improve itself
-- **Pluralism with coherence**: many perspectives and protocols coexist without chaos
-- **Provenance**: meaning, claims, and decisions remain traceable
+## Ecosystem
 
-## Layers In This Repo
+Spore defines reusable abstractions. It does not absorb its implementations.
 
-### Umbrella / System Layer
+- **koi-processor / RegenAI** — runtime substrate (knowledge graph, entity resolution, federation, sensors)
+- **BKC** — operational validation (4 bioregional nodes, commitment pooling, federated knowledge)
+- **darren-workflow** — personal workflow validation (meeting pipeline, entity linking, plan review)
+- **salish-sea-dreaming** — creative/bioregional adoption
+- **Regen Commons / Open Civics / Network Nations** — potential civic adoption surface
 
-These docs describe Agent Commons as the larger system for relational agency, federation, and commoning across scales:
+## Inspirations
 
-- `fg.project-vision`
-- `fg.relational-agency-and-holons`
-- `fg.mycelial-holarchy-architecture`
-- `fg.mycorrhizal-federation-protocol`
+- Christopher Alexander (pattern languages)
+- Arthur Koestler (holons)
+- Elinor Ostrom (commons governance)
+- Will Ruddick (commitment economies, federated pools, geodesic trust topology)
+- Indy Johar (dark matter, relational maturity, planetary sensorium, fiduciary AI)
+- Karl Friston / Active Inference (free energy minimization as coordination principle)
 
-### Project Governance Layer
+## Stable Identifiers
 
-These docs describe the current governance/documentation layer implemented inside Agent Commons:
-
-- `fg.forest-garden-meta-protocol`
-- `fg.project-bootstrap-spec`
-- `fg.project-briefing-pattern`
-- `fg.adoption-guide`
-
-This layer is important, but it is not the totality of Agent Commons.
-
-## Reference Stack
-
-These invariants currently take shape as a four-layer reference stack. The layers are ordered by abstraction and scope, not by absolute authority. The stack is directional but recursive: norms shape infrastructure and governance, while lived practice feeds back into norms.
-
-1. **Pattern Languages & Protocols** — the normative layer that defines how collaboration should work
-2. **Agent-Centric Semantic Spaces** — the identity and meaning layer where sovereign agents express perspectives, shared spaces, and social logic
-3. **KOI / Knowledge Operations Infrastructure** — the knowledge layer for retrieval, provenance, federation, and governance operations
-4. **Project Governance Layer** — the currently implemented slice connecting vision, architecture, specs, roadmap, tasks, and code
-
-AD4M is an important adjacent candidate for Layer 2, but Agent Commons is not reducible to AD4M.
-
-## Dual-Axis Model
-
-Agent Commons combines two coexisting structural axes:
-
-- **Holarchic axis**: nested sovereignty, collective agency, governance boundaries, and authority flow across scales
-- **Mycelial axis**: overlapping knowledge flow, lateral federation, and cross-project membership
-
-A forest is both trees and mycelia. Governance without flow becomes rigid. Flow without governance becomes drift.
-
-## Design Principles
-
-- Build for sovereignty first, federation second
-- Keep the core extractable into sharable packages and protocols
-- Avoid personal-workflow assumptions in shared infrastructure
-- Prefer lightweight, composable tooling over bureaucratic process
-
-## Current Implementation Focus
-
-The most mature implemented slice of Agent Commons today is the project governance layer:
-
-- spec DAG ingestion and validation
-- project briefing and hierarchy assembly
-- cross-project spec references
-- adoption tiers for projects using the governance layer
-
-That tooling now supports multiple governed projects, but the broader Agent Commons vision remains larger than the tooling itself.
-
-## Adjacent Projects & Influences
-
-- **AD4M** (Coasys): agent-centric semantic and identity layer
-- **KOI-net** (BlockScience): current federation backbone
-- **Egregore** (Curve Labs): coordination UX and workflow inspiration
+The `fg.*` doc namespace and `project:forest-garden` graph URI are stable identifiers retained from the project's original repository name. The repo currently lives at `agent-commons/` and will be renamed to `spore/` in a follow-up phase.

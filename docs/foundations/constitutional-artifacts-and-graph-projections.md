@@ -1,0 +1,93 @@
+---
+doc_id: fg.constitutional-artifacts
+doc_kind: foundation
+status: active
+depends_on:
+  - fg.project-vision
+  - fg.relational-agency-and-holons
+---
+
+# Constitutional Artifacts and Graph Projections
+
+This document bridges the holonic/mycelial architecture and the pattern language. It defines how normative artifacts (visions, agreements, commitments) relate to each other, how they project into graphs, and how they connect to real-world state through sensors.
+
+## Constitutional Artifacts
+
+A constitutional artifact is any normative artifact that says "this is what we intend":
+
+- **Visions** — long-horizon orientation (values, direction, constraints)
+- **Agreements** — reciprocal commitments between parties
+- **Declarations** — public signaling commitments
+- **Roadmaps** — sequenced commitments translating vision into structured needs
+- **Policies** — standing rules that govern behavior within a domain
+- **Roles** — named positions with scope, authority, and accountability
+- **Domain definitions** — bounded areas of responsibility and decision-making
+
+All constitutional artifacts are commitments at different levels of specificity. A vision is a constitutional commitment ("we commit to this direction"). A roadmap is a sequenced commitment. A pool entry is an economic commitment. These form a commitment ecology — not a hierarchy where one replaces the other, but an ecology where different kinds serve different roles.
+
+## The Coordination Ecology
+
+**Vision → Roadmap → Intent → Commitment → Evidence → Learning**
+
+This is not a pipeline where each step is "the same thing becoming more concrete." It is a coordination ecology where distinct artifact types interact:
+
+- **Vision commitments** orient — they set direction, values, and constraint horizons. They change slowly and require broad consent.
+- **Roadmaps** translate — they decompose vision into structured needs, sequences, and milestones.
+- **Intents** signal — they are pre-commitment coordination primitives. An intent is a declared or inferred directional signal: "I want," "I offer," "I need," "I will if three others commit." Intents are where plurality enters and the system breathes. Not all intents become commitments; governance is partly about how intents are surfaced, negotiated, combined, deferred, or refused.
+- **Commitments** bind — accepted, governed, tracked. Commitments stabilize one or more vectors (intents) into a durable relation.
+- **Evidence** validates — observations, attestations, fulfillment records, sensor outputs. Evidence grounds the ecology in reality.
+- **Learning** revises — update the roadmap, refine patterns, adapt the vision itself. The ecology is a loop, not a line.
+
+## Dual Representation
+
+Every constitutional artifact has two representations:
+
+- **Narrative form** for humans — text as constitutional statement, readable and debatable
+- **Graph projection** for machines — queryable, composable, diffable, groundable to world state
+
+The text is not derived from the graph. The graph is not a degraded form of the text. They are complementary views of the same normative structure.
+
+## Seven Graph Types
+
+Different aspects of the coordination ecology are best captured by different graph structures:
+
+1. **Constitutional graph** — values, goals, principles, constraints, domains, and the relations between them (supports, constrains, conflicts_with, governs)
+2. **Roadmap DAG** — initiatives, milestones, dependencies, sequence. Directed acyclic: work flows from vision toward evidence.
+3. **Intent hypergraph** — multi-party offers, needs, and conditions. One intent may connect several actors, resources, timeframes, and conditions simultaneously. Binary edges are too small — hypergraphs capture the true structure.
+4. **Commitment graph** — actors, pools, offers, needs, attestations, fulfillment state, routing paths
+5. **Knowledge graph** — entities, claims, evidence, provenance, sensor outputs. The epistemic substrate.
+6. **Event graph** — what changed, when, due to what, from which node. Temporal dynamics.
+7. **Routing/flow graph** — how resources, obligations, and information circulate through pools and networks. Where abundance meets need. Where capacity flows.
+
+These are not seven separate databases. They are seven projections of one living system, each revealing different structure.
+
+## Node as Graph (Zoom Invariance)
+
+A node is often a coherent interface over an internal graph. From outside, a team is a point — one participant in a network. From inside, it is a graph of roles, commitments, intents, and evidence.
+
+When you zoom into a node, you find the same artifact ecology: visions, intents, commitments, evidence. This self-similarity is why federation works across scales — the internal structure is compatible with the external protocol because they are the same structure at different scales.
+
+This is the deep implication of the holon concept: a holon is both a whole (with its own internal graph) and a part (presenting a coherent interface to its containing graph). The coordination patterns apply recursively: a person's workflow, a team's governance, an organization's roadmap, and a federation's constitutional commitments all share the same structural logic.
+
+## Grounding Through Sensors
+
+Constitutional artifacts describe desired states. Sensors describe actual states. The gap between them is what drives action.
+
+- **KOI sensor nodes** ingest external state (wikis, repositories, web content, IoT data) into the knowledge graph
+- **Ecological sensors** — water quality, species counts, land use
+- **Economic sensors** — commitment pool state, token flows, settlement events
+- **Social sensors** — meeting transcripts, governance decisions, community signals
+
+When normative graphs (what we intend) and epistemic graphs (what we observe) are both machine-readable, the gap between them becomes computable. This connects to active inference: mismatch between vision graph and sensor graph creates latent intent-pressure — the directional force that, when made legible, becomes an inferred intent.
+
+## Structure and Flow in the Graph Model
+
+The graph types relate to the dual-axis architecture:
+
+- **DAGs** represent stable constraint structure (the holarchic axis)
+- **Hypergraphs** represent multi-party relational entanglement (the mycelial axis)
+- **Event graphs** represent temporal flow
+- **Knowledge graphs** represent semantic structure and provenance
+- **Routing/flow graphs** represent circulation of resources and information
+
+Structure without flow is a dead archive. Flow without structure is noise. The coordination ecology needs both: the DAG that constrains what's valid, and the hypergraph/flow that routes what's alive.
