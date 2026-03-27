@@ -135,6 +135,6 @@ Expected: project name, URI, tier, spec_hierarchy with single vision root.
 | Project | ID | Tier | Spec Docs | URI |
 |---------|----|----- |-----------|-----|
 | Bioregional Knowledge Commons | `bkc` | 2 | 8 | `project:bioregional-knowledge-commons` |
-| Forest Garden | `fg` | 0→1 | 1→6 | `project:forest-garden` |
+| Forest Garden | `fg` | 1 | 6 | `project:forest-garden` |
 | darren-workflow | `dw` | 0 | 1 | `project:darren-workflow` |
 | Salish Sea Dreaming | `ssd` | 0 | 1 | `project:salish-sea-dreaming` |
