@@ -72,4 +72,4 @@ Early stage. The framework is in active use across three projects but the API an
 
 ## License
 
-Apache 2.0 — see [LICENSE](LICENSE).
+[Peer Production License](https://wiki.p2pfoundation.net/Peer_Production_License) (PPL) — a copyfair license derived from CC BY-NC-SA 3.0. Free for non-commercial use, cooperatives, and worker-owned collectives. See [LICENSE](LICENSE).
