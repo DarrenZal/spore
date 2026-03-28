@@ -7,7 +7,7 @@ depends_on: []
 
 # Spore — Project Vision
 
-Spore is a pattern language, protocol family, and governance-memory layer for multi-agent coordination — where "agent" means any entity with enough coherence to perceive, decide, and act: a person, an AI, a team, an organization, a federation, a mixed human-AI collective.
+Spore is a pattern language, protocol family, and governance-memory layer for multi-agent coordination — grounded in a coordination grammar that operates across the full worldview stack: what exists, what matters, what counts as knowing, how we act, and how we inhabit participation. Here "agent" means any entity with enough coherence to perceive, decide, and act: a person, an AI, a team, an organization, a federation, a mixed human-AI collective.
 
 The formal name for the protocol family is **Agent Commons**. Spore is the project that develops, tests, and publishes it.
 
@@ -78,9 +78,10 @@ Multiple graph types capture different aspects:
 - **Roadmap DAG** — initiatives, milestones, dependencies, sequence
 - **Intent hypergraph** — multi-party offers, needs, conditions (not reducible to binary edges)
 - **Commitment graph** — actors, pools, offers, attestations, fulfillment
-- **Knowledge graph** — entities, claims, evidence, provenance, sensor outputs
+- **Knowledge graph** — entities, claims, evidence, provenance, sensor outputs (the epistemic substrate — tracking what counts as knowing, not just what is known)
 - **Event graph** — what changed, when, due to what, from which node
 - **Routing/flow graph** — how resources, obligations, and information circulate through pools and networks
+- **Discourse graph** — questions, proposals, arguments, objections, decisions. The self-reflective layer: how the coordination ecology reasons about and governs its own evolution
 
 ## Self-Similarity
 

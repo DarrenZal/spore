@@ -1,12 +1,12 @@
 # Spore
 
-A pattern language, protocol family, and governance-memory layer for multi-agent coordination at every scale.
+A pattern language, protocol family, and governance-memory layer for multi-agent coordination — grounded in a common grammar for plural, sovereign coordination across scales.
 
 **Spore** is the project. **Agent Commons** is the protocol family it publishes.
 
 ## What This Is
 
-Agent Commons defines patterns and protocols for how agents — humans, AIs, teams, organizations, federations — coordinate without surrendering sovereignty. The core thesis: coordination at every scale requires the same primitives, and they compose fractally.
+Agent Commons defines patterns and protocols for how agents — humans, AIs, teams, organizations, federations — coordinate without surrendering sovereignty. The core thesis: coordination at every scale requires the same primitives, and they compose fractally. The coordination grammar operates across the full worldview stack — what exists, what matters, what counts as knowing, how we act, and how we inhabit participation.
 
 ### The Coordination Ecology
 
@@ -38,7 +38,7 @@ docs/
 │   ├── relational-agency-and-holons.md        # Holonic agency theory
 │   ├── mycelial-holarchy-architecture.md      # Dual-axis structural model
 │   ├── mycorrhizal-federation-protocol.md     # Sovereign exchange rules
-│   └── constitutional-artifacts-and-graph-projections.md  # Coordination ecology + 7 graph types
+│   └── constitutional-artifacts-and-graph-projections.md  # Coordination ecology + 8 graph types
 ├── patterns/
 │   ├── governance-memory.md                   # Spec-DAG: docs as constitutional memory
 │   ├── intent-publication-and-activation.md   # Needs, offers, intents as vectors

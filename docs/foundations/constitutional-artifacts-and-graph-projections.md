@@ -47,19 +47,18 @@ Every constitutional artifact has two representations:
 
 The text is not derived from the graph. The graph is not a degraded form of the text. They are complementary views of the same normative structure.
 
-## Seven Graph Types
+## Eight Graph Types
 
-Different aspects of the coordination ecology are best captured by different graph structures:
+Different aspects of the coordination ecology are best captured by different graph structures. These are not eight separate databases — they are eight projections of one living system, each revealing different structure:
 
 1. **Constitutional graph** — values, goals, principles, constraints, domains, and the relations between them (supports, constrains, conflicts_with, governs)
 2. **Roadmap DAG** — initiatives, milestones, dependencies, sequence. Directed acyclic: work flows from vision toward evidence.
 3. **Intent hypergraph** — multi-party offers, needs, and conditions. One intent may connect several actors, resources, timeframes, and conditions simultaneously. Binary edges are too small — hypergraphs capture the true structure.
 4. **Commitment graph** — actors, pools, offers, needs, attestations, fulfillment state, routing paths
-5. **Knowledge graph** — entities, claims, evidence, provenance, sensor outputs. The epistemic substrate.
+5. **Epistemic graph** (called "knowledge graph" in the vision and public-facing docs) — entities, claims, evidence, attestations, provenance, sensor outputs. Tracks not just what is known, but what counts as knowing — the epistemological substrate.
 6. **Event graph** — what changed, when, due to what, from which node. Temporal dynamics.
 7. **Routing/flow graph** — how resources, obligations, and information circulate through pools and networks. Where abundance meets need. Where capacity flows.
-
-These are not seven separate databases. They are seven projections of one living system, each revealing different structure.
+8. **Discourse graph** — questions, proposals, arguments, objections, decisions. The self-reflective layer: how the coordination ecology reasons about and governs its own evolution. Without it, revision is ad-hoc.
 
 ## Node as Graph (Zoom Invariance)
 
@@ -87,7 +86,7 @@ The graph types relate to the dual-axis architecture:
 - **DAGs** represent stable constraint structure (the holarchic axis)
 - **Hypergraphs** represent multi-party relational entanglement (the mycelial axis)
 - **Event graphs** represent temporal flow
-- **Knowledge graphs** represent semantic structure and provenance
+- **Epistemic graphs** represent semantic structure, provenance, and what counts as knowing
 - **Routing/flow graphs** represent circulation of resources and information
 
 Structure without flow is a dead archive. Flow without structure is noise. The coordination ecology needs both: the DAG that constrains what's valid, and the hypergraph/flow that routes what's alive.
