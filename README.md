@@ -4,6 +4,8 @@ A common grammar for plural, sovereign coordination across scales. Spore develop
 
 **Spore** is the project. **Agent Commons** is the protocol family it publishes.
 
+Why "Spore"? A spore is portable, generative, and context-sensitive: it moves through larger living networks, lands in a place, and unfolds locally. Spore follows the same logic — a shared coordination grammar that can be adopted across projects, grow in different forms, and remain interoperable without requiring centralization.
+
 ## What This Is
 
 Agent Commons defines patterns and protocols for how agents — humans, AIs, teams, organizations, federations — coordinate without surrendering sovereignty. The core thesis: coordination at every scale requires the same primitives, and they compose fractally. The coordination grammar operates across the full worldview stack — what exists, what matters, what counts as knowing, how we act, and how we inhabit participation.
