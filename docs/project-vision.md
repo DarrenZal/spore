@@ -7,7 +7,7 @@ depends_on: []
 
 # Spore — Project Vision
 
-Spore is a pattern language, protocol family, and governance-memory layer for multi-agent coordination — grounded in a coordination grammar that operates across the full worldview stack: what exists, what matters, what counts as knowing, how we act, and how we inhabit participation. Here "agent" means any entity with enough coherence to perceive, decide, and act: a person, an AI, a team, an organization, a federation, a mixed human-AI collective.
+Spore is a common grammar for plural, sovereign coordination across scales — a coordination grammar that operates across the full worldview stack: what exists, what matters, what counts as knowing, how we act, and how we inhabit participation. It develops and publishes **Agent Commons**: a pattern language, protocol family, and governance-memory layer for multi-agent coordination. Here "agent" means any entity with enough coherence to perceive, decide, and act: a person, an AI, a team, an organization, a federation, a mixed human-AI collective.
 
 The formal name for the protocol family is **Agent Commons**. Spore is the project that develops, tests, and publishes it.
 
@@ -40,19 +40,19 @@ Not eternal truths, but chosen design commitments for this family of systems:
 - **Explicit and reviewable authority** — authority should have scope, legibility, escalation paths, and revocation conditions
 - **Contestability** — claims can be questioned, decisions reviewed, outputs challenged, mistakes repaired
 
-## Structure and Flow
+## Containment and Connection
 
-The holarchic axis is structure: persistence, memory, boundary, legibility. The mycelial axis is flow: adaptation, exchange, learning, life.
+The holarchic mode organizes containment, scope, and constraint. The mycelial mode organizes connection, overlap, and lateral reach. Structure, coherence, direction, and flow emerge from their interplay — as in tensegrity, where bounded compression elements and continuous tension elements together create integrity.
 
-- **Invariants** give structure (constitutional commitments, vision, governance memory)
-- **Protocols** shape flow (how intents travel, how commitments settle, how events propagate)
-- **Patterns** mediate between them (recurring forms that let flow happen without collapse)
+- **Invariants** give containment (constitutional commitments, vision, governance memory)
+- **Protocols** shape connection (how intents travel across membranes, how commitments settle, how events propagate)
+- **Patterns** mediate between them (recurring forms that let connection happen without collapse of containment)
 
-Structure without flow is dead. Flow without structure is noise. The system must oscillate between stabilizing, opening, routing, testing, and revising. This is metabolic.
+Containment without connection is dead. Connection without containment is noise. The system must oscillate between stabilizing, opening, routing, testing, and revising. This is metabolic.
 
 ## The Coordination Ecology
 
-Visions are constitutional commitments. Intents are pre-commitment coordination signals. Commitments are bound relations. Evidence validates. Learning revises.
+Visions are constitutional commitments. Intents are pre-commitment coordination signals. Commitments are accepted, scope-bound relations. Evidence validates. Learning revises.
 
 **Vision → Roadmap → Intent → Commitment → Evidence → Learning**
 

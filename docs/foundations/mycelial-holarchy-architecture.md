@@ -51,7 +51,7 @@ Spec DAGs matter because they make one layer of holarchy legible, but they are n
 
 ## How the Axes Compose
 
-The holarchic spine provides **direction** (what constrains what, who has authority). The mycelial mesh provides **coherence** (how knowledge flows across boundaries, how agents find each other).
+The holarchic spine provides **containment** (what nests inside what, who constrains whom, governance depth). The mycelial mesh provides **connection** (how knowledge flows across boundaries, how agents find each other, lateral reach). Properties like direction, coherence, structure, and flow emerge from their interplay — as in tensegrity, where bounded compression elements and continuous tension elements together create structural integrity.
 
 In practice:
 - A **spec DAG** is holarchic: vision → architecture → specs → code

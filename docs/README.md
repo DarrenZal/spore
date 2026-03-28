@@ -1,6 +1,6 @@
 # Spore — Documentation Map
 
-Spore publishes the **Agent Commons** pattern language, protocol family, and governance-memory layer for multi-agent coordination.
+Spore is a common grammar for plural, sovereign coordination across scales. It develops and publishes **Agent Commons**: a pattern language, protocol family, and governance-memory layer for multi-agent coordination.
 
 ## Repo Taxonomy
 

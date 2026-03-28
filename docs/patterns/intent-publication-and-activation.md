@@ -31,15 +31,24 @@ How do agents express what they want, what they can offer, and under what condit
 
 ### Vector framing
 
-A **need** is a pull vector -- a declared or sensed gap. An **offer** is a push vector -- available capacity, resource, or capability. An **intent** is a declared or inferred directional signal built from needs and offers. A **commitment** is a stabilized coupling of one or more vectors.
+A **need** is a pull vector -- a declared or sensed gap. An **offer** is a push vector -- available capacity, resource, or capability. An **intent** is a declared or inferred directional signal rooted in care, need, offer, concern, or possibility. A **commitment** is a stabilized coupling of one or more vectors, adding weight and witness.
 
 These are distinct stages: needs and offers are raw signals, intents give them direction and legibility, commitments bind them.
+
+Declaring an intent is an act of caring — something matters enough to make it visible and routable. This axiological ground distinguishes intents from mere data signals.
 
 ### Declared vs inferred intents
 
 Intents can be **explicitly published** ("I offer 40 hours of GIS mapping," "we need a grant writer for Q3") or **inferred from sensing** -- repeated requests in meeting transcripts, unmet tensions surfaced by retrospectives, resource flow patterns, or gaps between normative state (vision graph) and world state (sensor data).
 
-Inferred intents connect to active inference: mismatch between what the vision graph declares should be true and what sensors report is true creates latent intent-pressure -- a signal that something needs to move.
+Inferred intents connect to active inference: mismatch between what normative artifacts (vision, roadmap, active constraints) declare should be true and what sensors report is true creates **latent intent-pressure** -- a signal that something needs to move.
+
+This pressure exists between two frontiers:
+
+- The **normative frontier**: what the vision, roadmap, and active constraints require — the conditions that must hold for the desired future to be realized.
+- The **epistemic frontier**: what current reality affords — the states that are reachable given what sensors and evidence currently report.
+
+Intents are the active edges that try to bridge these two frontiers. They are not just offers and needs — they are the legible pressure between sensed reality and desired reality. This gives caring a structural form: to care is to sense the distance between what-is and what-matters, and to make that distance visible.
 
 ### Matching as composition
 
@@ -48,6 +57,18 @@ Matching is not binary (match/no-match). It is **vector composition** -- do thes
 ### Activation
 
 When governance approves alignment (checking against vision/roadmap constraints), an intent transitions to a **commitment** -- entering the commitment pooling pattern. Activation is the governance gate between expression and obligation.
+
+### The legibility progression
+
+Intent, promise, and commitment form a legibility progression — each stage makes intention more visible, more accountable, and more operative within a coordination scope:
+
+- **Intent** = directional signal ("I want / I offer / I need / I would if")
+- **Promise** = intent made legible enough to witness ("I say I will" — accountable form, but not yet accepted into scope)
+- **Commitment** = promise accepted into a coordination scope ("this is now held, and others can rely on it")
+
+The mechanism is **scope**. A commitment always has a scope. In a personal scope, declaration and acceptance can collapse into one holon — you commit to yourself and hold yourself accountable. In a shared scope, declaration comes from sovereignty and acceptance comes from the shared field. Commitment lives at their intersection.
+
+"Binding" in this grammar means **scope-bound accountability**: within this scope, this is now held. Not coercive enforcement.
 
 ### Hypergraph representation
 

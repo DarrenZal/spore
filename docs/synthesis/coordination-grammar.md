@@ -1,7 +1,7 @@
 # Spore Coordination Grammar
 
-**Status:** Draft — frozen for synthesis testing (Phase 11b)
-**Date:** 2026-03-27
+**Status:** Active — updated Phase 12 (review synthesis)
+**Date:** 2026-03-28
 
 ## The Grammar Thesis
 
@@ -31,6 +31,22 @@ The loop is not a pipeline. It is a cycle — revision feeds sensing, and multip
 
 **On Act:** Act does not have a dedicated primitive. It is represented through events (something happened), state transitions (a commitment became fulfilled, an artifact was amended), and emitted evidence (outputs that bear on claims). Action is the transition that connects coordination back to the world and produces the feedback that drives revision.
 
+### Relation to Other Coordination Loops
+
+The Spore loop shares a common deep structure with other well-known coordination cycles: **Perceive → Understand → Choose → Do → Reflect.**
+
+| Loop | Phases | Emphasis |
+|------|--------|----------|
+| OODA (Boyd) | Observe → Orient → Decide → Act | Speed — competitive decision cycle |
+| PDSA (Deming) | Plan → Do → Study → Act | Learning — predict, compare, improve |
+| Sense-Respond (Haeckel) | Sense → Interpret → Decide → Act | Adaptation — dynamic response to environment |
+| Ruddick | Sense → Mean → Care → Commit → Coordinate → Learn | Relational commitment — caring as explicit phase |
+| Spore | Sense → Interpret → Claim → Attest → Intend → Commit → Coordinate → Act → Revise | Multi-scale, cross-membrane coordination |
+
+Spore's loop is distinctive in that it separates the **epistemic layer** (Claim/Attest — what do we know, and who witnesses it?) from the **axiological layer** (Intend/Commit — what matters enough to act on?), and makes **membrane operations** explicit at each transition. This matters because Spore operates across boundaries where shared meaning-making cannot be assumed.
+
+Will Ruddick's loop foregrounds **caring** as an explicit phase before commitment. In Spore, this is carried by Intent — declaring an intent is an act of caring about something enough to make it visible.
+
 ---
 
 ## Primitives
@@ -45,8 +61,8 @@ Ten coordination primitives. Each is a first-class object in the grammar.
 | **Claim** | Proposition about world, system, or relationship. The unit of epistemic coordination. | Epistemological |
 | **Evidence** | What bears on a claim. Observations, measurements, deliverables, fulfillment records. | Epistemological |
 | **Attestation** | Situated witnessing, endorsement, or dispute of a claim, event, evidence, or fulfillment. Attestation is itself a claim at a higher level — this recursion gives trust without centralization. | Epistemological / Ethical |
-| **Intent** | A declared need or offer, pre-commitment. Directional signal built from needs and offers. Where plurality enters the system. | Axiological |
-| **Commitment** | Binding relation that stabilizes signals into accountable action. Something matters enough to bind yourself. | Axiological |
+| **Intent** | A declared directional signal rooted in care, need, offer, concern, or possibility — the pre-commitment primitive. Where plurality enters the system. | Axiological |
+| **Commitment** | A promise accepted into a coordination scope with scope-bound accountability. Something matters enough to hold yourself — or be held — accountable for. | Axiological |
 | **Artifact** | Durable memory surface: vision, spec, agreement, note, pool configuration, proposal, token. Constitutional artifacts are commitments at different levels of specificity. | Ontological / Praxical |
 | **Event** | Something that happened in time. State changes, domain events, settlement events. The temporal primitive. | Ontological |
 
@@ -130,6 +146,18 @@ declared --> matched --> activated (becomes commitment) | expired | withdrawn
 ```
 Inferred intents follow the same path but enter at `declared` through sensing rather than explicit publication.
 
+### Legibility progression: intent → promise → commitment
+
+The transition from intent to commitment is not a single gate but a legibility progression. Each stage makes intention more visible, accountable, and operative:
+
+- **Intent** (declared/inferred) = directional signal
+- **Promise** = intent made legible enough to witness — accountable form, but not yet accepted into scope
+- **Commitment** (proposed → verified → active) = promise accepted into a coordination scope
+
+The mechanism is scope. In a personal scope, declaration and acceptance collapse. In a shared scope, acceptance requires the field. The `proposed` state of the commitment lifecycle IS the promise — an intent that has taken accountable form and awaits acceptance.
+
+"Binding" means scope-bound accountability, not coercion.
+
 ### Events
 Events are immutable. They do not have lifecycle transitions — they are the record of transitions in other primitives.
 
@@ -154,6 +182,12 @@ Multiple views over one coordination ecology. These are not separate databases �
 
 **On the epistemic graph:** This is the "knowledge graph" from the vision doc, renamed to emphasize its epistemological function — it does not just store knowledge, it tracks what counts as knowing (claims, evidence, attestation, provenance).
 
+### On DAGs and the coordination substrate
+
+Only the constitutional and roadmap graphs are necessarily DAGs. The other six projections are directed graphs, hypergraphs, or temporal graphs. A vision may describe a desired future state that includes or references any graph type — the DAG structure specifically captures irreversible orderings (governance dependency, temporal sequence), not the full topology of what a vision can express.
+
+**Governance is acyclic in structure at a given moment, but cyclical in operation through time.** A DAG captures the governance snapshot — who constrains whom right now. The coordination loop captures the governance process — how evidence revises vision, how revision creates new constraints. The DAG is not the whole graph; it is a constrained projection that requires irreversibility.
+
 ---
 
 ## Worldview Grammar
@@ -164,7 +198,7 @@ The primitives are not a neutral data model. They encode commitments across five
 |-------|------------------|---------------------------|
 | **Ontological** | What kinds of things exist | Holons, membranes, events — the structural primitives |
 | **Epistemological** | What counts as knowing | Claims, evidence, attestation — what bears, what witnesses, what provenance chain establishes trust |
-| **Axiological** | What matters | Commitments — something matters enough to bind yourself. Intents — what you care about enough to declare |
+| **Axiological** | What matters | Intents — what you care about enough to declare. Commitments — what matters enough to accept scope-bound accountability for. The progression from intent through promise to commitment is a legibility progression, not a type change. |
 | **Praxical** | How we act | Membrane operations, protocols, coordination patterns — the operational layer |
 | **Ethical / Ethos** | How we inhabit participation | Consent, contestability, forkability, revision scope — the constitutional commitments |
 

@@ -1,6 +1,6 @@
 # Spore
 
-A pattern language, protocol family, and governance-memory layer for multi-agent coordination — grounded in a common grammar for plural, sovereign coordination across scales.
+A common grammar for plural, sovereign coordination across scales. Spore develops and publishes **Agent Commons**: a pattern language, protocol family, and governance-memory layer for multi-agent coordination.
 
 **Spore** is the project. **Agent Commons** is the protocol family it publishes.
 
@@ -22,7 +22,7 @@ Agent Commons defines patterns and protocols for how agents — humans, AIs, tea
 ### Design Principles
 
 - **Constitutional commitments** — provenance, forkability, pluralism, meaningful autonomy, authorized boundary crossing, reviewable authority, contestability
-- **Structure and flow** — holarchy gives structure; mycelial exchange gives flow; patterns mediate between them
+- **Containment and connection** — holarchic nesting gives containment and scope; mycelial exchange gives connection and reach; patterns mediate between them
 - **Dual representation** — every constitutional artifact exists as text (for humans) and graph projection (for machines)
 - **Self-similarity** — the same artifact ecology recurs at every scale, from personal workflow to planetary federation
 - **Common core, local variation** — thin shared protocols, thick local semantics, explicit translation, forkability as feature

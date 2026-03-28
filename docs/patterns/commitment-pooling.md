@@ -51,6 +51,8 @@ PROPOSED --> VERIFIED --> ACTIVE --> EVIDENCE_LINKED --> REDEEMED
 
 These states track the maturation of a commitment, not the pool dynamics themselves.
 
+The PROPOSED state is effectively the promise stage — a declared commitment awaiting acceptance into the pool's governance scope. The transition from PROPOSED to VERIFIED is the acceptance gate where sovereignty meets commoning.
+
 ### Pool federation
 
 Pools can **federate** -- a local pool (e.g., Victoria Landscape Hub) can route overflow to a broader pool (e.g., Cascadia Bioregion Stewardship). Routing scores consider:
