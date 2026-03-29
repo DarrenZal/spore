@@ -119,6 +119,12 @@ Interoperability does not mean identical schemas. It means:
 
 A node should be able to say what it implements, what it exposes, how it maps to shared concepts, and what trust levels it accepts. Forkability is a feature, not a failure mode.
 
+## Learning Membrane
+
+Spore also needs to learn from the wider ecosystem. Through a learning membrane, it can ingest outside works, translate them into bridge notes and comparative claims, and selectively promote what proves useful into canon — without flattening difference. The membrane exercises the same operations (expose, translate, authorize, contest, revoke) that govern all boundary-crossing in the grammar.
+
+The workflow is **comparative intake**: external frameworks, papers, repos, and protocols enter as bridge notes with bilateral claims linking them to Spore concepts. Each synthesis records a disposition — no change, clarify existing term, candidate pattern, candidate protocol, candidate primitive, or unresolved tension — that governs whether and how the outside work influences Spore's own grammar. LLMs and embeddings propose mappings; governance accepts, contests, revises, or rejects them. The durable records are the bridge notes, claims, and dispositions — not the inference that produced them.
+
 ## Naming Stack
 
 - **Project**: Spore — a pattern that travels, lands in different contexts, and grows local implementations

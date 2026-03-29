@@ -50,6 +50,26 @@ The rules Agent Commons uses for its own documentation and project governance:
 - [project-briefing-pattern.md](./governance/project-briefing-pattern.md) — context assembly for agents
 - [adoption-guide.md](./governance/adoption-guide.md) — step-by-step onboarding
 
+## Lexicon
+
+Canonical definitions for terms that lack their own primary pattern or foundation doc:
+
+- [intent-pressure.md](./foundations/lexicon/intent-pressure.md) — the structural force between normative and epistemic frontiers
+
+## Research: Connections
+
+Bridge notes on external concepts and their structural relationship to Spore's grammar. These are governed Spore artifacts about lateral references — the external concepts themselves are not absorbed into canon.
+
+- [hyperstition.md](./research/connections/hyperstition.md) — fictions that make themselves real; structural parallels to the coordination ecology
+- [hyperstition-markets.md](./research/connections/hyperstition-markets.md) — collective-belief markets; structural analogy to commitment pooling
+- [constructive-hyperstition.md](./research/connections/constructive-hyperstition.md) — the constructive/extractive distinction; constitutional commitments as candidate criteria
+
+## Positioning
+
+Comparative articles that position Spore's grammar relative to other frameworks:
+
+- [hyperstition-as-coordination.md](./positioning/hyperstition-as-coordination.md) — Spore as grammar for composing constructive hyperstitions
+
 ## Roadmap
 
-- [roadmap.md](./roadmap.md) — three tracks: external adoption, decision governance, pattern language maturation
+- [roadmap.md](./roadmap.md) — four tracks: external adoption, decision governance, pattern language maturation, comparative intake

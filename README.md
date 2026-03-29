@@ -44,7 +44,7 @@ Intent is the primitive directional signal. Visions, roadmaps, and specs are dur
 docs/
 ├── project-vision.md                          # Root — what Spore is and why
 ├── README.md                                  # Docs map and repo taxonomy
-├── roadmap.md                                 # Three tracks + plurality cross-cutting
+├── roadmap.md                                 # Four tracks + plurality cross-cutting
 ├── foundations/
 │   ├── relational-agency-and-holons.md        # Holonic agency theory
 │   ├── mycelial-holarchy-architecture.md      # Dual-axis structural model
@@ -60,11 +60,20 @@ docs/
 │   ├── store-and-forward-relay.md             # Pair-level relay and forwarded exchange
 │   ├── claims-evidence-attestation.md         # Epistemic anchoring and grounding
 │   └── README.md                              # Protocol overview and candidates
+├── research/connections/
+│   ├── hyperstition.md                        # Bridge: fictions that make themselves real
+│   ├── hyperstition-markets.md                # Bridge: collective-belief markets ↔ commitment pooling
+│   └── constructive-hyperstition.md           # Bridge: constructive/extractive criteria
+├── positioning/
+│   └── hyperstition-as-coordination.md        # Spore as grammar for constructive hyperstitions
 └── governance/
     ├── agent-commons-meta-protocol.md         # Artifact taxonomy and DAG rules
     ├── project-bootstrap-spec.md              # Tier definitions and bootstrap
     ├── project-briefing-pattern.md            # Context assembly for agents
     └── adoption-guide.md                      # Step-by-step onboarding
+
+docs/foundations/lexicon/
+└── intent-pressure.md                         # Canonical term: normative-epistemic gap force
 
 docs/synthesis/
 ├── coordination-grammar.md                    # Working synthesis of the grammar
@@ -72,6 +81,10 @@ docs/synthesis/
 ```
 
 If you're new, start with [project-vision.md](docs/project-vision.md), then [coordination-grammar.md](docs/synthesis/coordination-grammar.md), then follow the [docs map](docs/README.md).
+
+### Learning Membrane
+
+Spore learns from the wider coordination ecosystem through a learning membrane — a comparative intake process that ingests external frameworks, translates them into bridge notes and bilateral claims, and selectively promotes what proves useful into canon. The membrane exercises the same operations (expose, translate, authorize, contest, revoke) that govern all boundary-crossing in the grammar. Bridge notes live in `docs/research/connections/`; positioning articles live in `docs/positioning/`.
 
 ## How Adoption Works
 

@@ -63,6 +63,33 @@ Writing, testing, and refining patterns through real adoption. This includes:
 - Active inference formalization (making the gap-closing frame precise enough to compute over)
 - Deeper exploration of field coherence: how topology (holons, nesting, graph-of-graphs), vector fields (needs, offers, intents), and routing dynamics (pools, circulation, settlement) form complementary mathematical lenses for coordination
 
+## Track 4: Comparative Intake and Schema Translation
+
+**Question**: Can Spore learn systematically from the wider coordination ecosystem?
+
+### Comparative intake
+
+A repeatable loop for external frameworks, papers, repos, and protocols:
+
+1. **Ingest** source material → extract key concepts, primitives, lifecycle states
+2. **Bridge** → write bridge notes in `docs/research/connections/` linking external concepts to Spore grammar
+3. **Claim** → create bilateral claims with evidence from both the external source and relevant Spore docs
+4. **Disposition** → record what the comparison suggests: no change, clarify existing term, candidate pattern/protocol/primitive, or unresolved tension
+5. **Promote** (deliberate, separate session) → if disposition warrants, update core docs
+
+### Ontology and schema mapping (future)
+
+Structural correspondences between systems' primitives, lifecycles, graph types, and protocol roles. Inspired by Cambria's translation-layer approach, with LLM-proposed candidates and governance review. Eventually: formalized, testable, executable translation specs / lenses.
+
+### Staged autonomy
+
+| Stage | Who acts | What happens |
+|-------|----------|-------------|
+| **Now** | Human + Claude Code | Manual comparative intake sessions |
+| **Next** | Claude drafts | Claude proposes bridge notes and dispositions for review |
+| **Later** | Agent opens PRs | Autonomous bridge-note PRs on Spore repo |
+| **Future** | Continuous gardener | Curator instance for coordination grammar |
+
 ## Cross-cutting: Plurality and Interoperability
 
 Not a separate track but a design constraint on all work:
