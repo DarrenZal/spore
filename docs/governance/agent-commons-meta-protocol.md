@@ -1,9 +1,9 @@
 ---
-doc_id: fg.forest-garden-meta-protocol
+doc_id: spore.agent-commons-meta-protocol
 doc_kind: architecture
 status: active
 depends_on:
-  - fg.project-vision
+  - spore.project-vision
 ---
 
 # Agent Commons Governance Meta-Protocol
@@ -16,11 +16,11 @@ Every document in a project using the Agent Commons governance layer has a `doc_
 
 | Kind | Role | Authority | Example |
 |------|------|-----------|---------|
-| `vision` | Root intent — why this project exists | Constrains everything below | `fg.project-vision` |
-| `architecture` | Structural decisions — how the system is shaped | Constrains specs and patterns | `fg.mycelial-holarchy-architecture` |
+| `vision` | Root intent — why this project exists | Constrains everything below | `spore.project-vision` |
+| `architecture` | Structural decisions — how the system is shaped | Constrains specs and patterns | `spore.mycelial-holarchy-architecture` |
 | `foundation` | Foundational knowledge — domain models, principles | Informs architecture and specs | (domain-specific foundation docs) |
-| `spec` | Operational definitions — what must be true | Constrains implementations | `fg.project-bootstrap-spec` |
-| `pattern` | Reusable solutions — extracted from working systems | Informs future implementations | `fg.project-briefing-pattern` |
+| `spec` | Operational definitions — what must be true | Constrains implementations | `spore.project-bootstrap-spec` |
+| `pattern` | Reusable solutions — extracted from working systems | Informs future implementations | `spore.project-briefing-pattern` |
 | `roadmap` | Sequenced work — what to do and when | References specs, constrained by vision | (project roadmaps) |
 | `operations` | Runbooks, procedures — how to do recurring work | References specs | (operational docs) |
 | `research` | Explorations — not yet validated | May inform future specs | (research docs) |
@@ -85,7 +85,7 @@ Projects can reference each other's specs in their `depends_on`:
 
 ```yaml
 depends_on:
-  - fg.forest-garden-meta-protocol  # cross-project reference
+  - spore.agent-commons-meta-protocol  # cross-project reference
 ```
 
 Cross-project dependencies are **informational**, not **authoritative** — Project A's spec that depends on Project B's architecture means "A should be consistent with B's architecture," but B's governance has no enforcement power over A.
@@ -93,7 +93,7 @@ Cross-project dependencies are **informational**, not **authoritative** — Proj
 ### Doc ID Namespacing
 
 All `doc_id` values must be prefixed with the project's `project_id`:
-- `fg.project-vision` (Agent Commons, retained `fg` namespace)
+- `spore.project-vision` (Spore project publishing Agent Commons)
 - `bkc.federated-memory-arch` (BKC)
 - `dw.project-vision` (darren-workflow)
 
@@ -101,8 +101,8 @@ The ingest script validates this prefix constraint.
 
 ### URI Scheme
 
-Spec document URIs follow: `spec:<doc_id>` (e.g., `spec:fg.project-vision`).
-Project URIs follow: `project:<slug>` (e.g., `project:forest-garden`).
+Spec document URIs follow: `spec:<doc_id>` (e.g., `spec:spore.project-vision`).
+Project URIs follow: `project:<slug>` (e.g., `project:spore`).
 
 No double-namespacing: since `doc_id` already includes the project prefix, the URI is simply `spec:<doc_id>`.
 

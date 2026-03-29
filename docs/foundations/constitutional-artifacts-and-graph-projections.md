@@ -1,10 +1,10 @@
 ---
-doc_id: fg.constitutional-artifacts
+doc_id: spore.constitutional-artifacts
 doc_kind: foundation
 status: active
 depends_on:
-  - fg.project-vision
-  - fg.relational-agency-and-holons
+  - spore.project-vision
+  - spore.relational-agency-and-holons
 ---
 
 # Constitutional Artifacts and Graph Projections

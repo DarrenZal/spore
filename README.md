@@ -84,28 +84,32 @@ You do not migrate into Spore as a platform. You let your project speak more of 
 
 Adoption is incremental. A project can use one pattern without adopting the full stack.
 
-## Spec DAG
+## Governance Projection (Spec DAG)
 
-Each document carries YAML frontmatter declaring `doc_id`, `doc_kind`, `status`, and `depends_on` edges, forming a DAG rooted at the project vision:
+Each frontmattered document participates in a larger coordination graph. One projection of that graph is the Spec DAG: an acyclic view of how visions, foundations, patterns, specs, and operations currently constrain and derive from one another.
+
+The DAG does not mean that a vision, a spec, or the world itself must be hierarchical or acyclic. A vision may describe meshworks, cycles, hypergraphs, feedback loops, and flows. A spec may define recursive or multi-party structures. The DAG exists for a narrower reason: to keep current grounding, dependency, and revision paths legible at a given moment.
+
+The current governance projection is:
 
 ```
-fg.project-vision (vision)
-├── fg.relational-agency-and-holons (foundation)
-│   ├── fg.mycelial-holarchy-architecture (architecture)
-│   ├── fg.mycorrhizal-federation-protocol (architecture)
-│   │   └── fg.federated-knowledge-exchange (pattern)
-│   └── fg.constitutional-artifacts (foundation)
-│       ├── fg.governance-memory (pattern)
-│       ├── fg.intent-publication (pattern)
-│       └── fg.commitment-pooling (pattern)
-├── fg.forest-garden-meta-protocol (architecture)
-│   ├── fg.project-bootstrap-spec (spec)
-│   │   └── fg.adoption-guide (operations)
-│   └── fg.project-briefing-pattern (pattern)
-└── fg.roadmap (roadmap)
+spore.project-vision (vision)
+├── spore.relational-agency-and-holons (foundation)
+│   ├── spore.mycelial-holarchy-architecture (architecture)
+│   ├── spore.mycorrhizal-federation-protocol (architecture)
+│   │   └── spore.federated-knowledge-exchange (pattern)
+│   └── spore.constitutional-artifacts (foundation)
+│       ├── spore.governance-memory (pattern)
+│       ├── spore.intent-publication (pattern)
+│       └── spore.commitment-pooling (pattern)
+├── spore.agent-commons-meta-protocol (architecture)
+│   ├── spore.project-bootstrap-spec (spec)
+│   │   └── spore.adoption-guide (operations)
+│   └── spore.project-briefing-pattern (pattern)
+└── spore.roadmap (roadmap)
 ```
 
-The `fg.*` namespace and `project:forest-garden` graph URI are stable identifiers from the project's original name.
+Human-facing names and graph identifiers now align directly: the project is `Spore`, the doc namespace is `spore.*`, and the project URI is `project:spore`.
 
 ## Ecosystem
 

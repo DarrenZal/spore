@@ -1,5 +1,5 @@
 ---
-doc_id: fg.project-vision
+doc_id: spore.project-vision
 doc_kind: vision
 status: active
 depends_on: []
@@ -152,6 +152,6 @@ Spore defines reusable abstractions. It does not absorb its implementations.
 - Indy Johar (dark matter, relational maturity, planetary sensorium, fiduciary AI)
 - Karl Friston / Active Inference (free energy minimization as coordination principle)
 
-## Stable Identifiers
+## Project Identifiers
 
-The `fg.*` doc namespace and `project:forest-garden` graph URI are stable identifiers retained from the project's original repository name. The repo lives at `spore/`.
+The project name, doc namespace, and graph URI now align directly: `Spore`, `spore.*`, and `project:spore`.

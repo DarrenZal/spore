@@ -1,9 +1,9 @@
 ---
-doc_id: fg.intent-publication
+doc_id: spore.intent-publication
 doc_kind: pattern
 status: active
 depends_on:
-  - fg.constitutional-artifacts
+  - spore.constitutional-artifacts
 ---
 
 # Intent Publication and Activation

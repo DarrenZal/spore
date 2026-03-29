@@ -1,9 +1,9 @@
 ---
-doc_id: fg.federated-knowledge-exchange
+doc_id: spore.federated-knowledge-exchange
 doc_kind: pattern
 status: active
 depends_on:
-  - fg.mycorrhizal-federation-protocol
+  - spore.mycorrhizal-federation-protocol
 ---
 
 # Federated Knowledge Exchange

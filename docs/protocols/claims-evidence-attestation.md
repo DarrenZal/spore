@@ -1,9 +1,9 @@
 ---
-doc_id: fg.claims-evidence-attestation
+doc_id: spore.claims-evidence-attestation
 doc_kind: spec
 status: draft
 depends_on:
-  - fg.constitutional-artifacts
+  - spore.constitutional-artifacts
 ---
 
 # Claims, Evidence, and Attestation Anchoring
@@ -151,6 +151,6 @@ Three membrane operations are central to the attestation layer:
 
 ## Related
 
-- **Commitment pooling** (`fg.commitment-pooling`) — commitment lifecycle exercises claim and evidence linking at the economic layer. The boundary: this protocol handles epistemic state (claims, evidence, attestation); commitment pooling handles economic state (pools, fulfillment, settlement).
-- **Federated knowledge exchange** (`fg.federated-knowledge-exchange`) — the transport mechanism by which claims, evidence, and attestations flow between nodes.
-- **Discourse as governance** (`fg.discourse-as-governance`) — discourse depends on the epistemic infrastructure defined here. Proposals are claims; arguments are attestations; evidence bears on both.
+- **Commitment pooling** (`spore.commitment-pooling`) — commitment lifecycle exercises claim and evidence linking at the economic layer. The boundary: this protocol handles epistemic state (claims, evidence, attestation); commitment pooling handles economic state (pools, fulfillment, settlement).
+- **Federated knowledge exchange** (`spore.federated-knowledge-exchange`) — the transport mechanism by which claims, evidence, and attestations flow between nodes.
+- **Discourse as governance** (`spore.discourse-as-governance`) — discourse depends on the epistemic infrastructure defined here. Proposals are claims; arguments are attestations; evidence bears on both.

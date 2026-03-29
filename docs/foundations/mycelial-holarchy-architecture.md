@@ -1,10 +1,10 @@
 ---
-doc_id: fg.mycelial-holarchy-architecture
+doc_id: spore.mycelial-holarchy-architecture
 doc_kind: architecture
 status: active
 depends_on:
-  - fg.project-vision
-  - fg.relational-agency-and-holons
+  - spore.project-vision
+  - spore.relational-agency-and-holons
 ---
 
 # Mycelial Holarchy Architecture

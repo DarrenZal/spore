@@ -1,10 +1,10 @@
 ---
-doc_id: fg.mycorrhizal-federation-protocol
+doc_id: spore.mycorrhizal-federation-protocol
 doc_kind: architecture
 status: active
 depends_on:
-  - fg.project-vision
-  - fg.relational-agency-and-holons
+  - spore.project-vision
+  - spore.relational-agency-and-holons
 ---
 
 # Mycorrhizal Federation Protocol

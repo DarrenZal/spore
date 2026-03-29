@@ -1,9 +1,9 @@
 ---
-doc_id: fg.commitment-pooling
+doc_id: spore.commitment-pooling
 doc_kind: pattern
 status: active
 depends_on:
-  - fg.constitutional-artifacts
+  - spore.constitutional-artifacts
 ---
 
 # Commitment Pooling

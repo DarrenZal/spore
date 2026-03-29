@@ -1,9 +1,9 @@
 ---
-doc_id: fg.project-briefing-pattern
+doc_id: spore.project-briefing-pattern
 doc_kind: pattern
 status: active
 depends_on:
-  - fg.forest-garden-meta-protocol
+  - spore.agent-commons-meta-protocol
 ---
 
 # Project Briefing Pattern
@@ -49,9 +49,9 @@ GET /project/briefing?project=<name-or-id>
 ### Resolution Strategy
 
 The endpoint resolves the project argument through multiple tiers:
-1. Direct URI match (`project:forest-garden`)
-2. Metadata field match (`project_id = "fg"`)
-3. Normalized name match (`agent commons` → fuzzy match)
+1. Direct URI match (`project:spore`)
+2. Metadata field match (`project_id = "spore"`)
+3. Normalized name match (`spore` → fuzzy match)
 
 This allows callers to use whatever identifier is natural: short IDs for skills, full URIs for programmatic access.
 

@@ -1,9 +1,9 @@
 ---
-doc_id: fg.adoption-guide
+doc_id: spore.adoption-guide
 doc_kind: operations
 status: active
 depends_on:
-  - fg.project-bootstrap-spec
+  - spore.project-bootstrap-spec
 ---
 
 # Adoption Guide
@@ -160,7 +160,7 @@ Your specs can depend on specs from other governed projects. Use the full `proje
 ```yaml
 depends_on:
   - myproj.project-vision
-  - fg.project-bootstrap-spec    # cross-project dependency
+  - spore.project-bootstrap-spec    # cross-project dependency
 ```
 
 The ingest script validates that cross-project targets exist in the knowledge graph before accepting them.

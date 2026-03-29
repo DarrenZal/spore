@@ -1,9 +1,9 @@
 ---
-doc_id: fg.roadmap
+doc_id: spore.roadmap
 doc_kind: roadmap
 status: active
 depends_on:
-  - fg.project-vision
+  - spore.project-vision
 ---
 
 # Spore Roadmap

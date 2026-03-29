@@ -1,9 +1,9 @@
 ---
-doc_id: fg.store-and-forward-relay
+doc_id: spore.store-and-forward-relay
 doc_kind: spec
 status: draft
 depends_on:
-  - fg.mycorrhizal-federation-protocol
+  - spore.mycorrhizal-federation-protocol
 ---
 
 # Store-and-Forward Relay
@@ -131,5 +131,5 @@ Three holons: Darren's MacBook (origin), Dobby NUC (relay), Shawn's node (destin
 
 ## Related
 
-- **Mycorrhizal federation protocol** (`fg.mycorrhizal-federation-protocol`) — the parent protocol governing all federation mechanics; the relay is one operational mode within it.
-- **Federated knowledge exchange** (`fg.federated-knowledge-exchange`) — the pattern describing what flows between nodes; the relay is one transport mechanism for those flows.
+- **Mycorrhizal federation protocol** (`spore.mycorrhizal-federation-protocol`) — the parent protocol governing all federation mechanics; the relay is one operational mode within it.
+- **Federated knowledge exchange** (`spore.federated-knowledge-exchange`) — the pattern describing what flows between nodes; the relay is one transport mechanism for those flows.

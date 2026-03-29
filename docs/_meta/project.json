@@ -1,7 +1,7 @@
 {
-  "project_id": "fg",
+  "project_id": "spore",
   "project_name": "Spore",
-  "project_uri": "project:forest-garden",
+  "project_uri": "project:spore",
   "docs_root": "docs/",
   "repos": ["spore"],
   "tier": 1

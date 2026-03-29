@@ -1,9 +1,9 @@
 ---
-doc_id: fg.relational-agency-and-holons
+doc_id: spore.relational-agency-and-holons
 doc_kind: foundation
 status: active
 depends_on:
-  - fg.project-vision
+  - spore.project-vision
 ---
 
 # Relational Agency and Holons

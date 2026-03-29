@@ -1,10 +1,10 @@
 ---
-doc_id: fg.governance-memory
+doc_id: spore.governance-memory
 doc_kind: pattern
 status: active
 depends_on:
-  - fg.forest-garden-meta-protocol
-  - fg.constitutional-artifacts
+  - spore.agent-commons-meta-protocol
+  - spore.constitutional-artifacts
 ---
 
 # Governance Memory
@@ -32,7 +32,7 @@ How do you make project intent, architecture, norms, and patterns into a computa
 
 Each canonical document carries YAML frontmatter declaring:
 
-- **`doc_id`**: A stable, globally-scoped identifier (e.g., `fg.governance-memory`).
+- **`doc_id`**: A stable, globally-scoped identifier (e.g., `spore.governance-memory`).
 - **`doc_kind`**: The document's role -- `vision`, `foundation`, `pattern`, `roadmap`, `guide`, `spec`.
 - **`status`**: Lifecycle state -- `draft`, `active`, `deprecated`.
 - **`depends_on`**: A list of `doc_id` references forming directed edges.

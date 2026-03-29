@@ -1,9 +1,9 @@
 ---
-doc_id: fg.project-bootstrap-spec
+doc_id: spore.project-bootstrap-spec
 doc_kind: spec
 status: active
 depends_on:
-  - fg.forest-garden-meta-protocol
+  - spore.agent-commons-meta-protocol
 ---
 
 # Project Bootstrap Spec
@@ -41,18 +41,18 @@ depends_on: []
 
 ```json
 {
-  "project_id": "fg",
-  "project_name": "Agent Commons",
-  "project_uri": "project:forest-garden",
+  "project_id": "spore",
+  "project_name": "Spore",
+  "project_uri": "project:spore",
   "docs_root": "docs/",
-  "repos": ["forest-garden"],
+  "repos": ["spore"],
   "tier": 0
 }
 ```
 
 | Field | Required | Description |
 |-------|----------|-------------|
-| `project_id` | Yes | Short prefix used in doc_id namespacing (e.g., `fg`, `bkc`, `dw`) |
+| `project_id` | Yes | Namespace prefix used in doc_id namespacing (e.g., `spore`, `bkc`, `dw`) |
 | `project_name` | Yes | Human-readable project name |
 | `project_uri` | Yes | URI in knowledge graph (`project:<slug>`) |
 | `docs_root` | Yes | Relative path to docs directory |
@@ -134,7 +134,7 @@ Expected: project name, URI, tier, spec_hierarchy with single vision root.
 
 The governance layer is already used by multiple kinds of projects, including:
 
-- Agent Commons itself
+- Spore itself
 - darren-workflow
 - Bioregional Knowledge Commons
 - Salish Sea Dreaming
