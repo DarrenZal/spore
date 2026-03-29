@@ -33,6 +33,7 @@ Recurring coordination solutions extracted from working implementations:
 - [governance-memory.md](./patterns/governance-memory.md) — documents as machine-readable constitutional memory (the spec-DAG pattern)
 - [intent-publication-and-activation.md](./patterns/intent-publication-and-activation.md) — the bridge between vision and pooled commitments (needs, offers, intents as vectors)
 - [commitment-pooling.md](./patterns/commitment-pooling.md) — pools as shared fields where commitment vectors compose
+- [discourse-as-governance.md](./patterns/discourse-as-governance.md) — discourse as the self-reflective governance layer
 - [federated-knowledge-exchange.md](./patterns/federated-knowledge-exchange.md) — sovereign knowledge nodes exchanging without centralizing
 
 ## Protocols

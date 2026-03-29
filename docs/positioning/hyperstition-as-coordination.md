@@ -29,7 +29,7 @@ Spore's coordination grammar offers candidate answers.
 
 ## What Are Hyperstitions?
 
-The concept originates with the Cybernetic Culture Research Unit (CCRU), associated with Nick Land and others, in the 1990s. Where a superstition is a false belief, a hyperstition is a belief whose truth value is beside the point — because the act of believing it and organizing around it brings it into being. The canonical example is a self-fulfilling prophecy, but hyperstitions go further: they describe how narratives, once sufficiently shared and encoded, reshape the material conditions of the world.
+The concept is widely attributed to the Cybernetic Culture Research Unit (CCRU), associated with Nick Land and others, in the 1990s. Where a superstition is a false belief, a hyperstition is a belief whose truth value is beside the point — because the act of believing it and organizing around it brings it into being. The canonical example is a self-fulfilling prophecy, but hyperstitions go further: they describe how narratives, once sufficiently shared and encoded, reshape the material conditions of the world.
 
 The Gitcoin article updates this for Web3: onchain infrastructure lets communities formalize shared belief into executable governance. A DAO is a hyperstition with a treasury. A conviction-voting mechanism is a hyperstition with a feedback loop. The narrative layer — what the community believes it is building — is not separate from the technical layer; it *is* the coordination.
 
