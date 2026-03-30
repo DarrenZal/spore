@@ -88,3 +88,4 @@ Pooled commitments **instantiate and mobilize** what visions orient. They are th
 
 - **Intent publication and activation** -- the upstream pattern that feeds commitments into pools.
 - **Federated knowledge exchange** -- the information layer that enables cross-pool coordination.
+- **Flow funding** -- a complementary mechanism governing redistribution of capital / allocative resources through governed channels (steward judgment or algorithmic thresholds). Where commitment pooling makes capacity legible and poolable (provisioning), flow funding governs how capital moves from abundance to need (redistribution). They compose: flow funding allocates capital toward commitments that pools have made visible. See [flow funding bridge note](../research/connections/flow-funding.md).
