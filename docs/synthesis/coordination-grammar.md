@@ -208,7 +208,7 @@ The primitives are not a neutral data model. They encode commitments across five
 
 **BKC test case:** BKC's ontology-commoning framework (`ontology-commoning-framework.md`) operates explicitly across epistemological (mapping lifecycle with provenance), axiological (sensitive/Indigenous knowledge requires consent), and praxical (human-in-the-loop approval) layers. The meta-protocol's three invariants (what is shared, who attests, who can use how) map directly to the grammar: artifacts (what), attestations (who witnesses), membranes (who can cross and how).
 
-**DW test case:** darren-workflow operates primarily at the praxical layer (skill routing, meeting pipeline, entity linking) with epistemological grounding (backend entity resolution as source of truth, 3-tier matching). It demonstrates that the grammar works even when a node engages only 2-3 worldview layers explicitly — the others are present but latent.
+**Personal workflow test case:** A personal workflow node operates primarily at the praxical layer (skill routing, meeting pipeline, entity linking) with epistemological grounding (backend entity resolution as source of truth, 3-tier matching). It demonstrates that the grammar works even when a node engages only 2-3 worldview layers explicitly — the others are present but latent.
 
 ---
 

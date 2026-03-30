@@ -95,7 +95,7 @@ Expected: project name, URI, tier, spec_hierarchy with single vision root.
 
 ### Additional Requirements
 
-- 2-5 additional documents in `docs/foundations/`, `docs/specs/`, or `docs/patterns/`
+- 2-5 additional documents in directories matching their `doc_kind` (e.g., `docs/foundations/`, `docs/protocols/`, `docs/patterns/`)
 - Each document has valid SpecDoc frontmatter with `doc_id`, `doc_kind`, `status`, `depends_on`
 - All `doc_id` values share the project's `project_id` prefix
 - `depends_on` references resolve to existing docs within the project (or valid cross-project references)
@@ -123,7 +123,7 @@ Expected: project name, URI, tier, spec_hierarchy with single vision root.
 
 ### Graduation Checklist
 
-1. Add spec and pattern documents under `docs/specs/` and `docs/patterns/`
+1. Add documents under the directory matching their `doc_kind` (e.g., `docs/foundations/`, `docs/protocols/`, `docs/patterns/`)
 2. Optionally create `semantic-roadmap.json` and `code-surfaces.json`
 3. Run full validation and ingest cycle
 4. Update `tier` to `2` in `project.json`
@@ -135,6 +135,5 @@ Expected: project name, URI, tier, spec_hierarchy with single vision root.
 The governance layer is already used by multiple kinds of projects, including:
 
 - Spore itself
-- darren-workflow
 - Bioregional Knowledge Commons
-- Salish Sea Dreaming
+- Personal workflow projects and creative/bioregional projects at Tier 0-1

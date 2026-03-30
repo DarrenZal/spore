@@ -6,7 +6,12 @@ Where a **pattern** describes a recurring coordination solution (the what and wh
 
 ## Current State
 
-Concrete protocol specifications will live in this directory as Agent Commons patterns mature into formal specs. Current protocol-level content lives in `foundations/` as architectural descriptions:
+This directory contains live protocol specifications:
+
+- `store-and-forward-relay.md` — pair-level relay and forwarded exchange
+- `claims-evidence-attestation.md` — epistemic anchoring and grounding
+
+Related architectural descriptions live in `foundations/`:
 
 - `mycorrhizal-federation-protocol.md` describes the federation principles (sovereignty invariants, domain events, trust model)
 - `agent-commons-meta-protocol.md` describes the artifact governance rules (doc_kind taxonomy, authority flow, conformance tiers)

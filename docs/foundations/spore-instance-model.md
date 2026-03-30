@@ -14,6 +14,8 @@ How the coordination grammar materializes in running systems — without prescri
 
 This document is about the **ontology of Spore embodiments**: how canon, nodes, agents, and sites compose into working instances. It does not redefine federation; the [mycorrhizal federation protocol](./mycorrhizal-federation-protocol.md) governs how sovereign nodes exchange. It does not redefine agency; [relational agency and holons](./relational-agency-and-holons.md) establishes what counts as an agent. This document explains how those existing grammar terms compose into systems that embody the grammar.
 
+In the federation protocol, "node" means any sovereign holon participating in federation. The "Node" aspect below is the infrastructure substrate a holon uses to participate — not the holon itself.
+
 ## Four Aspects of a Spore Instance
 
 A Spore instance is any holon that implements some composition of the grammar's aspects. These four aspects are analytically distinct — not all are required, and they may be combined differently depending on context.
@@ -24,7 +26,7 @@ A governed repository of coordination artifacts organized as a spec DAG. The ref
 
 ### Node
 
-A substrate providing knowledge graph, entity resolution, federation transport, and event processing. Nodes can be personal (a private workbench for intake, synthesis, and drafting) or public (serving curated, reviewed knowledge across a membrane into visibility).
+In the instance model, a Node is the infrastructure substrate a holon deploys to participate in federation. It provides knowledge graph, entity resolution, federation transport, and event processing. Nodes can be personal (a private workbench for intake, synthesis, and drafting) or public (serving curated, reviewed knowledge across a membrane into visibility).
 
 The grammar does not mandate a specific substrate. Any system providing stable identifiers, federation capability, entity resolution, and graph storage qualifies as a node. The current implementations use KOI (knowledge graph + federation + sensors), but this is one materialization, not the definition.
 
@@ -79,7 +81,7 @@ These profiles are descriptive, not prescriptive — they emerge from what a hol
 "Instance" is not a new primitive. It is a descriptive term for a holon that implements some composition of canon, node, agent, and site.
 
 - **Canon** is a specific kind of governance-memory artifact ecology — the spec DAG pattern applied to a body of coordination knowledge.
-- **Node** is the existing federation term (from the mycorrhizal federation protocol), refined here to include substrate capabilities beyond federation transport.
+- **Node** in the federation protocol means any sovereign holon participating in federation. In the instance model, "Node" names the infrastructure aspect — the substrate a holon deploys to participate as a federation node. These operate at different layers: the federation protocol defines who participates (holons); the instance model describes what infrastructure they use (substrates). Both definitions are needed; they are complementary, not competing.
 - **Agent** is a holon (the existing primitive from relational agency theory) in its active, perceiving, deciding, acting role.
 - **Site** is one realization of the membrane's `expose` operation — the boundary-crossing mechanism already defined in the federation protocol, here applied to public visibility.
 

@@ -35,7 +35,7 @@ The Gitcoin article updates this for Web3: onchain infrastructure lets communiti
 
 ## Commitment Pooling as Non-Extractive Hyperstition Market
 
-If onchain mechanisms like bonding curves and conviction voting are [[hyperstition-markets]] — infrastructure for coordinating collective belief into resource allocation — then Spore's [[commitment-pooling]] pattern is a structurally analogous mechanism with different safeguards.
+If onchain mechanisms like bonding curves and conviction voting are [hyperstition markets](../research/connections/hyperstition-markets.md) — infrastructure for coordinating collective belief into resource allocation — then Spore's [commitment pooling](../patterns/commitment-pooling.md) pattern is a structurally analogous mechanism with different safeguards.
 
 Both coordinate collective resource-locking toward shared objectives. Both encode escalating conviction. But they use different signals:
 
@@ -50,7 +50,7 @@ This does not make commitment pooling "better" in all contexts. Speculative dyna
 
 The Gitcoin article describes a mechanism at the heart of hyperstition: shared beliefs generate conditions for their own realization. The more people believe in and act on a narrative, the more the material conditions shift to accommodate it. This is sometimes called "coincidence intensification" — the sense that the future is pulling the present toward it.
 
-Spore names this force structurally: **[[intent-pressure]]**.
+Spore names this force structurally: **[intent pressure](../foundations/lexicon/intent-pressure.md)**.
 
 Intent pressure is the gap between the normative frontier (what visions, roadmaps, and constitutional artifacts say should be true) and the epistemic frontier (what sensors, evidence, and current reality report is true). When these diverge, the system feels pressure. That pressure is not a failure state — it is the engine of coordination. Without it, nothing moves.
 
@@ -71,7 +71,7 @@ Spore's constitutional commitments — provenance, forkability, contestability, 
 - **Authorized boundary crossing**: Does the narrative cross boundaries with consent?
 - **Reviewable authority**: Who decides what it means, and can that be challenged?
 
-A [[constructive-hyperstition]] passes these tests. An extractive one fails them — it obscures provenance, locks participants in, punishes dissent, demands total absorption, spreads without consent, and concentrates interpretive authority.
+A [constructive hyperstition](../research/connections/constructive-hyperstition.md) passes these tests. An extractive one fails them — it obscures provenance, locks participants in, punishes dissent, demands total absorption, spreads without consent, and concentrates interpretive authority.
 
 These are offered as candidate criteria, not settled answers. They carry Spore's assumptions about legitimate coordination. A different grammar might draw the line differently. And they do not address all dimensions — temporal dynamics (what starts constructive may become extractive at scale), perspective dependence (constructive from inside may look extractive from outside), and power asymmetries (formal rights may be practically inaccessible).
 
@@ -80,8 +80,8 @@ These are offered as candidate criteria, not settled answers. They carry Spore's
 Putting these pieces together: Spore's coordination grammar is infrastructure for composing constructive hyperstitions across plural worldviews.
 
 - The **coordination ecology** (vision → intent → commitment → evidence → learning) provides the lifecycle through which shared narratives become actionable, tested, and revised.
-- **[[commitment-pooling]]** provides the collective resource-locking mechanism — a non-speculative alternative to bonding curves and conviction voting.
-- **[[intent-pressure]]** provides the structural force — the gap between desired and actual that drives coordination.
+- **[commitment pooling](../patterns/commitment-pooling.md)** provides the collective resource-locking mechanism — a non-speculative alternative to bonding curves and conviction voting.
+- **[intent pressure](../foundations/lexicon/intent-pressure.md)** provides the structural force — the gap between desired and actual that drives coordination.
 - **Constitutional commitments** provide the safety criteria — what distinguishes a narrative worth encoding from one that will extract.
 - **Discourse as governance** provides the self-reflective layer — the infrastructure for deliberating which narratives to encode.
 

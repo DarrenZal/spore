@@ -18,7 +18,7 @@ koi_uri: orn:personal-koi.entity:concept-hyperstition-markets-70c05c7e9db0
 
 # Hyperstition Markets
 
-A bridge note on hyperstition markets and their structural relationship to Spore's [[commitment-pooling]] pattern.
+A bridge note on hyperstition markets and their structural relationship to Spore's [commitment pooling](../../patterns/commitment-pooling.md) pattern.
 
 ## What Hyperstition Markets Are
 
@@ -28,7 +28,7 @@ As described in the Gitcoin article, mechanisms like bonding curves and convicti
 
 ## Structural Relationship to Commitment Pooling
 
-Spore's [[commitment-pooling]] pattern is structurally analogous to a hyperstition market. Both coordinate collective resource-locking toward shared objectives. The structural parallels:
+Spore's [commitment pooling](../../patterns/commitment-pooling.md) pattern is structurally analogous to a hyperstition market. Both coordinate collective resource-locking toward shared objectives. The structural parallels:
 
 | Hyperstition Market | Commitment Pool |
 |---|---|
@@ -37,7 +37,7 @@ Spore's [[commitment-pooling]] pattern is structurally analogous to a hyperstiti
 | Price dynamics signal collective conviction | Scope-bound accountability signals collective commitment |
 | Exit via selling | Exit via revocation (with governance implications) |
 
-The key substitution: where hyperstition markets use **speculative price dynamics** as the conviction signal, commitment pooling uses **scope-bound accountability** and the [[intent-pressure|legibility progression]]. Both achieve the same structural function — coordinating collective resource-locking with escalating commitment — but through different mechanisms.
+The key substitution: where hyperstition markets use **speculative price dynamics** as the conviction signal, commitment pooling uses **scope-bound accountability** and the [legibility progression](../../foundations/lexicon/intent-pressure.md). Both achieve the same structural function — coordinating collective resource-locking with escalating commitment — but through different mechanisms.
 
 ## What the Comparison Suggests
 

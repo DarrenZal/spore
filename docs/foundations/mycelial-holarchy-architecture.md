@@ -87,5 +87,5 @@ The holarchic axis primarily uses structures 1-2 when rendered as governance art
 
 - **Every API must work from any perspective**: A personal agent and an organizational coordinator should both be able to query the same project briefing, seeing data appropriate to their sovereignty level
 - **Entity resolution crosses axes**: The same entity appears in both holarchic (governance, role, or project contexts) and mycelial (knowledge graph mentions) contexts
-- **Federation is mycelial**: KOI-net edges connect laterally between sovereign nodes, not through a central hierarchy
+- **Federation is mycelial**: Federation edges connect laterally between sovereign nodes, not through a central hierarchy
 - **Governance is holarchic**: Spec DAGs provide one clear authority chain within a project's scope, but other holons may hold governance differently

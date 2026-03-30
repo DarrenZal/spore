@@ -72,7 +72,7 @@ This is the deep implication of the holon concept: a holon is both a whole (with
 
 Constitutional artifacts describe desired states. Sensors describe actual states. The gap between them is what drives action.
 
-- **KOI sensor nodes** ingest external state (wikis, repositories, web content, IoT data) into the knowledge graph
+- **Sensor nodes** ingest external state (wikis, repositories, web content, IoT data) into the knowledge graph
 - **Ecological sensors** — water quality, species counts, land use
 - **Economic sensors** — commitment pool state, token flows, settlement events
 - **Social sensors** — meeting transcripts, governance decisions, community signals
@@ -83,10 +83,10 @@ When normative graphs (what we intend) and epistemic graphs (what we observe) ar
 
 The graph types relate to the dual-axis architecture:
 
-- **DAGs** represent stable constraint structure (the holarchic axis)
-- **Hypergraphs** represent multi-party relational entanglement (the mycelial axis)
+- **DAGs** provide acyclic dependency resolution and clear authority flow (the holarchic axis) — you can validate from leaves to root without circular dependency paradoxes
+- **Hypergraphs** represent multi-party relational entanglement (the mycelial axis) — cyclic graphs here create resilience through mutual commitment and feedback
 - **Event graphs** represent temporal flow
 - **Epistemic graphs** represent semantic structure, provenance, and what counts as knowing
 - **Routing/flow graphs** represent circulation of resources and information
 
-Structure without flow is a dead archive. Flow without structure is noise. The coordination ecology needs both: the DAG that constrains what's valid, and the hypergraph/flow that routes what's alive.
+Structure without flow is a dead archive. Flow without structure is noise. The coordination ecology needs both: the DAG that orders governance and dependency (where circularity creates paradox), and the hypergraph/flow that routes what's alive (where circularity creates resilience).

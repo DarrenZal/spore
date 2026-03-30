@@ -33,7 +33,7 @@ How do you make project intent, architecture, norms, and patterns into a computa
 Each canonical document carries YAML frontmatter declaring:
 
 - **`doc_id`**: A stable, globally-scoped identifier (e.g., `spore.governance-memory`).
-- **`doc_kind`**: The document's role -- `vision`, `foundation`, `pattern`, `roadmap`, `guide`, `spec`.
+- **`doc_kind`**: The document's role -- `vision`, `foundation`, `architecture`, `spec`, `operations`, `research`, `positioning`, `pattern`, `roadmap`.
 - **`status`**: Lifecycle state -- `draft`, `active`, `deprecated`.
 - **`depends_on`**: A list of `doc_id` references forming directed edges.
 
@@ -58,9 +58,8 @@ This means a project can start with a single vision document and progressively f
 ## Current Adopters / Related Implementations
 
 - **Spore / Agent Commons** (self-hosting): The pattern language itself is governed by this pattern -- spec DAG with cross-project dependency validation.
-- **darren-workflow**: Personal workflow plugin with 4 canonicalized docs in the spec DAG.
-- **salish-sea-dreaming**: Creative/bioregional project using Tier 1 adoption.
 - **BKC canonical doc DAG**: Parallel validation surface operating across 4 bioregional nodes.
+- Personal workflow projects and creative/bioregional projects have adopted Tier 0-1 governance memory.
 
 ## Related Patterns
 

@@ -65,7 +65,7 @@ The pattern does not prescribe a single decision procedure (consent, consensus, 
 
 - **Spore (this project):** The Phase 11b synthesis session is itself an instance of discourse-as-governance — structured reasoning about which patterns to promote, which to keep project-specific, and how the grammar should evolve. The coordination grammar, decision memo, and this document are discourse artifacts.
 - **BKC:** Decision logs in bioregional pilots (e.g., `front-range-cascadia-2026/decision-log.md`), steward review processes for commitment pool governance. Proposals are structured, reviewed against evidence, and recorded as durable artifacts.
-- **darren-workflow:** The `/review-plan` skill implements adversarial discourse over implementation plans. Two gates — questions gate (are there unresolved unknowns?) and must-fix gate (are there blockers?) — structure the discourse. Plans iterate through review rounds until both gates pass. This is discourse-as-governance at the personal-project scale.
+- **Personal-project implementations:** Adversarial discourse over implementation plans through structured review gates — a questions gate (are there unresolved unknowns?) and a must-fix gate (are there blockers?). Plans iterate through review rounds until both gates pass. This is discourse-as-governance at the personal-project scale.
 
 ## Related Patterns
 

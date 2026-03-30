@@ -39,9 +39,11 @@ Recurring coordination solutions extracted from working implementations:
 
 ## Protocols
 
-Explicit interaction and state contracts (future formal specs):
+Explicit interaction and state contracts:
 
-- [protocols/README.md](./protocols/README.md) — what protocols are, current state, future candidates
+- [store-and-forward-relay.md](./protocols/store-and-forward-relay.md) — pair-level relay and forwarded exchange
+- [claims-evidence-attestation.md](./protocols/claims-evidence-attestation.md) — epistemic anchoring and grounding
+- [protocols/README.md](./protocols/README.md) — protocol overview and future candidates
 
 ## Governance
 

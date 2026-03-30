@@ -99,11 +99,11 @@ Persistence and verifiability through on-chain records.
 
 Confidence through corroboration and provenance chains, without ledger dependency.
 
-- **Mechanism**: Claims are grounded through entity resolution and provenance tracking. A 3-tier resolution process (exact match → fuzzy match via Jaro-Winkler → semantic match via embeddings) establishes entity identity. Provenance chains trace claims back through their evidence and attestation history.
+- **Mechanism**: Claims are grounded through entity resolution and provenance tracking. A multi-tier resolution process (exact match → approximate string matching → semantic similarity) establishes entity identity. Provenance chains trace claims back through their evidence and attestation history. (Current implementation: Jaro-Winkler for approximate string matching, vector embeddings for semantic similarity.)
 - **Properties**: Confidence through convergence (multiple independent sources resolving to the same entity or supporting the same claim), auditability (provenance chain is inspectable), no ledger dependency.
 - **Trade-offs**: No immutability guarantee — claims and resolutions can be revised. Confidence is probabilistic, not cryptographic. Depends on the quality and diversity of the resolution corpus.
 
-**Example (darren-workflow):** Entity resolution across meeting transcripts, vault notes, and backend knowledge graph. When three independent sources (Otter transcript, vault note, backend entity) all resolve to the same person or organization, the claim "this mention refers to entity X" is grounded through corroboration — not through a ledger entry, but through convergent evidence from independent provenance chains.
+**Example (personal workflow implementation):** Entity resolution across meeting transcripts, vault notes, and backend knowledge graph. When three independent sources (transcript, vault note, backend entity) all resolve to the same person or organization, the claim "this mention refers to entity X" is grounded through corroboration — not through a ledger entry, but through convergent evidence from independent provenance chains.
 
 ### The Distinction
 
@@ -143,10 +143,10 @@ Three membrane operations are central to the attestation layer:
 
 *Note: BKC's 33,400 VCV and commitment lifecycle are primarily evidence for the commitment-pooling pattern. The attestation-relevant aspects are the steward approval gates and on-chain anchoring mechanics, not the commitment economics themselves.*
 
-### darren-workflow: Epistemic Grounding
+### Personal Workflow: Epistemic Grounding
 
-- **Entity resolution as grounding**: 3-tier resolution (exact → fuzzy via Jaro-Winkler → semantic via OpenAI embeddings) establishes entity identity claims through convergent evidence rather than ledger immutability.
-- **Provenance chains**: `document_entity_links` table tracks which documents mention which entities, creating auditable provenance chains from mention to resolution to entity.
+- **Entity resolution as grounding**: 3-tier resolution (exact → approximate string match → semantic similarity match) establishes entity identity claims through convergent evidence rather than ledger immutability. (Current implementation: Jaro-Winkler for string matching, OpenAI embeddings for semantic matching.)
+- **Provenance chains**: A document-entity linking surface tracks which documents mention which entities, creating auditable provenance chains from mention to resolution to entity. (Current implementation: `document_entity_links` PostgreSQL table.)
 - **mentionedIn sync**: Bidirectional linking (`mentionedIn` frontmatter arrays) makes the grounding visible and inspectable.
 
 ## Related

@@ -27,9 +27,9 @@ The current implementation most often represents nodes as software peers with cr
 
 These hold at every scale and are non-negotiable:
 
-1. **Each node owns its graph.** No external agent can write to a node's knowledge graph without explicit consent. Data arrives as proposals, not commands.
+1. **Each node maintains sovereign authority over its own knowledge representation.** No external agent can write to a node's authoritative data without explicit consent. Data arrives as proposals, not commands.
 2. **Sharing is opt-in.** A node chooses what to share, with whom, and under what conditions. There is no global read access.
-3. **Identity is self-sovereign.** Each node has its own identity boundary. In the current implementation, software peers use cryptographic identity (currently X25519 keypair). Identity is not delegated by a central authority.
+3. **Identity is self-sovereign.** Each node generates and controls its own cryptographic identity (current implementation: X25519 keypair). Identity is not delegated by a central authority.
 4. **Local-first operation.** Every node must function fully when disconnected. Federation enhances; it does not enable.
 
 ## What Flows Between Nodes
@@ -53,7 +53,7 @@ Federation exchanges **domain events** — structured notifications that a node 
 - Events are **idempotent**: receiving the same event twice produces no change
 - Events carry **provenance**: origin node, timestamp, signature
 - Events are **scoped**: a node subscribes to specific event types from specific peers
-- Events may be **encrypted**: E2EE (X25519 + ChaCha20-Poly1305) when both peers support it, plaintext fallback otherwise
+- Events may be **encrypted**: E2EE via authenticated encryption (AEAD) when both peers support it, plaintext fallback otherwise. (Current implementation: X25519 key agreement + ChaCha20-Poly1305.)
 
 ## Trust Model
 
@@ -62,7 +62,7 @@ Trust is established progressively between sovereign parties.
 ### Bilateral Trust (Current)
 
 1. **Discovery**: Out-of-band introduction (Signal message, shared meeting)
-2. **Handshake**: KOI-net edge proposal with `defer_approval` for manual verification
+2. **Handshake**: Edge proposal with deferred approval for manual verification. (Current implementation: KOI-net edge proposal with `defer_approval` flag.)
 3. **Verification**: SAS (Short Authentication String) confirmed over a trusted channel
 4. **Activation**: Both peers approve edges; federation begins
 5. **Ongoing**: Events flow according to subscribed types; either peer can revoke at any time
@@ -76,14 +76,18 @@ Trust is established progressively between sovereign parties.
 
 ## Federation Mechanics
 
-### Transport: KOI-net
+### Transport
 
-The current federation backbone is KOI-net (BlockScience design), implementing:
+Federation transport must provide:
 
-- **Edge management**: Propose, approve, revoke bilateral connections
-- **Event queuing**: Outbox pattern — events are written to a local queue in the same database transaction as the domain change, then delivered asynchronously
-- **Polling**: Peers poll each other on configurable intervals for pending events
-- **Relay**: Optional relay nodes for peers behind NAT (not yet implemented)
+- **Edge management**: Bilateral consent to propose, approve, and revoke connections
+- **Event sequencing**: Events are ordered and delivered reliably
+- **Delivery assurance**: Events are queued until delivered; no silent loss
+- **Configurable delivery mechanism**: Polling, push, or hybrid — the protocol does not mandate a single transport topology
+
+See [store-and-forward relay](../protocols/store-and-forward-relay.md) for the pair-level relay protocol.
+
+**Current implementation: KOI-net** (BlockScience design) — outbox pattern (events written to a local queue in the same database transaction as the domain change, then delivered asynchronously), configurable polling intervals, optional relay nodes for peers behind NAT.
 
 ### Replication Model
 

@@ -84,8 +84,7 @@ Each consumer formats the briefing for its medium:
 
 - **Bioregional Knowledge Commons**: larger governance graph with multiple levels
 - **Agent Commons**: umbrella project using its own governance layer
-- **darren-workflow**: personal workflow project consuming the governance layer
-- **Salish Sea Dreaming**: creative project using the same briefing pattern
+- Personal workflow projects consuming the governance layer
 
 ## Resulting Context
 

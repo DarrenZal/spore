@@ -95,7 +95,7 @@ Cross-project dependencies are **informational**, not **authoritative** — Proj
 All `doc_id` values must be prefixed with the project's `project_id`:
 - `spore.project-vision` (Spore project publishing Agent Commons)
 - `bkc.federated-memory-arch` (BKC)
-- `dw.project-vision` (darren-workflow)
+- `myproj.project-vision` (any adopting project)
 
 The ingest script validates this prefix constraint.
 
@@ -112,7 +112,7 @@ The lifecycle of a spec document in the governance layer:
 
 1. **Propose**: Author creates a `.md` file with frontmatter in the appropriate directory
 2. **Validate**: `ingest_spec_dag.py --dry-run` checks frontmatter, DAG acyclicity, namespace prefix, and dependency targets
-3. **Review**: Human or agent review (currently informal; `/review-plan` for plans)
+3. **Review**: Human or agent review of the proposed artifact against its dependencies and the project's governance norms
 4. **Merge**: Document committed to project repository
 5. **Ingest**: `ingest_spec_dag.py --apply` creates/updates SpecDoc entity in knowledge graph
 6. **Discover**: Document appears in `GET /project/briefing` and is queryable by agents

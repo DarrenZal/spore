@@ -41,9 +41,9 @@ Spore's coordination grammar can be read as infrastructure for composing hyperst
 The parallels:
 
 - **Belief → action → evidence → revision** maps structurally onto Spore's coordination ecology (vision → intent → commitment → evidence → learning)
-- **[[intent-pressure]]** — the gap between normative frontier and epistemic frontier — is the coordination-grammar form of the force that drives hyperstitions toward realization
-- **[[commitment-pooling]]** coordinates collective resource-locking, functioning analogously to what the article frames as [[hyperstition-markets]]
-- **Constitutional commitments** (provenance, contestability, forkability) offer candidate criteria for the [[constructive-hyperstition]] distinction the article identifies but does not resolve
+- **[intent pressure](../../foundations/lexicon/intent-pressure.md)** — the gap between normative frontier and epistemic frontier — is the coordination-grammar form of the force that drives hyperstitions toward realization
+- **[commitment pooling](../../patterns/commitment-pooling.md)** coordinates collective resource-locking, functioning analogously to what the article frames as [hyperstition markets](./hyperstition-markets.md)
+- **Constitutional commitments** (provenance, contestability, forkability) offer candidate criteria for the [constructive hyperstition](./constructive-hyperstition.md) distinction the article identifies but does not resolve
 
 The key difference: hyperstition theory describes a mechanism (fictions that make themselves real). Spore provides a grammar for composing, governing, and contesting those fictions — with explicit accountability structures that hyperstition theory, on its own, does not specify.
 
