@@ -103,7 +103,7 @@ Structural correspondences between systems' primitives, lifecycles, graph types,
 - How the chat widget connects to the agent
 - Federation topology: how the public Spore node relates to personal nodes and other instances
 
-**Status**: Design phase. See [GitHub issue](https://github.com/DarrenZal/spore/issues) for tracking.
+**Status**: Design phase. See [GitHub issue #1](https://github.com/DarrenZal/spore/issues/1) for tracking.
 
 ## Cross-cutting: Plurality and Interoperability
 
@@ -120,10 +120,10 @@ Not a separate track but a design constraint on all work:
 
 Spore defines patterns. Others implement them.
 
-- **koi-processor / RegenAI** -- runtime substrate for knowledge operations, federation, sensors
-- **BKC** -- operational validation across 4 bioregional nodes
-- **darren-workflow** -- personal workflow validation
-- **salish-sea-dreaming** -- creative/bioregional adoption
+- **koi-processor / RegenAI** -- node substrate (knowledge graph, entity resolution, federation, sensors)
+- **BKC / Octo** -- operational instance family (BKC canon + 4 federated nodes + Octo agent + Quartz sites)
+- **darren-workflow** -- personal instance (personal node + agent workflows)
+- **salish-sea-dreaming** -- creative/bioregional instance (emerging)
 - **Regen Commons / Open Civics / Network Nations** -- potential civic adoption surfaces
 
 ## Non-Goals
