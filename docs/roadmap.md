@@ -39,7 +39,7 @@ Working implementations exist at each layer, though not yet at scale:
 
 **What exists**: Public repo (PPL license), adoption guide, bootstrap spec, working examples across 4 projects.
 
-**What's needed**: Clearer minimal-viable-adoption path. Starter templates. Potentially: a hosted or SaaS knowledge graph option.
+**What's needed**: Clearer minimal-viable-adoption path. Starter templates. Potentially: a hosted or SaaS knowledge graph option. Instance model documentation so adopters understand the composable architecture (canon/node/agent/site) and choose what to implement.
 
 **Success signal**: Someone runs `ingest_spec_dag.py` on their own project, or builds a sensor node for their knowledge garden, without hand-holding.
 
@@ -90,6 +90,21 @@ Structural correspondences between systems' primitives, lifecycles, graph types,
 | **Later** | Agent opens PRs | Autonomous bridge-note PRs on Spore repo |
 | **Future** | Continuous gardener | Curator instance for coordination grammar |
 
+## Track 5: Reference Public Membrane
+
+**Question**: Can Spore embody its own grammar in a public-facing instance?
+
+**Reference public membrane**: Design a reference public Spore instance — a public node serving curated Spore canon, a coordination-domain agent, and a Quartz-based site with graph navigation and chat widget. This validates the instance model and tests the public membrane pattern. BKC/Octo serves as existence proof that the architecture works.
+
+**Key design questions**:
+- What subset of canon to expose on the public node
+- Agent identity, values, and domain knowledge for a coordination-domain agent
+- Graph navigation and search on the Quartz site
+- How the chat widget connects to the agent
+- Federation topology: how the public Spore node relates to personal nodes and other instances
+
+**Status**: Design phase. See [GitHub issue](https://github.com/DarrenZal/spore/issues) for tracking.
+
 ## Cross-cutting: Plurality and Interoperability
 
 Not a separate track but a design constraint on all work:
@@ -114,7 +129,7 @@ Spore defines patterns. Others implement them.
 ## Non-Goals
 
 - Full Sociocracy 3.0 implementation (borrow concepts, don't adopt wholesale)
-- Building a runtime platform (Spore provides patterns, not software)
+- Building a general-purpose runtime platform — Spore provides patterns, not software. However, reference implementations that embody the grammar are in scope: a public node, agent, and site may serve as validation and learning surfaces, but Spore does not aim to become a general-purpose coordination platform.
 - Token/incentive system design (commitment pooling is about promises, not speculation)
 - Forced ontology unification (translate, don't unify)
 - Repo splitting (one repo until usage pressure justifies separation)

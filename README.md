@@ -44,12 +44,13 @@ Intent is the primitive directional signal. Visions, roadmaps, and specs are dur
 docs/
 ├── project-vision.md                          # Root — what Spore is and why
 ├── README.md                                  # Docs map and repo taxonomy
-├── roadmap.md                                 # Four tracks + plurality cross-cutting
+├── roadmap.md                                 # Five tracks + plurality cross-cutting
 ├── foundations/
 │   ├── relational-agency-and-holons.md        # Holonic agency theory
 │   ├── mycelial-holarchy-architecture.md      # Dual-axis structural model
 │   ├── mycorrhizal-federation-protocol.md     # Sovereign exchange rules
-│   └── constitutional-artifacts-and-graph-projections.md  # Coordination ecology + 8 graph types
+│   ├── constitutional-artifacts-and-graph-projections.md  # Coordination ecology + 8 graph types
+│   └── spore-instance-model.md              # How Spore materializes (canon, node, agent, site)
 ├── patterns/
 │   ├── governance-memory.md                   # Spec-DAG: docs as constitutional memory
 │   ├── intent-publication-and-activation.md   # Needs, offers, intents as vectors
@@ -110,7 +111,8 @@ spore.project-vision (vision)
 ├── spore.relational-agency-and-holons (foundation)
 │   ├── spore.mycelial-holarchy-architecture (architecture)
 │   ├── spore.mycorrhizal-federation-protocol (architecture)
-│   │   └── spore.federated-knowledge-exchange (pattern)
+│   │   ├── spore.federated-knowledge-exchange (pattern)
+│   │   └── spore.instance-model (architecture)
 │   └── spore.constitutional-artifacts (foundation)
 │       ├── spore.governance-memory (pattern)
 │       ├── spore.intent-publication (pattern)

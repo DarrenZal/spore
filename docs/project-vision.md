@@ -85,7 +85,7 @@ Multiple graph types capture different aspects:
 
 ## Self-Similarity
 
-A node can be treated as a coherent point at one scale and as a graph of visions, intents, commitments, and evidence at another. This self-similarity is what makes fractal coordination possible — the same artifact ecology recurs inside every holon, which is why the same patterns work from personal workflow to planetary federation.
+A node can be treated as a coherent point at one scale and as a graph of visions, intents, commitments, and evidence at another. This self-similarity is what makes fractal coordination possible — the same artifact ecology recurs inside every holon, which is why the same patterns work from personal workflow to planetary federation. The [instance model](./foundations/spore-instance-model.md) describes how these recurring ecologies compose into concrete implementations — canon, node, agent, and site — at different scales.
 
 ## Five Layers
 
@@ -141,12 +141,12 @@ The workflow is **comparative intake**: external frameworks, papers, repos, and 
 
 ## Ecosystem
 
-Spore defines reusable abstractions. It does not absorb its implementations.
+Spore defines reusable abstractions. It does not absorb its implementations. A Spore instance is any holon that implements some composition of the grammar's aspects — canon, node, agent, and site. See the [instance model](./foundations/spore-instance-model.md) for how these compose.
 
-- **koi-processor / RegenAI** — runtime substrate (knowledge graph, entity resolution, federation, sensors)
-- **BKC** — operational validation (4 bioregional nodes, commitment pooling, federated knowledge)
-- **darren-workflow** — personal workflow validation (meeting pipeline, entity linking, plan review)
-- **salish-sea-dreaming** — creative/bioregional adoption
+- **koi-processor / RegenAI** — node substrate (knowledge graph, entity resolution, federation, sensors)
+- **BKC / Octo** — operational instance family (BKC canon + 4 federated nodes + Octo agent + Quartz sites)
+- **darren-workflow** — personal instance (personal node + agent workflows, meeting pipeline, entity linking)
+- **salish-sea-dreaming** — creative/bioregional instance (emerging)
 - **Regen Commons / Open Civics / Network Nations** — potential civic adoption surface
 
 ## Inspirations
