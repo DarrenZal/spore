@@ -62,7 +62,7 @@ Rather than treating these as "two versions," the comparison is clearer when flo
 |------|---------------|------|
 | **Execution model** | Human steward judgment | Algorithmic threshold redistribution |
 | **Timing** | Continuous relational process | Periodic settlement (convergent iterations) |
-| **Lifecycle position** | Pre-commitment (capital enters before specific commitments form) | Post-threshold (redistribution triggered by overflow) |
+| **Typical entry point** | Pre-commitment (capital often enters before specific commitments form) | Post-threshold (redistribution typically triggered by overflow) |
 | **Source of funds** | Legacy grants, DAFs, external philanthropy | Pool surplus, participant overflow, potentially demurrage-recycled value |
 | **Writeback / provenance** | Narrative evidence via `/ingest` → Evidence entities | Settlement snapshots → Evidence entities via dedicated endpoint |
 
@@ -72,7 +72,7 @@ Additional dispositions are plausible: retroactive funding (capital flows after 
 
 The two dispositions handle allocative authority differently:
 
-**Hub Cultivator**: Authority rests with the steward. The steward exercises allocative judgment over capital-like resources — not just moving liquid funds, but deciding where relational investment should flow. This authority is earned through trust and community standing. Contestability is informal: community relationships and the annual reflective questions surface disagreements. Override is social — if the community loses trust in the steward, the governance relationship breaks down.
+**Hub Cultivator**: Authority rests with the steward. The steward exercises allocative judgment over capital-like resources — not just moving liquid funds, but deciding where relational investment should flow. This authority is earned through trust and community standing. Accountability is narrative (the annual reflective questions), but this is a reporting mechanism, not a dispute primitive. Override is social — if the community loses trust in the steward, the governance relationship breaks down.
 
 **TBFF**: Authority is distributed through the allocation preferences matrix — each participant sets their own thresholds and weights. No single actor decides allocation. Contestability is structural: participants can change their preferences at any time, and settlement events are fully auditable on-chain. Override is individual — change your weights, change your threshold, or exit.
 
@@ -125,7 +125,7 @@ The composition is direct in BKC's architecture:
 - Pool activation can be triggered by either steward verification or cumulative settlement evidence exceeding a threshold
 - Both write Evidence entities with CAT receipt chains to the shared knowledge graph
 
-Flow funding does not replace commitment pooling's movement mechanics. Rather, they operate on different sides of the same capital cycle: commitment pooling makes capacity legible so that governed allocation (flow funding) has something to allocate *toward*, and flow funding provides the external capital and redistribution logic that commitment pools alone cannot generate internally.
+Flow funding does not replace commitment pooling's movement mechanics. Rather, they operate on different sides of the same capital cycle: commitment pooling makes capacity legible so that governed allocation (flow funding) has something to allocate *toward*, and flow funding adds an explicit allocative governance layer — a redistribution policy — that commitment pools do not themselves define, even though pools can generate internal circulation and movement on their own.
 
 ### What the distinction is not
 
