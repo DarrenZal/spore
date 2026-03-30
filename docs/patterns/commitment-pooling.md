@@ -76,7 +76,7 @@ Settlement is the resolution of composed vectors. It can take multiple forms:
 
 ### Constitutional relationship
 
-Pooled commitments **instantiate and mobilize** what visions orient. They are the economic/operational layer of the coordination ecology. The vision says what matters; the roadmap sequences what to build; intents express willingness; commitments make it real.
+Pooled commitments **instantiate and mobilize** what visions orient. They are the economic/operational layer of the coordination ecology. The vision says what matters; the roadmap sequences what to build; intents express willingness; commitments make it real. Pool federation and routing connect directly to flow funding mechanisms — resources routed to where capacity meets need, through governed channels rather than market clearing.
 
 ## Current Adopters / Related Implementations
 

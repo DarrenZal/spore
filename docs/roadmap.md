@@ -10,7 +10,7 @@ depends_on:
 
 ## Purpose
 
-This roadmap tracks the development of Agent Commons patterns, protocols, and governance -- the pattern language and protocol family for multi-agent coordination that Spore publishes.
+This roadmap tracks the development of Agent Commons patterns, protocols, and governance -- the pattern language and protocol family for multi-agent coordination that Spore publishes. The telos is collective agency: building the infrastructures of interdependence that enable agents at every scale to sense, decide, and act meaningfully within the systems that sustain them.
 
 ## Current State: What's Validated
 
@@ -39,7 +39,7 @@ Working implementations exist at each layer, though not yet at scale:
 
 **What exists**: Public repo (PPL license), adoption guide, bootstrap spec, working examples across 4 projects.
 
-**What's needed**: Clearer minimal-viable-adoption path. Starter templates. Potentially: a hosted or SaaS knowledge graph option. Instance model documentation so adopters understand the composable architecture (canon/node/agent/site) and choose what to implement.
+**What's needed**: Clearer minimal-viable-adoption path. Starter templates. Potentially: a hosted or SaaS knowledge graph option. Instance model documentation so adopters understand the composable architecture (canon/node/agent/site) and choose what to implement. Legacy bridge patterns and reversible adoption surfaces — Spore should support coexistence with inherited coordination systems, not require total rupture. Transitional membranes that allow partial adoption, translation between legacy and emerging substrates, and reversible movement.
 
 **Success signal**: Someone runs `ingest_spec_dag.py` on their own project, or builds a sensor node for their knowledge garden, without hand-holding.
 

@@ -14,7 +14,10 @@ sources:
     type: secondary
 disposition: null
 koi_uri: orn:personal-koi.entity:concept-hyperstition-markets-70c05c7e9db0
+publication_target: website
 ---
+
+> *This document is intended for publication on Spore's website. It lives here as a working draft.*
 
 # Hyperstition Markets
 

@@ -107,9 +107,9 @@ The current implementation uses **event-driven eventual consistency**, not full 
 | Schema mismatch | Events with unknown types are stored but not processed |
 | Key compromise | Peer revokes edges; re-establishes with new identity |
 
-## Relationship to Mycelial Holarchy
+## Relationship to the Holonic Network
 
-Federation is primarily **mycelial** — it creates lateral connections between sovereign nodes. But it respects the **holarchic** structure:
+Federation is primarily **network** — it creates lateral connections between sovereign nodes. But it respects the **holonic** structure:
 
 - Federation edges do not bypass governance boundaries (a spec DAG in Project A has no authority over Project B)
 - Shared entities flow through federation but governance relationships do not

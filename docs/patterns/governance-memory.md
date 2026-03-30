@@ -39,7 +39,7 @@ Each canonical document carries YAML frontmatter declaring:
 
 Together these form a **directed acyclic graph (DAG)** rooted at the project vision. The vision depends on nothing; every other document traces a dependency path back to the vision (directly or transitively).
 
-An **ingestion script** (`ingest_spec_dag.py`) reads the filesystem, parses frontmatter, upserts each document into a knowledge graph as a `SpecDoc` entity with typed `DEPENDS_ON` relationships, and validates:
+An **ingestion tool** reads the filesystem, parses frontmatter, upserts each document into a knowledge graph as a `SpecDoc` entity with typed `DEPENDS_ON` relationships, and validates:
 
 - No cycles in the dependency graph.
 - All `depends_on` targets resolve to existing documents (local or cross-project).

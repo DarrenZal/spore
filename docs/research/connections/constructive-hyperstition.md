@@ -16,7 +16,10 @@ sources:
     type: secondary
 disposition: null
 koi_uri: null
+publication_target: website
 ---
+
+> *This document is intended for publication on Spore's website. It lives here as a working draft.*
 
 # Constructive Hyperstition
 

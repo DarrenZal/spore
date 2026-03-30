@@ -17,7 +17,10 @@ sources:
     author: Kevin Owocki
 published_at: null
 disposition: null
+publication_target: website
 ---
+
+> *This document is intended for publication on Spore's website. It lives here as a working draft.*
 
 # Hyperstition as Coordination: What Spore's Grammar Offers the Narrative Layer
 

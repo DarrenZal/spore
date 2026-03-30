@@ -16,7 +16,7 @@ Every document in a project using the Agent Commons governance layer has a `doc_
 
 | Kind | Role | Authority | Example |
 |------|------|-----------|---------|
-| `vision` | Root intent — why this project exists | Constrains everything below | `spore.project-vision` |
+| `vision` | Revisable constitutional commitment — orients direction, values, and constraints | Constrains everything below | `spore.project-vision` |
 | `architecture` | Structural decisions — how the system is shaped | Constrains specs and patterns | `spore.mycelial-holarchy-architecture` |
 | `foundation` | Foundational knowledge — domain models, principles | Informs architecture and specs | (domain-specific foundation docs) |
 | `spec` | Operational definitions — what must be true | Constrains implementations | `spore.project-bootstrap-spec` |
@@ -60,7 +60,7 @@ Projects adopt the Agent Commons governance layer at different depths:
 
 **Required artifacts (in addition to Tier 0):**
 - 2-5 foundation/architecture/spec documents forming a valid DAG rooted at the vision doc
-- All docs pass `ingest_spec_dag.py --dry-run` validation
+- All docs pass validation (dry-run mode of the ingestion tool)
 
 **What you get:** Spec hierarchy visible in project briefing. Dependency tracking between documents. Foundation for `/doc-check` impact analysis.
 
@@ -97,7 +97,7 @@ All `doc_id` values must be prefixed with the project's `project_id`:
 - `bkc.federated-memory-arch` (BKC)
 - `myproj.project-vision` (any adopting project)
 
-The ingest script validates this prefix constraint.
+The ingestion tool validates this prefix constraint.
 
 ### URI Scheme
 
@@ -111,10 +111,12 @@ No double-namespacing: since `doc_id` already includes the project prefix, the U
 The lifecycle of a spec document in the governance layer:
 
 1. **Propose**: Author creates a `.md` file with frontmatter in the appropriate directory
-2. **Validate**: `ingest_spec_dag.py --dry-run` checks frontmatter, DAG acyclicity, namespace prefix, and dependency targets
+2. **Validate**: Ingestion tool (dry-run mode) checks frontmatter, DAG acyclicity, namespace prefix, and dependency targets
 3. **Review**: Human or agent review of the proposed artifact against its dependencies and the project's governance norms
 4. **Merge**: Document committed to project repository
-5. **Ingest**: `ingest_spec_dag.py --apply` creates/updates SpecDoc entity in knowledge graph
-6. **Discover**: Document appears in `GET /project/briefing` and is queryable by agents
+5. **Ingest**: Ingestion tool (apply mode) creates/updates SpecDoc entity in knowledge graph
+6. **Discover**: Document appears in project briefing and is queryable by agents
+
+> **Reference implementation**: [koi-processor](https://github.com/RegenAI/koi-processor) provides `ingest_spec_dag.py` as the current ingestion and validation tool.
 
 Status transitions: `draft` → `active` → `deprecated`. Status is declared in frontmatter and respected but not enforced by tooling (yet).

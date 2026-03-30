@@ -8,11 +8,11 @@ depends_on:
 
 # Adoption Guide
 
-How to register a new project in the Agent Commons project governance layer and grow it from Tier 0 to Tier 1.
+How to register a new project in the Agent Commons project governance layer and grow it from Tier 0 to Tier 1. Adoption is incremental — you can start with a single vision document and grow at your own pace.
 
 ## Prerequisites
 
-> **Note:** Commands below assume a local [koi-processor](https://github.com/RegenAI/koi-processor) installation. See that repository for setup and deployment details.
+> **Reference implementation**: Commands below use [koi-processor](https://github.com/RegenAI/koi-processor) as the reference implementation. The process itself is implementation-agnostic — any tool that validates frontmatter, checks DAG acyclicity, and ingests SpecDoc entities can fulfill these roles.
 
 - PostgreSQL database with koi-processor schema applied
 - `koi-processor` repository cloned with Python venv active
@@ -163,7 +163,7 @@ depends_on:
   - spore.project-bootstrap-spec    # cross-project dependency
 ```
 
-The ingest script validates that cross-project targets exist in the knowledge graph before accepting them.
+The ingestion tool validates that cross-project targets exist in the knowledge graph before accepting them.
 
 ## Using doc-check
 

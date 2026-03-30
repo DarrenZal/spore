@@ -1,7 +1,7 @@
 # Spore
 
-A common grammar for plural, sovereign coordination across scales. 
-Spore develops and publishes **Agent Commons**: a pattern language, protocol family, and governance-memory layer for multi-agent coordination.
+An infrastructure for collective agency — a common grammar for plural, sovereign coordination across scales and scopes.
+Spore develops and publishes **Agent Commons**: a pattern language, protocol family, and governance-memory layer that enables coordination and coherence without surrendering sovereignty.
 
 **Spore** is the project. **Agent Commons** is the protocol family it publishes.
 
@@ -13,7 +13,7 @@ Agent Commons defines patterns and protocols for how agents — humans, AIs, tea
 
 The "commons" here is the shared coordination surface: memory, claims, commitments, discourse, and protocols stewarded in common rather than owned by a central platform.
 
-The core thesis is that coordination at every scale requires the same primitives, and that they compose fractally. The coordination grammar operates across the full worldview stack — what exists, what matters, what counts as knowing, how we act, and how we inhabit participation.
+The core thesis is that coordination at every scale and scope requires the same primitives, and that they compose fractally. The grammar operates across the normative commitments that shape how agents see, value, know, and act — ontological, axiological, epistemological, practical. The goal is collective agency: the situated capacity to sense, decide, and act meaningfully within one's relational context.
 
 ### The Coordination Ecology
 
@@ -24,7 +24,7 @@ The core thesis is that coordination at every scale requires the same primitives
 - Intents signal (offers, needs, conditions — where plurality enters)
 - Commitments hold (accepted, governed, pooled; scope-bound accountability)
 - Evidence validates (observations, attestations, fulfillment)
-- Learning revises (update roadmap, refine patterns, adapt vision)
+- Learning revises (update roadmap, refine patterns, adapt vision — closing the loop)
 
 Between intent and commitment, promises make intention legible enough to witness and accept into scope.
 
@@ -32,8 +32,8 @@ Intent is the primitive directional signal. Visions, roadmaps, and specs are dur
 
 ### Design Principles
 
-- **Constitutional commitments** — provenance, forkability, pluralism, meaningful autonomy, authorized boundary crossing, reviewable authority, contestability
-- **Containment and connection** — holarchic nesting gives containment and scope; mycelial exchange gives connection and reach; patterns mediate between them
+- **Constitutional commitments** — provenance, forkability, pluralism, meaningful autonomy, authorized boundary crossing, reviewable authority, contestability. These are chosen design commitments, not eternal truths — conditions of relational freedom.
+- **Containment and overlap** — holonic nesting gives containment and nested integrity; lateral networks give overlap and cross-cutting reach; patterns mediate between them. The result is a semilattice, not a tree.
 - **Dual representation** — every constitutional artifact exists as text (for humans) and graph projection (for machines)
 - **Self-similarity** — the same artifact ecology recurs at every scale, from personal workflow to planetary federation
 - **Common core, local variation** — thin shared protocols, thick local semantics, explicit translation, forkability as feature
@@ -47,9 +47,9 @@ docs/
 ├── roadmap.md                                 # Five tracks + plurality cross-cutting
 ├── foundations/
 │   ├── relational-agency-and-holons.md        # Holonic agency theory
-│   ├── mycelial-holarchy-architecture.md      # Dual-axis structural model
+│   ├── holonic-network-architecture.md        # Dual-axis structural model
 │   ├── mycorrhizal-federation-protocol.md     # Sovereign exchange rules
-│   ├── constitutional-artifacts-and-graph-projections.md  # Coordination ecology + 8 graph types
+│   ├── constitutional-artifacts-and-graph-projections.md  # Coordination ecology + graph projections
 │   └── spore-instance-model.md              # How Spore materializes (canon, node, agent, site)
 ├── patterns/
 │   ├── governance-memory.md                   # Spec-DAG: docs as constitutional memory
@@ -96,7 +96,7 @@ You do not migrate into Spore as a platform. You let your project speak more of 
 - **Edge permissions** → declare what you share
 - **Profile declarations** → state which patterns you implement
 
-Adoption is incremental. A project can use one pattern without adopting the full stack.
+Adoption is incremental and reversible. A project can use one pattern without adopting the full stack. Spore is designed for coexistence with legacy systems, not total rupture.
 
 ## Governance Projection (Spec DAG)
 

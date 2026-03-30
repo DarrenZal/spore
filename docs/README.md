@@ -1,6 +1,6 @@
 # Spore — Documentation Map
 
-Spore is a common grammar for plural, sovereign coordination across scales. It develops and publishes **Agent Commons**: a pattern language, protocol family, and governance-memory layer for multi-agent coordination.
+Spore is an infrastructure for collective agency — a common grammar for plural, sovereign coordination across scales and scopes. It develops and publishes **Agent Commons**: a pattern language, protocol family, and governance-memory layer that enables coordination and coherence without surrendering sovereignty.
 
 ## Repo Taxonomy
 
@@ -22,7 +22,7 @@ Patterns and protocols are docs first. They become graph entities via ingestion.
 Theory and first principles that define what kind of system this is:
 
 - [relational-agency-and-holons.md](./foundations/relational-agency-and-holons.md) — holonic agency: wholes and parts, coherence across scales
-- [mycelial-holarchy-architecture.md](./foundations/mycelial-holarchy-architecture.md) — dual-axis structural model (holarchy + mycelial meshwork)
+- [holonic-network-architecture.md](./foundations/holonic-network-architecture.md) — dual-axis structural model (containment + overlap)
 - [mycorrhizal-federation-protocol.md](./foundations/mycorrhizal-federation-protocol.md) — sovereign exchange rules, federation invariants
 - [constitutional-artifacts-and-graph-projections.md](./foundations/constitutional-artifacts-and-graph-projections.md) — how visions, intents, and commitments form a coordination ecology with dual text/graph representation
 - [spore-instance-model.md](./foundations/spore-instance-model.md) — how Spore materializes: canon, node, agent, site

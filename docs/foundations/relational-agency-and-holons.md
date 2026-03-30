@@ -30,7 +30,7 @@ The important question is not "is this one thing or many?" but "what level of co
 
 ## Relational Agency
 
-Agency in Agent Commons is relational:
+Agency in Agent Commons is relational — not the capacity to stand apart, but the ability to act within: to move with awareness through the webs that sustain us. Relational agency connects to freedom: forkability, contestability, and meaningful local autonomy are not just governance features — they are conditions of relational freedom. Invest not in independence but in the infrastructures of interdependence (Johar).
 
 - an agent has its own perspective and boundaries
 - an agent is shaped by its commitments, protocols, and dependencies
@@ -47,7 +47,7 @@ This is why the system must support fractal scales. The same structural question
 
 ## Collective Agency
 
-Collective agency does not erase the members inside a collective. It creates an additional layer of coordination.
+Collective agency does not erase the members inside a collective. It creates an additional emergent layer of coordination — the grammar supports both internal coherence and interoperable relations.
 
 Examples:
 
@@ -73,3 +73,11 @@ A spec DAG gives a project holon:
 - shared context for humans and agents working inside it
 
 But holarchy is broader than spec documents. Spec DAGs are a governance-memory artifact for holons, not the definition of holons themselves.
+
+## Semilattice Structure
+
+A holon that participates in only one containing whole is a tree node. A holon that participates in multiple overlapping wholes is a semilattice element. Living systems require the latter — a person belongs to a team, a bioregion, a profession, a community of practice, simultaneously. The network axis of the architecture makes this overlap expressible.
+
+## Agentic Capacity
+
+Johar's framing of agentic capacity — sensing, fielded intelligence, resource access, decoherence from legacy structures, de-territorialization — helps clarify what the coordination ecology is *for*. The ecology is the metabolic cycle through which collective agency develops: visions orient sensing, roadmaps structure fielded intelligence, intents signal resource needs, commitments bind capacity, evidence grounds action, and learning enables decoherence from assumptions that no longer hold. This is not a strict one-to-one mapping but an interpretive frame that illuminates why the ecology takes the shape it does.

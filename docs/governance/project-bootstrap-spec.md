@@ -10,6 +10,8 @@ depends_on:
 
 Operational definitions for registering a project in the Agent Commons project governance layer — what is required at each tier and how to get there.
 
+> **Reference implementation**: The concrete commands below use [koi-processor](https://github.com/RegenAI/koi-processor) as the reference implementation. The process itself is implementation-agnostic — any tool that validates frontmatter, checks DAG acyclicity, and ingests SpecDoc entities can fulfill these roles.
+
 ## Tier 0: Seed Project
 
 ### Required Files
@@ -106,8 +108,8 @@ Expected: project name, URI, tier, spec_hierarchy with single vision root.
 
 1. Create foundation/architecture docs under `docs/foundations/`
 2. Update frontmatter with proper `depends_on` references
-3. Run `ingest_spec_dag.py --dry-run` — expect 0 validation errors
-4. Run `ingest_spec_dag.py --apply`
+3. Run ingestion tool in dry-run mode — expect 0 validation errors
+4. Run ingestion tool in apply mode
 5. Update `tier` to `1` in `project.json`
 6. Re-run ingest to update the Project entity's tier metadata
 7. Verify: `GET /project/briefing` shows multi-node spec hierarchy

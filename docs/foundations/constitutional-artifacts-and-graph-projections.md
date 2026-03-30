@@ -36,7 +36,7 @@ This is not a pipeline where each step is "the same thing becoming more concrete
 - **Intents** signal — they are pre-commitment coordination primitives. An intent is a declared or inferred directional signal: "I want," "I offer," "I need," "I will if three others commit." Intents are where plurality enters and the system breathes. Not all intents become commitments; governance is partly about how intents are surfaced, negotiated, combined, deferred, or refused.
 - **Commitments** bind — accepted, governed, tracked. Commitments stabilize one or more vectors (intents) into a durable relation.
 - **Evidence** validates — observations, attestations, fulfillment records, sensor outputs. Evidence grounds the ecology in reality.
-- **Learning** revises — update the roadmap, refine patterns, adapt the vision itself. The ecology is a loop, not a line.
+- **Learning** revises — update the roadmap, refine patterns, adapt the vision itself. The ecology is a loop, not a line: learning revises visions, evidence generates new intents, commitments reveal visions that weren't visible before.
 
 ## Dual Representation
 
@@ -47,9 +47,9 @@ Every constitutional artifact has two representations:
 
 The text is not derived from the graph. The graph is not a degraded form of the text. They are complementary views of the same normative structure.
 
-## Eight Graph Types
+## Graph Projections
 
-Different aspects of the coordination ecology are best captured by different graph structures. These are not eight separate databases — they are eight projections of one living system, each revealing different structure:
+Different aspects of the coordination ecology are best captured by different graph structures. We have identified eight projections so far — this is not a closed set. These are not separate databases — they are projections of one living system, each revealing different structure:
 
 1. **Constitutional graph** — values, goals, principles, constraints, domains, and the relations between them (supports, constrains, conflicts_with, governs)
 2. **Roadmap DAG** — initiatives, milestones, dependencies, sequence. Directed acyclic: work flows from vision toward evidence.
@@ -83,8 +83,8 @@ When normative graphs (what we intend) and epistemic graphs (what we observe) ar
 
 The graph types relate to the dual-axis architecture:
 
-- **DAGs** provide acyclic dependency resolution and clear authority flow (the holarchic axis) — you can validate from leaves to root without circular dependency paradoxes
-- **Hypergraphs** represent multi-party relational entanglement (the mycelial axis) — cyclic graphs here create resilience through mutual commitment and feedback
+- **DAGs** provide acyclic dependency resolution and clear authority flow (the holonic axis) — authority cycles create paradox (A governs B governs A is incoherent), so governance structures are acyclic by necessity. But value relations *can* be cyclic: justice ↔ equality is a reinforcing loop, not a paradox. DAGs apply to derivation and authority, not to all relations.
+- **Hypergraphs** represent multi-party relational entanglement (the network axis) — cyclic graphs here create resilience through mutual commitment and feedback. Stability does not require acyclicity: triangles are stable in engineering, feedback loops create homeostasis in biology. DAGs compress dependency; cycles create resilience. Both are needed.
 - **Event graphs** represent temporal flow
 - **Epistemic graphs** represent semantic structure, provenance, and what counts as knowing
 - **Routing/flow graphs** represent circulation of resources and information

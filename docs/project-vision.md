@@ -7,13 +7,13 @@ depends_on: []
 
 # Spore — Project Vision
 
-Spore is a common grammar for plural, sovereign coordination across scales — a coordination grammar that operates across the full worldview stack: what exists, what matters, what counts as knowing, how we act, and how we inhabit participation. It develops and publishes **Agent Commons**: a pattern language, protocol family, and governance-memory layer for multi-agent coordination. Here "agent" means any entity with enough coherence to perceive, decide, and act: a person, an AI, a team, an organization, a federation, a mixed human-AI collective.
+Spore is an infrastructure for collective agency — a common grammar for plural, sovereign coordination across scales and scopes. It operates across the normative commitments that shape how agents see, value, know, and act (ontological, axiological, epistemological, practical). It develops and publishes **Agent Commons**: a pattern language, protocol family, and governance-memory layer that enables coordination and coherence without surrendering sovereignty. Here "agent" means any entity with enough coherence to perceive, decide, and act: a person, an AI, a team, an organization, a federation, a mixed human-AI collective.
 
 The formal name for the protocol family is **Agent Commons**. Spore is the project that develops, tests, and publishes it.
 
 ## Core Thesis
 
-Coordination at every scale requires the same primitives — sovereign identity, shared memory, commitment protocols, governance patterns, and federation rules. These compose fractally: the same patterns that let a person manage their workflow let a bioregional network coordinate ecological restoration.
+Coordination at every scale and scope requires the same primitives — sovereign identity, shared memory, commitment protocols, governance patterns, and federation rules. These compose fractally: the same patterns that let a person manage their workflow let a bioregional network coordinate ecological restoration. The goal is collective agency: the situated capacity of agents — individual or collective — to sense, decide, and act meaningfully within the systems that sustain them.
 
 ## The Problem
 
@@ -42,13 +42,13 @@ Not eternal truths, but chosen design commitments for this family of systems:
 
 ## Containment and Connection
 
-The holarchic mode organizes containment, scope, and constraint. The mycelial mode organizes connection, overlap, and lateral reach. Structure, coherence, direction, and flow emerge from their interplay — as in tensegrity, where bounded compression elements and continuous tension elements together create integrity.
+The holonic axis organizes containment, authority, and nested integrity. The network axis organizes overlap, cross-cutting participation, and lateral reach. Structure, coherence, direction, and flow emerge from their interplay — as in tensegrity, where bounded compression elements and continuous tension elements together create integrity. The result is a semilattice, not a tree: holons participate in multiple overlapping wholes simultaneously, because living systems cannot be captured by a single clean hierarchy (Alexander, "A City is Not a Tree").
 
 - **Invariants** give containment (constitutional commitments, vision, governance memory)
 - **Protocols** shape connection (how intents travel across membranes, how commitments settle, how events propagate)
 - **Patterns** mediate between them (recurring forms that let connection happen without collapse of containment)
 
-Containment without connection is dead. Connection without containment is noise. The system must oscillate between stabilizing, opening, routing, testing, and revising. This is metabolic.
+Containment without overlap is dead — legible on paper, lifeless in use. Overlap without containment is noise. The system must oscillate between stabilizing, opening, routing, testing, and revising. This is metabolic. Spore helps agents and communities reveal and support living overlap between systems, projects, and scales.
 
 ## The Coordination Ecology
 
@@ -56,14 +56,16 @@ Visions are constitutional commitments. Intents are pre-commitment coordination 
 
 **Vision → Roadmap → Intent → Commitment → Evidence → Learning**
 
-This is a coordination ecology, not a pipeline. Each element serves a different role:
+This is a coordination ecology, not a pipeline — it loops. Learning revises visions. Evidence generates new intents. Commitments reveal visions that weren't visible before. Any element can feed any other. Each element serves a different role:
 
 - **Vision commitments** orient (direction, values, constraints)
 - **Roadmap** translates vision into structured needs and sequences
 - **Intents** signal (offers, needs, conditions — pre-commitment coordination where plurality enters)
 - **Commitments** bind (labor, capital, capacity, pooled resources — accepted and governed)
 - **Evidence** validates (observations, attestations, fulfillment)
-- **Learning** revises (update roadmap, refine patterns, adapt vision)
+- **Learning** revises (update roadmap, refine patterns, adapt vision — closing the loop)
+
+The same ecology operates at every scale. A single person exercises agency through this cycle. Coordination enters when multiple agents' ecologies overlap and need to interoperate.
 
 ## Dual Representation
 
@@ -72,7 +74,7 @@ Constitutional artifacts (visions, agreements, roadmaps, declarations) have two 
 - **Narrative form** for humans — text as constitutional statement
 - **Graph projection** for machines — queryable, composable, diffable, groundable
 
-Multiple graph types capture different aspects:
+We have identified eight graph projections so far — this is not a closed set:
 
 - **Constitutional graph** — values, goals, principles, constraints, domains
 - **Roadmap DAG** — initiatives, milestones, dependencies, sequence
@@ -87,7 +89,9 @@ Multiple graph types capture different aspects:
 
 A node can be treated as a coherent point at one scale and as a graph of visions, intents, commitments, and evidence at another. This self-similarity is what makes fractal coordination possible — the same artifact ecology recurs inside every holon, which is why the same patterns work from personal workflow to planetary federation. The [instance model](./foundations/spore-instance-model.md) describes how these recurring ecologies compose into concrete implementations — canon, node (substrate), agent, and site — at different scales.
 
-## Five Layers
+## Coordination Scales
+
+The same patterns recur at every scale. Here are five illustrative levels — not a canonical hierarchy:
 
 1. **Personal** — sovereign agent memory, local tools, personal workflow
 2. **Pair/Team** — shared context, handoffs, accumulated knowledge, collaborative governance
@@ -104,7 +108,7 @@ You don't restructure your project. You add coordination surfaces:
 - **Edge permissions** — you declare what you share and with whom
 - **Profile declarations** — you state which patterns and protocols you implement
 
-Adoption is incremental. A project can use one pattern (e.g., governance memory) without adopting the full stack.
+Adoption is incremental and reversible. A project can use one pattern (e.g., governance memory) without adopting the full stack. Spore is designed for coexistence with legacy systems, not total rupture — a transitional membrane between inherited and emerging coordination substrates that allows partial adoption, translation, and reversible movement.
 
 ## Common Core, Local Variation
 
@@ -117,7 +121,7 @@ Interoperability does not mean identical schemas. It means:
 - Explicit translation mappings between local ontologies and shared concepts
 - Clear consent and visibility semantics
 
-A node should be able to say what it implements, what it exposes, how it maps to shared concepts, and what trust levels it accepts. Forkability is a feature, not a failure mode.
+A node should be able to say what it implements, what it exposes, how it maps to shared concepts, and what trust levels it accepts. Forkability is a feature, not a failure mode. This is cosmo-localism by another name: local sovereignty with shared protocols, global coherence without global uniformity.
 
 ## Learning Membrane
 
@@ -130,7 +134,7 @@ The workflow is **comparative intake**: external frameworks, papers, repos, and 
 - **Project**: Spore — a pattern that travels, lands in different contexts, and grows local implementations
 - **Protocol family**: Agent Commons — the pattern language, protocols, and governance-memory layer
 - **Federation protocol**: Mycorrhizal Federation — rules for sovereign exchange across nodes
-- **Architecture**: Mycelial Holarchy — dual-axis structure of governance and meshwork
+- **Architecture**: Holonic Network — dual-axis structure of containment and overlap
 
 ## Relationship to Existing Systems
 
@@ -149,12 +153,14 @@ Spore defines reusable abstractions. It does not absorb its implementations. A S
 
 ## Inspirations
 
-- Christopher Alexander (pattern languages)
-- Arthur Koestler (holons)
+- Christopher Alexander (pattern languages; semilattice structure — a living system cannot be captured by a single clean hierarchy)
+- Arthur Koestler (holons — entities that are simultaneously whole and part)
 - Elinor Ostrom (commons governance)
 - Will Ruddick (commitment economies, federated pools, geodesic trust topology)
-- Indy Johar (dark matter, relational maturity, planetary sensorium, fiduciary AI)
+- Indy Johar (relational agency, collective agency, field architecture — "invest not in independence but in the infrastructures of interdependence"; his framing of agentic capacity helps clarify what Spore's grammar is *for*)
 - Karl Friston / Active Inference (free energy minimization as coordination principle)
+
+A bioregion is a natural holon with semilattice relations — overlapping hydrology, species movement, indigenous jurisdiction, institutions, care. The grammar applies: containment gives nested governance, overlap gives lateral reach across boundaries that ecological and social reality has already dissolved.
 
 ## Project Identifiers
 
