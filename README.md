@@ -131,7 +131,7 @@ Human-facing names and graph identifiers now align directly: the project is `Spo
 Spore defines a grammar and publishes patterns and protocols. Others adopt and implement them.
 
 - **[koi-processor](https://github.com/RegenAI/koi-processor)** — node substrate: knowledge graph, entity resolution, federation, sensors
-- **[BKC / Octo](https://github.com/nicobao/bkc)** — operational instance family: BKC canon + 4 federated nodes + Octo agent + Quartz sites
+- **[BKC / Octo](https://github.com/BioregionalKnowledgeCommons/Octo)** — operational instance family: BKC canon + 4 federated nodes + Octo agent + Quartz sites
 
 ## Status
 

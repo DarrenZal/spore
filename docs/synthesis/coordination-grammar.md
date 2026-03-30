@@ -268,7 +268,7 @@ The primitives are not a neutral data model. They encode commitments across five
 
 **Assessment:** All 10 primitives present. 6 of 7 membrane operations exercised (only `revoke` not explicitly documented, though implied by sovereignty invariants). The grammar maps to the full economic coordination layer. BKC's three-plane architecture (Knowledge, Capital, Coordination) corresponds to three clusters of graph projections: epistemic (knowledge), commitment + flow (capital), and all others (coordination).
 
-### Trace 3: DW Skill Routing (brief)
+### Trace 3: Personal Workflow Skill Routing (brief)
 
 | Loop Phase | Implementation |
 |-----------|---------------|
@@ -282,7 +282,7 @@ The primitives are not a neutral data model. They encode commitments across five
 | **Act** | Vault files created, entities linked, tasks registered |
 | **Revise** | mentionedIn arrays updated, entity corrections applied |
 
-**Assessment:** Grammar maps cleanly to a personal workflow node. DW demonstrates the grammar at the simplest scale (personal holon with tool membrane), confirming fractal applicability.
+**Assessment:** Grammar maps cleanly to a personal workflow node. This trace demonstrates the grammar at the simplest scale (personal holon with tool membrane), confirming fractal applicability.
 
 ---
 

@@ -56,7 +56,7 @@ Discourse operates at different scales with different levels of structure:
 | Scale | Formality | Example |
 |-------|-----------|---------|
 | **Personal** | Lightweight — notes, annotations, open questions in a working document | A developer's `TODO: revisit this after we see adoption numbers` |
-| **Project** | Moderate — structured decision records, review gates, question/must-fix tracking | DW's `/review-plan` workflow: questions gate + must-fix gate as adversarial discourse over plans |
+| **Project** | Moderate — structured decision records, review gates, question/must-fix tracking | A personal-project plan review workflow: questions gate + must-fix gate as adversarial discourse over plans |
 | **Federation** | Formal — proposals with evidence, argument periods, explicit decision records | BKC's steward review process: structured evaluation of pilot proposals with decision logs |
 
 The pattern does not prescribe a single decision procedure (consent, consensus, majority, etc.). It provides the *medium* through which any decision procedure operates — the structured representation of proposals, arguments, evidence, and decisions. The choice of decision procedure is a governance decision that itself occurs within the discourse graph.
