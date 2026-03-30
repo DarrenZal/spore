@@ -30,7 +30,7 @@ Coordination entropy. As the number of agents, scales, and overlapping membershi
 
 ## Constitutional Commitments
 
-Not eternal truths, but chosen design commitments for this family of systems:
+Not eternal truths, but chosen design commitments for this family of systems. Together they optimize for **expanding viable continuation sets** — keeping more good futures reachable under novelty, filtered through the commitments themselves. Not raw persistence-maximization. Not convergence. Viability shaped by consent, plurality, and contestability:
 
 - **Provenance** — shared memory is unreliable without it
 - **Forkability** — sovereignty is fake without it
@@ -159,6 +159,7 @@ Spore defines reusable abstractions. It does not absorb its implementations. A S
 - Will Ruddick (commitment economies, federated pools, geodesic trust topology)
 - Indy Johar (relational agency, collective agency, field architecture — "invest not in independence but in the infrastructures of interdependence"; his framing of agentic capacity helps clarify what Spore's grammar is *for*)
 - Karl Friston / Active Inference (free energy minimization as coordination principle)
+- Michael Timothy Bennett / Stack Theory (persistence ordering derives normativity from change alone — offers one formal grounding for why living infrastructure should optimize for viable continuation, not convergence)
 
 A bioregion is a natural holon with semilattice relations — overlapping hydrology, species movement, indigenous jurisdiction, institutions, care. The grammar applies: containment gives nested governance, overlap gives lateral reach across boundaries that ecological and social reality has already dissolved.
 

@@ -60,7 +60,7 @@ Writing, testing, and refining patterns through real adoption. This includes:
 - Testing existing patterns against external adopters (Track 1 feedback)
 - Writing new patterns as coordination needs emerge
 - Vision-graph implementation (representing normative artifacts as queryable graphs grounded to sensor state)
-- Active inference formalization (making the gap-closing frame precise enough to compute over)
+- Active inference formalization (making the gap-closing frame precise enough to compute over). Evaluate Bennett's Stack Theory (2026) as one candidate formalism — derives the same directional result from persistence ordering alone, without assuming organisms or free energy. Design question: can we move toward computable viability signals (does this action expand or contract the viable continuation set?) rather than gap-closing alone?
 - Deeper exploration of field coherence: how topology (holons, nesting, graph-of-graphs), vector fields (needs, offers, intents), and routing dynamics (pools, circulation, settlement) form complementary mathematical lenses for coordination
 
 ## Track 4: Comparative Intake and Schema Translation

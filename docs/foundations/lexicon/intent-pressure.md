@@ -45,3 +45,11 @@ Intent pressure drives the legibility progression (intent to promise to commitme
 In the language of the Gitcoin article on hyperstitions, this force can be read as the coordination-grammar parallel of what is framed there as "coincidence intensification" — the mechanism by which shared belief generates conditions for its own realization. Where hyperstition theory describes this as a property of narratives that make themselves real, Spore gives it structural form: the normative frontier is the declared desired future, the epistemic frontier is sensed reality, and intent pressure is the measurable gap between them that drives coordination action.
 
 This is an analogical reading, not an identity claim. The structural parallel is suggestive and worth further investigation.
+
+## Formal Grounding
+
+Bennett (2026, "Every Timeline Is an Opinion") derives directional force from persistence ordering alone — weaker premises than active inference, assuming neither an organism nor free energy. His argument: change is the only primitive; a timeline's persistence ordering (what survives through state transitions) produces normativity without an external evaluator. What persists is what the timeline "values."
+
+Valence — attraction to or repulsion from states — is the primitive evaluation in Bennett's account, more basic than a published intent. It is the dynamic that makes intents *directional* in the first place. Intent pressure is Spore's coordination-layer operationalization of this dynamic: the normative frontier declares what SHOULD persist, the epistemic frontier reports what DOES, and the gap is the coordination-legible form of the persistence question.
+
+This suggests a deeper grounding for the active inference connection: not just analogous to free energy minimization, but a lower-layer formal analogue derived from weaker premises. The mapping is strong but remains a translation across layers — Bennett operates at the metaphysical floor, Spore at the coordination layer. The [bridge note](../../research/connections/bennett-every-timeline.md) records the full mapping and its limits.

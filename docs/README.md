@@ -67,6 +67,7 @@ Bridge notes on external concepts and their structural relationship to Spore's g
 - [hyperstition.md](./research/connections/hyperstition.md) — fictions that make themselves real; structural parallels to the coordination ecology
 - [hyperstition-markets.md](./research/connections/hyperstition-markets.md) — collective-belief markets; structural analogy to commitment pooling
 - [constructive-hyperstition.md](./research/connections/constructive-hyperstition.md) — the constructive/extractive distinction; constitutional commitments as candidate criteria
+- [bennett-every-timeline.md](./research/connections/bennett-every-timeline.md) — persistence ordering, valence, and the cosmic ought; formal grounding for intent pressure and constitutional weakness
 
 ## Positioning
 
