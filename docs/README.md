@@ -59,6 +59,7 @@ The rules Agent Commons uses for its own documentation and project governance:
 Canonical definitions for terms that lack their own primary pattern or foundation doc:
 
 - [intent-pressure.md](./foundations/lexicon/intent-pressure.md) — the structural force between normative and epistemic frontiers
+- [stigmergy.md](./foundations/lexicon/stigmergy.md) — indirect coordination through environmental modification; named mode of signal+event+intent primitives
 
 ## Research: Connections
 
@@ -78,6 +79,7 @@ Bridge notes on external concepts and their structural relationship to Spore's g
 Comparative articles that position Spore's grammar relative to other frameworks:
 
 - [hyperstition-as-coordination.md](./positioning/hyperstition-as-coordination.md) — Spore as grammar for composing constructive hyperstitions
+- [civic-infrastructure-convergence.md](./positioning/civic-infrastructure-convergence.md) — civic infrastructure requirements and how the coordination grammar addresses them
 
 ## Roadmap
 
