@@ -81,6 +81,14 @@ A repeatable loop for external frameworks, papers, repos, and protocols:
 
 Structural correspondences between systems' primitives, lifecycles, graph types, and protocol roles. Inspired by Cambria's translation-layer approach, with LLM-proposed candidates and governance review. Eventually: formalized, testable, executable translation specs / lenses.
 
+### Learning field
+
+The learning field is the operational surface for Track 4. Bridge notes project claims into a shared knowledge graph; convergence detection groups them by governance cluster; synthesis notes surface what the field is learning.
+
+- **Canonical roadmap**: [`intelligence-commons/docs/roadmap/learning-field-roadmap.md`](https://github.com/DarrenZal/intelligence-commons/blob/main/docs/roadmap/learning-field-roadmap.md) — machine-readable JSON + rendered markdown, tracking outcomes, milestones, decisions, initiatives, and risks
+- **Convergence data**: 82 governance clusters across 26 field families, 4 synthesis-ready, 2 cross-project (human-machine-complementarity, linguistic-closure)
+- **First synthesis**: Hyperstition governance pilot — 6 supports + 6 opposes, productive tension preserved, promotion deferred
+
 ### Staged autonomy
 
 | Stage | Who acts | What happens |
