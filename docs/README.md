@@ -73,6 +73,7 @@ Bridge notes on external concepts and their structural relationship to Spore's g
 - [claude-code-membrane-control.md](./research/connections/claude-code-membrane-control.md) — Claude Code as membrane-control surface; authorize, expose, revoke, fork validated at production scale
 - [promise-foundation-commitment-protocol.md](./research/connections/promise-foundation-commitment-protocol.md) — Promise Foundation commitment protocol; structural parallels to commitment pooling lifecycle
 - [open-civics.md](./research/connections/open-civics.md) — civic infrastructure as enabling conditions; pattern language convergence with OCIF
+- [johar-word-not-thing.md](./research/connections/johar-word-not-thing.md) — linguistic closure, sufficiency error, perceptual fidelity; named failure modes and design qualities for the grammar
 
 ## Positioning
 
