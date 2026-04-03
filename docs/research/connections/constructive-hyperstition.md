@@ -14,8 +14,12 @@ sources:
     title: "Hyperstitions: How Shared Beliefs Shape Onchain Realities"
     author: Kevin Owocki
     type: secondary
-disposition: null
-koi_uri: null
+disposition: no change
+research_subkind: bridge_note
+concepts:
+  - hyperstition
+  - constructive-coordination
+  - constitutional-commitments
 publication_target: website
 ---
 
@@ -61,3 +65,22 @@ The criteria also do not address all dimensions of the problem. For example:
 The comparison with hyperstition theory does not suggest changes to Spore's grammar. Instead, it offers a new lens for communicating what the constitutional commitments are *for*: they are structural safeguards that keep coordination constructive as shared narratives scale. This is a framing insight, not a structural recommendation.
 
 The disposition for this synthesis is: **no change** to Spore's core grammar. The constitutional commitments already provide the structural criteria. What the comparison adds is a communication frame — and the recognition that these criteria should be tested against concrete cases where the constructive/extractive line is contested.
+
+## Claim Register
+
+**C1** [confidence: medium] [anchor: §Candidate Criteria from Spore's Constitutional Commitments]
+Spore's constitutional commitments — provenance, forkability, contestability, meaningful local autonomy, authorized boundary crossing, reviewable authority — offer candidate structural criteria for the constructive/extractive distinction in hyperstition theory.
+
+**C2** [confidence: medium] [anchor: §Candidate Criteria]
+Extractive hyperstitions typically: obscure provenance, lock participants in (no real exit), treat dissent as defection, demand all-in commitment, spread without consent, and concentrate interpretive authority. Each failure mode has a Spore constitutional commitment as its structural antidote.
+
+**C3** [confidence: high] [anchor: §Why These Are Candidates, Not Answers]
+The criteria carry Spore's own assumptions and do not resolve: temporal dynamics (constructive → extractive over time), perspective-dependence (what looks constructive inside may look extractive outside), or material power asymmetries that make formal exit rights practically inaccessible.
+
+## Open Questions
+
+1. **Can a governance test be built?** Could Spore produce a structural checklist against its seven constitutional commitments — usable by a practitioner evaluating whether a proposed shared narrative passes the constructive threshold?
+
+2. **How does the constructive/extractive distinction interact with scale?** A small commitment pool might pass all criteria and still become extractive at scale (if interpretive authority concentrates, if exit becomes socially costly). Are the criteria scale-invariant?
+
+3. **Is "no change" the right disposition long-term?** The comparison adds a communication frame. Should this be incorporated into the project vision's commentary on constitutional commitments, or kept as an external bridge note permanently?

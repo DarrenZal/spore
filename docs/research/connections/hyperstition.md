@@ -14,8 +14,13 @@ sources:
     title: "Hyperstitions: How Shared Beliefs Shape Onchain Realities"
     author: Kevin Owocki
     type: secondary
-disposition: null
-koi_uri: orn:personal-koi.entity:concept-hyperstition-ad3c78aed789
+disposition: clarify existing term
+research_subkind: bridge_note
+concepts:
+  - hyperstition
+  - intent-pressure
+  - coordination-grammar
+  - constitutional-commitments
 publication_target: website
 ---
 
@@ -56,3 +61,22 @@ The key difference: hyperstition theory describes a mechanism (fictions that mak
 - The parallels are analogical, not identity claims
 - The Gitcoin article is a secondary source; claims about hyperstition theory's full scope would require primary CCRU sources
 - This bridge note is a governed Spore artifact; the hyperstition concept itself remains an external lateral reference
+
+## Claim Register
+
+**C1** [confidence: medium] [anchor: §Structural Relationship to Spore]
+Spore's coordination grammar can be read as infrastructure for composing hyperstitions with structural safeguards — it adds accountability, contestability, and evidence requirements that hyperstition theory alone does not provide.
+
+**C2** [confidence: high] [anchor: §Structural Relationship to Spore — intent-pressure]
+Intent pressure is the coordination-grammar form of the force that drives hyperstitions toward realization — the gap between normative frontier and epistemic frontier operates structurally like belief encoding into action.
+
+**C3** [confidence: high] [anchor: §Structural Relationship to Spore — key difference]
+The key structural difference: hyperstition theory describes a mechanism (fictions that make themselves real); Spore provides a grammar for governing those fictions with explicit accountability structures.
+
+## Open Questions
+
+1. **Does Spore's grammar resolve the constructive/extractive distinction?** Spore's constitutional commitments (see `constructive-hyperstition` bridge note) offer candidate criteria but not a proof. Under what conditions would a Spore-governed hyperstition still turn extractive?
+
+2. **Is there a hyperstition-theoretic reading of promotion semantics?** When a claim moves from bridge note to canon, it becomes a stronger shared belief — structurally, a hyperstition being "encoded into infrastructure." Should promotion criteria be read through this lens?
+
+3. **Does intent pressure fully capture hyperstition dynamics?** Intent pressure is the gap between normative and epistemic frontier. Hyperstitions build momentum through escalating collective investment. Are there dynamics in hyperstition markets (see `hyperstition-markets` note) that intent pressure doesn't model?

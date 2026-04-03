@@ -15,7 +15,13 @@ sources:
     author: Patricia Parkinson et al.
     type: primary
 disposition: clarify existing term
-koi_uri: null
+research_subkind: bridge_note
+concepts:
+  - polycentricity
+  - stigmergy
+  - non-enclosability
+  - civic-infrastructure
+  - health-indicators
 ---
 
 # Towards an Open Civics
@@ -164,6 +170,20 @@ Patricia Parkinson (Open Civics co-founder) and Darren are in active conversatio
 - OC as first external Spore adoption surface. Track 1's success signal: "Someone runs `ingest_spec_dag.py` on their own project." If Patricia's team adopts governance memory (Tier 0/1), they become the first external adopter.
 - Agent interoperability: Patricia's 3 agents exchanging Spore domain events (entity_created, claim_anchored, attestation_added, commitment_created) with BKC nodes. Tests true cross-project federation.
 - Pattern language convergence question: are OCIF and Agent Commons the same pattern language at different maturity levels, or complementary languages needing a translation membrane?
+
+## Claim Register
+
+**C1** [confidence: high] [anchor: §Where Open Civics Confirms Spore — Polycentricity]
+Open Civics confirms Spore's polycentricity and federation model — both derive from Ostrom, both conclude that A City is Not a Tree. Spore's dual-axis architecture (holonic containment + network overlap → semilattice) is the structural implementation of polycentric governance OC describes normatively.
+
+**C2** [confidence: medium] [anchor: §What Is Thinner in Spore — Health indicators]
+OC's resilience/choice/vitality triad could serve as civic-facing organizing layer for Spore's candidate viability signals — a simpler, more communicable frame for civic audiences than Spore's grammar terminology. Candidate pattern for positioning docs.
+
+**C3** [confidence: medium] [anchor: §What Is Thinner in Spore — Stigmergy]
+Stigmergy should be named as a recognized coordination mode in Spore (supported by existing primitives — signal, event graph — but not yet named). Naming it would improve legibility for complex-systems audiences.
+
+**C4** [confidence: high] [anchor: §What Is Thinner in Open Civics — Federation specification]
+Spore's operational federation specification (sovereignty invariants, trust establishment, domain events, transport requirements, failure modes) substantially exceeds OC's vision-level description — this is the highest-value Spore document for OC's Patricia Parkinson.
 
 ## Open Questions
 

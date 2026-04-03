@@ -11,6 +11,13 @@ relates_to:
   - spore.mycelial-holarchy-architecture
   - spore.term.stigmergy
 disposition: clarify existing term
+research_subkind: bridge_note
+concepts:
+  - linguistic-closure
+  - human-machine-complementarity
+  - membrane-sovereignty
+  - perceptual-fidelity
+  - deconditioning
 ---
 
 # Johar — The Word Is Not the Thing
@@ -94,6 +101,20 @@ The essay implies that context is not data to be preserved in layers but a relat
 For Spore, this reinforces the entity graph's role: "Salish Sea Herring" connecting fisheries science, indigenous knowledge, ecological monitoring, and policy documents simultaneously. Context isn't stored in one location; it *is* the network of relations. The network axis is where context lives — not as information but as connective tissue.
 
 This could sharpen how Spore thinks about the knowledge graph / epistemic graph: it's not a database of facts but a *relational field* in which claims, evidence, attestations, and entities constitute context through their connections.
+
+## Claim Register
+
+**C1** [confidence: high] [anchor: §What Spore Does Not Already Have — linguistic closure risk]
+Johar's "deconditioning of linguistic closure" identifies a structural risk the grammar must guard against in its own terms — "holon," "membrane," "intent pressure" are compressions that can become stopping rules if the culture of use treats them as settled rather than threshold-opening.
+
+**C2** [confidence: medium] [anchor: §What Spore Does Not Already Have — human-machine complementarity]
+Human-machine complementarity in Johar's frame grounds Spore's sovereignty and translation model: humans contribute non-symbolic knowing (embodied, relational, ecological) that machines cannot replicate — this is what the membrane must protect, not just symbolic data.
+
+**C3** [confidence: medium] [anchor: §What Spore Does Not Already Have — discourse graph]
+Spore's discourse graph and attestation mechanisms partially operationalize Johar's requirement for "treating naming as a threshold that opens inquiry rather than an endpoint that settles it" — but the structural mechanism is only partial; cultural practice around naming is also required.
+
+**C4** [confidence: low] [anchor: §What Spore Does Not Already Have — relational field]
+Spore's knowledge graph should be understood as a relational field in which claims, evidence, attestations, and entities constitute context through connections — not a database of facts. This framing may clarify communication of Spore's epistemic model.
 
 ## Open Questions
 

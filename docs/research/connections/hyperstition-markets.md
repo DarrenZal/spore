@@ -12,8 +12,13 @@ sources:
     title: "Hyperstitions: How Shared Beliefs Shape Onchain Realities"
     author: Kevin Owocki
     type: secondary
-disposition: null
-koi_uri: orn:personal-koi.entity:concept-hyperstition-markets-70c05c7e9db0
+disposition: clarify existing term
+research_subkind: bridge_note
+concepts:
+  - hyperstition-markets
+  - commitment-pooling
+  - conviction-signal
+  - scope-bound-accountability
 publication_target: website
 ---
 
@@ -53,3 +58,22 @@ The comparison also surfaces a question: does commitment pooling need an analogu
 - Commitment pooling is not a market mechanism — it substitutes accountability for speculation
 - The analogy is structural, not functional: the mechanisms differ even where the coordination problem aligns
 - This bridge note is a governed Spore artifact; hyperstition markets remain an external lateral reference
+
+## Claim Register
+
+**C1** [confidence: medium] [anchor: §Structural Relationship to Commitment Pooling]
+Commitment pooling is structurally analogous to a hyperstition market — both coordinate collective resource-locking toward shared objectives, both create feedback loops where early commitment generates conditions for further commitment.
+
+**C2** [confidence: high] [anchor: §Structural Relationship — key substitution]
+Where hyperstition markets use speculative price dynamics as the conviction signal, commitment pooling uses scope-bound accountability and the legibility progression (intent → promise → commitment) — different mechanisms for the same structural function.
+
+**C3** [confidence: medium] [anchor: §What the Comparison Suggests]
+Commitment pooling may lack a continuous aggregated conviction signal analogous to a bonding curve's price feed — discrete commitment states may not capture the intensity of collective belief within a pool.
+
+## Open Questions
+
+1. **Does commitment pooling need a continuous conviction signal?** The current pattern tracks discrete commitment states (intent, promise, commitment) but not a continuous indicator of collective investment intensity. Is the absence of this signal a gap or a feature (avoiding speculation)?
+
+2. **Could demurrage serve as the conviction signal?** Demurrage creates circulation pressure over time. Could the aggregate demurrage pressure within a pool serve as a legible signal of collective commitment intensity without introducing speculation?
+
+3. **What's the failure mode?** Hyperstition markets can produce bubbles — speculative conviction detached from realizability. What's the equivalent failure mode for commitment pooling, and does the scope-bound accountability model prevent it?

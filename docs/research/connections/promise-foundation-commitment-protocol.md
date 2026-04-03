@@ -28,6 +28,14 @@ sources:
     author: David (david@promise.foundation)
     type: primary
 disposition: candidate primitive
+research_subkind: bridge_note
+concepts:
+  - commitment-decay
+  - hinge-risk
+  - behavioral-claim
+  - attribute-claim
+  - trust-tiers
+  - instance-model
 ---
 
 # Promise Foundation Ecosystem — Commitment Protocol at Production Scale
@@ -121,6 +129,20 @@ Spore has spec DAGs and scope constraints, but no named mechanism for scoping a 
 Keepable's "Positive-Sum Marketing" concept: *the strongest promise lives in the overlap between what buyers want and what the seller can actually keep*. A promise that is only what buyers want (but can't be kept) is aspirational. A promise that is only what can be kept (but buyers don't want) is irrelevant. Keepability is a property distinct from desirability.
 
 This is not a new Spore primitive, but it clarifies the commitment craftsmanship question: a good commitment is not just specific and bounded — it is specifically bounded to the intersection of what the committer can reliably do and what the recipient actually needs.
+
+## Claim Register
+
+**C1** [confidence: high] [anchor: §3 What Spore Confirms — relational agency]
+Relational agency / holon model confirmed at production scale — Promissum's onboarding explicitly states "profiles, groups, threads, and even this lesson are all agents that make promises." This is Spore's holon claim deployed as user-facing pedagogy.
+
+**C2** [confidence: high] [anchor: §4a Commitment Decay]
+Commitment decay is a concept the current Spore grammar cannot name — trust credentials should lose weight absent active re-confirmation, and different domains warrant different decay rates (governance-tunable parameters, not hardcoded constants).
+
+**C3** [confidence: high] [anchor: §4b Verifiable / Attribute Claim Split]
+The claim primitive needs to formally distinguish behavioral claims (verifiable per-interaction, earns attestation weight, appropriately public) from attribute claims (stable, non-verifiable per-interaction, informs context without earning score, appropriately private). Conflating them corrupts scoring integrity.
+
+**C4** [confidence: medium] [anchor: §4c Hinge Risk]
+Hinge risk — the claim whose falsification most reduces confidence in the whole structure — is a claim-level fragility score enabling prioritized evidence gathering. Not yet named in Spore's claims layer; requires claim dependency modeling to compute.
 
 ## 5. Open Questions
 

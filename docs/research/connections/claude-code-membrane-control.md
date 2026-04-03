@@ -16,6 +16,13 @@ sources:
     title: "Permission system source"
     type: primary
 disposition: clarify existing term
+research_subkind: bridge_note
+concepts:
+  - membrane-operations
+  - authorization
+  - boundary-control
+  - attestation
+  - sovereignty
 ---
 
 # Bridge Note: Claude Code as Membrane-Control Implementation
@@ -164,6 +171,23 @@ Beyond the permission system, Claude Code has several other Spore-relevant surfa
 3. **Does channel permission relay extend Spore's expose?** The ability to relay permission prompts to Telegram/Discord/iMessage via short codes creates a cross-surface authorization flow. This is not in Spore's current membrane operations description. Is it a new surface for expose, or a special case of translate?
 
 4. **How should governance-adjacent memory be classified?** CLAUDE.md files persist knowledge and influence agent behavior, but they lack constitutional structure (no spec DAG, no lifecycle states, no formal review). Should Spore's memory model distinguish between governance-adjacent and true governance memory more explicitly?
+
+## Claim Register
+
+**C1** [confidence: high] [anchor: §4 — "Layered authorization is necessary"]
+Layered authorization (6 modes, 5 persistence scopes, per-agent isolation) is necessary in production systems — a single authorization model is insufficient for different contexts (interactive, batch, autonomous, multi-agent). This is production evidence for Spore's membrane authorize operation.
+
+**C2** [confidence: high] [anchor: §4 — "Membrane operations compose"]
+Membrane operations compose: the swarm permission flow chains expose (worker forwards request) → authorize (leader approves) → translate (rules marshalled back) → attest (resolution logged). Operations are not isolated actions but composable sequences.
+
+**C3** [confidence: high] [anchor: §4 — "Atomicity at the boundary matters"]
+Atomicity at the boundary matters — the `claim()` resolve-once guard ensures exactly one winner when multiple resolvers race. This confirms Spore's principle that boundary-crossing authorization must be atomic, not competitive.
+
+**C4** [confidence: high] [anchor: §5 — "No structured contestation"]
+Claude Code's contest is limited to competitive racing (approve/deny) — it has no structured dispute primitive, no rebuttal mechanism, and no evidence-based argumentation. Production runtimes underinvest in contestation relative to Spore's full grammar.
+
+**C5** [confidence: high] [anchor: §5 — "No semantic translation"]
+Claude Code performs protocol-level translation (serialization format) but not governance-level translation (semantic meaning). Crossing a boundary preserves rules literally — Spore's translate operation implies re-encoding in the receiving context's ontology.
 
 ## 8. Disposition
 

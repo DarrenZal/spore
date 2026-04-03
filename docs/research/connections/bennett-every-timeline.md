@@ -14,8 +14,14 @@ sources:
     author: Michael Timothy Bennett
     institution: School of Computing, The Australian National University
     type: primary
-disposition: null
-koi_uri: null
+disposition: clarify existing term
+research_subkind: bridge_note
+concepts:
+  - intent-pressure
+  - viable-continuation
+  - persistence-ordering
+  - commitment-decay
+  - knowledge-wisdom
 ---
 
 # Every Timeline Is an Opinion
@@ -97,3 +103,25 @@ If every timeline is an opinion, Spore could get better at parallel roadmaps and
 - Stack Theory is not adopted as Spore's formalism — it is one candidate for the active inference roadmap item
 - The candidate viability signals (repair debt, burnout, etc.) are Spore-side design ideas, not formal consequences of Bennett's theorem
 - The mapping between persistence ordering and intent pressure is strong but remains a translation across layers, not a formal derivation
+
+## Claim Register
+
+**C1** [confidence: high] [anchor: §What the Paper Argues #1–4]
+Every timeline is a value judgment about what ought to exist — persistence ordering implies normativity. This provides formal grounding for why Spore's perspectival epistemics (provenance, attestation, translation without convergence) is the correct structural posture rather than a view-from-nowhere design.
+
+**C2** [confidence: high] [anchor: §Critical Disambiguation: "Commitment"]
+Bennett confirms a Spore design rule: every added formal constraint has a persistence cost, so commitments should be local, revisable, decaying, forkable, and evidence-bound. This is a cross-layer validation of Spore's design instincts (demurrage, forkability, scope-binding), not a formal derivation.
+
+**C3** [confidence: medium] [anchor: §Expanding viable continuation sets as north star]
+Expanding viable continuation sets is a candidate north-star framing for Spore-as-livingry, but must be filtered through constitutional commitments — viability alone risks "whatever persists is justified," which cuts against consent, plurality, and contestability.
+
+**C4** [confidence: low] [anchor: §Knowledge vs wisdom]
+Knowledge and wisdom may warrant formal separation in Spore's architecture: knowledge is the epistemic graph (claims, evidence, provenance); wisdom is the governance capacity to know which constraints to add, relax, fork, or refuse so life can continue.
+
+## Open Questions
+
+1. **Does the normative-epistemic gap in Spore map formally to persistence ordering?** The claim is that intent pressure is the coordination-grammar form of persistence ordering. Can this translation be made precise — or does the mismatch in layers mean the mapping must remain an analogy?
+
+2. **How should viability signals be structured?** The candidate signals (repair debt, ecological thresholds, capacity strain, conflict load, unused capacity) are persistence-reducing conditions in Bennett's sense. Should they belong in the intent-pressure definition, a separate viability-signal concept, or a new layer?
+
+3. **Is knowledge/wisdom separation ready for the lexicon?** The distinction is identified but "not ready for lexicon" per the note. What evidence or implementation would be needed to promote it to a named concept?

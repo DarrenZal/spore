@@ -32,6 +32,13 @@ sources:
     author: MycoFi / Mycopunks
     type: secondary
 disposition: clarify existing term
+research_subkind: bridge_note
+concepts:
+  - flow-funding
+  - commitment-pooling
+  - redistribution
+  - transitional-membrane
+  - metabolic-functions
 ---
 
 # Flow Funding: Comparative Intake
@@ -186,6 +193,20 @@ Spore should treat commitment pooling as a pattern grounded in production-scale 
 4. **How does the activation function relate to Spore?** BKC's third metabolic function (activation — network growth through community practices) maps loosely to Spore's adoption surfaces and transitional membranes, but the connection is not yet precise enough to claim.
 
 5. **What happens when steward-mediated and algorithmic tracks interact?** BKC envisions convergence (C1+) but has not yet implemented it. The interaction model — where pool activation is triggered by both human verification and cumulative algorithmic settlement evidence — is a design hypothesis, not a validated pattern.
+
+## Claim Register
+
+**C1** [confidence: high] [anchor: §3 Metabolic distinction + §4 Relationship to Commitment Pooling]
+Flow funding and commitment pooling are composable but distinct metabolic functions — provisioning (commitment pooling: what can we offer?) vs redistribution (flow funding: how should capital move?). Both involve movement but operate on different primary objects.
+
+**C2** [confidence: high] [anchor: §3 What Commitment Pooling Already Does]
+Commitment pooling already includes significant movement mechanics (circulation, routing, settlement, demurrage) — the difference is not static vs dynamic but which primary object each mechanism governs.
+
+**C3** [confidence: high] [anchor: §5 Flow Funding as Transitional Membrane]
+The Hub Cultivator model is architecturally designed as transitional membrane from legacy capital (DAFs, grants) into trust-based allocation — legacy capital enters through familiar legal structures and flows through governed channels legible to both systems.
+
+**C4** [confidence: medium] [anchor: §4 Authority and contestability — Gap]
+Neither flow funding disposition has a formal dispute resolution mechanism for contested allocations — BKC's `disputes` predicate governs commitment lifecycle, not allocation decisions. Whether flow funding needs its own contestability primitive is open.
 
 ## 9. Disposition
 
