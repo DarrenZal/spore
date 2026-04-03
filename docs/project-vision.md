@@ -157,7 +157,7 @@ Spore defines reusable abstractions. It does not absorb its implementations. A S
 - Arthur Koestler (holons — entities that are simultaneously whole and part)
 - Elinor Ostrom (commons governance)
 - Will Ruddick (commitment economies, federated pools, geodesic trust topology)
-- Indy Johar (relational agency, collective agency, field architecture — "invest not in independence but in the infrastructures of interdependence"; his framing of agentic capacity helps clarify what Spore's grammar is *for*)
+- Indy Johar (relational agency, collective agency, field architecture — "invest not in independence but in the infrastructures of interdependence"; his framing of agentic capacity helps clarify what Spore's grammar is *for*; his essay on linguistic closure names the failure mode the grammar is designed to prevent — abstraction becoming a "stopping rule" that terminates inquiry — and argues that human and machine agents contribute fundamentally different kinds of knowing to coordination ecologies)
 - Karl Friston / Active Inference (free energy minimization as coordination principle)
 - Michael Timothy Bennett / Stack Theory (persistence ordering derives normativity from change alone — offers one formal grounding for why living infrastructure should optimize for viable continuation, not convergence)
 
