@@ -15,6 +15,9 @@ sources:
   - path: projects/claude-code/src/hooks/toolPermission/
     title: "Permission system source"
     type: primary
+  - title: "12 Infrastructure Primitives (Nate, 2026-04-03)"
+    type: secondary
+    note: "External analysis used as interpretive lens in second-pass intake; confirms membrane patterns but underspecifies compositional structure"
 disposition: clarify existing term
 research_subkind: bridge_note
 concepts:
