@@ -201,17 +201,25 @@ Field state, understood as two axes (regime dynamics and epistemic coherence), i
 **C5** [confidence: medium] [anchor: §What the Essay Offers — structured expectation]
 "World-grounded claim" is a more precise term than "grounded prediction" for production-evidence-backed claims in the IC/Spore claim architecture. Even production-backed claims are conditional, not predictive; the term should reflect the grounding spectrum without implying oracular capacity.
 
-**R1** [review claim] [target: spore.lexicon]
+**R1** [review claim] [target: spore.lexicon] [concept: field]
 Spore should clarify the relation among its three existing uses of "field" — shared field (commitment-pooling), learning field (comparative intake and IC roadmap), relational field (epistemic/context language) — in a short lexicon entry. All three are the same underlying concept instantiated at different scales; making the relation explicit reduces drift and improves cross-repo communication.
 *R1 is supported by C1, C2, C3.*
 
-**R2** [review claim] [target: ic.project-vision or ic.learning-field-roadmap]
+**R2** [review claim] [target: ic.project-vision] [concept: category-adequacy]
 IC should consider adding a category-adequacy review to its seasonal gate cycle: not "which techniques improved?" but "which of our own terms stopped seeing the world well?" This operationalizes Johar's stopping-rule warning as a governance ritual, complementing the existing primitive adequacy review identified in the previous Johar bridge note.
 *R2 is supported by C2.*
 
-**R3** [review claim] [target: spore.relational-agency-and-holons or ic.project-learning-membrane]
+**R3** [review claim] [target: spore.relational-agency-and-holons] [concept: human-machine-complementarity]
 Human-machine complementarity should be placed at the membrane and governance pattern level, not the primitive level. Spore's structural agent symmetry should be preserved at the primitive layer; the asymmetry (different agent types contribute different kinds of knowing; consequence-bearing accountability belongs with humans or human-accountable bodies) should be explicit in the patterns governing multi-agent coordination.
 *R3 is supported by C3. Relates to the unresolved tension in `spore.connection.johar-word-not-thing`.*
+
+**R4** [review claim] [target: spore.project-vision] [concept: field-neuroplasticity]
+The field as Spore's design target should be named explicitly in project-vision: architectural plasticity / field neuroplasticity is the capacity of the socio-technical arrangement to reorganize through experience even when individual LLM components remain fixed. This vocabulary is latent in commitment-pooling and the learning membrane but not stated as a named design criterion.
+*R4 is supported by C2, C3.*
+
+**R5** [review claim] [target: spore.project-vision] [concept: inference-infrastructure]
+The standing design rule — "LLMs can propose interpretations; only fields with memory, commitment, and revision can learn" — should be stated explicitly in project-vision. This names the role of LLMs in the coordination grammar as inference infrastructure, not adaptive intelligence, and makes the membrane's division of labor (LLM proposes, governance decides) inspectable as a constitutional commitment.
+*R5 is supported by C1, C5.*
 
 ## Open Questions
 
