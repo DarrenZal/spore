@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/assets/spore-logo.svg" alt="Spore logo" width="420">
+</p>
+
 # Spore
 
 An infrastructure for collective agency — a common grammar for plural, sovereign coordination across scales and scopes.
