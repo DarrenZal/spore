@@ -26,7 +26,7 @@ A governed repository of coordination artifacts organized as a spec DAG. The ref
 
 ### Node
 
-In the instance model, a Node is the infrastructure substrate a holon deploys to participate in federation. It provides knowledge graph, entity resolution, federation transport, and event processing. Nodes can be personal (a private workbench for intake, synthesis, and drafting) or public (serving curated, reviewed knowledge across a membrane into visibility).
+In the instance model, a Node is the infrastructure substrate a holon deploys to participate in federation. It provides knowledge graph, entity resolution, federation transport, and event processing. Nodes can be personal (a private workbench for intake, synthesis, and drafting) or public (serving curated, reviewed knowledge across a membrane into visibility). Query surfaces are local to the node and any views it has selectively materialized under explicit permissions; the model does not assume arbitrary live query across the whole federation.
 
 The grammar does not mandate a specific substrate. Any system providing stable identifiers, federation capability, entity resolution, and graph storage qualifies as a node. The current implementations use KOI (knowledge graph + federation + sensors), but this is one materialization, not the definition.
 
@@ -94,8 +94,10 @@ This model does not:
 - **Prescribe a runtime platform** — canon/node/agent/site is a descriptive decomposition, not a deployment specification. Spore provides patterns, not software.
 - **Require all four aspects** — a canon-only instance (like this repo) is valid; a node-only instance is valid; a personal node without a site is valid.
 - **Create substrate lock-in** — any system providing stable identifiers, federation capability, entity resolution, and graph storage can serve as a node. KOI is the current implementation; the grammar is substrate-agnostic.
+- **Promise live network-wide query** — nodes query local state and selectively materialized views. Federation is compatible with asynchronous exchange and intermittent peers.
 - **Serve as a canonical registry** — the composition table is illustrative. New instances need not be registered here.
 - **Require public exposure** — not every instance needs a site or chat surface. Privacy and containment are first-class.
+- **Guarantee topology or traffic privacy** — containment and controlled disclosure are first-class, but topology-hiding and traffic-analysis resistance are separate properties, not guarantees of the instance model.
 - **Collapse Spore into one interface** — the decomposition exists precisely to prevent this. Different aspects can evolve independently.
 
 ## Reference Architecture: BKC / Octo

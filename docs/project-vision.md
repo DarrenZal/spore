@@ -22,7 +22,7 @@ Coordination entropy. As the number of agents, scales, and overlapping membershi
 - Legible intent (what are we doing and why)
 - Explicit dependencies (what constrains what)
 - Shared memory (what's been decided, by whom, with what provenance)
-- Machine-readable constraints (validateable, composable, queryable)
+- Machine-readable constraints (validateable, composable, queryable within a node or through selectively materialized views)
 - Cross-boundary references (how local work connects to larger systems)
 - Economic coordination (commitments, not just information)
 - Governance that emerges from artifacts, not authorities
@@ -86,9 +86,11 @@ Economic coordination under discovery and complexity cannot rely on wage or tran
 Constitutional artifacts (visions, agreements, roadmaps, declarations) have two representations:
 
 - **Narrative form** for humans — text as constitutional statement
-- **Graph projection** for machines — queryable, composable, diffable, groundable
+- **Graph projection** for machines — queryable, composable, diffable, groundable within a node or through selectively materialized views
 
 We have identified eight graph projections so far — this is not a closed set:
+
+These projections are conceptual views over one coordination ecology, not a requirement that every node participate in a single continuously live global query surface. Queryability is local-first; federation determines what gets exchanged, mirrored, or materialized under explicit permissions.
 
 - **Constitutional graph** — values, goals, principles, constraints, domains
 - **Roadmap DAG** — initiatives, milestones, dependencies, sequence
@@ -118,7 +120,7 @@ The same patterns recur at every scale. Here are five illustrative levels — no
 You don't restructure your project. You add coordination surfaces:
 
 - **Frontmatter** on your docs — they become legible to the governance-memory pattern
-- **A sensor node** on your knowledge garden — your existing content becomes queryable by agents
+- **A sensor node** on your knowledge garden — your existing content becomes locally queryable by agents and selectively shareable across federation
 - **Edge permissions** — you declare what you share and with whom
 - **Profile declarations** — you state which patterns and protocols you implement
 
@@ -133,9 +135,9 @@ Interoperability does not mean identical schemas. It means:
 - Shared provenance rules
 - Declared profiles and capabilities ("I implement profile X version Y")
 - Explicit translation mappings between local ontologies and shared concepts
-- Clear consent and visibility semantics
+- Clear consent and disclosure semantics
 
-A node should be able to say what it implements, what it exposes, how it maps to shared concepts, and what trust levels it accepts. Forkability is a feature, not a failure mode. This is cosmo-localism by another name: local sovereignty with shared protocols, global coherence without global uniformity.
+A node should be able to say what it implements, what it exposes, how it maps to shared concepts, and what trust levels it accepts. Forkability is a feature, not a failure mode. This is cosmo-localism by another name: local sovereignty with shared protocols, global coherence without global uniformity. It implies disciplined exchange and selective materialization under explicit permissions, not hidden topology or universal live query.
 
 ## Learning Membrane
 

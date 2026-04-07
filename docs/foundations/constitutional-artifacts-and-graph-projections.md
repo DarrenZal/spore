@@ -43,13 +43,13 @@ This is not a pipeline where each step is "the same thing becoming more concrete
 Every constitutional artifact has two representations:
 
 - **Narrative form** for humans — text as constitutional statement, readable and debatable
-- **Graph projection** for machines — queryable, composable, diffable, groundable to world state
+- **Graph projection** for machines — queryable, composable, diffable, groundable to world state within a node or through selectively materialized views
 
 The text is not derived from the graph. The graph is not a degraded form of the text. They are complementary views of the same normative structure.
 
 ## Graph Projections
 
-Different aspects of the coordination ecology are best captured by different graph structures. We have identified eight projections so far — this is not a closed set. These are not separate databases — they are projections of one living system, each revealing different structure:
+Different aspects of the coordination ecology are best captured by different graph structures. We have identified eight projections so far — this is not a closed set. These are not separate databases — they are projections of one living system, each revealing different structure. They should be read as conceptual projections over a coordination ecology, not as one always-available distributed query substrate.
 
 1. **Constitutional graph** — values, goals, principles, constraints, domains, and the relations between them (supports, constrains, conflicts_with, governs)
 2. **Roadmap DAG** — initiatives, milestones, dependencies, sequence. Directed acyclic: work flows from vision toward evidence.

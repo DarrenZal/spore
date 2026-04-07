@@ -55,6 +55,8 @@ Federation exchanges **domain events** — structured notifications that a node 
 - Events are **scoped**: a node subscribes to specific event types from specific peers
 - Events may be **encrypted**: E2EE via authenticated encryption (AEAD) when both peers support it, plaintext fallback otherwise. (Current implementation: X25519 key agreement + ChaCha20-Poly1305.)
 
+Encryption here protects payload content in transit. It does not by itself conceal which peers are connected, when they exchange events, or what traffic patterns exist between them.
+
 ## Trust Model
 
 Trust is established progressively between sovereign parties.
@@ -97,6 +99,8 @@ The current implementation uses **event-driven eventual consistency**, not full 
 - Events describe changes, not full state — peers apply events to their local graph
 - Conflicts are resolved by the receiving node (last-writer-wins for metadata, append-only for claims/attestations)
 - Vault sync uses a stronger model: content-addressed files with sequence numbers for ordering
+
+This convergence layer is transport-level, not semantic governance. Conflict handling keeps replicas usable; it does not determine whether two claims, ontological mappings, or interpretations are logically compatible. Contradictory meaning must remain reviewable through claims, evidence, attestation, and discourse rather than being treated as solved by merge behavior alone.
 
 ### Failure Modes
 
