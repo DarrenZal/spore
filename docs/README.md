@@ -22,7 +22,7 @@ Patterns and protocols are docs first. They become graph entities via ingestion.
 Theory and first principles that define what kind of system this is:
 
 - [relational-agency-and-holons.md](./foundations/relational-agency-and-holons.md) — holonic agency: wholes and parts, coherence across scales
-- [holonic-network-architecture.md](./foundations/holonic-network-architecture.md) — dual-axis structural model (containment + overlap)
+- [holonic-network-architecture.md](./foundations/holonic-network-architecture.md) — dual-axis structural model (containment + overlap) plus mediation-over-demarcation for interface design
 - [mycorrhizal-federation-protocol.md](./foundations/mycorrhizal-federation-protocol.md) — sovereign exchange rules, federation invariants
 - [constitutional-artifacts-and-graph-projections.md](./foundations/constitutional-artifacts-and-graph-projections.md) — how visions, intents, and commitments form a coordination ecology with dual text/graph representation
 - [spore-instance-model.md](./foundations/spore-instance-model.md) — how Spore materializes: canon, node, agent, site
@@ -59,11 +59,12 @@ The rules Agent Commons uses for its own documentation and project governance:
 Canonical definitions for terms that lack their own primary pattern or foundation doc:
 
 - [intent-pressure.md](./foundations/lexicon/intent-pressure.md) — the structural force between normative and epistemic frontiers
+- [linguistic-closure.md](./foundations/lexicon/linguistic-closure.md) — the structural condition in which categories terminate inquiry before truth evaluation; named failure mode the grammar's structural mechanisms resist
 - [stigmergy.md](./foundations/lexicon/stigmergy.md) — indirect coordination through environmental modification; named mode of signal+event+intent primitives
 
 ## Research: Connections
 
-Bridge notes on external concepts and their structural relationship to Spore's grammar. These are governed Spore artifacts about lateral references — the external concepts themselves are not absorbed into canon.
+Bridge notes and comparative notes on external concepts and their structural relationship to Spore's grammar. Bridge notes remain source-specific. Comparative notes record multi-tradition support for canon/foundation language already active in Spore. These are governed research artifacts about lateral reference and convergence — the external concepts themselves are not absorbed into canon by default.
 
 - [hyperstition.md](./research/connections/hyperstition.md) — fictions that make themselves real; structural parallels to the coordination ecology
 - [hyperstition-markets.md](./research/connections/hyperstition-markets.md) — collective-belief markets; structural analogy to commitment pooling
@@ -74,6 +75,15 @@ Bridge notes on external concepts and their structural relationship to Spore's g
 - [promise-foundation-commitment-protocol.md](./research/connections/promise-foundation-commitment-protocol.md) — Promise Foundation commitment protocol; structural parallels to commitment pooling lifecycle
 - [open-civics.md](./research/connections/open-civics.md) — civic infrastructure as enabling conditions; pattern language convergence with OCIF
 - [johar-word-not-thing.md](./research/connections/johar-word-not-thing.md) — linguistic closure, sufficiency error, perceptual fidelity; named failure modes and design qualities for the grammar
+- [comparative-mediation-over-demarcation.md](./research/connections/comparative-mediation-over-demarcation.md) — six-tradition support picture for the enacted mediation principle in holonic network architecture
+
+## Research Ops
+
+Operational artifacts for running deep research against the local Spore ecosystem and external web sources:
+
+- [chatgpt-deep-research-prompt-2026-04.md](./research/chatgpt-deep-research-prompt-2026-04.md) — ChatGPT Deep Research prompt optimized for a ranked evolution agenda
+- [chatgpt-deep-research-context-pack-2026-04.md](./research/chatgpt-deep-research-context-pack-2026-04.md) — upload manifest for the local context pack
+- `scripts/build_deep_research_context_pack.sh` — assembles the core or extended local corpus into one uploadable markdown file
 
 ## Positioning
 

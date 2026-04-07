@@ -40,6 +40,14 @@ Not eternal truths, but chosen design commitments for this family of systems. To
 - **Explicit and reviewable authority** — authority should have scope, legibility, escalation paths, and revocation conditions
 - **Contestability** — claims can be questioned, decisions reviewed, outputs challenged, mistakes repaired
 
+## Coordination Under Complexity
+
+Control-based coordination fails under manifest complexity as a provable structural condition: a regulator cannot govern a system whose variety exceeds the regulator's own representational capacity. When institutions face this mismatch, two empirically documented default responses emerge. Authoritarian compression narrows degrees of freedom — enforcing legibility, simplifying coordination, constraining variation — producing short-term stability while destroying adaptive capacity. Chaotic decomposition loses higher-order coordinating structures, reorganising at a lower level of complexity — not disorder, but insufficient coordination relative to existing interdependence. Adaptive coordination — navigating evolving conditions through iterative sensing and response rather than enforcing predefined outcomes — is the independently confirmed general response requirement.
+
+## Structural Legitimacy
+
+Coordination infrastructure becomes viable when authority and consequence are structurally coupled — when those who shape decisions are bound into the outcomes those decisions produce. This coupling must be polycentric: no single legitimacy source suffices alone; multiple overlapping dimensions are structurally necessary. When authority separates from consequence, institutions enter self-reinforcing degradation — consequence-bearing participants who could provide corrective feedback lose voice or exit, insulating decision-makers from the effects of their decisions. The grammar's commitment protocols, contestability mechanisms, and governance-from-artifacts are structural approaches to maintaining this coupling.
+
 ## Containment and Connection
 
 The holonic axis organizes containment, authority, and nested integrity. The network axis organizes overlap, cross-cutting participation, and lateral reach. Structure, coherence, direction, and flow emerge from their interplay — as in tensegrity, where bounded compression elements and continuous tension elements together create integrity. The result is a semilattice, not a tree: holons participate in multiple overlapping wholes simultaneously, because living systems cannot be captured by a single clean hierarchy (Alexander, "A City is Not a Tree").
@@ -49,6 +57,10 @@ The holonic axis organizes containment, authority, and nested integrity. The net
 - **Patterns** mediate between them (recurring forms that let connection happen without collapse of containment)
 
 Containment without overlap is dead — legible on paper, lifeless in use. Overlap without containment is noise. The system must oscillate between stabilizing, opening, routing, testing, and revising. This is metabolic. Spore helps agents and communities reveal and support living overlap between systems, projects, and scales.
+
+## Relational Topology
+
+The grammar's protocols, projections, and holon architecture are not neutral containers — they actively generate patterns of relation, identity, perception, and power. Context variables predict coordination quality more strongly than composition variables: the same individuals in different arrangements produce different outcomes. Structural decay of relational grounding is the default without active maintenance — communication drops with distance, networks silo under topology change, and faultlines emerge from arrangement, not personality. Designing these conditions — attending to the patterning of connection, distance, and encounter as a primary design variable — is as important to coordination infrastructure as formal governance rules.
 
 ## The Coordination Ecology
 
@@ -66,6 +78,8 @@ This is a coordination ecology, not a pipeline — it loops. Learning revises vi
 - **Learning** revises (update roadmap, refine patterns, adapt vision — closing the loop)
 
 The same ecology operates at every scale. A single person exercises agency through this cycle. Coordination enters when multiple agents' ecologies overlap and need to interoperate.
+
+Economic coordination under discovery and complexity cannot rely on wage or transaction grammar, because these forms depend on specifiability, containment, and measurability assumptions that discovery structurally violates. Under such conditions, governance structure rather than contract terms becomes the necessary basis for coordination. Participation in commitment-based coordination requires standing: security, capability, and membership conditions without which formal participation rights are structurally empty. The principle that governance should vary by the epistemic character of work is well-established — verification thresholds and resource commitments do vary by epistemic phase in production systems at scale. The grammar's commitment protocols are a structural response to this condition.
 
 ## Dual Representation
 
@@ -125,9 +139,9 @@ A node should be able to say what it implements, what it exposes, how it maps to
 
 ## Learning Membrane
 
-Spore also needs to learn from the wider ecosystem. Through a learning membrane, it can ingest outside works, translate them into bridge notes and comparative claims, and selectively promote what proves useful into canon — without flattening difference. The membrane exercises the same operations (expose, translate, authorize, contest, revoke) that govern all boundary-crossing in the grammar.
+Spore also needs to learn from the wider ecosystem. Through a learning membrane, it can ingest outside works, translate them into bridge notes, comparative notes, and comparative claims, and selectively promote what proves useful into canon — without flattening difference. The membrane exercises the same operations (expose, translate, authorize, contest, revoke) that govern all boundary-crossing in the grammar.
 
-The workflow is **comparative intake**: external frameworks, papers, repos, and protocols enter as bridge notes with bilateral claims linking them to Spore concepts. Each synthesis records a disposition — no change, clarify existing term, candidate pattern, candidate protocol, candidate primitive, or unresolved tension — that governs whether and how the outside work influences Spore's own grammar. LLMs and embeddings propose mappings; governance accepts, contests, revises, or rejects them. The durable records are the bridge notes, claims, and dispositions — not the inference that produced them.
+The workflow is **comparative intake**: external frameworks, papers, repos, and protocols enter first as source-specific bridge notes with bilateral claims linking them to Spore concepts. Where several independent traditions converge on an enacted canon or foundation principle, a comparative note records the cross-source support picture — corroborated core, qualified background, and unresolved tensions — without participating in the disposition system. Bridge notes carry dispositions (no change, clarify existing term, candidate pattern, candidate protocol, candidate primitive, unresolved tension) that govern whether and how outside work influences Spore's grammar. LLMs and embeddings propose mappings; governance accepts, contests, revises, or rejects them. The durable records are the bridge notes, comparative notes, claims, and dispositions — not the inference that produced them.
 
 ## Naming Stack
 

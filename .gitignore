@@ -1,3 +1,12 @@
 # Claude Code context injection files
 CLAUDE.md
 **/CLAUDE.md
+
+# Generated deep research upload packs
+tmp/deep-research-context-pack-*.md
+
+# Repo-local prompt stash
+.local/prompts/
+
+# Local Playwright MCP artifacts
+.playwright-mcp/

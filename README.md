@@ -41,7 +41,7 @@ The full argument lives in [project-vision.md](docs/project-vision.md).
 - [**Documentation Map**](docs/README.md) — full map of foundations, patterns, protocols, and governance docs
 - [**Roadmap**](docs/roadmap.md) — where the project is headed
 
-Spore learns from the wider coordination ecosystem through a learning membrane — a comparative intake process that ingests external frameworks, translates them into bridge notes and claims, and selectively promotes what proves useful into canon. The membrane exercises the same boundary-crossing operations that govern all exchange in the grammar. Bridge notes and research connections live in [docs/research/connections/](docs/research/connections/).
+Spore learns from the wider coordination ecosystem through a learning membrane — a comparative intake process that ingests external frameworks, translates them into bridge notes, comparative notes, and claims as appropriate, and selectively promotes what proves useful into canon. The membrane exercises the same boundary-crossing operations that govern all exchange in the grammar. Bridge notes are source-specific; comparative notes record multi-tradition support for enacted canon/foundation language. These research connections live in [docs/research/connections/](docs/research/connections/).
 
 ## What Encounter Looks Like
 

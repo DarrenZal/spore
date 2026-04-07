@@ -62,6 +62,14 @@ In practice:
 - An **entity graph** is network: "Salish Sea Herring" connects fisheries science, indigenous knowledge, ecological monitoring, and policy documents
 - A **project holon** has both: holonic governance (its spec DAG) and network connections (its entities link to other projects' entities)
 
+## Interface Design: Mediation Over Demarcation
+
+Where containment meets overlap, interfaces arise — a holon's membrane, a federation edge, the learning membrane that metabolizes external work. The design principle governing these interfaces is **mediation over demarcation**: specify what the interface transmits, filters, translates, and regulates rather than its spatial properties. The design target is the **mediation structure** — the protocols, shared artifacts, and regulatory functions through which domains interact. Design the quality of coupling, not the completeness of separation.
+
+The grammar already practices this. "Authorized boundary crossing" specifies what authorization is required for passage, not what the wall looks like. Federation exchange rules specify event types, provenance, and consent conditions — interface behavior, not containment geometry. Holon membranes have regulatory functions (what they expose, what stays sovereign) rather than spatial properties. The principle names what these mechanisms share: interfaces are mediation infrastructure with specified regulatory properties.
+
+Clear operational rules are required at every interface. Rules can be graduated, conditional, and context-sensitive — but they must be specified, enforceable, and known. Ambiguous interfaces are a governance failure mode, not a design feature. Mediation is not vagueness; it is precise specification of regulatory function.
+
 ## Fractal Scale Levels
 
 The same dual-axis pattern repeats at every scale:
