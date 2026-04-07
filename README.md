@@ -1,134 +1,57 @@
 # Spore
 
 An infrastructure for collective agency — a common grammar for plural, sovereign coordination across scales and scopes.
-Spore develops and publishes **Agent Commons**: a pattern language, protocol family, and governance-memory layer that enables coordination and coherence without surrendering sovereignty.
+
+The project develops **Agent Commons**: a pattern language, protocol family, and governance-memory layer for coordination and coherence without surrendering sovereignty. Here "agent" means any entity with enough coherence to perceive, decide, and act — a person, an AI, a team, an organization, a federation, a mixed human-AI collective.
 
 **Spore** is the project. **Agent Commons** is the protocol family it publishes.
 
-Why "Spore"? A spore is portable, generative, and context-sensitive: it moves through larger living networks, lands in a place, and unfolds locally. Spore follows the same logic — a shared coordination grammar that can be adopted across projects, grow in different forms, and remain interoperable without requiring centralization.
+Why "Spore"? A spore is portable, generative, and context-sensitive: it moves through larger living networks, lands in a place, and unfolds locally. Spore follows the same logic — a shared coordination grammar that can land across projects, grow in different forms, and remain interoperable without requiring centralization.
 
-## What This Is
+## The Problem
 
-Agent Commons defines patterns and protocols for how agents — humans, AIs, teams, organizations, federations — coordinate without surrendering sovereignty.
+As the number of agents, scales, and overlapping memberships grows, coherence degrades. Intentions become invisible. Dependencies become implicit. Memory fragments across tools, teams, and time. The usual responses are well-documented: compress variety through centralized control (legible but brittle), or let structure dissolve into informal networks (flexible but incoherent). Both are failure modes. The third path — adaptive coordination through shared grammar, explicit memory, and iterative sensing — is what Spore works toward.
 
-The "commons" here is the shared coordination surface: memory, claims, commitments, discourse, and protocols stewarded in common rather than owned by a central platform.
+## The Coordination Ecology
 
-The core thesis is that coordination at every scale and scope requires the same primitives, and that they compose fractally. The grammar operates across the normative commitments that shape how agents see, value, know, and act — ontological, axiological, epistemological, practical. The goal is collective agency: the situated capacity to sense, decide, and act meaningfully within one's relational context.
+Coordination is not a pipeline. It is an ecology of ongoing, overlapping activities:
 
-### The Coordination Ecology
+- **Vision** orients — direction, values, constraints
+- **Intents** signal — offers, needs, conditions, where plurality enters
+- **Commitments** bind — accepted, scope-bound, governed
+- **Evidence** grounds — observations, attestations, fulfillment
+- **Learning** revises — updating roadmaps, refining patterns, adapting vision
 
-**Vision → Roadmap → Intent → Commitment → Evidence → Learning**
+These activities feed each other in every direction. Learning revises visions. Evidence generates new intents. Commitments reveal visions that weren't visible before. Not all intents become commitments — the space between intention and binding is where plurality lives. The same ecology operates at every scale: a single person exercises agency through this cycle; coordination enters when multiple agents' ecologies overlap and need to interoperate.
 
-- Vision commitments orient (direction, values, constraints)
-- Roadmaps translate vision into structured needs
-- Intents signal (offers, needs, conditions — where plurality enters)
-- Commitments hold (accepted, governed, pooled; scope-bound accountability)
-- Evidence validates (observations, attestations, fulfillment)
-- Learning revises (update roadmap, refine patterns, adapt vision — closing the loop)
+## What Holds It Together
 
-Between intent and commitment, promises make intention legible enough to witness and accept into scope.
+**Constitutional commitments** — provenance, forkability, pluralism, meaningful autonomy, authorized boundary crossing, reviewable authority, contestability. These are chosen design commitments, not eternal truths. Together they define the conditions of relational freedom: the structural ground that makes coordination possible without requiring convergence.
 
-Intent is the primitive directional signal. Visions, roadmaps, and specs are durable artifacts that orient, translate, and stabilize direction within shared memory.
+**Containment and overlap** — the holonic axis organizes nested integrity; the network axis organizes cross-cutting participation and lateral reach. The result is a semilattice, not a tree. Living systems cannot be captured by a single clean hierarchy, and neither can the coordination structures that serve them.
 
-### Design Principles
+**Self-similarity** — the same artifact ecology recurs at every scale, from personal workflow to planetary federation. Every constitutional artifact exists as text (for humans) and graph projection (for machines), so the grammar remains legible at both speeds.
 
-- **Constitutional commitments** — provenance, forkability, pluralism, meaningful autonomy, authorized boundary crossing, reviewable authority, contestability. These are chosen design commitments, not eternal truths — conditions of relational freedom.
-- **Containment and overlap** — holonic nesting gives containment and nested integrity; lateral networks give overlap and cross-cutting reach; patterns mediate between them. The result is a semilattice, not a tree.
-- **Dual representation** — every constitutional artifact exists as text (for humans) and graph projection (for machines)
-- **Self-similarity** — the same artifact ecology recurs at every scale, from personal workflow to planetary federation
-- **Common core, local variation** — thin shared protocols, thick local semantics, explicit translation, forkability as feature
+The full argument lives in [project-vision.md](docs/project-vision.md).
 
 ## Documentation
 
-```
-docs/
-├── project-vision.md                          # Root — what Spore is and why
-├── README.md                                  # Docs map and repo taxonomy
-├── roadmap.md                                 # Five tracks + plurality cross-cutting
-├── foundations/
-│   ├── relational-agency-and-holons.md        # Holonic agency theory
-│   ├── holonic-network-architecture.md        # Dual-axis structural model
-│   ├── mycorrhizal-federation-protocol.md     # Sovereign exchange rules
-│   ├── constitutional-artifacts-and-graph-projections.md  # Coordination ecology + graph projections
-│   └── spore-instance-model.md              # How Spore materializes (canon, node, agent, site)
-├── patterns/
-│   ├── governance-memory.md                   # Spec-DAG: docs as constitutional memory
-│   ├── intent-publication-and-activation.md   # Needs, offers, intents as vectors
-│   ├── commitment-pooling.md                  # Pools as fields where vectors compose
-│   ├── discourse-as-governance.md             # Discourse as the self-reflective governance layer
-│   └── federated-knowledge-exchange.md        # Sovereign nodes exchanging without centralizing
-├── protocols/
-│   ├── store-and-forward-relay.md             # Pair-level relay and forwarded exchange
-│   ├── claims-evidence-attestation.md         # Epistemic anchoring and grounding
-│   └── README.md                              # Protocol overview and candidates
-├── research/connections/
-│   ├── hyperstition.md                        # Bridge: fictions that make themselves real
-│   ├── hyperstition-markets.md                # Bridge: collective-belief markets ↔ commitment pooling
-│   └── constructive-hyperstition.md           # Bridge: constructive/extractive criteria
-├── positioning/
-│   └── hyperstition-as-coordination.md        # Spore as grammar for constructive hyperstitions
-└── governance/
-    ├── agent-commons-meta-protocol.md         # Artifact taxonomy and DAG rules
-    ├── project-bootstrap-spec.md              # Tier definitions and bootstrap
-    ├── project-briefing-pattern.md            # Context assembly for agents
-    └── adoption-guide.md                      # Step-by-step onboarding
+- [**Project Vision**](docs/project-vision.md) — what Spore is, why it exists, what it is for
+- [**Coordination Grammar**](docs/synthesis/coordination-grammar.md) — working synthesis of the grammar's primitives and patterns
+- [**Documentation Map**](docs/README.md) — full map of foundations, patterns, protocols, and governance docs
+- [**Roadmap**](docs/roadmap.md) — where the project is headed
 
-docs/foundations/lexicon/
-└── intent-pressure.md                         # Canonical term: normative-epistemic gap force
+Spore learns from the wider coordination ecosystem through a learning membrane — a comparative intake process that ingests external frameworks, translates them into bridge notes and claims, and selectively promotes what proves useful into canon. The membrane exercises the same boundary-crossing operations that govern all exchange in the grammar. Bridge notes and research connections live in [docs/research/connections/](docs/research/connections/).
 
-docs/synthesis/
-├── coordination-grammar.md                    # Working synthesis of the grammar
-└── decision-memo.md                           # Promotion decisions and synthesis findings
-```
+## What Encounter Looks Like
 
-If you're new, start with [project-vision.md](docs/project-vision.md), then [coordination-grammar.md](docs/synthesis/coordination-grammar.md), then follow the [docs map](docs/README.md).
+You do not migrate into Spore as a platform. You let your project speak more of the grammar by adding coordination surfaces — legible intent, shared memory, commitment protocols — at whatever pace makes sense. A project can use one pattern without adopting the full stack. Adoption is incremental and reversible. Spore is designed for coexistence with existing systems, not total rupture.
 
-### Learning Membrane
-
-Spore learns from the wider coordination ecosystem through a learning membrane — a comparative intake process that ingests external frameworks, translates them into bridge notes and bilateral claims, and selectively promotes what proves useful into canon. The membrane exercises the same operations (expose, translate, authorize, contest, revoke) that govern all boundary-crossing in the grammar. Bridge notes live in `docs/research/connections/`; positioning articles live in `docs/positioning/`.
-
-## How Adoption Works
-
-You do not migrate into Spore as a platform. You let your project speak more of the grammar by adding coordination surfaces:
-
-- **Frontmatter** on your docs → legible to the governance-memory pattern
-- **A sensor node** on your knowledge garden → queryable by agents
-- **Edge permissions** → declare what you share
-- **Profile declarations** → state which patterns you implement
-
-Adoption is incremental and reversible. A project can use one pattern without adopting the full stack. Spore is designed for coexistence with legacy systems, not total rupture.
-
-## Governance Projection (Spec DAG)
-
-Each frontmattered document participates in a larger coordination graph. One projection of that graph is the Spec DAG: an acyclic view of how visions, foundations, patterns, specs, and operations currently constrain and derive from one another.
-
-The DAG does not mean that a vision, a spec, or the world itself must be hierarchical or acyclic. A vision may describe meshworks, cycles, hypergraphs, feedback loops, and flows. A spec may define recursive or multi-party structures. The DAG exists for a narrower reason: to keep current grounding, dependency, and revision paths legible at a given moment.
-
-The current governance projection is:
-
-```
-spore.project-vision (vision)
-├── spore.relational-agency-and-holons (foundation)
-│   ├── spore.mycelial-holarchy-architecture (architecture)
-│   ├── spore.mycorrhizal-federation-protocol (architecture)
-│   │   ├── spore.federated-knowledge-exchange (pattern)
-│   │   └── spore.instance-model (architecture)
-│   └── spore.constitutional-artifacts (foundation)
-│       ├── spore.governance-memory (pattern)
-│       ├── spore.intent-publication (pattern)
-│       └── spore.commitment-pooling (pattern)
-├── spore.agent-commons-meta-protocol (architecture)
-│   ├── spore.project-bootstrap-spec (spec)
-│   │   └── spore.adoption-guide (operations)
-│   └── spore.project-briefing-pattern (pattern)
-└── spore.roadmap (roadmap)
-```
-
-Human-facing names and graph identifiers now align directly: the project is `Spore`, the doc namespace is `spore.*`, and the project URI is `project:spore`.
+For concrete steps, see the [adoption guide](docs/governance/adoption-guide.md).
 
 ## Ecosystem
 
-Spore defines a grammar and publishes patterns and protocols. Others adopt and implement them.
+Spore defines a grammar and publishes patterns and protocols. Others adopt and implement them. A Spore instance is any project that implements some composition of the grammar's patterns.
 
 - **[koi-processor](https://github.com/RegenAI/koi-processor)** — node substrate: knowledge graph, entity resolution, federation, sensors
 - **[BKC / Octo](https://github.com/BioregionalKnowledgeCommons/Octo)** — operational instance family: BKC canon + 4 federated nodes + Octo agent + Quartz sites
