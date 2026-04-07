@@ -14,7 +14,7 @@ As the number of agents, scales, and overlapping memberships grows, coherence de
 
 ## The Coordination Ecology
 
-Coordination is not a pipeline. It is an ecology of ongoing, overlapping activities:
+Coordination is an ecology of ongoing, overlapping activities:
 
 - **Vision** orients — direction, values, constraints
 - **Intents** signal — offers, needs, conditions, where plurality enters
