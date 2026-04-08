@@ -20,8 +20,10 @@ sources:
     url: https://arxiv.org/abs/1603.01446
   - title: "Robinson (2016), Sheaf and cosheaf methods for analyzing multi-model systems"
     type: primary
+    url: https://www.researchgate.net/publication/301877352
   - title: "Hansen & Ghrist (2019), Laplacians of Cellular Sheaves"
     type: primary
+    url: https://repository.upenn.edu/bitstreams/d0719f4d-5bb3-4066-82df-158fceab9a11/download
   - title: "Bodnar et al. (2022), Neural Sheaf Diffusion"
     type: primary
     url: https://papers.neurips.cc/paper_files/paper/2022/file/75c45fca2aa416ada062b26cc4fb7641-Paper-Conference.pdf
@@ -54,7 +56,7 @@ A technically rigorous assessment of sheaf theory as a mathematical and computat
 **Artifact profile:**
 - Type: research synthesis (not a single paper)
 - Source lineage: pure mathematics (Grothendieck, Leray) → applied cellular sheaves (Curry) → sensor fusion (Robinson) → spectral sheaf theory (Hansen, Ghrist) → sheaf neural networks (Bodnar, Barbero) → distributed task solvability (Alcántara) → relative obstruction diagnostics (Yokoyama 2026)
-- Evidence reliability: primary sources are peer-reviewed mathematics and ML venues (arXiv, NeurIPS, PMLR, UPenn repository)
+- Evidence reliability: primary sources are published in peer-reviewed ML venues (NeurIPS, PMLR) and distributed through academic preprint/repository channels (arXiv, UPenn repository)
 
 **Source hygiene note:** The full report cites 41 sources including secondary commentary (Hacker News, Medium, blog posts, duplicate ResearchGate links). This bridge note anchors claims only to the 8 primary academic sources listed in frontmatter. The report remains the intake artifact; the papers are the evidentiary anchors.
 
@@ -97,13 +99,13 @@ The report's key finding: the current sheaf description in the foundation doc ov
 
 1. **Graph Structure Hierarchy** (holonic-network-architecture.md lines 87-96) places sheaves at Level 4, above hyperedges. The research confirms this layering is mathematically sound: sheaves are the structure that gives meaning to how data moves across graph edges, not a replacement for the graph itself.
 
-2. **Federation-as-translation** (mycorrhizal-federation-protocol.md) is the sheaf gluing axiom: local sections that agree on overlaps extend to wider sections, without requiring stalks to be isomorphic.
+2. **Federation-as-translation** (mycorrhizal-federation-protocol.md) has a strong formal correspondence with the sheaf gluing axiom: the protocol's sovereign exchange rules can be formalized as local sections that agree on overlaps extending to wider sections, without requiring stalks to be isomorphic. The protocol does not currently use explicit stalks, restriction maps, or gluing checks — but the structural alignment is clear.
 
 3. **Prior reference in synthesis.md** (lines 148-152) already names "Sheaf-theoretic federation coherence — consistency radius, H1 cohomology for structural obstacles, 'translate don't unify' as the sheaf gluing axiom." This bridge note arrives at the same conclusion from deeper mathematical ground and adds source hygiene.
 
 ## 5. What Is New
 
-**Obstruction detection as first-class concern.** The current sheaf description in the foundation doc emphasizes the success mode: "coherent local views that glue together globally." The research argues that the failure mode — where local canons *cannot* be merged — is equally important for Spore. Non-zero H1 cohomology is a mathematical proof that globalization fails, and it localizes exactly where. This gives Spore a precise language for "compatible locally, impossible globally."
+**Obstruction detection as first-class concern.** The prior sheaf description in the foundation doc emphasized the success mode: "coherent local views that glue together globally." The research argues that the failure mode — where local canons *cannot* be merged — is equally important for Spore. (The wording was tightened in the same commit as this note; see C2.) Non-zero H1 cohomology is a mathematical proof that globalization fails, and it localizes exactly where. This gives Spore a precise language for "compatible locally, impossible globally."
 
 **Presheaf/sheaf governance distinction.** Spore in its raw state is more like a presheaf: local data with restriction maps, but no guarantee that local views actually glue. Governance review is the process that tests or enforces local consistency — the mechanism that attempts sheafification. Intake and provisional mappings are presheaf-like; governance review is where the gluing axiom gets checked. This maps well onto the learning membrane lifecycle.
 
@@ -122,10 +124,10 @@ The report's key finding: the current sheaf description in the foundation doc ov
 ## 7. Claim Register
 
 **C1** [confidence: high] [anchor: Robinson 2016, Curry 2014, Hansen & Ghrist 2019]
-Sheaf language is a strong formal lens for compatibility across sovereign local views. The correspondence between Spore's federation architecture and cellular sheaf theory is structural, not loose analogy: local sovereignty maps to stalks, "translate don't unify" maps to non-trivial restriction maps, and federation exchange maps to the coboundary condition. [target: spore.mycelial-holarchy-architecture] [concept: sheaves]
+Sheaf language is a strong formal lens for compatibility across sovereign local views. The correspondence between Spore's federation architecture and cellular sheaf theory is structural, not loose analogy: local sovereignty can be formalized as stalks, "translate don't unify" as non-trivial restriction maps, and federation exchange as the coboundary condition. These are strong candidate formalizations, not claims that the architecture already instantiates the formalism. [target: spore.mycelial-holarchy-architecture] [concept: sheaves]
 
 **C2** [confidence: high] [anchor: Yokoyama & Robinson 2026, Hansen & Ghrist 2019]
-The current sheaf wording in the foundation doc overemphasizes global gluing (H0 / global sections) and undernames obstruction (H1 / cohomology). For Spore's architectural posture — governed visibility into partial compatibility — the failure mode is at least as important as the success mode. The wording should include obstruction. [target: spore.mycelial-holarchy-architecture] [concept: sheaves]
+The prior sheaf wording in the foundation doc overemphasized global gluing (H0 / global sections) and undernamed obstruction (H1 / cohomology). For Spore's architectural posture — governed visibility into partial compatibility — the failure mode is at least as important as the success mode. **Enacted:** The wording in holonic-network-architecture.md (line 94) was tightened in the same commit as this bridge note to include obstruction and restriction maps. [target: spore.mycelial-holarchy-architecture] [concept: sheaves]
 
 **C3** [confidence: high] [anchor: Curry 2014, Robinson 2016]
 Spore is better framed as infrastructure for managing compatibility across sovereign local views, not itself "a sheaf." A specific federation or intent is representable as a sheaf; Spore is the system that allows these sheaves to be constructed, translated, and diagnosed. [target: spore.mycelial-holarchy-architecture] [concept: sheaves]
@@ -145,8 +147,8 @@ The following are explicitly outside the core claim set. They are noted as promi
 
 ## 9. Disposition
 
-**Primary: clarify existing term.** The sheaf description in holonic-network-architecture.md (line 94) should be tightened to include obstruction detection. This does not require a new lexicon entry or foundation section — it is a wording improvement to an already-placed concept.
+**Primary: clarify existing term.** The sheaf description in holonic-network-architecture.md (line 94) was tightened to include obstruction detection and restriction maps. This did not require a new lexicon entry or foundation section — it was a wording improvement to an already-placed concept.
 
-**Proposed wording update:** See C2. The one-line replacement adds obstruction without overloading the hierarchy format.
+**Enacted wording (same commit as this note):** "Local views related by restriction maps that glue across overlaps when compatible; obstruction theory shows where wider consistency fails"
 
 **Background candidates noted for roadmap:** Sheaf Laplacian diagnostics, SNN-based restriction map learning, task-sheaf protocol solvability, cosheaf materialization precision, relative obstruction diagnosis. These are research lanes, not promotion proposals.
