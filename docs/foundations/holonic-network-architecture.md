@@ -91,7 +91,7 @@ The mathematical structures nest:
 1. **Nodes**: Individual entities (agents, docs, concepts, projects)
 2. **Edges**: Binary relationships (depends_on, governs, mentions)
 3. **Hyperedges**: N-ary relationships (a claim attested by multiple agents about multiple subjects)
-4. **Sheaves**: Coherent local views that glue together globally (each agent's perspective is a section; federation ensures global consistency where perspectives overlap)
+4. **Sheaves**: Local views related by restriction maps that glue across overlaps when compatible; obstruction theory shows where wider consistency fails
 
 The holonic axis primarily uses structures 1-2 when rendered as governance artifacts. The network axis uses structures 1-4 (n-ary relationships with sheaf-like consistency).
 
