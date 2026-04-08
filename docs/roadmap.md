@@ -83,7 +83,7 @@ Structural correspondences between systems' primitives, lifecycles, graph types,
 
 ### Learning field
 
-The learning field is the operational surface for Track 4. Bridge notes project claims into a shared knowledge graph; convergence detection groups them by governance cluster; synthesis notes surface what the field is learning.
+The learning field is Track 4's operational projection of the wider [field](./foundations/lexicon/field.md): the governed project surface where bridge notes project claims into a shared knowledge graph, convergence detection groups them by governance cluster, and synthesis notes surface what the field is learning.
 
 - **Canonical roadmap**: [`intelligence-commons/docs/roadmap/learning-field-roadmap.md`](https://github.com/DarrenZal/intelligence-commons/blob/main/docs/roadmap/learning-field-roadmap.md) — machine-readable JSON + rendered markdown, tracking outcomes, milestones, decisions, initiatives, and risks
 - **Convergence data**: 82 governance clusters across 26 field families, 4 synthesis-ready, 2 cross-project (human-machine-complementarity, linguistic-closure)

@@ -12,6 +12,8 @@ The project develops **Agent Commons**: a pattern language, protocol family, and
 
 Why "Spore"? A spore is portable, generative, and context-sensitive: it moves through larger living networks, lands in a place, and unfolds locally. Spore follows the same logic — a shared coordination grammar that can land across projects, grow in different forms, and remain interoperable without requiring centralization.
 
+At a high level, Spore thinks in **fields**, **networks**, **membranes**, and **gardens**. The field is the wider relational medium of coordination and learning; networks describe its topology; membranes govern boundary crossings; gardens are cultivated regions within that field where knowledge is actively tended.
+
 ## The Problem
 
 As the number of agents, scales, and overlapping memberships grows, coherence degrades. Intentions become invisible. Dependencies become implicit. Memory fragments across tools, teams, and time. The usual responses are well-documented: compress variety through centralized control (legible but brittle), or let structure dissolve into informal networks (flexible but incoherent). Both are failure modes. The third path — adaptive coordination through shared grammar, explicit memory, and iterative sensing — is what Spore works toward.
@@ -46,6 +48,8 @@ The full argument lives in [project-vision.md](docs/project-vision.md).
 - [**Roadmap**](docs/roadmap.md) — where the project is headed
 
 Spore learns from the wider coordination ecosystem through a learning membrane — a comparative intake process that ingests external frameworks, translates them into bridge notes, comparative notes, and claims as appropriate, and selectively promotes what proves useful into canon. The membrane exercises the same boundary-crossing operations that govern all exchange in the grammar. Bridge notes are source-specific; comparative notes record multi-tradition support for enacted canon/foundation language. These research connections live in [docs/research/connections/](docs/research/connections/).
+
+In this vocabulary, the learning membrane tends a knowledge garden within the wider learning field. The canonical definition of `field` lives in [docs/foundations/lexicon/field.md](docs/foundations/lexicon/field.md).
 
 ## What Encounter Looks Like
 
