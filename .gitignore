@@ -7,6 +7,7 @@ tmp/deep-research-context-pack-*.md
 
 # Repo-local prompt stash
 .local/prompts/
+.claude/
 
 # Local Playwright MCP artifacts
 .playwright-mcp/
