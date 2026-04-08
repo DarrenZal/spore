@@ -6,6 +6,7 @@ depends_on:
   - spore.project-vision
   - spore.connection.johar-neuroplastic-field
 relates_to:
+  - spore.term.field
   - spore.federated-knowledge-exchange
   - spore.claims-evidence-attestation
   - ic.hybrid-retrieval

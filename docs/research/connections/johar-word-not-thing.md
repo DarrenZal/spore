@@ -7,6 +7,7 @@ depends_on:
   - spore.constitutional-artifacts
   - spore.term.intent-pressure
 relates_to:
+  - spore.term.field
   - spore.relational-agency-and-holons
   - spore.mycelial-holarchy-architecture
   - spore.term.stigmergy
@@ -101,6 +102,8 @@ The essay implies that context is not data to be preserved in layers but a relat
 For Spore, this reinforces the entity graph's role: "Salish Sea Herring" connecting fisheries science, indigenous knowledge, ecological monitoring, and policy documents simultaneously. Context isn't stored in one location; it *is* the network of relations. The network axis is where context lives — not as information but as connective tissue.
 
 This could sharpen how Spore thinks about the knowledge graph / epistemic graph: it's not a database of facts but a *relational field* in which claims, evidence, attestations, and entities constitute context through their connections.
+
+This framing now has a canonical anchor in `spore.term.field`, which relates the relational-field usage here to Spore's shared-field and learning-field language.
 
 ## Claim Register
 

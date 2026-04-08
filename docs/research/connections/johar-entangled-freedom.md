@@ -5,6 +5,8 @@ research_subkind: bridge_note
 status: draft
 depends_on:
   - spore.lexicon
+relates_to:
+  - spore.term.field
 disposition: candidate primitive
 concepts:
   - entangled-freedom-and-being

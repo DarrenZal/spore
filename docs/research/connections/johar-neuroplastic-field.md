@@ -7,6 +7,7 @@ depends_on:
   - spore.commitment-pooling
   - spore.connection.johar-word-not-thing
 relates_to:
+  - spore.term.field
   - spore.relational-agency-and-holons
   - spore.constitutional-artifacts
   - spore.governance-memory
@@ -69,7 +70,7 @@ Johar writes: "The real unit of intelligence is not the model. It is the field."
 
 The three uses are not three different concepts. They are the same underlying structure instantiated at different scales and purposes — the socio-technical arrangement through which intelligence is distributed. Johar's essay provides the unifying name and the theoretical grounding for all three.
 
-This implies a lexicon gap: Spore uses "field" across three contexts without a canonical definition that relates them. See R1 in the claim register.
+At intake, this exposed a lexicon gap: Spore used "field" across three contexts without a canonical definition that related them. That gap is now resolved in `spore.term.field`, which defines the relation among shared field, learning field, and relational field without collapsing them.
 
 ### The commitment ecology is Johar's prescription operationalized
 

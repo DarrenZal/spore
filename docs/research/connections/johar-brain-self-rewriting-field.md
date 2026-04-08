@@ -7,6 +7,7 @@ depends_on:
   - spore.connection.johar-neuroplastic-field
   - spore.connection.johar-word-not-thing
 relates_to:
+  - spore.term.field
   - spore.relational-agency-and-holons
   - spore.governance-memory
   - ic.project-learning-membrane

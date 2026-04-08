@@ -5,6 +5,8 @@ research_subkind: bridge_note
 status: draft
 depends_on:
   - spore.project-vision
+relates_to:
+  - spore.term.field
 disposition: candidate pattern
 concepts:
   - worldviews-cohesion-and-systems-change
