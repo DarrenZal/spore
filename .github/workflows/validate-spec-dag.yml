@@ -1,0 +1,22 @@
+name: Validate Spec DAG
+
+on:
+  push:
+    paths:
+      - 'docs/**'
+      - 'scripts/validate_spec_dag.py'
+  pull_request:
+    paths:
+      - 'docs/**'
+      - 'scripts/validate_spec_dag.py'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate spec DAG
+        run: python3 scripts/validate_spec_dag.py

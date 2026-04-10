@@ -119,4 +119,9 @@ The lifecycle of a spec document in the governance layer:
 
 > **Reference implementation**: [koi-processor](https://github.com/RegenAI/koi-processor) provides `ingest_spec_dag.py` as the current ingestion and validation tool.
 
-Status transitions: `draft` → `active` → `deprecated`. Status is declared in frontmatter and respected but not enforced by tooling (yet).
+Status transitions: `draft` → `active` → `deprecated` or `superseded`. Status is declared in frontmatter and enforced by `scripts/validate_spec_dag.py`.
+
+- `draft`: Work in progress, not yet normative.
+- `active`: Current, normative within the project.
+- `deprecated`: No longer recommended but retained for provenance.
+- `superseded`: Replaced by a newer artifact. Requires `superseded_by:` field in frontmatter. Allowed formats for `superseded_by`: repo-relative path (e.g., `docs/research/sheaf-synthesis.md`), cross-repo doc_id (e.g., `pm.research.sheaf-computation`), or URI (e.g., `https://...`). Machine-local paths are not valid.
