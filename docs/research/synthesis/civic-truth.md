@@ -5,7 +5,6 @@ research_subkind: synthesis_note
 status: draft
 depends_on:
   - spore.connection.johar-truth-in-doubt
-  - spore.lexicon
 disposition: clarify existing term
 promotion_status: defer
 concepts:

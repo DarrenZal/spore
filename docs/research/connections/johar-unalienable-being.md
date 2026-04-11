@@ -3,8 +3,7 @@ doc_id: spore.connection.johar-unalienable-being
 doc_kind: research
 research_subkind: bridge_note
 status: draft
-depends_on:
-  - spore.lexicon
+depends_on: []
 disposition: candidate primitive
 concepts:
   - entangled-freedom-and-being

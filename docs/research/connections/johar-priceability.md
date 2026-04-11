@@ -3,8 +3,7 @@ doc_id: spore.connection.johar-priceability
 doc_kind: research
 research_subkind: bridge_note
 status: draft
-depends_on:
-  - spore.lexicon
+depends_on: []
 disposition: candidate primitive
 concepts:
   - priceability-and-system-world

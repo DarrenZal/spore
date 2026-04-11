@@ -142,9 +142,12 @@ The scoping memo's `bearer_voice` enum (`direct`, `consulted`, `represented`, `a
 
 ## 8. Recommendation
 
-**Move next to first-real-commitment-record.**
+**Move next to first-real-commitment-record.** Status as of 2026-04-10: blocked on source data. No live BKC commitment pooling has been done by the project lead yet — all BKC pool data is test data. Two capture paths are now documented in `docs/research/evidence/templates/commitment-capture-checklist.md`:
 
-Why: Phases 1 and 2 are now complete as scaffolds. The commitment metadata schema, revision event convention, and decision-trace convention are all instantiated with artifacts. But the commitment artifacts remain seeds/stubs — no individual BKC commitment has been observed with the full schema. The first real commitment record is the transition from schema validation to evidence generation. It is the lowest-friction next step because: (a) BKC pools are operationally active with commitments transitioning through lifecycle stages; (b) Darren has direct access to BKC pool governance; (c) annotating one real commitment (~15 minutes) produces the first real-record commitment artifact, replacing or supplementing a seed. A cleanup/template pass is premature because there is not enough material to justify template refinement. Pausing to reassess deferred families is premature because the evidence stack needs at least one real operational record before triage can be informed by production evidence posture.
+1. **Path A — Victoria workshop (May-June 2026):** First-person capture of a live BKC commitment. This is the primary path.
+2. **Path B — Grassroots Economics external observation:** Annotate a production-scale commitment from Ruddick/GE/Sarafu/CLC operations (26K+ users, 188 pools, Celo mainnet). This is externally-observed evidence with a different observer relationship but equally valid `real_record` posture since the commitments are verifiable on-chain.
+
+Why the original recommendation still holds: Phases 1 and 2 are now complete as scaffolds. The commitment metadata schema, revision event convention, and decision-trace convention are all instantiated with artifacts. But the commitment artifacts remain seeds/stubs — no individual commitment has been observed with the full schema. The first real commitment record is the transition from schema validation to evidence generation. The capture checklist documents exactly what data is needed for both paths so the next opportunity can be seized without re-reading this memo.
 
 ## 9. Recommended Next 3 Runs
 

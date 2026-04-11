@@ -5,7 +5,6 @@ research_subkind: synthesis_note
 status: draft
 depends_on:
   - spore.connection.johar-ecology-of-courage
-  - spore.lexicon
 disposition: candidate primitive
 promotion_status: defer
 concepts:

@@ -3,8 +3,7 @@ doc_id: spore.connection.johar-entangled-freedom
 doc_kind: research
 research_subkind: bridge_note
 status: draft
-depends_on:
-  - spore.lexicon
+depends_on: []
 relates_to:
   - spore.term.field
 disposition: candidate primitive

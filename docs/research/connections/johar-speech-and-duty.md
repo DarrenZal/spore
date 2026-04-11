@@ -5,7 +5,6 @@ research_subkind: bridge_note
 status: draft
 depends_on:
   - spore.project-vision
-  - spore.lexicon
 disposition: candidate primitive
 concepts:
   - informational-duty
