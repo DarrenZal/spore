@@ -1,0 +1,76 @@
+artifact_type: restriction_map
+map_id: rm.agentic-memory.framework-to-spore.v0_1
+version: 0.1
+status: provisional
+direction:
+  source: framework.graphiti
+  target: spore.learning-field.agentic-memory
+dimension_vocabulary:
+  vocab_id: dv.agentic-memory.v1
+  version: 1
+  status: provisional
+authority_mode: delegated
+authored_by:
+  - holon: spore.steward.agent
+    role: draft_author
+ratified_by:
+  - holon: spore.steward
+    scope: exploratory_internal_research
+purpose:
+  - bridge_note
+  - research_comparison
+allowed_operations:
+  - compare
+  - summarize
+  - draft_bridge_note
+disallowed_operations:
+  - automated_merge
+  - production_integration_decision
+  - external_partner_representation
+effective_from: 2026-04-12
+effective_until: null
+supersedes: null
+grounding_requirements:
+  entity_resolution: required
+  minimum_confidence: medium
+  evidence_policy: multi_source_preferred
+governance_surface:
+  notes: >
+    Compare only published architecture claims and interface descriptions. Do not
+    infer security guarantees, commercial commitments, or roadmap certainty.
+  review_window: 14d
+  revisit_conditions:
+    - substantial revision to the dimension vocabulary
+    - major new source material changes the overlap
+compatibility_surface:
+  dimensions:
+    - dimension_id: memory_unit
+      value_kind: categorical
+      source_question: "What durable unit does the framework persist?"
+      target_question: "What durable unit does Spore recognize on this boundary?"
+      projection_rule: >
+        Project into entity, claim, event, artifact, profile, session, or none
+        if no defensible overlap exists.
+      comparison_rule: "Compare only the projected overlap."
+    - dimension_id: retrieval_model
+      value_kind: categorical
+      source_question: "How is durable context retrieved?"
+      target_question: "How is reusable context recovered in the target?"
+      projection_rule: "Project into vector, graph, hybrid, rule-based, or other."
+      comparison_rule: "Allow refinement and complementarity."
+    - dimension_id: temporal_model
+      value_kind: categorical
+      source_question: "How does the framework represent time or sequence?"
+      target_question: "How does the target preserve temporal structure?"
+      projection_rule: >
+        Project into session-bounded, event-stream, episodic, versioned-artifact,
+        or none.
+      comparison_rule: "Treat unresolved overlap as grounding-sensitive."
+omissions:
+  - pricing
+  - benchmark_claims_not_independently_verified
+  - unstated_governance_commitments
+  - implied adoption_recommendations
+provenance:
+  synthetic_example: true
+  rationale: "Illustrative provisional map for learning-field use."

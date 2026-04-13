@@ -1,0 +1,78 @@
+artifact_type: restriction_map
+map_id: rm.synthetic-sovereignty.boundary-surface.v1
+version: 1
+status: active
+direction:
+  source: nation.alpha.land-protocol
+  target: province.beta.environmental-assessment-interface
+dimension_vocabulary:
+  vocab_id: dv.boundary-governance.v1
+  version: 1
+  status: active
+authority_mode: unilateral
+authored_by:
+  - holon: nation.alpha.boundary-steward
+    role: draft_author
+ratified_by:
+  - holon: nation.alpha.stewardship-council
+    scope: bounded_external_assessment_use
+purpose:
+  - boundary_review
+  - limited_comparison
+allowed_operations:
+  - compare
+  - summarize_for_boundary_review
+disallowed_operations:
+  - automated_merge
+  - canonical_substitution
+  - infer_internal_law
+  - disclose_sensitive_locations
+effective_from: 2026-04-12
+effective_until: null
+supersedes: null
+grounding_requirements:
+  entity_resolution: required
+  minimum_confidence: high
+  evidence_policy: steward_approved_only
+governance_surface:
+  notes: >
+    This map declares only what the source is willing to project outward for the
+    named purpose. It does not grant reciprocal authority or imply shared
+    jurisdiction.
+  revisit_conditions:
+    - successor map issued by nation.alpha.stewardship-council
+    - explicit joint review requested by the source authority
+  review_basis:
+    - source_authority_resolution_2026_04
+compatibility_surface:
+  dimensions:
+    - dimension_id: watershed_unit
+      value_kind: categorical
+      source_question: "What watershed unit is relevant to the stewardship concern?"
+      target_question: "What watershed unit structures the assessment interface?"
+      projection_rule: "Project to shared watershed-unit identifiers only."
+      comparison_rule: "Agreement and complementarity permitted."
+    - dimension_id: seasonal_window
+      value_kind: ordered
+      source_question: "What seasonal stewardship window matters here?"
+      target_question: "What seasonal review window exists in the assessment?"
+      projection_rule: "Project to named seasonal windows only."
+      comparison_rule: "Agreement, refinement, and complementarity permitted."
+    - dimension_id: decision_authority
+      value_kind: categorical
+      source_question: "Who has authority to decide within the source protocol?"
+      target_question: "Who has authority within the target interface?"
+      projection_rule: "Project to named authority roles without collapsing them."
+      comparison_rule: >
+        Preserve non-gluing. The target authority role must not be treated as a
+        substitute for the source authority role.
+omissions:
+  - sacred_site_locations
+  - internal_law_basis
+  - clan_level_deliberation
+  - consent_delegation_logic
+provenance:
+  synthetic_example: true
+  rationale: >
+    Synthetic unilateral boundary map used to demonstrate sovereignty-sensitive
+    asymmetry and intentional non-gluing.

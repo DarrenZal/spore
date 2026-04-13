@@ -43,6 +43,8 @@ Explicit interaction and state contracts:
 
 - [store-and-forward-relay.md](./protocols/store-and-forward-relay.md) — pair-level relay and forwarded exchange
 - [claims-evidence-attestation.md](./protocols/claims-evidence-attestation.md) — epistemic anchoring and grounding
+- [agentic-memory-dimension-vocabulary.md](./protocols/agentic-memory-dimension-vocabulary.md) — first provisional dimension vocabulary for agentic-memory learning-field comparisons
+- [restriction-maps-and-comparison-records.md](./protocols/restriction-maps-and-comparison-records.md) — governed restriction-map artifacts and per-dimension comparison records for research agents
 - [protocols/README.md](./protocols/README.md) — protocol overview and future candidates
 
 ## Governance
@@ -50,6 +52,7 @@ Explicit interaction and state contracts:
 The rules Agent Commons uses for its own documentation and project governance:
 
 - [agent-commons-meta-protocol.md](./governance/agent-commons-meta-protocol.md) — artifact taxonomy and DAG rules
+- [matter-register.md](./governance/matter-register.md) — thin, queryable register of what Spore currently treats as load-bearing
 - [project-bootstrap-spec.md](./governance/project-bootstrap-spec.md) — tier definitions and bootstrap procedure
 - [project-briefing-pattern.md](./governance/project-briefing-pattern.md) — context assembly for agents
 - [adoption-guide.md](./governance/adoption-guide.md) — step-by-step onboarding

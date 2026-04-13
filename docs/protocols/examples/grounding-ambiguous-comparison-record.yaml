@@ -1,0 +1,52 @@
+artifact_type: comparison_record
+comparison_id: cmp.agentic-memory.graphiti-spore.2026-04-12.ambiguous
+restriction_map_id: rm.agentic-memory.framework-to-spore.v0_1
+source: framework.graphiti
+target: spore.learning-field.agentic-memory
+authority:
+  map_status_at_comparison: provisional
+  vocabulary_status_at_comparison: provisional
+  record_authority: exploratory
+comparison_context:
+  purpose: bridge_note
+  decision_question: "Is this framework legibly bridgeable into Spore's learning field?"
+  standpoint: spore.learning-field.agentic-memory
+  requested_by: spore.steward
+dimension_vocabulary:
+  vocab_id: dv.agentic-memory.v1
+  version: 1
+grounding:
+  status: ambiguous
+  evidence_refs:
+    - synthetic: framework.graphiti.docs.memory-overview
+    - synthetic: spore.docs.learning-field.agentic-memory-notes
+  ambiguous_entities:
+    - source_term: episode
+      candidate_targets:
+        - spore.session
+        - spore.event
+        - spore.claim_bundle
+      issue: >
+        The source term appears to span runtime interaction history and durable
+        structured knowledge, so the overlap cannot yet be fixed to one target
+        surface.
+      confidence: low
+  stop_reason: "Entity-resolution ambiguity blocks stable overlap construction."
+dimensions:
+  - dimension_id: memory_unit
+    status: underdetermined
+    rationale: "No stable overlap target for the source term 'episode'."
+  - dimension_id: temporal_model
+    status: underdetermined
+    rationale: >
+      Temporal structure may be comparable, but it depends on resolving whether
+      the unit is session-bounded, event-like, or artifact-like.
+overall:
+  summary: >
+    Comparison stopped before relation labeling. The overlap is only partially
+    grounded, so obstruction language would be premature.
+  suggested_response: request_human_review
+provenance:
+  generated_by: spore.steward.agent
+  generated_at: 2026-04-12T00:00:00Z
+  synthetic_example: true

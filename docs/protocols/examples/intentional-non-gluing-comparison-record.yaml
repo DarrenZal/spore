@@ -1,0 +1,65 @@
+artifact_type: comparison_record
+comparison_id: cmp.synthetic-sovereignty.boundary-review.2026-04-12
+restriction_map_id: rm.synthetic-sovereignty.boundary-surface.v1
+source: nation.alpha.land-protocol
+target: province.beta.environmental-assessment-interface
+authority:
+  map_status_at_comparison: active
+  vocabulary_status_at_comparison: active
+  record_authority: ratified
+  consent_basis: unilateral_source_ratification
+comparison_context:
+  purpose: boundary_review
+  decision_question: >
+    What parts of the source protocol can be compared to the assessment surface
+    without collapsing sovereignty?
+  standpoint: nation.alpha.boundary-review
+  requested_by: nation.alpha.stewardship-council
+dimension_vocabulary:
+  vocab_id: dv.boundary-governance.v1
+  version: 1
+grounding:
+  status: grounded
+  evidence_refs:
+    - synthetic: nation.alpha.boundary-resolution
+    - synthetic: province.beta.assessment-interface-spec
+dimensions:
+  - dimension_id: watershed_unit
+    status: comparable
+    source_projection: "watershed.unit.17"
+    target_projection: "watershed.unit.17"
+    relation: agreement
+    confidence: high
+    rationale: "Both sides identify the same watershed unit as the relevant surface."
+  - dimension_id: seasonal_window
+    status: comparable
+    source_projection: "late-spring stewardship window"
+    target_projection: "May-June assessment review window"
+    relation: complementarity
+    confidence: medium
+    rationale: >
+      The windows overlap enough to compose operationally, but each side carries
+      additional non-overlapping timing detail.
+  - dimension_id: decision_authority
+    status: comparable
+    source_projection: "nation.alpha.stewardship-council"
+    target_projection: "province.beta.permitting-office"
+    relation: intentional_non_gluing
+    confidence: high
+    review_basis: active_map_clause
+    revisit_condition: >
+      Revisit only if nation.alpha.stewardship-council issues a successor map or
+      requests a joint boundary review.
+    rationale: >
+      The comparison surface names both authority roles, but the active map
+      explicitly forbids treating the target authority as a substitute for the
+      source authority. The non-gluing is a governed boundary, not a failure.
+overall:
+  summary: >
+    Shared watershed context exists and seasonal windows compose, but authority
+    remains intentionally non-gluing under the source-approved boundary surface.
+  suggested_response: preserve_boundary_and_stop
+provenance:
+  generated_by: nation.alpha.boundary-steward
+  generated_at: 2026-04-12T00:00:00Z
+  synthetic_example: true

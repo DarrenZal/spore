@@ -88,6 +88,8 @@ The learning field is Track 4's operational projection of the wider [field](./fo
 - **Canonical roadmap**: [`intelligence-commons/docs/roadmap/learning-field-roadmap.md`](https://github.com/DarrenZal/intelligence-commons/blob/main/docs/roadmap/learning-field-roadmap.md) — machine-readable JSON + rendered markdown, tracking outcomes, milestones, decisions, initiatives, and risks
 - **Convergence data**: 82 governance clusters across 26 field families, 4 synthesis-ready, 2 cross-project (human-machine-complementarity, linguistic-closure)
 - **First synthesis**: Hyperstition governance pilot — 6 supports + 6 opposes, productive tension preserved, promotion deferred
+- **Next bounded pilot**: Agentic-memory comparison pilot using `dv.agentic-memory.v1`, 3-5 frameworks, 3 delegated restriction maps, 6-10 comparison records, and 1 synthesis note recording agreement, complementarity, obstruction, and intentional non-gluing. See [agentic-memory-comparison-pilot.md](./research/planning/agentic-memory-comparison-pilot.md).
+- **Meta-layer planning**: Governed Self-Revision names the preconditions, primitives, cadence rules, and sequencing by which Spore should revise its own grammar from practice. See [governed-self-revision.md](./research/planning/governed-self-revision.md).
 
 ### Staged autonomy
 

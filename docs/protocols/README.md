@@ -10,6 +10,10 @@ This directory contains live protocol specifications:
 
 - `store-and-forward-relay.md` — pair-level relay and forwarded exchange
 - `claims-evidence-attestation.md` — epistemic anchoring and grounding
+- `agentic-memory-dimension-vocabulary.md` — first provisional dimension vocabulary for agentic-memory framework comparison
+- `restriction-maps-and-comparison-records.md` — governed boundary artifacts and per-dimension agent comparison outputs
+
+Example artifacts for protocol usage live under `examples/`.
 
 Related architectural descriptions live in `foundations/`:
 
