@@ -1,7 +1,7 @@
 ---
 doc_id: spore.planning.agentic-memory-vocabulary-v2-review
 doc_kind: planning
-status: open
+status: draft
 depends_on:
   - spore.agentic-memory-dimension-vocabulary
   - spore.restriction-maps-and-comparison-records

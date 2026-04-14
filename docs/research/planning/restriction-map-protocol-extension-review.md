@@ -1,7 +1,7 @@
 ---
 doc_id: spore.planning.restriction-map-protocol-extension-review
 doc_kind: planning
-status: open
+status: draft
 depends_on:
   - spore.restriction-maps-and-comparison-records
 concepts:
