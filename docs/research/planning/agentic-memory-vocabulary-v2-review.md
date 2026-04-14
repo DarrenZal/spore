@@ -254,12 +254,11 @@ elected the narrower v2 scope rather than bundling all four.
 
 ## Downstream actions (unblocked by this decision)
 
-1. **Mint `dv.agentic-memory.v2`** as a new governed artifact at
-   `docs/protocols/agentic-memory-dimension-vocabulary-v2.md` (or successor
-   version inline in the v1 doc, per Spore's preferred versioning convention),
-   with the refined `retrieval_model` values and the new `procedural_memory`
-   dimension. Migration notes must document the v1→v2 delta and how existing
-   records aggregate.
+1. **Mint `dv.agentic-memory.v2`** — **DONE 2026-04-14.** Minted at
+   [`docs/protocols/agentic-memory-dimension-vocabulary-v2.md`](../../protocols/agentic-memory-dimension-vocabulary-v2.md)
+   with refined `retrieval_model` values (3 hybrid sub-values) and new
+   `procedural_memory` dimension. v1→v2 migration notes included. C3 and C4
+   explicitly deferred, not silently folded in.
 2. **Unblock IC procedural-memory review**
    (`intelligence-commons/docs/research/memory-layers-procedural-review.md`) —
    Option D's precondition is now resolved. IC can choose between Options A

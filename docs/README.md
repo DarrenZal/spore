@@ -43,7 +43,8 @@ Explicit interaction and state contracts:
 
 - [store-and-forward-relay.md](./protocols/store-and-forward-relay.md) — pair-level relay and forwarded exchange
 - [claims-evidence-attestation.md](./protocols/claims-evidence-attestation.md) — epistemic anchoring and grounding
-- [agentic-memory-dimension-vocabulary.md](./protocols/agentic-memory-dimension-vocabulary.md) — first provisional dimension vocabulary for agentic-memory learning-field comparisons
+- [agentic-memory-dimension-vocabulary.md](./protocols/agentic-memory-dimension-vocabulary.md) — v1 (predecessor); remains valid for v1-bucketed records
+- [agentic-memory-dimension-vocabulary-v2.md](./protocols/agentic-memory-dimension-vocabulary-v2.md) — **current default** dimension vocabulary (refined `retrieval_model` + new `procedural_memory` dimension; steward-decided 2026-04-14)
 - [restriction-maps-and-comparison-records.md](./protocols/restriction-maps-and-comparison-records.md) — governed restriction-map artifacts and per-dimension comparison records for research agents
 - [protocols/README.md](./protocols/README.md) — protocol overview and future candidates
 

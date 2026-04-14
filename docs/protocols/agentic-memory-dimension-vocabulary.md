@@ -9,6 +9,11 @@ depends_on:
 
 # Agentic Memory Dimension Vocabulary
 
+> **Successor:** [agentic-memory-dimension-vocabulary-v2.md](./agentic-memory-dimension-vocabulary-v2.md)
+> is the current default for new records (steward-decided 2026-04-14). v1 below
+> remains valid for v1-bucketed records; do **not** re-label existing records as v2.
+> See the v2 doc for migration notes.
+
 The first governed dimension vocabulary for comparing external agentic-memory frameworks inside Spore's learning field.
 
 ## Purpose
