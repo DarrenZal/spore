@@ -1,0 +1,131 @@
+# status: frozen
+# version: v1
+# frozen_at: 2026-04-15
+# owner: Darren Zal
+# purpose: Canonical concept slugs for P2P Foundation wiki intake bridge notes.
+# Agents reading this file MUST NOT mint concept slugs outside this vocabulary during
+# Tier 1b/2/3 of the wiki-intake plan (sequential-questing-sparrow). Tier 0 gate:
+# `head -1 concepts-p2p-wiki.yaml` must match "# status: frozen" before fan-out.
+# Extensions to this vocab require a separate commit with operator approval and
+# a version bump (v1 → v2) — do NOT silently append.
+
+concepts:
+  - slug: boundary-commoning
+    canonical_label: Boundary Commoning
+    aliases: [boundary-commons, commoning-at-boundaries]
+    one_line_definition: Coordination at the edges between distinct commons systems, involving shared rule-making at the boundary without full merger of the underlying commons.
+    primary_project: spore
+
+  - slug: polycentric-governance
+    canonical_label: Polycentric Governance
+    aliases: [polycentrism, multi-center-governance]
+    one_line_definition: Governance distributed across multiple decision centers that interact formally, each with limited autonomy, avoiding both full centralization and full fragmentation.
+    primary_project: spore
+
+  - slug: commitment-pooling
+    canonical_label: Commitment Pooling
+    aliases: [pooled-commitments, commitment-pools]
+    one_line_definition: Aggregation of commitments across parties into a shared pool whose resolution/allocation follows pool-level rules rather than per-party transactions.
+    primary_project: pm
+
+  - slug: mutual-credit
+    canonical_label: Mutual Credit
+    aliases: [mutual-credit-system, peer-credit]
+    one_line_definition: A credit system in which participants extend credit directly to each other, typically without a central issuer or interest, with net positions tracked relative to a shared unit.
+    primary_project: pm
+
+  - slug: knowledge-commons
+    canonical_label: Knowledge Commons
+    aliases: [knowledge-as-commons, commons-based-knowledge]
+    one_line_definition: Knowledge as a commons with shared governance over creation, curation, access, and use — as distinct from both private property and public-goods framings.
+    primary_project: ic
+
+  - slug: inclusive-governance
+    canonical_label: Inclusive Governance
+    aliases: [inclusive-participation, multi-stakeholder-governance]
+    one_line_definition: Governance arrangements that structurally include affected parties (beneficiaries, contributors, bystanders) in decision-making beyond consultation.
+    primary_project: ic
+
+  - slug: generative-value
+    canonical_label: Generative Value
+    aliases: [generativity, generative-commons]
+    one_line_definition: Value that is produced-through-use rather than consumed-by-use; commons and knowledge goods typically have this property.
+    primary_project: ic
+
+  - slug: protocol-society
+    canonical_label: Protocol Society
+    aliases: [protocolization, protocol-governance]
+    one_line_definition: A societal arrangement in which coordination runs primarily through agreed-upon protocols (vs. hierarchies or markets alone); governance becomes protocol design.
+    primary_project: spore
+
+  - slug: curation-valuation-limitation-exchange
+    canonical_label: Curation / Valuation / Limitation / Exchange (CVLE)
+    aliases: [cvle, four-functions-of-commons]
+    one_line_definition: Four coordination functions identified across commons-design literatures — curating membership and content, valuing contributions, limiting extraction, enabling exchange.
+    primary_project: pm
+
+  - slug: market-dependence
+    canonical_label: Market Dependence
+    aliases: [market-reliance, marketization]
+    one_line_definition: The condition in which actors must engage with markets to meet needs, regardless of whether they would choose to; distinguished from mere market use.
+    primary_project: pm
+
+  - slug: value-capture
+    canonical_label: Value Capture
+    aliases: [value-extraction]
+    one_line_definition: Concentration of value produced by a commons or collective activity into private hands via enclosure, IP, platform rent, or structural extraction.
+    primary_project: ic
+
+  - slug: power-capture
+    canonical_label: Power Capture
+    aliases: [governance-capture, regulatory-capture]
+    one_line_definition: Structural accrual of governance power to a subset of participants, often via mechanisms designed for other ends (protocol lock-in, gatekeeper roles, data asymmetry).
+    primary_project: spore
+
+  - slug: interoperability-as-institutional
+    canonical_label: Interoperability as Institutional
+    aliases: [institutional-interoperability, interop-as-governance]
+    one_line_definition: The view that interoperability between systems is an institutional/governance problem as much as a technical one — schemas, protocols, and trust frames all matter.
+    primary_project: ic
+
+  - slug: boundary-spanner
+    canonical_label: Boundary Spanner
+    aliases: [boundary-role, liaison]
+    one_line_definition: An agent or role whose function is to mediate between two or more otherwise-separate systems, translating across boundary conditions.
+    primary_project: spore
+
+  - slug: coordination-substrate
+    canonical_label: Coordination Substrate
+    aliases: [substrate-for-coordination, coordination-layer]
+    one_line_definition: The shared infrastructure (technical, linguistic, normative) that enables a set of actors to coordinate without bilateral negotiation for every act.
+    primary_project: pm
+
+  - slug: commercial-credit-circuit
+    canonical_label: Commercial Credit Circuit
+    aliases: [ccc, trade-credit-circuit]
+    one_line_definition: A closed circuit of commercial actors extending credit to each other via shared instruments, clearing net positions periodically rather than transacting in cash.
+    primary_project: pm
+
+  - slug: bioregional-coordination
+    canonical_label: Bioregional Coordination
+    aliases: [bioregional-governance, watershed-coordination]
+    one_line_definition: Coordination scoped to ecological boundaries (watersheds, bioregions) rather than political jurisdictions; typical basis for regenerative governance proposals.
+    primary_project: pm
+
+  - slug: reputation-market
+    canonical_label: Reputation Market
+    aliases: [reputation-economy, trust-market]
+    one_line_definition: A coordination mechanism in which reputation (not cash) is the primary exchanged quantity for access, influence, or rights within a community.
+    primary_project: pm
+
+  - slug: collective-agency
+    canonical_label: Collective Agency
+    aliases: [group-agency, collective-intentionality]
+    one_line_definition: The capacity of a group to act as an agent — holding intentions, deliberating, and being held responsible — beyond the sum of individual agencies.
+    primary_project: spore
+
+  - slug: memory-governance
+    canonical_label: Memory Governance
+    aliases: [knowledge-memory-governance, archive-governance]
+    one_line_definition: Governance of what is remembered, forgotten, attributed, and accessible across time for a commons or knowledge infrastructure.
+    primary_project: ic
