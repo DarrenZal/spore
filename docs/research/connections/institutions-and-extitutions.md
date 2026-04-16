@@ -91,10 +91,11 @@ sources:
     type: corroborating
     license: CC BY-SA 4.0
   - url: https://wiki.p2pfoundation.net/Extitutions
-    title: "Extitutions (dead anchor on local mirror 2026-04-15: plural slug Extitutions.mediawiki absent; the canonical page is Extitution.mediawiki singular, plus Extitutional_Theory / Extitutional_Processes / Extitutional_Urbanism. Logged per Wave 1 dead-anchor convention; no C-claim anchors to this slug)"
+    title: "Extitutions (plural slug; terminal — absent from corpus, re-verified 2026-04-16 via migration 083 resolver)"
     rid: orn:p2p-wiki.page:Extitutions
-    type: dead_anchor
+    type: terminal_stub
     license: CC BY-SA 4.0
+    note: "Plural slug has no wiki page. Canonical singular Extitution (wiki page_id 37284, 1262 words) is anchored above as primary, along with Extitutional_Theory / Extitutional_Processes / Extitutional_Urbanism. No C-claim anchors to this slug."
   - path: /Users/darrenzal/projects/spore/docs/research/connections/p2p-wiki-field-scan.md
     title: P2P Foundation Wiki — Field Scan (spore.connection.p2p-wiki-field-scan)
     type: seed
