@@ -32,10 +32,11 @@ sources:
     type: primary
     license: CC BY-SA 4.0
   - url: https://wiki.p2pfoundation.net/Boundary_Spanner
-    title: "Boundary Spanner (dead redirect on local mirror 2026-04-15: Boundary_spanner.mediawiki → Boundary_Spanner target absent; corroborating concept only, no anchored claims)"
+    title: Boundary Spanner
     rid: orn:p2p-wiki.page:Boundary_Spanner
     type: corroborating
     license: CC BY-SA 4.0
+    note: "Re-verified 2026-04-16 via migration 083 resolver: page is canonical (wiki page_id 5877, 539 words, is_redirect=false). Original 2026-04-15 intake flagged this as self-referential redirect; KOI corpus re-import resolved it to a substantive page. No C-claim anchors here; kept as corroborating."
   - path: /Users/darrenzal/projects/spore/tmp/p2p-wiki-synthesis-2026-04-20.md
     title: P2P Wiki Synthesis (seed field scan; elevated as spore.connection.p2p-wiki-field-scan)
     type: seed
