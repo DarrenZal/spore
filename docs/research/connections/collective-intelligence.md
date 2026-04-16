@@ -94,10 +94,11 @@ sources:
     type: corroborating
     license: CC BY-SA 4.0
   - url: https://wiki.p2pfoundation.net/Collaborative_Intelligence
-    title: "Collaborative Intelligence (dead self-referential redirect on local mirror 2026-04-15: Collaborative Intelligence.mediawiki is a single line 'See [[Collaborative Intelligence]]' pointing to its own slug; corroborating content carried via CQ - Collaborative Intelligence; logged, no C-claim anchor)"
+    title: Collaborative Intelligence
     rid: orn:p2p-wiki.page:Collaborative_Intelligence
-    type: dead_anchor
+    type: corroborating
     license: CC BY-SA 4.0
+    note: "Re-verified 2026-04-16 via migration 083 resolver: page is canonical (wiki page_id 5797, 559 words, is_redirect=false). Original 2026-04-15 intake flagged this as self-referential redirect; KOI corpus re-import resolved it to a substantive page. CQ_-_Collaborative_Intelligence (above) remains the primary corroborating source for this cluster's CQ-distinct content; no C-claim anchors here."
   - path: /Users/darrenzal/projects/spore/docs/research/connections/p2p-wiki-field-scan.md
     title: P2P Foundation Wiki — Field Scan (spore.connection.p2p-wiki-field-scan)
     type: seed
