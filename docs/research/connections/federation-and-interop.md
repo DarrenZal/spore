@@ -78,11 +78,13 @@ sources:
     rid: orn:p2p-wiki.page:Category:P2P_Infrastructure
     type: category
     license: CC BY-SA 4.0
-  - url: https://wiki.p2pfoundation.net/Federation
-    title: "Federation (dead anchor on local mirror 2026-04-15: Federation.mediawiki is a single-line redirect to Cross-Platform Federation of Internet Infrastructures; logged, no C-claim anchor)"
-    rid: orn:p2p-wiki.page:Federation
-    type: dead_anchor
+  - url: https://wiki.p2pfoundation.net/Cross-Platform_Federation_of_Internet_Infrastructures
+    title: Cross-Platform Federation of Internet Infrastructures (resolved from Federation stub)
+    rid: orn:p2p-wiki.page:Cross-Platform_Federation_of_Internet_Infrastructures
+    type: corroborating
     license: CC BY-SA 4.0
+    redirect_chain: [Federation, Cross-Platform_Federation_of_Internet_Infrastructures]
+    note: "Resolved 2026-04-16 via migration 083. Federation.mediawiki is a stub (wiki page_id 36456, 6 words); canonical target is anchored above as the primary source for this cluster."
   - path: /Users/darrenzal/projects/spore/docs/research/connections/p2p-wiki-field-scan.md
     title: P2P Foundation Wiki — Field Scan (spore.connection.p2p-wiki-field-scan)
     type: seed
