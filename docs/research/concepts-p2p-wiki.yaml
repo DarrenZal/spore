@@ -1,13 +1,18 @@
 # status: frozen
-# version: v1
-# frozen_at: 2026-04-15
+# version: v2
+# frozen_at: 2026-04-17
 # owner: Darren Zal
 # purpose: Canonical concept slugs for P2P Foundation wiki intake bridge notes.
 # Agents reading this file MUST NOT mint concept slugs outside this vocabulary during
-# Tier 1b/2/3 of the wiki-intake plan (sequential-questing-sparrow). Tier 0 gate:
+# Tier 1b/2/3 of the wiki-intake plan. Pass 2 fan-out (Phase B) gate:
 # `head -1 concepts-p2p-wiki.yaml` must match "# status: frozen" before fan-out.
 # Extensions to this vocab require a separate commit with operator approval and
-# a version bump (v1 → v2) — do NOT silently append.
+# a version bump — do NOT silently append.
+# v2 (2026-04-17): adds 18 slugs from Phase A synthesis §7a covering reproductive
+# commoning, pluriversal/care/solidarity vocabularies, autopoiesis/4E, cosmo-local,
+# platform-cooperativism, REA/ValueFlows, commons-law, and 2 opposition primitives
+# (filtering-membrane, decentralization-theater). polycentric-governance definition
+# expanded with 4-level ladder per §7b absorption.
 
 concepts:
   - slug: boundary-commoning
@@ -19,7 +24,7 @@ concepts:
   - slug: polycentric-governance
     canonical_label: Polycentric Governance
     aliases: [polycentrism, multi-center-governance]
-    one_line_definition: Governance distributed across multiple decision centers that interact formally, each with limited autonomy, avoiding both full centralization and full fragmentation.
+    one_line_definition: Governance distributed across multiple decision centers that interact formally, each with limited autonomy; sits on a 4-level ladder (centralized → decentralized → polycentric → bioregional) where bioregional is the stricter form matching political-administrative boundaries to ecological ones.
     primary_project: spore
 
   - slug: commitment-pooling
@@ -129,3 +134,113 @@ concepts:
     aliases: [knowledge-memory-governance, archive-governance]
     one_line_definition: Governance of what is remembered, forgotten, attributed, and accessible across time for a commons or knowledge infrastructure.
     primary_project: ic
+
+  # ─── v2 additions (2026-04-17) — Phase A synthesis §7a ────────────────────
+
+  - slug: reproductive-commoning
+    canonical_label: Reproductive Commoning
+    aliases: [care-commoning, reproductive-labor-commons]
+    one_line_definition: Commoning centered on reproductive labor — care, provisioning, housing, territorial stewardship — as the primary (not derivative) coordination substrate; Federici/Bhattacharya lineage via `Communalization_of_Housework`, `Women_and_the_Commons`, `Caring_Economy`, `Social_Reproduction_Theory`.
+    primary_project: spore
+
+  - slug: pluriversal-commoning
+    canonical_label: Pluriversal Commoning
+    aliases: [pluriverse, ontological-pluralism]
+    one_line_definition: Commoning framed by Escobar/Gudynas/Acosta as refusal of One-World doctrine — a world of many worlds where knowledge systems are ontologically distinct and translation is political negotiation rather than technical standardization.
+    primary_project: ic
+
+  - slug: gift-obligation
+    canonical_label: Gift Obligation
+    aliases: [mauss-gift, ongoing-obligation]
+    one_line_definition: Mauss/Pinchot gift-economy dynamic where attribution encodes ongoing obligation (not just recognition) — status accrues via contribution, and gifts create unbounded reciprocity relations rather than closing transactions.
+    primary_project: ic
+
+  - slug: solidarity-substrate
+    canonical_label: Solidarity Substrate
+    aliases: [solidarity-economy, mutual-aid-substrate]
+    one_line_definition: Coordination substrate grounded in solidarity (reciprocity as design principle, not value-statement) — Pat Conaty/Michael Lewis framing of social solidarity economy, CSA/mutual-aid/tontine lineages, distinct from both market and state substrates.
+    primary_project: pm
+
+  - slug: commons-as-verb
+    canonical_label: Commons as Verb (Commoning)
+    aliases: [commoning-practice, commoning-activity]
+    one_line_definition: Bresnihan/De Angelis framing: commons is constituted through the activity of commoning (acting and doing in common across human and non-human actors), not as a noun/resource. Primary coordinating practice is care, not governance.
+    primary_project: spore
+
+  - slug: autopoiesis
+    canonical_label: Autopoiesis
+    aliases: [autopoietic-system, self-production]
+    one_line_definition: Maturana-Varela (1972) theory of living systems as organizationally closed networks that continuously produce and regenerate their own components while remaining structurally coupled to their environment.
+    primary_project: ic
+
+  - slug: structural-coupling
+    canonical_label: Structural Coupling
+    aliases: [perturbation-coupling, coupling-dynamics]
+    one_line_definition: Autopoiesis-theoretic relation where a system and its environment co-specify each other through recurrent perturbation without exchanging components — distinguishes informational openness from operational closure.
+    primary_project: ic
+
+  - slug: enactive-cognition
+    canonical_label: Enactive Cognition
+    aliases: [4e-cognition, embodied-cognition]
+    one_line_definition: Varela-Thompson-Rosch (1991) and 4E (embodied/embedded/enacted/extended) framing of cognition as enaction — sense-making emerges at the interaction level through sensorimotor coupling, not from internal representations.
+    primary_project: ic
+
+  - slug: cosmo-local-production
+    canonical_label: Cosmo-Local Production
+    aliases: [design-global-manufacture-local, dgml]
+    one_line_definition: Ramos/Bauwens/Kostakis framing where knowledge/design is globally shared as commons while production is distributed locally per subsidiarity — federated realization of global design commons at the lowest competent scale.
+    primary_project: spore
+
+  - slug: open-hardware-commons
+    canonical_label: Open Hardware Commons
+    aliases: [fab-lab-commons, open-source-hardware]
+    one_line_definition: Gershenfeld/Fab-Lab lineage of commons-governed physical-infrastructure production; 4 degrees of openness (closed → interface-open → design-open → implementation-open); Fab Charter encodes right-to-join/leave, transparency, education.
+    primary_project: spore
+
+  - slug: platform-cooperativism
+    canonical_label: Platform Cooperativism
+    aliases: [platform-coop, cooperative-platform]
+    one_line_definition: Scholz (2016) framing of democratically-owned/governed digital platforms as constructive alternative to investor-driven extractive platforms; multi-stakeholder cooperative ownership replaces shareholder model.
+    primary_project: pm
+
+  - slug: open-cooperativism
+    canonical_label: Open Cooperativism
+    aliases: [commons-based-cooperativism, bauwens-open-coop]
+    one_line_definition: Conaty-Bollier convergence thesis: commons-based peer production + cooperative ownership = "cooperative accumulation"; Bauwens' 4 criteria (commons-good, multi-stakeholder, commons co-production, glocal organizational structure).
+    primary_project: pm
+
+  - slug: stigmergy
+    canonical_label: Stigmergy
+    aliases: [environmental-trace-coordination, indirect-coordination]
+    one_line_definition: Heylighen (2015) formalization of indirect coordination via persistent environmental traces — no central authority, planning, or temporal simultaneity required; coordination emerges from agents responding to traces in a shared medium.
+    primary_project: ic
+
+  - slug: rea-ontology
+    canonical_label: REA Ontology / ValueFlows
+    aliases: [resource-event-agent, valueflows-vocabulary, nrp-rea]
+    one_line_definition: Resource-Event-Agent ontology (McCarthy 1982) extended by Lynn Foster/Bob Haugen via NRP → ValueFlows → Holo-REA into a bidirectional resource-flow vocabulary with 6 principles (internetworking, bidirectional tracking, reward distribution, fractality, recipe/planning/accounting, shape-agnostic) excluding price-based valuation.
+    primary_project: pm
+
+  - slug: commons-law
+    canonical_label: Commons Law
+    aliases: [commons-chartering, constitutional-commons, commons-trusts]
+    one_line_definition: 800-year legal-institutional lineage of commons-access rights — Charter of the Forest (1217) codifying subsistence-commons access distinct from Magna Carta's political-liberties lineage, extending through modern commons trusts and public-commons partnerships; law as scaffolding for commons governance, absent which governance-alone invites enclosure via regulation.
+    primary_project: spore
+
+  - slug: bioregional-scope
+    canonical_label: Bioregional Scope
+    aliases: [watershed-scope, bioregional-governance-scope]
+    one_line_definition: 4th-level scope on the governance ladder (centralized → decentralized → polycentric → bioregional), matching political-administrative boundaries to ecological ones (watersheds, biogeographic regions); stricter than polycentric — no organization higher than necessary, and no 501(c)(3) can legitimately represent a bioregion.
+    primary_project: pm
+
+  - slug: filtering-membrane
+    canonical_label: Filtering Membrane (De Angelis; refuted by FairCoin study)
+    aliases: [de-angelis-membrane, commons-filter]
+    one_line_definition: De Angelis's cell-biology-inspired framing of commons boundaries as "filtering membranes" that selectively admit/reject external value flows; empirically refuted by the Dallyn-Frenzel (2021, Antipode) FairCoin failure study, which shows unspecified boundaries, convertibility pressure, and external-market valuation dependence collapse the filter. Opposition primitive.
+    primary_project: spore
+
+  - slug: decentralization-theater
+    canonical_label: Decentralization Theater
+    aliases: [fake-decentralization, nominal-decentralization]
+    one_line_definition: Yarvin framing (and Brastaviceanu extensions) for systems that display the appearance of decentralization — nominal P2P topology, blockchain branding — while retaining centralized power concentrations via admin keys, protocol governance, or operational dependencies; an opposition primitive against unqualified "decentralized" / "peer-to-peer" claims.
+    primary_project: spore
