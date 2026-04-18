@@ -310,3 +310,167 @@ If a future moratorium is ever reinstated, the canon-review protocol can still b
 ## Changelog
 
 - **v1** (2026-04-17): Initial protocol harvested alongside the canon-review-v1 plan. 15 rounds of Codex review. Key methodological choices: protocol-first (canon review is normatively different from intake, which is descriptive), ADR-lite format (compact, one-screen), strict concepts vocabulary (no ad-hoc extension), held-tension first-class (no count quota), cross-project coordination via Spore-hosted framing notes + session-atomic commit sets, evidence threshold with DB-authoritative verification. v2 to be harvested after canon-review-v1 execution completes.
+- **v2** (2026-04-18): Harvested from canon-review-v1 plan execution (Phase 5). 10 decisions across Tier A (3) + Tier B (4) + Tier C (3 per-project sessions), producing 23 ADRs across Spore (8) + IC (8) + PM (7) + 6 coordinated shared-framing notes. 28 harvest items (i–xxviii) compress to 11 semantic refinements + 7 script fixes + 5 evidence methods + 4 workflow rules + 2 cross-ref rules + 5 v3 deferrals. v2 section appended below.
+
+---
+
+## v2 (harvested 2026-04-18)
+
+**Source**: canon-review-v1 plan execution, 10 decisions across Tier A (3 ADRs) + Tier B (4 coordinated sets: reproduction-primacy, boundary-theory-unifier, three-layer-coordination-stack, decentralization-myth-bundle) + Tier C (3 per-project sessions), producing 23 ADRs across Spore (8) + IC (8) + PM (7) + 6 coordinated shared-framing notes. Zero partial-drift events. Zero rollback invocations. Zero slug reuse. Session-atomic 30-min window cleared by 0–30 seconds in all 6 coordinated sets. Spore validator baseline held at 7 errors throughout. Findings harvested from plan Execution log items i–xxviii.
+
+**Item-count reconciliation**: log contains 25 explicitly Roman-numeraled items ((i)–(xxv) assigned across reproduction-primacy→PM Tier C sessions), plus 2 unnumbered DH-IC-1 findings (validator status-enum; AC-17 awk pattern), plus 1 handoff-preamble observation (reject subtypes after Tier B #4). Total 28. All accounted for in the rules below.
+
+### What v1 got right
+
+These patterns carried all 10 decisions across 3 tiers without strain. v2 preserves them unchanged:
+
+- **Protocol-first phase decision.** Phase 1 authored v1 protocol before any Phase 2+ decisions. Load-bearing — every ADR cited §§ of the protocol as its authority; without the protocol in place, early ADRs would have invented justification patterns ad-hoc.
+- **Constraint 1 (one decision = one ADR = one coordinated commit set).** 10 decisions produced zero bundling violations. No ADR attempted to resolve two R-claims at once.
+- **Session-atomic 30-minute window (AC-4c).** Every coordinated set cleared within 0–30 seconds between first and last creation commit. Zero near-misses across 6 sets.
+- **Shared-framing-in-Spore-as-host (§5a).** Convention held across all 6 coordinated sets; zero operator override.
+- **Evidence threshold ≥3S + S>O (§4).** Caught `ic.memory-layers:autopoiesis` cleanly: capstone §5.2 promoted it but DB returned 2S/0O — the threshold forced hold-as-tension disposition. Prevents capstone-promotion from overriding DB gate.
+- **Held-tension as first-class disposition (§4).** DH-PM-1, DH-IC-1, and IC-0008 autopoiesis all resolved held-as-tension without forcing artificial edits. No count quota — evidence drove disposition.
+- **Pre-flight 7-check gate (PF-1..PF-7).** Caught baseline state unambiguously each session. Dirty-state approval for Spore intake-plan untracked items worked without ambiguity.
+- **Tier A→B handoff rule (§8).** reproduction-primacy was decided in Tier A as 3-repo edit; Tier B handoff reduced to a one-line no-op log entry — exactly the intended behavior.
+
+### Semantic refinements (protocol-level changes)
+
+**R-1 (Extended-D3 concept × target, item xviii).** Tier handoff checks from v1 §8 are concept-only by spec. Operationally the correct unit is the *(concept, canon-target)* tuple: a prior ADR on concept X at target A does NOT bar a subsequent Tier C edit on X at target B. Re-read D3's three branches as triggered by *(concept, target)* tuple, not concept alone. Spore Tier C #1 polycentric-governance at mycelial-holarchy proceeded because prior ADR-0004 coverage was at project-vision (different target).
+
+**R-2 (Prior-ADR-authorizes-successor, item xxiii).** Authored deferral language in a prior ADR's Context / Consequences / Diff summary is first-class evidence, not commentary. When prior ADR body says "X is not foreclosed at surface Y" or "Tier C is the proper home for this edit," the subsequent Tier C ADR cites the authorization and a held-tension overlap (Constraint 5c) resolves via self-authorization rather than an independent orthogonality argument. pm:ADR-0007 demonstrated this against pm:ADR-0001's hold on `market-dependence`.
+
+**R-3 (Scope-decision rule for structural insights, item iii).** When a Tier B insight's R-claims target one repo's canon but the insight's substantive implications re-motivate other repos' canon, scope the ADR across all affected repos — not strict R-claim-literal single-repo. reproduction-primacy was authored 3-repo on this basis. Rule: if capstone's "What it changes" section makes substantive claims (not pointer-only cross-references) about another repo's canon, that repo is in-scope. Strengthens v1 §5b fan-out trigger by clarifying how `affects_canon` is chosen for insight-level ADRs.
+
+**R-4 (Symmetric multi-primary, item v).** When every affected repo carries its own primary R-claim on its own canon target (boundary-theory-unifier shape, three-layer-coordination-stack shape), v1's "primary / secondary" language over-singularizes. For symmetric decisions, each repo's ADR uses its own repo-local primary in `r_claim_source[0]`; the shared framing note carries the cross-repo narrative. §4 gate is evaluated per-repo against its own primary.
+
+**R-5 (Per-layer primary cluster gate + target mismatch, items viii + ix).** For multi-concept architectural ADRs (three-layer-coordination-stack first), §4 evidence threshold is evaluated *per layer's primary cluster*, not only at the single primary. Each layer-occupancy claim has its own ≥3S + S>O cluster. Further: a concept's canonical canon target may differ from the specific R-claim's stated target — per-layer primary-cluster selection may target the strongest evidence cluster for that layer regardless of which canon doc the layer statement foregrounds (Spore production-layer evidence lived at `spore-instance-model:cosmo-local-production`, not `mycorrhizal-federation-protocol:platform-cooperativism`, even though federation-protocol was the layer-statement surface).
+
+**R-6 (Structural declination, item vii).** When a repo genuinely occupies N of M layers (not all M), record the absent layer as explicit declination in ADR Evidence. This is NOT a §4 gate failure. IC declined the production layer in three-layer-coordination-stack (implicit via federated surfaces, not IC-native) — recorded as declination, not counted as a missing cluster. Enables honest architectural self-description without forcing an invented cluster.
+
+**R-7 (Discipline-rule R-claims vs cluster-gated edits, items vi + xiii).** Distinguish two R-claim shapes:
+- *Cluster-gated edits* — R-claim names a canon edit whose §4 gate is satisfied at an existing DB cluster (target:concept).
+- *Discipline-rule R-claims* — R-claim targets a canon doc but imposes a vocabulary/framing discipline without its own DB cluster. Gate routes to a supporting cluster via §4 aggregate rule.
+
+Relevant when (a) concept is too new to have projection coverage (e.g., `decentralization-theater` frozen in v2 post-projection), or (b) the discipline is a composition rule over an existing cluster (e.g., openwashing R1 over `power-capture`). v2 formalizes: Constraint 5's cluster-size check applies to cluster-gated edits only; discipline-rule R-claims carry as secondary, citing the gating cluster.
+
+**R-8 (Asymmetric fan-out, item xii).** Not all coordinated sets are symmetric. When an R-claim's antecedent conditions do not fire on a repo's vocabulary (verified by grep), disposition `reject` with verification grep in Evidence is the operator-honest outcome — not forcing a declination paragraph that would re-introduce the exposure by stating it. Decent-myth-bundle's PM reject set the precedent (PM canon had zero instances of decentralization/peer-to-peer/P2P/peer-production vocabulary).
+
+**R-9 (Reject subtypes, item xxvi).** Two reject patterns are operationally distinct and must be named in Evidence:
+- *Vocabulary-scope reject* — target canon doc doesn't use the vocabulary the R-claim critiques (PM decent-myth-bundle; verified by grep over target canon files).
+- *Architectural-scope reject* — target architecture doesn't instantiate the R-claim's implicit primitive (IC collective-agency reject: IC's 7-primitive architecture doesn't include agency-as-primitive; agency is context).
+
+Both produce ADR-only commits (AC-11); Evidence names the subtype and cites the verification (grep for vocab-scope; architecture-schema reference for architectural-scope).
+
+**R-10 (No-op vs reject clarification, item xv).** "No-op commits forbidden" per v1 §11.8 means "affects_canon-stages-nothing commit". Reject-disposition commits DO stage the ADR file itself; they are not no-ops. Framing-carrier commits per §5c are the designated exception (framing file only, no ADR). v2 clarifies: `affects_canon: []` + AC-11 enforcement IS the reject pattern — it materially lands a decision artifact and satisfies the no-empty-commit rule.
+
+**R-11 (ADR status-enum mapping for Spore, item i).** Spore validator accepts `status: [active, deprecated, draft, superseded]`; ADR lifecycle names are `[proposed, accepted, superseded, partial-drift]`. v2 mapping (used by all 8 Spore ADRs in v1 execution): `proposed → draft`, `accepted → active`. IC and PM have no validator — use the ADR-lifecycle names directly. Clean fix deferred to v3 (see Deferred §).
+
+### Verification-script refinements (bash + scripts)
+
+**Script-S1 (AC-17 concepts-yaml pattern, item ii).** v1's AC-17 check uses `grep -q "^$c:"` against concepts-p2p-wiki.yaml v1 format. v2 freeze uses `- slug: X` list form. Fix:
+
+```bash
+grep -q "^[[:space:]]*- slug: ${c}[[:space:]]*$" "$CONCEPTS_YAML"
+```
+
+Additionally, AC-17 frontmatter extraction via awk can extend past the `concepts:` block and pull Evidence-section bullets as false positives. Bound the extraction explicitly (next-key regex or blank-line boundary). IC Tier C and PM Tier C both saw the false-positive flood; substantive data passed — regex hygiene only.
+
+**Script-S2 (AC-9 r_claim_source iteration, item iv).** v1 used `for entry in $entries` which word-splits on whitespace and newlines. Fix:
+
+```bash
+while IFS= read -r entry; do
+  [ -z "$entry" ] && continue
+  # verify entry exists in bridge notes
+done < <(yq '.r_claim_source[]' "$ADR")
+```
+
+**Script-S3 (AC-8b cluster_key regex, item x).** v1 regex `cluster[_-]key:\s*[a-z]+\.` did not accept backtick-wrapped values. ADRs from 0002 onward use backtick convention. Fix:
+
+```bash
+grep -qE 'cluster_key:\s*`?[a-z][a-z0-9.-]+:[a-z][a-z0-9.-]+`?' "$ADR"
+```
+
+**Script-S4 (git commit -F over heredoc, item xix).** Bash heredoc for commit messages is PATH-fragile in reset environments (cat/dirname/etc. unreachable). Write commit message to `/tmp/<slug>.msg` and use `git commit -F /tmp/<slug>.msg`. Reserve `-m` for single-line messages only.
+
+**Script-S5 (shell-builtin file tests, item xxv).** Do NOT call `/usr/bin/test` — absent on Darwin 23 operator macs; `test` is a shell builtin. Use `[ -f "$path" ]` or `test -f "$path"` (builtin form) throughout. Applies to AC-8c affects_canon allowlist checks and PF-6 plan-writability.
+
+**Script-S6 (Python for timestamp arithmetic, leading-space bug from DH-IC-1).** Shell arithmetic over `git log --format=%cI` hit a leading-space parse bug in DH-IC-1 AC-4c. Fix: use Python subprocess with `datetime` + `min`/`max`:
+
+```bash
+python3 -c "
+import subprocess, datetime
+times = [...]
+print((max(times) - min(times)).total_seconds())
+"
+```
+
+**Script-S7 (PATH-reset resilience across all scripts).** Bash-tool invocations often reset PATH; external tools (git, psql, dirname, cat, awk) then unreachable. Conventions:
+- `/usr/bin/git`, `/usr/bin/awk`, `/usr/bin/grep`
+- `/opt/homebrew/bin/psql` on Darwin arm64
+- Shell builtins where possible (`[`, `test`, `read`)
+
+Every script run in v1 execution tripped this at least once; v2 documents the workarounds as standard operator setup.
+
+### Evidence-counting methodology
+
+**Method-M1 (psql join pattern — entity_uri wrapping, item v).** DB recount queries against `entity_relationships` + `claims` must join on `er.object_uri = c.entity_uri` — the claim's entity_uri is wrapped inside entity_relationships.object_uri, not matched via claim_rid. Canonical:
+
+```sql
+SELECT er.governance_cluster_key, er.stance, COUNT(*)
+FROM entity_relationships er
+JOIN claims c ON er.object_uri = c.entity_uri
+WHERE er.governance_cluster_key = '<target>:<concept>'
+GROUP BY er.governance_cluster_key, er.stance;
+```
+
+DH-IC-1 and reproduction-primacy both hit wrong-join zero-rows returns; canonical pattern is v2's §4 Verification recipe.
+
+**Method-M2 (capstone-vs-DB drift; caveat-in-canon-prose, item vi).** v1 §4 says "DB is authoritative over capstone" on >1 diff but is silent on how the ADR presents the drift. v2 rule: when DB and capstone differ (e.g., 13S/12O DB vs 3S/8O capstone at `spore.mycorrhizal-federation-protocol:power-capture`), the Evidence section records both counts with DB-authoritative line primary, AND the canon edit's prose acknowledges the contested-cluster texture explicitly (e.g., "opposition density 48% acknowledged"). Prevents false-clean-sweep framing.
+
+**Method-M3 (Projection-batch vs freeze-timing staleness, item xiv).** When frozen concepts yaml adds new slugs (e.g., v2 freeze at 2026-04-17), the most recent projection batch predating that freeze will not carry those slugs in `review_claims`. Before cluster-gating a version-new concept: check `projection_batch` timestamp in DB vs concepts-yaml `frozen_at`. If projection predates freeze, the concept either (a) routes its gate to the supporting-cluster-that-exists (discipline-rule pattern, R-7) or (b) defers until re-projection. Plan should schedule a re-projection pass at each frozen-vocab version bump.
+
+**Method-M4 (Capstone-promotes-but-DB-fails, item xxi).** Capstone §5 "what changes now" can list items DB does not support. When a §5-promoted item fails §4 at DB recount, the honest disposition is hold-as-tension, not edit. IC autopoiesis/structural-coupling (IC-0008) set precedent: capstone §5.2 promoted, DB returned 2S/0O → hold-as-tension with lift triggers documented. §4 verification gate applies equally to §5 promotions and §3 queue items.
+
+**Method-M5 (Zero-drift cluster as diagnostic, item xxiv).** When capstone and DB return identical S/O for a cluster (first appearance: `pm.project-vision:market-dependence = 6S/4O` in both), that is a diagnostic signal that capstone was authored after the last projection batch — not a methodology problem. v2 adds "zero-drift" as an explicit category in the Evidence rubric alongside "favorable drift" and "unfavorable drift"; each category has its own disposition guidance (zero-drift = capstone counts are canonical, no reconciliation prose needed).
+
+### Workflow observations
+
+**Workflow-W1 (Tier C escalations count toward primary floor, item xvi).** When a Tier C item's shared-concept escalation produces a coordinated 2/3-repo ADR whose primary edit target is in the originating repo's canon, that ADR counts toward the originating repo's Tier C floor. Without this reading, escalation-heavy queues break the Tier C budget calculus. Spore Tier C items #4 (coordination-substrate) and #5 (collective-agency) each counted 1 toward Spore's floor of 3 despite producing cross-repo work.
+
+**Workflow-W2 (Shared-concept list evolves in-session via discovery, item xvii).** v1 §8 Tier C hardcodes the cross-project shared list. Plan step 10 allows discovery-addition: if a grep across repos finds an R-claim on concept X in ≥2 repos' bridge notes during Tier C, X is added to the shared list for the rest of the session, potentially changing escalation decisions for subsequent items. Spore Tier C added `polycentric-governance` (cross-2 spore+pm) at item #1 and `collective-agency` (cross-2 spore+ic) at item #5. v2 codifies this: log the discovery as `SHARED-LIST-ADDITION YYYY-MM-DD: <slug> <cross-N-project>` in Execution log before the escalation decision lands.
+
+**Workflow-W3 (HTML-marker stacking for accumulated holds, item xx).** Canon docs accumulating multiple held-tension ADRs need a marker-stacking convention. v2 rule: HTML-comment markers are placed consecutively at the top of the affected section (or at the file's first substantive prose line for whole-file holds), one per line in chronological ADR order. `ic/docs/foundations/memory-layer-model.md` accumulated two holds (ic:ADR-0001 pluriversal-incommensurability + ic:ADR-0008 autopoiesis-structural-coupling) at lines 15–16, readable inline.
+
+**Workflow-W4 (Queue-target vs canonical-action-target, item xxii).** Pass 2 capstone queue items sometimes name targets outside the plan's D1 canon allowlist (e.g., `pm.connection.*`, `pm.research.*`). Three operationally distinct outcomes must be logged with distinct tags:
+
+- *OOS-target skip* — target is out-of-scope; substantive ask has no in-scope home. Log and move on.
+- *Substantively-covered-elsewhere no-op* — target is OOS, but the ask has already landed at a different in-scope canon target via prior ADR. Log as covered, cite the covering ADR(s). (PM Tier C #3 commitment-pooling hit this against pm:0002+0004.)
+- *OOS-target with in-scope analog* — target is OOS but the correct in-scope target exists. Operator MUST check for the in-scope analog BEFORE defaulting to OOS-skip; if found, redirect the edit to the in-scope target.
+
+### Cross-reference hygiene
+
+**Xref-X1 (Canonical R-claim identifier uses bridge-note frontmatter doc_id, not path, item xi).** v1 §2 defines `<bridge-note-doc-id>:R<n>` as authoritative. Cross-project bridge notes that live physically in one repo's `docs/research/connections/` but carry another repo's doc_id (e.g., IC-authored notes hosted in Spore's research tree) follow the frontmatter's `doc_id:` prefix, NOT the file-path prefix. Decent-myth-bundle and Spore Tier C coordination-substrate both hit this as AC-9 fix-forward commits. v2 rule: AC-9 greps `^doc_id:` at the bridge note file and compares to the ADR's `r_claim_source[]` entry prefix. Pre-commit inline-lint preferred — deferred to v3.
+
+**Xref-X2 (Frozen-vocab slugs are immutable within a version).** v1 §7 forbids new slugs during canon-review. v2 complement: slugs are also immutable within a version — if a slug's canonical_label needs adjustment mid-version, defer to next freeze. ADR prose may cite external author language freely; the `concepts:` frontmatter stays frozen-version aligned.
+
+### Deferred to v3 / out-of-scope
+
+These v2-harvest items require larger changes than protocol rules can absorb:
+
+- **Spore validator status-enum reconciliation.** Validator accepts `[active, deprecated, draft, superseded]` but ADR lifecycle is `[proposed, accepted, superseded, partial-drift]`. v1+v2 solve by mapping `proposed→draft, accepted→active` at commit time (R-11). Clean fix requires validator code change to accept `[proposed, accepted]` for `doc_kind: decision-record` (scoped enum). Follow-on ticket: `spore-validator-adr-status-enum`.
+- **Partial-drift tooling.** v1 §5e mandates `partial-drift` status with hard execution gate, but no tooling exists to scan for open `partial-drift` ADRs at session start (requires cross-repo index). v1 execution zero-hit; v2 remains manual grep. Follow-on: `cross-repo-adr-index` registry powers `related_adrs` resolver + partial-drift scanner.
+- **Frozen-concept vocab extension path.** v1 §7 forbids mid-round extensions. Decent-myth-bundle discovered `decentralization-theater` needed but frozen in v2 post-projection. Clean fix: v3 yaml freeze with explicit "extensions staged for version N+1" ticket list; re-projection pass at each version bump. Follow-on: `concepts-yaml-v3-plan`.
+- **Pre-commit inline-lint for R-claim doc_id correctness (Xref-X1).** Verification scripts catch the typo at AC-9; pre-commit hook would catch earlier. Requires repo-side git hooks framework. Follow-on: `adr-pre-commit-hooks`.
+- **AC-4c machine-parseable push timestamps.** Shell arithmetic over `git log --format=%cI` is fragile across timezones and leading-space quirks. v2 uses Python subprocess (Script-S6); v3 should consider a JSON-emitting helper or full `git log --format=%H:%cI` + Python parser.
+
+### Triggers for canon-review v3
+
+v3 authoring should be triggered by any of:
+
+1. **Second canon-review round executes**, producing another harvest batch alongside v2's rules. v2→v3 cadence mirrors v1→v2 (harvest after execution, not before).
+2. **Spore validator code changes land** (resolves status-enum mapping) → v3 formalizes the validator-native lifecycle and retires R-11.
+3. **Concepts yaml version bumps to v3** → v3 re-anchors §7 against new frozen set; any v2-deferred discipline-rule concepts that made v3 freeze become cluster-gateable.
+4. **Cross-repo ADR index lands** → v3 replaces manual `partial-drift` + `related_adrs` checks with registry queries.
+5. **Pre-commit inline-lint framework lands** → v3 moves AC-9, AC-17, AC-8b regex checks from post-hoc verification to pre-commit.
+6. **Jeff or another external reviewer re-engages on Move 0 / pilot** → v3 may need to re-scope §12 moratorium language or introduce review-gate patterns.
+7. **Cross-repo edit contradictions discovered post-hoc** → triggers v3 reconciliation rules. v1+v2 hit none; if ever observed, is v3's first agenda item.
