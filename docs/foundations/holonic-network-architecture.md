@@ -84,6 +84,38 @@ The same dual-axis pattern repeats at every scale:
 
 At every level: sovereign perspective + shared space + some form of governance memory + federated knowledge.
 
+## Polycentric Governance as Scale-Up Logic
+
+The dual-axis topology already exhibits *decentralization* — many decision loci rather than one. Mycelial-holarchy canon makes the stronger claim: the architecture is *polycentric* — many decision centres that are also mutually-adjusting under an overarching rule system, such that emergent order is an architectural outcome rather than a side effect. The distinction is load-bearing: decentralization names where authority sits; polycentricity names how multiple authorities coordinate without collapsing into either fragmentation or hierarchy.
+
+Three contemporary empirical frameworks are carried as first-class architectural discipline:
+
+1. **Aligica & Tarko (attributes).** A polycentric system has (a) many decision centres with limited and autonomous prerogatives; (b) operating under an overarching rule system; (c) with mutual-adjustment processes producing spontaneous order. Each axis of the dual topology contributes: the holonic axis supplies the bounded decision centres (each holon is a centre with internal rule-making); the network axis supplies the mutual-adjustment processes (lateral flows across overlapping wholes); the semilattice composition supplies the overarching rule system (constraints that span holons without imposing single-root hierarchy).
+2. **McGinnis (structure/process/outcomes).** Architecture must name structural preconditions (who counts as a decision centre, under what rule system), process mechanisms (how competition, cooperation, and formal/informal relationships adjust), and outcome properties (what order is produced). Spore architectural text must satisfy all three, not only the structural layer.
+3. **Baldwin et al. (context/operations/outcomes/feedback).** Polycentric arrangements are context-fit, not generic; operations carry continuous feedback into rule-system evolution; outcomes are measured against context, not against ideal-type polycentricity. The architecture is accountable to its operating context (bioregional, civic, agent-commons), and its polycentric character is a property to verify operationally, not a property to assert.
+
+Five operational requirements follow at the architectural layer:
+
+- **(a) Each holon is a decision centre with limited autonomy.** Holonic containment is not only a sovereignty statement; it is a claim that the holon has rule-making capacity within its scope and adjusts to rules beyond its scope.
+- **(b) An overarching rule system spans holons.** Federation is not only protocol-plus-governance; it is the rule-system layer that makes mutual adjustment possible without hierarchical imposition.
+- **(c) Mutual-adjustment processes are explicit.** Competition, cooperation, and formal/informal relationships all count; the architecture must not assume cooperation is default nor competition is rare.
+- **(d) Emergent order is an architectural outcome.** The dual-axis topology and semilattice composition produce emergent order when (a)–(c) operate; this is the architectural claim, not a hoped-for side effect.
+- **(e) Polycentricity ≠ decentralization.** Canon must carry the distinction. A system can be decentralized (many loci) without being polycentric (many loci mutually-adjusting under a shared rule system). Mycelial-holarchy claims the stronger property and accepts its stronger discipline.
+
+Seven empirically-identified drawbacks are carried as first-class architectural concerns, not downstream operational issues:
+
+1. **Transaction costs.** Mutual adjustment across many decision centres is expensive; architectures that elide this lose fidelity.
+2. **Democratic accountability gaps.** Overarching rule systems may not have direct democratic mandates for every affected holon.
+3. **Exploitation risks.** Asymmetries between decision centres can be used extractively under the cover of formal polycentricity.
+4. **Exclusion of marginalized groups.** Participation in rule-system formation is uneven; polycentricity does not auto-correct for prior exclusion.
+5. **Veto points proliferation.** Limited-autonomy centres can block cross-scale action through accumulated veto rights.
+6. **Complexity costs.** Operating and auditing a polycentric system requires more capacity than centralised or fully-decentralised alternatives.
+7. **Externalities across centres.** Each centre may optimise within its scope while imposing costs on others; the rule system must be designed to surface and absorb these.
+
+The drawbacks are not reasons to abandon polycentricity; they are the terms under which polycentricity is operationally honest. Architectures that claim polycentric virtues without carrying the drawbacks are the decentralization-theatre failure mode the canon-review record (spore:ADR-0005 decentralization-myth-bundle) declines.
+
+See `spore.connection.polycentric-governance` for the wiki-lineage source-anchor and the Aligica-Tarko / McGinnis / Baldwin citations; see spore:ADR-0004 (three-layer-coordination-stack) for the project-vision-level placement of polycentric-governance in the governance layer of the reproduction/production/governance stack; see spore:ADR-0006 (polycentric-governance-at-holarchy) for the canon-review decision record.
+
 ## Associational Practice And The A–C–A' Circuit
 
 The dual-axis topology is structural — what the architecture is. The A–C–A' circuit names what it does, read through the commoning lineage: Associations (A) produce Commons (C), and Commons sustain further Associations (A'). This is Nick Dyer-Witheford's reading of commoning as a circuit of reproduction (orn:p2p-wiki.page:Circulation_of_the_Common), where productive and reproductive labour are integrated at the foundation: associations do not only produce outputs, they reproduce the conditions under which associating can continue.
