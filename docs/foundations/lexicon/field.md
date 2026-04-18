@@ -38,6 +38,29 @@ These are not three unrelated concepts. They are the same underlying structure i
 - **learning and revision** in the learning field
 - **context and knowing** in the relational field
 
+## Three Tradition Substrates for Collective Agency
+
+The collective-agency claim carried by Spore's `field` entry does not rest on a single theoretical substrate. Three commons-tradition sources compose the substrate, each naming a different aspect of how multiple sovereign participants function as a single bounded-autonomy unit without collapsing to preference aggregation or unitary will:
+
+1. **Bourdieusian institutional reading** (Gare on `Institutions`, P2P Foundation wiki). A field is the macro-dynamic extension of institutional analysis: fields are sites where symbolic, social, cultural, economic, and political capital are contested. Collective agency is what participants *do* within and across these fields — the institutional lens names the rule-system layer and the legitimacy flows that let fields cohere across participants.
+2. **Extitutional theory reading** (`Extitution` / `Extitutional Theory`, P2P Foundation wiki). "Field ontology" in extitutional theory names the shifting, contingency-adequate attention-allocation pattern of extitutional space, with explicit flagging of the technical sense of field (interrelation, intersubjectivity, codeterminacy). Collective agency is the mode of coordination natural to extitutional fields — distinct from institutional coordination but not opposed to it.
+3. **Assemblage-theory substrate** (DeLanda, `Assemblage`). Components of a field are identifiable but inseparable-in-function; collective agency emerges from the assemblage itself, not from any component in isolation. The assemblage lens names the emergent properties that neither the institutional nor the extitutional lens fully captures on its own.
+
+Spore's `field` entry carries all three substrates: the institutional lens for rule-systems and legitimacy, the extitutional lens for attention-allocation and intersubjectivity, and the assemblage lens for emergent properties. The entry does not adopt anti-institutional valence by default — institutional and extitutional readings are complementary lenses, not alternatives, and fields can be analysed simultaneously through both.
+
+## Polycentric vs Decentralized: The Field Clarification
+
+Spore's collective-agency claim is a *polycentric* collective-agency claim, not a flat decentralised collective. The distinction is load-bearing at the lexicon layer:
+
+- **Decentralization** names the structural distribution of authority — where decisions get made.
+- **Polycentricity** names the stronger coordination property: multiple autonomous decision centres + overarching rule system + mutual-adjustment processes + emergent order. Polycentric coordination requires all four, not only the first.
+
+A field in Spore's sense is not merely a decentralised coordination surface; it is a polycentric coordination surface, and Spore canon reads `field` that way. This anchors Spore's collective-agency vocabulary against the Polanyi → Ostrom → Aligica/Tarko → McGinnis → Baldwin lineage rather than against the more diffuse "decentralization" framing that has dominated crypto-era discourse.
+
+The operational criterion (per Aligica-Tarko) is the non-monocentricity threshold test: a field exhibits polycentric coordination (versus merely claiming it) when (a) no single decision centre has final authority over the field as a whole, (b) rule-system coherence spans the decision centres, and (c) mutual adjustment is observable empirically — not asserted conceptually. Canon readers evaluating whether a particular Spore deployment meets the polycentric threshold apply this test rather than assuming the claim is self-evident.
+
+See `spore:ADR-0006-polycentric-governance-at-holarchy` for the architecture-layer companion placement of polycentric governance (mycelial-holarchy as scale-up logic). The grammar-layer clarification here (at `term.field`) and the architecture-layer import there (at `mycelial-holarchy-architecture`) compose to make polycentric governance first-class in Spore canon at two levels.
+
 ## Field As Reproductive Apparatus
 
 A field is also a site of material reproduction, not only a coordination surface. The materialist-feminist commons lineage — Silvia Federici on the commons as "the material basis of social reproduction" (orn:p2p-wiki.page:Communalization_of_Housework; orn:p2p-wiki.page:Women_and_the_Commons), Tithi Bhattacharya's Social Reproduction Theory, Patrick Bresnihan's more-than-human commoning, Maria Mies's subsistence perspective, J.K. Gibson-Graham's community economies — positions fields as bounded, traversable, spatial commons where care, provisioning, and territorial stewardship happen. Federici's reading of women-led housing commons as reproductive apparatus is the direct antecedent: a field is a coordinated surface that is *also* a reproduction of the conditions under which coordination can continue.
@@ -81,6 +104,10 @@ It also guards against a common drift: mistaking the representation of a field f
 - **Not a container.** The field is relational and operational, not a static box that content sits inside.
 - **Not identical to a graph or storage system.** Graphs, notes, and databases project or materialize aspects of a field; they do not exhaust it.
 - **Not only metaphor.** At high level, the term is a useful orientation device. At a more formal level, sheaf theory, routing dynamics, and graph structure offer ways to model specific properties of fields without replacing the term.
+
+## Collective-Agency Source
+
+The three-substrate reading and the polycentric clarification above are sourced from `spore.connection.institutions-and-extitutions` (Bourdieusian / extitutional substrates + assemblage-theory composition) and `spore.connection.polycentric-governance` (polycentric-vs-decentralized distinction + Aligica-Tarko threshold test). Shared canon framing: `spore.connection.canon-framing-collective-agency`. Canon decision record: `spore:ADR-0008-collective-agency-at-field`. IC sibling (declination): `intelligence-commons:ADR-0006-collective-agency-declination`.
 
 ## Source
 
