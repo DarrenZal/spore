@@ -5,7 +5,7 @@ adr_number: "0006"
 # Spore validator enum is [active, deprecated, draft, superseded] — no "proposed".
 # Mapping protocol §3 lifecycle state "proposed" → validator-compatible "draft";
 # transitions to "active" at accept. Precedent: ADR-0001/0002/0003/0004/0005.
-status: draft
+status: active
 decision: edit
 r_claim_source:
   - spore.connection.polycentric-governance:R1
