@@ -3,7 +3,7 @@ doc_id: spore.canon-decision.coordination-substrate-at-stigmergy
 doc_kind: decision-record
 adr_number: "0007"
 # Spore validator enum [active, deprecated, draft, superseded]; map protocol §3 proposed→draft, accepted→active.
-status: draft
+status: active
 decision: edit
 r_claim_source:
   - spore.connection.collective-intelligence:R2
