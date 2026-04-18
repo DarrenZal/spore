@@ -2,7 +2,7 @@
 doc_id: spore.canon-decision.boundary-theory-unifier
 doc_kind: decision-record
 adr_number: "0003"
-status: draft
+status: active
 decision: edit
 r_claim_source:
   - spore.connection.boundary-commoning:R1
