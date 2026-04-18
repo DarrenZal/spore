@@ -2,7 +2,7 @@
 doc_id: spore.canon-decision.decentralization-myth-bundle
 doc_kind: decision-record
 adr_number: "0005"
-status: draft
+status: active
 decision: edit
 r_claim_source:
   - spore.connection.decentralization-theater-opposition:R1
