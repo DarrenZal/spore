@@ -36,6 +36,23 @@ This section is a motivating-language addition. It does not change any specific 
 
 See `spore.connection.reproductive-commoning` (primary source for mechanism 1 above and for the A–C–A' framing) and the shared canon-framing note `docs/research/connections/canon-framing-reproductive-commoning.md` for the full wiki-lineage citation and the coordinated IC + PM secondary framings.
 
+## Boundary-Making Apparatus And Openwashing Discipline
+
+The mycorrhizal federation protocol is a **boundary-making apparatus.** Per `spore.connection.p2p-wiki-pass-2-capstone-synthesis` §2.2, the canon treats boundary-commoning as the architectural pattern all three Commons-family projects instantiate — Spore's federation, IC's memory-governance, and PM's CVLE are boundary-making operations at different scales. The governance question for each federation mechanic is not *whether* a boundary exists but *which boundary-theory variant* is load-bearing for the mechanic being specified.
+
+The canon keeps four boundary-theory variants distinct (see `spore.term.field` §"Boundary-Commoning As External Cousin-Concept"): filtering-membrane (De Angelis), autopoietic closure (Maturana-Varela), pluriversal ontological difference (Escobar), cosmo-local subsidiarity (Ramos / Bauwens / Kostakis). Federation-protocol authors introducing or revising a specific mechanic must identify which variant is load-bearing for that mechanic; a mechanic that cannot name a variant is a motivating-language gap, not a license to collapse the distinctions.
+
+**Openwashing-scope discipline.** Per `spore.connection.openwashing-opposition` R1, any use of "open federation," "open protocol," or "federated openness" language in this canon doc must be paired with explicit specification across four surfaces:
+
+1. **Wire-protocol scope** — who can implement conforming clients; what the conformance surface is.
+2. **Reference-implementation scope** — whether admin keys, bridge services, or operational dependencies are held by a bounded party.
+3. **Contribution-acceptance scope** — how external contributions enter the reference implementation.
+4. **Spec-governance scope** — who has authority over protocol revision.
+
+Single-layer openness claims (license only, or interface only, without the four-scope specification) reproduce the Eucalyptus / open-core pattern where a protocol is nominally open and the project is operationally closed. Until this canon doc independently anchors to a scope-specifying framework (e.g. the 4-degrees open-hardware ladder at `concepts-p2p-wiki.yaml:open-hardware-commons`, the OSI Open Standards Requirement, or an analogous structure), canon authors should prefer "federated multi-stakeholder" framings over "decentralised" or "peer-to-peer" framings and carry the openwashing discipline on any surviving "open" language.
+
+This section is a motivating-language addition. It does not change any specific protocol mechanism described below; the Sovereignty Invariants, Trust Model, and Federation Mechanics sections remain as specified. What changes is what a competent reader holds in mind when reading those sections: each mechanic identifies which boundary-theory variant is load-bearing; any "open" language carries the four-scope discipline. See the shared canon-framing note `docs/research/connections/canon-framing-boundary-theory-unifier.md` and `spore:ADR-0003-boundary-theory-unifier` for the full cross-project narrative.
+
 ## What Counts as a Node
 
 In Agent Commons, a node is any sufficiently coherent sovereign party participating in federation, for example:

@@ -46,6 +46,21 @@ This retires the reading of care as a "downstream cultural layer" on top of coor
 
 This is a motivating-language addition, not a new primitive. The `field` entry remains the same lexicon slug. What changes is what a competent reader is meant to hold in mind when using the term: the field is where reproduction happens, and any arrangement that treats reproduction as naturalised substrate (rather than as the primary coordinating practice) has performed the substrate move the commons literature identifies as historically prior to every other enclosure. See `spore.connection.reproductive-commoning` for the source-anchor and the full wiki-lineage citation.
 
+## Boundary-Commoning As External Cousin-Concept
+
+Field names coordination operations *within* a single field. The external cousin-concept for coordination *between* fields without merger is **boundary commoning** (De Angelis, Birkinbine, and the P2P Foundation wiki `Category:Knowledge_Commons` lineage). The canon acknowledges boundary-commoning as the aliased term for BETWEEN-field coordination while preserving Spore's existing authorisation-operation vocabulary (who speaks for the field, how cross-field claims are validated, how trust is carried across a boundary) because the boundary-commoning source tradition under-specifies those operations.
+
+The canon keeps four distinct boundary-theory variants separate rather than washing them into a single "boundary" frame — each carries an operational surface that would be lost in merger:
+
+- **Filtering-membrane** (De Angelis; cell-biology framing; selective permeability). Refuted empirically by the FairCoin case (Dallyn & Frenzel 2021, *Antipode*, `spore.connection.faircoin-filtering-membrane-opposition`) when boundaries are insufficiently specified. Use when the mechanic is substance-filtering across a membrane.
+- **Autopoietic closure** (Maturana-Varela; organisational closure with informational openness). Use when the mechanic is component-regeneration-preserving (the boundary produces the components that produce the boundary).
+- **Pluriversal ontological difference** (Escobar, Gudynas, Mignolo, Bresnihan). Held open as a canon tension — see `spore:ADR-0001-pluriversal-incommensurability` and the shared canon-framing note `spore/docs/research/connections/canon-framing-pluriversal-incommensurability.md`. Use when the mechanic touches cross-ontology translation and a meta-ontology would perform a colonial operation by default.
+- **Cosmo-local / Charter-of-Forest subsidiarity** (Ramos, Bauwens, Kostakis; the 800-year legal-institutional commons-law lineage per `spore.connection.commons-law-and-charter-lineage` and `spore.connection.cosmo-local-production`). Use when the mechanic is scope-nesting (global design, local production) with legal-institutional continuity.
+
+Authors of field-semantic additions must identify which boundary-theory variant is load-bearing for the mechanic being introduced; a new field semantic that cannot name a variant is a motivating-language gap, not a license to collapse the distinctions.
+
+This is a motivating-language addition, not a new primitive. The `field` lexicon slug is unchanged. What changes is what a competent reader holds in mind: WITHIN-field operations are governed by field/membrane rules; BETWEEN-field operations are boundary-commoning operations tagged with one of the four variants above. See the shared canon-framing note `spore/docs/research/connections/canon-framing-boundary-theory-unifier.md` and `spore:ADR-0003-boundary-theory-unifier` for the full cross-project narrative.
+
 ## Relationship To Other Terms
 
 - **Network / mycelium** names the topology of connection. It describes how the field is patterned.
