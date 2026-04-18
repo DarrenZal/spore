@@ -6,7 +6,7 @@ adr_number: 0002
 # Mapping protocol §3 lifecycle state "proposed" to validator-compatible "draft";
 # transitions to "active" at accept. IC/PM use protocol §3 names directly (no validator).
 # Validator-mapping precedent carried forward from DH-IC-1 (spore:ADR-0001).
-status: draft
+status: active
 decision: edit
 r_claim_source:
   - spore.connection.reproductive-commoning:R5
