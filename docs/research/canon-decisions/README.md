@@ -1,0 +1,29 @@
+# Canon Decisions (Spore)
+
+This directory holds Architecture Decision Records (ADR-lite) for Spore canon edits produced by canon-review rounds.
+
+**Protocol**: [`/docs/research/planning/canon-review-protocol.md`](../planning/canon-review-protocol.md) defines the ADR format, triage rubric, evidence threshold, and cross-project coordination mechanism. Read the protocol before authoring an ADR.
+
+## Naming
+
+Each ADR is a single markdown file at `NNNN-<slug>.md`:
+- `NNNN` — zero-padded 4-digit number, repo-local, monotonically increasing from `0001`
+- `<slug>` — kebab-case identifier that matches the shared-framing slug for cross-project coordinated ADRs
+
+## Cross-project coordinated decisions
+
+When a decision affects canon in ≥2 repos, a shared framing note lives at:
+
+```
+/Users/darrenzal/projects/spore/docs/research/connections/canon-framing-<slug>.md
+```
+
+Per-repo ADRs reference the framing via `shared_framing:` frontmatter (absolute path). See protocol §5 for the full runbook.
+
+## ADR lifecycle
+
+`proposed` → `accepted` (after AC-* checks pass + commit lands). `superseded` when a later ADR replaces this one; `partial-drift` per Constraint 6 mid-set failure recovery. See protocol §3.
+
+## Rollback
+
+ADR SHAs are tracked in the canon-review plan's Execution log as `sha:spore:<short>` tokens. Rollback operates only on plan-manifest SHAs — never time- or message-based discovery. See the active plan (e.g., `/Users/darrenzal/.claude/plans/canon-review-v1.md`) for the authoritative manifest.
