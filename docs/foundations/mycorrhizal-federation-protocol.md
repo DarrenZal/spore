@@ -11,6 +11,8 @@ depends_on:
 
 How sovereign nodes connect through mutualistic exchange — the rules governing what flows between agents, holons, and collectives, how trust is established, and how federation maintains coherence without central authority.
 
+<!-- held-tension: 0001-pluriversal-incommensurability -->
+
 ## What Counts as a Node
 
 In Agent Commons, a node is any sufficiently coherent sovereign party participating in federation, for example:
