@@ -45,6 +45,16 @@ This is why the system must support fractal scales. The same structural question
 - what constrains its action?
 - how does it participate in a larger whole?
 
+## Commons As Verb: Care As Primary Coordinating Practice
+
+The primary coordinating practice in a field is **care** — reproductive labour — not message-passing, not governance-as-ruleset, not protocol. This is Patrick Bresnihan's "commons is a verb" framing (orn:p2p-wiki.page:More-Than-Human_Commons), carried forward by Peter Linebaugh's commoning-as-activity and Maria Mies's subsistence perspective: commons are not things that exist in the world waiting to be governed; they are made and remade through the practices that reproduce them. Coordination emerges from care. The field holds because participants reproduce it. Participation IS reproduction.
+
+Relational agency, read through this framing, is not first a capacity to act with awareness, and second a practice of care. The order reverses: the capacity to act relationally *is* the practice of care extended across time, other agents, and the infrastructures that let the commoning continue. An agent that does not participate in the reproduction of the field it acts within has not "coordinated efficiently" — it has extracted, because coordination without reproduction is extraction. This is the substrate move the wiki commons literature (Federici, Bhattacharya, Bresnihan, Dyer-Witheford, Gibson-Graham) positions as historically prior to every other enclosure: when reproductive labour is naturalised as background, every subsequent capture mechanism appears ideologically neutral.
+
+The more-than-human extension — commoning collectives including non-human actors, ecological stewardship as commoning practice — is flagged here but not operationalised. Bresnihan and the More-Than-Human Commons literature argue that reproductive labour crosses the human/non-human boundary (watersheds reproduce themselves through human care, human communities reproduce themselves through the watershed's ongoing availability). Spore's grammar is agent-type-agnostic enough to carry this, but the operational mechanics (how a bioregional holon's commitments bind across species, how non-human agency participates in field reproduction) are not yet specified. Future work; this entry flags the extension to keep it in view.
+
+See `spore.connection.reproductive-commoning` for the source-anchor and the full wiki-lineage citation.
+
 ## Collective Agency
 
 Collective agency does not erase the members inside a collective. It creates an additional emergent layer of coordination — the grammar supports both internal coherence and interoperable relations.

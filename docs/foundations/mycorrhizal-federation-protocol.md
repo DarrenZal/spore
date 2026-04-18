@@ -13,6 +13,29 @@ How sovereign nodes connect through mutualistic exchange — the rules governing
 
 <!-- held-tension: 0001-pluriversal-incommensurability -->
 
+## Commoning Mechanism And Capture Mechanisms
+
+Federation is a **commoning mechanism, not a substitute for associational organising.** The protocol is a substrate embedded in associational practice (following Nick Dyer-Witheford's A–C–A' circuit — see `spore.mycelial-holarchy-architecture` §"Associational Practice And The A–C–A' Circuit"): the commoning work — care, provisioning, maintenance, territorial stewardship — is the *primary* coordinating practice that the protocol serves, not the other way around. Protocol specifications that treat federation as a technical coordination primitive sitting above a naturalised reproductive substrate have performed the substrate move the wiki commons literature (Federici, Bresnihan, Bhattacharya, Dyer-Witheford) identifies as historically prior to every other enclosure.
+
+"Works correctly" for this protocol is therefore evaluated against commoning criteria, not only against delivery semantics. The delivery semantics specified in later sections (idempotence, provenance, scoping, encryption) are necessary; they are not sufficient. A federation that moves events reliably while invisibilising the reproductive labour of the participants it federates has not worked correctly by the commoning reading — it has extracted.
+
+### Power-capture mechanisms (named at equal standing)
+
+The canon recognises four power-capture mechanisms as first-order concerns for federation protocol design, each of which can defeat the commoning purpose independently of the others:
+
+1. **Reproductive-labour invisibilisation.** The historically prior capture mechanism (Federici, Mies, Bresnihan, Bhattacharya, Gibson-Graham): naturalising, de-valorising, or invisibilising the care / provisioning / maintenance work that reproduces the associational practice the protocol serves. When this mechanism is active, every subsequent capture mechanism appears ideologically neutral because the substrate move has already happened. Federation protocol specifications must account for the visibility of reproductive work (who maintains the nodes, who provisions the infrastructure, who carries the relational work that sustains bilateral trust, who does the translation labour across ontologies) as first-order coordination content. A protocol that cannot name this work is structurally vulnerable to the same capture pattern that destroyed the historical commons.
+2. **Protocol lock-in.** Where protocol specifications accrue path-dependent commitments (data formats, authentication schemes, delivery topologies) that make exit costly, federation becomes a substitute for the associational organising it was meant to serve, and captures the participants into the protocol's specific technical lineage.
+3. **Gatekeeper-role accrual.** Where admin, operator, or maintainer roles accrue disproportionate authority over trust edges, event routing, or schema evolution, federation re-centralises into an administrative layer — the peer-governance-Wikipedia failure mode documented in the wiki opposition literature (Kostakis 2010, Simonite 2013, Gallus).
+4. **Data asymmetry.** Where event flows or observability rights are asymmetric between peers (one side sees the other's patterns without reciprocity), the federation becomes extractive regardless of whether any single event transfer is legitimate.
+
+These four mechanisms are co-equal. No single one is "the" federation power-capture risk; the protocol must carry all four as first-order specification concerns, alongside the cosmo-local-production subsidiarity framing (from `spore.connection.cosmo-local-production`) and the decentralisation-myth bundle (from `spore.connection.decentralization-theater-opposition`, `spore.connection.digital-labor-peer-production-opposition`, `spore.connection.peer-governance-wikipedia-opposition`).
+
+This section is a motivating-language addition. It does not change any specific protocol mechanism described below; the Sovereignty Invariants, Trust Model, and Federation Mechanics sections remain as specified. What changes is what a competent reader is meant to hold in mind when reading those sections: each mechanic is evaluated against all four capture mechanisms, and against the commoning-work criteria of reproductive-labour visibility.
+
+**Opposition density acknowledgement.** The primary evidence cluster behind this framing (`spore.mycorrhizal-federation-protocol:power-capture`) is contested: 13 supporting vs 12 opposing source-claims (48% opposition density) in the current intake corpus as of 2026-04-18. The opposition is substantive — it identifies specific failure modes in "decentralised" / "peer-to-peer" / "federated" coordination attempts (FairCoin, digital-labour dynamics, peer-governance-Wikipedia, openwashing, cooperative-degeneration). The canon reading is that these opposition claims identify *what to decline* rather than disqualifying the entire federation framing; the four capture mechanisms named above are derived partly from the opposition evidence itself. A competent reader reads this section alongside the opposition bridge notes listed above, not around them.
+
+See `spore.connection.reproductive-commoning` (primary source for mechanism 1 above and for the A–C–A' framing) and the shared canon-framing note `docs/research/connections/canon-framing-reproductive-commoning.md` for the full wiki-lineage citation and the coordinated IC + PM secondary framings.
+
 ## What Counts as a Node
 
 In Agent Commons, a node is any sufficiently coherent sovereign party participating in federation, for example:

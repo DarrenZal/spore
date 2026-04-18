@@ -38,6 +38,14 @@ These are not three unrelated concepts. They are the same underlying structure i
 - **learning and revision** in the learning field
 - **context and knowing** in the relational field
 
+## Field As Reproductive Apparatus
+
+A field is also a site of material reproduction, not only a coordination surface. The materialist-feminist commons lineage — Silvia Federici on the commons as "the material basis of social reproduction" (orn:p2p-wiki.page:Communalization_of_Housework; orn:p2p-wiki.page:Women_and_the_Commons), Tithi Bhattacharya's Social Reproduction Theory, Patrick Bresnihan's more-than-human commoning, Maria Mies's subsistence perspective, J.K. Gibson-Graham's community economies — positions fields as bounded, traversable, spatial commons where care, provisioning, and territorial stewardship happen. Federici's reading of women-led housing commons as reproductive apparatus is the direct antecedent: a field is a coordinated surface that is *also* a reproduction of the conditions under which coordination can continue.
+
+This retires the reading of care as a "downstream cultural layer" on top of coordination. Care, provisioning, maintenance, and territorial stewardship are not what happens after coordination succeeds; they are what coordination reproduces. Participation in a field IS reproduction of the field. Reading `field` as a neutral container where separate-from-commons activity happens inherits a capitalocentric move documented in the wiki commons literature (Gudeman via the Anthropology of the Commons page, Gibson-Graham's rebuttal of social-capital framings): it strips reproductive relations of their specificity by treating them as coordination inputs rather than as the commoning substrate itself.
+
+This is a motivating-language addition, not a new primitive. The `field` entry remains the same lexicon slug. What changes is what a competent reader is meant to hold in mind when using the term: the field is where reproduction happens, and any arrangement that treats reproduction as naturalised substrate (rather than as the primary coordinating practice) has performed the substrate move the commons literature identifies as historically prior to every other enclosure. See `spore.connection.reproductive-commoning` for the source-anchor and the full wiki-lineage citation.
+
 ## Relationship To Other Terms
 
 - **Network / mycelium** names the topology of connection. It describes how the field is patterned.

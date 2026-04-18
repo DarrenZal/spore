@@ -84,6 +84,21 @@ The same dual-axis pattern repeats at every scale:
 
 At every level: sovereign perspective + shared space + some form of governance memory + federated knowledge.
 
+## Associational Practice And The A–C–A' Circuit
+
+The dual-axis topology is structural — what the architecture is. The A–C–A' circuit names what it does, read through the commoning lineage: Associations (A) produce Commons (C), and Commons sustain further Associations (A'). This is Nick Dyer-Witheford's reading of commoning as a circuit of reproduction (orn:p2p-wiki.page:Circulation_of_the_Common), where productive and reproductive labour are integrated at the foundation: associations do not only produce outputs, they reproduce the conditions under which associating can continue.
+
+Mycelial-holarchy, read through A–C–A', is a **commoning mechanism**, not a governance layer applied over pre-existing coordination surfaces. Holon coordination is associational practice reproducing commons — the field is held because participants enact it, the network axis carries lateral commons flows because agents overlap in multiple associations simultaneously, the containment axis preserves sovereignty because the integrity of each holon is itself a commons the nested level reproduces. Federation between holons is the mechanism by which Associations sustain, expand, and interconnect their Commons. This is not a metaphor overlay on the dual-axis topology; it is what the topology is *for*, restated from the commoning side.
+
+Two consequences for reading the rest of the architecture:
+
+1. Where earlier sections describe "what flows between nodes" (membranes, federation edges, mediation interfaces), the A–C–A' circuit names *why* those flows matter: they reproduce the conditions under which associations can continue to associate. A federation protocol that moves events efficiently but does not reproduce the associational practice of the commoning participants has performed the substrate move the reproductive-commoning bridge note (`spore.connection.reproductive-commoning` §R3) identifies as capture.
+2. Where graph-structure sections describe hyperedges, sheaves, and n-ary relations, A–C–A' names the temporal shape those structures participate in: the commons is an ongoing reproduction, not a stable static state. Sheaf-theoretic obstruction is one way to see where the reproduction has stopped working — where local views no longer glue into a wider coherent commons — but the commons itself is the reproducing circuit, not the sheaf-consistent state.
+
+This is a motivating-language addition. No structural element of the topology changes; the A–C–A' reading reframes the existing structure so that reproductive labour is visible as first-order architectural content.
+
+See `spore.connection.reproductive-commoning` for the source-anchor and the full wiki-lineage citation.
+
 ## Graph Structure Hierarchy
 
 The mathematical structures nest:
