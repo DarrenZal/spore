@@ -6,7 +6,7 @@ adr_number: 0001
 # Mapping protocol §3 lifecycle state "proposed" to validator-compatible "draft";
 # transitions to "active" at accept. IC/PM use protocol §3 names directly (no validator).
 # Protocol v2 should formalize this Spore-specific mapping.
-status: draft
+status: active
 decision: hold-as-tension
 r_claim_source:
   - spore.connection.pluriversal-commoning:R2
