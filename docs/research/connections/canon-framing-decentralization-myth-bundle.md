@@ -5,8 +5,8 @@ research_subkind: canon_framing
 status: active
 relates_to:
   - spore.connection.decentralization-theater-opposition
-  - spore.connection.digital-labor-peer-production-opposition
-  - spore.connection.peer-governance-wikipedia-opposition
+  - ic.connection.digital-labor-peer-production-opposition
+  - ic.connection.peer-governance-wikipedia-opposition
   - spore.connection.openwashing-opposition
   - spore.connection.faircoin-filtering-membrane-opposition
   - spore.connection.platform-cooperativism-constructive
@@ -38,8 +38,8 @@ From `spore.connection.p2p-wiki-pass-2-capstone-synthesis` §2.4:
 The three opposition bridge notes supply the sub-critiques:
 
 - **Decentralization theater.** `spore.connection.decentralization-theater-opposition` (Yarvin + Brastaviceanu 2025 smart-contracts + DAO-production-grammar + global-state-consensus-vs-subsidiarity critiques). Primary R-claim on Spore canon: R1 → `spore.mycorrhizal-federation-protocol` / `decentralization-theater` ("MUST NOT allow mycorrhizal-federation-protocol language to assert federation, P2P, or decentralized-network framing without concurrent specification of (a) where exception-deciding sovereignty sits, (b) the federation's posture toward centralized-infrastructure dependencies, (c) whether the federation protocol retains any admin-key-equivalent").
-- **Digital-labor-as-free-gift.** `spore.connection.digital-labor-peer-production-opposition` (Kleiner venture-communism critique + Scholz digital-labor + Mechanical-Turk empirical floor). Primary R-claim on IC canon: R2 → `ic.memory-layers` / `knowledge-commons` ("MUST NOT allow knowledge-commons language to substitute for specification of (a) who owns the material productive infrastructure of memory, (b) how memory-stewarding contributors are sustained under a venture-communist rather than free-labor arrangement, (c) what minimal-coordination discipline prevents the memory-governance layer from becoming a coordinator-class rent-extraction site").
-- **Administrator-capture-in-peer-governance.** `spore.connection.peer-governance-wikipedia-opposition` (Kostakis 2010 + Simonite 2013 + Gallus admin-class drift). Primary R-claim on IC canon: R1 → `ic.memory-layers` / `memory-governance` ("MUST NOT allow memory-layers framing of attribution, contribution-tracking, or knowledge-commons stewardship to be used as peer-governance language without concurrent specification of (a) how administrative authority over contested attributions/redactions/contributor-blocks is distributed, (b) tenure limits and recall procedures for admin-role holders, (c) explicit conflict-resolution procedures independent of administrator discretion"). Peer-governance R4 separately composes with decentralization-theater R1 on `spore.mycorrhizal-federation-protocol`, reinforcing the Spore declination.
+- **Digital-labor-as-free-gift.** `ic.connection.digital-labor-peer-production-opposition` (Kleiner venture-communism critique + Scholz digital-labor + Mechanical-Turk empirical floor). Primary R-claim on IC canon: R2 → `ic.memory-layers` / `knowledge-commons` ("MUST NOT allow knowledge-commons language to substitute for specification of (a) who owns the material productive infrastructure of memory, (b) how memory-stewarding contributors are sustained under a venture-communist rather than free-labor arrangement, (c) what minimal-coordination discipline prevents the memory-governance layer from becoming a coordinator-class rent-extraction site").
+- **Administrator-capture-in-peer-governance.** `ic.connection.peer-governance-wikipedia-opposition` (Kostakis 2010 + Simonite 2013 + Gallus admin-class drift). Primary R-claim on IC canon: R1 → `ic.memory-layers` / `memory-governance` ("MUST NOT allow memory-layers framing of attribution, contribution-tracking, or knowledge-commons stewardship to be used as peer-governance language without concurrent specification of (a) how administrative authority over contested attributions/redactions/contributor-blocks is distributed, (b) tenure limits and recall procedures for admin-role holders, (c) explicit conflict-resolution procedures independent of administrator discretion"). Peer-governance R4 separately composes with decentralization-theater R1 on `spore.mycorrhizal-federation-protocol`, reinforcing the Spore declination.
 
 ## §2 Why this is one coordinated decision and not three
 
