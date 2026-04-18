@@ -2,7 +2,7 @@
 doc_id: spore.canon-decision.three-layer-coordination-stack
 doc_kind: decision-record
 adr_number: "0004"
-status: draft
+status: active
 decision: edit
 r_claim_source:
   - spore.connection.commons-law-and-charter-lineage:R2
