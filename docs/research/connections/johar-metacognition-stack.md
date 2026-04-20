@@ -90,6 +90,6 @@ The **Visual Grammar Atlas** (Shawn Anderson / IndigenomicsAI Dev Sync, April 16
 
 ## Related
 
-- spore.connection.johar-sheaf-theory-formalization — layers 8–9 formalized via coboundary map
+- spore.connection.hanks-algebraicjulia-sheaf-coordination — layers 8–9 formalized via coboundary map
 - ic.connection.johar-metacognition-stack — companion: how the stack specifies Intelligence Commons grammar
 - spore.connection.bosca-ghrist-local-to-global — geometric foundation for topological failures
