@@ -148,7 +148,7 @@ Topology review covers the three active repos as writable scope: Spore, Intellig
 | `2` | `6a99cf789be41f7cea31c62df86d1e36caeb601e` | `N/A` | `N/A` | Corpus inventory is Spore-only. |
 | `3` | `PENDING` | `PENDING` | `PENDING` | Deep research report. |
 | `4` | `PENDING` | `PENDING` | `PENDING` | Diagnostic. |
-| `5` | `PENDING` | `PENDING` | `PENDING` | Triage. |
+| `5` | `3788802` | `cacaa47` | `ba48fb4` | Triage closed 2026-04-20; findings-doc revision 4 (39 findings → 25 canon-review-v2 / 13 foundational-reframing / 1 editorial / 0 prior-revision); approval memo signed at `tmp/triage-approval-2026-04-20.md`. IC/PM SHAs unchanged from Phase 1 (triage happened on Spore only). |
 | `6` | `PENDING` | `PENDING` | `PENDING` | Foundational reframing, if triggered. |
 | `7` | `PENDING` | `PENDING` | `PENDING` | Canon-review rounds. |
 | `8` | `PENDING` | `PENDING` | `PENDING` | Editorial pass. |
