@@ -2,7 +2,10 @@
 doc_id: spec:spore.foundational-reframing-protocol
 doc_kind: protocol
 version: 1.1
-status: draft
+status: active
+ratified-on: 2026-04-20
+ratified-by: Darren Zal
+ratification-basis: Phase 6b two-round adversarial bakeoff (Claude Round 1 at f0ba02e, Codex Round 2 at 8c30ab0), verdict Ready for status active
 authored-on: 2026-04-20
 authored-by: codex-gpt-5
 ---
