@@ -5,13 +5,15 @@ consolidated_by: codex
 consolidated_on: 2026-04-19
 source_passes: [P4.1a, P4.1b, P4.1c, P4.2, P4.3, P4.4, P4.5, P4.6]
 total_findings: 39
+revision: 2
+revision_basis: P4.8-adversarial-review
 ---
 
 # Corpus Foundational Review v1 - Findings
 
 ## Summary
 
-This consolidation reduced 40 input findings across eight Phase 4 passes to 39 canonical findings via one merge and no drops. The final set contains 14 S2 findings, 24 S3 findings, and 1 S4 finding; priorities resolve to 8 blocking, 27 important, and 4 deferred items. The dominant pattern is not a single primitive error but a cluster of canon-maintenance failures across three surfaces: stale or contradictory canon-layer docs, under-specified meta-corpus governance machinery, and an already-active three-repo topology that lacks explicit constitutional treatment. Two counterfactual-pass findings were severity-normalized downward because their evidence remained internal to the corpus and did not satisfy the S2 external-evidence bar.
+This consolidation reduced 40 input findings across eight Phase 4 passes to 39 canonical findings via one merge and no drops. Revision 2 restores five dropped `prior-collision-check` annotations, upgrades F-023 (`field / holon`) from S2 to S1 after a path-based re-count of its external evidence, and escalates F-037 (`repo-topology`) from important to blocking to preserve the dependency invariant with F-039. The final set contains 1 S1 finding, 13 S2 findings, 24 S3 findings, and 1 S4 finding; priorities resolve to 9 blocking, 26 important, and 4 deferred items. The dominant pattern is not a single primitive error but a cluster of canon-maintenance failures across three surfaces: stale or contradictory canon-layer docs, under-specified meta-corpus governance machinery, and an already-active three-repo topology that lacks explicit constitutional treatment. Two counterfactual-pass findings remain severity-normalized downward because their evidence is internal-only and still does not satisfy the S2 external-evidence bar.
 
 ## Findings index
 
@@ -39,7 +41,7 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
 | F-020 | should-be-merged | S3 | important | content | knowledge-graph / epistemic-graph | Spore currently carries one graph surface under two canonical concept names |
 | F-021 | should-be-split | S2 | blocking | content | intent | `intent` drifts across repos from a lightweight coordination signal into a protocol object with materially different semantics |
 | F-022 | should-be-split | S2 | blocking | content | evidence | `evidence` is being used for two different families of work without an explicit sub-type boundary |
-| F-023 | overlapping/redundant | S2 | blocking | content | field / holon | `field` and `holon` remain under-differentiated across current canon |
+| F-023 | overlapping/redundant | S1 | blocking | content | field / holon | `field` and `holon` remain under-differentiated across current canon |
 | F-024 | naming-wrong | S4 | deferred | content | decentralization-theater | The corpus now carries both `decentralization-theater` and `decentralisation-theater` as if they were distinct concepts |
 | F-025 | missing | S2 | blocking | meta-corpus | docs/research/planning/canon-review-protocol.md | The canon-review protocol is self-harvested and self-amended by the same round-execution machinery it governs, but it carries no separate constitutional-amendment rule, cooling-off period, or heightened threshold for editing itself |
 | F-026 | missing | S2 | important | meta-corpus | docs/research/planning/canon-review-protocol.md | The canon-review protocol defines dispositions (`edit`, `hold-as-tension`, `reject`) and held-tension overlap checks, but it does not define a post-adoption dissent or appeal path if an ADR is challenged after landing |
@@ -53,7 +55,7 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
 | F-034 | contradictory | S3 | blocking | bridge-note | N/A | Thirty bridge notes use review-claim concept slugs outside the frozen v2 P2P-wiki vocabulary, despite the frozen-vocabulary rule explicitly forbidding new slugs without a version bump |
 | F-035 | dead-weight | S3 | important | content | instance-model / spore-instance-model / intelligence-primitives / memory-layer-model | Four primitive-class entries are bundle-label handles rather than irreducible concepts |
 | F-036 | over-specified | S3 | important | content | koi-net | `koi-net` is primitive-class in the roster, but every canonical use sampled treats it as the current implementation of substrate and transport concerns that are already expressible through other concepts |
-| F-037 | missing | S2 | important | repo-topology | N/A | Spore/IC/PM is already operating as a three-repo shared-canon hybrid, but that topology is still policy-by-practice rather than a ratified constitutional choice |
+| F-037 | missing | S2 | blocking | repo-topology | N/A | Spore/IC/PM is already operating as a three-repo shared-canon hybrid, but that topology is still policy-by-practice rather than a ratified constitutional choice |
 | F-038 | overlapping/redundant | S2 | important | repo-topology | shared-canon layer | The current topology duplicates a common concept layer across three repos without a single authoritative source for those cross-project terms |
 | F-039 | missing | S2 | blocking | repo-topology | merge-governance | The three-repo topology has a blocking operational governance gap at the merge boundary |
 
@@ -182,7 +184,8 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
     ref: /Users/darrenzal/projects/spore/docs/research/corpus-review/research-capstone.md:61-64
     excerpt: 'Paraphrase test: fails ... Spore''s primitives are symmetric; care is not.'
   proposed-resolution-track: canon-review-v2
-  prior-collision-check: none
+  prior-collision-check:
+  - care primacy
   dependencies: []
   notes: Likely overlaps P4.5 because it bears on primitive-class treatment for `care`.
 - finding-id: F-005
@@ -513,7 +516,8 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
     ref: /Users/darrenzal/projects/poietic-match/docs/protocol.md:340-348
     excerpt: CVLE valuations (pool-internal curation/valuation/limitation/exchange records)
   proposed-resolution-track: canon-review-v2
-  prior-collision-check: none
+  prior-collision-check:
+  - commons-over-market
   dependencies: []
 - finding-id: F-016
   source-passes:
@@ -543,7 +547,8 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
     ref: /Users/darrenzal/projects/poietic-match/docs/project-vision.md:50-50
     excerpt: commons-law ladder applies at cross-bioregion federation.
   proposed-resolution-track: canon-review-v2
-  prior-collision-check: none
+  prior-collision-check:
+  - polycentric-not-hierarchical
   dependencies: []
 - finding-id: F-017
   source-passes:
@@ -759,7 +764,7 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
   source-passes:
   - P4-2-004
   type: overlapping/redundant
-  severity: S2
+  severity: S1
   priority: blocking
   corpus-location: content
   target:
@@ -788,7 +793,7 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
   proposed-resolution-track: foundational-reframing
   prior-collision-check: none
   dependencies: []
-  notes: Cross-pass dedupe candidate with P4.5 because this is a primitive-class relation question, not only a local wording drift.
+  notes: Cross-pass dedupe candidate with P4.5 because this is a primitive-class relation question, not only a local wording drift. Revision 2 counts `research-capstone.md` and `research-capstone-review.md` as the two external research artifacts required for S1.
 - finding-id: F-024
   source-passes:
   - P4-2-005
@@ -1100,7 +1105,8 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
     ref: /Users/darrenzal/projects/spore/docs/research/connections/openwashing-opposition.md:123-127
     excerpt: '**R4** ... The value-capture pattern ... *R4 is supported by C1, C2, C4.*'
   proposed-resolution-track: prior-revision-proposal
-  prior-collision-check: none
+  prior-collision-check:
+  - canon-review bridge-note R-claim format convention
   dependencies: []
   notes: Cross-pass dedup with P4.3 on bridge-note format convention. `johar-entangled-intelligence.md` also deviates further by using narrative italics instead of a dedicated support line.
 - finding-id: F-034
@@ -1143,7 +1149,8 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
     ref: /Users/darrenzal/projects/spore/tmp/bridge-note-inventory.tsv:83
     excerpt: intelligence-commons/docs/research/johar-neuroplastic-field.md unspecified 3 3 0.00 FALSE
   proposed-resolution-track: prior-revision-proposal
-  prior-collision-check: none
+  prior-collision-check:
+  - frozen concepts vocabulary v2
   dependencies: []
   notes: Cross-pass dedup with P4.3 on frozen-concepts discipline.
 - finding-id: F-035
@@ -1234,7 +1241,7 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
   - P4-6-001
   type: missing
   severity: S2
-  priority: important
+  priority: blocking
   corpus-location: repo-topology
   target:
     repo: N/A
@@ -1344,8 +1351,8 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
 
 | value | count |
 |-------|-------|
-| S1 | 0 |
-| S2 | 14 |
+| S1 | 1 |
+| S2 | 13 |
 | S3 | 24 |
 | S4 | 1 |
 
@@ -1353,8 +1360,8 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
 
 | value | count |
 |-------|-------|
-| blocking | 8 |
-| important | 27 |
+| blocking | 9 |
+| important | 26 |
 | deferred | 4 |
 
 ### By type

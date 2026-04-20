@@ -78,3 +78,41 @@ No findings were dropped.
 | meta-corpus | 9 |
 | bridge-note | 3 |
 | repo-topology | 3 |
+
+## Revision 2 (P4.8 adjustments)
+
+### Must-fix adjustments applied
+
+| finding | change | rationale |
+|---------|--------|-----------|
+| F-004 | Restored `prior-collision-check: [care primacy]` from `P4-1a-004`. | P4.8 correctly identified a silent data-loss bug in consolidation. |
+| F-015 | Restored `prior-collision-check: [commons-over-market]` from `P4-1c-002`. | P4.8 correctly identified a silent data-loss bug in consolidation. |
+| F-016 | Restored `prior-collision-check: [polycentric-not-hierarchical]` from `P4-1c-003`. | P4.8 correctly identified a silent data-loss bug in consolidation. |
+| F-033 | Restored `prior-collision-check: [canon-review bridge-note R-claim format convention]` from `P4-4-002`. | Full re-audit of all source-pass priors found an additional dropped annotation beyond the three flagged by P4.8. |
+| F-034 | Restored `prior-collision-check: [frozen concepts vocabulary v2]` from `P4-4-003`. | Full re-audit of all source-pass priors found an additional dropped annotation beyond the three flagged by P4.8. |
+| F-037 | Priority `important -> blocking`. | Dependency invariant: blocking F-039 depends on F-037, so F-037 must also be blocking. |
+
+### Judgment calls applied
+
+| finding(s) | decision | rationale |
+|------------|----------|-----------|
+| F-023 | Severity `S2 -> S1`. | Verified 5 distinct evidence pieces and 2 external research artifacts by path: `research-capstone.md` and `research-capstone-review.md`. The claim is a primitive-ontology question and therefore meets the S1 substance test. |
+| F-012 + F-013 | Kept both at `important`. | Applied as a symmetric pair. Both findings target accepted-ADR trace/rationale reliability, but neither creates the same dependency-blocking operational invariant as F-037/F-039. |
+
+### Prior-collision re-audit result
+
+- Re-audited all 39 consolidated findings against source-pass `prior-collision-check` fields.
+- Source-pass findings with non-`none` priors: `5`.
+- Dropped priors found and restored: `5` (`F-004`, `F-015`, `F-016`, `F-033`, `F-034`).
+- No other prior-collision mismatches remained after the restores.
+
+### Optional S1 audit
+
+- Spot-checked the remaining 13 original-S2 findings excluding F-023.
+- No additional S1 upgrades were applied.
+- Numeric bar alone was insufficient for topology/governance findings such as `F-037`, `F-038`, and `F-039`; those may have enough evidence pieces, but they remain structural rather than primitive/substrate identity findings under the methodology.
+
+### Sanity probes (report only)
+
+- P4.4 bundling verdict: the three bridge-note findings intentionally bundle corpus-level pattern violations, and the only concrete issue held out as a non-finding was the single draft note missing `disposition`, which stayed below the pass evidence bar.
+- Dedup-flag review: reviewed `26` flagged-but-not-merged overlap notes; target surfaces remained materially distinct, so no additional merges were warranted.
