@@ -1,7 +1,7 @@
 ---
 doc_id: spec:spore.foundational-reframing-protocol
 doc_kind: protocol
-version: 1
+version: 1.1
 status: draft
 authored-on: 2026-04-20
 authored-by: codex-gpt-5
@@ -9,7 +9,7 @@ authored-by: codex-gpt-5
 
 # Foundational Reframing Protocol
 
-Version: v1 (2026-04-20). Drafted for corpus-foundational-review-v1 Phase 6a. Companion to `canon-review-protocol.md` and `learning-field-intake-protocol.md`: those govern evidence intake and ADR-backed canon edits inside the accepted frame; this protocol governs the narrower class of findings that exceed ADR scope and therefore need a proposal layer above per-repo ADR execution. No proposal may use this v1 draft until the Phase 6b two-round adversarial bakeoff has closed.
+Version: v1.1 (2026-04-20). Drafted for corpus-foundational-review-v1 Phase 6a and revised in Phase 6b Round 1 fix application. Companion to `canon-review-protocol.md` and `learning-field-intake-protocol.md`: those govern evidence intake and ADR-backed canon edits inside the accepted frame; this protocol governs the narrower class of findings that exceed ADR scope and therefore need a proposal layer above per-repo ADR execution. No proposal may use this v1.1 draft until the Phase 6b two-round adversarial bakeoff has closed.
 
 ## Companion protocols
 
@@ -50,7 +50,8 @@ doc_id: spore.foundational-reframing.<slug>
 doc_kind: proposal
 status: draft
 covers: [F-025]
-proposal_kind: concept-merge | concept-rename | relayer | canon-scope | prior-revision | topology | protocol-amendment
+depends-on: []
+proposal_kind: concept-merge | concept-rename | relayer | canon-scope | prior-revision | topology | protocol-amendment | new-protocol-creation
 author: Darren Zal
 approver: Darren Zal
 opened-on: 2026-04-20
@@ -59,6 +60,8 @@ consultation_artifact: tmp/cross-repo-consultation-<slug>.md
 authorized_adrs: []
 ---
 ```
+
+`depends-on:` is populated from the covered findings' `dependencies:` fields after translating finding IDs into the proposal slugs that cover them. `authorized_adrs:` stays empty until the proposal first enters `authorized-ADR`, then lists every ADR doc ID or file path that must land before the proposal can move to `executed`. Use `new-protocol-creation` when the proposal creates a new standalone governance artifact rather than revising an existing one.
 
 `status:` uses the proposal lifecycle defined in this protocol, not the ADR status vocabulary. That keeps proposal mechanics explicit without pre-committing F-031's separate status-unification outcome.
 
@@ -78,7 +81,7 @@ authorized_adrs: []
 
 **FR-10. Public-verifiability rule.** Publicly verifiable means open-access, Wayback-captured, or committed-to-repo. Subscription-only sources and personal snapshots do not satisfy the public minimum by themselves. `capstone-section` and `research-synthesis` count as publicly verifiable only when the cited capstone or research note is already committed in the repo at proposal-commit time; working-tree-only drafts do not count.
 
-**FR-11. Frame-change sufficiency rule.** The evidence bundle must show not only that the target surface is flawed, but that the flaw cannot be responsibly resolved by an ordinary canon-review ADR. A proposal that proves a local contradiction but not the need for frame change is sent back down to canon review or editorial repair.
+**FR-11. Frame-change sufficiency rule.** The evidence bundle must show not only that the target surface is flawed, but that the flaw cannot be responsibly resolved by an ordinary canon-review ADR. The consultation artifact named in FR-16 is the operational frame-change-sufficiency gate: it must record `frame-change-required: yes|no` plus rationale. A proposal that proves a local contradiction but not the need for frame change is sent back down to canon review or editorial repair, and its consultation artifact must not sign off ADR drafting.
 
 ## 4. Cooling-off and lifecycle states
 
@@ -86,16 +89,22 @@ authorized_adrs: []
 
 - `draft`: schema incomplete or evidence bar not yet met.
 - `cooling-off`: proposal committed with evidence bar met, but waiting out the mandatory delay.
-- `eligible`: cooling-off elapsed and consultation artifact is complete enough to permit ADR drafting.
-- `authorized-ADR`: at least one ADR draft cites the proposal slug in `authorized-by:`.
-- `executed`: the authorized ADR bundle has landed in every affected repo.
+- `eligible`: cooling-off elapsed, the consultation artifact records `frame-change-required: yes`, and every parent named in `depends-on:` has reached at least `authorized-ADR`. This is the first state from which ADR drafting may begin.
+- `authorized-ADR`: at least one ADR draft cites the proposal slug in `authorized-by:`. Entry happens when the first authorizing ADR draft exists, and the proposal frontmatter is updated at that time so `authorized_adrs:` lists the full ADR set that still needs to land.
+- `executed`: every ADR listed in `authorized_adrs:` has landed in every affected repo.
 - `closed`: execution finished cleanly, or execution was rolled back and the closure note records that result.
 
 **FR-13. Cooling-off rule.** For ordinary foundational reframings, at least 7 days must elapse between the earliest commit that adds the proposal file and the earliest ADR commit that cites the proposal in `authorized-by:`. The check is measured by Git author-date, matching the plan's Phase 7 convention.
 
 **FR-14. Cooling-off marker rule.** Every proposal must carry an `eligible-on:` frontmatter field computed from the proposal's earliest author-date plus the required cooling-off window. The operator marks cooling-off as elapsed by changing `status: eligible` in a commit whose author-date is on or after `eligible-on:`. A proposal may not enter `eligible` early, even if the calendar date on the local machine is ahead.
 
+**FR-14.5. Material-change reset rule.** A material proposal change made during `cooling-off` resets `eligible-on:` to the material-change commit's author-date plus the applicable 7-day or 14-day window. Material changes include: adding or removing covered findings, changing `proposal_kind:`, changing `depends-on:`, changing whether the proposal revises a meta-corpus surface, changing the affected-repo set or ADR authorization plan, and changing any slug-mapping disposition or cleanup plan. Non-material changes do not reset the clock. Non-material changes include: typo fixes, clarifying prose that leaves obligations unchanged, stronger excerpts for already cited sources, and adding more sources only when they are of kinds already cited and do not change the proposal's scope or dependencies.
+
+**FR-14.6. Dependency-gating rule.** A proposal with non-empty `depends-on:` cannot transition to `eligible` until every named parent proposal has reached at least `authorized-ADR`. The `depends-on:` list is the union of the covered findings' `dependencies:` fields after those finding IDs are translated into proposal slugs. If a parent proposal has not yet been opened, the child proposal remains in `draft` or `cooling-off`; it does not become `eligible` early.
+
 ## 5. Cross-repo consultation
+
+For §5 through §9, `affected repo` means any repo that (a) hosts a doc named in a covered finding's target, (b) will host an authorized ADR, or (c) contains a meta-corpus surface the proposal revises.
 
 **FR-15. Consultation artifact rule.** Before any proposal can move from `eligible` to `authorized-ADR`, it must have a committed consultation artifact at `tmp/cross-repo-consultation-<proposal-slug>.md`.
 
@@ -106,7 +115,8 @@ authorized_adrs: []
 3. `Consulted repos:` listing every affected repo plus every canon-bearing repo whose governance surface is implicated. Under the current topology this normally means Spore, Intelligence Commons, and Poietic Match.
 4. One stance block per consulted repo with: who was consulted, stance (`support`, `can-live-with`, `object`, or `not-applicable`), rationale, and any execution conditions.
 5. `Open objections:` with each unresolved objection named explicitly or `None`.
-6. `Sign-off:` line stating whether ADR drafting may begin.
+6. `frame-change-required:` set to `yes` or `no`, plus rationale stating why canon-review ADRs or editorial repair are or are not insufficient.
+7. `Sign-off:` line stating whether ADR drafting may begin.
 
 **FR-17. Single-operator caveat rule.** In the current solo-operator state, the same person may author the proposal and sign the consultation artifact. When that happens, the artifact must say so plainly and treat the artifact as an externalized self-review surface, not as proof of independent consensus.
 
@@ -114,11 +124,11 @@ authorized_adrs: []
 
 **FR-18. Frozen-vocabulary gate rule.** A reframing that introduces a new slug or renames an existing one cannot execute until the target slug exists in frozen-concepts v3, or the reframing's own authorized ADR bundle admits that slug into v3 as a coordinated side effect before any canon doc starts using it.
 
-**FR-19. Rename-traceability rule.** Rename, merge, and split proposals must include a slug mapping table that names predecessor slugs, successor slugs, and what happens to existing references. "We'll clean it up later" is not valid vocabulary handling.
+**FR-19. Rename-traceability rule.** Rename, merge, and split proposals must include a slug mapping table that names predecessor slugs, successor slugs, a `disposition:` column for each predecessor slug with value `alias-in-v3 | historical-gloss | hard-retired`, and what happens to existing references. Proposals that choose `hard-retired` for any predecessor slug must also include an explicit reference-cleanup plan. "We'll clean it up later" is not valid vocabulary handling.
 
 ## 7. Special cases
 
-**FR-20. Meta-corpus-amendment double-cooling rule.** If a proposal revises an in-flight protocol or other protocol-about-protocols surface, the cooling-off window doubles from 7 days to 14 days. This special case applies at minimum to `canon-review-protocol.md`, `learning-field-intake-protocol.md`, this protocol, and any successor version of this protocol.
+**FR-20. Meta-corpus-amendment double-cooling rule.** If a proposal revises a meta-corpus surface, the cooling-off window doubles from 7 days to 14 days. The authoritative current inventory is `tmp/meta-corpus-inventory.tsv`; as of 2026-04-20 that list includes `canon-review-protocol`, `learning-field-intake-protocol`, `concepts-p2p-wiki`, `validate_spec_dag.py`, `moratorium-mechanics`, `bridge-note-format-convention`, `learning-field-structure`, and `corpus-foundational-review-methodology`. Any artifact later added to that inventory as a meta-corpus surface automatically inherits the 14-day cooling-off window from the admission commit, even if it begins as a plan-embedded or otherwise non-standalone governance surface.
 
 **FR-21. Repo-topology delta rule.** A repo-topology proposal must include a before/after coordination-cost table. The table names the current and proposed values for at least: canon-bearing repo count, authoritative shared-concept surfaces, coordinated ADR fan-out repos, merge points, and manual propagation steps.
 
@@ -128,7 +138,7 @@ authorized_adrs: []
 
 ## 8. Approved reframing to ADR execution
 
-**FR-24. Proposal-to-ADR lineage rule.** Approval of a foundational reframing authorizes ADR drafting, not direct doc edits. Each affected repo gets its own ADR or coordinated ADR set, and each ADR cites the proposal slug in an `authorized-by:` field.
+**FR-24. Proposal-to-ADR lineage rule.** Approval of a foundational reframing authorizes ADR drafting, not direct doc edits. Each affected repo gets its own ADR or coordinated ADR set, and each ADR cites the proposal slug in a single-line, comma-separated `authorized-by:` field. Example: `authorized-by: reframing-pm-canon-scope, reframing-shared-canon-layer`. YAML list format is forbidden for this field because AC6 verifies lineage with a single-line grep.
 
 **FR-25. No direct-edit rule.** A reframing proposal never authorizes silent edits to canon, protocol, or topology docs. The implementing change lands only through the ADR bundle the proposal authorized.
 
@@ -154,4 +164,11 @@ authorized_adrs: []
 
 ## Changelog
 
+- **v1.1** (2026-04-20): Round 1 review fixes.
+  - Added `new-protocol-creation` as the explicit `proposal_kind:` for net-new governance artifacts and documented the `depends-on:` / `authorized_adrs:` frontmatter semantics.
+  - Added dependency gating so proposal frontmatter inherits finding-level `dependencies:` and child proposals cannot become `eligible` before parent proposals reach `authorized-ADR`.
+  - Clarified lifecycle semantics for `authorized-ADR` entry and `executed` exit, and added a material-change reset rule for `eligible-on:`.
+  - Made the consultation artifact the frame-change-sufficiency gate by requiring `frame-change-required: yes|no` plus rationale.
+  - Defined `affected repo`, required `disposition:` values plus cleanup plans in slug-mapping tables, and clarified `authorized-by:` as single-line comma-separated syntax for AC6 compatibility.
+  - Rewrote meta-corpus double-cooling to follow `tmp/meta-corpus-inventory.tsv` and auto-apply to future meta-corpus admissions.
 - **v1** (2026-04-20): Initial foundational-reframing protocol drafted for corpus-foundational-review-v1 Phase 6a. Defines proposal schema, S1 evidence bar, cooling-off, consultation artifacts, vocabulary gates, topology special cases, ADR lineage, rollback discipline, joint-proposal rules, and the constitutional guard against silent self-amendment.
