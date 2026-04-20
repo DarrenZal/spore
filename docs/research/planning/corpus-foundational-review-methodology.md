@@ -145,7 +145,7 @@ Topology review covers the three active repos as writable scope: Spore, Intellig
 |---|---|---|---|---|
 | `0` | `6390b26dc0723e6c90579f9d3dc3982e019e67ed` | `84213dd48ddfcfa44bb3b0326f5107685b232775` | `33cfb10fca9bbc7dce58ff02d078187e263fb67e` | Phase 0 snapshot and branch setup complete. |
 | `1` | `edf0caa6c505a4f69b11ee678715c9dc3007da81` | `5a4ab624e918d22289b65f05efae60dbb85eb2e6` | `ba48fb45e01da41f5c6a8bd0d20eb464e927b8cb` | Methodology + moratorium declarations. |
-| `2` | `PENDING` | `N/A` | `N/A` | Corpus inventory is Spore-only. |
+| `2` | `6a99cf789be41f7cea31c62df86d1e36caeb601e` | `N/A` | `N/A` | Corpus inventory is Spore-only. |
 | `3` | `PENDING` | `PENDING` | `PENDING` | Deep research report. |
 | `4` | `PENDING` | `PENDING` | `PENDING` | Diagnostic. |
 | `5` | `PENDING` | `PENDING` | `PENDING` | Triage. |
