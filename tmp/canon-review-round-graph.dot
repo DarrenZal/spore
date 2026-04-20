@@ -3,17 +3,21 @@ digraph canon_review_rounds {
   node [shape=box];
 
   round-governance-authoring-surfaces [label="round-governance-authoring-surfaces\n F-001, F-002"];
-  round-spore-synthesis-refresh [label="round-spore-synthesis-refresh\n F-003, F-005, F-007"];
+  round-spore-synthesis-refresh [label="round-spore-synthesis-refresh\n F-003, F-004, F-005, F-007"];
   round-ic-memory-governance-boundaries [label="round-ic-memory-governance-boundaries\n F-008, F-009, F-011"];
   round-ic-adr-trace-integrity [label="round-ic-adr-trace-integrity\n F-012, F-013"];
   round-cross-repo-vision-alignment [label="round-cross-repo-vision-alignment\n F-006, F-010"];
-  round-pm-vocabulary-contract [label="round-pm-vocabulary-contract\n F-014, F-017"];
+  round-pm-vocabulary-contract [label="round-pm-vocabulary-contract\n F-014, F-015, F-016, F-017"];
   round-cross-repo-concept-splits [label="round-cross-repo-concept-splits\n F-021, F-022"];
+  // F-023 escalation rule: if clarifying `field` / `holon` requires dissolving either
+  // primitive, re-triage F-023 to foundational-reframing before the round closes.
   round-field-holon-clarification [label="round-field-holon-clarification\n F-023"];
   round-primitive-roster-boundaries [label="round-primitive-roster-boundaries\n F-035, F-036"];
   round-bridge-note-inventory-boundary [label="round-bridge-note-inventory-boundary\n F-032"];
+  round-bridge-note-corpus-normalization [label="round-bridge-note-corpus-normalization\n F-033, F-034"];
 
   round-ic-memory-governance-boundaries -> round-ic-adr-trace-integrity;
   round-ic-memory-governance-boundaries -> round-primitive-roster-boundaries;
   round-field-holon-clarification -> round-cross-repo-concept-splits;
+  round-bridge-note-inventory-boundary -> round-bridge-note-corpus-normalization;
 }

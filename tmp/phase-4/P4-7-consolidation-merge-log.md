@@ -116,3 +116,13 @@ No findings were dropped.
 
 - P4.4 bundling verdict: the three bridge-note findings intentionally bundle corpus-level pattern violations, and the only concrete issue held out as a non-finding was the single draft note missing `disposition`, which stayed below the pass evidence bar.
 - Dedup-flag review: reviewed `26` flagged-but-not-merged overlap notes; target surfaces remained materially distinct, so no additional merges were warranted.
+
+## Revision 4 (Phase 5 triage correction)
+
+| finding | reroute | round assignment | rationale |
+|---------|---------|------------------|-----------|
+| F-004 | `prior-revision-proposal -> canon-review-v2` | `round-spore-synthesis-refresh` | The finding invokes `care primacy` to defend the current canon and fix `docs/synthesis/coordination-grammar.md`; it preserves the prior rather than challenging it. |
+| F-015 | `prior-revision-proposal -> canon-review-v2` | `round-pm-vocabulary-contract` | The finding targets PM layer-placement drift for commons-grounded `CVLE` semantics; it does not challenge `commons-over-market`, and it belongs with the other PM contract-surface corrections. |
+| F-016 | `prior-revision-proposal -> canon-review-v2` | `round-pm-vocabulary-contract` | The finding invokes `polycentric-not-hierarchical` to require PM's missing third governance surface; it preserves the prior rather than reopening it. |
+| F-033 | `prior-revision-proposal -> canon-review-v2` | `round-bridge-note-corpus-normalization` | `canon-review bridge-note R-claim format convention` is a source-pass convention flag, not one of the five declared priors; the fix is a 63-note bridge-note format migration round. |
+| F-034 | `prior-revision-proposal -> canon-review-v2` | `round-bridge-note-corpus-normalization` | `frozen concepts vocabulary v2` is a vocabulary-governance convention, not a declared prior; the fix is bridge-note slug remapping or v3 vocabulary admission inside canon-review-v2. |
