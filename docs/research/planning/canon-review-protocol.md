@@ -7,9 +7,20 @@ depends_on: []
 
 # Canon Review Protocol
 
-Version: v1 (2026-04-17). Harvested alongside the canon-review-v1 plan (`/Users/darrenzal/.claude/plans/canon-review-v1.md`), pressure-tested through 15 rounds of Codex review. Sibling to the intake protocol (`learning-field-intake-protocol.md`); this protocol covers what the intake protocol explicitly scoped out — the normative evolution of foundation docs in response to learning-field evidence.
+Version: v1 (2026-04-17), v2 (2026-04-18). Harvested alongside the canon-review-v1 plan (`/Users/darrenzal/.claude/plans/canon-review-v1.md`), pressure-tested through 15 rounds of Codex review. Sibling to the intake protocol (`learning-field-intake-protocol.md`); this protocol covers what the intake protocol explicitly scoped out — the normative evolution of foundation docs in response to learning-field evidence.
 
 This protocol governs how we edit canon (the doc set that materially shapes how Spore / IC / PM describe themselves) in response to priority queues produced by intake. It evolves after each canon-review round.
+
+## Companion protocols
+
+This protocol is the **second half** of a two-protocol pair for evolving project canon from external prior art. Use them together:
+
+- **[Learning field intake protocol](./learning-field-intake-protocol.md)** — descriptive: how external corpora become bridge notes + wiki-anchored claims in the learning field. This is the upstream of canon review's priority queues.
+- **This protocol (canon review)** — normative: how priority queues from intake become ADR-backed edits to foundation docs. v2 (2026-04-18) appended after v1 with 29 rules harvested from running v1.
+
+A full cycle runs intake → capstone → canon review → protocol-evolution → next intake round. Both protocols are harvested-after-execution; running v1 is the method that produces v2.
+
+**Full-arc retrospective** of the first complete cycle (P2P wiki intake + canon-review v1): [`docs/research/connections/wiki-intake-canon-review-retrospective.md`](../connections/wiki-intake-canon-review-retrospective.md). Read that for how the two protocols interact in practice, the four structural insights landed, the three held-open tensions, and the vision-level shifts across all three projects.
 
 ## 1. Scope: what "canon" means per project
 
