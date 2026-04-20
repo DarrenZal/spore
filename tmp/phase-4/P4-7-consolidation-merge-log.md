@@ -126,3 +126,42 @@ No findings were dropped.
 | F-016 | `prior-revision-proposal -> canon-review-v2` | `round-pm-vocabulary-contract` | The finding invokes `polycentric-not-hierarchical` to require PM's missing third governance surface; it preserves the prior rather than reopening it. |
 | F-033 | `prior-revision-proposal -> canon-review-v2` | `round-bridge-note-corpus-normalization` | `canon-review bridge-note R-claim format convention` is a source-pass convention flag, not one of the five declared priors; the fix is a 63-note bridge-note format migration round. |
 | F-034 | `prior-revision-proposal -> canon-review-v2` | `round-bridge-note-corpus-normalization` | `frozen concepts vocabulary v2` is a vocabulary-governance convention, not a declared prior; the fix is bridge-note slug remapping or v3 vocabulary admission inside canon-review-v2. |
+
+## Revision 5 (Phase 5 triage YAML-block sweep, 2026-04-20)
+
+Revisions 2–4 updated the findings-doc index table but left the per-finding YAML blocks'
+`proposed-resolution-track:` field unchanged (per prompt K's "Do NOT touch the detailed
+YAML blocks" constraint). Phase 6c drafting surfaced this divergence as a real audit
+issue — the YAML blocks showed Phase 4 consolidator-era routings that no longer matched
+the ratified Phase 5 tracks. Revision 5 sweeps all 20 stale `proposed-resolution-track:`
+fields into alignment with the index table.
+
+| Finding | YAML old value | YAML new value |
+|---------|----------------|----------------|
+| F-001 | editorial | canon-review-v2 |
+| F-002 | editorial | canon-review-v2 |
+| F-005 | editorial | canon-review-v2 |
+| F-006 | editorial | canon-review-v2 |
+| F-007 | editorial | canon-review-v2 |
+| F-017 | editorial | canon-review-v2 |
+| F-018 | editorial | foundational-reframing |
+| F-019 | editorial | foundational-reframing |
+| F-020 | canon-review-v2 | foundational-reframing |
+| F-023 | foundational-reframing | canon-review-v2 |
+| F-025 | canon-review-v2 | foundational-reframing |
+| F-026 | canon-review-v2 | foundational-reframing |
+| F-027 | prior-revision-proposal | foundational-reframing |
+| F-028 | canon-review-v2 | foundational-reframing |
+| F-029 | prior-revision-proposal | foundational-reframing |
+| F-030 | editorial | foundational-reframing |
+| F-031 | prior-revision-proposal | foundational-reframing |
+| F-032 | editorial | canon-review-v2 |
+| F-033 | prior-revision-proposal | canon-review-v2 |
+| F-034 | prior-revision-proposal | canon-review-v2 |
+
+Frontmatter bumped to `revision: 5`, `revision_basis: phase-5-triage-yaml-sweep`. Final
+YAML-block distribution: canon-review-v2 25, foundational-reframing 13, editorial 1,
+prior-revision-proposal 0 — matches the index table exactly.
+
+No finding content was changed; no severity/priority/corpus-location values were
+touched. This is a pure field-alignment sweep.

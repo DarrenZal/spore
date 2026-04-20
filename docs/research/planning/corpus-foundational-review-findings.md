@@ -5,8 +5,8 @@ consolidated_by: codex
 consolidated_on: 2026-04-19
 source_passes: [P4.1a, P4.1b, P4.1c, P4.2, P4.3, P4.4, P4.5, P4.6]
 total_findings: 39
-revision: 4
-revision_basis: phase-5-triage-correction
+revision: 5
+revision_basis: phase-5-triage-yaml-sweep
 ---
 
 # Corpus Foundational Review v1 - Findings
@@ -89,7 +89,7 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
   - kind: source-doc
     ref: /Users/darrenzal/projects/spore/docs/governance/agent-commons-meta-protocol.md:122-127
     excerpt: 'Status transitions: `draft` -> `active` -> `deprecated` or `superseded`.'
-  proposed-resolution-track: editorial
+  proposed-resolution-track: canon-review-v2
   prior-collision-check: none
   dependencies:
   - F-031
@@ -121,7 +121,7 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
   - kind: source-doc
     ref: /Users/darrenzal/projects/spore/docs/research/canon-decisions/0006-polycentric-governance-at-holarchy.md:1-3
     excerpt: 'doc_kind: decision-record'
-  proposed-resolution-track: editorial
+  proposed-resolution-track: canon-review-v2
   prior-collision-check: none
   dependencies: []
   notes: Overlaps P4.3 on governance-taxonomy / validator-enforcement drift.
@@ -212,7 +212,7 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
   - kind: source-doc
     ref: /Users/darrenzal/projects/spore/docs/governance/agent-commons-meta-protocol.md:122-127
     excerpt: 'Status transitions: `draft` -> `active` -> `deprecated` or `superseded`.'
-  proposed-resolution-track: editorial
+  proposed-resolution-track: canon-review-v2
   prior-collision-check: none
   dependencies:
   - F-031
@@ -244,7 +244,7 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
   - kind: source-doc
     ref: /Users/darrenzal/projects/spore/docs/research/planning/corpus-foundational-review-methodology.md:118-120
     excerpt: The current audience is `solo-operator -> active contributors across Spore / Intelligence Commons / Poietic Match`.
-  proposed-resolution-track: editorial
+  proposed-resolution-track: canon-review-v2
   prior-collision-check: none
   dependencies: []
   notes: Overlaps P4.3 on audience / reader-scoping machinery.
@@ -275,7 +275,7 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
   - kind: source-doc
     ref: /Users/darrenzal/projects/spore/docs/protocols/claims-evidence-attestation.md:1-11
     excerpt: '# Claims, Evidence, and Attestation Anchoring'
-  proposed-resolution-track: editorial
+  proposed-resolution-track: canon-review-v2
   prior-collision-check: none
   dependencies: []
   notes: Overlaps P4.3 on synthesis-layer archival / inventory hygiene.
@@ -577,7 +577,7 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
   - kind: source-doc
     ref: /Users/darrenzal/projects/poietic-match/docs/project-vision.md:22-26
     excerpt: 'Consent scope: who can see this intent, who can propose matches'
-  proposed-resolution-track: editorial
+  proposed-resolution-track: canon-review-v2
   prior-collision-check: none
   dependencies: []
 - finding-id: F-018
@@ -607,7 +607,7 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
   - kind: inventory-row
     ref: /Users/darrenzal/projects/spore/tmp/corpus-inventory.tsv:22-22
     excerpt: poietic-match/docs/downstream-products.md\tpoietic-match:extended\t30\t2026-04-13\tTRUE\t0
-  proposed-resolution-track: editorial
+  proposed-resolution-track: foundational-reframing
   prior-collision-check: none
   dependencies: []
   notes: Likely overlaps P4.3 on canon-scope / inventory-layer drift; consolidator should dedupe there.
@@ -641,7 +641,7 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
   - kind: source-doc
     ref: /Users/darrenzal/projects/poietic-match/docs/phase-0-spec.md:294-347
     excerpt: Implementation Order ... `src/pm/models.py` ... `tests/test_models.py` ... This is the first coding task.
-  proposed-resolution-track: editorial
+  proposed-resolution-track: foundational-reframing
   prior-collision-check: none
   dependencies: []
   notes: Likely overlaps P4.3 on canon-layer inventory drift; consolidator should dedupe there.
@@ -688,7 +688,7 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
   - kind: source-doc
     ref: /Users/darrenzal/projects/spore/docs/synthesis/coordination-grammar.md:183-183
     excerpt: This is the \"knowledge graph\" from the vision doc, renamed to emphasize its epistemological function
-  proposed-resolution-track: canon-review-v2
+  proposed-resolution-track: foundational-reframing
   prior-collision-check: none
   dependencies: []
   notes: Merged the cross-doc naming drift and counterfactual duplicate-primitive finding. Severity normalized to S3 because the combined evidence set is internal-only and does not meet the S2 external-evidence bar.
@@ -790,7 +790,7 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
   - kind: source-doc
     ref: /Users/darrenzal/projects/spore/docs/research/corpus-review/research-capstone-review.md:165-165
     excerpt: "The holon-vs-field confusion flagged in \xA75 is a real and useful problem statement"
-  proposed-resolution-track: foundational-reframing
+  proposed-resolution-track: canon-review-v2
   prior-collision-check: none
   dependencies: []
   notes: Cross-pass dedupe candidate with P4.5 because this is a primitive-class relation question, not only a local wording drift. Revision 2 counts `research-capstone.md` and `research-capstone-review.md` as the two external research artifacts required for S1.
@@ -849,7 +849,7 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
   - kind: capstone-section
     ref: /Users/darrenzal/projects/spore/docs/research/corpus-review/research-capstone.md:319-320
     excerpt: Spore has no equivalent guard-text. ... add a constitutional-amendment-threshold clause
-  proposed-resolution-track: canon-review-v2
+  proposed-resolution-track: foundational-reframing
   prior-collision-check: none
   dependencies: []
 - finding-id: F-026
@@ -879,7 +879,7 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
   - kind: capstone-section
     ref: /Users/darrenzal/projects/spore/docs/research/corpus-review/research-capstone.md:321-321
     excerpt: But no documented escalation path exists if an ADR is disputed post-adoption
-  proposed-resolution-track: canon-review-v2
+  proposed-resolution-track: foundational-reframing
   prior-collision-check: none
   dependencies: []
 - finding-id: F-027
@@ -909,7 +909,7 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
   - kind: research-synthesis
     ref: /Users/darrenzal/projects/spore/docs/research/corpus-review/research-governance-process.md:20-20
     excerpt: All traditions require a written artifact authored by a champion.
-  proposed-resolution-track: prior-revision-proposal
+  proposed-resolution-track: foundational-reframing
   prior-collision-check: none
   dependencies: []
 - finding-id: F-028
@@ -939,7 +939,7 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
   - kind: research-synthesis
     ref: /Users/darrenzal/projects/spore/docs/research/corpus-review/research-canonical-layering.md:178-178
     excerpt: \"a layering is a hypothesis about what will vary independently\"
-  proposed-resolution-track: canon-review-v2
+  proposed-resolution-track: foundational-reframing
   prior-collision-check: none
   dependencies: []
   notes: May overlap P4.2 if consolidator merges vocabulary-role drift with cross-doc concept-governance findings.
@@ -973,7 +973,7 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
   - kind: research-synthesis
     ref: /Users/darrenzal/projects/spore/docs/research/corpus-review/research-canonical-layering.md:178-178
     excerpt: \"a layering is a hypothesis about what will vary independently\"
-  proposed-resolution-track: prior-revision-proposal
+  proposed-resolution-track: foundational-reframing
   prior-collision-check: none
   dependencies:
   - F-037
@@ -1008,7 +1008,7 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
   - kind: capstone-section
     ref: /Users/darrenzal/projects/spore/docs/research/corpus-review/research-capstone.md:323-323
     excerpt: \"Audience-declaration block on README and ADR/bridge-note templates.\"
-  proposed-resolution-track: editorial
+  proposed-resolution-track: foundational-reframing
   prior-collision-check: none
   dependencies: []
   notes: Likely overlaps P4.4 if the bridge-note sample pass flags template-level readability or onboarding drift.
@@ -1036,7 +1036,7 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
   - kind: source-doc
     ref: /Users/darrenzal/projects/spore/docs/research/canon-decisions/0001-pluriversal-incommensurability.md:5-9
     excerpt: "\\\"no \\\\\\\"proposed\\\\\\\"\\\" ... \\\"Mapping protocol \xA73 lifecycle state \\\\\\\"proposed\\\\\\\"\\\" ... status: active"
-  proposed-resolution-track: prior-revision-proposal
+  proposed-resolution-track: foundational-reframing
   prior-collision-check: none
   dependencies: []
   notes: Protocol v2 already defers a full vocabulary unification to v3; kept deferred here for the same reason.
@@ -1070,7 +1070,7 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
   - kind: source-doc
     ref: /Users/darrenzal/projects/spore/docs/research/connections/p2p-wiki-post-intake-synthesis.md:1-6
     excerpt: 'doc_id: spore.connection.p2p-wiki-post-intake-synthesis ... research_subkind: field_scan'
-  proposed-resolution-track: editorial
+  proposed-resolution-track: canon-review-v2
   prior-collision-check: none
   dependencies: []
   notes: Overlaps P4.3 on bridge-note-format / meta-corpus boundary discipline.
@@ -1104,7 +1104,7 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
   - kind: source-doc
     ref: /Users/darrenzal/projects/spore/docs/research/connections/openwashing-opposition.md:123-127
     excerpt: '**R4** ... The value-capture pattern ... *R4 is supported by C1, C2, C4.*'
-  proposed-resolution-track: prior-revision-proposal
+  proposed-resolution-track: canon-review-v2
   prior-collision-check:
   - canon-review bridge-note R-claim format convention
   dependencies: []
@@ -1148,7 +1148,7 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
   - kind: inventory-row
     ref: /Users/darrenzal/projects/spore/tmp/bridge-note-inventory.tsv:83
     excerpt: intelligence-commons/docs/research/johar-neuroplastic-field.md unspecified 3 3 0.00 FALSE
-  proposed-resolution-track: prior-revision-proposal
+  proposed-resolution-track: canon-review-v2
   prior-collision-check:
   - frozen concepts vocabulary v2
   dependencies: []
