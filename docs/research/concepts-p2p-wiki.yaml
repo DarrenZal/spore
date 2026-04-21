@@ -2,7 +2,7 @@
 # version: v2
 # frozen_at: 2026-04-17
 # owner: Darren Zal
-# purpose: Canonical concept slugs for P2P Foundation wiki intake bridge notes.
+# purpose: Canonical concept vocabulary governing ADR `concepts:` references, shared framing notes, and bridge-note R-claim `concept:` values across Spore / Intelligence Commons / Poietic Match.
 # Agents reading this file MUST NOT mint concept slugs outside this vocabulary during
 # Tier 1b/2/3 of the wiki-intake plan. Pass 2 fan-out (Phase B) gate:
 # `head -1 concepts-p2p-wiki.yaml` must match "# status: frozen" before fan-out.

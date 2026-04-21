@@ -7,7 +7,7 @@ depends_on: []
 
 # Canon Review Protocol
 
-Version: v1 (2026-04-17), v2 (2026-04-18), v3 (2026-04-20). v1 and v2 were harvested alongside the canon-review-v1 plan (`/Users/darrenzal/.claude/plans/canon-review-v1.md`), pressure-tested through 15 rounds of Codex review; v3 applies the governance-hardening and status-vocabulary unification authorized by `reframing-protocol-governance-hardening`. Sibling to the intake protocol (`learning-field-intake-protocol.md`); this protocol covers what the intake protocol explicitly scoped out — the normative evolution of foundation docs in response to learning-field evidence.
+Version: v1 (2026-04-17), v2 (2026-04-18), v3 (2026-04-20). v1 and v2 were harvested alongside the canon-review-v1 plan (`/Users/darrenzal/.claude/plans/canon-review-v1.md`), pressure-tested through 15 rounds of Codex review; v3 first applied the governance-hardening and status-vocabulary unification authorized by `reframing-protocol-governance-hardening` and now also carries the vocabulary-governance shell authorized by `reframing-frozen-vocabulary-role`. Sibling to the intake protocol (`learning-field-intake-protocol.md`); this protocol covers what the intake protocol explicitly scoped out — the normative evolution of foundation docs in response to learning-field evidence.
 
 This protocol governs how we edit canon (the doc set that materially shapes how Spore / IC / PM describe themselves) in response to priority queues produced by intake. Canon-review rounds may harvest lessons for future revisions, but changes to this protocol's governance rules now route through the constitutional-amendment guard in §12 rather than ordinary round close.
 
@@ -247,7 +247,7 @@ All `concepts:` entries in ADRs, canon edits, and shared framing notes must be k
 
 **Zero new concept slugs introduced during canon-review.** If a canon edit genuinely needs a concept not in v2, the ADR disposition is `hold-as-tension` with Evidence note "requires vocabulary extension: <proposed slug>; blocked on v3 freeze". The edit defers until a separate plan extends the frozen vocab.
 
-Rationale: concept vocab is cross-project infrastructure. Ad-hoc extensions from within canon-review would re-introduce the concept-fragmentation failure mode the intake protocol was built to prevent.
+Rationale: concept vocab is cross-project infrastructure. Ad-hoc extensions from within canon-review would re-introduce the concept-fragmentation failure mode the intake protocol was built to prevent. Changes to the vocabulary surface itself are governed by §14.
 
 ## 8. Tiering
 
@@ -314,7 +314,19 @@ If a landed canon-review ADR is later challenged, the challenge routes by scope 
 
 Post-adoption disagreement therefore has a named escalation path. Repo-local disputes stay at the ADR layer; disputes about the governing frame move upward to reframing.
 
-## 14. Moratorium / Move-0 acknowledgment
+## 14. Vocabulary governance
+
+`docs/research/concepts-p2p-wiki.yaml` is the frozen cross-project vocabulary surface that governs ADR `concepts:` entries, shared framing note `concepts:` entries, and bridge-note R-claim `concept:` values across Spore / Intelligence Commons / Poietic Match. The file keeps its historical path, but its governance role is canonical rather than intake-local.
+
+Changes to that vocabulary follow these rules:
+
+1. **Admission rule.** A new slug may be admitted only through a separately authorized governance change that updates `docs/research/concepts-p2p-wiki.yaml` in a dedicated commit set, cites the motivating evidence bundle or ADR, and bumps the vocabulary version metadata. Ordinary canon-review ADRs may not append slugs opportunistically.
+2. **Alias rule.** Alias additions or canonical-label clarifications are governed changes to the same artifact. They must preserve the canonical slug, be justified in the authorizing ADR or proposal, and ship with a version bump rather than silent edits.
+3. **Deprecation rule.** A slug may be deprecated only when the authorizing ADR names the successor state explicitly: `alias-in-next-version`, `historical-gloss`, or `hard-retired`, plus the reference-cleanup plan for existing uses. Deprecation never silently removes a slug from live governance without traceability.
+4. **Version-bump rule.** Any admission, alias, deprecation, canonical-label, or definition change to `docs/research/concepts-p2p-wiki.yaml` requires a version bump and dated header update in the same commit set. The frozen file is immutable within a version.
+5. **Carrier and cooling rule.** `tmp/meta-corpus-inventory.tsv` already admits `concepts-p2p-wiki` as a formal meta-corpus surface. Changes to its governance role or mutation rules therefore route through foundational reframing and FR-20's double-cooling rule rather than ordinary round harvest.
+
+## 15. Moratorium / Move-0 acknowledgment
 
 The canon moratorium was lifted 2026-04-16 (projected Move 0 acceptance window lapsed; Jeff silent since Apr 13 compose letter — no point protecting a pilot that isn't running). Canon-review v1 executes under that lifted moratorium. Acknowledged risk: canon drift may land a framing Jeff later tests against and finds incompatible.
 
@@ -326,7 +338,7 @@ Mitigation accepted (not a procedural gate):
 
 If a future moratorium is ever reinstated, the canon-review protocol can still be used to draft ADRs in `draft` state without landing commits, holding them until the moratorium lifts again. The infrastructure carries over; only the commit gate changes.
 
-## 15. Known limitations (v1)
+## 16. Known limitations (v1)
 
 - Spore validator has pre-existing errors on cross-project bridge notes (7 as of 2026-04-17 baseline) — a known intake-plan artifact, NOT a canon-review issue. Separate follow-on plan filed to fix validator's cross-project bridge-note handling.
 - IC and PM have no validator; manual frontmatter check is the gate. Follow-on tickets `ic-add-validator` / `pm-add-validator` remain open.
@@ -340,6 +352,7 @@ If a future moratorium is ever reinstated, the canon-review protocol can still b
   - Added the constitutional-amendment guard and post-adoption appeal path for `canon-review-protocol.md` as a meta-corpus governance surface.
   - Unified decision-record status language on `draft`, `active`, `deprecated`, `superseded` and retired the `proposed` / `accepted` split from active protocol text.
   - Updated `validate_spec_dag.py` to discriminate status vocabularies by `doc_kind`, so proposals use their own lifecycle without breaking existing Spore ADRs.
+  - Added §14 `Vocabulary governance`, authorized by `reframing-frozen-vocabulary-role`, to define admission, alias, deprecation, version-bump, and FR-20 carrier rules for `docs/research/concepts-p2p-wiki.yaml`.
 - **v2** (2026-04-18): Harvested from canon-review-v1 plan execution (Phase 5). 10 decisions across Tier A (3) + Tier B (4) + Tier C (3 per-project sessions), producing 23 ADRs across Spore (8) + IC (8) + PM (7) + 6 coordinated shared-framing notes. 28 harvest items (i–xxviii) compress to 11 semantic refinements + 7 script fixes + 5 evidence methods + 4 workflow rules + 2 cross-ref rules + 5 v3 deferrals. v2 section appended below.
 - **v1** (2026-04-17): Initial protocol harvested alongside the canon-review-v1 plan. 15 rounds of Codex review. Key methodological choices: protocol-first (canon review is normatively different from intake, which is descriptive), ADR-lite format (compact, one-screen), strict concepts vocabulary (no ad-hoc extension), held-tension first-class (no count quota), cross-project coordination via Spore-hosted framing notes + session-atomic commit sets, evidence threshold with DB-authoritative verification. v2 to be harvested after canon-review-v1 execution completes.
 
@@ -501,5 +514,5 @@ v4 authoring should be triggered by any of:
 2. **Concepts yaml version bumps to v3 or later** so frozen-vocabulary rules need re-anchoring against a new admitted set.
 3. **Cross-repo ADR index lands** → v4 replaces manual coordination-drift + `related_adrs` checks with registry queries.
 4. **Pre-commit inline-lint framework lands** → v4 moves AC-9, AC-17, AC-8b regex checks from post-hoc verification to pre-commit.
-5. **Jeff or another external reviewer re-engages on Move 0 / pilot** → v4 may need to re-scope §14 moratorium language or introduce review-gate patterns.
+5. **Jeff or another external reviewer re-engages on Move 0 / pilot** → v4 may need to re-scope §15 moratorium language or introduce review-gate patterns.
 6. **Cross-repo edit contradictions discovered post-hoc** → triggers v4 reconciliation rules. v1+v3 hit none; if ever observed, is v4's first agenda item.

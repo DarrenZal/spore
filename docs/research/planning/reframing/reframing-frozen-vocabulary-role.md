@@ -1,7 +1,7 @@
 ---
 doc_id: spore.foundational-reframing.reframing-frozen-vocabulary-role
 doc_kind: proposal
-status: eligible
+status: authorized-ADR
 covers: [F-028]
 proposal_kind: protocol-amendment
 author: Darren Zal
@@ -10,7 +10,9 @@ opened-on: 2026-04-20
 eligible-on: 2026-05-04
 eligible-bumped-on: 2026-04-21T00:29:05Z
 consultation_artifact: tmp/cross-repo-consultation-reframing-frozen-vocabulary-role.md
-authorized_adrs: []
+authorized_adrs:
+  - spore.canon-decision.frozen-vocabulary-role-redefinition
+authorized-adr-opened-on: 2026-04-21T06:47:23Z
 ---
 
 # Reframing Proposal - Frozen Vocabulary Role
@@ -122,9 +124,11 @@ Because this reframing does not rename the file, change slug identities, or migr
 
 ## Execution record
 
-Not executed. Proposal is in `cooling-off`.
+Authorized ADR drafted. Proposal is in `authorized-ADR`.
 
-- Authorized ADRs: none yet.
+- Proposal state: authorized-ADR
+- Authorized ADRs:
+  - spore.canon-decision.frozen-vocabulary-role-redefinition
 - Affected repo SHAs: pending at `executed` state.
 
 ## Open questions
