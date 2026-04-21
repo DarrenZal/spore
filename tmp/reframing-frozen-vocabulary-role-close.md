@@ -1,0 +1,36 @@
+# Close — reframing-frozen-vocabulary-role
+
+- Proposal final state: `status: executed`
+- Fold-in vs standalone decision: fold-in to `docs/research/planning/canon-review-protocol.md`
+  - rationale: the protocol already carries the cross-project legality gate, `tmp/meta-corpus-inventory.tsv` already admits `concepts-p2p-wiki` as a formal meta-corpus surface, and a standalone carrier would duplicate a narrow governance shell
+- Bundle commit trail:
+  - scope declared: `4fe7dfb`
+  - ADR-0022 drafted + vocabulary header update + §14 fold-in + proposal authorized-ADR: `5dfa4fe`
+  - ADR-0022 activated: `e06d9c1`
+  - findings status update: `a68e175`
+- ADRs landed:
+  - `spore.canon-decision.frozen-vocabulary-role-redefinition` — drafted in `5dfa4fe`, activated in `e06d9c1`
+- Vocabulary role redefinition landed:
+  - `docs/research/concepts-p2p-wiki.yaml` purpose changed from: Canonical concept slugs for P2P Foundation wiki intake bridge notes.
+  - `docs/research/concepts-p2p-wiki.yaml` purpose changed to: Canonical concept vocabulary governing ADR `concepts:` references, shared framing notes, and bridge-note R-claim `concept:` values across Spore / Intelligence Commons / Poietic Match.
+  - `docs/research/planning/canon-review-protocol.md` gained §14 `Vocabulary governance` with 5 rules
+  - later protocol sections renumbered `14 -> 15` and `15 -> 16`; the v4 trigger reference now points to `§15`
+- Findings resolved:
+  - F-028 via ADR-0022
+- Validator state:
+  - baseline: 9 errors / 30 warnings (`tmp/phase-7/reframing-frozen-vocabulary-role-validator-pre.txt`)
+  - post-bundle: 9 errors / 30 warnings (`tmp/phase-7/reframing-frozen-vocabulary-role-validator-post.txt`)
+  - delta: +0 errors / +0 warnings
+- ADR-only validator:
+  - command: `python3 scripts/validate_spec_dag.py --docs-root docs/research/canon-decisions --project-id spore`
+  - result: pass
+- Authorized-by integrity:
+  - command: `grep -l "authorized-by:.*reframing-frozen-vocabulary-role" docs/research/canon-decisions/*.md`
+  - result count: 1
+  - file: `docs/research/canon-decisions/0022-frozen-vocabulary-role-redefinition.md`
+- r_claim_source-integrity: pass
+  - primary claim-bearing source: `spec:spore.corpus-review.research-canonical-layering:R1`
+  - secondary claim-bearing source: `spec:spore.corpus-review.research-governance-process:R1`
+  - duplicate `r_claim_source` entries: none
+  - `supported_by:` present
+- Session-atomic window: N/A (single-repo bundle)

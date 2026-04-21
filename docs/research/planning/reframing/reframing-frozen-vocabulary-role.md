@@ -1,7 +1,7 @@
 ---
 doc_id: spore.foundational-reframing.reframing-frozen-vocabulary-role
 doc_kind: proposal
-status: authorized-ADR
+status: executed
 covers: [F-028]
 proposal_kind: protocol-amendment
 author: Darren Zal
@@ -13,6 +13,7 @@ consultation_artifact: tmp/cross-repo-consultation-reframing-frozen-vocabulary-r
 authorized_adrs:
   - spore.canon-decision.frozen-vocabulary-role-redefinition
 authorized-adr-opened-on: 2026-04-21T06:47:23Z
+executed-on: 2026-04-21T06:50:47Z
 ---
 
 # Reframing Proposal - Frozen Vocabulary Role
@@ -124,15 +125,23 @@ Because this reframing does not rename the file, change slug identities, or migr
 
 ## Execution record
 
-Authorized ADR drafted. Proposal is in `authorized-ADR`.
+Executed.
 
-- Proposal state: authorized-ADR
+- Proposal state: executed
 - Authorized ADRs:
   - spore.canon-decision.frozen-vocabulary-role-redefinition
-- Affected repo SHAs: pending at `executed` state.
+- Affected repo SHAs:
+  - `5dfa4fe` — ADR-0022 draft + vocabulary header update + §14 fold-in + proposal `eligible -> authorized-ADR`
+  - `e06d9c1` — ADR-0022 activation (`draft -> active`)
+  - `a68e175` — findings status update (F-028 -> `resolved-via-ADR-0022`)
+- Vocabulary governance / validation record:
+  - `docs/research/concepts-p2p-wiki.yaml` kept its path and slug set; only the purpose declaration changed
+  - `docs/research/planning/canon-review-protocol.md` gained §14 `Vocabulary governance` with admission, alias, deprecation, version-bump, and carrier/cooling rules
+  - validator preserved the 9 errors / 30 warnings baseline (`tmp/phase-7/reframing-frozen-vocabulary-role-validator-pre.txt` -> `tmp/phase-7/reframing-frozen-vocabulary-role-validator-post.txt`)
+- Rollback commits, if any: revert newest-first from the execution close commit, then `a68e175`, `e06d9c1`, `5dfa4fe`
 
 ## Open questions
 
-- Should vocabulary governance land as a standalone `vocabulary-governance-protocol-v1.md`, or should those rules be folded into canon-review-protocol v3 under the protocol-governance-hardening work?
-- If the governance rules fold into canon-review-protocol v3, does that ADR need an explicit cross-reference to the existing `tmp/meta-corpus-inventory.tsv` row and FR-20 status so future amendments do not regress the double-cooling interpretation?
+- If vocabulary governance later grows beyond §14's narrow shell, what trigger should require extracting it into a standalone protocol?
+- Does §14's carrier-and-cooling rule sufficiently preserve the existing `tmp/meta-corpus-inventory.tsv` / FR-20 interpretation, or should a later housekeeping pass add an explicit cross-reference elsewhere?
 - Do any canon-bearing docs in Intelligence Commons or Poietic Match need explicit reference updates once the vocabulary artifact's role is renamed, or is centralized governance in Spore sufficient without downstream doc edits?
