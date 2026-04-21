@@ -1,9 +1,10 @@
 ---
 doc_id: spore.canon-decision.learning-field-protocol-elevation
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0024"
 opened-on: 2026-04-21
+closed-on: 2026-04-21
 covers:
   - F-029
 decision: edit
@@ -38,7 +39,7 @@ concepts:
 
 ## Status
 
-draft (authored 2026-04-21 under `reframing-learning-field-host-elevation`; activation pending validation and bundle close)
+active (drafted and activated 2026-04-21 under `reframing-learning-field-host-elevation`)
 
 ## Context
 
