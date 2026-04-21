@@ -1,9 +1,10 @@
 ---
 doc_id: spore.canon-decision.primitive-roster-boundary-cleanup
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0025"
 opened-on: 2026-04-21
+closed-on: 2026-04-21
 covers:
   - F-035
   - F-036
@@ -47,7 +48,7 @@ concepts:
 
 ## Status
 
-draft (authored 2026-04-21 for `round-primitive-roster-boundaries`; activation pending validator re-check and round close)
+active (drafted and activated 2026-04-21 for `round-primitive-roster-boundaries`)
 
 ## Context
 
