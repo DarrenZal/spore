@@ -1,9 +1,10 @@
 ---
 doc_id: spore.canon-decision.repo-topology-ratification
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0020"
 opened-on: 2026-04-20
+closed-on: 2026-04-20
 covers:
   - F-037
   - F-038
@@ -45,7 +46,7 @@ concepts:
 
 ## Status
 
-draft (authorized by `reframing-repo-topology-trunk`)
+active (drafted and activated 2026-04-20 under `reframing-repo-topology-trunk`)
 
 ## Context
 
