@@ -183,9 +183,9 @@ Multiple views over one coordination ecology. These are not separate databases �
 | 7 | **Flow graph** | Capital, information, attention, obligations moving through system | Weighted directed graph | Coordinate, Act |
 | 8 | **Discourse graph** | Questions, proposals, arguments, objections, decisions | Directed graph (argumentation structure) | Interpret, Claim, Attest, Revise |
 
-**On the discourse graph:** The existing Spore vision (`project-vision.md`) lists 7 graph types (constitutional, roadmap, intent, commitment, knowledge, event, routing/flow). The discourse graph is the self-reflective layer — the coordination ecology reasoning about itself. Whether it should be promoted to an 8th core type is addressed in the decision memo.
+**On the discourse graph:** When this synthesis was first drafted, the Spore vision still listed 7 graph types. The discourse graph has since been promoted into the current vision as the 8th core projection; this section records the rationale that surfaced that promotion.
 
-**On the epistemic graph:** This is the "knowledge graph" from the vision doc, renamed to emphasize its epistemological function — it does not just store knowledge, it tracks what counts as knowing (claims, evidence, attestation, provenance).
+**On the epistemic graph:** This is the graph surface canonized as `epistemic graph`. `Knowledge graph` survives only as an explicit public-facing gloss per ADR-0019; the point of the rename is to emphasize that the surface tracks what counts as knowing (claims, evidence, attestation, provenance), not just stored knowledge.
 
 ### On DAGs and the coordination substrate
 

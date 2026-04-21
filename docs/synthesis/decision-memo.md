@@ -174,15 +174,15 @@ Key: **H** = high (primary function), **M** = medium (significant), **L** = low 
 
 ## 7. Does `project-vision.md` Hold Up?
 
-**Mostly yes.** The grammar reveals three revisions needed (in a follow-on session):
+**Yes.** The grammar identified three targeted follow-ons at draft time, and those follow-ons have since landed in later canon-review rounds:
 
-1. **Graph projections:** Vision lists 7 types. The grammar surfaces an 8th — the discourse graph (see Section 9). Vision should be updated.
+1. **Graph projections:** When this memo was drafted, the vision listed 7 types. The discourse graph is now carried as the 8th core projection.
 
-2. **Epistemic graph naming:** Vision calls it "knowledge graph." The grammar shows this is specifically epistemological — it tracks claims, evidence, attestation, provenance. "Epistemic graph" is more precise and distinguishes it from the colloquial meaning of "knowledge graph."
+2. **Epistemic graph naming:** The vision now uses `epistemic graph` canonically and keeps `knowledge graph` only as an explicit public-facing gloss per ADR-0019.
 
-3. **Worldview grammar framing:** Vision says "pattern language, protocol family, and governance-memory layer." The grammar reveals Spore is more accurately described as a "worldview grammar for plural coordination" — the pattern language is one layer of a deeper structure. The opening sentence should evolve. (See Section 10.)
+3. **Worldview grammar framing:** The current vision opening now makes the worldview-layer commitment explicit rather than presenting Spore only as a pattern / protocol / governance-memory stack.
 
-4. **The coordination ecology** section in the vision aligns well with the grammar's coordination loop. No revision needed — the vision described the ecology; the grammar derives the underlying structure.
+4. **The coordination ecology** section in the vision still aligns well with the grammar's coordination loop. No substantive revision was needed there — the vision described the ecology; the grammar derived the underlying structure.
 
 ---
 
@@ -219,7 +219,7 @@ KOI currently provides all four. AD4M could provide some. A future substrate cou
 
 4. **Grammar derivation:** A discourse graph is composed of claims (proposals are claims about what should change), attestations (arguments for/against), evidence (what bears on the proposal), and artifacts (the decision record). All primitives are already in the grammar. The discourse graph is a projection, not a new type of object.
 
-**Recommendation:** Add discourse graph as the 8th core graph type in a follow-on revision to `project-vision.md` and `constitutional-artifacts-and-graph-projections.md`.
+**Status:** Completed in later canon updates. The rationale above is retained as the argument that supported promoting discourse graph into `project-vision.md` and the related canon layers.
 
 ---
 
@@ -237,7 +237,7 @@ The evidence is decisive:
 
 4. **The pattern language names ways of metabolizing tension.** "Tension" is axiological — it implies something matters. "Metabolizing" is praxical — it implies coordinated action. "Named recurring ways" is epistemological — it implies recognizable patterns of knowing. The pattern language itself operates across multiple worldview layers, not just the ontological.
 
-**Implication for messaging:** The vision doc opening ("pattern language, protocol family, and governance-memory layer") should evolve toward "worldview grammar for plural coordination." This is not a branding change — it reflects what the grammar actually does, as validated against three different implementations operating from different worldview positions.
+**Implication for messaging:** This recommendation has since been absorbed into the current vision framing. Spore is still described as a common grammar, but the opening now makes explicit that it operates across ontological, axiological, epistemological, and practical commitments. That is the substantive "worldview grammar for plural coordination" move this section was arguing for.
 
 ---
 
@@ -335,7 +335,7 @@ The grammar maps to AD4M primitives **without requiring AD4M in the grammar defi
 ## 13. Open Questions and Follow-Up
 
 ### Status of the 2026-03-27 next-session queue
-1. **`project-vision.md`**: Partially completed. The vision now names `Discourse graph` as the 8th graph projection (`703acea`, 2026-04-18). The knowledge-graph -> epistemic-graph rename and the opening move toward "worldview grammar" remain open follow-ons, so this item is no longer pending in the form originally written.
+1. **`project-vision.md`**: Completed. The vision now names `Discourse graph` as the 8th graph projection, canonicalizes `epistemic graph` while retaining `knowledge graph` only as an explicit gloss, and frames the opening through the worldview-layer commitments this memo argued for.
 2. **Store-and-forward relay protocol**: Completed. `docs/protocols/store-and-forward-relay.md` landed in Phase 11d (`f68a2a3`, 2026-03-27) and now carries the reusable relay protocol surface the memo was pointing toward.
 3. **Discourse-as-governance pattern**: Completed. `docs/patterns/discourse-as-governance.md` landed in Phase 11d (`f68a2a3`, 2026-03-27) and now carries the self-reflective governance pattern the memo identified.
 4. **Claims/evidence/attestation anchoring protocol**: Completed. `docs/protocols/claims-evidence-attestation.md` landed in Phase 11d (`f68a2a3`, 2026-03-27) and now carries the epistemic anchoring protocol the memo identified.
@@ -376,7 +376,7 @@ The grammar maps to AD4M primitives **without requiring AD4M in the grammar defi
 3. The grammar **passes the worldview pluralism test** across 3 different worldview positions
 4. The grammar maps cleanly to **AD4M without requiring it** — abstraction level is correct
 5. **BKC is the richest validation site**; governance-memory is the most widely adopted pattern
-6. `project-vision.md` holds up well but needs three targeted revisions
+6. `project-vision.md` holds up well, and the three targeted revisions identified here have since been absorbed into canon
 
 ---
 
