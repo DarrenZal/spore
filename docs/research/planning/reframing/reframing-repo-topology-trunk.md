@@ -1,7 +1,7 @@
 ---
 doc_id: spore.foundational-reframing.reframing-repo-topology-trunk
 doc_kind: proposal
-status: eligible
+status: authorized-ADR
 covers: [F-037, F-038, F-039]
 proposal_kind: topology
 author: Darren Zal
@@ -10,7 +10,11 @@ opened-on: 2026-04-20
 eligible-on: 2026-04-27
 eligible-bumped-on: 2026-04-21T00:29:05Z
 consultation_artifact: tmp/cross-repo-consultation-reframing-repo-topology-trunk.md
-authorized_adrs: []
+authorized_adrs:
+  - spore.canon-decision.repo-topology-ratification
+  - ic.canon-decision.repo-topology-ratification
+  - pm.canon-decision.repo-topology-ratification
+authorized-adr-opened-on: 2026-04-21T06:02:46Z
 ---
 
 # Proposal — reframing-repo-topology-trunk
@@ -230,10 +234,16 @@ Nothing in this reframing requires destructive writes, history rewriting, or `gi
 
 ## Execution record
 
-- Status: not executed
-- Authorized ADRs: none
-- Executed SHAs: none
-- Notes: populate this section only if the proposal reaches `executed`.
+Authorized ADR bundle in flight.
+
+- Proposal state: `authorized-ADR`
+- Authorized ADRs:
+  - `spore.canon-decision.repo-topology-ratification`
+  - `ic.canon-decision.repo-topology-ratification`
+  - `pm.canon-decision.repo-topology-ratification`
+- Authorized ADR bundle opened on: `2026-04-21T06:02:46Z`
+- Executed SHAs: pending
+- Notes: topology decision adopted in `tmp/repo-topology-decision.md`; final execution record fills in after all 3 ADRs activate and the round closes.
 
 ## Open questions
 
