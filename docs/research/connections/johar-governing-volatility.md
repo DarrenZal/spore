@@ -66,10 +66,8 @@ Probabilistic governance — pre-commitments, buffers, diversified portfolios, t
 **C4** [confidence: high] [anchor: Claim 5]
 Legitimacy and justice are structural conditions of security under volatility, not moral complements. Inequitable responses deepen divisions that multiply vulnerabilities and make societies easier to destabilize. Citizen trigger councils, distributional audits, and transparent trigger-action-budget tables are proposed as legitimacy infrastructure.
 
-**R1** [review claim] [target: spore.project-vision] [concept: governance-under-volatility]
-Spore's project vision should name volatility as a first-class governance condition: the grammar's adaptive mechanisms (coordination loop, staged promotion, intent pressure, learning membrane) are systemic-resilience infrastructure whose value is maintaining coherence through turbulence, not achieving fixed outcomes. The project vision should distinguish systemic resilience from event resilience and identify coherence — not control — as the success measure for Spore-governed systems operating under compound volatility.
-*R1 is supported by C1, C2, C4.*
-
+- **R1**: Spore's project vision should name volatility as a first-class governance condition: the grammar's adaptive mechanisms (coordination loop, staged promotion, intent pressure, learning membrane) are systemic-resilience infrastructure whose value is maintaining coherence through turbulence, not achieving fixed outcomes. The project vision should distinguish systemic resilience from event resilience and identify coherence — not control — as the success measure for Spore-governed systems operating under compound volatility. [target: spore.project-vision] [concept: governance-under-volatility] TODO: slug-deferred
+  supported_by: C1, C2, C4.
 ## Open Questions
 
 1. **Does Spore need volatility-specific governance patterns, or are its existing adaptive mechanisms sufficient?** The essay proposes concrete mechanisms (trigger councils, distributional audits, trigger-action tables) that don't map directly onto Spore's existing pattern inventory. Are these instances of existing patterns or genuinely new governance primitives?

@@ -72,10 +72,8 @@ Distributed epistemic integrity — confidence-graded statements, peer accountab
 **C4** [confidence: medium] [anchor: §The New Covenant]
 The cognitive commons is a public good requiring active stewardship. Civic protocols for speech must go beyond legal permissibility to ethical contribution. Every utterance contributes to or degrades the collective operating system — epistemic responsibility is structural, not personal.
 
-**R1** [review claim] [target: spore.lexicon] [concept: informational-duty]
-The Spore lexicon should carry "informational duty" as a named governance concept: the structural responsibility of participants to maintain the quality of the shared cognitive commons. The entry should include: (a) the duty not to pollute — complementing free expression with responsibility for the epistemic environment, (b) the cognitive-commons-as-public-good framing, (c) the distinction from censorship: informational duty governs the *ecology* of claims, not the *content* of individual claims, and (d) the connection to perceptual fidelity: informational duty is the governance-level response to the structural conditions (cheap coherence, automated language production) that degrade perception.
-*R1 is supported by C1, C2.*
-
+- **R1**: The Spore lexicon should carry "informational duty" as a named governance concept: the structural responsibility of participants to maintain the quality of the shared cognitive commons. The entry should include: (a) the duty not to pollute — complementing free expression with responsibility for the epistemic environment, (b) the cognitive-commons-as-public-good framing, (c) the distinction from censorship: informational duty governs the *ecology* of claims, not the *content* of individual claims, and (d) the connection to perceptual fidelity: informational duty is the governance-level response to the structural conditions (cheap coherence, automated language production) that degrade perception. [target: spore.lexicon] [concept: informational-duty] TODO: slug-deferred
+  supported_by: C1, C2.
 ## Open Questions
 
 1. **Who enforces informational duty without becoming an epistemic authority?** The essay proposes "legal and ethical responsibility for epistemic harm" — but who adjudicates epistemic harm without claiming a monopoly on truth? Distributed epistemic integrity needs governance mechanisms that don't reproduce the cathedral it replaces.

@@ -158,14 +158,10 @@ Recursive context design — the capacity to redesign the scaffolds that redesig
 **C7** [confidence: medium] [anchor: §15]
 The design principle "build systems that expand the capacity to become, not systems that only extract what already is" is a candidate standing rule for Spore governance review. It complements the existing standing rule from the neuroplastic-field note ("LLMs can propose interpretations; only fields with memory, commitment, and revision can learn") by adding a criterion about the developmental trajectory of agents, not just the adaptive capacity of the field.
 
-**R1** [review claim] [target: spore.relational-agency-and-holons] [concept: human-machine-complementarity]
-The eight architectures provide structural vocabulary for why human-machine complementarity must be placed at the membrane/governance level, not the primitive level. The human contribution is not a residual capability list but a coupled developmental architecture (embodiment -> horizons -> doubt -> stance-shifting -> context redesign) that requires embodied, socially recursive agents. This supports and deepens R3 in `spore.connection.johar-neuroplastic-field`.
-*R1 is supported by C1, C2, C3.*
-
-**R2** [review claim] [target: spore.project-vision] [concept: field-neuroplasticity]
-The essay extends field neuroplasticity from the arrangement's adaptive capacity (neuroplastic-field note R4) to a design criterion for the ecology: not only must the field reorganize through experience, but it must preserve the developmental conditions under which its human agents can contribute horizon-management, doubt, and stance-shifting. Field neuroplasticity without agent developmental capacity is extraction.
-*R2 is supported by C2, C4, C7.*
-
+- **R1**: The eight architectures provide structural vocabulary for why human-machine complementarity must be placed at the membrane/governance level, not the primitive level. The human contribution is not a residual capability list but a coupled developmental architecture (embodiment -> horizons -> doubt -> stance-shifting -> context redesign) that requires embodied, socially recursive agents. This supports and deepens R3 in `spore.connection.johar-neuroplastic-field`. [target: spore.relational-agency-and-holons] [concept: human-machine-complementarity] TODO: slug-deferred
+  supported_by: C1, C2, C3.
+- **R2**: The essay extends field neuroplasticity from the arrangement's adaptive capacity (neuroplastic-field note R4) to a design criterion for the ecology: not only must the field reorganize through experience, but it must preserve the developmental conditions under which its human agents can contribute horizon-management, doubt, and stance-shifting. Field neuroplasticity without agent developmental capacity is extraction. [target: spore.project-vision] [concept: field-neuroplasticity] TODO: slug-deferred
+  supported_by: C2, C4, C7.
 ## Open Questions
 
 1. **Does "cognitive ecology" name something Spore needs as a governance concept, or is it a synonym for what Spore already calls the field?** The essay distinguishes the ecology (the total environment including its effects on agent development) from the intelligence mechanism (the field through which signals are processed). If the distinction holds, Spore may need a concept that tracks the governance of agent developmental conditions, not just the governance of field operations. But it may also be that Spore's existing governance memory already covers this implicitly.
