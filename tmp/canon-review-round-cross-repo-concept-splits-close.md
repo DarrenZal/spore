@@ -1,0 +1,26 @@
+# Round close — round-cross-repo-concept-splits
+
+- Date: 2026-04-20
+- ADRs landed:
+  - Spore ADR-0013 `intent-evidence-subtype-clarification` (`19b6fa9`, author-date `2026-04-20T22:04:32-07:00`)
+  - IC ADR-0009 `intent-evidence-subtype-clarification` (`0b72170`, author-date `2026-04-20T22:04:39-07:00`)
+  - PM ADR-0008 `intent-evidence-pm-subtype-scope` (`5722c0d`, author-date `2026-04-20T22:04:51-07:00`)
+- Shared framing note: `docs/research/connections/canon-framing-cross-repo-concept-splits.md` (`0668bdc`)
+- Findings resolved:
+  - F-021 via ADR-0013 / ADR-0009 / ADR-0008 + shared framing note
+  - F-022 via ADR-0013 / ADR-0009 / ADR-0008 + shared framing note
+- Validator state post-round: 9 errors, 30 warnings (baseline was 9 errors, 30 warnings; delta: +0 / +0)
+- Session-atomic window satisfied: yes
+  - First ADR commit author-date: `2026-04-20T22:04:32-07:00` (`19b6fa9`)
+  - Last ADR commit author-date: `2026-04-20T22:04:51-07:00` (`5722c0d`)
+  - Delta: 19 seconds (`0.32` minutes)
+- r_claim_source-integrity check result: pass
+  - All 3 ADRs use claim-bearing research-doc identifiers: `spec:spore.corpus-review.research-rea-valueflows:R1`, `spec:spore.corpus-review.research-capstone-review:R1`
+  - Source files exist under `docs/research/corpus-review/`
+  - No duplicate `r_claim_source` entries in any ADR
+  - Each ADR includes the shared framing note in `supported_by:`
+  - `authorized-by:` is empty in all 3 ADRs, as required for canon-review-v2 rounds
+- Cross-repo consistency check: pass
+  - Spore and IC preserve `intent` / `evidence` as the broad umbrella surfaces
+  - PM explicitly scopes `pm:Intent` and the PM evidence family as protocol-layer specializations
+  - No corpus-wide rename and no new frozen-vocab slug were introduced

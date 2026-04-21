@@ -16,3 +16,13 @@
 5. ADR count (2): right split; ADR-0011 and ADR-0012 touched the same governance surface but had different proof obligations, so separate commits made review and rollback clearer.
 6. Commit sequence (6-commit loose vs 4-commit tight): the looser sequence helped; separating activations, findings updates, and close artifacts kept each commit legible without much extra overhead.
 7. Comparison to canon-review-v2 mechanics: the meaningful extra work was proposal governance, not ADR drafting — `authorized-by:` lineage, proposal-state transitions, and validator delta/backward-compat checks are the main reframing-bundle additions.
+
+# Phase 7 prototype lessons — round-cross-repo-concept-splits
+
+1. Session-atomic window: 19 seconds across the 3 ADR commits (`19b6fa9` -> `5722c0d`), leaving 34m41s of margin against the 35-minute limit. Comfortable.
+2. Push sequencing: no visible issues in Spore -> IC -> PM order. Each push cleared cleanly and the order did not create cross-repo race pressure in this run.
+3. Shared framing note: Spore-hosted canonical framing worked well. One shared note plus per-repo ADR citations was cleaner than copying the same framing prose into IC and PM.
+4. Per-repo ADR convention: numbering and doc_id prefixes matched expectations (`spore.canon-decision.*`, `ic.canon-decision.*`, `pm.canon-decision.*`). The one live divergence is historical: IC and PM still carry older `accepted`-era ADRs in the corpus, while this round used `active` to match the current protocol.
+5. Cross-repo content consistency: yes. The three ADRs tell one coherent story — Spore and IC keep the broad umbrella terms, PM keeps the narrower protocol-layer namespace.
+6. Commit sequence: about right. The split into scope / framing / 3 ADRs / findings / close kept the audit trail legible; bundling findings updates into the close commit would have made the close commit harder to scan.
+7. Recovery scenario: if the session-atomic window had been violated after all 3 ADRs landed consistently, the right move would have been to finish closeout and log the discipline deviation rather than rollback valid canon text. Rollback would only make sense if remote state became inconsistent or one repo failed to land the coordinated content at all.
