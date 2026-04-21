@@ -55,7 +55,7 @@ Different aspects of the coordination ecology are best captured by different gra
 2. **Roadmap DAG** — initiatives, milestones, dependencies, sequence. Directed acyclic: work flows from vision toward evidence.
 3. **Intent hypergraph** — multi-party offers, needs, and conditions. One intent may connect several actors, resources, timeframes, and conditions simultaneously. Binary edges are too small — hypergraphs capture the true structure.
 4. **Commitment graph** — actors, pools, offers, needs, attestations, fulfillment state, routing paths
-5. **Epistemic graph** (called "knowledge graph" in the vision and public-facing docs) — entities, claims, evidence, attestations, provenance, sensor outputs. Tracks not just what is known, but what counts as knowing — the epistemological substrate.
+5. **Epistemic graph** (public-facing gloss: "knowledge graph") — entities, claims, evidence, attestations, provenance, sensor outputs. Tracks not just what is known, but what counts as knowing — the epistemological substrate.
 6. **Event graph** — what changed, when, due to what, from which node. Temporal dynamics.
 7. **Routing/flow graph** — how resources, obligations, and information circulate through pools and networks. Where abundance meets need. Where capacity flows.
 8. **Discourse graph** — questions, proposals, arguments, objections, decisions. The self-reflective layer: how the coordination ecology reasons about and governs its own evolution. Without it, revision is ad-hoc.
@@ -74,7 +74,7 @@ That zoom invariance does not make `holon` and `field` synonymous. The node is h
 
 Constitutional artifacts describe desired states. Sensors describe actual states. The gap between them is what drives action.
 
-- **Sensor nodes** ingest external state (wikis, repositories, web content, IoT data) into the knowledge graph
+- **Sensor nodes** ingest external state (wikis, repositories, web content, IoT data) into the epistemic graph
 - **Ecological sensors** — water quality, species counts, land use
 - **Economic sensors** — commitment pool state, token flows, settlement events
 - **Social sensors** — meeting transcripts, governance decisions, community signals

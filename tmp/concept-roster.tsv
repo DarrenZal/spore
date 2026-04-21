@@ -203,7 +203,7 @@ key-insight	intelligence-commons/docs/foundations/intelligence-primitives.md	int
 key-properties	poietic-match/docs/grammar.md	poietic-match/docs/grammar.md	2	poietic-match:adr-eligible	FALSE
 knowledge-commons	intelligence-commons/docs/foundations/intelligence-primitives.md	spore/docs/research/concepts-p2p-wiki.yaml	45	intelligence-commons:adr-eligible	TRUE
 knowledge-garden	intelligence-commons/docs/patterns/project-learning-membrane.md	intelligence-commons/docs/patterns/project-learning-membrane.md	5	intelligence-commons:extended	FALSE
-knowledge-graph	intelligence-commons/docs/foundations/intelligence-primitives.md	spore/docs/project-vision.md	20	intelligence-commons:adr-eligible	TRUE
+knowledge-graph	intelligence-commons/docs/foundations/intelligence-primitives.md	spore/docs/project-vision.md	20	intelligence-commons:adr-eligible	FALSE
 koi-net	intelligence-commons/docs/foundations/memory-layer-model.md	spore/docs/project-vision.md	6	intelligence-commons:adr-eligible	TRUE
 learnable-restriction-maps	spore/docs/research/connections/hansen-ghrist-discourse-graphs.md	spore/docs/research/connections/bosca-ghrist-local-to-global.md	1	bridge-note	FALSE
 learning	intelligence-commons/docs/foundations/memory-layer-model.md	spore/docs/foundations/constitutional-artifacts-and-graph-projections.md	73	intelligence-commons:adr-eligible	TRUE

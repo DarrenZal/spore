@@ -1,7 +1,7 @@
 ---
 doc_id: spore.foundational-reframing.reframing-graph-primitive-unification
 doc_kind: proposal
-status: eligible
+status: authorized-ADR
 covers: [F-020]
 proposal_kind: concept-merge
 author: Darren Zal
@@ -10,7 +10,9 @@ opened-on: 2026-04-20
 eligible-on: 2026-04-27
 eligible-bumped-on: 2026-04-21T00:29:05Z
 consultation_artifact: tmp/cross-repo-consultation-reframing-graph-primitive-unification.md
-authorized_adrs: []
+authorized_adrs:
+  - spore.canon-decision.graph-primitive-unification
+authorized-adr-opened-on: 2026-04-21T05:48:47Z
 ---
 
 # Reframing Proposal: Graph Primitive Unification
@@ -29,7 +31,7 @@ The rejected counter-direction is to keep `knowledge-graph` canonical and demote
 
 | Predecessor | Successor | Disposition | Reference-cleanup plan |
 |---|---|---|---|
-| `knowledge-graph` | `epistemic-graph` | `historical-gloss` | Replace remaining canonical uses in `project-vision.md` and other Spore canon docs that still use `knowledge graph` as the live primitive name. Retain the phrase only inside explicit legacy glosses, quoted historical references, or frozen-concepts v3 alias metadata. |
+| `knowledge-graph` | `epistemic-graph` | `historical-gloss` | Replace remaining canonical uses in `project-vision.md` and other Spore canon docs that still use `knowledge graph` as the live primitive name. Retain the phrase only inside explicit legacy glosses, quoted historical references, or clearly labeled public-facing shorthand. |
 
 `epistemic-graph` remains the canonical target slug and the only primitive-class entry after execution.
 
@@ -39,7 +41,7 @@ This proposal exceeds ordinary ADR scope on two FR-1 criteria at once.
 
 First, it dissolves a concept entirely: `knowledge-graph` cannot remain a separate primitive-class slug if the corpus is to say one thing clearly. Second, it renames that surface across the corpus: the live canonical reference has to move to `epistemic-graph` everywhere Spore currently treats the term as primitive rather than historical gloss.
 
-An ordinary repo-local ADR is too low-level to decide this safely in one move. Before any implementation ADR can edit `project-vision.md`, update foundation prose, or regenerate concept inventory outputs, the corpus needs a proposal-level decision about which primitive survives, what happens to the retired slug in frozen-concepts v3, and whether remaining `knowledge graph` references are live canon or legacy gloss. That is frame governance, not just document maintenance.
+An ordinary repo-local ADR is too low-level to decide this safely in one move. Before any implementation ADR can edit `project-vision.md`, update foundation prose, or regenerate concept inventory outputs, the corpus needs a proposal-level decision about which primitive survives, whether the retired slug needs frozen-vocabulary handling at all, and which remaining `knowledge graph` references are live canon versus legacy gloss. That is frame governance, not just document maintenance.
 
 ## Source bundle
 
@@ -96,7 +98,7 @@ An ordinary repo-local ADR is too low-level to decide this safely in one move. B
 
 Consultation artifact: `/Users/darrenzal/projects/spore/tmp/cross-repo-consultation-reframing-graph-primitive-unification.md`
 
-The direct execution surface is Spore only: the surviving slug, the retired gloss, and the cleanup plan all land through Spore ADRs and Spore canon updates. Intelligence Commons and Poietic Match are still listed in consultation because the current topology shares governance expectations across canon-bearing repos and because frozen vocabulary handling can affect how sibling repos interpret Spore references during cooling-off.
+The direct execution surface is Spore only: the surviving slug, the retired gloss, and the cleanup plan all land through Spore ADRs and Spore canon updates. Intelligence Commons and Poietic Match are still listed in consultation because the current topology shares governance expectations across canon-bearing repos and because sibling repos may still need to interpret Spore's legacy wording during cooling-off.
 
 The author pass commits only the consultation skeleton. Repo stances, frame-change verdict, and ADR-drafting sign-off remain pending until cooling-off review.
 
@@ -106,7 +108,7 @@ This proposal may not move beyond `cooling-off` until all of the following are t
 
 1. The calendar gate is met on or after `2026-04-27`.
 2. The consultation artifact records `Frame-change required: yes` with a rationale that confirms ordinary canon-review ADRs are insufficient.
-3. A Spore ADR bundle is ready to do all execution work together: canonical slug declaration, frozen-concepts v3 handling, and reference cleanup for live `knowledge graph` usages.
+3. A Spore ADR bundle is ready to do all execution work together: canonical slug declaration, live-reference cleanup, and derivative roster repair under the chosen FR-19 disposition.
 4. The execution ADR(s) make `epistemic-graph` the only live primitive-class slug and leave `knowledge-graph` only as historical gloss metadata or explicit legacy wording.
 5. Regenerated inventory outputs no longer present both slugs as separate primitive-class canon.
 
@@ -114,12 +116,12 @@ No direct canon edits are authorized by this proposal alone.
 
 ## ADR authorization plan
 
-Expected authorization set at proposal time: one Spore ADR, with the option to split into two Spore ADRs only if frozen-concepts v3 admission and reference cleanup prove too large for one record. Either way, the ADR bundle must cover the full execution surface before this proposal can become `executed`.
+Expected authorization set at proposal time: one Spore ADR, with the option to split into two Spore ADRs only if reference cleanup and derivative-inventory repair prove too large for one record. Either way, the ADR bundle must cover the full execution surface before this proposal can become `executed`.
 
 Required ADR outcomes:
 
 1. Declare `epistemic-graph` the sole canonical primitive slug for the graph surface named in F-020.
-2. Record `knowledge-graph` in frozen-concepts v3 as historical gloss metadata rather than a second primitive.
+2. Record `knowledge-graph` as historical/public-facing gloss rather than a second primitive.
 3. Update all live Spore canon references that still use `knowledge graph` as the primitive's active name.
 4. Regenerate or otherwise validate derivative inventory surfaces so the duplicate primitive-class state disappears.
 
@@ -132,7 +134,7 @@ Before ADR execution, rollback is trivial: revert the commit that introduced thi
 After ADR execution, rollback must be non-destructive and newest-first:
 
 1. Revert the ADR implementation commit(s) that canonicalized `epistemic-graph` and cleaned up references.
-2. Revert the ADR record commit(s) that updated frozen-concepts v3 and proposal lineage.
+2. Revert the ADR record commit(s) that updated proposal lineage and derivative inventory handling.
 3. Restore the pre-execution dual-name state only if a successor reframing or ADR-level review proves the corpus truly needs two distinct graph surfaces with non-overlapping semantics.
 
 The default reversal threshold is high because the current proposal reduces ambiguity rather than introducing new surface area. A reversal therefore needs positive evidence for semantic distinction, not just discomfort with the rename.
@@ -141,13 +143,16 @@ The default reversal threshold is high because the current proposal reduces ambi
 
 Not executed.
 
+- Proposal state: authorized-ADR
+- FR-19 disposition selected: `historical-gloss`
+- Authorized ADRs:
+  - spore.canon-decision.graph-primitive-unification
 - Affected repo SHAs: [PENDING]
-- Authorized ADRs landed: [PENDING]
 - Inventory regeneration / validation record: [PENDING]
 - Rollback commits, if any: [PENDING]
 
 ## Open questions
 
-1. What exact frozen-concepts v3 metadata shape should encode the `knowledge-graph` historical gloss so the legacy term remains interpretable without reactivating it as a second primitive?
+1. Which remaining implementation-facing uses of "knowledge graph" should remain untouched because they are generic substrate language rather than names for Spore's primitive?
 2. Are there any sibling-repo docs that currently quote Spore's `knowledge graph` wording in a way that should be normalized during consultation even if they are not direct execution targets?
 3. Does the `project-vision.md` ecosystem bullet about `koi-processor / RegenAI` need only lexical cleanup, or should the ADR also clarify the distinction between Spore's epistemic primitive and the current implementation substrate it rides on?

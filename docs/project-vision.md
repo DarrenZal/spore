@@ -102,7 +102,7 @@ These projections are conceptual views over one coordination ecology, not a requ
 - **Roadmap DAG** — initiatives, milestones, dependencies, sequence
 - **Intent hypergraph** — multi-party offers, needs, conditions (not reducible to binary edges)
 - **Commitment graph** — actors, pools, offers, attestations, fulfillment
-- **Knowledge graph** — entities, claims, evidence, provenance, sensor outputs (the epistemic substrate — tracking what counts as knowing, not just what is known)
+- **Epistemic graph** — entities, claims, evidence, provenance, sensor outputs (public-facing gloss: "knowledge graph"; the epistemic substrate — tracking what counts as knowing, not just what is known)
 - **Event graph** — what changed, when, due to what, from which node
 - **Routing/flow graph** — how resources, obligations, and information circulate through pools and networks
 - **Discourse graph** — questions, proposals, arguments, objections, decisions. The self-reflective layer: how the coordination ecology reasons about and governs its own evolution
@@ -171,7 +171,7 @@ The workflow is **comparative intake**: external frameworks, papers, repos, and 
 
 Spore defines reusable abstractions. It does not absorb its implementations. A Spore instance is any holon that implements some composition of the grammar's aspects — canon, node, agent, and site. See the [instance model](./foundations/spore-instance-model.md) for how these compose.
 
-- **koi-processor / RegenAI** — node substrate (knowledge graph, entity resolution, federation, sensors)
+- **koi-processor / RegenAI** — node substrate (epistemic graph / public-facing knowledge graph, entity resolution, federation, sensors)
 - **BKC / Octo** — operational instance family (BKC canon + 4 federated nodes + Octo agent + Quartz sites)
 - **Regen Commons / Open Civics / Network Nations** — potential civic adoption surface
 
