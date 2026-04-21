@@ -1,9 +1,10 @@
 ---
 doc_id: spore.canon-decision.protocol-audience-declaration-standard
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0023"
 opened-on: 2026-04-20
+closed-on: 2026-04-20
 covers:
   - F-030
 decision: edit
@@ -38,7 +39,7 @@ concepts:
 
 ## Status
 
-draft (opened 2026-04-20 under `reframing-protocol-audience-declaration`; activation pending)
+active (drafted and activated 2026-04-20 under `reframing-protocol-audience-declaration`)
 
 ## Context
 
