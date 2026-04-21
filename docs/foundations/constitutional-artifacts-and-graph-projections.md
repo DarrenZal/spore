@@ -33,9 +33,9 @@ This is not a pipeline where each step is "the same thing becoming more concrete
 
 - **Vision commitments** orient — they set direction, values, and constraint horizons. They change slowly and require broad consent.
 - **Roadmaps** translate — they decompose vision into structured needs, sequences, and milestones.
-- **Intents** signal — they are pre-commitment coordination primitives. An intent is a declared or inferred directional signal: "I want," "I offer," "I need," "I will if three others commit." Intents are where plurality enters and the system breathes. Not all intents become commitments; governance is partly about how intents are surfaced, negotiated, combined, deferred, or refused.
+- **Intents** signal — they are pre-commitment coordination primitives. An intent is a declared or inferred directional signal: "I want," "I offer," "I need," "I will if three others commit." Intents are where plurality enters and the system breathes. Not all intents become commitments; governance is partly about how intents are surfaced, negotiated, combined, deferred, or refused. This broad Spore sense of `intent` is the umbrella surface across the shared canon; PM's `pm:Intent` is a downstream protocol artifact that records one specialized, durable form of intent for matching.
 - **Commitments** bind — accepted, governed, tracked. Commitments stabilize one or more vectors (intents) into a durable relation.
-- **Evidence** validates — observations, attestations, fulfillment records, sensor outputs. Evidence grounds the ecology in reality.
+- **Evidence** validates — observations, attestations, fulfillment records, sensor outputs. Evidence grounds the ecology in reality. Fulfillment records are one subtype inside this larger family, not the whole of it: PM's fulfillment-facing evidence family is a protocol-layer specialization, while Spore keeps `evidence` as the broader epistemic relation.
 - **Learning** revises — update the roadmap, refine patterns, adapt the vision itself. The ecology is a loop, not a line: learning revises visions, evidence generates new intents, commitments reveal visions that weren't visible before.
 
 ## Dual Representation

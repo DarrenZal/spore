@@ -54,6 +54,9 @@ Evidence bears on claims through two directional relations:
 
 Every piece of evidence carries **provenance**: origin node, timestamp, method of collection or generation, and chain of custody. Evidence without provenance is still admissible (the protocol does not gatekeep) but carries less weight in attestation evaluation.
 
+Fulfillment records are one evidence type inside this broader family, not a replacement for it. PM's `pm:Evidence`, `pm:EvidenceRef`, and `pm:FulfillmentEvidence` terms name the execution / fulfillment subtype that feeds trust updates in the matching protocol; they inherit from this wider evidence surface rather than redefining `evidence` corpus-wide.
+
+
 ## Attestation: Strength and Decay
 
 An attestation is situated witnessing — an attester (holon) bears witness to a claim, event, or piece of evidence. Attestation is the mechanism by which distributed trust is built without centralization.
