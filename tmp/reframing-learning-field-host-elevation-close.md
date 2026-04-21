@@ -1,0 +1,51 @@
+# Close — reframing-learning-field-host-elevation
+
+- Proposal final state: `status: executed`
+- Scenario chosen: `A — ratified three-repo topology with Spore as authoritative host`
+- New authoritative protocol:
+  - path: `docs/research/planning/learning-field-protocol-v1.md`
+  - doc_id: `spore.learning-field-protocol`
+  - version: `1`
+  - status: `active`
+- IC post-update state:
+  - `docs/patterns/project-learning-membrane.md` is now an IC-local instantiation / historical gloss that explicitly cites the Spore protocol as authoritative while retaining IC-specific proving-ground and primitive-mapping notes
+- Bundle commit trail:
+  - scope declared: `254a4e5`
+  - protocol host added + inventory updated: `3f38ceb`
+  - Spore ADR-0024 drafted + proposal `eligible -> authorized-ADR`: `4c07714`
+  - IC ADR-0015 drafted + IC pattern rewrite: `d33bbad`
+  - Spore ADR-0024 activated: `8a72159`
+  - IC ADR-0015 activated: `63c909c`
+  - proposal `authorized-ADR -> executed`: `7c72077`
+  - findings status update: `bb99624`
+- ADRs landed:
+  - `spore.canon-decision.learning-field-protocol-elevation` — drafted in `4c07714`, activated in `8a72159`
+  - `ic.canon-decision.learning-membrane-pattern-demotion` — drafted in `d33bbad`, activated in `63c909c`
+- Findings resolved:
+  - F-029 via ADR-0024 / ADR-0015 + `docs/research/planning/learning-field-protocol-v1.md`
+- Meta-corpus inventory:
+  - `tmp/meta-corpus-inventory.tsv` row 8 now points to `spore/docs/research/planning/learning-field-protocol-v1.md`
+  - `has-formal-doc`: `TRUE`
+- Validator state:
+  - baseline: 9 errors / 30 warnings (`tmp/phase-7/reframing-learning-field-host-elevation-validator-pre.txt`)
+  - post-bundle: 9 errors / 30 warnings (`tmp/phase-7/reframing-learning-field-host-elevation-validator-post.txt`)
+  - delta: +0 errors / +0 warnings
+- Session-atomic window: satisfied
+  - first ADR draft commit author-date: `2026-04-21T09:32:07-07:00` (`4c07714`)
+  - last ADR draft commit author-date: `2026-04-21T09:32:15-07:00` (`d33bbad`)
+  - delta: 8 seconds (`0.13` minutes)
+- Authorized-by integrity:
+  - command: `grep -l "authorized-by:.*reframing-learning-field-host-elevation" docs/research/canon-decisions/*.md /Users/darrenzal/projects/intelligence-commons/docs/research/canon-decisions/*.md`
+  - result count: 2
+  - files:
+    - `docs/research/canon-decisions/0024-learning-field-protocol-elevation.md`
+    - `/Users/darrenzal/projects/intelligence-commons/docs/research/canon-decisions/0015-learning-membrane-pattern-demotion.md`
+- Protocol shape checks:
+  - `docs/research/planning/learning-field-protocol-v1.md` carries `doc_kind: protocol`, `status: active`, `version: 1`, and `## Intended audience and prerequisites`
+  - `docs/patterns/project-learning-membrane.md` explicitly names `spore.learning-field-protocol` as the authoritative source
+- r_claim_source-integrity: pass
+  - both ADRs use claim-bearing `spec:spore.corpus-review.*` identifiers
+  - both ADRs carry `supported_by:`
+  - no duplicate `r_claim_source` entries in the bundle
+- Milestone:
+  - foundational-reframing bundle track closed: `8 of 8`
