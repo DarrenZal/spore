@@ -1,7 +1,7 @@
 ---
 doc_id: spore.foundational-reframing.reframing-protocol-audience-declaration
 doc_kind: proposal
-status: authorized-ADR
+status: executed
 covers: [F-030]
 proposal_kind: protocol-amendment
 author: Darren Zal
@@ -13,6 +13,7 @@ consultation_artifact: tmp/cross-repo-consultation-reframing-protocol-audience-d
 authorized_adrs:
   - spore.canon-decision.protocol-audience-declaration-standard
 authorized-adr-opened-on: 2026-04-21T06:58:27Z
+executed-on: 2026-04-21T07:02:24Z
 ---
 
 # Reframing Proposal: Protocol Audience Declaration
@@ -139,11 +140,18 @@ No vocabulary migration, topology move, or data backfill is involved. If a futur
 
 ## Execution record
 
-- Status: `authorized-ADR`.
+- Status: `executed`.
 - Authorized ADRs:
   - `spore.canon-decision.protocol-audience-declaration-standard`
-- Implementation SHAs: Pending activation / findings / close commits.
-- Notes: ADR-0023 now drafts the audience-block standard across the four operative meta-corpus protocols; proposal moves to `executed` once activation, findings status update, and close verification land.
+- Affected repo SHAs:
+  - `adea0f4` — ADR-0023 draft + four protocol audience-block additions + proposal `eligible -> authorized-ADR`
+  - `dd8ef96` — ADR-0023 activation (`draft -> active`)
+  - `a83b0cc` — findings status update (F-030 -> `resolved-via-ADR-0023`)
+- Notes:
+  - `docs/research/planning/canon-review-protocol.md`, `docs/research/planning/learning-field-intake-protocol.md`, `docs/research/planning/foundational-reframing-protocol-v1.md`, and `docs/research/planning/moratorium-protocol-v1.md` now all carry the standard audience/prerequisites block
+  - the embedded bridge-note convention remains covered by the parent protocol audience block rather than a duplicated schema-level sub-block
+  - validator preserved the 9 errors / 30 warnings baseline (`tmp/phase-7/reframing-protocol-audience-declaration-validator-pre.txt` -> `tmp/phase-7/reframing-protocol-audience-declaration-validator-post.txt`)
+  - rollback commits, if needed: revert newest-first from the execution close commit, then `a83b0cc`, `dd8ef96`, `adea0f4`
 
 ## Open questions
 
