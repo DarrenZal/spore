@@ -1,0 +1,43 @@
+# Close — reframing-pm-canon-scope
+
+- Proposal final state: `status: executed`
+- New canonical origin for `commitment-bundles`:
+  - path: `/Users/darrenzal/projects/poietic-match/docs/grammar.md` (§1.4)
+  - rationale: the formal `pm:CommitmentBundle` type definition and lifecycle already live in PM canon there, while `docs/project-vision.md` remains the narrative explanation surface and `docs/phase-0-spec.md` remains implementation-only
+- Ratified PM canon boundary:
+  - canon: `docs/project-vision.md`, `docs/grammar.md`, `docs/protocol.md`, `docs/research/canon-decisions/*.md`
+  - excluded: `docs/downstream-products.md` (governance registry), `docs/phase-0-spec.md` (implementation spec)
+- Bundle commit trail:
+  - scope declared: `a820941`
+  - shared framing note: `8d824fa`
+  - PM ADR-0010 drafted + PM canon-boundary edits: `b0195dc`
+  - proposal `eligible -> authorized-ADR` + derivative inventory / roster alignment: `2c9a029`
+  - PM ADR-0010 activated: `ea906d5`
+  - proposal `authorized-ADR -> executed` + findings status updates: `520ea26`
+- ADRs landed:
+  - `pm.canon-decision.canon-scope-ratification` — drafted in `b0195dc`, activated in `ea906d5`
+- Findings resolved:
+  - F-018 via ADR-0010 + removal of `docs/downstream-products.md` from `tmp/corpus-inventory.tsv`
+  - F-019 via ADR-0010 + `tmp/concept-roster.tsv` origin repair for `commitment-bundles`
+- Spore derivative outputs:
+  - `tmp/corpus-inventory.tsv` no longer treats `docs/downstream-products.md` or `docs/phase-0-spec.md` as PM canon-layer rows
+  - `tmp/concept-roster.tsv` now credits `poietic-match/docs/grammar.md` as the introducing doc for `commitment-bundles`
+  - `tmp/concept-roster.tsv` now records `commitment-bundles` at `poietic-match:adr-eligible`
+- Validator state:
+  - baseline: 9 errors / 30 warnings (`tmp/phase-7/reframing-pm-canon-scope-validator-pre.txt`)
+  - post-bundle: 9 errors / 30 warnings (`tmp/phase-7/reframing-pm-canon-scope-validator-post.txt`)
+  - delta: +0 errors / +0 warnings
+- Session-atomic window: satisfied
+  - first coordinated commit author-date: `2026-04-21T09:58:17-07:00` (`8d824fa`)
+  - last coordinated draft commit author-date: `2026-04-21T09:58:23-07:00` (`b0195dc`)
+  - delta: 6 seconds (`0.10` minutes)
+- Authorized-by integrity:
+  - command: `grep -l "authorized-by:.*reframing-pm-canon-scope" /Users/darrenzal/projects/poietic-match/docs/research/canon-decisions/*.md`
+  - result count: 1
+  - file: `/Users/darrenzal/projects/poietic-match/docs/research/canon-decisions/0010-canon-scope-ratification.md`
+- r_claim_source-integrity: pass
+  - PM ADR-0010 uses claim-bearing `spec:spore.corpus-review.*` identifiers
+  - `supported_by:` is present
+  - duplicate `r_claim_source` entries: none
+- Milestone:
+  - foundational-reframing bundle track closed: `8 of 8`
