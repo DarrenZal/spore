@@ -1,13 +1,14 @@
 ---
 doc_id: spore.foundational-reframing.reframing-frozen-vocabulary-role
 doc_kind: proposal
-status: cooling-off
+status: eligible
 covers: [F-028]
 proposal_kind: protocol-amendment
 author: Darren Zal
 approver: Darren Zal
 opened-on: 2026-04-20
 eligible-on: 2026-05-04
+eligible-bumped-on: 2026-04-21T00:29:05Z
 consultation_artifact: tmp/cross-repo-consultation-reframing-frozen-vocabulary-role.md
 authorized_adrs: []
 ---

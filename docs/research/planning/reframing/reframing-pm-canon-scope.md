@@ -1,13 +1,14 @@
 ---
 doc_id: spore.foundational-reframing.reframing-pm-canon-scope
 doc_kind: proposal
-status: cooling-off
+status: eligible
 covers: [F-018, F-019]
 proposal_kind: canon-scope
 author: Darren Zal
 approver: Darren Zal
 opened-on: 2026-04-20
 eligible-on: 2026-04-27
+eligible-bumped-on: 2026-04-21T00:29:05Z
 consultation_artifact: tmp/cross-repo-consultation-reframing-pm-canon-scope.md
 authorized_adrs: []
 ---

@@ -1,13 +1,14 @@
 ---
 doc_id: spore.foundational-reframing.reframing-graph-primitive-unification
 doc_kind: proposal
-status: cooling-off
+status: eligible
 covers: [F-020]
 proposal_kind: concept-merge
 author: Darren Zal
 approver: Darren Zal
 opened-on: 2026-04-20
 eligible-on: 2026-04-27
+eligible-bumped-on: 2026-04-21T00:29:05Z
 consultation_artifact: tmp/cross-repo-consultation-reframing-graph-primitive-unification.md
 authorized_adrs: []
 ---
