@@ -1,7 +1,7 @@
 ---
 doc_id: spore.foundational-reframing.reframing-pm-canon-scope
 doc_kind: proposal
-status: eligible
+status: authorized-ADR
 covers: [F-018, F-019]
 proposal_kind: canon-scope
 author: Darren Zal
@@ -10,7 +10,9 @@ opened-on: 2026-04-20
 eligible-on: 2026-04-27
 eligible-bumped-on: 2026-04-21T00:29:05Z
 consultation_artifact: tmp/cross-repo-consultation-reframing-pm-canon-scope.md
-authorized_adrs: []
+authorized_adrs:
+  - pm.canon-decision.canon-scope-ratification
+authorized-adr-opened-on: 2026-04-21T16:58:23Z
 ---
 
 # Reframing Proposal: PM Canon Scope
@@ -179,12 +181,15 @@ Because this proposal authorizes ADR drafting rather than direct canon edits, re
 
 ## Execution record
 
-Not yet executed.
+Execution in progress.
 
-- Authorized ADRs: []
-- PM execution SHAs: [PENDING]
-- Spore execution SHAs: [PENDING]
-- Notes: Populate after the proposal reaches `executed`.
+- Authorized ADRs:
+  - `pm.canon-decision.canon-scope-ratification`
+- PM execution SHAs:
+  - `b0195dc` — PM ADR-0010 draft + PM canon-boundary edits
+- Spore execution SHAs:
+  - `8d824fa` — shared framing note
+- Notes: Proposal moved to `authorized-ADR` when PM ADR-0010 was drafted. Execution remains pending until ADR activation, Spore findings updates, and bundle closeout land.
 
 ## Open questions
 

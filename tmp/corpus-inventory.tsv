@@ -19,9 +19,7 @@ intelligence-commons/docs/research/canon-decisions/0006-collective-agency-declin
 intelligence-commons/docs/research/canon-decisions/0007-memory-governance-as-cross-cutting-primitive.md	intelligence-commons:adr-eligible	113	2026-04-18	FALSE	33
 intelligence-commons/docs/research/canon-decisions/0008-autopoietic-framing-held.md	intelligence-commons:adr-eligible	79	2026-04-18	TRUE	12
 intelligence-commons/docs/research/canon-decisions/README.md	intelligence-commons:adr-eligible	26	2026-04-17	FALSE	0
-poietic-match/docs/downstream-products.md	poietic-match:extended	30	2026-04-13	TRUE	0
 poietic-match/docs/grammar.md	poietic-match:adr-eligible	73	2026-04-10	TRUE	0
-poietic-match/docs/phase-0-spec.md	poietic-match:extended	73	2026-04-11	TRUE	0
 poietic-match/docs/project-vision.md	poietic-match:adr-eligible	189	2026-04-18	TRUE	14
 poietic-match/docs/protocol.md	poietic-match:adr-eligible	143	2026-04-18	TRUE	7
 poietic-match/docs/research/canon-decisions/0001-accounting-dependence-tension.md	poietic-match:adr-eligible	95	2026-04-17	FALSE	0
