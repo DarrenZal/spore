@@ -1,9 +1,10 @@
 ---
 doc_id: spore.canon-decision.bridge-note-inventory-scope-cleanup
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0026"
 opened-on: 2026-04-21
+closed-on: 2026-04-21
 covers:
   - F-032
 decision: edit
@@ -41,7 +42,7 @@ concepts:
 
 ## Status
 
-draft (authored 2026-04-21 for `round-bridge-note-inventory-boundary`; activation pending validator re-check and round close)
+active (drafted and activated 2026-04-21 for `round-bridge-note-inventory-boundary`)
 
 ## Context
 
