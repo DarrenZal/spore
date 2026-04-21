@@ -1,7 +1,7 @@
 ---
 doc_id: spore.canon-decision.adr-status-vocabulary-unification
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0012"
 decision: edit
 opened-on: 2026-04-20
@@ -36,7 +36,7 @@ concepts:
 
 ## Status
 
-draft (authorized by `reframing-protocol-governance-hardening`)
+active (drafted and activated 2026-04-20 under `reframing-protocol-governance-hardening`)
 
 ## Context
 

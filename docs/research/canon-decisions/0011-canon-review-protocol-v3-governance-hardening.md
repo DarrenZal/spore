@@ -1,7 +1,7 @@
 ---
 doc_id: spore.canon-decision.canon-review-protocol-v3-governance-hardening
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0011"
 decision: edit
 opened-on: 2026-04-20
@@ -25,7 +25,8 @@ authorized-by: reframing-protocol-governance-hardening
 queue_reference: "Phase 7 reframing-protocol-governance-hardening (F-025, F-026)"
 affects_canon:
   - docs/research/planning/canon-review-protocol.md
-related_adrs: []
+related_adrs:
+  - spore:ADR-0012-adr-status-vocabulary-unification
 shared_framing: ""
 concepts:
   - memory-governance
@@ -35,7 +36,7 @@ concepts:
 
 ## Status
 
-draft (authorized by `reframing-protocol-governance-hardening`)
+active (drafted and activated 2026-04-20 under `reframing-protocol-governance-hardening`)
 
 ## Context
 
