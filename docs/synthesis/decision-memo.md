@@ -334,11 +334,11 @@ The grammar maps to AD4M primitives **without requiring AD4M in the grammar defi
 
 ## 13. Open Questions and Follow-Up
 
-### Must Address in Next Session
-1. **Revise `project-vision.md`**: Add discourse graph as 8th type, rename knowledge graph to epistemic graph, evolve opening framing toward "worldview grammar"
-2. **Write store-and-forward relay protocol doc**: Promoted to Spore core, needs its own document
-3. **Write discourse-as-governance pattern doc**: Promoted to Spore core, needs pattern template
-4. **Write claims/evidence/attestation anchoring protocol doc**: Promoted to Spore core
+### Status of the 2026-03-27 next-session queue
+1. **`project-vision.md`**: Partially completed. The vision now names `Discourse graph` as the 8th graph projection (`703acea`, 2026-04-18). The knowledge-graph -> epistemic-graph rename and the opening move toward "worldview grammar" remain open follow-ons, so this item is no longer pending in the form originally written.
+2. **Store-and-forward relay protocol**: Completed. `docs/protocols/store-and-forward-relay.md` landed in Phase 11d (`f68a2a3`, 2026-03-27) and now carries the reusable relay protocol surface the memo was pointing toward.
+3. **Discourse-as-governance pattern**: Completed. `docs/patterns/discourse-as-governance.md` landed in Phase 11d (`f68a2a3`, 2026-03-27) and now carries the self-reflective governance pattern the memo identified.
+4. **Claims/evidence/attestation anchoring protocol**: Completed. `docs/protocols/claims-evidence-attestation.md` landed in Phase 11d (`f68a2a3`, 2026-03-27) and now carries the epistemic anchoring protocol the memo identified.
 
 ### Track for Future Sessions
 5. **Worldview-commoning formalization**: Watch for BKC ontology-commoning extending to axiology/epistemology, or IndigenomicsAI formalizing OCAP as membrane configuration. Either would provide the working instance needed for promotion.
