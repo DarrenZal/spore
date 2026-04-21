@@ -1,0 +1,49 @@
+# Round close — round-bridge-note-corpus-normalization
+
+- Date: 2026-04-21
+- Decision outcome:
+  - F-033: `edit` via ADR-0028 / ADR-0017 / ADR-0013
+  - F-034: `edit` via ADR-0028 / ADR-0017
+- Round commit trail:
+  - scope declared (Spore): `5703a96`
+  - shared framing note (Spore): `b26dbb4`
+  - slug inventory (Spore): `a4e65f2`
+  - ADR-0028 drafted (Spore): `40b2ae2`
+  - ADR-0017 drafted (IC): `f1f3477`
+  - ADR-0013 drafted (PM): `4a0188b`
+  - ADR-0028 activated (Spore): `9a5f44d`
+  - ADR-0017 activated (IC): `77371a5`
+  - ADR-0013 activated (PM): `5454410`
+  - findings status update (Spore): `618f743`
+- ADRs landed:
+  - `spore.canon-decision.bridge-note-format-and-vocabulary-normalization` — draft `40b2ae2`, active `9a5f44d`
+  - `ic.canon-decision.bridge-note-format-and-vocabulary-normalization` — draft `f1f3477`, active `77371a5`
+  - `pm.canon-decision.bridge-note-format-normalization` — draft `4a0188b`, active `5454410`
+- Findings resolved:
+  - F-033 via ADR-0028 / ADR-0017 / ADR-0013
+  - F-034 via ADR-0028 / ADR-0017
+- Bridge-note migration result: pass
+  - post-cleanup in-scope bridge notes migrated to v2 format: Spore 49, IC 6, PM 6
+  - historical F-033 finding text still says 63 notes, but that count predates ADR-0026 and the 2026-04-21 inventory cleanup; the live migration surface for this round was the 61-note subset inside the 84-row inventory
+  - F-034 note-level deferred counts: Spore 29, IC 1, PM 0
+  - F-034 claim-line deferred counts: Spore 37, IC 3, PM 0
+  - direct v2 slug remaps applied: 0
+  - representative deferred notes: `spore/docs/research/connections/hansen-ghrist-discourse-graphs.md`, `intelligence-commons/docs/research/connections/johar-neuroplastic-field.md`
+- Migration authority artifacts:
+  - shared framing note: `docs/research/connections/canon-framing-bridge-note-corpus-normalization.md`
+  - slug inventory: `tmp/bridge-note-slug-violations.tsv`
+  - automation script: `tmp/phase-7/bridge-note-corpus-normalizer.py`
+- Validator state post-round:
+  - baseline: 9 errors / 30 warnings (`tmp/phase-7/round-bridge-note-corpus-normalization-validator-pre.txt`)
+  - post-round: 9 errors / 30 warnings (`tmp/phase-7/round-bridge-note-corpus-normalization-validator-post.txt`)
+  - delta: +0 errors / +0 warnings
+- Session-atomic window satisfied: yes (3-repo ADR drafting window)
+  - ADR draft author-date range: `2026-04-21T11:22:19-07:00` -> `2026-04-21T11:22:37-07:00`
+  - window delta: 18 seconds
+- r_claim_source-integrity check result: pass
+  - ADR-0028, ADR-0017, and ADR-0013 use claim-bearing research-doc identifiers under `spec:spore.corpus-review.*`; duplicates: none
+  - each ADR has matching `supported_by:` evidence lines for the shared framing note, findings YAML block, protocol sections, and inventory-derived migration artifacts
+  - `authorized-by:` remains empty on all three ADRs as required for canon-review-v2
+- Scripts/automation used:
+  - `tmp/phase-7/bridge-note-corpus-normalizer.py`
+  - outputs: normalized all 61 in-scope bridge notes, emitted `tmp/bridge-note-slug-violations.tsv`, and marked every unmappable frozen-v2 exception as `TODO: slug-deferred`
