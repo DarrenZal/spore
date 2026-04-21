@@ -1,7 +1,7 @@
 ---
 doc_id: spore.foundational-reframing.reframing-learning-field-host-elevation
 doc_kind: proposal
-status: cooling-off
+status: eligible
 covers: [F-029]
 depends-on: [reframing-repo-topology-trunk]
 proposal_kind: relayer
@@ -9,6 +9,7 @@ author: Darren Zal
 approver: Darren Zal
 opened-on: 2026-04-20
 eligible-on: 2026-05-04
+eligible-bumped-on: 2026-04-21T06:08:30Z
 consultation_artifact: tmp/cross-repo-consultation-reframing-learning-field-host-elevation.md
 authorized_adrs: []
 ---
