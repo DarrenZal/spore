@@ -1,6 +1,6 @@
 ---
 doc_id: spore.quickstart
-doc_kind: guidance
+doc_kind: operations
 status: draft
 depends_on:
   - spore.agent-commons-meta-protocol
@@ -28,7 +28,7 @@ The `project_id` becomes the namespace prefix for all your doc IDs (e.g., `your-
 
 ## 2. Add frontmatter to your docs
 
-Every governed document needs YAML frontmatter with four fields:
+Every governed spec-DAG document needs YAML frontmatter with four core fields:
 
 ```yaml
 ---
@@ -42,9 +42,11 @@ depends_on: []
 | Field | Required | Values |
 |:------|:---------|:-------|
 | `doc_id` | Yes | `{project_id}.{slug}` — unique within the repo |
-| `doc_kind` | Yes | `vision`, `architecture`, `foundations`, `spec`, `protocol`, `guidance`, `research`, `operations` |
+| `doc_kind` | Yes | Base taxonomy: `vision`, `foundation`, `architecture`, `spec`, `operations`, `research`, `positioning`, `pattern`, `roadmap`; use `decision-record` for canon-review ADRs |
 | `status` | Yes | `draft`, `active`, `deprecated`, `superseded` |
 | `depends_on` | Yes | List of doc_ids this doc depends on. `[]` for root docs. |
+
+The authoritative base taxonomy lives in the [Agent Commons Meta-Protocol](./agent-commons-meta-protocol.md). In this repo, canon-review ADRs are a separate governed artifact family and use `doc_kind: decision-record` per [`docs/research/planning/canon-review-protocol.md`](../research/planning/canon-review-protocol.md).
 
 If `status` is `superseded`, add `superseded_by:` with a repo-relative path, cross-repo doc_id, or URI.
 

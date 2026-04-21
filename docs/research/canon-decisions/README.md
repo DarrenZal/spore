@@ -22,7 +22,7 @@ Per-repo ADRs reference the framing via `shared_framing:` frontmatter (absolute 
 
 ## ADR lifecycle
 
-`proposed` → `accepted` (after AC-* checks pass + commit lands). `superseded` when a later ADR replaces this one; `partial-drift` per Constraint 6 mid-set failure recovery. See protocol §3.
+`draft` → `active` (after AC-* checks pass + commit lands). `deprecated` marks an ADR retained for provenance but no longer recommended; `superseded` marks one replaced by a later ADR. `partial-drift` is no longer a live ADR `status`; treat it as execution-state context only. See protocol §3 and ADR-0012.
 
 ## Rollback
 
