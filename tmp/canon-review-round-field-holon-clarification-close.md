@@ -1,0 +1,25 @@
+# Round close — round-field-holon-clarification
+
+- Date: 2026-04-20
+- Decision outcome: clarification
+- Canonical distinction: `holon` remains the recursive whole/part unit of agency; `field` remains the distributed relational medium or coordination substrate. A holon at scale N may appear as a field at scale N+1, but that scale relation is perspectival rather than a primitive merger.
+- Round commit trail:
+  - scope declared: `b38cbe7`
+  - ADR-0016 drafted: `c9b7226`
+  - ADR-0016 activated: `a023618`
+  - findings status update: `06f821d`
+- ADRs landed:
+  - Spore ADR-0016 `field-holon-primitive-distinction` (`c9b7226` draft, `a023618` active)
+- Findings resolved:
+  - F-023 via ADR-0016
+- Validator state post-round: 9 errors, 30 warnings (baseline was 9 errors, 30 warnings; delta: +0 / +0)
+- Session-atomic window satisfied: N/A (single-repo round)
+- r_claim_source-integrity check result: pass
+  - ad hoc integrity check used because `scripts/validate-rclaim-source.py` is not present in this repo
+  - primary claim-bearing source: `spec:spore.corpus-review.research-capstone:R1`
+  - secondary claim-bearing source: `spec:spore.corpus-review.research-capstone-review:R1`
+  - duplicate `r_claim_source` entries: none
+  - `supported_by:` present
+  - `authorized-by:` empty as required for canon-review-v2
+- Escalation rule result: no escalation
+  - dissolution criterion not met because active canon still needs `holon` for bounded recursive agency and `field` for distributed coordination substrate
