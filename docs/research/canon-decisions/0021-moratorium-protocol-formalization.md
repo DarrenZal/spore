@@ -1,9 +1,10 @@
 ---
 doc_id: spore.canon-decision.moratorium-protocol-formalization
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0021"
 opened-on: 2026-04-20
+closed-on: 2026-04-20
 covers:
   - F-027
 decision: edit
@@ -34,7 +35,7 @@ concepts:
 
 ## Status
 
-draft (authorized by `reframing-moratorium-formalization`)
+active (drafted and activated 2026-04-20 under `reframing-moratorium-formalization`)
 
 ## Context
 
