@@ -1,11 +1,11 @@
 ---
 doc_id: spore.canon-decision.coordination-grammar-refresh
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0009"
 decision: edit
 opened-on: 2026-04-20
-closed-on: ""
+closed-on: 2026-04-20
 covers:
   - F-003
   - F-004
@@ -40,7 +40,7 @@ concepts:
 
 ## Status
 
-draft -> active (on round close)
+active (drafted and closed 2026-04-20)
 
 ## Context
 

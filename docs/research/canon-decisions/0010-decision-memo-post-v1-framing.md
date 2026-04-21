@@ -1,11 +1,11 @@
 ---
 doc_id: spore.canon-decision.decision-memo-post-v1-framing
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0010"
 decision: edit
 opened-on: 2026-04-20
-closed-on: ""
+closed-on: 2026-04-20
 covers:
   - F-007
 r_claim_source:
@@ -33,7 +33,7 @@ concepts:
 
 ## Status
 
-draft -> active (on round close)
+active (drafted and closed 2026-04-20)
 
 ## Context
 
