@@ -1,7 +1,7 @@
 ---
 doc_id: spore.foundational-reframing.reframing-learning-field-host-elevation
 doc_kind: proposal
-status: authorized-ADR
+status: executed
 covers: [F-029]
 depends-on: [reframing-repo-topology-trunk]
 proposal_kind: relayer
@@ -15,6 +15,7 @@ authorized_adrs:
   - spore.canon-decision.learning-field-protocol-elevation
   - ic.canon-decision.learning-membrane-pattern-demotion
 authorized-adr-opened-on: 2026-04-21T16:29:23Z
+executed-on: 2026-04-21T16:33:03Z
 ---
 
 # Reframing Proposal: Learning-field Host Elevation
@@ -147,13 +148,25 @@ In every case, rollback uses normal revert flow rather than destructive history 
 
 ## Execution record
 
-Pending. Populate at `executed` with:
+Executed.
 
-- scenario chosen
-- authorized ADR IDs and paths
-- affected repo SHAs
-- implementation commit SHAs
-- rollback targets, if any
+- Scenario chosen: `A — ratified three-repo topology with Spore as the authoritative host`
+- Proposal state: `executed`
+- Authorized ADRs:
+  - `spore.canon-decision.learning-field-protocol-elevation`
+  - `ic.canon-decision.learning-membrane-pattern-demotion`
+- Affected repo SHAs:
+  - `3f38ceb` — new Spore protocol host + meta-corpus inventory update
+  - `4c07714` — Spore ADR-0024 draft + proposal `eligible -> authorized-ADR`
+  - `8a72159` — Spore ADR-0024 activation
+  - `d33bbad` — IC ADR-0015 draft + IC pattern rewrite
+  - `63c909c` — IC ADR-0015 activation
+- Final authoritative host:
+  - `docs/research/planning/learning-field-protocol-v1.md` (`spore.learning-field-protocol`, v1)
+- IC post-update state:
+  - `docs/patterns/project-learning-membrane.md` retained as an IC-local instantiation / historical gloss of the former host
+- Rollback targets, if needed:
+  - revert newest-first: `63c909c`, `d33bbad`, `8a72159`, `4c07714`, `3f38ceb`
 
 ## Open questions
 
