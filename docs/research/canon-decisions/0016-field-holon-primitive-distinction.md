@@ -1,9 +1,10 @@
 ---
 doc_id: spore.canon-decision.field-holon-primitive-distinction
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0016"
 opened-on: 2026-04-20
+closed-on: 2026-04-20
 covers:
   - F-023
 decision: edit
@@ -35,7 +36,7 @@ concepts:
 
 ## Status
 
-draft (opened 2026-04-20)
+active (drafted and activated 2026-04-20)
 
 ## Context
 
