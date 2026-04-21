@@ -68,6 +68,8 @@ When you zoom into a node, you find the same artifact ecology: visions, intents,
 
 This is the deep implication of the holon concept: a holon is both a whole (with its own internal graph) and a part (presenting a coherent interface to its containing graph). The coordination patterns apply recursively: a person's workflow, a team's governance, an organization's roadmap, and a federation's constitutional commitments all share the same structural logic.
 
+That zoom invariance does not make `holon` and `field` synonymous. The node is holonic when what matters is bounded recursive agency: a whole that is also a part. The graph-like coordination surface inside or around that node is field-like when what matters is distributed relational medium: the substrate through which intents, commitments, evidence, and learning circulate. At the next scale up, the coordination surface produced by lower-scale holons may appear as a field for higher-scale holons. That is the scale relation between the primitives, not a reason to collapse them.
+
 ## Grounding Through Sensors
 
 Constitutional artifacts describe desired states. Sensors describe actual states. The gap between them is what drives action.

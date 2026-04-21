@@ -24,6 +24,8 @@ aliases:
 
 A distributed relational medium in which signals, claims, commitments, entities, and resources become legible to one another, interact, and are revised over time. A field is not a single database, model, or market. It is the socio-technical arrangement through which intelligence and coordination are distributed.
 
+Field is not a synonym for [`holon`](../relational-agency-and-holons.md). A holon names the recursive whole/part unit of agency with boundary, integrity, and the capacity to interface as one node. Field names the distributed relational medium in which such holons coordinate, learn, and revise. A holon may sustain an internal field, and from the next scale up a holon at scale N may appear as a field at scale N+1. That is a scale relation, not a primitive merger.
+
 ## Three Existing Uses In Spore
 
 Spore already uses the term in three linked ways:
@@ -32,7 +34,7 @@ Spore already uses the term in three linked ways:
 - **Learning field** — the governed project surface where bridge notes, claims, convergence clusters, and synthesis notes mature through comparative intake.
 - **Relational field** — the epistemic/context surface where claims, evidence, attestations, and entities constitute context through their connections.
 
-These are not three unrelated concepts. They are the same underlying structure instantiated at different scales and for different purposes. The difference is not what kind of thing they are; it is what aspect of the field is in focus:
+These are not three unrelated concepts. They are field-level variants of the same distributed coordination medium, instantiated at different scales and for different purposes. The difference is not what kind of thing they are; it is what aspect of the field is in focus:
 
 - **coordination** in the shared field
 - **learning and revision** in the learning field
@@ -86,6 +88,7 @@ This is a motivating-language addition, not a new primitive. The `field` lexicon
 
 ## Relationship To Other Terms
 
+- **Holon** names the recursive whole/part agent that participates in a field. A field can contain many holons, and a holon can sustain its own internal field.
 - **Network / mycelium** names the topology of connection. It describes how the field is patterned.
 - **Membrane** names the governed interface where crossings happen. It describes how the field is regulated at boundaries.
 - **Knowledge garden** names a cultivated region within a field. It is the tended semantic substrate inside the wider medium.
