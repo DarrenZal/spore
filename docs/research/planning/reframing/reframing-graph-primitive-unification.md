@@ -1,7 +1,7 @@
 ---
 doc_id: spore.foundational-reframing.reframing-graph-primitive-unification
 doc_kind: proposal
-status: authorized-ADR
+status: executed
 covers: [F-020]
 proposal_kind: concept-merge
 author: Darren Zal
@@ -13,6 +13,7 @@ consultation_artifact: tmp/cross-repo-consultation-reframing-graph-primitive-uni
 authorized_adrs:
   - spore.canon-decision.graph-primitive-unification
 authorized-adr-opened-on: 2026-04-21T05:48:47Z
+executed-on: 2026-04-21T05:53:40Z
 ---
 
 # Reframing Proposal: Graph Primitive Unification
@@ -141,15 +142,20 @@ The default reversal threshold is high because the current proposal reduces ambi
 
 ## Execution record
 
-Not executed.
+Executed.
 
-- Proposal state: authorized-ADR
+- Proposal state: executed
 - FR-19 disposition selected: `historical-gloss`
 - Authorized ADRs:
   - spore.canon-decision.graph-primitive-unification
-- Affected repo SHAs: [PENDING]
-- Inventory regeneration / validation record: [PENDING]
-- Rollback commits, if any: [PENDING]
+- Affected repo SHAs:
+  - `9d9d5c2` — ADR-0019 draft + canon cleanup + proposal `authorized-ADR`
+  - `81a0496` — ADR-0019 activation (`draft -> active`)
+  - `63fd509` — findings status update (F-020 -> `resolved-via-ADR-0019`)
+- Inventory regeneration / validation record:
+  - `tmp/concept-roster.tsv` repaired in-place so `knowledge-graph` is no longer `primitive-class=TRUE`
+  - validator preserved the 9 errors / 30 warnings baseline (`tmp/phase-7/reframing-graph-primitive-unification-validator-pre.txt` -> `tmp/phase-7/reframing-graph-primitive-unification-validator-post.txt`)
+- Rollback commits, if any: revert newest-first from the execution close commit, then `63fd509`, `81a0496`, `9d9d5c2`
 
 ## Open questions
 

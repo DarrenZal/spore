@@ -1,0 +1,37 @@
+# Close — reframing-graph-primitive-unification
+
+- Proposal final state: `status: executed`
+- Disposition chosen: `historical-gloss`
+  - rationale: `project-vision.md` keeps the recognizable phrase `knowledge graph` only as an explicit public-facing gloss while active canon and the derivative roster now collapse to one live primitive slug, `epistemic-graph`
+- Bundle commit trail:
+  - scope declared: `5cad04d`
+  - ADR-0019 drafted + proposal authorized-ADR: `9d9d5c2`
+  - ADR-0019 activated: `81a0496`
+  - findings status update: `63fd509`
+- ADRs landed:
+  - `spore.canon-decision.graph-primitive-unification` — drafted in `9d9d5c2`, activated in `81a0496`
+- Canon cleanup landed:
+  - `docs/project-vision.md`
+  - `docs/foundations/constitutional-artifacts-and-graph-projections.md`
+  - `docs/foundations/spore-instance-model.md`
+  - `docs/roadmap.md`
+  - `tmp/concept-roster.tsv`
+- Findings resolved:
+  - F-020 via ADR-0019
+- Validator state:
+  - baseline: 9 errors / 30 warnings (`tmp/phase-7/reframing-graph-primitive-unification-validator-pre.txt`)
+  - post-bundle: 9 errors / 30 warnings (`tmp/phase-7/reframing-graph-primitive-unification-validator-post.txt`)
+  - delta: +0 errors / +0 warnings
+- ADR-only validator:
+  - command: `python3 scripts/validate_spec_dag.py --docs-root docs/research/canon-decisions --project-id spore`
+  - result: pass
+- Authorized-by integrity:
+  - command: `grep -l "authorized-by:.*reframing-graph-primitive-unification" docs/research/canon-decisions/*.md`
+  - result count: 1
+  - file: `docs/research/canon-decisions/0019-graph-primitive-unification.md`
+- r_claim_source-integrity: pass
+  - primary claim-bearing source: `spec:spore.corpus-review.research-capstone:R1`
+  - secondary claim-bearing source: `spec:spore.corpus-review.research-capstone-review:R1`
+  - duplicate `r_claim_source` entries: none
+  - `supported_by:` present
+- Session-atomic window: N/A (single-repo bundle)
