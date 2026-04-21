@@ -1,0 +1,28 @@
+# Round close — round-cross-repo-vision-alignment
+
+- Date: 2026-04-21
+- ADRs landed:
+  - Spore ADR-0027 `project-vision-audience-declaration` — draft `aeb0f1f`, active `702fdf1`
+  - IC ADR-0016 `project-vision-neighbors-map-reconciliation` — draft `21359ea`, active `50e1b5d`
+- Shared framing note: `docs/research/connections/canon-framing-cross-repo-vision-alignment.md` (`173b032`)
+- Findings resolved:
+  - F-006 via ADR-0027
+  - F-010 via ADR-0016
+- Validator state post-round:
+  - baseline: 9 errors / 30 warnings (`tmp/phase-7/round-cross-repo-vision-alignment-validator-pre.txt`)
+  - post-round: 9 errors / 30 warnings (`tmp/phase-7/round-cross-repo-vision-alignment-validator-post.txt`)
+  - delta: +0 errors / +0 warnings
+- Session-atomic window satisfied: yes
+  - First framing-note commit author-date: `2026-04-21T10:49:42-07:00` (`173b032`)
+  - Last ADR-draft commit author-date: `2026-04-21T10:51:53-07:00` (`21359ea`)
+  - Delta: 2 minutes 11 seconds (`2.18` minutes)
+- r_claim_source-integrity check result: pass
+  - ADR-0027 primary claim-bearing sources: `spec:spore.corpus-review.research-audience-scoping:R1`, `spec:spore.corpus-review.research-capstone:R1`
+  - ADR-0016 primary claim-bearing sources: `spec:spore.corpus-review.research-capstone:R1`, `spec:spore.corpus-review.research-repo-topology:R1`
+  - all cited research-doc source files exist under `docs/research/corpus-review/`
+  - no duplicate `r_claim_source` entries in either ADR
+  - `supported_by:` and `shared_framing:` present in both ADRs
+  - `authorized-by:` is empty in both ADRs as required for canon-review-v2
+- Resolution pattern check: pass
+  - F-006 uses a four-line `Audience` / `Prerequisites` / `Scope` / `Out of scope` block under `## Intended audience and scope`
+  - F-010 uses the `layered` reconciliation approach: canon-bearing sibling repos (`Spore`, `Intelligence Commons`, `Poietic Match`) separated from proving-ground / implementation surfaces (`BKC/Octo`, `koi-processor`)
