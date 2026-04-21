@@ -1,0 +1,31 @@
+# Round close — round-primitive-roster-boundaries
+
+- Date: 2026-04-21
+- Decision outcome:
+  - F-035: `edit` via ADR-0025
+  - F-036: `edit` via ADR-0025
+- Round commit trail:
+  - scope declared (Spore): `f3b8427`
+  - ADR-0025 drafted: `04df6f4`
+  - ADR-0025 activated: `1ed3638`
+  - findings status update (Spore): `f4f81a3`
+- ADRs landed:
+  - `spore.canon-decision.primitive-roster-boundary-cleanup` — draft `04df6f4`, active `1ed3638`
+- Findings resolved:
+  - F-035 via ADR-0025
+  - F-036 via ADR-0025
+- Primitive-class cleanup result: pass
+  - exact rows demoted from `TRUE` to `FALSE`: `instance-model`, `spore-instance-model`, `intelligence-primitives`, `memory-layer-model`, `koi-net`
+  - row count changed: 5
+  - methodology clarification landed in `docs/research/planning/corpus-foundational-review-methodology.md`
+- Validator state post-round:
+  - baseline: 9 errors / 30 warnings (`tmp/phase-7/round-primitive-roster-boundaries-validator-pre.txt`)
+  - post-round: 9 errors / 30 warnings (`tmp/phase-7/round-primitive-roster-boundaries-validator-post.txt`)
+  - delta: +0 errors / +0 warnings
+- Session-atomic window satisfied: N/A (single-repo round)
+  - touched-repo author-date range: `2026-04-21T09:43:22-07:00` -> `2026-04-21T09:45:48-07:00`
+- r_claim_source-integrity check result: pass
+  - ADR-0025 uses claim-bearing research-doc identifiers under `spec:spore.corpus-review.*`; duplicates: none
+  - research-doc targets exist on disk: `docs/research/corpus-review/research-capstone.md`, `docs/research/corpus-review/research-canonical-layering.md`
+  - the primary `r_claim_source` entry is backed by matching `supported_by:` evidence lines
+  - `authorized-by:` remains empty as required for canon-review-v2
