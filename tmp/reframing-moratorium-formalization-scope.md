@@ -1,0 +1,26 @@
+# Scope — reframing-moratorium-formalization
+
+- Authorizing proposal: `docs/research/planning/reframing/reframing-moratorium-formalization.md` (`status: eligible`, commit `24d37fe`)
+- Covered findings: F-027
+- Protocol rules invoked:
+  - foundational-reframing-protocol v1.1: FR-7, FR-20, FR-24, FR-25, FR-27
+  - Phase 7 master: reframing-authorized ADR bundle mechanics, proposal `eligible -> authorized-ADR -> executed`
+- Target allowlist:
+  - `spore.moratorium-protocol`
+  - `tmp/meta-corpus-inventory.tsv`
+- Repos affected: Spore only
+- Cross-track dependencies: none
+- ADR slug candidates:
+  - ADR-0021 `moratorium-protocol-formalization` (F-027)
+- Session-atomic window required: no
+- Evidence gate: pass
+  - proposal source bundle count: 9
+  - publicly-verifiable source count: 9
+  - prior-collision-check: none
+  - dependencies: none
+- Protocol drafting constraints:
+  - harvest only the already-operative moratorium mechanics from `docs/research/planning/corpus-foundational-review-v1-plan.md:37-58`
+  - include the phase-state table, safety-critical exception categories, approver rule, audit-log convention at `tmp/moratorium-exceptions.md`, reapply-at-close rule, and an `## Intended audience and prerequisites` section
+  - admit the protocol to the existing `moratorium-mechanics` inventory row so FR-20's double-cooling follows automatically from the inventory pointer
+- Validator baseline: 9 errors / 30 warnings on 2026-04-20; no regression allowed
+- Authorized-by lineage: ADR-0021 must carry `authorized-by: reframing-moratorium-formalization`
