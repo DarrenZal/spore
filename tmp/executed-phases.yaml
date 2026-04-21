@@ -57,3 +57,12 @@ executed_phases:
       spore: 0806794404a8d98381048e1834e12b89ab95fe4d
       intelligence-commons: 77371a5029bb1e37e91b56cae59676b18cb1dc09
       poietic-match: 54544108cd04280de799c79e6934fb2ce514c500
+  # Phase 9 = corpus-review/v1 merged into main on all three repos within a
+  # sub-minute window (Spore at 14:55:14, IC at 14:55:33, PM at 14:55:53).
+  # Per-repo SHAs below are the merge commits on main.
+  - phase: 9
+    closed_at: 2026-04-21T14:55:53-06:00
+    commits:
+      spore: c5848d14a2261775cbfc3c568a2ba49b50303849
+      intelligence-commons: 2c906126c8624d09f8ce1ffd7bb705606c5a84e0
+      poietic-match: 9eecbaea3af59079f2f0dc6ddae0999c4f2082e2
