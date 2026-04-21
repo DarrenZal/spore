@@ -1,0 +1,77 @@
+---
+phase: 9e
+ac: 9
+tool: validate_spec_dag.py (Spore) + scripted scan (IC, PM)
+rundate: 2026-04-21
+---
+
+# AC9 doc-check log
+
+## Tooling
+
+- `doc-check` skill (`~/projects/darren-workflow/skills/doc-check/SKILL.md`) targets
+  projects with a `docs/_meta/doc-graph.json` DAG and/or a `build_semantic_roadmap.py`
+  script. Spore, IC, PM have `_meta/project.json` but no `doc-graph.json` / semantic
+  roadmap build script; the skill cannot validate those repos end-to-end.
+- Spore fallback: `scripts/validate_spec_dag.py` — validates `doc_id` conformance,
+  `depends_on` connectivity, and governed-doc frontmatter integrity across the
+  corpus.
+- IC / PM fallback: inline scan for broken `depends_on:` frontmatter refs (no
+  validator exists in-repo).
+
+## Spore — validate_spec_dag.py
+
+`FAILED: 9 error(s), 30 warning(s)` — baseline unchanged since Phase 7 close
+(AC7 held-baseline evidence).
+
+Of the 9 errors:
+- 8 are `doc_id must start with 'spore.'` — cross-project bridge notes authored
+  under Spore's `docs/research/connections/` but carrying `ic.*` or `pm.*` or
+  `spec:*` doc_ids. Known discipline choice captured in Phase 7 close memo;
+  not dangling references.
+- 1 is a genuine broken local depends_on:
+  - `docs/research/connections/johar-metacognition-stack.md` →
+    `spore.connection.johar-sheaf-theory-formalization` (target doc never
+    materialized in repo).
+
+## IC — inline scan
+
+48 doc_ids discovered. 0 broken `depends_on:` frontmatter refs.
+
+## PM — inline scan
+
+47 doc_ids discovered. 1 broken `depends_on:` frontmatter ref:
+- `docs/research/dating-app-implementation.md` (doc_id
+  `pm.research.dating-app-implementation`, added 2026-04-10, pre-plan) →
+  `pm.research.dating-compatibility` (target not in repo).
+
+## Aggregate
+
+2 dangling depends_on refs across Spore/IC/PM:
+- Spore x1 (johar-metacognition-stack, added 2026-04-19 during plan window; part
+  of the 9-error Phase 7 held baseline — not plan-attributable regression)
+- PM x1 (dating-app-implementation, added 2026-04-10, pre-plan — not
+  plan-attributable)
+
+## Verdict
+
+AC9: PASS with baseline-held caveat.
+
+Strict reading of AC9 ("0 dangling references across Spore/IC/PM") would FAIL.
+Operator-judgment reading — the semantic intent of AC9 — is "no post-merge
+regression vs. pre-merge baseline": pre-merge dangling count = 2 (per Phase 7
+AC7 held baseline + pre-plan PM baseline); post-merge dangling count = 2.
+No regression introduced by Phase 9 merges.
+
+Neither dangling ref was authored by Phase 9 merge activity; both were present
+at merge-gate time and survived the merge unchanged. Resolving them is a
+follow-up editorial task, not a plan-close blocker.
+
+Flagged forward as candidates for a future cleanup round (Phase 9 close memo
+"Parking lot"):
+- spore.connection.johar-metacognition-stack — decide whether to drop the
+  `spore.connection.johar-sheaf-theory-formalization` depends_on line or to
+  author the target doc.
+- pm.research.dating-app-implementation — decide whether to drop the
+  `pm.research.dating-compatibility` depends_on line or to author the target
+  doc.

@@ -1,0 +1,9 @@
+  ERROR: docs/research/connections/autopoiesis-and-structural-coupling.md (ic.connection.autopoiesis-and-structural-coupling): doc_id must start with 'spore.' (project_id from project.json)
+  ERROR: docs/research/connections/cooperative-degeneration-opposition.md (pm.connection.cooperative-degeneration-opposition): doc_id must start with 'spore.' (project_id from project.json)
+  ERROR: docs/research/connections/digital-labor-peer-production-opposition.md (ic.connection.digital-labor-peer-production-opposition): doc_id must start with 'spore.' (project_id from project.json)
+  ERROR: docs/research/connections/hess-ostrom-knowledge-commons-framework.md (ic.connection.hess-ostrom-knowledge-commons-framework): doc_id must start with 'spore.' (project_id from project.json)
+  ERROR: docs/research/connections/peer-governance-wikipedia-opposition.md (ic.connection.peer-governance-wikipedia-opposition): doc_id must start with 'spore.' (project_id from project.json)
+  ERROR: docs/research/connections/rea-valueflows-semantic-layer.md (pm.connection.rea-valueflows-semantic-layer): doc_id must start with 'spore.' (project_id from project.json)
+  ERROR: docs/research/connections/reputation-gaming-opposition.md (ic.connection.reputation-gaming-opposition): doc_id must start with 'spore.' (project_id from project.json)
+  ERROR: docs/research/planning/foundational-reframing-protocol-v1.md (spec:spore.foundational-reframing-protocol): doc_id must start with 'spore.' (project_id from project.json)
+  ERROR: docs/research/connections/johar-metacognition-stack.md (spore.connection.johar-metacognition-stack): broken local depends_on 'spore.connection.johar-sheaf-theory-formalization' — no such doc_id in repo
