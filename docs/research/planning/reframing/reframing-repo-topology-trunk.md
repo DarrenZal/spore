@@ -1,7 +1,7 @@
 ---
 doc_id: spore.foundational-reframing.reframing-repo-topology-trunk
 doc_kind: proposal
-status: authorized-ADR
+status: executed
 covers: [F-037, F-038, F-039]
 proposal_kind: topology
 author: Darren Zal
@@ -15,6 +15,7 @@ authorized_adrs:
   - ic.canon-decision.repo-topology-ratification
   - pm.canon-decision.repo-topology-ratification
 authorized-adr-opened-on: 2026-04-21T06:02:46Z
+executed-on: 2026-04-21T06:09:18Z
 ---
 
 # Proposal — reframing-repo-topology-trunk
@@ -234,16 +235,27 @@ Nothing in this reframing requires destructive writes, history rewriting, or `gi
 
 ## Execution record
 
-Authorized ADR bundle in flight.
+Executed.
 
-- Proposal state: `authorized-ADR`
+- Proposal state: `executed`
+- Topology decision: `ratify-3-repo-with-scale-guardrail`
 - Authorized ADRs:
   - `spore.canon-decision.repo-topology-ratification`
   - `ic.canon-decision.repo-topology-ratification`
   - `pm.canon-decision.repo-topology-ratification`
-- Authorized ADR bundle opened on: `2026-04-21T06:02:46Z`
-- Executed SHAs: pending
-- Notes: topology decision adopted in `tmp/repo-topology-decision.md`; final execution record fills in after all 3 ADRs activate and the round closes.
+- Affected repo SHAs:
+  - `939cd3f` — Spore ADR-0020 draft + merge-manifest convention + proposal `eligible -> authorized-ADR`
+  - `7fe0f78` — Spore ADR-0020 activation
+  - `b4c82c3` — IC ADR-0010 draft
+  - `04123e2` — IC ADR-0010 activation
+  - `35e5b2c` — PM ADR-0009 draft
+  - `77c4c45` — PM ADR-0009 activation
+  - `62fd5b1` — F-029 unblock (`reframing-learning-field-host-elevation` `cooling-off -> eligible`)
+  - `db44006` — findings status updates (F-037, F-038, F-039)
+- Merge-governance artifacts:
+  - `tmp/repo-topology-decision.md`
+  - `docs/research/planning/phase-9-merge-manifest-convention.md`
+- Rollback record: revert newest-first from the execution close commit, then `db44006`, `62fd5b1`, `77c4c45`, `35e5b2c`, `04123e2`, `b4c82c3`, `7fe0f78`, `939cd3f`
 
 ## Open questions
 

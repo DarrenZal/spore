@@ -1,0 +1,60 @@
+# Close — reframing-repo-topology-trunk
+
+- Proposal final state: `status: executed`
+- Topology decision doc:
+  - path: `tmp/repo-topology-decision.md`
+  - final state: `adopted: ratify-3-repo-with-scale-guardrail`
+  - option chosen: `Option 1 — ratify the current three-repo split`
+- Bundle commit trail:
+  - scope declared: `95ef5e3`
+  - topology decision doc: `3408dea`
+  - Spore ADR-0020 drafted + proposal authorized-ADR: `939cd3f`
+  - IC ADR-0010 drafted: `b4c82c3`
+  - PM ADR-0009 drafted: `35e5b2c`
+  - Spore ADR-0020 activated: `7fe0f78`
+  - IC ADR-0010 activated: `04123e2`
+  - PM ADR-0009 activated: `77c4c45`
+  - F-029 unblock: `62fd5b1`
+  - findings status update: `db44006`
+- ADRs landed:
+  - `spore.canon-decision.repo-topology-ratification` — drafted in `939cd3f`, activated in `7fe0f78`
+  - `ic.canon-decision.repo-topology-ratification` — drafted in `b4c82c3`, activated in `04123e2`
+  - `pm.canon-decision.repo-topology-ratification` — drafted in `35e5b2c`, activated in `77c4c45`
+- Findings resolved:
+  - F-037 via ADR-0020 / ADR-0010 / ADR-0009 + `tmp/repo-topology-decision.md`
+  - F-038 via ADR-0020 / ADR-0010 / ADR-0009 + guardrail in `tmp/repo-topology-decision.md`
+  - F-039 via ADR-0020 / ADR-0010 / ADR-0009 + `docs/research/planning/phase-9-merge-manifest-convention.md`
+- Coordination-cost delta (after):
+  - canon-bearing repo count: `3 by ratified rule; expansion requires successor topology proposal`
+  - authoritative shared-concept surfaces: `3 repo-local copies, frozen at the trio and coordinated through Spore-hosted decision/framing carriers`
+  - coordinated ADR fan-out repos: `3`
+  - merge points: `3 PRs per coordinated round, all named in one committed merge manifest`
+  - manual propagation steps: `fixed trio scope, explicit topology decision, committed merge manifest, explicit Spore -> IC -> PM merge/defer/revert contract`
+- Merge-governance mechanism adopted:
+  - carrier: `tmp/merge-manifests/<round-slug>.md` in Spore
+  - protection handling: IC and PM remain `PR-gated / protection-unverified` until independently verified; failed downstream merges require Spore revert or `tmp/partial-merge-deferral-<ISO>.md`
+- F-029 dependency release:
+  - unblock commit: `62fd5b1`
+  - result: `reframing-learning-field-host-elevation` moved to `status: eligible`
+- Validator state:
+  - baseline: 9 errors / 30 warnings (`tmp/phase-7/reframing-repo-topology-trunk-validator-pre.txt`)
+  - post-bundle: 9 errors / 30 warnings (`tmp/phase-7/reframing-repo-topology-trunk-validator-post.txt`)
+  - delta: +0 errors / +0 warnings
+- ADR-only validator:
+  - command: `python3 scripts/validate_spec_dag.py --docs-root docs/research/canon-decisions --project-id spore`
+  - result: pass
+- Session-atomic window: satisfied
+  - first ADR draft commit author-date: `2026-04-20T23:07:43-07:00` (`939cd3f`)
+  - last ADR draft commit author-date: `2026-04-20T23:07:59-07:00` (`35e5b2c`)
+  - delta: 16 seconds (`0.27` minutes)
+- Authorized-by integrity:
+  - command: `grep -l "authorized-by:.*reframing-repo-topology-trunk" docs/research/canon-decisions/*.md /Users/darrenzal/projects/intelligence-commons/docs/research/canon-decisions/*.md /Users/darrenzal/projects/poietic-match/docs/research/canon-decisions/*.md`
+  - result count: 3
+  - files:
+    - `docs/research/canon-decisions/0020-repo-topology-ratification.md`
+    - `/Users/darrenzal/projects/intelligence-commons/docs/research/canon-decisions/0010-repo-topology-ratification.md`
+    - `/Users/darrenzal/projects/poietic-match/docs/research/canon-decisions/0009-repo-topology-ratification.md`
+- r_claim_source-integrity: pass
+  - all 3 ADRs use claim-bearing research-doc identifiers
+  - `supported_by:` is present in all 3 files
+  - no duplicate `r_claim_source` entries in the bundle
