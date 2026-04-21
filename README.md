@@ -61,7 +61,7 @@ For concrete steps, see the [adoption guide](docs/governance/adoption-guide.md).
 
 Spore defines a grammar and publishes patterns and protocols. Others adopt and implement them. A Spore instance is any project that implements some composition of the grammar's patterns.
 
-- **[koi-processor](https://github.com/RegenAI/koi-processor)** — node substrate: knowledge graph, entity resolution, federation, sensors
+- **[koi-processor](https://github.com/RegenAI/koi-processor)** — node substrate: epistemic graph (public-facing `knowledge graph` gloss), entity resolution, federation, sensors
 - **[BKC / Octo](https://github.com/BioregionalKnowledgeCommons/Octo)** — operational instance family: BKC canon + 4 federated nodes + Octo agent + Quartz sites
 
 ## Status
