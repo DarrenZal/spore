@@ -3,7 +3,7 @@ canon-review-protocol	spore/docs/research/planning/canon-review-protocol.md	prot
 learning-field-intake-protocol	spore/docs/research/planning/learning-field-intake-protocol.md	protocol	TRUE	
 concepts-p2p-wiki	spore/docs/research/concepts-p2p-wiki.yaml	frozen-concepts	TRUE	2026-04-17
 validate_spec_dag.py	spore/scripts/validate_spec_dag.py	validator	TRUE	2026-04-10
-moratorium-mechanics	spore/docs/research/planning/corpus-foundational-review-v1-plan.md	moratorium	FALSE	2026-04-19
+moratorium-mechanics	spore/docs/research/planning/moratorium-protocol-v1.md	moratorium	TRUE	2026-04-20
 bridge-note-format-convention	spore/docs/research/planning/canon-review-protocol.md	bridge-format	TRUE	2026-04-18
 learning-field-structure	intelligence-commons/docs/patterns/project-learning-membrane.md	learning-field-structure	TRUE	2026-04-13
 corpus-foundational-review-methodology	spore/docs/research/planning/corpus-foundational-review-methodology.md	protocol	TRUE	

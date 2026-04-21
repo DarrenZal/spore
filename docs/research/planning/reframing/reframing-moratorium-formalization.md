@@ -1,7 +1,7 @@
 ---
 doc_id: spore.foundational-reframing.reframing-moratorium-formalization
 doc_kind: proposal
-status: eligible
+status: authorized-ADR
 covers: [F-027]
 depends-on: []
 proposal_kind: new-protocol-creation
@@ -11,7 +11,9 @@ opened-on: 2026-04-20
 eligible-on: 2026-05-04
 eligible-bumped-on: 2026-04-21T00:29:05Z
 consultation_artifact: tmp/cross-repo-consultation-reframing-moratorium-formalization.md
-authorized_adrs: []
+authorized_adrs:
+  - spore.canon-decision.moratorium-protocol-formalization
+authorized-adr-opened-on: 2026-04-21T06:37:30Z
 ---
 
 # Reframing Proposal - Moratorium Formalization
@@ -33,7 +35,7 @@ Create `docs/research/planning/moratorium-protocol-v1.md` as a standalone meta-c
 - the audit-log location and close-timestamp discipline,
 - and the rule that moratorium coverage lifts only at the defined close.
 
-After admission, the plan should become a consumer of the protocol instead of the container of record. `corpus-foundational-review-v1-plan.md` should cite the new protocol for moratorium mechanics, retaining only plan-local execution details that do not define the governance surface itself.
+After admission, the protocol becomes the narrower governance citation target instead of leaving the rule set trapped inside the plan snapshot. The plan may later cite the protocol directly, but this reframing does not require a same-bundle plan rewrite if the standalone protocol and inventory admission already make the authoritative carrier unambiguous.
 
 This proposal extends the existing meta-corpus layer; it does not create a new canon layer outside that layer. The change is from plan-embedded governance to named protocol membership inside the already-declared meta-corpus.
 
@@ -119,8 +121,8 @@ Execution is additionally gated on keeping the proposal non-executing: this docu
 Authorize one Spore ADR bundle to do the actual work after cooling-off:
 
 1. create `docs/research/planning/moratorium-protocol-v1.md` as the standalone moratorium reference,
-2. update `docs/research/planning/corpus-foundational-review-v1-plan.md` so it cites the protocol instead of carrying the full rule text as the authoritative surface,
-3. if closure requires it, update `tmp/meta-corpus-inventory.tsv` so the standalone protocol rather than the plan snapshot is the formal moratorium artifact tracked by inventory and FR-20 inheritance.
+2. update `tmp/meta-corpus-inventory.tsv` so the standalone protocol rather than the plan snapshot is the formal moratorium artifact tracked by inventory and FR-20 inheritance,
+3. optionally cross-reference the new protocol from `docs/research/planning/corpus-foundational-review-v1-plan.md` if a later cleanup pass wants the plan to point directly at the narrower authority surface.
 
 That ADR must cite `authorized-by: reframing-moratorium-formalization`. If execution later needs to split into multiple ADRs, this proposal's `authorized_adrs:` field should be updated at `authorized-ADR` time before any landing commits occur.
 
@@ -132,7 +134,7 @@ Prerequisites are familiarity with the corpus-foundational-review phase model, t
 
 ## Rollback and reversibility
 
-Default rollback is a normal `git revert` of the later ADR commit or commit set that creates the protocol and repoints the plan. Reversal would:
+Default rollback is a normal `git revert` of the later ADR commit or commit set that creates the protocol and repoints the inventory carrier. Reversal would:
 
 - remove `moratorium-protocol-v1.md`,
 - restore the plan snapshot as the authoritative moratorium carrier,
@@ -144,9 +146,14 @@ Because this proposal makes no direct doc edits outside its own record, rollback
 
 Not executed.
 
-- authorized_adrs: []
-- No ADRs drafted.
-- No implementation commits landed.
+- Proposal state: authorized-ADR
+- Authorized ADRs:
+  - spore.canon-decision.moratorium-protocol-formalization
+- ADR drafted:
+  - spore.canon-decision.moratorium-protocol-formalization
+- Implementation artifacts landed:
+  - docs/research/planning/moratorium-protocol-v1.md
+  - tmp/meta-corpus-inventory.tsv
 - Affected repo SHAs: [PENDING]
 
 ## Open questions
