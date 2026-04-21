@@ -1,0 +1,36 @@
+# Round close — round-ic-adr-trace-integrity
+
+- Date: 2026-04-21
+- Decision outcome:
+  - F-012: `amend` via ADR-0013; ADR-0004 preserved, source-to-change trace repaired to the project-vision edit it actually made
+  - F-013: `amend` via ADR-0014; ADR-0006 preserved, reject rationale repaired to IC's actual seven-primitive roster
+- Round commit trail:
+  - scope declared (Spore): `c8ecdd7`
+  - IC ADR-0013 drafted + ADR-0004 amendment note: `e618808`
+  - IC ADR-0014 drafted + ADR-0006 amendment note: `d636b75`
+  - IC ADR activations: `5d79975`
+  - findings status update (Spore): `ac55ef3`
+- ADRs landed:
+  - `ic.canon-decision.three-layer-coordination-stack-trace-repair` — draft `e618808`, active `5d79975`
+  - `ic.canon-decision.collective-agency-declination-rationale-repair` — draft `d636b75`, active `5d79975`
+- Findings resolved:
+  - F-012 via ADR-0013
+  - F-013 via ADR-0014
+- Validator state post-round:
+  - baseline: 9 errors / 30 warnings (`tmp/phase-7/round-ic-adr-trace-integrity-validator-pre.txt`)
+  - post-round: 9 errors / 30 warnings (`tmp/phase-7/round-ic-adr-trace-integrity-validator-post.txt`)
+  - delta: +0 errors / +0 warnings
+- Session-atomic window satisfied: N/A (single-repo ADR round; Spore carries scope/close/status bookkeeping only)
+  - touched-repo author-date range: `2026-04-21T09:11:38-07:00` -> `2026-04-21T09:13:03-07:00`
+- r_claim_source-integrity check result: pass
+  - ADR-0013 and ADR-0014 use claim-bearing research-doc identifiers under `spec:spore.corpus-review.*`; duplicates: none
+  - `supported_by:` present in both ADRs
+  - `authorized-by:` empty in both ADRs as required for canon-review-v2
+- ADR-0004 amendment trace: pass
+  - added `amended-by: ic.canon-decision.three-layer-coordination-stack-trace-repair`
+  - preserved historical `status: accepted` / `decision: edit`
+  - added a top-of-file amendment note rather than rewriting ADR-0004's original body
+- ADR-0006 amendment trace: pass
+  - added `amended-by: ic.canon-decision.collective-agency-declination-rationale-repair`
+  - preserved historical `status: accepted` / `decision: reject`
+  - added a top-of-file amendment note rather than rewriting ADR-0006's original body
