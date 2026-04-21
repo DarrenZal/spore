@@ -1,9 +1,10 @@
 ---
 doc_id: spore.canon-decision.graph-primitive-unification
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0019"
 opened-on: 2026-04-20
+closed-on: 2026-04-20
 covers:
   - F-020
 decision: edit
@@ -38,7 +39,7 @@ concepts:
 
 ## Status
 
-draft (authorized by `reframing-graph-primitive-unification`)
+active (drafted and activated 2026-04-20 under `reframing-graph-primitive-unification`)
 
 ## Context
 
