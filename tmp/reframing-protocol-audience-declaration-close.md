@@ -1,0 +1,39 @@
+# Close — reframing-protocol-audience-declaration
+
+- Proposal final state: `status: executed`
+- Bundle commit trail:
+  - scope declared: `dc0aaf6`
+  - ADR-0023 drafted + 4 protocol audience-block edits + proposal authorized-ADR: `adea0f4`
+  - ADR-0023 activated: `dd8ef96`
+  - findings status update: `a83b0cc`
+- ADRs landed:
+  - `spore.canon-decision.protocol-audience-declaration-standard` — drafted in `adea0f4`, activated in `dd8ef96`
+- Audience-block standard landed:
+  - protocols edited: 4
+  - `docs/research/planning/canon-review-protocol.md` — tailored to canon authors, round operators, and reviewers
+  - `docs/research/planning/learning-field-intake-protocol.md` — tailored to intake operators processing outside corpora into bridge notes and capstones
+  - `docs/research/planning/foundational-reframing-protocol-v1.md` — tailored to proposal authors and reviewers handling findings above ADR scope
+  - `docs/research/planning/moratorium-protocol-v1.md` — normalized into the same standard for moratorium enforcers and governance reviewers
+  - embedded bridge-note convention remains covered by the parent protocol blocks; no duplicated schema-level audience block added
+- Tailoring note:
+  - simplest fit: `canon-review-protocol.md`, `learning-field-intake-protocol.md`
+  - most bespoke scoping: `foundational-reframing-protocol-v1.md`, `moratorium-protocol-v1.md`
+- Findings resolved:
+  - F-030 via ADR-0023
+- Validator state:
+  - baseline: 9 errors / 30 warnings (`tmp/phase-7/reframing-protocol-audience-declaration-validator-pre.txt`)
+  - post-bundle: 9 errors / 30 warnings (`tmp/phase-7/reframing-protocol-audience-declaration-validator-post.txt`)
+  - delta: +0 errors / +0 warnings
+- ADR-only validator:
+  - command: `python3 scripts/validate_spec_dag.py --docs-root docs/research/canon-decisions --project-id spore`
+  - result: pass
+- Authorized-by integrity:
+  - command: `grep -l "authorized-by:.*reframing-protocol-audience-declaration" docs/research/canon-decisions/*.md`
+  - result count: 1
+  - file: `docs/research/canon-decisions/0023-protocol-audience-declaration-standard.md`
+- r_claim_source-integrity: pass
+  - primary claim-bearing source: `spec:spore.corpus-review.research-audience-scoping:R1`
+  - secondary claim-bearing source: `spec:spore.corpus-review.research-capstone:R1`
+  - duplicate `r_claim_source` entries: none
+  - `supported_by:` present
+- Session-atomic window: N/A (single-repo bundle)

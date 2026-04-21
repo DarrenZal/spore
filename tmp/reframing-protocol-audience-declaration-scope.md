@@ -1,0 +1,30 @@
+# Scope — reframing-protocol-audience-declaration
+
+- Authorizing proposal: `docs/research/planning/reframing/reframing-protocol-audience-declaration.md` (`status: eligible`, commit `24d37fe`)
+- Covered findings: F-030
+- Protocol rules invoked:
+  - foundational-reframing-protocol v1.1: FR-7, FR-20, FR-24, FR-25, FR-27
+  - Phase 7 master: reframing-authorized ADR bundle mechanics, proposal `eligible -> authorized-ADR -> executed`
+- Target allowlist:
+  - `spore.planning.canon-review-protocol`
+  - `spore.planning.learning-field-intake-protocol`
+  - `spec:spore.foundational-reframing-protocol`
+  - `spore.moratorium-protocol`
+- Repos affected: Spore only
+- Cross-track dependencies: none
+- ADR slug candidates:
+  - ADR-0023 `protocol-audience-declaration-standard` (F-030)
+- Session-atomic window required: no
+- Evidence gate: pass
+  - proposal source bundle count: 7
+  - publicly-verifiable source count: 7
+  - prior-collision-check: none
+  - dependencies: none
+- Audience-block implementation constraints:
+  - add `## Intended audience and prerequisites` to all 4 target protocols
+  - tailor each block to the protocol's actual operator surface; no generic copy-paste
+  - harvest the section shape from `docs/research/planning/corpus-foundational-review-methodology.md` §Audience
+  - treat the embedded bridge-note convention as covered by the parent protocol audience block rather than adding repeated sub-blocks inside schema sections
+  - normalize the existing moratorium audience section into the same four-line standard
+- Validator baseline: 9 errors / 30 warnings on 2026-04-20; no regression allowed
+- Authorized-by lineage: ADR-0023 must carry `authorized-by: reframing-protocol-audience-declaration`

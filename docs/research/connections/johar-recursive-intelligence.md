@@ -125,10 +125,8 @@ Recursive instability — the condition in which systems alter the terms of thei
 **C5** [confidence: medium] [anchor: §coordination as movement]
 Context legibility — seeing how a claim is constructed, at what level it operates, and how it relates to other levels — extends beyond what Spore's current claim provenance captures. The claim register format may need a scalar-level indicator (micro / meso / macro) to make cross-level relations explicit.
 
-**R1** [review claim] [target: spore.lexicon] [concept: linguistic-closure]
-Recursive intelligence is the positive formulation of what linguistic closure describes as failure: category adequacy failing is linguistic closure occurring; recursion — the discipline of re-entering and revising one's own frames — is the corrective. The three concepts form a sequence (category inadequacy → linguistic closure → recursive intelligence) that should be documented as a named relation in the lexicon.
-*R1 is supported by C1.*
-
+- **R1**: Recursive intelligence is the positive formulation of what linguistic closure describes as failure: category adequacy failing is linguistic closure occurring; recursion — the discipline of re-entering and revising one's own frames — is the corrective. The three concepts form a sequence (category inadequacy → linguistic closure → recursive intelligence) that should be documented as a named relation in the lexicon. [target: spore.lexicon] [concept: linguistic-closure] TODO: slug-deferred
+  supported_by: C1.
 ## Open Questions
 
 1. **Should recursive instability be stated as an operating assumption in project-vision?** The grammar is designed for this condition. Making it explicit would clarify the design rationale and provide a principled criterion for evaluating governance proposals: does this mechanism maintain adequacy under recursive instability, or does it assume stability?

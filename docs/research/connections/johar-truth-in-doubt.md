@@ -61,10 +61,8 @@ Doubt is civic infrastructure: the core technology of a functioning commons. "I 
 **C3** [confidence: medium] [anchor: §The Design of the Epistemic Commons]
 The epistemic commons is a design target requiring: sensemaking infrastructures that privilege coherence over legibility, participatory epistemics, dialogical landscapes, institutional scaffolds for refinement, and commons of recognition rather than monopolies of fact. Spore's discourse graph, learning membrane, and multi-projection architecture are partial implementations.
 
-**R1** [review claim] [target: spore.lexicon] [concept: civic-truth]
-The Spore lexicon should carry "civic truth" as a named design concept: the condition under which plural, situated, revisable truth claims can coexist productively within a governed commons. The entry should include: (a) truth as emergence through relation, not possession, (b) doubt as civic infrastructure — the capacity that keeps the commons open, (c) the epistemic commons as the design target that Spore's discourse graph, learning membrane, and claim lifecycle collectively instantiate, and (d) the material precondition: doubt is affordable only when uncertainty is livable (per logical-architecture seed).
-*R1 is supported by C1, C2.*
-
+- **R1**: The Spore lexicon should carry "civic truth" as a named design concept: the condition under which plural, situated, revisable truth claims can coexist productively within a governed commons. The entry should include: (a) truth as emergence through relation, not possession, (b) doubt as civic infrastructure — the capacity that keeps the commons open, (c) the epistemic commons as the design target that Spore's discourse graph, learning membrane, and claim lifecycle collectively instantiate, and (d) the material precondition: doubt is affordable only when uncertainty is livable (per logical-architecture seed). [target: spore.lexicon] [concept: civic-truth] TODO: slug-deferred
+  supported_by: C1, C2.
 ## Open Questions
 
 1. **Is civic truth a concept or a meta-concept?** Civic truth may be the condition under which other concepts (linguistic closure, perceptual fidelity) are detectable. If so, it belongs not just in the lexicon but as a constitutional commitment — a design requirement for Spore's entire governance layer.

@@ -1,0 +1,31 @@
+# Round close — round-bridge-note-inventory-boundary
+
+- Date: 2026-04-21
+- Decision outcome:
+  - F-032: `edit` via ADR-0026
+- Round commit trail:
+  - scope declared (Spore): `7e74be9`
+  - ADR-0026 drafted: `1704b38`
+  - ADR-0026 activated: `e6698e4`
+  - findings status update (Spore): `dc03ca1`
+- ADRs landed:
+  - `spore.canon-decision.bridge-note-inventory-scope-cleanup` — draft `1704b38`, active `e6698e4`
+- Findings resolved:
+  - F-032 via ADR-0026
+- Inventory cleanup result: pass
+  - misclassified rows removed from `tmp/bridge-note-inventory.tsv`: 10
+  - post-cleanup bridge-note inventory rows: 84
+  - split inventory rows: `tmp/canon-framing-inventory.tsv` = 7, `tmp/field-scan-inventory.tsv` = 3
+  - split mode used: yes; out-of-scope rows were preserved in dedicated inventories rather than dropped outright
+  - learning-field-intake-protocol sharpening: not needed; existing §3 and §8 language was sufficient for the boundary
+- Validator state post-round:
+  - baseline: 9 errors / 30 warnings (`tmp/phase-7/round-bridge-note-inventory-boundary-validator-pre.txt`)
+  - post-round: 9 errors / 30 warnings (`tmp/phase-7/round-bridge-note-inventory-boundary-validator-post.txt`)
+  - delta: +0 errors / +0 warnings
+- Session-atomic window satisfied: N/A (single-repo round)
+  - touched-repo author-date range: `2026-04-21T10:12:16-07:00` -> `2026-04-21T10:17:05-07:00`
+- r_claim_source-integrity check result: pass
+  - ADR-0026 uses claim-bearing research-doc identifiers under `spec:spore.corpus-review.*`; duplicates: none
+  - research-doc targets exist on disk: `docs/research/corpus-review/research-capstone.md`, `docs/research/corpus-review/research-canonical-layering.md`
+  - primary entry is backed by matching `supported_by:` evidence lines and the ADR body's path enumeration
+  - `authorized-by:` remains empty as required for canon-review-v2

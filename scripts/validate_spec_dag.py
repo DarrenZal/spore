@@ -107,8 +107,16 @@ def load_project_config(repo_root: Path):
 # Validation
 # ---------------------------------------------------------------------------
 
-ALLOWED_STATUSES = {"draft", "active", "deprecated", "superseded"}
+DECISION_RECORD_STATUSES = {"draft", "active", "deprecated", "superseded"}
+PROPOSAL_STATUSES = {"draft", "cooling-off", "eligible", "authorized-ADR", "executed", "closed"}
 TIER0_REQUIRED = {"doc_id", "doc_kind", "status", "depends_on"}
+
+
+def allowed_statuses_for_doc_kind(doc_kind: str):
+    """Return the allowed status set for a governed artifact kind."""
+    if doc_kind == "proposal":
+        return PROPOSAL_STATUSES
+    return DECISION_RECORD_STATUSES
 
 
 def validate_repo(repo_root: Path, project_id: str, docs_root: str):
@@ -167,9 +175,14 @@ def validate_repo(repo_root: Path, project_id: str, docs_root: str):
                 )
 
         # Status check
+        doc_kind = fm.get("doc_kind", "")
         status = fm.get("status", "")
-        if status and status not in ALLOWED_STATUSES:
-            errors.append(f"{rel_path} ({doc_id}): invalid status '{status}' — allowed: {sorted(ALLOWED_STATUSES)}")
+        allowed_statuses = allowed_statuses_for_doc_kind(doc_kind)
+        if status and status not in allowed_statuses:
+            errors.append(
+                f"{rel_path} ({doc_id}): invalid status '{status}' for doc_kind "
+                f"'{doc_kind or 'unknown'}' — allowed: {sorted(allowed_statuses)}"
+            )
 
         # Superseded requires superseded_by
         if status == "superseded":

@@ -1,0 +1,29 @@
+# Scope — reframing-frozen-vocabulary-role
+
+- Authorizing proposal: `docs/research/planning/reframing/reframing-frozen-vocabulary-role.md` (`status: eligible`, commit `24d37fe`)
+- Covered findings: F-028
+- Protocol rules invoked:
+  - foundational-reframing-protocol v1.1: FR-20, FR-24, FR-25, FR-27
+  - Phase 7 master: reframing-authorized ADR bundle mechanics, proposal `eligible -> authorized-ADR -> executed`
+- Target allowlist:
+  - `spore.concepts-p2p-wiki`
+  - `spore.canon-review-protocol`
+- Repos affected: Spore only
+- Cross-track dependencies: none
+- ADR slug candidates:
+  - ADR-0022 `frozen-vocabulary-role-redefinition` (F-028)
+- Session-atomic window required: no
+- Evidence gate: pass
+  - proposal source bundle count: 6
+  - publicly-verifiable source count: 6
+  - prior-collision-check: none
+  - dependencies: none
+- Fold-in vs standalone decision: fold into `docs/research/planning/canon-review-protocol.md`
+  - rationale: `canon-review-protocol.md` is already the formal governance carrier for cross-project canon legality, `tmp/meta-corpus-inventory.tsv` already admits the vocabulary artifact as a formal meta-corpus surface, and a standalone protocol would duplicate a narrow rule set across two governance docs
+- Implementation constraints:
+  - do not rename `docs/research/concepts-p2p-wiki.yaml`
+  - do not mint new slugs
+  - replace only the header purpose declaration in `docs/research/concepts-p2p-wiki.yaml`
+  - add a new §14 `Vocabulary governance` section to `docs/research/planning/canon-review-protocol.md` with admission, alias, deprecation, version-bump, and meta-corpus-cooling rules; renumber later sections and their internal references accordingly
+- Validator baseline: 9 errors / 30 warnings on 2026-04-20; no regression allowed
+- Authorized-by lineage: ADR-0022 must carry `authorized-by: reframing-frozen-vocabulary-role`

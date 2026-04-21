@@ -33,9 +33,9 @@ This is not a pipeline where each step is "the same thing becoming more concrete
 
 - **Vision commitments** orient — they set direction, values, and constraint horizons. They change slowly and require broad consent.
 - **Roadmaps** translate — they decompose vision into structured needs, sequences, and milestones.
-- **Intents** signal — they are pre-commitment coordination primitives. An intent is a declared or inferred directional signal: "I want," "I offer," "I need," "I will if three others commit." Intents are where plurality enters and the system breathes. Not all intents become commitments; governance is partly about how intents are surfaced, negotiated, combined, deferred, or refused.
+- **Intents** signal — they are pre-commitment coordination primitives. An intent is a declared or inferred directional signal: "I want," "I offer," "I need," "I will if three others commit." Intents are where plurality enters and the system breathes. Not all intents become commitments; governance is partly about how intents are surfaced, negotiated, combined, deferred, or refused. This broad Spore sense of `intent` is the umbrella surface across the shared canon; PM's `pm:Intent` is a downstream protocol artifact that records one specialized, durable form of intent for matching.
 - **Commitments** bind — accepted, governed, tracked. Commitments stabilize one or more vectors (intents) into a durable relation.
-- **Evidence** validates — observations, attestations, fulfillment records, sensor outputs. Evidence grounds the ecology in reality.
+- **Evidence** validates — observations, attestations, fulfillment records, sensor outputs. Evidence grounds the ecology in reality. Fulfillment records are one subtype inside this larger family, not the whole of it: PM's fulfillment-facing evidence family is a protocol-layer specialization, while Spore keeps `evidence` as the broader epistemic relation.
 - **Learning** revises — update the roadmap, refine patterns, adapt the vision itself. The ecology is a loop, not a line: learning revises visions, evidence generates new intents, commitments reveal visions that weren't visible before.
 
 ## Dual Representation
@@ -55,7 +55,7 @@ Different aspects of the coordination ecology are best captured by different gra
 2. **Roadmap DAG** — initiatives, milestones, dependencies, sequence. Directed acyclic: work flows from vision toward evidence.
 3. **Intent hypergraph** — multi-party offers, needs, and conditions. One intent may connect several actors, resources, timeframes, and conditions simultaneously. Binary edges are too small — hypergraphs capture the true structure.
 4. **Commitment graph** — actors, pools, offers, needs, attestations, fulfillment state, routing paths
-5. **Epistemic graph** (called "knowledge graph" in the vision and public-facing docs) — entities, claims, evidence, attestations, provenance, sensor outputs. Tracks not just what is known, but what counts as knowing — the epistemological substrate.
+5. **Epistemic graph** (public-facing gloss: "knowledge graph") — entities, claims, evidence, attestations, provenance, sensor outputs. Tracks not just what is known, but what counts as knowing — the epistemological substrate.
 6. **Event graph** — what changed, when, due to what, from which node. Temporal dynamics.
 7. **Routing/flow graph** — how resources, obligations, and information circulate through pools and networks. Where abundance meets need. Where capacity flows.
 8. **Discourse graph** — questions, proposals, arguments, objections, decisions. The self-reflective layer: how the coordination ecology reasons about and governs its own evolution. Without it, revision is ad-hoc.
@@ -68,11 +68,13 @@ When you zoom into a node, you find the same artifact ecology: visions, intents,
 
 This is the deep implication of the holon concept: a holon is both a whole (with its own internal graph) and a part (presenting a coherent interface to its containing graph). The coordination patterns apply recursively: a person's workflow, a team's governance, an organization's roadmap, and a federation's constitutional commitments all share the same structural logic.
 
+That zoom invariance does not make `holon` and `field` synonymous. The node is holonic when what matters is bounded recursive agency: a whole that is also a part. The graph-like coordination surface inside or around that node is field-like when what matters is distributed relational medium: the substrate through which intents, commitments, evidence, and learning circulate. At the next scale up, the coordination surface produced by lower-scale holons may appear as a field for higher-scale holons. That is the scale relation between the primitives, not a reason to collapse them.
+
 ## Grounding Through Sensors
 
 Constitutional artifacts describe desired states. Sensors describe actual states. The gap between them is what drives action.
 
-- **Sensor nodes** ingest external state (wikis, repositories, web content, IoT data) into the knowledge graph
+- **Sensor nodes** ingest external state (wikis, repositories, web content, IoT data) into the epistemic graph
 - **Ecological sensors** — water quality, species counts, land use
 - **Economic sensors** — commitment pool state, token flows, settlement events
 - **Social sensors** — meeting transcripts, governance decisions, community signals

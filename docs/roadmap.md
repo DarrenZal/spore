@@ -49,7 +49,7 @@ Working implementations exist at each layer, though not yet at scale:
 
 - **Phase A**: Proposal lifecycle + decision records. New doc_kind candidates: `proposal`, `decision`. Proposals reference the specs they would modify and have a status lifecycle (draft -> open -> accepted/rejected). Decisions record outcomes, consent, objections, and resolution.
 - **Phase B**: Authority and domain declarations. Which agents hold authority over which parts of the spec DAG. Domain boundaries and delegation rules.
-- **Phase C**: Audit trail + multi-agent authority. How decisions propagate into artifacts. Conflict resolution. The audit trail stored and queried through the knowledge graph.
+- **Phase C**: Audit trail + multi-agent authority. How decisions propagate into artifacts. Conflict resolution. The audit trail stored and queried through the epistemic graph.
 
 AI-as-governance-participant belongs here. Strong AI context and memory exist today (personal workflow implementations, dobby), but real multi-agent decision governance does not yet. This track builds the primitives for it.
 
@@ -83,7 +83,7 @@ Structural correspondences between systems' primitives, lifecycles, graph types,
 
 ### Learning field
 
-The learning field is Track 4's operational projection of the wider [field](./foundations/lexicon/field.md): the governed project surface where bridge notes project claims into a shared knowledge graph, convergence detection groups them by governance cluster, and synthesis notes surface what the field is learning.
+The learning field is Track 4's operational projection of the wider [field](./foundations/lexicon/field.md): the governed project surface where bridge notes project claims into a shared epistemic graph, convergence detection groups them by governance cluster, and synthesis notes surface what the field is learning.
 
 - **Canonical roadmap**: [`intelligence-commons/docs/roadmap/learning-field-roadmap.md`](https://github.com/DarrenZal/intelligence-commons/blob/main/docs/roadmap/learning-field-roadmap.md) — machine-readable JSON + rendered markdown, tracking outcomes, milestones, decisions, initiatives, and risks
 - **Convergence data**: 82 governance clusters across 26 field families, 4 synthesis-ready, 2 cross-project (human-machine-complementarity, linguistic-closure)
@@ -130,7 +130,7 @@ Not a separate track but a design constraint on all work:
 
 Spore defines patterns. Others implement them.
 
-- **koi-processor / RegenAI** -- node substrate (knowledge graph, entity resolution, federation, sensors)
+- **koi-processor / RegenAI** -- node substrate (epistemic graph, entity resolution, federation, sensors)
 - **BKC / Octo** -- operational instance family (BKC canon + 4 federated nodes + Octo agent + Quartz sites)
 - **Regen Commons / Open Civics / Network Nations** -- potential civic adoption surfaces
 

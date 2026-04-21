@@ -1,0 +1,43 @@
+  info: Governed docs: 186
+  info: External depends_on refs: 0
+  warn: docs/research/corpus-review/research-agent-based-modeling.md: has frontmatter but missing doc_id — intended for governance?
+  warn: docs/research/corpus-review/research-audience-scoping.md: has frontmatter but missing doc_id — intended for governance?
+  warn: docs/research/corpus-review/research-autopoiesis-4e.md: has frontmatter but missing doc_id — intended for governance?
+  warn: docs/research/corpus-review/research-canonical-layering.md: has frontmatter but missing doc_id — intended for governance?
+  warn: docs/research/corpus-review/research-capstone-review.md: has frontmatter but missing doc_id — intended for governance?
+  warn: docs/research/corpus-review/research-capstone.md: has frontmatter but missing doc_id — intended for governance?
+  warn: docs/research/corpus-review/research-care-ethics.md: has frontmatter but missing doc_id — intended for governance?
+  warn: docs/research/corpus-review/research-category-theory-sheaves.md: has frontmatter but missing doc_id — intended for governance?
+  warn: docs/research/corpus-review/research-commons-governance.md: has frontmatter but missing doc_id — intended for governance?
+  warn: docs/research/corpus-review/research-distributed-systems.md: has frontmatter but missing doc_id — intended for governance?
+  warn: docs/research/corpus-review/research-governance-process.md: has frontmatter but missing doc_id — intended for governance?
+  warn: docs/research/corpus-review/research-marl.md: has frontmatter but missing doc_id — intended for governance?
+  warn: docs/research/corpus-review/research-philosophy-collective-agency.md: has frontmatter but missing doc_id — intended for governance?
+  warn: docs/research/corpus-review/research-pluriversal.md: has frontmatter but missing doc_id — intended for governance?
+  warn: docs/research/corpus-review/research-rea-valueflows.md: has frontmatter but missing doc_id — intended for governance?
+  warn: docs/research/corpus-review/research-repo-topology.md: has frontmatter but missing doc_id — intended for governance?
+  warn: docs/research/corpus-review/research-structured-disagreement.md: has frontmatter but missing doc_id — intended for governance?
+  warn: docs/research/corpus-review/research-trust-reputation.md: has frontmatter but missing doc_id — intended for governance?
+  warn: docs/research/corpus-review/research-viable-system-model.md: has frontmatter but missing doc_id — intended for governance?
+  warn: docs/research/evidence/commitments/victoria-mapping-workshop-commitments.md: has frontmatter but missing doc_id — intended for governance?
+  warn: docs/research/evidence/commitments/victoria-pool-aggregate-2026q1.md: has frontmatter but missing doc_id — intended for governance?
+  warn: docs/research/evidence/commitments/victoria-seed-library-delivery.md: has frontmatter but missing doc_id — intended for governance?
+  warn: docs/research/evidence/decisions/DEC-2026-04-06-batch1-promotion.md: has frontmatter but missing doc_id — intended for governance?
+  warn: docs/research/evidence/decisions/DEC-2026-04-06-batch2-human-economy-promotion.md: has frontmatter but missing doc_id — intended for governance?
+  warn: docs/research/evidence/decisions/DEC-2026-04-06-batch3-holding-complexity-diagnostic.md: has frontmatter but missing doc_id — intended for governance?
+  warn: docs/research/evidence/revisions/REV-2026-04-06-01.md: has frontmatter but missing doc_id — intended for governance?
+  warn: docs/research/evidence/templates/commitment-evidence-template.md: has frontmatter but missing doc_id — intended for governance?
+  warn: docs/research/evidence/templates/decision-trace-template.md: has frontmatter but missing doc_id — intended for governance?
+  warn: docs/research/evidence/templates/revision-event-template.md: has frontmatter but missing doc_id — intended for governance?
+  warn: docs/research/planning/corpus-foundational-review-findings.md: has frontmatter but missing doc_id — intended for governance?
+  ERROR: docs/research/connections/autopoiesis-and-structural-coupling.md (ic.connection.autopoiesis-and-structural-coupling): doc_id must start with 'spore.' (project_id from project.json)
+  ERROR: docs/research/connections/cooperative-degeneration-opposition.md (pm.connection.cooperative-degeneration-opposition): doc_id must start with 'spore.' (project_id from project.json)
+  ERROR: docs/research/connections/digital-labor-peer-production-opposition.md (ic.connection.digital-labor-peer-production-opposition): doc_id must start with 'spore.' (project_id from project.json)
+  ERROR: docs/research/connections/hess-ostrom-knowledge-commons-framework.md (ic.connection.hess-ostrom-knowledge-commons-framework): doc_id must start with 'spore.' (project_id from project.json)
+  ERROR: docs/research/connections/peer-governance-wikipedia-opposition.md (ic.connection.peer-governance-wikipedia-opposition): doc_id must start with 'spore.' (project_id from project.json)
+  ERROR: docs/research/connections/rea-valueflows-semantic-layer.md (pm.connection.rea-valueflows-semantic-layer): doc_id must start with 'spore.' (project_id from project.json)
+  ERROR: docs/research/connections/reputation-gaming-opposition.md (ic.connection.reputation-gaming-opposition): doc_id must start with 'spore.' (project_id from project.json)
+  ERROR: docs/research/planning/foundational-reframing-protocol-v1.md (spec:spore.foundational-reframing-protocol): doc_id must start with 'spore.' (project_id from project.json)
+  ERROR: docs/research/connections/johar-metacognition-stack.md (spore.connection.johar-metacognition-stack): broken local depends_on 'spore.connection.johar-sheaf-theory-formalization' — no such doc_id in repo
+
+FAILED: 9 error(s), 30 warning(s)

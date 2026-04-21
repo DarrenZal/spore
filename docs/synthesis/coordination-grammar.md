@@ -45,16 +45,17 @@ The Spore loop shares a common deep structure with other well-known coordination
 
 Spore's loop is distinctive in that it separates the **epistemic layer** (Claim/Attest — what do we know, and who witnesses it?) from the **axiological layer** (Intend/Commit — what matters enough to act on?), and makes **membrane operations** explicit at each transition. This matters because Spore operates across boundaries where shared meaning-making cannot be assumed.
 
-Will Ruddick's loop foregrounds **caring** as an explicit phase before commitment. In Spore, this is carried by Intent — declaring an intent is an act of caring about something enough to make it visible.
+Will Ruddick's loop foregrounds **caring** as an explicit phase before commitment. In Spore, care remains prior to and larger than the intent/commitment pair: care is the primary coordinating practice that reproduces the field, while intent is one way care becomes legible enough to route, witness, and compose. Intent makes care actionable; it does not replace care.
 
 ---
 
 ## Primitives
 
-Ten coordination primitives. Each is a first-class object in the grammar.
+Eleven coordination primitives. `Field` names the distributed relational medium within which the other ten become legible and operative.
 
 | Primitive | Definition | Worldview Layer |
 |-----------|-----------|-----------------|
+| **Field** | Distributed relational medium in which signals, claims, commitments, entities, and resources become legible to one another, interact, and are revised over time. Shared, learning, and relational field are scale-specific views of the same underlying structure. | Ontological |
 | **Holon** | Bounded center of coherence that can participate. Simultaneously a whole (with internal structure) and a part (presenting a coherent interface to its containing graph). Can be a person, AI agent, team, organization, federation, or mixed collective. | Ontological |
 | **Membrane** | Boundary conditions: visibility, consent, jurisdiction, access. Not just a wall — a transformation interface where crossing, translation, and authorization happen. | Ontological / Praxical |
 | **Signal** | Directional cue: needs, offers, alerts, sensor outputs. The raw material of sensing. | Epistemological |
@@ -136,9 +137,13 @@ Attestations do not follow a simple linear lifecycle. They **strengthen** throug
 
 ### Artifacts
 ```
-draft --> active --> amended --> deprecated --> forked
+draft --> active --> deprecated
+             \
+              --> superseded
 ```
-(Source: governance-memory pattern, `doc_kind` + `status` frontmatter fields)
+(Source: governance-memory pattern for `draft`, `active`, `deprecated`; agent-commons-meta-protocol adds `superseded` for replaced artifacts.)
+
+Amendment and forking remain governed operations (`revises`, `forks`), not lifecycle statuses. An artifact can be revised while active or deprecated, and a fork creates a new lineage rather than advancing the source artifact through a status chain.
 
 ### Intents
 ```
@@ -178,9 +183,9 @@ Multiple views over one coordination ecology. These are not separate databases �
 | 7 | **Flow graph** | Capital, information, attention, obligations moving through system | Weighted directed graph | Coordinate, Act |
 | 8 | **Discourse graph** | Questions, proposals, arguments, objections, decisions | Directed graph (argumentation structure) | Interpret, Claim, Attest, Revise |
 
-**On the discourse graph:** The existing Spore vision (`project-vision.md`) lists 7 graph types (constitutional, roadmap, intent, commitment, knowledge, event, routing/flow). The discourse graph is the self-reflective layer — the coordination ecology reasoning about itself. Whether it should be promoted to an 8th core type is addressed in the decision memo.
+**On the discourse graph:** When this synthesis was first drafted, the Spore vision still listed 7 graph types. The discourse graph has since been promoted into the current vision as the 8th core projection; this section records the rationale that surfaced that promotion.
 
-**On the epistemic graph:** This is the "knowledge graph" from the vision doc, renamed to emphasize its epistemological function — it does not just store knowledge, it tracks what counts as knowing (claims, evidence, attestation, provenance).
+**On the epistemic graph:** This is the graph surface canonized as `epistemic graph`. `Knowledge graph` survives only as an explicit public-facing gloss per ADR-0019; the point of the rename is to emphasize that the surface tracks what counts as knowing (claims, evidence, attestation, provenance), not just stored knowledge.
 
 ### On DAGs and the coordination substrate
 

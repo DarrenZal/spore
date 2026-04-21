@@ -73,10 +73,8 @@ Conversational sovereignty — the capacity for societies to coordinate action u
 **C4** [confidence: medium] [anchor: §human development + decentralized doubt]
 Post-cathedral coordination requires investment in human civic capacity: reasoning under uncertainty, updating beliefs, holding tension without collapsing into identity, and distinguishing conviction from closure. Critically, it requires the capacity to hold "decentralized doubt" — recognition of partial knowing and willingness to suspend totalizing judgments. Without doubt, societies seek coherence through closure.
 
-**R1** [review claim] [target: spore.project-vision] [concept: conversational-sovereignty]
-Spore's project vision should name conversational sovereignty as a design concept: the grammar's coordination loop, discourse graph, and learning membrane together constitute a post-cathedral coherence infrastructure — a system that enables coordinated action under unresolved truth claims without requiring epistemic monopoly. The project vision should identify this as the governance context that makes Spore's design necessary: the cathedral has fractured, and the grammar is an instance of the conversational architecture that must replace its coordination function.
-*R1 is supported by C1, C2, C3.*
-
+- **R1**: Spore's project vision should name conversational sovereignty as a design concept: the grammar's coordination loop, discourse graph, and learning membrane together constitute a post-cathedral coherence infrastructure — a system that enables coordinated action under unresolved truth claims without requiring epistemic monopoly. The project vision should identify this as the governance context that makes Spore's design necessary: the cathedral has fractured, and the grammar is an instance of the conversational architecture that must replace its coordination function. [target: spore.project-vision] [concept: conversational-sovereignty] TODO: slug-deferred
+  supported_by: C1, C2, C3.
 ## Open Questions
 
 1. **Is conversational sovereignty distinct from civic truth or a component of it?** Civic truth is about how truth is held (relationally, provisionally). Conversational sovereignty is about how action is coordinated despite unresolved truth. These may be two aspects of the same governance architecture, or genuinely distinct concepts requiring separate treatment.

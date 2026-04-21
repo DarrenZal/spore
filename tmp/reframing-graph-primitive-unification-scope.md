@@ -1,0 +1,30 @@
+# Scope — reframing-graph-primitive-unification
+
+- Authorizing proposal: `docs/research/planning/reframing/reframing-graph-primitive-unification.md` (`status: eligible`, commit `24d37fe`)
+- Covered findings: F-020
+- Protocol rules invoked:
+  - foundational-reframing-protocol v1.1: FR-18, FR-19, FR-24, FR-25, FR-27
+  - Phase 7 master: reframing-authorized ADR bundle mechanics, proposal `eligible -> authorized-ADR -> executed`
+- Target allowlist:
+  - `spore.project-vision`
+  - `spore.constitutional-artifacts`
+  - `spore.instance-model`
+  - `spore.roadmap`
+  - `tmp/concept-roster.tsv`
+- Repos affected: Spore only
+- Cross-track dependencies: none
+- ADR slug candidates:
+  - ADR-0019 `graph-primitive-unification` (F-020)
+- Session-atomic window required: no
+- Evidence gate: pass
+  - F-020 keeps its S3 threshold with 8 cited sources in the findings block and 7 sources in the proposal bundle
+  - prior-collision-check: none
+  - dependencies: none
+- FR-19 disposition candidates:
+  - `alias-in-v3`
+  - `historical-gloss`
+  - `hard-retired`
+- Working decision: `historical-gloss`
+  - rationale: keep `knowledge graph` legible as an explicit public-facing gloss while `epistemic-graph` becomes the sole canonical primitive slug and `knowledge-graph` is demoted in the derivative roster
+- Expected validator delta: baseline 9 errors / 30 warnings -> post-bundle 9 errors / 30 warnings
+- Authorized-by lineage: ADR-0019 must carry `authorized-by: reframing-graph-primitive-unification`

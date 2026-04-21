@@ -1,0 +1,4 @@
+repo	path	source-artifact	source-claim-count	review-claim-count	opposition-density	frozen-concept-compliance
+spore	spore/docs/research/connections/p2p-wiki-field-scan.md	P2P Foundation Wiki (live-synced, 41K pages)	11	3	0.00	TRUE
+spore	spore/docs/research/connections/p2p-wiki-pass-2-capstone-synthesis.md	P2P Foundation Wiki — Post-Intake Synthesis (Pass 1 capstone)	0	0	0.00	TRUE
+spore	spore/docs/research/connections/p2p-wiki-post-intake-synthesis.md	P2P Foundation Wiki — Field Scan (Tier 1a pre-intake synthesis)	15	11	0.00	TRUE

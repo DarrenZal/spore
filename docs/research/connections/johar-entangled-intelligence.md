@@ -150,14 +150,12 @@ Large models embody particular compressions of language, norms, and associations
 **C5** [confidence: medium] [anchor: §Designing Reflexive Infrastructure]
 Preserving learning capacity requires deliberate design: explicit and governable context, intentional model plurality, embedded continuous evaluation, human feedback loops into system improvement, and retained update rights. Absence of any one of these properties constitutes a drift toward separation.
 
-**R1** [review claim] [target: spore.relational-agency-and-holons] [concept: human-machine-complementarity]
-The entangled/separated distinction deepens the human-machine complementarity cluster: in a coupled architecture, the asymmetry between human and machine agents is structural, not incidental. Humans bear consequences, contest representations, and exercise situated judgement; machines accelerate inference within locally governed context. The complementarity is not a design preference but a condition for the field's capacity to learn — separated architectures lose it, coupled architectures preserve it.
-*R1 deepens R3 in `spore.connection.johar-neuroplastic-field`. Supported by C1, C2.*
-
-**R2** [review claim] [target: spore.project-vision] [concept: inference-infrastructure]
-The "own context, rent models" principle operationalizes the standing design rule identified in the neuroplastic-field bridge note ("LLMs can propose interpretations; only fields with memory, commitment, and revision can learn") as an architectural criterion: every design decision should be evaluated against whether it keeps context structures locally owned and feedback loops locally governed. Context ownership is the mechanism by which inference infrastructure remains subordinate to the learning field.
-*R2 supports R5 in `spore.connection.johar-neuroplastic-field`. Supported by C2, C3.*
-
+- **R1**: The entangled/separated distinction deepens the human-machine complementarity cluster: in a coupled architecture, the asymmetry between human and machine agents is structural, not incidental. Humans bear consequences, contest representations, and exercise situated judgement; machines accelerate inference within locally governed context. The complementarity is not a design preference but a condition for the field's capacity to learn — separated architectures lose it, coupled architectures preserve it. [target: spore.relational-agency-and-holons] [concept: human-machine-complementarity] TODO: slug-deferred
+  supported_by: C1, C2.
+  R1 deepens R3 in `spore.connection.johar-neuroplastic-field`.
+- **R2**: The "own context, rent models" principle operationalizes the standing design rule identified in the neuroplastic-field bridge note ("LLMs can propose interpretations; only fields with memory, commitment, and revision can learn") as an architectural criterion: every design decision should be evaluated against whether it keeps context structures locally owned and feedback loops locally governed. Context ownership is the mechanism by which inference infrastructure remains subordinate to the learning field. [target: spore.project-vision] [concept: inference-infrastructure] TODO: slug-deferred
+  supported_by: C2, C3.
+  R2 supports R5 in `spore.connection.johar-neuroplastic-field`.
 ## Open Questions
 
 1. **Is "own your context, rent your models" sufficient as a constitutional commitment, or does it need qualification?** The principle is clean and communicable, but context ownership is not binary. Some context structures (embeddings, retrieval indices) may depend on model-specific representations. At what point does a context structure become model-entangled enough that "ownership" is nominal? This matters for practical membrane governance.

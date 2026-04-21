@@ -1,0 +1,34 @@
+# Round close — round-ic-memory-governance-boundaries
+
+- Date: 2026-04-21
+- Decision outcome:
+  - F-008 / F-009: `edit` via ADR-0011
+  - F-011: `amend` via ADR-0012; ADR-0003 preserved, obsolete procedural-layer wording retracted
+- Round commit trail:
+  - scope declared (Spore): `cd433a4`
+  - IC ADR-0011 drafted: `0aaca76`
+  - IC ADR-0012 drafted + ADR-0003 amendment note: `6544f53`
+  - IC ADR activations: `d667b8c`
+  - findings status update (Spore): `35c5b1a`
+- ADRs landed:
+  - `ic.canon-decision.memory-layer-model-constitutional-operational-split` — draft `0aaca76`, active `d667b8c`
+  - `ic.canon-decision.boundary-theory-unifier-retraction` — draft `6544f53`, active `d667b8c`
+- Findings resolved:
+  - F-008 via ADR-0011
+  - F-009 via ADR-0011
+  - F-011 via ADR-0012
+- Validator state post-round:
+  - baseline: 9 errors / 30 warnings (`tmp/phase-7/round-ic-memory-governance-boundaries-validator-pre.txt`)
+  - post-round: 9 errors / 30 warnings (`tmp/phase-7/round-ic-memory-governance-boundaries-validator-post.txt`)
+  - delta: +0 errors / +0 warnings
+- Session-atomic window satisfied: N/A (single-repo ADR round; Spore carries scope/close/status bookkeeping only)
+  - touched-repo author-date range: `2026-04-21T08:47:20-07:00` -> `2026-04-21T08:54:39-07:00`
+- r_claim_source-integrity check result: pass
+  - ADR-0011 uses claim-bearing research-doc identifiers under `spec:spore.corpus-review.*`; duplicates: none
+  - ADR-0012 uses claim-bearing research-doc identifier under `spec:spore.corpus-review.*`; duplicates: none
+  - `supported_by:` present in both ADRs
+  - `authorized-by:` empty in both ADRs as required for canon-review-v2
+- ADR-0003 amendment trace: pass
+  - added `amended-by: ic.canon-decision.boundary-theory-unifier-retraction`
+  - preserved historical `status: accepted` / `decision: edit`
+  - added a top-of-file amendment note rather than silently rewriting the historical R-claim trace in place

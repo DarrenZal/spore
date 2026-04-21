@@ -1,0 +1,80 @@
+path	layer	concept-count	last-modified	introduces-new-concept	adr-dependencies
+intelligence-commons/docs/foundations/intelligence-primitives.md	intelligence-commons:adr-eligible	151	2026-04-18	TRUE	8
+intelligence-commons/docs/foundations/memory-layer-model.md	intelligence-commons:adr-eligible	207	2026-04-18	TRUE	8
+intelligence-commons/docs/learning-field/stalks/graphiti.md	intelligence-commons:extended	53	2026-04-13	TRUE	0
+intelligence-commons/docs/learning-field/stalks/hindsight.md	intelligence-commons:extended	51	2026-04-13	TRUE	0
+intelligence-commons/docs/learning-field/stalks/letta-memfs.md	intelligence-commons:extended	45	2026-04-13	TRUE	0
+intelligence-commons/docs/learning-field/stalks/mem0.md	intelligence-commons:extended	51	2026-04-13	TRUE	0
+intelligence-commons/docs/learning-field/stalks/our-stack.md	intelligence-commons:extended	82	2026-04-13	TRUE	0
+intelligence-commons/docs/learning-field/synthesis/agentic-memory-pilot-v1.md	intelligence-commons:extended	128	2026-04-13	TRUE	0
+intelligence-commons/docs/patterns/hybrid-retrieval.md	intelligence-commons:extended	48	2026-03-30	TRUE	0
+intelligence-commons/docs/patterns/project-learning-membrane.md	intelligence-commons:extended	122	2026-04-13	TRUE	0
+intelligence-commons/docs/project-vision.md	intelligence-commons:adr-eligible	127	2026-04-18	TRUE	4
+intelligence-commons/docs/research/canon-decisions/0001-pluriversal-incommensurability.md	intelligence-commons:adr-eligible	106	2026-04-18	TRUE	5
+intelligence-commons/docs/research/canon-decisions/0002-reproduction-primacy.md	intelligence-commons:adr-eligible	120	2026-04-18	TRUE	16
+intelligence-commons/docs/research/canon-decisions/0003-boundary-theory-unifier.md	intelligence-commons:adr-eligible	77	2026-04-18	FALSE	5
+intelligence-commons/docs/research/canon-decisions/0004-three-layer-coordination-stack.md	intelligence-commons:adr-eligible	105	2026-04-18	TRUE	24
+intelligence-commons/docs/research/canon-decisions/0005-decentralization-myth-bundle.md	intelligence-commons:adr-eligible	147	2026-04-18	TRUE	21
+intelligence-commons/docs/research/canon-decisions/0006-collective-agency-declination.md	intelligence-commons:adr-eligible	73	2026-04-18	TRUE	10
+intelligence-commons/docs/research/canon-decisions/0007-memory-governance-as-cross-cutting-primitive.md	intelligence-commons:adr-eligible	113	2026-04-18	FALSE	33
+intelligence-commons/docs/research/canon-decisions/0008-autopoietic-framing-held.md	intelligence-commons:adr-eligible	79	2026-04-18	TRUE	12
+intelligence-commons/docs/research/canon-decisions/README.md	intelligence-commons:adr-eligible	26	2026-04-17	FALSE	0
+poietic-match/docs/grammar.md	poietic-match:adr-eligible	73	2026-04-10	TRUE	0
+poietic-match/docs/project-vision.md	poietic-match:adr-eligible	189	2026-04-18	TRUE	14
+poietic-match/docs/protocol.md	poietic-match:adr-eligible	143	2026-04-18	TRUE	7
+poietic-match/docs/research/canon-decisions/0001-accounting-dependence-tension.md	poietic-match:adr-eligible	95	2026-04-17	FALSE	0
+poietic-match/docs/research/canon-decisions/0002-reproduction-primacy.md	poietic-match:adr-eligible	109	2026-04-18	FALSE	11
+poietic-match/docs/research/canon-decisions/0003-boundary-theory-unifier.md	poietic-match:adr-eligible	81	2026-04-18	FALSE	5
+poietic-match/docs/research/canon-decisions/0004-three-layer-coordination-stack.md	poietic-match:adr-eligible	114	2026-04-18	FALSE	34
+poietic-match/docs/research/canon-decisions/0005-decentralization-myth-bundle.md	poietic-match:adr-eligible	113	2026-04-18	TRUE	20
+poietic-match/docs/research/canon-decisions/0006-coordination-substrate-at-protocol.md	poietic-match:adr-eligible	109	2026-04-18	FALSE	19
+poietic-match/docs/research/canon-decisions/0007-market-coordination-position.md	poietic-match:adr-eligible	133	2026-04-18	FALSE	24
+poietic-match/docs/research/canon-decisions/README.md	poietic-match:adr-eligible	25	2026-04-17	FALSE	0
+spore/docs/foundations/CLAUDE.md	spore:adr-eligible	7		FALSE	0
+spore/docs/foundations/constitutional-artifacts-and-graph-projections.md	spore:adr-eligible	80	2026-04-07	TRUE	0
+spore/docs/foundations/holonic-network-architecture.md	spore:adr-eligible	122	2026-04-18	TRUE	3
+spore/docs/foundations/lexicon/CLAUDE.md	spore:adr-eligible	13		FALSE	0
+spore/docs/foundations/lexicon/field.md	spore:adr-eligible	124	2026-04-18	FALSE	5
+spore/docs/foundations/lexicon/intent-pressure.md	spore:adr-eligible	35	2026-03-30	TRUE	0
+spore/docs/foundations/lexicon/linguistic-closure.md	spore:adr-eligible	33	2026-04-07	TRUE	0
+spore/docs/foundations/lexicon/stigmergy.md	spore:adr-eligible	92	2026-04-18	TRUE	6
+spore/docs/foundations/mycorrhizal-federation-protocol.md	spore:adr-eligible	235	2026-04-18	TRUE	4
+spore/docs/foundations/relational-agency-and-holons.md	spore:adr-eligible	76	2026-04-18	TRUE	0
+spore/docs/foundations/spore-instance-model.md	spore:adr-eligible	77	2026-04-07	TRUE	0
+spore/docs/governance/CLAUDE.md	spore:extended	5		FALSE	0
+spore/docs/governance/adoption-guide.md	spore:extended	31	2026-03-29	FALSE	0
+spore/docs/governance/agent-commons-meta-protocol.md	spore:extended	49	2026-04-10	FALSE	0
+spore/docs/governance/matter-register.md	spore:extended	55	2026-04-13	FALSE	0
+spore/docs/governance/project-bootstrap-spec.md	spore:extended	36	2026-03-29	FALSE	0
+spore/docs/governance/project-briefing-pattern.md	spore:extended	27	2026-03-29	FALSE	0
+spore/docs/governance/quickstart.md	spore:extended	32	2026-04-10	FALSE	0
+spore/docs/patterns/CLAUDE.md	spore:extended	6		FALSE	0
+spore/docs/patterns/commitment-pooling.md	spore:extended	39	2026-03-29	FALSE	0
+spore/docs/patterns/discourse-as-governance.md	spore:extended	49	2026-03-29	FALSE	0
+spore/docs/patterns/federated-knowledge-exchange.md	spore:extended	44	2026-03-29	FALSE	0
+spore/docs/patterns/governance-memory.md	spore:extended	41	2026-03-29	FALSE	0
+spore/docs/patterns/intent-publication-and-activation.md	spore:extended	45	2026-03-29	FALSE	0
+spore/docs/positioning/CLAUDE.md	spore:extended	8		FALSE	0
+spore/docs/positioning/civic-infrastructure-convergence.md	spore:extended	88	2026-04-01	TRUE	0
+spore/docs/positioning/hyperstition-as-coordination.md	spore:extended	53	2026-03-29	TRUE	0
+spore/docs/project-vision.md	spore:adr-eligible	191	2026-04-18	TRUE	3
+spore/docs/protocols/CLAUDE.md	spore:extended	6		FALSE	0
+spore/docs/protocols/README.md	spore:extended	44	2026-04-14	FALSE	0
+spore/docs/protocols/agentic-memory-dimension-vocabulary-v2.md	spore:extended	73	2026-04-14	FALSE	0
+spore/docs/protocols/agentic-memory-dimension-vocabulary.md	spore:extended	52	2026-04-14	FALSE	0
+spore/docs/protocols/claims-evidence-attestation.md	spore:extended	53	2026-03-29	FALSE	0
+spore/docs/protocols/examples/README.md	spore:extended	21	2026-04-13	FALSE	0
+spore/docs/protocols/restriction-maps-and-comparison-records.md	spore:extended	77	2026-04-13	FALSE	0
+spore/docs/protocols/store-and-forward-relay.md	spore:extended	52	2026-03-29	FALSE	0
+spore/docs/research/canon-decisions/0001-pluriversal-incommensurability.md	spore:adr-eligible	103	2026-04-18	FALSE	5
+spore/docs/research/canon-decisions/0002-reproduction-primacy.md	spore:adr-eligible	168	2026-04-18	TRUE	13
+spore/docs/research/canon-decisions/0003-boundary-theory-unifier.md	spore:adr-eligible	100	2026-04-18	FALSE	5
+spore/docs/research/canon-decisions/0004-three-layer-coordination-stack.md	spore:adr-eligible	127	2026-04-18	FALSE	21
+spore/docs/research/canon-decisions/0005-decentralization-myth-bundle.md	spore:adr-eligible	162	2026-04-18	FALSE	30
+spore/docs/research/canon-decisions/0006-polycentric-governance-at-holarchy.md	spore:adr-eligible	101	2026-04-18	FALSE	22
+spore/docs/research/canon-decisions/0007-coordination-substrate-at-stigmergy.md	spore:adr-eligible	107	2026-04-18	FALSE	10
+spore/docs/research/canon-decisions/0008-collective-agency-at-field.md	spore:adr-eligible	92	2026-04-18	FALSE	15
+spore/docs/research/canon-decisions/README.md	spore:adr-eligible	24	2026-04-17	FALSE	0
+spore/docs/synthesis/CLAUDE.md	spore:extended	6		FALSE	0
+spore/docs/synthesis/coordination-grammar.md	spore:extended	124	2026-03-29	FALSE	0
+spore/docs/synthesis/decision-memo.md	spore:extended	171	2026-03-27	FALSE	0

@@ -1,0 +1,395 @@
+---
+research_input_for: corpus-foundational-review-v1
+prompt_number: 18
+tradition: "CAPSTONE — synthesis of 17 tradition syntheses"
+source_tool: claude-code-multi-agent
+source_file: "synthesized from tmp/capstone-sections-*.md + research-*.md"
+ingested: 2026-04-19
+conversion_note: "3 parallel extractor agents (§1–§6) + 1 synthesizer agent (§7, §8, integration); writer: Opus 4.7"
+status: raw-research-input
+---
+
+# Capstone — cross-tradition synthesis for corpus-foundational-review-v1
+
+This document is the capstone synthesis of 17 tradition-specific research syntheses commissioned for Spore's corpus-foundational-review-v1. It consolidates convergences (§1), divergences (§2), primitive-level gaps (§3) and over-specifications (§4) in Spore's current canon, ontological-level observations (§5), meta-corpus observations about Spore's own review machinery (§6), a proposed v3 of the frozen-concepts vocabulary (§7), and a ranked priorities list for Phase 4 of the corpus review (§8). It is a raw research input — not canon — and is intended to feed the diagnostic phase of the review.
+
+## §1 — Convergences
+
+**Boundary is load-bearing, increasingly framed as a semi-permeable membrane.** **Supporting traditions:** Commons Governance (Ostrom's Principle 1 split into 1A/1B; Bollier & Helfrich's explicit "semi-permeable membrane" [cf. commons-governance §1, §3]); Viable System Model; Canonical Layering Conventions (the *single* primitive the whole architecture tradition treats as fully load-bearing [cf. canonical-layering §3]); Distributed Systems (partition P); Agent-Based Modeling (vision, neighborhood, network edges); Autopoiesis / 4E Cognition (operational closure + precariousness); Care Ethics / Feminist Economics (Tronto's *Moral Boundaries*); REA / ValueFlows. **Dissenters:** MARL; Philosophy of Collective Agency (group membership only). **Why this matters for Spore:** Spore's *membrane* interface primitive is corroborated more widely than any other single commitment; convergence on semi-permeability — not boundary-absence — lands directly on canon.
+
+**Identity is relational / constituted through participation, not pre-given.** **Supporting traditions:** Care Ethics ("ties that partly constitute our identity" [cf. care-ethics §1]); Pluriversal / Indigenous Governance (personhood via kinship with more-than-human); Commons Governance (Bollier & Helfrich's "Nested-I"); Autopoiesis / 4E Cognition; Viable System Model (identity as S5's defining function); Philosophy of Collective Agency (List/Pettit functional group agents; Tuomela ethos). **Dissenters:** MARL; Distributed Systems (identity as cryptographic tag); Category Theory / Sheaves (identity morphism only). **Why this matters for Spore:** Holon presupposes a relational identity story; permission to treat identity as constituted-by-commitment-and-care rather than given-and-tagged.
+
+**Reciprocity talk recurs across the corpus, but its semantics split between symmetric exchange and asymmetric care/obligation.** **Traditions invoking reciprocity:** Commons Governance (Ostrom 1998 behavioral core); REA / ValueFlows (duality axiom, decoupled from money); Pluriversal (*ayni*); Trust Networks / Reputation Systems (Hardin's "mutually reinforcing"); Agent-Based Modeling (Axelrod Tit-for-Tat); Care Ethics (Noddings' non-contractual reciprocity); Autopoiesis / 4E. **Traditions narrowing or omitting it:** Philosophy of Collective Agency (implicit, unnamed); Viable System Model; Distributed Systems (narrowed to bilateral exactly-once). **Why this matters for Spore:** The corpus converges on the recurrence of reciprocity talk, not on a single reciprocity concept. The symmetric/asymmetric split is therefore not residue but a live design choice for Spore, and it bears directly on whether *care* must be admitted rather than derived.
+
+**Stratification of immediate-operation from future/exterior is a recurring architectural move.** **Supporting traditions:** Viable System Model (S1–S3 "inside-and-now" vs S4 "outside-and-then" via S5); REA / ValueFlows (Knowledge / Plan / Observation isomorphic at each level [cf. rea-valueflows §2]); Governance-Process Meta-Research (constitutional vs operational, amendment gated by supermajority); Canonical Layering (W3C maturity track); Commons Governance (operational / collective-choice / constitutional rule levels). **Dissenters:** Pluriversal (rejects linear stacking [cf. pluriversal §2]); Autopoiesis / 4E (dynamic co-emergence); Care Ethics (rejects theory/practice separation). **Why this matters for Spore:** Spore's canon/node/agent/site decomposition has robust analogues *and* robust critics; keeping it requires showing the layers as dynamically co-emergent, not imposed.
+
+**Part-whole recursion is structurally present but terminologically scarce.** **Supporting traditions:** Viable System Model (Recursive System Theorem — logically equivalent to holon, but Beer does not cite Koestler [cf. viable-system-model §3]); Commons Governance (nested-enterprise Principle 8); Agent-Based Modeling; Philosophy of Collective Agency (List/Pettit supervenient group agents); Distributed Systems (explicit "holonic modeling"); Category Theory / Sheaves (colimits, stalks); REA / ValueFlows (Plan > Process > Event). **Dissenters:** Ludwig's singularist reduction [cf. philosophy-collective-agency §4]; Pluriversal (literal kinship, not abstract symmetry); Care Ethics. **Why this matters for Spore:** Multiple traditions separately theorize recursive composition without sharing a name — opportunity for Spore's *holon* to fill the gap, provided whole-part symmetry is distinguished from mere hierarchical nesting.
+
+**Where agency is theorized, it is usually structural (role in a pattern) rather than psychological — but several coordination traditions lack a formal agency primitive entirely.** **Supporting traditions:** MARL; REA / ValueFlows (A of REA — agent as *party to events*, extended to `EcologicalAgent`); Agent-Based Modeling; Viable System Model; Commons Governance. **Counter-readings / absences:** Care Ethics (relational, embedded [cf. care-ethics §3]); Pluriversal (distributed across human and more-than-human); Autopoiesis / 4E (Barandiaran/Di Paolo/Rohde: individuality + interactional asymmetry + normativity); Category Theory / Sheaves (agents as nodes, but agency not formally captured); Distributed Systems (traditionally absent, only emerging in Agentic AI contexts). **Why this matters for Spore:** Spore's structural agency story is defensible inside the traditions that formalize agency that way, but it is not a corpus-wide convergence. Some coordination traditions omit agency altogether; others require thicker normative or relational accounts.
+
+**Precariousness / viability / ongoingness is the tacit substrate of "coordination" talk.** **Supporting traditions:** Autopoiesis / 4E (Thompson's Jonas-inflected precariousness + Di Paolo's adaptivity); Viable System Model (viability *is* survival over time); Care Ethics / Feminist Economics (Federici's reproductive labor as invisible ground of every commons [cf. care-ethics §1, §2]); Commons Governance (long-enduring CPRs as case base); Pluriversal (continuity through cyclical ritual); Governance-Process Meta-Research (succession / renewal rules); Validation via Structured Disagreement (replication / continuity of findings). **Dissenters:** MARL, Distributed Systems, Category Theory, Canonical Layering, Repo-Topology (operational or absent). **Why this matters for Spore:** Current canon is silent on reproduction/continuity. The life-sciences-adjacent convergence argues *a coordination primitive set that omits reproduction/continuity cannot account for what it coordinates for* — strongest single argument for admitting `reproduction-continuity`, continuous with ADR-0008's field substrate.
+
+## §2 — Divergences
+
+**Is sociality reducible to individual mental states, or is there an irreducibly collective stratum?** **Side A (reducible):** MARL; Agent-Based Modeling; Philosophy of Collective Agency — Bratman/Ludwig wing; Repo-Topology. **Side B (irreducibly collective):** Philosophy of Collective Agency — Gilbert/Searle/Tuomela/List-Pettit wing (joint commitment, we-intention, we-mode, group agent as sui generis [cf. philosophy-collective-agency §4]); Autopoiesis / 4E (participatory sense-making as constitutively shared); Viable System Model; Commons Governance — commoning wing ("there is no commons without commoning"); Pluriversal. **What's at stake for Spore:** If A, Spore's primitives only describe individuals and holon is mere aggregation. If B, Spore needs a primitive that *cannot be analyzed via* individual intent/commitment — a joint-commitment or sense-making-field primitive. Convergence on relational identity (§1) tilts Side B; current canon is A-compatible. The single most consequential unresolved question for whether Spore's canon is complete. **Note the coupling:** the traditions that land on Side B are almost exactly the same set that treat identity as relational in §1 (Gilbert wing, Autopoiesis/4E, VSM, commoning-Commons, Pluriversal). The §1 convergence on relational identity and this §2 divergence on reducibility are not independent axes — they are a single structural joint.
+
+**Is "consensus" a count or a judgment?** **Side A (count/formal):** Commons Governance (aggregation rules); Governance-Process Meta-Research — Debian/Python wing (supermajority, Condorcet/Schulze); Validation via Structured Disagreement — statistical wing (Pier et al. ICC ≈ 0 on NIH grants [cf. structured-disagreement §1]); Distributed Systems (quorum). **Side B (judgment/rough):** Governance-Process — IETF/W3C/Apache wing (RFC 7282: "Can anyone not live with A?" [cf. governance-process §1]); Validation via Structured Disagreement — Zenko's red-team wing; Pluriversal (deliberative councils). **What's at stake for Spore:** A count-based canon invites Debian-style thresholds and noise audits of its own decisions; a judgment-based canon invites red-teaming and IETF appeals ladders. Spore currently operates by judgment (canon-review-v1) but has not named this choice.
+
+**Does trust function as a primitive, or is it displaced by commitment / reputation / cryptographic proof?** **Side A (primitive):** Trust Networks / Reputation Systems; Care Ethics (trustworthiness built into ethic of care); Commons Governance — behavioral branch; Pluriversal (trust via ritual reciprocity); Governance-Process Meta-Research (Apache's "Earned Authority"). **Side B (displaced):** Philosophy of Collective Agency (peripheral across all six major authors; displaced by joint commitment [cf. philosophy-collective-agency §3]); Distributed Systems ("trustlessness"); MARL; Category Theory / Sheaves. **What's at stake for Spore:** Spore's canon currently displaces trust into commitment + evidence. Side A calls this a category error: commitment + evidence does not *generate* trust; it operationally substitutes. Adopting trust forces Spore to choose among rational expectation (Hardin), moralistic faith (Uslaner), or relational practice (Care / Ostrom) — these are not compatible.
+
+**Is the world one (with perspectives) or many (ontologies)?** **Side A (one world):** MARL, Distributed Systems, Category Theory / Sheaves, Agent-Based Modeling, REA / ValueFlows, Canonical Layering, Repo-Topology — all presuppose a shared reality. **Side B (plural ontologies):** Pluriversal ("multiple ontologies, multiple worlds, not simply multiple perspectives" [cf. pluriversal §1]); Commons Governance — commoning wing (Bollier/Helfrich "OntoShift"); Viable System Model — Espejo's later observer-dependent work; partially Autopoiesis / 4E. **What's at stake for Spore:** If A, canon is one shared artifact with differing views. If B, Spore must allow *incommensurable* branches — not disagreements on one canvas but canvases that are not the same. This is the unresolved DH-IC-1 pluriversal-incommensurability tension, and — contra the framing that it is a localized indigenous-tradition concern — support for Side B crosses tradition boundaries (VSM-Espejo, commoning-Commons, Autopoiesis partially).
+
+**Is evidence primitive or derived from monitoring / running code / observation?** **Side A (primitive):** Distributed Systems (cryptographic proofs [cf. distributed-systems §3]); Validation via Structured Disagreement; Spore's current canon. **Side B (derived):** Commons Governance (evidence = monitoring + information rules [cf. commons-governance §3]); REA / ValueFlows (evidence = EconomicEvent + provenance — structurally present, not named); Viable System Model (S3\* audit); Governance-Process Meta-Research (evidence = running code / implementation reports — strongest empirical commitment, but not standalone). **What's at stake for Spore:** Side B asks *evidence of what, for whom, against what protocol?* If evidence is not separately primitive, Spore must specify the monitoring/observation mechanism that *produces* it, otherwise evidence is unmoored.
+
+**Is signal primitive, or a Shannon-theoretic artifact absorbed into structural coupling?** **Side A (primitive):** Trust Networks (reputation as signaling); REA / ValueFlows — Haugen's framing (coordination signals distinct from price); Viable System Model (algedonic signals bypassing hierarchy); Distributed Systems (gossip); Agent-Based Modeling (intent signals). **Side B (absent/absorbed):** Autopoiesis / 4E (Shannon signals explicitly *replaced* by structural coupling — "a feature rather than a gap"); Philosophy of Collective Agency; Commons Governance (only information rules); Care Ethics, Pluriversal. **What's at stake for Spore:** If primitive, Spore has an explicit channel for coordination-before-commitment. The enactive critique is pointed: signal-as-information presupposes a representational picture Autopoiesis rejects. If Spore preserves signal as primitive, it owes an explicit answer to the Autopoiesis objection rather than silently routing around it.
+
+**Is coordination a design problem or an emergent one?** **Side A (design/regulative):** MARL (mechanism design); Viable System Model — Beer's earlier prescriptive stance; REA / ValueFlows; Canonical Layering; Governance-Process Meta-Research; Distributed Systems. **Side B (emergent/diagnostic):** Agent-Based Modeling (strong emergence with downward causation); Commons Governance — Ostrom's mature stance (principles are empirical regularities, not design blueprints [cf. commons-governance §4]); Autopoiesis / 4E (dynamic co-emergence); Viable System Model — Espejo's later second-order reading. **What's at stake for Spore:** Determines whether canon is *design* for coordination or *diagnostic vocabulary*. Ostrom's self-reversal is instructive: she produced Side-A-looking design principles then spent her later career arguing they are Side-B diagnostics, and the 8-principles-as-checklist anti-pattern is the cautionary tale. The choice affects whether canon changes are justified by "this primitive is correctly specified" or by "field evidence the current canon fails to name." Ostrom's trajectory is also the precedent case for how canon authors get misread by their own readers — a risk Spore's own review machinery should not assume away.
+
+## §3 — Gaps in Spore's current primitives
+
+Candidates to evaluate (from the Prompt 18 spec): **trust, care, identity, memory, state, norms/protocols, power/authority, reciprocity, reproduction/continuity, boundary, attention**.
+
+### Trust
+
+- **Tradition-count**: load-bearing in Trust Networks / Reputation Systems (definitional center), Commons Governance (Ostrom 1998 triad), Care Ethics / Feminist Economics (Kittay), Governance-Process Meta-Research (Apache "Earned Authority," Linux signed-off-by); peripheral in Philosophy of Collective Agency (Baier-critiqued absence) and Viable System Model (imported late by Reyes); *explicitly negated* in Distributed Systems Primitives ("trustlessness"); absent in MARL, Category Theory / Sheaves, Agent-Based Modeling, REA/ValueFlows, Autopoiesis / 4E, Pluriversal, Canonical Layering (only as security "trust boundary"), Structured Disagreement, Audience-Scoping, Repo-Topology.
+- **Structural role**: agent property in Trust Networks; feedback-loop in Commons; relational in Care; *replaced by verification* in Distributed Systems.
+- **Paraphrase test**: partial — commitment-willingness given accumulated evidence/signals captures most, but loses Luhmann's trust-as-choice-under-irreducible-uncertainty and Baier's asymmetric-vulnerability.
+- **Verdict**: **admit as derived with glossary entry flagging residue**. Engineering traditions route around trust; elevating it would force an unresolved agent-vs-field choice.
+
+### Care
+
+- **Tradition-count**: definitional center of Care Ethics / Feminist Economics; load-bearing in Pluriversal (Plumwood, De la Cadena) and commoning-Commons (Bollier-Helfrich "care-wealth," Federici); partly present in Autopoiesis / 4E (Thompson's *Sorge*); *explicitly absent* in Philosophy of Collective Agency (target of Held/Baier critique), MARL, Agent-Based Modeling, Viable System Model, REA / ValueFlows ("gives primitives to log care; does not tell you how to value it"), Distributed Systems, Category Theory, Trust Networks, Canonical Layering, Governance-Process, Audience-Scoping, Repo-Topology, Structured Disagreement.
+- **Structural role**: cluster of labor + disposition + relational practice (Held); invisible-substrate in Federici.
+- **Paraphrase test**: fails. "Commitment + attention + asymmetric evidence-flow" captures mechanical shape but not Tronto's four-phase asymmetry. Spore's primitives are symmetric; care is not.
+- **Verdict**: **strong case for admitting — as primitive or as asymmetric sub-type of commitment**. Omitting care reproduces the feminist-economics critique aimed at Gilbert, Bratman, McCarthy, Beer. Most structurally important silence given Spore's ecological program.
+
+### Identity
+
+- **Tradition-count**: load-bearing in Viable System Model (S5 *is* identity), Care Ethics (relational self), Pluriversal (kinship), Distributed Systems (cryptographic for BFT), Trust Networks (identity-persistence — Friedman-Resnick), Governance-Process (Apache "individuals, not organizations"), Autopoiesis / 4E (Barandiaran-Di Paolo-Rohde), Agent-Based Modeling, commoning-Commons; thin in Philosophy of Collective Agency, MARL, REA/VF (AgentRelationship deferred), Category Theory, Canonical Layering (auth/auth), Repo-Topology (ownership); absent in Audience-Scoping, Structured Disagreement.
+- **Structural role**: substrate in VSM; agent-property in Distributed/Trust; relational in Care/Pluriversal.
+- **Paraphrase test**: partial. Persistent holon property + signed signals covers VSM and Distributed cases. Pluriversal kinship-identity irreducible.
+- **Verdict**: **admit as a named property of holon, not a separate primitive**.
+
+### Memory
+
+- **Tradition-count**: load-bearing in Distributed Systems (Kreps log-as-primitive), Governance-Process (archives), Pluriversal (ancestral/sacred), REA / ValueFlows (Observation layer *is* memory); marginal in Philosophy of Collective Agency (Bratman intention-stability substitutes), MARL, Commons, Care, Trust, Viable System Model (S4 model-of-self, unnamed), Agent-Based Modeling (memory-1), Autopoiesis / 4E (Hutto anti-representational), Canonical Layering, Repo-Topology, Structured Disagreement; absent in Category Theory, Audience-Scoping.
+- **Structural role**: substrate in REA and Distributed Systems (the log); agent-property elsewhere.
+- **Paraphrase test**: adequate. Evidence + field-scoped retention covers REA and Distributed. Loses VSM S4 model-of-self and Pluriversal sacred-authority.
+- **Verdict**: **leave out as primitive; admit as derived**.
+
+### State
+
+- **Tradition-count**: load-bearing in Distributed Systems, MARL, Agent-Based Modeling, Viable System Model (Actuality/Capability/Potentiality), Category Theory / Sheaves (stalks), Autopoiesis / 4E (homeostatic, adaptivity), REA / ValueFlows (lifecycle + quantities); absent or marginal in Philosophy of Collective Agency, Care, Commons (outcomes only), Trust, Governance-Process (proposal lifecycle), Canonical Layering, Pluriversal.
+- **Structural role**: substrate in Distributed/MARL/ABM/Category Theory; agent-property in VSM/REA/Autopoiesis.
+- **Paraphrase test**: tight. Holon state = cumulative commitments + evidence; field state = aggregation plus signals.
+- **Verdict**: **leave out; admit as derived**. Pressure point: Bailis invariant-maintenance may force first-class later.
+
+### Norms / protocols
+
+- **Tradition-count**: load-bearing in Commons Governance (Ostrom's seven rule types — the richest formalization in the corpus), Governance-Process (entire tradition), Distributed Systems, Viable System Model (S2 + S5 ethos), Philosophy of Collective Agency (Searle constitutive rules, Tuomela r/s-norms), REA / ValueFlows (Policy + Recipe), Pluriversal (customary ritual, Borrows), Trust Networks, Canonical Layering (W3C maturity), Repo-Topology (CODEOWNERS); weak in Care, MARL, Category Theory, Agent-Based Modeling (emergent), Audience-Scoping, Autopoiesis, Structured Disagreement.
+- **Structural role**: substrate in Commons and Governance-Process (rules *constitute* the action situation); operational in Distributed/MARL; ethos in VSM/Autopoiesis; ritual in Pluriversal.
+- **Paraphrase test**: weak. A norm can be framed as a *field* property, but Spore has no primitive for the *level* at which a rule operates (Ostrom's operational/collective-choice/constitutional stack). Spore cannot express the seven rule types or constitutional-amendment-threshold patterns.
+- **Verdict**: **admit as primitive (likely "protocol") OR stratify field into rule-levels**. Ten of 17 traditions treat this load-bearing and structurally detailed — the most tradition-supported gap.
+
+### Power / authority
+
+- **Tradition-count**: load-bearing in Care Ethics (Folbre), Pluriversal (relational-spiritual), Governance-Process (enumerated powers by role); load-bearing *as named critique* in Commons Governance (thin in Ostrom, central in Federici/De Angelis) and Viable System Model (S5/S3 indirect); absent or derivative in Philosophy of Collective Agency ("underdeveloped — one of the tradition's most criticized lacunae"), MARL ("symmetric by default"), Distributed Systems, Category Theory, Agent-Based Modeling, Trust Networks, REA / ValueFlows ("structurally absent"), Autopoiesis ("no systematic enactive treatment"), Canonical Layering, Repo-Topology, Audience-Scoping, Structured Disagreement ("peculiarly silent").
+- **Structural role**: substrate in Governance-Process (enumerated powers stratify); agent-property in VSM; relational in Care/Pluriversal.
+- **Paraphrase test**: fails. "Capacity to bind others' commitments" captures VSM but misses asymmetric-vulnerability and enumerated-powers patterns. Spore's symmetric holons reproduce the Baier/Jackson/Federici critique.
+- **Verdict**: **admit as primitive OR as named asymmetry on commitment/membrane**. Second-sharpest gap.
+
+### Reciprocity
+
+- **Tradition-count**: load-bearing in Commons Governance (Ostrom 1998), Pluriversal (ayni, kintu — *the* core ritual primitive), Trust Networks (Hardin/Axelrod), Care Ethics (Noddings non-contractual mutuality), REA / ValueFlows (duality + reciprocal commitments), Agent-Based Modeling (Tit-for-Tat), Distributed Systems (bilateral/exactly-once), Autopoiesis / 4E (coordination-of-coordinations); absent or weak in Philosophy of Collective Agency (implicit in Bratman, never named), MARL (only emergent), Viable System Model ("absent as named"), Category Theory, Canonical Layering, Governance-Process ("mostly absent — CLAs are one-directional"), Repo-Topology, Audience-Scoping, Structured Disagreement.
+- **Structural role**: paired commitment or event across every tradition that treats it.
+- **Paraphrase test**: adequate structurally (paired commitments + linked evidence). Loses Pluriversal ritual-with-non-human-kin and Care non-contractual mutuality.
+- **Verdict**: **admit as derived (paired commitments); flag residues**. The symmetric-vs-asymmetric split surfaced in §1 means the "pair" structure reads differently in REA/Axelrod (duality) than in Care/Pluriversal (caregiver/cared-for, ritual offering to non-human kin). Adopting the asymmetric reading would change what "a commitment" *is*; this decision is deferred here and surfaced in §8.
+
+### Reproduction / continuity
+
+- **Tradition-count**: *the* central primitive in Care Ethics / Feminist Economics (Federici "ground zero of revolution"; Folbre); load-bearing in commoning-Commons (De Angelis), Viable System Model ("viability *is* survival over time"), Pluriversal (cyclical rituals, ancestor rebirth), Governance-Process (succession), Structured Disagreement (replication crisis); *notably not required* for Maturana's original autopoiesis; weakly present in REA / VF (Knowledge layer = re-enactment, *social reproduction absent*); absent in Philosophy of Collective Agency, MARL, Distributed Systems, Category Theory, Agent-Based Modeling, Trust, Canonical Layering, Repo-Topology, Audience-Scoping.
+- **Structural role**: invisible-substrate (Care, commoning); viability condition (VSM); renewal regime (Governance-Process, Structured Disagreement); agent-property via adaptivity in Autopoiesis-adjacent work.
+- **Paraphrase test**: partial. "Repeated commitments over generations + knowledge-transmission" captures pattern but misses Federici's point that reproductive labor is *invisible* to the accounting frame.
+- **Verdict**: **admit as primitive**. The corpus support is strong enough that treating this only as a field-property understates the convergence. The care/reproduction distinction remains a residue, but Phase 4 should test `reproduction-continuity` as a primitive broader than the already-frozen `reproductive-commoning` lineage.
+
+### Boundary
+
+- **Tradition-count**: *the* single most universally shared primitive — Canonical Layering (Evans, Cockburn, 42010, C4), Commons (Ostrom Principle 1, Cox 1A/1B split), Viable System Model, Care Ethics (Tronto's *Moral Boundaries*), Autopoiesis / 4E (operational closure *specifies* boundary), Distributed Systems, Category Theory (covers), Repo-Topology, Governance-Process (charter), REA / VF (inside/outside agent), Pluriversal (territory/lineage), Trust (implicit), Structured Disagreement (independence-as-boundary); weak in Philosophy of Collective Agency, MARL, Agent-Based Modeling, Audience-Scoping.
+- **Structural role**: substrate-defining in Canonical Layering and Autopoiesis; agent-property in VSM/REA; relational in Care/Pluriversal.
+- **Paraphrase test**: tight. Spore's *membrane* covers this. Gap: Ostrom double-boundary and Bollier-Helfrich "semi-permeable" should be named explicitly.
+- **Verdict**: **keep membrane; name permeability and double-boundary dimensions explicitly**.
+
+### Attention
+
+- **Tradition-count**: load-bearing only in Care Ethics (Tronto's "attentiveness as core moral moment") and indirectly in Autopoiesis / 4E (Thompson concern, Varela sense-making); related-but-unnamed in Pluriversal; absent or weak in the other fourteen.
+- **Structural role**: phase/verb in Care; enabling condition in Autopoiesis.
+- **Paraphrase test**: thin. Signal-directed-to-commitment-site bypasses Tronto's pre-commitment moral moment.
+- **Verdict**: **leave out; name as recognition-phase of intent**. Tradition-count too low to justify primitive status.
+
+## §4 — Over-specifications in Spore's current primitives
+
+### Intent
+
+- **Presence**: primitive in Philosophy of Collective Agency (the foundational split — which *kind* is primitive), Agent-Based Modeling (BDI intent as filtered mental state), REA / ValueFlows (Haugen *Needs/Abilities* 2005 → VF Intent, "most notable addition beyond classical REA"), Distributed Systems emerging (Anoma); present *as POSIWID* in Viable System Model ("the purpose of a system is what it does" — observer-imputed, *not* first-class). Absent or derivative in MARL, Commons Governance, Trust Networks, Category Theory, Autopoiesis / 4E, Canonical Layering, Pluriversal ("intent is shown through duty"), Governance-Process, Structured Disagreement, Repo-Topology, Audience-Scoping.
+- **Derivations**: strategy (MARL), preference (Commons), sense-making mode (Autopoiesis), half-commitment (VF), observer-imputed purpose (VSM POSIWID).
+- **Verdict**: **keep as primitive; document POSIWID challenge** (Espejo: observers may attribute diverse purposes to the same organization). VF's half-of-a-commitment-looking-for-mate is the sharpest mechanical precedent.
+
+### Commitment
+
+- **Presence**: primitive-but-contested in Philosophy of Collective Agency (Gilbert/Tuomela sui generis; Bratman/Ludwig reduce to stability-of-intention); primitive in Agent-Based Modeling via BDI; *mechanism-dependent credible commitment* in Commons; primitive-but-contested across 40 years in REA / ValueFlows — McCarthy 1982 excluded; Geerts-McCarthy 2000 added; Ševčík 2016 collapses to contracted/completed sub-states; Foster 2024 firmness-of-plan — "the tradition has never agreed." Load-bearing in Distributed Systems (linearization + durability). Absent or resisted in MARL (grim-trigger only), Care (mentioned, not formalized), Trust, Viable System Model ("absent as named primitive"; Resource Bargain is variety-budgeting not promise), Autopoiesis, Structured Disagreement ("Apache: a vote is opinion, not commitment"), Category Theory, Pluriversal, Governance-Process.
+- **Derivations**: stability-of-intention (Bratman), scheduled event (Ševčík REA), firmness-of-plan (Foster VF).
+- **Verdict**: **keep; document the contradiction**. Two traditions give cover; four treat absent/derivative; REA's 40-year split means any Spore position "steps into a live disagreement, not a settled consensus." Name stance (primitive with illocutionary force) and reject scheduled-event-shadow reading. Commitment is therefore the highest-stakes unresolved disagreement surfaced by the corpus review; §8 treats it as a Tier-1 priority.
+
+### Evidence
+
+- **Presence**: primitive in Distributed Systems (cryptographic proofs, receipts), structurally primary in REA / ValueFlows (unnamed — "an EconomicEvent *is* evidence"), load-bearing in Governance-Process (W3C CR exit, IETF "two independent interoperable implementations") and Structured Disagreement (replication-crisis); adjacent in Commons (monitoring + information rules). Absent or derivative in Philosophy of Collective Agency ("absent as technical primitive"), MARL, Care, Trust ("embedded, not elevated"), Viable System Model (S3* audit closest), Agent-Based Modeling (logging), Category Theory, Autopoiesis ("largely absent in enactivism's vocabulary"), Canonical Layering, Pluriversal ("narrative coherence of a tradition").
+- **Derivations**: equal-to-event (REA), observation (MARL, Trust), monitoring-output (Commons).
+- **Verdict**: **keep; rename-in-glossary as *attestation-of-execution*, not epistemological evidence**. Attestation reading supported by Distributed + REA + Governance-Process; epistemological reading unsupported.
+
+### Signal
+
+- **Presence**: primitive in MARL (Shoham/Leyton-Brown dedicate a chapter), load-bearing in Viable System Model (variety signals + *algedonic* threshold alarms bypassing hierarchy), Agent-Based Modeling, REA / ValueFlows as Haugen's framing ("signals for a Mutual Coordination Economy based on use-value not price"), Trust Networks (reputation-as-signal), Distributed Systems (gossip). Absent or derivative in Philosophy of Collective Agency ("absent as technical primitive"), Commons (folded into information rules), Category Theory, Care, Autopoiesis / 4E (*explicitly replaced by structural coupling*), Canonical Layering, Governance-Process ("none treat signaling as a general concept"), Pluriversal, Audience-Scoping, Repo-Topology.
+- **Derivations**: open expression (Gilbert/Searle), information-rule output (Commons), structural coupling (Autopoiesis — which *rejects* signal's sender-receiver ontology).
+- **Verdict**: **keep; document Autopoiesis objection**. VSM algedonic pattern should be named as supported. The enactive critique is a standing objection Spore owes an answer to, not a detail to leave implicit.
+
+### Holon
+
+- **Presence**: partial in Philosophy of Collective Agency (List-Pettit supervenient group agent holonic in effect; Gilbert/Ludwig *reject*); load-bearing in Agent-Based Modeling; *structurally present but terminologically absent* in Viable System Model — "Beer's recursion is logically equivalent to Koestler's holon, but Beer does not cite Koestler"; primitive in Distributed Systems via Holonic Modeling; partial in Canonical Layering (C4 zoom, DDD); recursive-but-untheorized in REA / ValueFlows (Plan > Process > Event); latent in Commons (nested enterprise). Absent in MARL (coalitions = arbitrary subsets), Category Theory, Care, Trust, Autopoiesis / 4E (replaced by *dynamic co-emergence* — Koestler's term explicitly refused), Pluriversal ("a mountain contains people in its body, but this overlap is taken literally"), Governance-Process (hierarchical not recursive), Repo-Topology, Audience-Scoping, Structured Disagreement.
+- **Derivations**: supervenient group agent (List-Pettit), recursion-by-fiat (VSM), co-emergence (Autopoiesis).
+- **Verdict**: **keep; acknowledge terminological-orphan status**. Structure widely supported; Koestler vocabulary rare.
+
+### Field (substrate; ADR-0008)
+
+- **Presence**: load-bearing in Autopoiesis / 4E, Agent-Based Modeling, Commons Governance (biophysical + community attributes, *substrate layer "largely absent" in IAD proper*), Category Theory / Sheaves (base space), Viable System Model, Distributed Systems, Pluriversal (territory-as-living-being — *fuses* substrate with agent). *Notably absent* in Philosophy of Collective Agency ("substrate layer largely absent; closest is Searle's Background, unthematized") and REA / ValueFlows (no named substrate; duality happens *between agents*).
+- **Verdict**: **keep; a defensible commitment pulling Spore toward the social-ecological pole**. The analytic/REA omission is exactly what care-ethics/autopoiesis/pluriversal critics target. Category Theory's *site* is the sharpest formalization Spore could draw on.
+
+### Membrane (interface)
+
+- **Presence**: load-bearing across more traditions than any other boundary-related concept — Autopoiesis / 4E (operational closure), Commons Governance (Bollier-Helfrich "semi-permeable membranes" — the exact phrase), Canonical Layering (port/adapter), Viable System Model (variety attenuator/amplifier pairs), REA / ValueFlows (implementation seam), Category Theory / Sheaves (restriction maps).
+- **Verdict**: **keep. Spore's best-supported primitive across 17 traditions** — vocabulary rare, pattern near-universal.
+
+## §5 — Ontological-level observations
+
+The 17 traditions do not stratify *substrate / agent / verb / interface / trace* cleanly. A soft three-layer consensus exists (medium beneath, agents within, relations between), but past that, disagreement runs in every direction.
+
+**Substrate / agent distinction.** Traditions that *explicitly* distinguish: Agent-Based Modeling (environment vs. agents), Category Theory (base category vs. stalks), Commons Governance (biophysical/community attributes vs. appropriators), Viable System Model (environment-slice vs. S1), Autopoiesis / 4E (medium vs. organism, co-emergent), Distributed Systems (network vs. nodes). Traditions that *collapse* substrate into agent: Philosophy of Collective Agency (Searle's Background is closest and is unthematized), REA / ValueFlows (duality-between-agents leaves no room for field — exactly Haugen's *Beyond the Enterprise* critique), Trust Networks, Canonical Layering. Pluriversal *fuses* substrate and agent (mountains-as-ancestors). Spore's ADR-0008 field aligns with the first group, placing Spore among ecology-aware traditions and against planning-cognitivist ones.
+
+**Verbs as primitive vs. operations on nouns.** The sharpest ontological fault. *Verbs primitive*: Philosophy of Collective Agency (intent, commitment, we-intention primary; "group" derived via supervenience), Governance-Process Meta-Research (proposing/reviewing/ratifying *is* the process). *Nouns-plus-operations*: MARL (verbs are derived strategies), Distributed Systems (commit is a *point*, not primitive), REA / VF (events and resources primary; commitment as scheduled future event under Ševčík reading), Category Theory (objects + morphisms, morphisms second-class), Agent-Based Modeling (intent is a BDI *state*). *Mixed*: Autopoiesis, Commons (commoning-verb Linebaugh vs. commons-object Ostrom), VSM. Spore sits firmly in the verbs-as-primitive camp. **This is the ontological choice that most distinguishes Spore from the engineering-operational traditions it draws tooling from.**
+
+**Interfaces as first-class vs. emergent.** *First-class*: Canonical Layering (Cockburn's "symmetric boundary is the point"), Viable System Model (attenuator/amplifier pairs designed), Category Theory (restriction maps definitional), Autopoiesis / 4E (operational closure *specifies* interface), Commons Governance (Bollier-Helfrich). *Emergent or implicit*: MARL, Agent-Based Modeling, REA / VF (implementation seam untheorized), Trust Networks, Pluriversal. Spore's membrane is first-class — where Spore has the tightest tradition support.
+
+**Trace as load-bearing category.** *Load-bearing*: Distributed Systems (Kreps log as unifying abstraction), REA / VF (event log *is* memory), MARL, Structured Disagreement (replication hinges on evidence-trace reproducibility), Commons (monitoring adjacent), Governance-Process (archives). *Absent or implicit*: Philosophy of Collective Agency (continuity via intention stability), Category Theory, Care (memory as motivation), VSM (S4 model substitutes), Autopoiesis (*anti-representational* memory rejects trace-as-epistemology), Trust, Canonical Layering. Spore's *signal* is not Kreps-trace (emphasizes live transmission); Spore's *evidence* is closer. **Spore splits into signal + evidence what Distributed Systems and REA treat as one log** — defensible, but means Spore cannot cleanly express Kreps's "log as substrate" or REA's "EconomicEvent *is* evidence."
+
+**Inversions.** First, Spore treats *field* as substrate beneath agents; Philosophy of Collective Agency either lacks substrate or treats it as derivative (Searle's Background emerges from neurophysiology; List-Pettit supervenience has no substrate). What Spore posits as substrate, the analytic tradition does not posit at all — the core structural commitment of ADR-0008. Second, Spore treats *commitment* as a load-bearing verb in its own right; REA / VF under Ševčík 2016 treats commitment as *derived from* scheduled event + degree-of-firmness — under that reading, Spore's intent → commitment → evidence would collapse into a single event-type stratified by temporal modality. Spore's choice to keep three distinct verbs inverts the Ševčík reading and aligns with Geerts-McCarthy 2000 and Hruby 2006.
+
+**Flagged confusions in current Spore canon.** (1) Without a dedicated *trace* primitive, Spore splits what Distributed Systems and REA unify — every real coordination system will ask "where is the log?" (2) A holon at scale N is a field at scale N+1; ADR-0008 did not resolve whether field and holon are the *same structure from different directions* or *distinct primitives*. VSM resolves by fiat, Category Theory via nested sheaves, Autopoiesis via co-emergence — Spore should pick a lane. (3) Canonical Layering treats boundary as passive (property of layers); Autopoiesis treats membrane as *produced* by the system it bounds (active); Ostrom treats boundary as *double* (social + ecological). Spore's membrane currently reads closer to the Canonical Layering view — if Spore takes autopoiesis seriously (which its field primitive implies), membrane should become produced-by-the-holon.
+
+## §6 — Meta-corpus observations
+
+### Canonical layering (vs. tradition 13)
+
+The software-architecture tradition treats stratification as *a hypothesis about what will vary independently* (Evans 2003; Richards 2015; Cockburn 2005; Nygard 2011). Its shared primitives are domain isolation, dependency inversion toward a stable core, append-only decision records, and maturity-graded documents (W3C Working Draft → Recommendation). Spore aligns on three: (i) its canon/foundation/protocol/implementation stack is maturity-graded like W3C's Recommendation track; (ii) ADRs with Status draft→active mirror Nygard's five-part append-only template and its "supersede, don't reopen" rule; (iii) the spec DAG enforces directional dependency, analogous to Palermo's Onion / Martin's Dependency Rule.
+
+Spore **diverges ahead** on one axis: the code-architecture literature is "boundary-rich and agency-poor" (research-canonical-layering §3) — it imports trust only as "trust boundary," has no vocabulary for care, reciprocity, commitment, or agency, and Wirfs-Brock's "contract" is the closest analogue to commitment. Spore's direction engages those absences directly through intent, commitment, evidence, signal, holon, field, and membrane, and §7 surfaces `care` as a candidate admission. Spore does **not yet** carry `care` as a canonical primitive.
+
+Spore **diverges behind** on one axis: mature ADR practice separates "architectural decisions" from "significant decisions" to prevent blame-insurance dilution (InfoQ 2023; Keeling 2022) and adds an explicit Rationale field (Merson template, MADR). Spore uses a single template for both constitutional and operational decisions.
+
+Spore is **domain-specific** in its bridge-note / R-claim / disposition stratum. No surveyed layering tradition has an analogue — this is a research-provenance layer separate from code or documentation, designed for a coordination-theory corpus.
+
+### Repo topology (vs. tradition 14)
+
+Spore/IC/PM is a **three-repo shared-canon hybrid**, closest to Netflix's "federated canon" model (research-repo-topology §2): separate repos coordinated by cross-referenced primitives and the projection script. The tradition's axis documents that polyrepo "favors decoupling and engineering velocity, while sacrificing code reuse and consistency" (Netflix blog, §4). Spore pays that cost: Section 5's cross-cutting findings (reproduction primacy, boundary-theory unification) required synchronous coordinated edits across three repos that a monorepo would have made atomic.
+
+The tradition's verdict is that **hybrids are understudied** (§5) and that "without monorepo, [Netflix] had to invest heavily in tools to approach monorepo-like capabilities." Spore has built part of that tooling (projection script, frozen-concepts yaml, coordinated-edit protocol) but not the cross-repo automated refactor equivalent of Netflix's "publisher feedback" service. At ~3 repos this is fine; at 6+ it would not be. Nx's rule — "if developers can't agree on repo policies, split into separate repos" (§4) — legitimizes Spore's split, which reflects distinct governance domains (coordination theory vs. intelligence primitives vs. matchmaking implementation), not team boundaries.
+
+### Governance process (vs. tradition 15)
+
+Mature standards bodies converge on **layered governance: a thin constitutional document above a thicker operational process, with top-layer amendment protected by supermajority thresholds distinct from ordinary decisions** (research-governance-process §2). Debian Constitution v1.9 requires 3:1 supermajority to amend itself; PEP 13 requires 2/3 core-team supermajority; W3C Advisory Board manages Process Document evolution via distinct track.
+
+Spore has **canon-review protocol v2** as operational process and **foundation documents / ADR-0007, ADR-0008** as constitutional layer. The match is real but incomplete. Mature fields separate *amendment thresholds* for each layer; Spore does not distinguish the threshold for editing an ADR from the threshold for amending the protocol that governs ADR editing. Protocol v2 was harvested from v1 execution using the same review process it governs — Rust's RFC 3392 is the direct analogue, and it explicitly warns against "repeated operational decisions [constituting] de facto policy" (§2). Spore has no equivalent warning text.
+
+**Dissent registration.** Mature fields have explicit mechanisms: Apache veto (with required technical justification), W3C Formal Objection escalating to Council, Debian General Resolution with graduated supermajorities, IETF appeals ladder. Spore's disposition system (canon/connection, support/oppose, held-open) is closer to IETF rough consensus (RFC 7282) — "all issues are addressed, but not necessarily accommodated" — and canon review v1 held three tensions open without collapse. But Spore has **no documented escalation path** if an ADR is disputed post-adoption; mature traditions all have one. This is plainly behind the field.
+
+Spore is **ahead** on one dimension: the review artifact (bridge-notes, R-claims with [target:][concept:] markers) is more machine-tractable than any surveyed standards body produces. RFC/PEP/W3C documents are human-prose; Spore's projection script operates on frontmatter.
+
+### Audience / reader-scoping (vs. tradition 16)
+
+IEEE 1063 and ISO/IEC/IEEE 26515 require each document to "describe the intended audience, scope, and purpose" (§1), and prescribe *separate sections or separate documents per audience* when multiple audiences are served. Diátaxis operationalizes this into four reader-need quadrants mapped to novice/intermediate/experienced/expert archetypes.
+
+**Spore does not declare its audience explicitly anywhere in its canonical layer.** The README and project-vision assume a reader already within the coordination-theory discourse. There is no prerequisite declaration, no reader-persona enumeration, no audience matrix. This is behind the field in a concrete, addressable way — not "domain-specific," because IEEE 1063's audience-statement practice would apply verbatim to Spore's bridge-notes and ADRs.
+
+Tradition 16 §4 also surfaces the **human-vs-AI layering debate** (Model Cards, AI Cards). Spore's frontmatter + projection script already implements the machine-readable layer better than most surveyed practitioners — ahead of the field, but orthogonal to the audience-declaration gap.
+
+### Adversarial / structured-disagreement validation (vs. tradition 17)
+
+Spore uses **bakeoff-plan** (Claude + Codex parallel review with cross-review). Spore's practice aligns with the **AI debate lineage** (Irving/Christiano/Amodei 2018; Khan et al. 2024) more than academic peer review.
+
+**Sophisticated:** two models with different reasoning styles, a cross-review step (mitigating Panickssery 2024's self-preference bias by blind cross-grading), and iteration to convergence — exactly the regime Khan et al. 2024 report as improving non-expert judge accuracy from 48% to 76%.
+
+**Thin:** (i) Spore has no documented **inter-rater agreement metric** — tradition 17 §1 treats kappa/ICC as "the tradition's most damning self-audit" (Rothwell 2000 κ=0.08; NeurIPS 2014/2021 ~50% disagreement); Spore does not measure whether Claude and Codex agree above chance. (ii) N=2 is the regime in which "neither Meehl's actuarial advantage nor Tetlock's aggregation advantage is operative" (§5); statistical power is low and Spore does not acknowledge this. (iii) No **meta-review** (JAMA Peer Review Congress analogue). (iv) Self-preference bias per Panickssery 2024 may still apply cross-vendor — untested.
+
+### Summary: ahead / behind / domain-specific
+
+| Dimension | Ahead | Behind | Domain-specific |
+|---|---|---|---|
+| Canonical layering | Populates commitment/agency absences in tradition 13 and explicitly surfaces care as a pending gap | No split between architectural vs. significant decisions; no Rationale field | Bridge-note / R-claim / disposition stratum |
+| Repo topology | Projection script + frozen-concepts yaml | No cross-repo automated refactor; hybrids under-tooled | Three-repo split maps to governance domains, not teams |
+| Governance process | Machine-tractable review artifacts | No distinct amendment threshold for protocol-about-protocols; no dissent-escalation path | Disposition system (canon/connection × support/oppose/held-open) |
+| Audience scoping | Frontmatter as machine-readable layer | No audience declaration in canon; no personas; no prerequisites | — |
+| Adversarial validation | Two-model cross-review aligns with Khan 2024 debate lineage | No inter-rater agreement metric; N=2 power gap unacknowledged; no meta-review | Bakeoff-plan as research-discipline adaptation of AI-debate protocols |
+
+## §7 — Frozen-concepts v3 proposal
+
+Based on §1–§6 above, the following terms are candidates for admission to Spore's frozen-concepts vocabulary for corpus-review v1. The existing v2 vocabulary (38 slugs, frozen 2026-04-17) was harvested from the P2P Foundation wiki intake; the candidates below surface from cross-tradition evidence across the 17 corpus-review syntheses. Each is listed with source-count across those 17 traditions, structural role, and admission rationale. Each entry is explicitly annotated as `(new)`, `(duplicate — already in v2 as <slug>)`, `(differentiated from <frozen slug> because X)`, or `(rename/demotion of current canon <term>)` so the v2 cross-check is visible rather than implicit.
+
+### Admit as primitive (strong cross-tradition support)
+
+- **care** *(differentiated from `reproductive-commoning` / `commons-as-verb` because those frozen slugs name commoning-specific care lineages, while this candidate names the asymmetric relational primitive that also appears outside commoning)* — 4 definitional-or-load-bearing (Care Ethics, Pluriversal, commoning-Commons, partially Autopoiesis/4E); 13 traditions treat it as absent. Rationale: low count but the paraphrase test *fails* — Spore's primitives are symmetric and care is not (Tronto's four-phase asymmetry). Admission as primitive or as an explicit asymmetric sub-type of commitment resolves the feminist-economics critique aimed at Gilbert/Bratman/McCarthy/Beer. Strongest structural case in the corpus despite low tradition count. Candidate slug: `care-commitment` (asymmetric-commitment reading) or `care` (primitive reading).
+
+- **protocol** *(differentiated from `protocol-society` because the frozen slug names a macro-social order where governance runs through protocols, while this candidate names a rule-level primitive inside any coordination system)* — 10 traditions treat norms/protocols as load-bearing (Commons, Governance-Process, Distributed Systems, VSM, PhilCollAgency, REA/VF, Pluriversal, Trust, Canonical Layering, Repo-Topology). Most tradition-supported gap identified in §3. Rationale: Spore has no primitive for the *level* at which a rule operates (Ostrom's operational / collective-choice / constitutional stack). Either admit `protocol` as primitive, or stratify the existing `field` primitive into rule-levels. Candidate slugs: `protocol-level`, `operational-rule`, `collective-choice-rule`, `constitutional-rule`.
+
+- **reproduction-continuity** *(differentiated from `reproductive-commoning` because the frozen slug names the care/commoning lineage specifically, while this candidate names the broader cross-tradition primitive of renewal, survival-over-time, and replication)* — 6 load-bearing (Care, commoning-Commons, VSM, Pluriversal, Governance-Process, Structured Disagreement). Rationale: §1 identified precariousness/viability/ongoingness as the tacit substrate of all "coordination" talk; current Spore canon is silent on it. This capstone now treats `reproduction-continuity` consistently as a primitive candidate across §§1, 3, 7, and 8. Paraphrase test partial: captures pattern but loses Federici's point that reproductive labor is *invisible* to the accounting frame. Candidate slug: `reproduction-continuity` or `viability-over-time`.
+
+### Admit as derived / observable concept (useful vocabulary, not primitive)
+
+- **trust** *(differentiated from `reputation-market` because the frozen slug names one institutional mechanism, not the broader trust ontology under dispute)* — 4 load-bearing + 2 peripheral + 1 explicit negation. Derived from commitment-willingness-given-evidence-and-signal with glossary residue flagging Luhmann (trust-under-irreducible-uncertainty) and Baier (asymmetric-vulnerability). The internal split between trust-as-calculus, trust-as-relational-act, and trust-as-moral-faith is itself a reason to keep this derived for now. Candidate slug: `trust-as-derived`.
+
+- **reciprocity** *(differentiated from `gift-obligation` / `solidarity-substrate` because those frozen slugs name specific reciprocity-bearing lineages, while this candidate names the broader paired-relation vocabulary)* — 8 load-bearing. Derived from paired commitments with linked evidence. Residue: Pluriversal ritual-with-non-human-kin, Care non-contractual mutuality. Candidate slug: `reciprocity-pair`. Note: the symmetric/asymmetric split (§1, §3) means this slug would be under-specified unless paired with `care-commitment` (above), so the derived placement remains provisional rather than settled.
+
+- **identity-as-relational** *(new)* — 5 load-bearing in Care Ethics, Pluriversal, commoning-Commons, Autopoiesis / 4E, and Viable System Model. Not a separate primitive; a named property rather than a standalone primitive. This count excludes cryptographic-tag, persistent-handle, and authorship/sponsorship identity readings, which belong to a broader `identity` bucket rather than this relational subset. Candidate slug: `relational-identity` (distinct from cryptographic-identity tag reading).
+
+- **attestation-of-execution** *(new)* — one proposed reading of current `evidence`, not a corpus-wide rename. Supported by Distributed + REA + Governance-Process readings; Commons monitoring and Structured Disagreement preserve a broader monitoring/evaluation reading that still belongs under `evidence`. Not a new primitive; a possible glossary disambiguation for the execution/provenance subset of the evidence family.
+
+- **algedonic-signal** *(new)* — VSM threshold-alarm pattern bypassing hierarchy. Narrow sub-type of `signal`, load-bearing in VSM, partially in Distributed (gossip) and REA/VF (Haugen coordination signals). Candidate slug: `algedonic-signal`.
+
+- **double-boundary** *(differentiated from `boundary-commoning` / `filtering-membrane` because those frozen slugs name a commoning-at-boundaries pattern and a specific membrane thesis, while this candidate names an analytic axis on `membrane`)* — Ostrom Cox-1A/1B + Bollier-Helfrich "semi-permeable" — two dimensions of membrane (social inclusion boundary + ecological resource boundary) that Spore's current membrane conflates. Not a separate primitive; a named axis on `membrane`. Candidate slug: `double-boundary`.
+
+- **trace / log** *(differentiated from `stigmergy` / `memory-governance` because the frozen slugs name indirect environmental coordination and governance of remembering, while this candidate names the recorded coordination trace/audit substrate)* — §5 flagged confusion: Spore splits into signal + evidence what Distributed Systems and REA treat as one log (Kreps log-as-substrate, EconomicEvent-is-evidence). Candidate slug: `trace` as derived vocabulary, not primitive, with glossary note that Spore deliberately splits the Kreps/REA unification.
+
+- **stigmergy** *(duplicate — already in v2 as `stigmergy`)* — already frozen. Flagged for review in §8 for whether it remains derived or promotes given its cross-tradition role in ABM + Autopoiesis + Commons.
+
+### Defer / insufficient evidence
+
+- **attention** *(new)* — load-bearing only in Care Ethics and indirectly Autopoiesis. N=1–2 traditions. Defer; name as recognition-phase of intent in glossary, not vocabulary entry.
+
+- **memory** *(differentiated from `memory-governance` because the frozen slug names governance over remembering/forgetting, while this candidate names generic coordination memory/logging)* — adequate paraphrase via evidence + field-scoped retention. Defer; admit only if Phase 4 surfaces a concrete coordination case Spore cannot express.
+
+- **state** *(new)* — tight paraphrase (holon state = commitments + evidence). Defer; Bailis invariant-maintenance is the pressure point that may force first-class later, but no current evidence demands admission.
+
+- **power / authority** *(differentiated from `power-capture` because the frozen slug names a failure mode of asymmetry, while this candidate names asymmetry/authority itself)* — 3 load-bearing + 2 load-bearing-as-named-critique + 11 absent/derivative. Paraphrase *fails* (§3): "capacity to bind others' commitments" captures VSM but misses asymmetric-vulnerability and enumerated-powers patterns. Low raw count but sharp failure mode. Defer pending explicit decision about whether Spore commits to symmetric holons (reproducing Baier/Jackson/Federici critique) or admits asymmetry as primitive. Tied to the `care` and `reciprocity-asymmetric` decisions above.
+
+- **collective-intentionality / we-mode / joint-commitment** *(duplicate — already in v2 as `collective-agency` for the `collective-intentionality` strand)* — the Side-B primitive (§2 divergence 1) that would make sociality irreducibly collective. Admission depends on whether Spore commits to Side B. `we-mode` / `joint-commitment` remain adjacent but not yet frozen. Defer to explicit Phase 4 decision; note in glossary as "Gilbert/Tuomela/Searle primitive not currently in Spore canon."
+
+- **participatory-sense-making** *(differentiated from `enactive-cognition` / `structural-coupling` because those frozen slugs name the broader enactive frame, while this candidate names the specific social-interactional extension)* — Autopoiesis/4E primitive that would give Spore an answer to the enactive critique of `signal`. Defer; evidence comes from 1 tradition (Autopoiesis-4E) and partial support from Pluriversal.
+
+### Terms flagged for demotion or renaming in existing Spore canon
+
+- **evidence** *(rename/demotion of current canon `evidence`)* → do **not** settle on **attestation-of-execution** as a corpus-wide rename here. Keep `evidence` as the umbrella term; treat `attestation-of-execution` as one narrower glossary reading for the Distributed / REA / Governance-Process cases, while preserving Commons monitoring and Structured-Disagreement evaluation readings.
+
+- **signal** → retain, but glossary must document the Autopoiesis objection (signal-as-information is a representational-picture fossil replaced by structural coupling). Not a demotion; an explicit owed answer.
+
+- **holon** → retain with terminological-orphan note. Structure widely supported (VSM recursion, List-Pettit supervenience, DS holonic modeling, REA Plan>Process>Event, Commons nested-enterprise); Koestler vocabulary rare. Not a demotion; a provenance note.
+
+- **commitment** → retain, but glossary must document the 40-year REA/VF disagreement (McCarthy 1982 excluded → Geerts-McCarthy 2000 added → Ševčík 2016 collapses → Foster 2024 firmness) and the Gilbert/Bratman split. The corpus does not settle this; Spore's position must name itself as a position, not a consensus report.
+
+- **field** (ADR-0008) → retain; document the analytic/REA omission as the exact target of care-ethics/autopoiesis/pluriversal critiques. Pull Category Theory's *site* forward as the sharpest formalization.
+
+- **membrane** → retain as Spore's best-supported primitive; name permeability (semi-permeable, Bollier-Helfrich) and double-boundary (Ostrom 1A/1B) dimensions explicitly per §3, and keep it distinct from the already-frozen `filtering-membrane` opposition primitive.
+
+**Note on vocabulary governance:** v2 is frozen (38 slugs, 2026-04-17); any v3 extension requires the same operator-approval commit discipline. The candidates above are **proposals to Phase 4**, not preemptive admissions. The `care` / `protocol` / `reproduction-continuity` primitive candidates should route through ADR-track constitutional amendment (per §6 governance-process finding), not ordinary ADR flow, if Spore adopts a PEP-1 / PEP-13 split.
+
+## §8 — Priorities for the corpus review
+
+The findings below are ranked by stakes for Phase 4 diagnostic. Tier 1 items are so load-bearing that leaving them unresolved makes the corpus review incomplete. Tier 2 items materially improve canon but are not fatal if deferred. Tier 3 items should be recorded as held-open tensions for v2 or future work.
+
+### Tier 1 — must address
+
+1. **Commitment is the highest-stakes unresolved disagreement in the corpus.** REA/VF has lived in this disagreement for 40 years (McCarthy 1982 excluded → Geerts-McCarthy 2000 added → Hruby 2006 as pattern → Ševčík 2016 collapses it into sub-states of a single transaction → Foster 2024 firmness-of-plan partially derived from Intent). Gilbert/Tuomela treat it as sui generis; Bratman/Ludwig reduce it to stability-of-intention; Apache voting.html denies that commitment applies to its own votes; VSM lacks it entirely (Resource Bargain = variety-budgeting). **Stakes:** any Spore position on commitment steps into a live disagreement, not a settled consensus — which means Spore's canon cannot pretend to "inherit" commitment from any one tradition. **Recommended action:** explicit ADR documenting (a) Spore's commitment stance (primitive with illocutionary force), (b) the rejected alternative (scheduled-event-shadow / Ševčík reading), (c) the Gilbert/Bratman split with a named choice, (d) the VSM absence as a non-defeater. This is the single highest-stakes Tier-1 priority.
+
+2. **Care / asymmetry of reciprocity is a structural hole, not an addition.** Spore's primitives are symmetric; care is not (Tronto's four-phase asymmetry). Omission reproduces the feminist-economics critique aimed at Gilbert, Bratman, McCarthy, Beer. The reciprocity split in §1 (REA/Axelrod symmetric duality vs. Care/Pluriversal caregiver/cared-for, ritual offering) means adopting an asymmetric reading would change what "a commitment" *is*. **Stakes:** Spore's ecological program is incoherent without care or an asymmetric sub-type of commitment. **Recommended action:** decision-record on admitting `care` as primitive OR as asymmetric sub-type of commitment; if the latter, a companion ADR on reciprocity's symmetric-vs-asymmetric default.
+
+3. **Sociality-reducibility (Side A vs. Side B) is the single most consequential unresolved question for whether Spore's canon is complete.** Side B traditions (Gilbert wing, Autopoiesis/4E, VSM, commoning-Commons, Pluriversal) are almost exactly the set that treat identity as relational (§1). §1's convergence on relational identity and §2's divergence on reducibility are a single structural joint, not two independent findings. **Stakes:** if Side A, Spore's holon is mere aggregation; if Side B, Spore needs a primitive that *cannot be analyzed via* individual intent/commitment. **Recommended action:** explicit ADR resolving Spore's stance, with an accompanying primitive admission (joint-commitment or participatory-sense-making) if Side B, or explicit note-of-limitation if Side A.
+
+4. **Norms / protocols — ten traditions load-bearing, richest formalization in the corpus.** Spore cannot express Ostrom's seven rule types or constitutional-amendment-threshold patterns; this is the most tradition-supported gap in §3. **Stakes:** without a protocol-level primitive (or stratified field), Spore cannot represent the governance-mature distinction between operational, collective-choice, and constitutional rules — the PEP 1 / PEP 13 split that §6 identifies as plainly behind the field. **Recommended action:** decision-record on admitting `protocol` as primitive or stratifying `field`; paired with PEP 1 / PEP 13 amendment-threshold split per §6.
+
+5. **Reproduction / continuity primitive.** §1 identifies precariousness/viability/ongoingness as the strongest single argument for expanding canon, and §3/§7 now treat `reproduction-continuity` consistently as a primitive candidate rather than a field-only property. **Stakes:** without a named continuity primitive, Spore can describe coordination episodes but not the renewal, succession, and replication conditions they are for. **Recommended action:** Phase 4 should test `reproduction-continuity` as a primitive above the already-frozen `reproductive-commoning` lineage, with explicit distinction from care and commoning-specific cases.
+
+### Tier 2 — should address
+
+6. **Amendment-threshold split for canon-review protocol v2.** Protocol v2 was harvested from v1 execution using the same machinery it governs; Rust's RFC 3392 warns against "repeated operational decisions constituting de facto policy." Spore has no equivalent guard-text. **Stakes:** normalization-of-deviance risk on the protocol-about-protocols layer. **Recommended action:** add a constitutional-amendment-threshold clause to protocol v2 (heightened supermajority or cooling-off); document as meta-ADR.
+
+7. **Dissent-escalation path.** Spore's disposition system is close to IETF rough consensus (§6) and handled three held-open tensions in v1 without collapse. But no documented escalation path exists if an ADR is disputed post-adoption; mature traditions all have one (Apache veto, W3C Formal Objection, Debian General Resolution, IETF appeals ladder). **Stakes:** a single high-conflict ADR without an escalation path would expose the gap under pressure. **Recommended action:** one-page escalation-path ADR modelled on IETF RFC 2026 §6.5 + Apache veto.
+
+8. **Audience-declaration block on README and ADR/bridge-note templates.** IEEE 1063 / ISO 26515 require "intended audience, scope, and purpose" per document; Spore declares this nowhere. This is the second-cheapest improvement in the review — one paragraph template change, no structural change. **Stakes:** low per-document cost, high across-corpus clarity. **Recommended action:** one-paragraph prerequisite block added to README + ADR + bridge-note templates.
+
+9. **Enactive critique of `signal`.** Autopoiesis explicitly replaces signal-as-information with structural coupling; if Spore preserves signal as primitive, it owes an answer. **Stakes:** moderate — the corpus does not force replacement, but the absence of an answer makes §2's divergence 6 look like silent routing-around. **Recommended action:** glossary paragraph on signal documenting the Autopoiesis objection and Spore's stance (e.g., "we treat signal as a named channel supported by MARL/VSM/DS/ABM/REA/Trust and acknowledge the enactive objection as standing").
+
+10. **Holon-vs-field confusion (§5).** A holon at scale N is a field at scale N+1; ADR-0008 did not resolve whether these are the same structure or distinct primitives. VSM resolves by fiat, Category Theory via nested sheaves, Autopoiesis via co-emergence. **Stakes:** if unresolved, implementation work will repeatedly hit ambiguity when choosing between `holon` and `field` representations. **Recommended action:** ADR picking a lane (recommend Category Theory's *site* formalization as the sharpest tool, per §4).
+
+11. **Trace / log gap (§5).** Spore splits into signal + evidence what Distributed Systems and REA treat as one log. Every real coordination system will ask "where is the log?" **Stakes:** implementation-time friction, not canon incoherence. **Recommended action:** glossary entry naming `trace` as derived vocabulary, with explicit note that Spore deliberately splits Kreps/REA unification and why.
+
+### Tier 3 — document as deferred / held-open
+
+12. **DH-IC-1 pluriversal-incommensurability.** One-world vs. many-worlds is not a localized indigenous concern; support for Side B crosses traditions (VSM-Espejo, commoning-Commons, Autopoiesis partially). **Stakes:** the corpus does not settle this; adopting Side B requires allowing incommensurable canonical branches. **Recommended action:** held-open ADR flagging the cross-tradition axis and listing Side-B supporters by tradition, not just by cultural location.
+
+13. **N=2 statistical-power limitation in bakeoff-plan.** "Neither Meehl's actuarial advantage nor Tetlock's aggregation advantage is operative" at N=2 (§6). Self-preference bias per Panickssery 2024 may still apply cross-vendor. **Stakes:** the corpus review's own validity claim is weaker than the review artifact implies. **Recommended action:** explicit acknowledgment in canon-review protocol, not a process change. Record as held-open — addressing properly requires adding a third reviewer or documented inter-rater-agreement measurement, both outside v1 scope.
+
+14. **Ostrom self-reversal / design-vs-diagnostic ambiguity (§2 divergence 7).** Ostrom produced Side-A-looking principles then spent her career arguing they are Side-B diagnostics. Spore's canon currently reads Side A (design for coordination); §1–§3 tilt Side B. **Stakes:** affects whether canon changes are justified by "primitive correctly specified" or "field evidence current canon fails to name." **Recommended action:** document as deferred; the resolution is implicit in how Phase 4 handles Tier 1 items 1–5 and does not need a standalone ADR yet.
+
+15. **Power / authority primitive.** Sharp paraphrase-failure (§3) but low raw tradition count. Tied to `care` and `reciprocity-asymmetric` decisions — resolve those first, then revisit. **Recommended action:** hold open; revisit after Tier-1 items 1 and 2 settle.
+
+16. **Participatory-sense-making as answer to signal-critique.** Single-tradition support (Autopoiesis/4E) + partial Pluriversal. Would resolve §8 item 9 but admission requires stronger cross-tradition evidence. **Recommended action:** hold open pending v2 research round on enactivism.
+
+## R-claims
+
+- **R1**: Boundary/membrane is the capstone's strongest cross-tradition convergence, but the corpus still disagrees on whether boundary is passive, double, or self-produced. [target:candidate:membrane-primitive] [concept:membrane]
+*R1 is supported by research-commons-governance.md, research-canonical-layering.md, and research-autopoiesis-4e.md.*
+
+- **R2**: Relational identity and irreducible collective agency travel together across the corpus more often than either appears alone. [target:candidate:relational-identity] [concept:collective-agency]
+*R2 is supported by research-care-ethics.md, research-philosophy-collective-agency.md, and research-viable-system-model.md.*
+
+- **R3**: Norms and protocols are the most tradition-supported missing primitive or layer in Spore's current canon. [target:candidate:protocol-primitive] [concept:protocol-society]
+*R3 is supported by research-commons-governance.md, research-governance-process.md, and research-distributed-systems.md.*
+
+- **R4**: Care and reproduction-continuity are the strongest admission candidates because they name asymmetry and renewal that the current symmetric core omits. [target:candidate:care-and-continuity] [concept:reproduction-continuity]
+*R4 is supported by research-care-ethics.md, research-commons-governance.md, and research-viable-system-model.md.*
+
+- **R5**: Commitment is the capstone's highest-stakes unresolved issue because the corpus never settles whether it is primitive, constructed, or a scheduled-event shadow. [target:candidate:commitment-primitive-status] [concept:commitment]
+*R5 is supported by research-philosophy-collective-agency.md, research-rea-valueflows.md, and research-governance-process.md.*
+
+- **R6**: The review machinery itself is part of the corpus problem: Spore is ahead on machine-readable artifacts but behind on amendment thresholds, audience declaration, and N=2 validation discipline. [target:meta:corpus-foundational-review] [concept:evidence]
+*R6 is supported by research-governance-process.md, research-audience-scoping.md, and research-structured-disagreement.md.*
+
+## Appendix — Changes from v1 per external review
+
+This capstone was revised on 2026-04-19 in response to external review (`research-capstone-review.md`). Changes are bounded to the four must-fix items identified; non-blocking improvements are deferred to `tmp/capstone-v2-backlog.md`.
+
+### Fix 1 — §7 vocabulary governance
+
+- `care`: differentiated from frozen `reproductive-commoning` and `commons-as-verb` so the capstone now treats `care` as a general asymmetric relation rather than a commoning-specific practice. Sources: `docs/research/concepts-p2p-wiki.yaml:140-168`.
+- `protocol`: differentiated from frozen `protocol-society`; the capstone now uses `protocol` for rule-level structure inside a coordination system, not for a society-scale governance order. Sources: `docs/research/concepts-p2p-wiki.yaml:60-63`.
+- `reproduction-continuity`: differentiated from frozen `reproductive-commoning`; the capstone now treats it as the broader renewal/survival/replication primitive above that care/commoning-specific lineage. Sources: `docs/research/concepts-p2p-wiki.yaml:140-144`, `docs/research/corpus-review/research-care-ethics.md:64-77`, `docs/research/corpus-review/research-viable-system-model.md:84-84`, `docs/research/corpus-review/research-governance-process.md:78-78`, `docs/research/corpus-review/research-structured-disagreement.md:90-90`.
+- `trust`, `reciprocity`, `memory`, `power / authority`, `participatory-sense-making`, `double-boundary`, and `trace / log`: annotated against adjacent frozen slugs and aliases (`reputation-market`, `gift-obligation`, `solidarity-substrate`, `memory-governance`, `power-capture`, `enactive-cognition`, `structural-coupling`, `boundary-commoning`, `filtering-membrane`, `stigmergy`) so the overlap is explicit rather than implied. Sources: `docs/research/concepts-p2p-wiki.yaml:84-87`, `docs/research/concepts-p2p-wiki.yaml:120-185`, `docs/research/concepts-p2p-wiki.yaml:212-239`.
+- `identity-as-relational`: recounted from 9 to 5 using only traditions that actually support relational identity, excluding cryptographic-tag, persistent-handle, and authorship/sponsorship identity models. Sources: `docs/research/corpus-review/research-care-ethics.md:87-101`, `docs/research/corpus-review/research-pluriversal.md:25-36`, `docs/research/corpus-review/research-commons-governance.md:60-60`, `docs/research/corpus-review/research-viable-system-model.md:68-70`, `docs/research/corpus-review/research-autopoiesis-4e.md:70-70`, `docs/research/corpus-review/research-distributed-systems.md:107-107`, `docs/research/corpus-review/research-trust-reputation.md:85-90`, `docs/research/corpus-review/research-trust-reputation.md:125-128`, `docs/research/corpus-review/research-governance-process.md:52-52`.
+- `collective-intentionality`: marked as already frozen in v2 under `collective-agency` and therefore not a clean new admission candidate. Source: `docs/research/concepts-p2p-wiki.yaml:126-129`.
+- `attestation-of-execution`: reframed from a settled rename into one proposed reading of `evidence`, preserving the broader monitoring/evaluation reading. Sources: `docs/research/corpus-review/research-rea-valueflows.md:82-82`, `docs/research/corpus-review/research-governance-process.md:70-70`, `docs/research/corpus-review/research-commons-governance.md:78-78`, `docs/research/corpus-review/research-structured-disagreement.md:82-82`.
+- Inline `[cf ...]` citations were preserved; no existing inline citation tags were removed during this repair pass.
+
+### Fix 2 — Reproduction/continuity reconciliation
+
+- Position chosen: (a) admit as primitive `reproduction-continuity`.
+- Changes in §§1, 3, 7, 8: §1 now frames `reproduction-continuity` as the strongest single expansion rationale; §3 now classifies it as a primitive rather than a field-only property; §7 differentiates it from frozen `reproductive-commoning`; §8 now ranks it in Tier 1. Sources: `docs/research/corpus-review/research-care-ethics.md:64-77`, `docs/research/corpus-review/research-commons-governance.md:84-86`, `docs/research/corpus-review/research-viable-system-model.md:84-84`, `docs/research/corpus-review/research-governance-process.md:78-78`, `docs/research/corpus-review/research-structured-disagreement.md:90-90`, `docs/research/concepts-p2p-wiki.yaml:140-144`.
+
+### Fix 3 — §1 overclaims
+
+- Agency convergence: reframed to remove Category Theory / Sheaves and Distributed Systems as supporters and to state the narrower claim that structural agency appears where agency is theorized, but several traditions omit a formal agency primitive entirely. Sources: `docs/research/corpus-review/research-category-theory-sheaves.md:138-147`, `docs/research/corpus-review/research-distributed-systems.md:103-112`, `docs/research/corpus-review/research-rea-valueflows.md:72-72`.
+- Reciprocity convergence: rewritten as recurrent-but-semantically-split rather than a stable convergence. Sources: `docs/research/corpus-review/research-care-ethics.md:215-223`, `docs/research/corpus-review/research-pluriversal.md:62-72`, `docs/research/corpus-review/research-trust-reputation.md:195-198`, `docs/research/corpus-review/research-viable-system-model.md:98-98`.
+- Boundary/precariousness supporters: added ABM to boundary and Governance-Process plus Structured Disagreement to precariousness/continuity. Sources: `docs/research/corpus-review/research-agent-based-modeling.md:121-133`, `docs/research/corpus-review/research-governance-process.md:78-78`, `docs/research/corpus-review/research-structured-disagreement.md:90-90`.
+
+### Fix 4 — §6 care contradiction
+
+- Reworded the canonical-layering prose and summary table so Spore is described as engaging the architecture tradition's care absence without claiming that `care` is already canonical. This aligns §6 with the care-gap diagnosis in §3 and the admission proposal in §7. Sources: `docs/research/corpus-review/research-capstone-review.md:129-145`, `docs/research/corpus-review/research-care-ethics.md:60-77`, `docs/research/corpus-review/research-care-ethics.md:87-101`.
+
+### Deferred to v2 backlog
+
+- See `tmp/capstone-v2-backlog.md`.

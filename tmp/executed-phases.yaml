@@ -1,0 +1,59 @@
+executed_phases:
+  - phase: 0
+    closed_at: 2026-04-19T16:21:20-07:00
+    commits:
+      spore: 6390b26dc0723e6c90579f9d3dc3982e019e67ed
+      intelligence-commons: 84213dd48ddfcfa44bb3b0326f5107685b232775
+      poietic-match: 33cfb10fca9bbc7dce58ff02d078187e263fb67e
+  - phase: 1
+    closed_at: 2026-04-19T17:00:39-07:00
+    commits:
+      spore: edf0caa6c505a4f69b11ee678715c9dc3007da81
+      intelligence-commons: 5a4ab624e918d22289b65f05efae60dbb85eb2e6
+      poietic-match: ba48fb45e01da41f5c6a8bd0d20eb464e927b8cb
+  - phase: 2
+    closed_at: 2026-04-19T17:01:12-07:00
+    commits:
+      spore: 6a99cf789be41f7cea31c62df86d1e36caeb601e
+      intelligence-commons: 5a4ab624e918d22289b65f05efae60dbb85eb2e6
+      poietic-match: ba48fb45e01da41f5c6a8bd0d20eb464e927b8cb
+  # Phase 3 archaeology: the last add commit for docs/research/corpus-review/research-*.md
+  # resolves to the Phase 0 snapshot commit on this branch.
+  - phase: 3
+    closed_at: 2026-04-19T16:21:20-07:00
+    commits:
+      spore: 6390b26dc0723e6c90579f9d3dc3982e019e67ed
+      intelligence-commons: 5a4ab624e918d22289b65f05efae60dbb85eb2e6
+      poietic-match: ba48fb45e01da41f5c6a8bd0d20eb464e927b8cb
+  - phase: 4
+    closed_at: 2026-04-19T23:14:45-07:00
+    commits:
+      spore: 89501e4eb45433f1606c2ee4c65db7aca304c2fd
+      intelligence-commons: 5a4ab624e918d22289b65f05efae60dbb85eb2e6
+      poietic-match: ba48fb45e01da41f5c6a8bd0d20eb464e927b8cb
+  - phase: 5
+    closed_at: 2026-04-20T09:34:38-07:00
+    commits:
+      spore: 378880237e5ac8beec63a0b3f64f4123237c5f63
+      intelligence-commons: cacaa477b1c0dd53de5264e51341284503be23ae
+      poietic-match: ba48fb45e01da41f5c6a8bd0d20eb464e927b8cb
+  - phase: 6
+    closed_at: 2026-04-20T23:08:47-07:00
+    commits:
+      spore: 62fd5b11a62cf4ea724c2696a71d463845998787
+      intelligence-commons: cacaa477b1c0dd53de5264e51341284503be23ae
+      poietic-match: ba48fb45e01da41f5c6a8bd0d20eb464e927b8cb
+  - phase: 7
+    closed_at: 2026-04-21T11:43:05-07:00
+    commits:
+      spore: 5a3d70388192cf7eeab74c2be658a48a2eab7633
+      intelligence-commons: 77371a5029bb1e37e91b56cae59676b18cb1dc09
+      poietic-match: 54544108cd04280de799c79e6934fb2ce514c500
+  # Phase 8 uses the current boundary tag target; methodology prose still points at the
+  # earlier close-memo commit rather than the tagged phase-boundary commit.
+  - phase: 8
+    closed_at: 2026-04-21T11:57:43-07:00
+    commits:
+      spore: 0806794404a8d98381048e1834e12b89ab95fe4d
+      intelligence-commons: 77371a5029bb1e37e91b56cae59676b18cb1dc09
+      poietic-match: 54544108cd04280de799c79e6934fb2ce514c500

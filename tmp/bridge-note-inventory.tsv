@@ -1,0 +1,85 @@
+repo	path	source-artifact	source-claim-count	review-claim-count	opposition-density	frozen-concept-compliance
+spore	spore/docs/research/connections/4e-cognition-and-participatory-sense-making.md	orn:p2p-wiki.page:4E_Cognitive_Science	10	5	0.00	TRUE
+spore	spore/docs/research/connections/bennett-every-timeline.md	Every Timeline Is an Opinion	4	0	0.00	TRUE
+spore	spore/docs/research/connections/bioregional-scope-legal-constraint.md	orn:p2p-wiki.page:Bioregionalism	10	5	0.00	TRUE
+spore	spore/docs/research/connections/bosca-ghrist-local-to-global.md	Bosca & Ghrist (2026), Neural Networks as Local-to-Global Computations	0	0	0.00	TRUE
+spore	spore/docs/research/connections/boundary-commoning.md	orn:p2p-wiki.page:Boundary_Commoning	9	3	0.00	TRUE
+spore	spore/docs/research/connections/claude-code-membrane-control.md	Claude Code (source)	5	0	0.00	TRUE
+spore	spore/docs/research/connections/collective-intelligence.md	orn:p2p-wiki.page:Collective_Intelligence	18	5	0.00	TRUE
+spore	spore/docs/research/connections/commons-law-and-charter-lineage.md	orn:p2p-wiki.page:Charter_of_the_Forest	9	3	0.00	TRUE
+spore	spore/docs/research/connections/constructive-hyperstition.md	Hyperstitions: How Shared Beliefs Shape Onchain Realities	3	0	0.00	TRUE
+spore	spore/docs/research/connections/cosmo-local-production.md	orn:p2p-wiki.page:Cosmo-Local_Production	12	5	0.00	TRUE
+spore	spore/docs/research/connections/decentralization-theater-opposition.md	orn:p2p-wiki.page:Decentralization_Theater	7	5	1.00	TRUE
+spore	spore/docs/research/connections/faircoin-filtering-membrane-opposition.md	orn:p2p-wiki.page:Limits_of_FairCoin_as_a_Commons-Based_Cryptocurrency	8	5	1.00	TRUE
+spore	spore/docs/research/connections/federation-and-interop.md	orn:p2p-wiki.page:Cross-Platform_Federation_of_Internet_Infrastructures	14	4	0.00	TRUE
+spore	spore/docs/research/connections/flow-funding.md	Flow Funding Foundations	4	0	0.00	TRUE
+spore	spore/docs/research/connections/gift-economy-and-ongoing-obligation.md	orn:p2p-wiki.page:Gift_Economy	10	5	0.00	TRUE
+spore	spore/docs/research/connections/hansen-ghrist-discourse-graphs.md	Hansen & Ghrist (2021), Opinion Dynamics on Discourse Sheaves	8	3	0.00	FALSE
+spore	spore/docs/research/connections/hermes-agent-adversarial-self-trust.md	Hermes Agent v0.9.0 (v2026.4.13) — release page	0	0	0.00	TRUE
+spore	spore/docs/research/connections/hyperstition-markets.md	Hyperstitions: How Shared Beliefs Shape Onchain Realities	3	0	0.00	TRUE
+spore	spore/docs/research/connections/hyperstition.md	Hyperstitions: How Shared Beliefs Shape Onchain Realities	3	0	0.00	TRUE
+spore	spore/docs/research/connections/institutions-and-extitutions.md	orn:p2p-wiki.page:Institutions	19	5	0.00	TRUE
+spore	spore/docs/research/connections/johar-biophysically-entering.md	unspecified	3	1	0.00	FALSE
+spore	spore/docs/research/connections/johar-boundaries-in-systems.md	unspecified	3	1	0.00	FALSE
+spore	spore/docs/research/connections/johar-brain-self-rewriting-field.md	unspecified	7	2	0.00	FALSE
+spore	spore/docs/research/connections/johar-civic-intelligence.md	unspecified	3	0	0.00	TRUE
+spore	spore/docs/research/connections/johar-commitment-economy.md	unspecified	4	1	0.00	FALSE
+spore	spore/docs/research/connections/johar-conversational-sovereignty.md	unspecified	4	1	0.00	FALSE
+spore	spore/docs/research/connections/johar-ecology-of-courage.md	unspecified	3	1	0.00	FALSE
+spore	spore/docs/research/connections/johar-economy-of-doubt.md	unspecified	3	1	0.00	FALSE
+spore	spore/docs/research/connections/johar-entangled-freedom.md	unspecified	3	1	0.00	FALSE
+spore	spore/docs/research/connections/johar-entangled-intelligence.md	unspecified	5	2	0.00	FALSE
+spore	spore/docs/research/connections/johar-fork-in-the-system.md	unspecified	3	1	0.00	FALSE
+spore	spore/docs/research/connections/johar-four-dimensions-organizing.md	unspecified	2	1	0.00	FALSE
+spore	spore/docs/research/connections/johar-free-markets-freedom.md	unspecified	3	1	0.00	FALSE
+spore	spore/docs/research/connections/johar-governing-volatility.md	unspecified	4	1	0.00	FALSE
+spore	spore/docs/research/connections/johar-infrastructure-after-permanence.md	unspecified	3	1	0.00	FALSE
+spore	spore/docs/research/connections/johar-infrastructure-agility.md	unspecified	3	1	0.00	FALSE
+spore	spore/docs/research/connections/johar-inter-becoming.md	unspecified	3	1	0.00	FALSE
+spore	spore/docs/research/connections/johar-machine-psychology.md	unspecified	6	0	0.00	TRUE
+spore	spore/docs/research/connections/johar-miss-engineered-city.md	unspecified	3	1	0.00	FALSE
+spore	spore/docs/research/connections/johar-money-future-energy.md	unspecified	4	1	0.00	FALSE
+spore	spore/docs/research/connections/johar-moral-provenance.md	unspecified	3	1	0.00	FALSE
+spore	spore/docs/research/connections/johar-neuroplastic-field.md	unspecified	5	5	0.00	FALSE
+spore	spore/docs/research/connections/johar-outcomes-and-systems.md	unspecified	3	1	0.00	FALSE
+spore	spore/docs/research/connections/johar-portfolio-pathways.md	unspecified	3	1	0.00	FALSE
+spore	spore/docs/research/connections/johar-presence-engineering.md	unspecified	6	0	0.00	TRUE
+spore	spore/docs/research/connections/johar-priceability.md	unspecified	3	1	0.00	FALSE
+spore	spore/docs/research/connections/johar-recursive-intelligence.md	unspecified	5	1	0.00	FALSE
+spore	spore/docs/research/connections/johar-relational-topology.md	unspecified	2	1	0.00	FALSE
+spore	spore/docs/research/connections/johar-sovereign-consciousness.md	unspecified	3	1	0.00	FALSE
+spore	spore/docs/research/connections/johar-speech-and-duty.md	unspecified	4	1	0.00	FALSE
+spore	spore/docs/research/connections/johar-truth-in-doubt.md	unspecified	3	1	0.00	FALSE
+spore	spore/docs/research/connections/johar-unalienable-being.md	unspecified	2	0	0.00	TRUE
+spore	spore/docs/research/connections/johar-word-not-thing.md	unspecified	4	0	0.00	TRUE
+spore	spore/docs/research/connections/obstruction-aware-sheafification.md	unspecified	0	0	0.00	TRUE
+spore	spore/docs/research/connections/open-civics.md	Towards an Open Civics: Civic Infrastructures as Enabling Conditions for a Vital, Resilient, and Participatory Civilization	4	0	0.00	TRUE
+spore	spore/docs/research/connections/openwashing-opposition.md	orn:p2p-wiki.page:Openwashing	4	5	1.00	TRUE
+spore	spore/docs/research/connections/platform-cooperativism-constructive.md	orn:p2p-wiki.page:Platform_Cooperativism	12	6	0.00	TRUE
+spore	spore/docs/research/connections/pluriversal-commoning.md	orn:p2p-wiki.page:Pluriverse	12	5	0.00	TRUE
+spore	spore/docs/research/connections/polycentric-governance.md	orn:p2p-wiki.page:Polycentric_Governance	16	4	0.00	TRUE
+spore	spore/docs/research/connections/promise-foundation-commitment-protocol.md	Promissum — Promises You Can Count On	4	0	0.00	TRUE
+spore	spore/docs/research/connections/protocol-society.md	orn:p2p-wiki.page:Protocol_Society	10	4	0.00	TRUE
+spore	spore/docs/research/connections/reproductive-commoning.md	orn:p2p-wiki.page:Communalization_of_Housework	12	6	0.00	TRUE
+spore	spore/docs/research/connections/sheaf-theory-formalization.md	Sheaf-Theoretic Formalizations for Federated Knowledge Architectures (2026)	4	0	0.00	FALSE
+spore	spore/docs/research/connections/solidarity-economy-and-mutual-aid.md	orn:p2p-wiki.page:Solidarity_Economy	10	6	0.00	TRUE
+spore	spore/docs/research/connections/stigmergy-as-coordination-substrate.md	orn:p2p-wiki.page:Stigmergy_as_a_Universal_Coordination_Mechanism	10	5	0.00	TRUE
+spore	spore/docs/research/connections/what-the-commons-is-missing-opposition.md	orn:p2p-wiki.page:What_the_Commons_Is_Missing	15	5	1.00	TRUE
+intelligence-commons	intelligence-commons/docs/research/bosca-ghrist-local-to-global.md	Bosca & Ghrist (2026), Neural Networks as Local-to-Global Computations	0	0	0.00	TRUE
+intelligence-commons	intelligence-commons/docs/research/claude-code-agentic-engineering.md	Claude Code (source)	5	0	0.00	TRUE
+intelligence-commons	intelligence-commons/docs/research/hermes-agent-memory-lifecycle-and-procedural-writes.md	Hermes Agent v0.9.0 (v2026.4.13) — release page	0	0	0.00	TRUE
+intelligence-commons	intelligence-commons/docs/research/inclusive-and-generative-value.md	orn:p2p-wiki.page:Inclusive_Governance_and_Generative_Value_in_Knowledge_Commons	16	5	0.00	TRUE
+intelligence-commons	intelligence-commons/docs/research/interoperability-as-institutional.md	orn:p2p-wiki.page:Policies_to_Promote_Public_Knowledge_Goods_and_Knowledge_Commons	16	5	0.00	TRUE
+intelligence-commons	intelligence-commons/docs/research/johar-neuroplastic-field.md	unspecified	3	3	0.00	FALSE
+intelligence-commons	intelligence-commons/docs/research/johar-word-not-thing.md	unspecified	4	0	0.00	TRUE
+intelligence-commons	intelligence-commons/docs/research/knowledge-commons-governance.md	orn:p2p-wiki.page:Understanding_Knowledge_as_a_Commons	10	4	0.00	TRUE
+intelligence-commons	intelligence-commons/docs/research/memory-governance.md	orn:p2p-wiki.page:Category-Knowledge_Commons	17	5	0.00	TRUE
+intelligence-commons	intelligence-commons/docs/research/parsimony-self-consistency-bridge-note.md	unspecified	3	0	0.00	TRUE
+intelligence-commons	intelligence-commons/docs/research/promise-foundation-oracular-evidence-audit.md	Oracular — Auditable AI for Investment Due Diligence	4	0	0.00	TRUE
+intelligence-commons	intelligence-commons/docs/research/provenance-and-trust.md	orn:p2p-wiki.page:Category-Peertrust	17	5	0.00	TRUE
+poietic-match	poietic-match/docs/research/connections/bioregional-coordination.md	orn:p2p-wiki.page:Bioregional_Coordination_Framework	15	6	0.00	TRUE
+poietic-match	poietic-match/docs/research/connections/commercial-credit-circuit.md	orn:p2p-wiki.page:Commercial_Credit_Circuit	13	5	0.00	TRUE
+poietic-match	poietic-match/docs/research/connections/commitment-pooling-and-mutual-credit.md	orn:p2p-wiki.page:Commitment_Pooling	10	4	0.00	TRUE
+poietic-match	poietic-match/docs/research/connections/market-dependence-theory-opposition.md	orn:p2p-wiki.page:Market_Dependence_Theory	13	4	1.00	TRUE
+poietic-match	poietic-match/docs/research/connections/reputation-markets.md	orn:p2p-wiki.page:Reputation_Economy	14	5	0.00	TRUE
+poietic-match	poietic-match/docs/research/connections/sarafu-and-ruddick-lineage.md	orn:p2p-wiki.page:Sarafu_Community_Crypto-Currencies_in_Kenya	14	5	0.00	TRUE

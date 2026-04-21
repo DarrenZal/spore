@@ -1,0 +1,39 @@
+# Round close — round-pm-vocabulary-contract
+
+- Date: 2026-04-21
+- Decision outcome:
+  - F-014 / F-015: `realign` via ADR-0011. `docs/project-vision.md` drops unsatisfied decentralization shorthand and keeps CVLE / pool-substrate language explanatory-only; `docs/grammar.md` becomes the formal home of the CVLE operation-family definition.
+  - F-016 / F-017: `place-and-mirror` via ADR-0012. `docs/protocol.md` now places medium-integrity governance in §8a, and `docs/downstream-products.md` mirrors PM's consent-scope vocabulary as governance registry text.
+- Round commit trail:
+  - scope declared (Spore): `55d45a8`
+  - PM ADR-0011 drafted: `e751ad0`
+  - PM ADR-0012 drafted: `c8ffc23`
+  - PM ADR activations: `fba1c3b`
+  - findings status update (Spore): `6944c80`
+- ADRs landed:
+  - `pm.canon-decision.vision-vocabulary-alignment` — draft `e751ad0`, active `fba1c3b`
+  - `pm.canon-decision.protocol-vocabulary-surfaces` — draft `c8ffc23`, active `fba1c3b`
+- Findings resolved:
+  - F-014 via ADR-0011
+  - F-015 via ADR-0011
+  - F-016 via ADR-0012
+  - F-017 via ADR-0012
+- Validator state post-round:
+  - baseline: 9 errors / 30 warnings (`tmp/phase-7/round-pm-vocabulary-contract-validator-pre.txt`)
+  - post-round: 9 errors / 30 warnings (`tmp/phase-7/round-pm-vocabulary-contract-validator-post.txt`)
+  - delta: +0 errors / +0 warnings
+- Session-atomic window satisfied: N/A (single-repo ADR round; Spore carries scope/close/status bookkeeping only)
+  - touched-repo author-date range: `2026-04-21T10:29:32-07:00` -> `2026-04-21T10:32:21-07:00`
+- r_claim_source-integrity check result: pass
+  - ad hoc integrity check used because `scripts/validate-rclaim-source.py` is not present in this repo
+  - ADR-0011 primary claim-bearing source: `spore.connection.decentralization-theater-opposition:R4`; secondary: `pm.connection.commitment-pooling-and-mutual-credit:R1`
+  - ADR-0012 primary claim-bearing source: `spore.connection.stigmergy-as-coordination-substrate:R3`; secondary: `pm.connection.commitment-pooling-and-mutual-credit:R2`
+  - duplicate `r_claim_source` entries: none
+  - `supported_by:` present in both ADRs
+  - `authorized-by:` empty in both ADRs as required for canon-review-v2
+- Round-14 compatibility note: pass
+  - ADR-0010's canon-scope change strengthened the F-015 relocation pattern by making grammar the explicit formal home for PM load-bearing definitions.
+  - ADR-0010 also narrowed F-017 from a canon contradiction to a governance-registry mirror-alignment fix; no content conflict surfaced.
+- Medium-integrity decision: placed
+  - location: `docs/protocol.md` §8a `Medium-integrity governance`
+  - rationale: the missing surface already belonged to federation-layer operator and edge-governance semantics, so explicit placement in §8 was cleaner than inventing a future-canon deferral.

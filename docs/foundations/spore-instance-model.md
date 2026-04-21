@@ -26,9 +26,9 @@ A governed repository of coordination artifacts organized as a spec DAG. The ref
 
 ### Node
 
-In the instance model, a Node is the infrastructure substrate a holon deploys to participate in federation. It provides knowledge graph, entity resolution, federation transport, and event processing. Nodes can be personal (a private workbench for intake, synthesis, and drafting) or public (serving curated, reviewed knowledge across a membrane into visibility). Query surfaces are local to the node and any views it has selectively materialized under explicit permissions; the model does not assume arbitrary live query across the whole federation.
+In the instance model, a Node is the infrastructure substrate a holon deploys to participate in federation. It provides epistemic graph storage/query surfaces, entity resolution, federation transport, and event processing. Nodes can be personal (a private workbench for intake, synthesis, and drafting) or public (serving curated, reviewed knowledge across a membrane into visibility). Query surfaces are local to the node and any views it has selectively materialized under explicit permissions; the model does not assume arbitrary live query across the whole federation.
 
-The grammar does not mandate a specific substrate. Any system providing stable identifiers, federation capability, entity resolution, and graph storage qualifies as a node. The current implementations use KOI (knowledge graph + federation + sensors), but this is one materialization, not the definition.
+The grammar does not mandate a specific substrate. Any system providing stable identifiers, federation capability, entity resolution, and graph storage qualifies as a node. The current implementations use KOI (epistemic graph + federation + sensors), but this is one materialization, not the definition.
 
 ### Agent
 

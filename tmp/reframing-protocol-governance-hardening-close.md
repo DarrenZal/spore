@@ -1,0 +1,30 @@
+# Close — reframing-protocol-governance-hardening
+
+- Proposal final state: `status: executed`
+- ADRs landed:
+  - `spore.canon-decision.canon-review-protocol-v3-governance-hardening` — drafted in `b2ee92d`, activated in `751aaea`
+  - `spore.canon-decision.adr-status-vocabulary-unification` — drafted in `4f35d8d`, activated in `751aaea`
+- Findings resolved:
+  - F-025 via ADR-0011
+  - F-026 via ADR-0011
+  - F-031 via ADR-0012
+- Validator state:
+  - baseline: 17 errors / 30 warnings (`tmp/phase-7/reframing-protocol-governance-hardening-validator-pre.txt`)
+  - post-round: 9 errors / 30 warnings (`tmp/phase-7/reframing-protocol-governance-hardening-validator-post.txt`)
+  - delta: 8 errors cleared; warning count unchanged because the remaining warnings are unrelated doc_id-less research/evidence artifacts
+- Backward compatibility:
+  - `python3 scripts/validate_spec_dag.py --docs-root docs/research/canon-decisions --project-id spore`
+  - pre-round: pass
+  - post-round: pass
+- Authorized-by integrity:
+  - `grep -l "authorized-by:.*reframing-protocol-governance-hardening" docs/research/canon-decisions/*.md`
+  - result count: 2
+  - files:
+    - `docs/research/canon-decisions/0011-canon-review-protocol-v3-governance-hardening.md`
+    - `docs/research/canon-decisions/0012-adr-status-vocabulary-unification.md`
+- r_claim_source-integrity: pass
+  - Both ADRs carry plan-scoped research-doc identifiers
+  - `supported_by:` is present in both files
+  - No duplicate `r_claim_source` entries
+  - Each `research-<slug>` target resolves to a real file under `docs/research/corpus-review/`
+- Session-atomic window: N/A (single-repo bundle)

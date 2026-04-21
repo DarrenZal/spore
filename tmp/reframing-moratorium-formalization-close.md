@@ -1,0 +1,33 @@
+# Close — reframing-moratorium-formalization
+
+- Proposal final state: `status: executed`
+- Bundle commit trail:
+  - scope declared: `a4f3b64`
+  - ADR-0021 drafted + protocol admission + proposal authorized-ADR: `07d5fd8`
+  - ADR-0021 activated: `c4cac79`
+  - findings status update: `2307f80`
+- ADRs landed:
+  - `spore.canon-decision.moratorium-protocol-formalization` — drafted in `07d5fd8`, activated in `c4cac79`
+- Protocol admission landed:
+  - `docs/research/planning/moratorium-protocol-v1.md` created (`version: 1`, `status: active`)
+  - `tmp/meta-corpus-inventory.tsv` updated the `moratorium-mechanics` row from `spore/docs/research/planning/corpus-foundational-review-v1-plan.md` / `FALSE` to `spore/docs/research/planning/moratorium-protocol-v1.md` / `TRUE`
+  - plan cross-reference: none; the new protocol cites `docs/research/planning/corpus-foundational-review-v1-plan.md:37-58` as the harvested source
+- Findings resolved:
+  - F-027 via ADR-0021
+- Validator state:
+  - baseline: 9 errors / 30 warnings (`tmp/phase-7/reframing-moratorium-formalization-validator-pre.txt`)
+  - post-bundle: 9 errors / 30 warnings (`tmp/phase-7/reframing-moratorium-formalization-validator-post.txt`)
+  - delta: +0 errors / +0 warnings
+- ADR-only validator:
+  - command: `python3 scripts/validate_spec_dag.py --docs-root docs/research/canon-decisions --project-id spore`
+  - result: pass
+- Authorized-by integrity:
+  - command: `grep -l "authorized-by:.*reframing-moratorium-formalization" docs/research/canon-decisions/*.md`
+  - result count: 1
+  - file: `docs/research/canon-decisions/0021-moratorium-protocol-formalization.md`
+- r_claim_source-integrity: pass
+  - primary claim-bearing source: `spec:spore.corpus-review.research-governance-process:R1`
+  - secondary claim-bearing source: `spec:spore.corpus-review.research-canonical-layering:R1`
+  - duplicate `r_claim_source` entries: none
+  - `supported_by:` present
+- Session-atomic window: N/A (single-repo bundle)

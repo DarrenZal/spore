@@ -28,6 +28,8 @@ This means an agent can be:
 
 The important question is not "is this one thing or many?" but "what level of coherence allows this thing to act as a node in relation to other nodes?"
 
+`holon` and [`field`](./lexicon/field.md) are related but not interchangeable terms in Spore canon. A holon names the recursive whole/part unit of agency: the bounded entity that can maintain enough coherence to interface as one node while remaining nested in larger wholes. A field names the distributed relational medium around, within, and between holons: the substrate through which signals, commitments, evidence, and resources become mutually legible and coordinate. A holon may host an internal field, and a constellation of holons may participate in a wider field. Across adjacent scales, a holon at scale N may appear as a field at scale N+1, but that scale relation does not collapse the distinction.
+
 ## Relational Agency
 
 Agency in Agent Commons is relational — not the capacity to stand apart, but the ability to act within: to move with awareness through the webs that sustain us. Relational agency connects to freedom: forkability, contestability, and meaningful local autonomy are not just governance features — they are conditions of relational freedom. Invest not in independence but in the infrastructures of interdependence (Johar).
