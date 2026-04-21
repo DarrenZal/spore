@@ -42,7 +42,7 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
 | F-021 | should-be-split | S2 | blocking | content | canon-review-v2 | round-cross-repo-concept-splits | intent | `intent` drifts across repos from a lightweight coordination signal into a protocol object with materially different semantics | resolved-via-ADR-0013 |
 | F-022 | should-be-split | S2 | blocking | content | canon-review-v2 | round-cross-repo-concept-splits | evidence | `evidence` is being used for two different families of work without an explicit sub-type boundary | resolved-via-ADR-0013 |
 | F-023 | overlapping/redundant | S1 | blocking | content | canon-review-v2 | round-field-holon-clarification | field / holon | `field` and `holon` remain under-differentiated across current canon | resolved-via-ADR-0016 |
-| F-024 | naming-wrong | S4 | deferred | content | editorial |  | decentralization-theater | The corpus now carries both `decentralization-theater` and `decentralisation-theater` as if they were distinct concepts |  |
+| F-024 | naming-wrong | S4 | deferred | content | editorial |  | decentralization-theater | The corpus carried a British-spelled duplicate of `decentralization-theater` as if it were a distinct concept | resolved-editorial |
 | F-025 | missing | S2 | blocking | meta-corpus | foundational-reframing |  | docs/research/planning/canon-review-protocol.md | The canon-review protocol is self-harvested and self-amended by the same round-execution machinery it governs, but it carries no separate constitutional-amendment rule, cooling-off period, or heightened threshold for editing itself | resolved-via-ADR-0011 |
 | F-026 | missing | S2 | important | meta-corpus | foundational-reframing |  | docs/research/planning/canon-review-protocol.md | The canon-review protocol defines dispositions (`edit`, `hold-as-tension`, `reject`) and held-tension overlap checks, but it does not define a post-adoption dissent or appeal path if an ADR is challenged after landing | resolved-via-ADR-0011 |
 | F-027 | missing | S2 | important | meta-corpus | foundational-reframing |  | moratorium-mechanics | Moratorium mechanics are carrying governance weight but still exist only as plan-embedded rules rather than as a stable formal artifact | resolved-via-ADR-0021 |
@@ -807,7 +807,7 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
     concept: decentralization-theater
     line_range: 60-60
   claim: |-
-    The corpus now carries both `decentralization-theater` and `decentralisation-theater` as if they were distinct concepts. The frozen vocabulary, ADR naming, and concept roster canonicalize the US-spelled slug, while the live Spore canon prose introduces the UK-spelled variant. Nothing in the ADR rationale suggests these are intentionally separate; this is duplicate-surface drift created by spelling, not by meaning.
+    Before the Phase 8 editorial pass, the corpus carried the canonical `decentralization-theater` slug and a British-spelled duplicate as if they were distinct concepts. The frozen vocabulary, ADR naming, and concept roster canonicalized the US-spelled slug, while the live Spore canon prose introduced the UK-spelled variant. Nothing in the ADR rationale suggested these were intentionally separate; this was duplicate-surface drift created by spelling, not by meaning.
   evidence:
   - kind: source-doc
     ref: /Users/darrenzal/projects/spore/docs/foundations/mycorrhizal-federation-protocol.md:60-60
@@ -819,7 +819,7 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
     ref: /Users/darrenzal/projects/spore/docs/research/concepts-p2p-wiki.yaml:242-245
     excerpt: 'slug: decentralization-theater'
   - kind: inventory-row
-    ref: '/Users/darrenzal/projects/spore/tmp/concept-roster.tsv row 102: "decentralisation-theater"; row 103: "decentralization-theater"'
+    ref: '/Users/darrenzal/projects/spore/tmp/concept-roster.tsv (pre-resolution duplicate rows for this concept)'
     excerpt: \"decentralisation-theater ... 2\" / \"decentralization-theater ... 21\"
   proposed-resolution-track: editorial
   prior-collision-check: none
