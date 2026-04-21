@@ -9,16 +9,16 @@ depends_on: []
 
 Version: v1 (2026-04-17), v2 (2026-04-18). Harvested alongside the canon-review-v1 plan (`/Users/darrenzal/.claude/plans/canon-review-v1.md`), pressure-tested through 15 rounds of Codex review. Sibling to the intake protocol (`learning-field-intake-protocol.md`); this protocol covers what the intake protocol explicitly scoped out — the normative evolution of foundation docs in response to learning-field evidence.
 
-This protocol governs how we edit canon (the doc set that materially shapes how Spore / IC / PM describe themselves) in response to priority queues produced by intake. It evolves after each canon-review round.
+This protocol governs how we edit canon (the doc set that materially shapes how Spore / IC / PM describe themselves) in response to priority queues produced by intake. Canon-review rounds may harvest lessons for future revisions, but changes to this protocol's governance rules now route through the constitutional-amendment guard in §12 rather than ordinary round close.
 
 ## Companion protocols
 
 This protocol is the **second half** of a two-protocol pair for evolving project canon from external prior art. Use them together:
 
 - **[Learning field intake protocol](./learning-field-intake-protocol.md)** — descriptive: how external corpora become bridge notes + wiki-anchored claims in the learning field. This is the upstream of canon review's priority queues.
-- **This protocol (canon review)** — normative: how priority queues from intake become ADR-backed edits to foundation docs. v2 (2026-04-18) appended after v1 with 29 rules harvested from running v1.
+- **This protocol (canon review)** — normative: how priority queues from intake become ADR-backed edits to foundation docs. v2 (2026-04-18) appended after v1 with 29 rules harvested from running v1; later revisions to this protocol's governance semantics route through the constitutional-amendment guard in §12.
 
-A full cycle runs intake → capstone → canon review → protocol-evolution → next intake round. Both protocols are harvested-after-execution; running v1 is the method that produces v2.
+A full cycle runs intake → capstone → canon review → protocol-evolution → next intake round. The v1 -> v2 move was harvested after execution; later protocol changes are no longer self-ratified by ordinary canon-review execution and must use the governance path named in §12.
 
 **Full-arc retrospective** of the first complete cycle (P2P wiki intake + canon-review v1): [`docs/research/connections/wiki-intake-canon-review-retrospective.md`](../connections/wiki-intake-canon-review-retrospective.md). Read that for how the two protocols interact in practice, the four structural insights landed, the three held-open tensions, and the vision-level shifts across all three projects.
 
@@ -282,8 +282,8 @@ Every canon-review round produces:
 1. ADRs (per-repo, each a single decision, traceable to R-claim)
 2. Shared framing notes (one per cross-project concept)
 3. Canon edits (in-scope files only — see §1)
-4. Process retrospective (what worked, what broke, what this protocol should change in v2)
-5. Updated protocol (this file, versioned in §11 changelog; v2 appended in-place)
+4. Process retrospective (what worked, what broke, what future protocol or reframing work should consider)
+5. Protocol-change candidates captured as follow-on notes, plans, or foundational-reframing proposals rather than auto-editing this file
 6. Memory note (`project_canon_review_v<N>.md` — distinct from intake memory)
 
 ## 11. Constraints summary (cross-reference)
@@ -298,7 +298,23 @@ Every canon-review round produces:
 8. **No-op commits forbidden.** Exception: shared-framing carrier commit (§5c).
 9. **Rollback restricted to plan-manifest SHAs.** Time/message-based SHA discovery forbidden for rollback.
 
-## 12. Moratorium / Move-0 acknowledgment
+## 12. Constitutional-amendment guard
+
+`canon-review-protocol.md` is a meta-corpus governance surface. Revising its authority model, lifecycle semantics, scope, validation rules, or other load-bearing governance mechanics requires a foundational-reframing proposal under `foundational-reframing-protocol-v1.md`, including the double-cooling rule for meta-corpus amendments. Ordinary canon-review rounds do not self-amend this file by landing a close memo or harvest note alone.
+
+Operational lessons from canon-review execution still matter, but they land first as retrospectives, findings, or reframing proposals. Direct edits without reframing lineage are limited to non-material corrections such as typos, broken links, formatting repair, or reference cleanup that do not change obligations or execution authority.
+
+## 13. Post-adoption appeal path
+
+If a landed canon-review ADR is later challenged, the challenge routes by scope instead of reopening docs by fiat:
+
+1. **Evidence dispute**: if the dispute is about the reading of evidence or whether the landed edit still matches the cited corpus, author a successor ADR in the affected repo that affirms, narrows, supersedes, or reverts the earlier ADR.
+2. **Procedural dispute**: if the dispute is about whether the ADR was executed according to the protocol in force at the time, record the challenge in a successor ADR or rollback note that names the procedural defect and preserves the audit trail.
+3. **Frame dispute**: if the dispute challenges this protocol itself, the `authorized-by:` lineage, or the proposal mechanics above ordinary ADR scope, route the challenge to a new foundational-reframing proposal per FR-26 of `foundational-reframing-protocol-v1.md`.
+
+Post-adoption disagreement therefore has a named escalation path. Repo-local disputes stay at the ADR layer; disputes about the governing frame move upward to reframing.
+
+## 14. Moratorium / Move-0 acknowledgment
 
 The canon moratorium was lifted 2026-04-16 (projected Move 0 acceptance window lapsed; Jeff silent since Apr 13 compose letter — no point protecting a pilot that isn't running). Canon-review v1 executes under that lifted moratorium. Acknowledged risk: canon drift may land a framing Jeff later tests against and finds incompatible.
 
@@ -310,7 +326,7 @@ Mitigation accepted (not a procedural gate):
 
 If a future moratorium is ever reinstated, the canon-review protocol can still be used to draft ADRs in `proposed` state without landing commits, holding them until the moratorium lifts again. The infrastructure carries over; only the commit gate changes.
 
-## 13. Known limitations (v1)
+## 15. Known limitations (v1)
 
 - Spore validator has pre-existing errors on cross-project bridge notes (7 as of 2026-04-17 baseline) — a known intake-plan artifact, NOT a canon-review issue. Separate follow-on plan filed to fix validator's cross-project bridge-note handling.
 - IC and PM have no validator; manual frontmatter check is the gate. Follow-on tickets `ic-add-validator` / `pm-add-validator` remain open.
@@ -483,5 +499,5 @@ v3 authoring should be triggered by any of:
 3. **Concepts yaml version bumps to v3** → v3 re-anchors §7 against new frozen set; any v2-deferred discipline-rule concepts that made v3 freeze become cluster-gateable.
 4. **Cross-repo ADR index lands** → v3 replaces manual `partial-drift` + `related_adrs` checks with registry queries.
 5. **Pre-commit inline-lint framework lands** → v3 moves AC-9, AC-17, AC-8b regex checks from post-hoc verification to pre-commit.
-6. **Jeff or another external reviewer re-engages on Move 0 / pilot** → v3 may need to re-scope §12 moratorium language or introduce review-gate patterns.
+6. **Jeff or another external reviewer re-engages on Move 0 / pilot** → v3 may need to re-scope §14 moratorium language or introduce review-gate patterns.
 7. **Cross-repo edit contradictions discovered post-hoc** → triggers v3 reconciliation rules. v1+v2 hit none; if ever observed, is v3's first agenda item.

@@ -1,7 +1,7 @@
 ---
 doc_id: spore.foundational-reframing.reframing-protocol-governance-hardening
 doc_kind: proposal
-status: eligible
+status: authorized-ADR
 covers: [F-025, F-026, F-031]
 proposal_kind: protocol-amendment
 author: Darren Zal
@@ -10,7 +10,10 @@ opened-on: 2026-04-20
 eligible-on: 2026-05-04
 eligible-bumped-on: 2026-04-21T00:29:05Z
 consultation_artifact: tmp/cross-repo-consultation-reframing-protocol-governance-hardening.md
-authorized_adrs: []
+authorized_adrs:
+  - spore.canon-decision.canon-review-protocol-v3-governance-hardening
+  - spore.canon-decision.adr-status-vocabulary-unification
+authorized-adr-opened-on: 2026-04-21T04:29:45Z
 ---
 
 # Reframing Proposal: Protocol Governance Hardening
@@ -145,8 +148,10 @@ Because this proposal does not pre-commit exact v3 text, reversibility depends o
 
 Not yet executed.
 
-- Proposal state: cooling-off
-- Authorized ADRs: none
+- Proposal state: authorized-ADR
+- Authorized ADRs:
+  - spore.canon-decision.canon-review-protocol-v3-governance-hardening
+  - spore.canon-decision.adr-status-vocabulary-unification
 - Affected repo SHAs: pending
 - Rollback record: pending
 
