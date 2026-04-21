@@ -11,6 +11,13 @@ Version: v1 (2026-04-17), v2 (2026-04-18), v3 (2026-04-20). v1 and v2 were harve
 
 This protocol governs how we edit canon (the doc set that materially shapes how Spore / IC / PM describe themselves) in response to priority queues produced by intake. Canon-review rounds may harvest lessons for future revisions, but changes to this protocol's governance rules now route through the constitutional-amendment guard in §12 rather than ordinary round close.
 
+## Intended audience and prerequisites
+
+- **Audience**: Canon authors, round operators, and reviewers who turn learning-field priority queues into ADR-backed canon edits across Spore, Intelligence Commons, and Poietic Match
+- **Prerequisites**: Read access across the three active repos; working familiarity with the intake protocol, ADR corpus, frozen vocabulary gate, `corpus-review/v1` branch discipline, and the validator/manual frontmatter checks this protocol invokes
+- **Scope**: Governs canon-review rounds that evaluate priority-queue claims, choose `edit` / `hold-as-tension` / `reject`, and land ADR-backed changes to in-scope canon surfaces
+- **Out of scope**: External-corpus intake, foundational reframing for findings that exceed ADR scope, and canon-adjacent edits that bypass ADR lineage or the canon allowlist
+
 ## Companion protocols
 
 This protocol is the **second half** of a two-protocol pair for evolving project canon from external prior art. Use them together:

@@ -11,6 +11,13 @@ Version: v1 (2026-04-16). Harvested from the P2P Foundation wiki intake (`sequen
 
 This protocol governs how we ingest external corpora (wikis, papers, repos, protocols, communities-of-practice) into the learning field across Spore, IC, PM, and future projects. It evolves after each intake round.
 
+## Intended audience and prerequisites
+
+- **Audience**: Intake operators and reviewers who turn outside corpora into bridge notes, capstone syntheses, and coverage reports for Spore, Intelligence Commons, and Poietic Match
+- **Prerequisites**: Ability to inspect source corpora directly; working familiarity with the frozen vocabulary, R-claim target allowlist, bridge-note claim structure, convergence-board workflow, and the three-repo canon topology that downstream review consumes
+- **Scope**: Governs external-corpus intake into the learning field, including the embedded bridge-note format, evidence-projection discipline, opposition-note requirement, and post-intake output set
+- **Out of scope**: Canon-edit decisions, ADR drafting, foundational reframing above ADR scope, and freeform research notes that do not enter the bridge-note or capstone pipeline
+
 ## Companion protocols
 
 This protocol is the **first half** of a two-protocol pair for evolving project canon from external prior art. Use them together:

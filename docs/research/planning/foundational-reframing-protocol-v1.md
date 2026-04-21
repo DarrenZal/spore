@@ -14,6 +14,13 @@ authored-by: codex-gpt-5
 
 Version: v1.1 (2026-04-20). Drafted for corpus-foundational-review-v1 Phase 6a and revised in Phase 6b Round 1 fix application. Companion to `canon-review-protocol.md` and `learning-field-intake-protocol.md`: those govern evidence intake and ADR-backed canon edits inside the accepted frame; this protocol governs the narrower class of findings that exceed ADR scope and therefore need a proposal layer above per-repo ADR execution. No proposal may use this v1.1 draft until the Phase 6b two-round adversarial bakeoff has closed.
 
+## Intended audience and prerequisites
+
+- **Audience**: Reframing authors, approvers, and reviewers handling findings whose repair exceeds ordinary ADR scope and therefore needs proposal-layer authorization
+- **Prerequisites**: Ability to inspect every affected repo and governance surface; working familiarity with canon-review mechanics, proposal evidence bars, consultation artifacts, cooling-off rules, and the ADR-lineage requirements this protocol imposes
+- **Scope**: Governs proposals that dissolve, rename, re-layer, re-scope, or re-topologize the corpus, plus later ADR bundles that execute those approved reframings
+- **Out of scope**: Direct canon edits without an authorized ADR bundle, ordinary canon-review ADRs that stay inside the accepted frame, and editorial cleanups that do not change governance scope
+
 ## Companion protocols
 
 This protocol is the reframing half of the same governance stack:

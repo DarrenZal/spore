@@ -23,13 +23,10 @@ Its scope is narrow:
 
 ## Intended audience and prerequisites
 
-Primary audience is the operator or future maintainer who authors canon-review ADRs, review plans, or moratorium exceptions across Spore, Intelligence Commons, and Poietic Match.
-
-Prerequisites:
-
-- familiarity with the corpus-review phase model and the `corpus-review/v1` branch discipline;
-- write-path visibility across Spore, Intelligence Commons, and Poietic Match; and
-- access to `tmp/moratorium-exceptions.md`, which carries the exception audit log for this protocol.
+- **Audience**: The operator enforcing moratorium mechanics plus any governance reviewer auditing branch discipline or exception use across Spore, Intelligence Commons, and Poietic Match
+- **Prerequisites**: Familiarity with the corpus-review phase model, `corpus-review/v1` branch discipline, canon-vs-planning boundaries, and access to `tmp/moratorium-exceptions.md` as the exception audit log
+- **Scope**: Governs when canon writes may land on `main` versus `corpus-review/v1`, what qualifies for the safety-critical exception path, and how exceptions are logged and closed
+- **Out of scope**: Authorizing ordinary ADR content, changing findings dispositions, or widening exception categories beyond the ones explicitly listed in this protocol
 
 ## Core rule
 

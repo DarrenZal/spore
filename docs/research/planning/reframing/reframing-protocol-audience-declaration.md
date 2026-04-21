@@ -1,7 +1,7 @@
 ---
 doc_id: spore.foundational-reframing.reframing-protocol-audience-declaration
 doc_kind: proposal
-status: eligible
+status: authorized-ADR
 covers: [F-030]
 proposal_kind: protocol-amendment
 author: Darren Zal
@@ -10,7 +10,9 @@ opened-on: 2026-04-20
 eligible-on: 2026-05-04
 eligible-bumped-on: 2026-04-21T00:29:05Z
 consultation_artifact: tmp/cross-repo-consultation-reframing-protocol-audience-declaration.md
-authorized_adrs: []
+authorized_adrs:
+  - spore.canon-decision.protocol-audience-declaration-standard
+authorized-adr-opened-on: 2026-04-21T06:58:27Z
 ---
 
 # Reframing Proposal: Protocol Audience Declaration
@@ -137,10 +139,11 @@ No vocabulary migration, topology move, or data backfill is involved. If a futur
 
 ## Execution record
 
-- Status: Pending. Proposal is in `cooling-off`.
-- Authorized ADRs: None.
-- Implementation SHAs: None.
-- Notes: Populate this section when the proposal reaches `executed`.
+- Status: `authorized-ADR`.
+- Authorized ADRs:
+  - `spore.canon-decision.protocol-audience-declaration-standard`
+- Implementation SHAs: Pending activation / findings / close commits.
+- Notes: ADR-0023 now drafts the audience-block standard across the four operative meta-corpus protocols; proposal moves to `executed` once activation, findings status update, and close verification land.
 
 ## Open questions
 
