@@ -1,7 +1,7 @@
 ---
 doc_id: spore.foundational-reframing.reframing-protocol-governance-hardening
 doc_kind: proposal
-status: authorized-ADR
+status: executed
 covers: [F-025, F-026, F-031]
 proposal_kind: protocol-amendment
 author: Darren Zal
@@ -14,6 +14,7 @@ authorized_adrs:
   - spore.canon-decision.canon-review-protocol-v3-governance-hardening
   - spore.canon-decision.adr-status-vocabulary-unification
 authorized-adr-opened-on: 2026-04-21T04:29:45Z
+executed-on: 2026-04-21T04:36:26Z
 ---
 
 # Reframing Proposal: Protocol Governance Hardening
@@ -146,14 +147,18 @@ Because this proposal does not pre-commit exact v3 text, reversibility depends o
 
 ## Execution record
 
-Not yet executed.
+Executed.
 
-- Proposal state: authorized-ADR
+- Proposal state: executed
 - Authorized ADRs:
   - spore.canon-decision.canon-review-protocol-v3-governance-hardening
   - spore.canon-decision.adr-status-vocabulary-unification
-- Affected repo SHAs: pending
-- Rollback record: pending
+- Affected repo SHAs:
+  - `b2ee92d` — ADR-0011 draft + canon-review-protocol governance hardening
+  - `4f35d8d` — ADR-0012 draft + validator/status-vocabulary unification
+  - `751aaea` — ADR activations (`draft -> active`)
+  - `6835e62` — findings status updates
+- Rollback record: revert newest-first from the execution close commit, then `6835e62`, `751aaea`, `4f35d8d`, `b2ee92d`
 
 ## Open questions
 
