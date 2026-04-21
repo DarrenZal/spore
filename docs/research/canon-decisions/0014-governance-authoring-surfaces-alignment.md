@@ -1,9 +1,10 @@
 ---
 doc_id: spore.canon-decision.governance-authoring-surfaces-alignment
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0014"
 opened-on: 2026-04-20
+closed-on: 2026-04-20
 covers:
   - F-001
   - F-002
@@ -37,7 +38,7 @@ concepts:
 
 ## Status
 
-draft (authored 2026-04-20; activation pending round close)
+active (drafted and activated 2026-04-20)
 
 ## Context
 
