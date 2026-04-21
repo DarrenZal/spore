@@ -1,7 +1,7 @@
 ---
 doc_id: spore.foundational-reframing.reframing-pm-canon-scope
 doc_kind: proposal
-status: authorized-ADR
+status: executed
 covers: [F-018, F-019]
 proposal_kind: canon-scope
 author: Darren Zal
@@ -13,6 +13,7 @@ consultation_artifact: tmp/cross-repo-consultation-reframing-pm-canon-scope.md
 authorized_adrs:
   - pm.canon-decision.canon-scope-ratification
 authorized-adr-opened-on: 2026-04-21T16:58:23Z
+executed-on: 2026-04-21T16:59:40Z
 ---
 
 # Reframing Proposal: PM Canon Scope
@@ -181,15 +182,20 @@ Because this proposal authorizes ADR drafting rather than direct canon edits, re
 
 ## Execution record
 
-Execution in progress.
+Executed.
 
 - Authorized ADRs:
   - `pm.canon-decision.canon-scope-ratification`
 - PM execution SHAs:
   - `b0195dc` — PM ADR-0010 draft + PM canon-boundary edits
+  - `ea906d5` — PM ADR-0010 activation
 - Spore execution SHAs:
   - `8d824fa` — shared framing note
-- Notes: Proposal moved to `authorized-ADR` when PM ADR-0010 was drafted. Execution remains pending until ADR activation, Spore findings updates, and bundle closeout land.
+  - `2c9a029` — proposal `eligible -> authorized-ADR` + derivative inventory / roster alignment
+- Notes:
+  - `commitment-bundles` canonical origin ratified at `docs/grammar.md` section 1.4, with `docs/project-vision.md` retained as explanatory companion
+  - `tmp/corpus-inventory.tsv` no longer treats `docs/downstream-products.md` or `docs/phase-0-spec.md` as PM canon-layer rows
+  - `tmp/concept-roster.tsv` now credits `poietic-match/docs/grammar.md` as the introducing doc for `commitment-bundles`
 
 ## Open questions
 
