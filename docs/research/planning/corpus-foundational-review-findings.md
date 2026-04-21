@@ -55,9 +55,9 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
 | F-034 | contradictory | S3 | blocking | bridge-note | canon-review-v2 | round-bridge-note-corpus-normalization | N/A | Thirty bridge notes use review-claim concept slugs outside the frozen v2 P2P-wiki vocabulary, despite the frozen-vocabulary rule explicitly forbidding new slugs without a version bump |  |
 | F-035 | dead-weight | S3 | important | content | canon-review-v2 | round-primitive-roster-boundaries | instance-model / spore-instance-model / intelligence-primitives / memory-layer-model | Four primitive-class entries are bundle-label handles rather than irreducible concepts |  |
 | F-036 | over-specified | S3 | important | content | canon-review-v2 | round-primitive-roster-boundaries | koi-net | `koi-net` is primitive-class in the roster, but every canonical use sampled treats it as the current implementation of substrate and transport concerns that are already expressible through other concepts |  |
-| F-037 | missing | S2 | blocking | repo-topology | foundational-reframing |  | N/A | Spore/IC/PM is already operating as a three-repo shared-canon hybrid, but that topology is still policy-by-practice rather than a ratified constitutional choice |  |
-| F-038 | overlapping/redundant | S2 | important | repo-topology | foundational-reframing |  | shared-canon layer | The current topology duplicates a common concept layer across three repos without a single authoritative source for those cross-project terms |  |
-| F-039 | missing | S2 | blocking | repo-topology | foundational-reframing |  | merge-governance | The three-repo topology has a blocking operational governance gap at the merge boundary |  |
+| F-037 | missing | S2 | blocking | repo-topology | foundational-reframing |  | N/A | Spore/IC/PM is already operating as a three-repo shared-canon hybrid, but that topology is still policy-by-practice rather than a ratified constitutional choice | resolved-via-ADR-0020 |
+| F-038 | overlapping/redundant | S2 | important | repo-topology | foundational-reframing |  | shared-canon layer | The current topology duplicates a common concept layer across three repos without a single authoritative source for those cross-project terms | resolved-via-ADR-0020 |
+| F-039 | missing | S2 | blocking | repo-topology | foundational-reframing |  | merge-governance | The three-repo topology has a blocking operational governance gap at the merge boundary | resolved-via-ADR-0020 |
 
 ## Findings detail
 
