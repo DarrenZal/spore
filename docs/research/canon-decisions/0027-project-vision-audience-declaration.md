@@ -1,9 +1,10 @@
 ---
 doc_id: spore.canon-decision.project-vision-audience-declaration
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0027"
 opened-on: 2026-04-21
+closed-on: 2026-04-21
 covers:
   - F-006
 decision: edit
@@ -36,7 +37,7 @@ concepts:
 
 ## Status
 
-draft (opened 2026-04-21)
+active (drafted and activated 2026-04-21)
 
 ## Context
 
