@@ -7,7 +7,7 @@ depends_on: []
 
 # Canon Review Protocol
 
-Version: v1 (2026-04-17), v2 (2026-04-18). Harvested alongside the canon-review-v1 plan (`/Users/darrenzal/.claude/plans/canon-review-v1.md`), pressure-tested through 15 rounds of Codex review. Sibling to the intake protocol (`learning-field-intake-protocol.md`); this protocol covers what the intake protocol explicitly scoped out — the normative evolution of foundation docs in response to learning-field evidence.
+Version: v1 (2026-04-17), v2 (2026-04-18), v3 (2026-04-20). v1 and v2 were harvested alongside the canon-review-v1 plan (`/Users/darrenzal/.claude/plans/canon-review-v1.md`), pressure-tested through 15 rounds of Codex review; v3 applies the governance-hardening and status-vocabulary unification authorized by `reframing-protocol-governance-hardening`. Sibling to the intake protocol (`learning-field-intake-protocol.md`); this protocol covers what the intake protocol explicitly scoped out — the normative evolution of foundation docs in response to learning-field evidence.
 
 This protocol governs how we edit canon (the doc set that materially shapes how Spore / IC / PM describe themselves) in response to priority queues produced by intake. Canon-review rounds may harvest lessons for future revisions, but changes to this protocol's governance rules now route through the constitutional-amendment guard in §12 rather than ordinary round close.
 
@@ -85,7 +85,7 @@ ADR numbering is zero-padded 4 digits, repo-local, starts at 0001. Frontmatter +
 doc_id: <spore|ic|pm>.canon-decision.<slug>
 doc_kind: decision-record
 adr_number: <NNNN>
-status: proposed   # lifecycle below
+status: draft   # lifecycle below
 decision: edit | hold-as-tension | reject
 r_claim_source:
   - <bridge-note-doc-id>:R<n>   # primary (first entry)
@@ -127,12 +127,12 @@ Brief note of which canon files change and the essential shape of the edit — n
 **YAML list-format convention**: all multi-valued fields (`r_claim_source`, `affects_canon`, `related_adrs`, `concepts`) use block-list form (one entry per line with leading `- `). Empty arrays are written as `[]` on the same line as the key. Verification scripts fail-closed on inline-array form for non-empty fields.
 
 **Status lifecycle**:
-- `proposed` — ADR drafted; AC-* checks not yet complete. Every ADR is authored in this state.
-- `accepted` — AC-8/8b/8c/8d (evidence, concepts, affects_canon validity, r_claim verbatim) all pass AND commit has landed on main (or PR merged, if branch+PR flow).
+- `draft` — ADR drafted; AC-* checks not yet complete. Every ADR is authored in this state.
+- `active` — AC-8/8b/8c/8d (evidence, concepts, affects_canon validity, r_claim verbatim) all pass and the decision is the live landed record.
+- `deprecated` — ADR remains in the corpus for traceability but is no longer the preferred live reference for new work. Use when a decision is retired without a one-for-one superseding ADR.
 - `superseded` — a later ADR replaces this one. Superseding ADR lists this ADR in `related_adrs:`; this ADR gains `superseded_by:` field for reverse traceability.
-- `partial-drift` — Constraint 6 mid-set failure recovery state. Hard execution gate blocks new ADRs until resolved. Transitions to `accepted` (fix-forward completed) or `superseded` (fix-forward reverted).
 
-An ADR is never authored directly as `accepted` — always starts `proposed`, transitions after verification + commit-land.
+An ADR is never authored directly as `active` — always starts `draft`, transitions after verification + commit-land. Coordination drift is tracked in execution artifacts while the ADR remains `draft` until the set is repaired or reverted.
 
 ## 4. Triage rubric (edit / hold / reject)
 
@@ -218,7 +218,7 @@ If one repo's push fails after others have landed and the 30-minute window close
 1. Resolves the blocker and completes within window, OR
 2. Reverts already-pushed commits to restore pre-set state (solo-operator rule: never force-push)
 
-If partial state is irrecoverable (intervening commits, merge conflicts on revert), accept it but: (1) author a coordination-drift Execution log entry, (2) mark affected ADRs `status: partial-drift`, (3) HARD EXECUTION GATE — no new ADRs until all `partial-drift` ADRs resolved, (4) schedule a fix-forward ADR within 48 hours (new ADR number, catches up or reverts pending repos), (5) flip status back to `accepted` or `superseded` after fix-forward.
+If partial state is irrecoverable (intervening commits, merge conflicts on revert), accept it but: (1) author a coordination-drift Execution log entry, (2) keep affected ADRs in `draft` until the set is repaired or reverted, (3) HARD EXECUTION GATE — no new ADRs until the open coordination-drift is resolved, (4) schedule a fix-forward ADR within 48 hours (new ADR number, catches up or reverts pending repos), (5) flip status to `active` or `superseded` after fix-forward.
 
 If 48 hours elapses without resolution, escalate: downgrade plan scope (close at current tier), manual reconciliation with full audit trail, OR (last resort) global rollback via plan-manifest SHAs.
 
@@ -324,7 +324,7 @@ Mitigation accepted (not a procedural gate):
 - If Jeff re-engages mid-round, operator may pause Tier C/D and prioritize any Jeff-requested reconciliation.
 - No automatic re-gating on Jeff acceptance. Canon evolution and pilot execution are decoupled — Move 0 tests whatever canon exists at the moment.
 
-If a future moratorium is ever reinstated, the canon-review protocol can still be used to draft ADRs in `proposed` state without landing commits, holding them until the moratorium lifts again. The infrastructure carries over; only the commit gate changes.
+If a future moratorium is ever reinstated, the canon-review protocol can still be used to draft ADRs in `draft` state without landing commits, holding them until the moratorium lifts again. The infrastructure carries over; only the commit gate changes.
 
 ## 15. Known limitations (v1)
 
@@ -336,8 +336,12 @@ If a future moratorium is ever reinstated, the canon-review protocol can still b
 
 ## Changelog
 
-- **v1** (2026-04-17): Initial protocol harvested alongside the canon-review-v1 plan. 15 rounds of Codex review. Key methodological choices: protocol-first (canon review is normatively different from intake, which is descriptive), ADR-lite format (compact, one-screen), strict concepts vocabulary (no ad-hoc extension), held-tension first-class (no count quota), cross-project coordination via Spore-hosted framing notes + session-atomic commit sets, evidence threshold with DB-authoritative verification. v2 to be harvested after canon-review-v1 execution completes.
+- **v3** (2026-04-20): Governance-hardening and status-vocabulary unification authorized by `reframing-protocol-governance-hardening`.
+  - Added the constitutional-amendment guard and post-adoption appeal path for `canon-review-protocol.md` as a meta-corpus governance surface.
+  - Unified decision-record status language on `draft`, `active`, `deprecated`, `superseded` and retired the `proposed` / `accepted` split from active protocol text.
+  - Updated `validate_spec_dag.py` to discriminate status vocabularies by `doc_kind`, so proposals use their own lifecycle without breaking existing Spore ADRs.
 - **v2** (2026-04-18): Harvested from canon-review-v1 plan execution (Phase 5). 10 decisions across Tier A (3) + Tier B (4) + Tier C (3 per-project sessions), producing 23 ADRs across Spore (8) + IC (8) + PM (7) + 6 coordinated shared-framing notes. 28 harvest items (i–xxviii) compress to 11 semantic refinements + 7 script fixes + 5 evidence methods + 4 workflow rules + 2 cross-ref rules + 5 v3 deferrals. v2 section appended below.
+- **v1** (2026-04-17): Initial protocol harvested alongside the canon-review-v1 plan. 15 rounds of Codex review. Key methodological choices: protocol-first (canon review is normatively different from intake, which is descriptive), ADR-lite format (compact, one-screen), strict concepts vocabulary (no ad-hoc extension), held-tension first-class (no count quota), cross-project coordination via Spore-hosted framing notes + session-atomic commit sets, evidence threshold with DB-authoritative verification. v2 to be harvested after canon-review-v1 execution completes.
 
 ---
 
@@ -390,7 +394,7 @@ Both produce ADR-only commits (AC-11); Evidence names the subtype and cites the 
 
 **R-10 (No-op vs reject clarification, item xv).** "No-op commits forbidden" per v1 §11.8 means "affects_canon-stages-nothing commit". Reject-disposition commits DO stage the ADR file itself; they are not no-ops. Framing-carrier commits per §5c are the designated exception (framing file only, no ADR). v2 clarifies: `affects_canon: []` + AC-11 enforcement IS the reject pattern — it materially lands a decision artifact and satisfies the no-empty-commit rule.
 
-**R-11 (ADR status-enum mapping for Spore, item i).** Spore validator accepts `status: [active, deprecated, draft, superseded]`; ADR lifecycle names are `[proposed, accepted, superseded, partial-drift]`. v2 mapping (used by all 8 Spore ADRs in v1 execution): `proposed → draft`, `accepted → active`. IC and PM have no validator — use the ADR-lifecycle names directly. Clean fix deferred to v3 (see Deferred §).
+**R-11 (Historical note: pre-v3 ADR status mapping for Spore, item i).** Before v3, Spore validator accepted `status: [active, deprecated, draft, superseded]` while protocol text still named `[proposed, accepted, superseded, partial-drift]`. v2 therefore used the temporary mapping `proposed → draft`, `accepted → active`. ADR-0012 resolves that contradiction in v3 by making the validator-native decision-record enum authoritative.
 
 ### Verification-script refinements (bash + scripts)
 
@@ -480,24 +484,22 @@ DH-IC-1 and reproduction-primacy both hit wrong-join zero-rows returns; canonica
 
 **Xref-X2 (Frozen-vocab slugs are immutable within a version).** v1 §7 forbids new slugs during canon-review. v2 complement: slugs are also immutable within a version — if a slug's canonical_label needs adjustment mid-version, defer to next freeze. ADR prose may cite external author language freely; the `concepts:` frontmatter stays frozen-version aligned.
 
-### Deferred to v3 / out-of-scope
+### Deferred beyond v3 / out-of-scope
 
 These v2-harvest items require larger changes than protocol rules can absorb:
 
-- **Spore validator status-enum reconciliation.** Validator accepts `[active, deprecated, draft, superseded]` but ADR lifecycle is `[proposed, accepted, superseded, partial-drift]`. v1+v2 solve by mapping `proposed→draft, accepted→active` at commit time (R-11). Clean fix requires validator code change to accept `[proposed, accepted]` for `doc_kind: decision-record` (scoped enum). Follow-on ticket: `spore-validator-adr-status-enum`.
-- **Partial-drift tooling.** v1 §5e mandates `partial-drift` status with hard execution gate, but no tooling exists to scan for open `partial-drift` ADRs at session start (requires cross-repo index). v1 execution zero-hit; v2 remains manual grep. Follow-on: `cross-repo-adr-index` registry powers `related_adrs` resolver + partial-drift scanner.
+- **Coordination-drift tooling.** v3 keeps coordination drift as an execution-note problem rather than an ADR status value, but no tooling exists to scan for open drift notes or fix-forward obligations at session start (requires cross-repo index). v1 execution zero-hit; v3 remains manual grep plus close-memo discipline. Follow-on: `cross-repo-adr-index` registry powers `related_adrs` resolver + coordination-drift scanner.
 - **Frozen-concept vocab extension path.** v1 §7 forbids mid-round extensions. Decent-myth-bundle discovered `decentralization-theater` needed but frozen in v2 post-projection. Clean fix: v3 yaml freeze with explicit "extensions staged for version N+1" ticket list; re-projection pass at each version bump. Follow-on: `concepts-yaml-v3-plan`.
 - **Pre-commit inline-lint for R-claim doc_id correctness (Xref-X1).** Verification scripts catch the typo at AC-9; pre-commit hook would catch earlier. Requires repo-side git hooks framework. Follow-on: `adr-pre-commit-hooks`.
 - **AC-4c machine-parseable push timestamps.** Shell arithmetic over `git log --format=%cI` is fragile across timezones and leading-space quirks. v2 uses Python subprocess (Script-S6); v3 should consider a JSON-emitting helper or full `git log --format=%H:%cI` + Python parser.
 
-### Triggers for canon-review v3
+### Triggers for canon-review v4
 
-v3 authoring should be triggered by any of:
+v4 authoring should be triggered by any of:
 
-1. **Second canon-review round executes**, producing another harvest batch alongside v2's rules. v2→v3 cadence mirrors v1→v2 (harvest after execution, not before).
-2. **Spore validator code changes land** (resolves status-enum mapping) → v3 formalizes the validator-native lifecycle and retires R-11.
-3. **Concepts yaml version bumps to v3** → v3 re-anchors §7 against new frozen set; any v2-deferred discipline-rule concepts that made v3 freeze become cluster-gateable.
-4. **Cross-repo ADR index lands** → v3 replaces manual `partial-drift` + `related_adrs` checks with registry queries.
-5. **Pre-commit inline-lint framework lands** → v3 moves AC-9, AC-17, AC-8b regex checks from post-hoc verification to pre-commit.
-6. **Jeff or another external reviewer re-engages on Move 0 / pilot** → v3 may need to re-scope §14 moratorium language or introduce review-gate patterns.
-7. **Cross-repo edit contradictions discovered post-hoc** → triggers v3 reconciliation rules. v1+v2 hit none; if ever observed, is v3's first agenda item.
+1. **Another canon-review round executes under v3**, producing a new harvest batch beyond the v1/v2 execution record.
+2. **Concepts yaml version bumps to v3 or later** so frozen-vocabulary rules need re-anchoring against a new admitted set.
+3. **Cross-repo ADR index lands** → v4 replaces manual coordination-drift + `related_adrs` checks with registry queries.
+4. **Pre-commit inline-lint framework lands** → v4 moves AC-9, AC-17, AC-8b regex checks from post-hoc verification to pre-commit.
+5. **Jeff or another external reviewer re-engages on Move 0 / pilot** → v4 may need to re-scope §14 moratorium language or introduce review-gate patterns.
+6. **Cross-repo edit contradictions discovered post-hoc** → triggers v4 reconciliation rules. v1+v3 hit none; if ever observed, is v4's first agenda item.
