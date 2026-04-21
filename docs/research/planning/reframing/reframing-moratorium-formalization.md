@@ -1,7 +1,7 @@
 ---
 doc_id: spore.foundational-reframing.reframing-moratorium-formalization
 doc_kind: proposal
-status: authorized-ADR
+status: executed
 covers: [F-027]
 depends-on: []
 proposal_kind: new-protocol-creation
@@ -14,6 +14,7 @@ consultation_artifact: tmp/cross-repo-consultation-reframing-moratorium-formaliz
 authorized_adrs:
   - spore.canon-decision.moratorium-protocol-formalization
 authorized-adr-opened-on: 2026-04-21T06:37:30Z
+executed-on: 2026-04-21T06:39:47Z
 ---
 
 # Reframing Proposal - Moratorium Formalization
@@ -144,21 +145,24 @@ Because this proposal makes no direct doc edits outside its own record, rollback
 
 ## Execution record
 
-Not executed.
+Executed.
 
-- Proposal state: authorized-ADR
+- Proposal state: executed
 - Authorized ADRs:
   - spore.canon-decision.moratorium-protocol-formalization
-- ADR drafted:
-  - spore.canon-decision.moratorium-protocol-formalization
-- Implementation artifacts landed:
-  - docs/research/planning/moratorium-protocol-v1.md
-  - tmp/meta-corpus-inventory.tsv
-- Affected repo SHAs: [PENDING]
+- Affected repo SHAs:
+  - `07d5fd8` — ADR-0021 draft + protocol creation + inventory update + proposal `eligible -> authorized-ADR`
+  - `c4cac79` — ADR-0021 activation (`draft -> active`)
+  - `2307f80` — findings status update (F-027 -> `resolved-via-ADR-0021`)
+- Protocol admission / validation record:
+  - `docs/research/planning/moratorium-protocol-v1.md` created at `version: 1` with `status: active`
+  - `tmp/meta-corpus-inventory.tsv` updated `moratorium-mechanics` from `has-formal-doc=FALSE` to `TRUE` and repointed the path to the new protocol
+  - validator preserved the 9 errors / 30 warnings baseline (`tmp/phase-7/reframing-moratorium-formalization-validator-pre.txt` -> `tmp/phase-7/reframing-moratorium-formalization-validator-post.txt`)
+  - `docs/research/planning/corpus-foundational-review-v1-plan.md` remained unchanged; the new protocol cites it as the harvested source
+- Rollback commits, if any: revert newest-first from the execution close commit, then `2307f80`, `c4cac79`, `07d5fd8`
 
 ## Open questions
 
-- Should the inventory admission from `moratorium-mechanics` to `moratorium-protocol-v1.md` be part of the same authorizing ADR or a coordinated follow-up change in the same window?
+- Should a later cleanup pass add a direct cross-reference from `docs/research/planning/corpus-foundational-review-v1-plan.md` to `docs/research/planning/moratorium-protocol-v1.md`, or is the protocol-side source citation sufficient?
 - Should the new protocol own branch-isolation language as well as moratorium suspension/exception mechanics, or should branch isolation remain plan-local while only the moratorium rules move?
 - Which plan-local details, if any, are allowed to stay embedded after protocol extraction without recreating the same ambiguity F-027 identified?
-- Confirm that FR-20's pointer-reference rule fully covers the new artifact once it is admitted to `tmp/meta-corpus-inventory.tsv`.
