@@ -12,10 +12,11 @@ Master intake plan outside repo:
 
 ## Current Status
 
-**Date:** 2026-04-19
-**Status:** Canon review v1 closed 2026-04-18 (23 ADRs landed across all 3 repos, protocol v2 harvested). PM Phase 0 DB initialized + HNSW + e2e match verified 2026-04-18. Jeff re-engaged 2026-04-19; call booked Thu Apr 23 12pm–1pm PDT. Next-session focus is Jeff call prep + post-call cadence.
+**Date:** 2026-04-21
+**Status:** Corpus foundational review v1 closed 2026-04-21 (Phase 7 canon-review-v2 rounds + Phase 8 editorial pass + Phase 9 merges landed across Spore/IC/PM; harvest at `docs/research/planning/corpus-foundational-review-protocol.md`). Canon review v1 closed 2026-04-18 (23 ADRs, protocol v2 harvested). PM Phase 0 DB + HNSW + e2e verified 2026-04-18. Jeff call Thu Apr 23 12pm–1pm PDT. Next-session focus is Jeff call prep + post-call cadence.
 
 **What's Done:**
+- **Corpus foundational review v1 closed** (2026-04-21): 9-phase plan closed after diagnostic (Phases 2–5) + Phase 7 canon-review-v2 rounds + Phase 8 editorial pass + Phase 9 merges. Canon edits landed on `main` in Spore (merge `c5848d1`), IC (`2c90612`), PM (`9eecbae`) within a sub-minute window. Zero partial-drift, zero rollback, validator baseline held at 9 errors / 30 warnings (documented pre-existing bridge-note dangling-refs). Harvest at `docs/research/planning/corpus-foundational-review-protocol.md` with 20 CFR-N rules. Plan: `~/.claude/plans/corpus-foundational-review-v1.md` (CLOSED). Moratorium lifted; `corpus-review/v1` branches deleted.
 - **Jeff re-engagement + call scheduled** (2026-04-19): Jeff replied to Apr 13 compose letter — *"Yus to all that, let's get on a call"* — proposing regular collaboration cadence. Call booked Thu Apr 23, 2026 12pm–1pm PDT via schedule.jeffemmett.com. Call-brief at `~/Documents/Notes/Meetings/People/2026-04-23 Jeff Emmett.md`. Canon-review-v1 evolved grammar during Jeff's silence; Move 0 composition-test now runs against post-canon-review grammar, not Apr-13-compose-letter grammar (the bet from lifting the moratorium early on 2026-04-16).
 - **Full-arc retrospective written** (2026-04-19): `docs/research/connections/wiki-intake-canon-review-retrospective.md` — programmatic full-arc view covering intake + canon-review as one whole (neither capstone alone covered this). Citable by collaborators (Jeff).
 - **PM Phase 0 DB + HNSW + e2e verified** (2026-04-18): database initialized (was previously provisioned 2026-04-11, idempotent re-run), API healthy, `pm matches` e2e verified at semantic score 0.715 / overall 0.808, HNSW index created on embeddings (kicks in at scale — EXPLAIN correctly Seq-Scans the 3-row smoke-test set). Poly ILIKE fallback exercised during intermittent embed-service contention.
