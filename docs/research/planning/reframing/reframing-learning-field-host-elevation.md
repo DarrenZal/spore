@@ -1,7 +1,7 @@
 ---
 doc_id: spore.foundational-reframing.reframing-learning-field-host-elevation
 doc_kind: proposal
-status: eligible
+status: authorized-ADR
 covers: [F-029]
 depends-on: [reframing-repo-topology-trunk]
 proposal_kind: relayer
@@ -11,7 +11,10 @@ opened-on: 2026-04-20
 eligible-on: 2026-05-04
 eligible-bumped-on: 2026-04-21T06:08:30Z
 consultation_artifact: tmp/cross-repo-consultation-reframing-learning-field-host-elevation.md
-authorized_adrs: []
+authorized_adrs:
+  - spore.canon-decision.learning-field-protocol-elevation
+  - ic.canon-decision.learning-membrane-pattern-demotion
+authorized-adr-opened-on: 2026-04-21T16:29:23Z
 ---
 
 # Reframing Proposal: Learning-field Host Elevation
