@@ -211,6 +211,26 @@ unchallenged party line – each assertion (e.g. about what is the world) is sub
 Castro’s paradox says, occupying another’s perspective (as in this synthesis) inevitably involves translation
 and transformation; the most we can achieve is partially connected understanding, not perfect
 comprehension 2 8 .
+## R-claims
+
+- **R1**: Pluriversal thought treats worlds as distinct ontologies, not as multiple viewpoints layered over one shared reality. [target:candidate:plural-ontologies] [concept:pluriversal-commoning]
+*R1 is supported by Querejazu, de la Cadena, and Viveiros de Castro.*
+
+- **R2**: Personhood is relational and extends through kinship with more-than-human beings and living territories. [target:candidate:relational-identity] [concept:pluriversal-commoning]
+*R2 is supported by Plumwood, de la Cadena, and Viveiros de Castro.*
+
+- **R3**: Territory is a living, law-bearing participant in governance rather than inert property or backdrop. [target:candidate:living-territory] [concept:commons-law]
+*R3 is supported by de la Cadena, Borrows, and Escobar.*
+
+- **R4**: Reciprocity is ritual obligation across humans, earth-beings, and ancestors rather than a symmetric exchange between isolated individuals. [target:candidate:ritual-reciprocity] [concept:gift-obligation]
+*R4 is supported by de la Cadena, Escobar, and Borrows.*
+
+- **R5**: The tradition rejects any neat stacking of indigenous and modern worlds, insisting instead on overlap, translation, and partially connected composition. [target:candidate:many-worlds-governance] [concept:pluriversal-commoning]
+*R5 is supported by Querejazu, de la Cadena, and Escobar.*
+
+- **R6**: Its own critics warn that pluriversal language can romanticize difference or obscure material conflict if used without political specificity. [target:meta:corpus-foundational-review] [concept:care]
+*R6 is supported by de la Cadena, Escobar, and Borrows.*
+
 Sources: Primary texts by pluriversal/decolonial authors (Escobar, de la Cadena, Viveiros de Castro, Borrows,
 Plumwood, etc.) and related literature. All key claims are cited to these sources: e.g. Escobar/de la Cadena
 on multiple ontologies 1 2 ; Viveiros de Castro on perspectivism 3 4 ; de la Cadena on earth-beings

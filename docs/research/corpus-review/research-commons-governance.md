@@ -151,3 +151,23 @@ Layers are formally nested but **porous in practice**. Ostrom (2005, pp. 58–62
 ## Closing note on silences as diagnostic data
 
 Three Spore primitives are load-bearing yet receive no first-class treatment in this tradition: **intent** (the mental/propositional stance that precedes commitment), **evidence** (the truth-bearing artifact that couples monitoring to judgment), and **holon-like unit** (whole-and-part as a formal symmetry). The tradition substitutes for intent with *strategies* and *preferences*; for evidence with *monitoring* + *information rules*; for holon with *nested enterprise* + *resource-system/resource-unit*. These substitutions succeed for analyzing stable CPRs but leave the tradition unable to speak clearly about (a) what a commitment *means* independent of its enforcement mechanism, (b) how evidence circulates as an object separate from the act of monitoring, and (c) part-whole recursion outside the specific frame of polycentric governance. Meanwhile, the tradition's strongest primitives — **rules-in-use**, the seven rule types, graduated sanctions, polycentricity, commoning-as-verb — are all ones Spore does not currently name, and the tradition's internal rift between resource-ontology and practice-ontology is itself a structural question Spore's primitive list does not yet decide.
+
+## R-claims
+
+- **R1**: The tradition is split between a rule-centered CPR analytic and a practice-centered commoning ontology rather than forming a single unified theory of the commons. [target:candidate:commons-ontology-split] [concept:commons-as-verb]
+*R1 is supported by Ostrom, Linebaugh, Bollier & Helfrich, and De Angelis.*
+
+- **R2**: Boundary is doubly social and ecological, and later commoning work reframes it as semi-permeable rather than merely exclusionary. [target:candidate:double-boundary] [concept:boundary-commoning]
+*R2 is supported by Ostrom, Cox/Arnold/Villamayor-Tomás, and Bollier & Helfrich.*
+
+- **R3**: The Bloomington school's strongest formal contribution is the rule-in-use stack, especially the seven rule types and the operational / collective-choice / constitutional levels. [target:candidate:protocol-primitive] [concept:protocol-society]
+*R3 is supported by Ostrom, Kiser & Ostrom, Crawford & Ostrom, and McGinnis.*
+
+- **R4**: Nested enterprise and polycentricity make coordination at scale depend on multiple partially autonomous centers rather than a single apex. [target:candidate:polycentric-scaling] [concept:polycentric-governance]
+*R4 is supported by Ostrom, Ostrom/Tiebout/Warren, and Aligica & Tarko.*
+
+- **R5**: Trust, reciprocity, and monitoring are central in the behavioral wing, while care and reproductive labor are developed far more strongly in the commoning wing than in IAD itself. [target:candidate:trust-care-split] [concept:reproductive-commoning]
+*R5 is supported by Ostrom, Bollier & Helfrich, Federici, and De Angelis.*
+
+- **R6**: Ostrom's design principles are best read as diagnostic regularities rather than a universal blueprint once feminist, decolonial, and global-scale critiques are included. [target:meta:corpus-foundational-review] [concept:inclusive-governance]
+*R6 is supported by Ostrom, Cox/Arnold/Villamayor-Tomás, Agrawal, Federici & Caffentzis, and Stern.*

@@ -245,6 +245,26 @@ Overall, the tradition encourages best practices (segmented audiences, tiered co
 acknowledges that many organizations implement them only partially. The critiques focus on feasibility and
 cultural change: without institutional buy-in (teams, time, metrics), docs may remain “second-class” despite
 rhetoric 39 40 .
+## R-claims
+
+- **R1**: Documentation standards treat audience as a first-class design input, and documents serving multiple audiences should segment or split accordingly. [target:meta:audience-scoping] [concept:knowledge-commons]
+*R1 is supported by ISO/IEC/IEEE 26515 and IEEE 1063.*
+
+- **R2**: Diátaxis's tutorial / how-to / reference / explanation quadrants formalize a real layered distinction in reader need, not a stylistic preference. [target:candidate:document-layering] [concept:knowledge-commons]
+*R2 is supported by Diátaxis/Divio documentation and IEEE 1063's mode distinctions.*
+
+- **R3**: Tutorials and how-to guides should not be conflated because one is optimized for learning and the other for task completion. [target:candidate:reader-mode-separation] [concept:knowledge-commons]
+*R3 is supported by Procida's Diátaxis guidance and IEEE 1063's instructional/reference separation.*
+
+- **R4**: Reference documentation earns authority by being factual, product-centered, and unambiguous rather than example-led. [target:candidate:reference-authority] [concept:evidence]
+*R4 is supported by Diátaxis reference guidance and IEEE 1063.*
+
+- **R5**: Machine-readable metadata is becoming a distinct documentation layer alongside human-readable explanation and instruction. [target:candidate:machine-readable-docs] [concept:knowledge-commons]
+*R5 is supported by model-card and dataset-card practice, Hugging Face documentation, and AI Cards proposals.*
+
+- **R6**: The field splits between docs-as-product and docs-as-afterthought, with explicit audience declaration appearing only in the more mature, productized stance. [target:meta:corpus-foundational-review] [concept:knowledge-commons]
+*R6 is supported by Naidu's docs-as-product argument, Tom Johnson's layering guidance, and IEEE 1063/26515.*
+
 Sources: Authoritative definitions and frameworks are drawn from Diátaxis/Divio documentation 32 4
 7
 10

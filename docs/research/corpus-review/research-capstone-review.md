@@ -163,3 +163,23 @@ Revise before feeding this capstone into Phase 4 diagnostic. The analytical core
 - The norms/protocols gap diagnosis in §3 is the capstone's strongest single tradition-count argument.
 
 - The holon-vs-field confusion flagged in §5 is a real and useful problem statement.
+
+## R-claims
+
+- **R1**: The external review judges the capstone analytically usable in §§1-5 but not yet reliable in §§7-8 because vocabulary governance and priority ranking drift from the source syntheses. [target:meta:research-capstone-review] [concept:evidence]
+*R1 is supported by research-capstone.md, research-care-ethics.md, and research-governance-process.md.*
+
+- **R2**: The review says norms/protocol layers and trace/log/monitoring belong in the capstone's main convergence frame, not only in later gap-diagnosis sections. [target:candidate:protocol-primitive] [concept:protocol-society]
+*R2 is supported by research-commons-governance.md, research-distributed-systems.md, and research-rea-valueflows.md.*
+
+- **R3**: Reciprocity should be treated as recurrent but semantically split, rather than as a clean top-level convergence. [target:candidate:relational-reciprocity] [concept:care]
+*R3 is supported by research-care-ethics.md, research-pluriversal.md, and research-trust-reputation.md.*
+
+- **R4**: Reproduction/continuity is internally unstable across the capstone and must be classified consistently and elevated in the priorities list. [target:candidate:reproduction-continuity-primitive] [concept:reproduction-continuity]
+*R4 is supported by research-care-ethics.md, research-commons-governance.md, and research-governance-process.md.*
+
+- **R5**: The review identifies a direct care contradiction: the capstone diagnoses care as a live gap while its meta-summary claims Spore already covers that absence. [target:candidate:care-primitive] [concept:care]
+*R5 is supported by research-capstone.md and research-care-ethics.md.*
+
+- **R6**: The review reorients Phase 4 around commitment, care, protocol, and continuity as the highest-value pre-diagnostic decisions. [target:meta:phase-4-diagnostic] [concept:commitment]
+*R6 is supported by research-capstone.md, research-rea-valueflows.md, and research-governance-process.md.*

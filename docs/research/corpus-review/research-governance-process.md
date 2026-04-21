@@ -99,6 +99,26 @@ The dominant pattern across mature standards bodies is **layered governance in w
 
 **Empirical under-evaluation.** Rennie's peer-review congresses (JAMA/BMJ, 1989–2022) established that "most peer-review improvements lack empirical support"; the analogous critique applied to standards governance is that the process documents themselves are rarely evaluated against outcomes. Russell (2006) notes that Internet historians tend to accept the IETF's self-presentation uncritically. Braman (2010, 2011) offers one of the few corpus-analytic studies of RFC decision-making as de facto Internet policy. The systematic absence of empirical evaluation of self-governance rules is itself load-bearing: the tradition treats its process documents as self-justifying artifacts rather than as falsifiable hypotheses about good decision-making.
 
+## R-claims
+
+- **R1**: Mature governance stacks separate constitutional rules from operational process and protect constitutional amendment with higher thresholds. [target:candidate:amendment-thresholds] [concept:protocol-society]
+*R1 is supported by the Debian Constitution, PEP 13, and the W3C Process Document.*
+
+- **R2**: Proposal lifecycles are formalized through named states and explicit gates for review, objection, and ratification. [target:candidate:lifecycle-governance] [concept:protocol-society]
+*R2 is supported by RFC 2026, PEP 1, and the W3C Process Document.*
+
+- **R3**: Consensus splits between formal counting and judgment about unresolved objection, and the two models are not interchangeable. [target:candidate:rough-vs-counted-consensus] [concept:inclusive-governance]
+*R3 is supported by RFC 7282, the Debian Constitution, Apache voting rules, and the Node.js TSC charter.*
+
+- **R4**: Governance systems operationalize trust and identity institutionally through earned authority, conflict-of-interest caps, and durable archives rather than through sentiment alone. [target:candidate:earned-authority] [concept:memory-governance]
+*R4 is supported by the Apache Way, PEP 13, and Linux process documentation.*
+
+- **R5**: Succession and continuity rules are load-bearing because councils, PMCs, and elected roles must reproduce themselves across releases and terms. [target:candidate:continuity-governance] [concept:reproduction-continuity]
+*R5 is supported by PEP 13, the Debian Constitution, Apache governance, and Rust RFC 3392.*
+
+- **R6**: The broader trend is away from single-executive governance and toward explicit councils, charters, and appeals structures. [target:meta:corpus-foundational-review-protocol] [concept:inclusive-governance]
+*R6 is supported by PEP 13/8016, the W3C Process revisions, Rust RFC 3392, and the Node.js TSC charter.*
+
 ## §6 — Citations
 
 **Primary sources (all [open-access]):**

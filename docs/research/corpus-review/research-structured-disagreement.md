@@ -113,6 +113,26 @@ A seventh critique is distinctive to Kahneman, Sibony, Sunstein (2021): noise-ve
 
 Two additional structural limits deserve emphasis. Meehl's clinical-vs-actuarial tradition (Meehl 1954; Grove et al. 2000) found that mechanical rules outperform clinical judgment by ~10% on average, with clinicians substantially worse when inputs include rich qualitative data. Tetlock's work (2005; 2015) partially rescues human judgment via aggregation, training, and fox-style epistemic humility, but finds that individual experts remain poor forecasters; superforecasters achieve their results through aggregation across many individuals, not individual brilliance. The implication for small-team review is stark: two reviewers, however well-chosen, represent a regime in which neither Meehl's actuarial advantage nor Tetlock's aggregation advantage is operative. Structured-disagreement primitives at N=2 depend on the mechanism of disagreement-generation (adversarial decomposition, checklist coverage, independent rule-sets) rather than on the statistical power of aggregation.
 
+## R-claims
+
+- **R1**: Structured disagreement is a family of validation practices built on the claim that independent or adversarial critique surfaces errors single-pass authorship misses. [target:meta:structured-disagreement] [concept:evidence]
+*R1 is supported by Rennie, Jefferson et al., and Zenko.*
+
+- **R2**: Independence is a real but contested control because strict red-team separation catches blind spots while purple-team integration improves learning loops. [target:candidate:independence-criterion] [concept:protocol-society]
+*R2 is supported by Zenko, NIST SP 800-115, and the purple-team / Feffer literature.*
+
+- **R3**: Adversarial validation and impartial review are distinct review postures with different success criteria and should not be conflated. [target:candidate:adversarial-review] [concept:signal]
+*R3 is supported by the JAMA peer-review literature, the CIA Tradecraft Primer, and the AI debate papers.*
+
+- **R4**: Inter-rater agreement is persistently low across journals, grants, and conferences, making disagreement a structural property of review systems rather than a rare anomaly. [target:candidate:inter-rater-agreement] [concept:evidence]
+*R4 is supported by Rothwell & Martyn, Bornmann et al., the NeurIPS consistency experiments, and Pier et al.*
+
+- **R5**: Multi-agent adversarial review can outperform naive self-review, but intrinsic self-correction and LLM judging remain vulnerable to self-preference and reasoning degradation. [target:candidate:self-review-limits] [concept:signal]
+*R5 is supported by Bai et al., Khan et al., Huang et al., and Panickssery et al.*
+
+- **R6**: In small-N review settings, protocol design matters more than reviewer count alone because statistical aggregation is too weak to rescue noisy judgments. [target:meta:corpus-foundational-review] [concept:protocol-society]
+*R6 is supported by Kahneman/Sibony/Sunstein, Meehl/Grove, Tetlock, and the NeurIPS consistency work.*
+
 ## §6 — Citations
 
 The following are keyed to claims in §§1-5. Access channels: [OA] open-access, [PW] paywalled, [IN] institutional, [PR] print.

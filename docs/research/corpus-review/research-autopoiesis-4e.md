@@ -82,3 +82,23 @@ By contrast, several concepts remain genuinely underdeveloped:
 The enactive-extended tradition is best read not as a unified paradigm but as **a research programme organised around three productive disagreements**. First, on *life-mind continuity*: Thompson and Di Paolo defend strong continuity (autopoiesis plus adaptivity is sufficient for mind); Clark, Chalmers and Rupert largely bracket biological autonomy as irrelevant to what cognitive kinds are. Second, on *content*: Hutto and Myin, and Chemero, defend contentless basic cognition; Clark defends action-oriented representation and predictive generative models; Noë wavers. Third, on *boundaries*: the Markov-blanket debate between Hohwy and Clark/Kirchhoff recapitulates, in formal dress, the original 1998 Adams–Aizawa dispute about coupling and constitution.
 
 The most important upshot for any reader trying to use this literature is that **you cannot cite "enactivism" without specifying which enactivism**, and the same caution applies to "4E cognition." The tradition's social and biological roots are strong; its formal treatment of language, institutions, memory, and authority is still catching up to the ambition of its founding claims. The citable primary sources are largely accessible — Varela/Maturana texts via Internet Archive and cepa.info, Di Paolo's corpus on his personal site, Clark and Chalmers via consc.net, the Hohwy/Clark predictive-processing debate open on predictive-mind.net — while the book-length syntheses (Thompson 2007, Gallagher 2017, Di Paolo et al. 2018) remain behind institutional paywalls or in print form only. That asymmetry shapes how the field is read and cited, and it rewards readers who go to the 2005–2010 journal literature where the conceptual foundations were actually hammered out.
+
+## R-claims
+
+- **R1**: Autopoiesis defines living systems as operationally closed self-producing unities that specify their own boundary. [target:candidate:field-primitive] [concept:autopoiesis]
+*R1 is supported by Maturana & Varela's Autopoiesis and Cognition and The Tree of Knowledge.*
+
+- **R2**: Di Paolo's adaptivity amendment is what lets enactivism derive normativity and agency from viability rather than from mere self-maintenance. [target:candidate:adaptivity-amendment] [concept:autopoiesis]
+*R2 is supported by Di Paolo (2005) and Thompson's Mind in Life / 2011 reply.*
+
+- **R3**: "Enactivism" names a family of partially compatible programs rather than a single settled doctrine. [target:candidate:enactivist-plurality] [concept:enactive-cognition]
+*R3 is supported by Gallagher's taxonomy, Noë's sensorimotor work, and Hutto & Myin's radical enactivism.*
+
+- **R4**: Participatory sense-making makes interaction itself potentially constitutive of cognition, not just contextual to it. [target:candidate:participatory-sense-making] [concept:collective-agency]
+*R4 is supported by De Jaegher & Di Paolo (2007), De Jaegher/Di Paolo/Gallagher (2010), and Linguistic Bodies.*
+
+- **R5**: The predictive-processing dispute is fundamentally a boundary dispute over whether cognition is skull-bound or extended through dynamic coupling. [target:candidate:predictive-boundary] [concept:structural-coupling]
+*R5 is supported by Hohwy (2013/2016), Clark (2016/2017), and Kirchhoff / Ramstead / Friston.*
+
+- **R6**: The tradition is strong on identity, adaptivity, and participatory coordination but comparatively thin on trust, commitment, evidence, and institutional power. [target:meta:corpus-foundational-review] [concept:evidence]
+*R6 is supported by Thompson, Gallagher, and Hutto & Myin.*

@@ -127,6 +127,26 @@ The pattern is informative: VSM is strong on **structural/regulative primitives*
 
 ---
 
+## R-claims
+
+- **R1**: VSM builds coordination out of recursion, requisite variety, and the five-subsystem architecture rather than from individual commitments or preferences. [target:candidate:vsm-core] [concept:collective-agency]
+*R1 is supported by Beer, Brain of the Firm, and Espejo & Reyes.*
+
+- **R2**: Viability depends on balancing inside-and-now operations against outside-and-then intelligence under an identity-bearing policy function. [target:candidate:identity-through-system-five] [concept:reproduction-continuity]
+*R2 is supported by Beer and Espejo & Reyes.*
+
+- **R3**: Identity, boundary, signal, autonomy, and authority are load-bearing in VSM, while commitment, care, reciprocity, and trust are absent or secondary. [target:candidate:care-gap] [concept:care]
+*R3 is supported by Beer, Walker, and Espejo & Reyes.*
+
+- **R4**: Recursive VSM structure is the strongest holon analogue in the corpus even though the tradition rarely uses Koestler's term. [target:candidate:holon-primitive] [concept:holon]
+*R4 is supported by Beer, Walker, and the later holonic-manufacturing references cited in the synthesis.*
+
+- **R5**: Internal disputes center on recursion depth, the S3-S4 homeostat, prescriptive versus diagnostic use, and the legitimacy of social autopoiesis. [target:candidate:autonomy-cohesion-balance] [concept:autopoiesis]
+*R5 is supported by Beer, Espejo & Reyes, Schwaninger & Scheef, and Mingers.*
+
+- **R6**: The tradition's main critiques are technocracy or managerialism, low empirical testability, and steep training barriers. [target:meta:corpus-foundational-review] [concept:power-capture]
+*R6 is supported by Jackson, Ulrich, Schwaninger & Scheef, and Brocklesby/Cummings/Davies.*
+
 ## §6 — Citations
 
 Primary Beer sources: *Brain of the Firm*, 2nd edn. (Wiley, 1981), chs. 6–14, 16–20 [print; scans archive.org]. *The Heart of Enterprise* (Wiley, 1979), principles pp. 97, 99, 101; Recursive System Theorem p. 118; Axioms pp. 217, 298; Law of Cohesion p. 355 [print]. *Diagnosing the System for Organizations* (Wiley, 1985), esp. ch. 2 and glossary [institutional via archive.org controlled lending]. Beer, "The Viable System Model: its provenance, development, methodology and pathology," *Journal of the Operational Research Society* 35(1), 1984, pp. 7–25 [paywalled at JSTOR; full reprint open-access at library.uniteddiversity.coop]. Beer, Preface to Maturana & Varela, *Autopoiesis and Cognition* (Reidel, 1980), pp. 63–72 [institutional]. Beer, *Designing Freedom* (CBC Massey Lectures, 1974) [open-access via archive.org loan]. Beer, reply to Ulrich, *JASA* 10, 1983, pp. 115–119 [print].

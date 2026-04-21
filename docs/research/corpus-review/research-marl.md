@@ -336,6 +336,26 @@ learning algorithms), it also acknowledges its limits. Authors often justify the
 “modeling choices” (e.g. assuming rationality or common knowledge) while pointing out that these may not
 hold in practice 2 . Where theoretical results diverge from observed behavior (as in bounded rationality
 studies 2 ), these are seen as areas needing further research.
+## R-claims
+
+- **R1**: MAS/MARL starts from agents as utility-maximizing decision-makers even when later work relaxes perfect rationality with bounded-resource assumptions. [target:candidate:rational-agent-model] [concept:collective-agency]
+*R1 is supported by Shoham & Leyton-Brown and Russell & Norvig.*
+
+- **R2**: The core substrate is policy, reward, state, and observation structure rather than social or ethical vocabulary. [target:candidate:policy-reward-substrate] [concept:coordination-substrate]
+*R2 is supported by Littman, Shoham & Leyton-Brown, and the MARL survey sources.*
+
+- **R3**: CTDE creates a real architectural split between what coordination can use during training and what it can rely on during live decentralized execution. [target:candidate:ctde-boundary] [concept:coordination-substrate]
+*R3 is supported by Amato's survey and the CTDE literature it cites.*
+
+- **R4**: Mechanism design and strategy occupy distinct layers, with one specifying incentive rules and the other optimizing behavior within those rules. [target:candidate:mechanism-vs-strategy] [concept:protocol-society]
+*R4 is supported by Shoham & Leyton-Brown's mechanism-design chapters and the VCG / implementation literature cited in the document.*
+
+- **R5**: Communication in this tradition ranges from predefined protocols to emergent signaling learned through interaction. [target:candidate:emergent-communication] [concept:signal]
+*R5 is supported by Shoham & Leyton-Brown and the emergent-communication survey.*
+
+- **R6**: Trust, care, authority, and holonic whole-part structure remain peripheral to the mainstream formalization. [target:meta:corpus-foundational-review] [concept:care]
+*R6 is supported by Shoham & Leyton-Brown, Amato, and the MARL communication survey.*
+
 Sources: Authoritative MAS textbooks and surveys 3 1 2 4 13 12 8 11 (all [open-access]). These
 provide the formal definitions and discussions above. Each claim about the tradition is grounded in these
 sources.

@@ -316,6 +316,26 @@ but it must grapple with not reifying gender roles, not ignoring other axes of i
 
 insights from intimate to institutional and global realms. Debates within the tradition over these critiques
 are ongoing and diverse.
+## R-claims
+
+- **R1**: Care is treated as irreducible labor, disposition, and relational practice rather than as a derivative norm or sentiment. [target:candidate:care-primitive] [concept:care]
+*R1 is supported by Held, Noddings, and Gilligan.*
+
+- **R2**: Dependency and vulnerability are species-typical conditions, which makes care foundational rather than supplementary to social life. [target:candidate:dependency-foundation] [concept:care]
+*R2 is supported by Kittay, Held, and the IEP care-ethics overview.*
+
+- **R3**: Tronto's phases make care a staged process of attentiveness, responsibility, competence, responsiveness, and later caring-with. [target:candidate:care-process] [concept:care]
+*R3 is supported by Tronto and Sevenhuijsen.*
+
+- **R4**: Social reproduction theory shows that economies depend on care labor whose continuity function is routinely hidden by mainstream accounting and policy. [target:candidate:reproduction-continuity-primitive] [concept:reproduction-continuity]
+*R4 is supported by Folbre, Federici, and Waring.*
+
+- **R5**: Care ethics treats identity and agency as relational and embedded rather than self-sufficient individual properties. [target:candidate:relational-identity] [concept:care]
+*R5 is supported by Held, Gilligan, and Noddings.*
+
+- **R6**: The tradition directly challenges symmetric coordination models by foregrounding asymmetric obligation, dependency, and the politics of care provision. [target:candidate:asymmetric-reciprocity] [concept:care]
+*R6 is supported by Tronto, Folbre, and Federici.*
+
 Sources: Primary care-ethics and feminist economics texts and reviews (listed by author and key pages/sections):
 Held, The Ethics of Care, ch.2 (pp. 15–16) 1 ; Noddings, Caring (1984); Tronto, Moral Boundaries (1993), ch.1
 (attentiveness/responsibility; see e.g. Carmen Faye tribute or IEP summary) 10 ; Tronto, Caring Democracy (2013)

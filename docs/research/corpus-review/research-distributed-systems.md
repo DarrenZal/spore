@@ -184,6 +184,26 @@ The "gap" identified for Spore is the lack of a formal "invariant confluence" ch
 
 The synthesis reveals that "coordination" is not a single act but a spectrum of ordering guarantees. For small-group coordination as envisioned by Spore, the internal contradictions of the tradition suggest that the most resilient system will not be one that enforces a single global consistency model, but one that allows "holons" to negotiate their own tradeoffs between linearizable "commitments" and eventually consistent "signals."
 
+## R-claims
+
+- **R1**: Distributed coordination begins with causal ordering, since logical time is a partial order over events rather than a shared physical clock. [target:candidate:temporal-order] [concept:evidence]
+*R1 is supported by Lamport's original paper and the logical-clocks reviews cited in the document.*
+
+- **R2**: CAP is not a blanket pick-any-two law for whole systems but a timeout-bound choice between availability and consistency under partition. [target:candidate:cap-nuance] [concept:coordination-substrate]
+*R2 is supported by Gilbert & Lynch, Brewer's retrospective, and the Spanner/TrueTime discussion.*
+
+- **R3**: Consistency forms a real spectrum from linearizability through causal consistency to eventual convergence, each point trading simplicity against coordination cost or latency. [target:candidate:consistency-spectrum] [concept:evidence]
+*R3 is supported by Herlihy & Wing, Lamport on sequential consistency, and the causal/eventual consistency literature cited here.*
+
+- **R4**: CRDTs show that some evidence can be merged without consensus, but only where the invariant survives commutative convergence. [target:candidate:coordination-avoidance] [concept:evidence]
+*R4 is supported by Shapiro's CRDT work and Bailis on coordination avoidance.*
+
+- **R5**: In this tradition commitment aligns with durability or linearization, while signal aligns with gossip and eventually propagated state. [target:candidate:intent-commitment-evidence-arc] [concept:commitment]
+*R5 is supported by the consensus literature, Kreps's log abstraction, and the gossip-protocol sources.*
+
+- **R6**: The field's strongest critiques target latency-blind CAP thinking, FITO modeling assumptions, and the underdeveloped bridge between crash-fault and Byzantine coordination. [target:meta:corpus-foundational-review] [concept:signal]
+*R6 is supported by Abadi's PACELC critique, the FITO paper, and the BFT surveys.*
+
 #### **Works cited**
 
 1. Time, clocks, and the ordering of events in a distributed system \- A.M. Turing Award, accessed April 18, 2026, [https://amturing.acm.org/p558-lamport.pdf](https://amturing.acm.org/p558-lamport.pdf)  

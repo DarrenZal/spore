@@ -266,7 +266,27 @@ complexity of trust in human affairs.
 
 6
 
-Sources: Core definitions and debates are drawn from Gambetta (1988) 1 9 , Hardin (2002) 3 18 ,
+## R-claims
+
+- **R1**: Trust is defined either as expectation about another's future behavior or as willingness to be vulnerable to that behavior, and the tradition never fully collapses those into one model. [target:candidate:trust-primitive] [concept:reputation-market]
+*R1 is supported by Gambetta, Hardin, Luhmann, and Uslaner.*
+
+- **R2**: Distrust is an active negative stance rather than simply low trust, so models that treat it as mere absence are incomplete. [target:candidate:distrust-distinction] [concept:reputation-market]
+*R2 is supported by the trust/distrust surveys and the SEP entry cited in the document.*
+
+- **R3**: Trustworthiness and reputation are distinct: the first names a property of the trustee, while the second aggregates public memory of past behavior into a signal. [target:candidate:reputation-signal] [concept:reputation-market]
+*R3 is supported by Gambetta, Hardin, and Resnick et al.*
+
+- **R4**: Reputation systems only operate as durable incentive devices when identity persists across interactions. [target:candidate:identity-persistence] [concept:reputation-market]
+*R4 is supported by Friedman & Resnick, web-of-trust literature, and Resnick et al.*
+
+- **R5**: The tradition layers interpersonal trust, generalized trust, and system or institutional trust rather than treating trust as only a dyadic feeling. [target:candidate:system-trust] [concept:reputation-market]
+*R5 is supported by Luhmann, Uslaner, and the sharing-economy trust study.*
+
+- **R6**: Rational and computational trust models capture signaling and incentive dynamics but under-describe care, culture, and power. [target:meta:corpus-foundational-review] [concept:care]
+*R6 is supported by Uslaner, Luhmann, Friedman & Resnick, and Resnick et al.*
+
+Sources: Core definitions and debates are drawn from Gambetta (1988) 1 9 , Hardin (2002) 3 18 ,
 Luhmann (1979) 4 22 , Uslaner (2002) 5 , as well as specialized studies of reputation systems (e.g.
 Resnick et al. on eBay 10 , Friedman & Resnick on pseudonyms 14 ). Additional context comes from surveys
 of trust/distrust 7 6 and crypto/web-of-trust glossaries 13 . These sources are used for definitions,

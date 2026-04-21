@@ -282,6 +282,26 @@ offer team autonomy and simpler tooling per team 19 , but incur extra coordinati
 disagreement often boils down to scale and culture: giants like Google thrive with one repo 1 , whereas
 organizations valuing independence (Netflix, Spotify) adopt many repos and build solutions to mitigate its
 drawbacks 12 3 . The literature does not provide a one-size-fits-all answer; rather, it documents the tradeoffs and tools that characterize each choice.
+## R-claims
+
+- **R1**: Monorepos buy a common source of truth and atomic multi-module change, but only with substantial tooling and governance investment. [target:topology:monorepo-vs-polyrepo] [concept:coordination-substrate]
+*R1 is supported by Potvin & Levenberg, Jaspan et al., and Morris.*
+
+- **R2**: Polyrepos buy local team autonomy while pushing coordination cost into versioning, integration, and cross-repo upgrade work. [target:topology:coordination-cost] [concept:interoperability-as-institutional]
+*R2 is supported by Netflix engineering, Nx guidance, and Jaspan et al.*
+
+- **R3**: Hybrid or shared-canon patterns are real but under-theorized, so organizations build custom automation to approximate monorepo guarantees without giving up repo sovereignty. [target:topology:shared-canon-hybrid] [concept:interoperability-as-institutional]
+*R3 is supported by Netflix's publisher-feedback work, Nx's multi-monorepo guidance, and Spotify's tooling.*
+
+- **R4**: Build graphs, workspaces, and package-management layers often matter more than repo ideology because they determine whether cross-cutting change is tractable. [target:topology:build-graph] [concept:coordination-substrate]
+*R4 is supported by Morris, Nx, npm workspaces, and the Yarn/Spotify material cited in the document.*
+
+- **R5**: Repo boundaries often mirror team boundaries and ownership structures, making topology decisions governance decisions as much as storage decisions. [target:topology:conway-boundary] [concept:boundary-spanner]
+*R5 is supported by Conway-style arguments in Morris, Nx, and Spotify's CODEOWNERS practice.*
+
+- **R6**: The literature offers tradeoff maps rather than a universal optimum, which makes scale and organizational culture first-class variables in topology choice. [target:meta:corpus-foundational-review] [concept:interoperability-as-institutional]
+*R6 is supported by Potvin & Levenberg, Fowler, Netflix, Spotify, and Nx.*
+
 Sources: We have cited primary literature for each claim. For example, Google’s monorepo advantages
 come from Potvin & Levenberg CACM (2016) 1 9 (paywalled, though quoted above), developer surveys
 from Google’s Jaspan et al. (2018) 2 (open-access), Kief Morris’s Infrastructure as Code (2020) 15 8 ,

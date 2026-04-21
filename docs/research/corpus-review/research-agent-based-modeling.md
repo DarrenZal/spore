@@ -215,6 +215,26 @@ One of the most valuable contradictions for Spore to consider is the "Soft Facto
 
 The ABM tradition, from Schelling to Epstein, ultimately teaches that coordination is not a global property to be managed, but a local property to be "grown".4 The primitives of intent, commitment, and evidence are the "micro-mechanisms" that make this growth possible in a world of autonomous, heterogeneous egoists.12
 
+## R-claims
+
+- **R1**: ABM treats coordination as a macro-pattern grown from local interactions among autonomous, heterogeneous agents rather than imposed by a central controller. [target:candidate:generative-coordination] [concept:collective-agency]
+*R1 is supported by Schelling (1978), Epstein & Axtell (1996), and Axtell's ABM synthesis.*
+
+- **R2**: Neighborhood and network topology are the decisive meso-level substrate through which signals, imitation, and tipping dynamics propagate. [target:candidate:meso-topology] [concept:coordination-substrate]
+*R2 is supported by Schelling's segregation work, the Schelling demo literature, and the Emergent Mind ABM framework.*
+
+- **R3**: BDI-style ABM gives Spore's intent/commitment split a formal analogue by treating intention as goal selection and commitment as persistence of the chosen plan. [target:candidate:intent-commitment-evidence-arc] [concept:commitment]
+*R3 is supported by the JumpCloud BDI overview, the BDI software-model literature, and the arXiv BDI ontology note.*
+
+- **R4**: Trust is usually derivative in ABM: repeated interaction, reciprocity, and memory produce cooperative stability more often than any standalone trust primitive does. [target:candidate:trust-derivation] [concept:reputation-market]
+*R4 is supported by Axelrod's cooperation work, Gärdenfors on the cognitive demands of cooperation, and the Sugarscape tradition.*
+
+- **R5**: ABM can represent holon-like scaling by allowing collective entities at one level to act as agents at the next. [target:candidate:holon-scaling] [concept:holon]
+*R5 is supported by the agent-based model overview, the Emergent Mind framework, and Sugarscape's multi-scale reading.*
+
+- **R6**: The tradition's main limits are identifiability, weak equilibrium grounding, and thin treatment of power and care relative to its rich modeling of rules and interaction. [target:meta:corpus-foundational-review] [concept:care]
+*R6 is supported by the identifiability critique, Inverse Generative Social Science, and the survey of cooperation and communication demands.*
+
 #### **Works cited**
 
 1. Agent-based modeling: Methods and techniques for simulating ..., accessed April 18, 2026, [https://pmc.ncbi.nlm.nih.gov/articles/PMC128598/](https://pmc.ncbi.nlm.nih.gov/articles/PMC128598/)  

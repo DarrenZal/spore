@@ -176,3 +176,23 @@ Layering itself is the central object. The major stratification proposals form a
 ## Conclusion
 
 What this tradition actually teaches — read across its primary sources rather than in any one of them — is that **stratification is only defensible when tied to a specific kind of change**. Evans layers to protect the domain from technology churn; Cockburn insulates the application from drivers; Brown separates audiences; W3C separates maturity states; Procida separates user needs; Nygard separates decisions from their rationale and outcomes. When the axis of change is misidentified — when a team layers "because that's how it's done" — the stratification produces sinkholes (Richards), big balls of mud (Foote & Yoder via Richards), ADR fatigue (Keeling, InfoQ), or Diátaxis-shaped folders holding mis-typed content (Bernard). The tradition's implicit meta-principle, visible only when the whole literature is read together, is that **a layering is a hypothesis about what will vary independently**, and the cost of a wrong hypothesis scales with how strictly the layering is enforced. The absences are equally diagnostic: this tradition does not know how to name trust, care, agency, or reciprocity as architectural primitives, so it imports them either as security concerns (trust boundary), as stakeholder-concern line items (42010), or not at all. A project checking its own layering against this tradition will find the tradition strict about boundary and decision, silent about commitment and care, and internally divided on almost every question of strictness versus heuristic.
+
+## R-claims
+
+- **R1**: Layering is defensible only when it tracks what can vary independently rather than inherited convention about how systems should look. [target:candidate:layering-hypothesis] [concept:membrane]
+*R1 is supported by Evans, Richards, and Procida.*
+
+- **R2**: Boundary is the tradition's most stable primitive, with layers following from where contracts and concerns are drawn. [target:candidate:boundary-primitive] [concept:membrane]
+*R2 is supported by Evans, Cockburn, and ISO/IEC/IEEE 42010.*
+
+- **R3**: ADRs stabilize architectural commitment by recording significant decisions as append-only artifacts that must be superseded rather than silently rewritten. [target:meta:canon-review-protocol] [concept:commitment]
+*R3 is supported by Nygard, Fowler, and Merson's ADR template critique.*
+
+- **R4**: The tradition contains a real split between strict closed layers and inward-only dependency rules that still allow direct calls across outer layers. [target:candidate:dependency-direction] [concept:coordination-substrate]
+*R4 is supported by Richards, Palermo, and Martin.*
+
+- **R5**: Documentation layering and architecture layering solve mixed-concern problems on different axes, so they are analogous but not theoretically identical. [target:candidate:audience-vs-architecture-layering] [concept:knowledge-commons]
+*R5 is supported by Procida, Brown's C4 model, and 42010.*
+
+- **R6**: The tradition is precise about boundary, maturity, and decision traceability but largely silent about care, reciprocity, and agency as architectural primitives. [target:meta:corpus-foundational-review] [concept:care]
+*R6 is supported by 42010, W3C Process, and Evans / Richards.*

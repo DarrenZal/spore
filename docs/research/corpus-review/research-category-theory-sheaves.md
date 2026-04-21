@@ -255,7 +255,27 @@ models” remains an open question in the literature.
 
 6
 
-Sources: All definitions and claims above are drawn from core works in the category/sheaf tradition. See,
+## R-claims
+
+- **R1**: Categories, functors, and natural transformations give the tradition a general language for compositional structure and structure-preserving translation. [target:candidate:formal-substrate] [concept:coordination-substrate]
+*R1 is supported by Spivak and Fong & Spivak.*
+
+- **R2**: Presheaves model distributed local data, while sheaves add the gluing condition that distinguishes merely local assignments from globally consistent ones. [target:candidate:sheaf-consistency] [concept:evidence]
+*R2 is supported by Fong & Spivak and the sheaf notes cited in the document.*
+
+- **R3**: Stalks and restriction maps make local state and inter-cell constraint first-class, so cellular sheaves can model coordination without collapsing locality. [target:candidate:cellular-agent-state] [concept:signal]
+*R3 is supported by Hansen–Ghrist and Hanks et al.*
+
+- **R4**: Global sections are the tradition's formal analogue of consensus or fully coordinated joint state. [target:candidate:consensus-as-global-section] [concept:holon]
+*R4 is supported by Hanks et al., Robinson, and Hansen–Ghrist.*
+
+- **R5**: The tradition is strong on consistency and compositionality but weak on trust, care, authority, and social agency as primitives. [target:meta:corpus-foundational-review] [concept:care]
+*R5 is supported by Spivak & Fong, Hanks et al., and Hansen–Ghrist.*
+
+- **R6**: Its core internal dispute is whether the abstraction burden of categorical formalism delivers enough applied payoff to justify its cognitive overhead. [target:candidate:abstraction-payoff] [concept:coordination-substrate]
+*R6 is supported by Joshua Tan's critique, Spivak & Fong, and Hansen–Ghrist.*
+
+Sources: All definitions and claims above are drawn from core works in the category/sheaf tradition. See,
 e.g., Spivak (2014, Ch.4) for categories, functors, natural transformations 1 2 4 , Spivak & Fong (2019)
 for presheaves, sheaves, toposes 5 6 12 , and Hansen–Ghrist (2021) and Hanks et al. (2025) for cellular
 sheaves and coordination 7 8 10 . Critiques are drawn from commentary within the field 17 15 .

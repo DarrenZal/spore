@@ -119,6 +119,26 @@ REA's arc is the story of a formalism repeatedly stretched past its origin frame
 
 For the Spore audit the key findings are: (1) **The intent → commitment → evidence arc maps cleanly onto VF's Intent → Commitment → EconomicEvent state progression**, and this is the most direct structural affordance the tradition offers. (2) **Commitment's primitive-vs-derived status is unresolved** across the tradition's full arc — any Spore position on commitment will step into a live disagreement, not a settled consensus. (3) **Evidence is structurally present but not named** — VF treats the EconomicEvent *as* evidence, which means auditing frameworks downstream of VF inherit an observational epistemology rather than a separate evidentiary primitive. (4) **Signal is load-bearing in Haugen's framing but absent as primitive** — Spore's signal primitive has no direct counterpart, though Intent and Proposal operationalize parts of what signal might mean. (5) **Holon has no theoretical treatment** — recursive composition exists pragmatically (Plan > Process > Event) but the whole-part structure is not theorized. (6) **The duality axiom survives every reframing**; any Spore primitive that presupposes non-dual relationality (gift, care, pure stewardship) will stretch the tradition's load-bearing commitment. These are not gaps in a deficient tradition — they are the price paid for REA's auditability guarantee, which is why the tradition matters in the first place.
 
+## R-claims
+
+- **R1**: REA's core primitive is the duality relation between paired economic events rather than resource or agent taken alone. [target:candidate:duality-assumption] [concept:rea-ontology]
+*R1 is supported by McCarthy (1982) and Geerts & McCarthy (2000).* 
+
+- **R2**: ValueFlows extends REA into a repeated knowledge / plan / observation layering that keeps recipes, commitments, and events structurally aligned across time. [target:candidate:plan-observation-layering] [concept:rea-ontology]
+*R2 is supported by Geerts & McCarthy (2006), the ValueFlows spec, and Haugen/Foster's reframing.*
+
+- **R3**: The VF sequence Intent → Commitment → EconomicEvent is the corpus's clearest direct analogue to Spore's intent → commitment → evidence arc. [target:candidate:intent-commitment-evidence-arc] [concept:commitment]
+*R3 is supported by Haugen's Beyond the Enterprise essay, Foster's issue #662 discussion, and the ValueFlows flow model.*
+
+- **R4**: The tradition never resolves whether commitment is first-class or a scheduled-event shadow derived from firmer plans. [target:candidate:commitment-primitive-status] [concept:commitment]
+*R4 is supported by Geerts (1997), Geerts & McCarthy (2000), Hruby, Ševčík, and Foster's 2024 issue discussion.*
+
+- **R5**: ValueFlows broadens REA by removing enterprise-control assumptions and admitting ecological or non-human agents into the model. [target:candidate:ecological-agent] [concept:rea-ontology]
+*R5 is supported by Haugen's Beyond the Enterprise, the ValueFlows Agent/EcologicalAgent definitions, and Foster's interviews.*
+
+- **R6**: Auditability is the tradition's strength and its narrowing pressure, because event logs and fulfillment relations substitute for trust while leaving care and power mostly unmodeled. [target:meta:corpus-foundational-review] [concept:evidence]
+*R6 is supported by Geerts & McCarthy, the ValueFlows spec, and Haugen's coordination-signals essay.*
+
 ## §6 — Citations (selected, with access tags)
 
 Primary REA foundations

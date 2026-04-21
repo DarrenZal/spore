@@ -135,6 +135,26 @@ Schmid, a sympathetic internal critic, charges the entire mainstream with cognit
 
 ---
 
+## R-claims
+
+- **R1**: The field is organized around whether collective agency reduces to individual planning states or requires an irreducibly collective stratum. [target:candidate:reducibility-debate] [concept:collective-agency]
+*R1 is supported by Gilbert, Bratman, Searle, Tuomela, List & Pettit, and Ludwig.*
+
+- **R2**: Joint commitment, shared intention, we-intention, we-mode, and group agency are rival primitives rather than one settled vocabulary. [target:candidate:joint-commitment-primitive] [concept:commitment]
+*R2 is supported by Gilbert, Bratman, Searle, Tuomela, and List & Pettit.*
+
+- **R3**: Commitment is far more central than trust in the tradition's core accounts, with trust usually treated as derivative or peripheral. [target:candidate:trust-derivation] [concept:commitment]
+*R3 is supported by Gilbert, Tuomela, and Baier's critique of the tradition.*
+
+- **R4**: Holon-like group wholes are only partially supported here because some authors defend group agents or plural subjects while singularists reject them. [target:candidate:holon-primitive] [concept:holon]
+*R4 is supported by List & Pettit, Tuomela, Gilbert, and Ludwig.*
+
+- **R5**: The tradition's paradigm cases assume voluntary, roughly symmetric planners and therefore under-theorize care, dependency, embodiment, and power. [target:candidate:care-gap] [concept:care]
+*R5 is supported by Held, Baier, and Zahavi.*
+
+- **R6**: External phenomenological and realist critiques argue that the tradition's internal quarrels are narrower than the social reality it claims to explain. [target:meta:corpus-foundational-review] [concept:collective-agency]
+*R6 is supported by Zahavi, Archer, and Tollefsen.*
+
 ## §6 — Citations
 
 **Gilbert, Margaret.** *On Social Facts* (Routledge 1989), ch. 4, §§4.3–4.7 [print]. "Walking Together: A Paradigmatic Social Phenomenon," *Midwest Studies in Philosophy* 15 (1990): 1–14, esp. p. 7 [paywalled: Wiley/JSTOR]. *Living Together* (Rowman & Littlefield 1996) [print]. "What Is It for Us to Intend?," in Holmstrom-Hintikka/Tuomela eds., *Contemporary Action Theory* vol. 2 (Kluwer 1997) [institutional]. *A Theory of Political Obligation* (OUP 2006) [institutional]. "Shared Intention and Personal Intentions," *Philosophical Studies* 144 (2009): 167–187, esp. p. 178 [institutional]. *Joint Commitment: How We Make the Social World* (OUP 2013), ch. 2 [institutional]. "Joint Commitment: What It Is and Why It Matters," *Phenomenology and Mind* 9 (2015): 18–26, esp. pp. 19–20 [open-access]. *Rights and Demands* (OUP 2018), ch. 1 [institutional].

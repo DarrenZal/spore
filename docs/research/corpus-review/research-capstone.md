@@ -340,6 +340,26 @@ The findings below are ranked by stakes for Phase 4 diagnostic. Tier 1 items are
 
 16. **Participatory-sense-making as answer to signal-critique.** Single-tradition support (Autopoiesis/4E) + partial Pluriversal. Would resolve §8 item 9 but admission requires stronger cross-tradition evidence. **Recommended action:** hold open pending v2 research round on enactivism.
 
+## R-claims
+
+- **R1**: Boundary/membrane is the capstone's strongest cross-tradition convergence, but the corpus still disagrees on whether boundary is passive, double, or self-produced. [target:candidate:membrane-primitive] [concept:membrane]
+*R1 is supported by research-commons-governance.md, research-canonical-layering.md, and research-autopoiesis-4e.md.*
+
+- **R2**: Relational identity and irreducible collective agency travel together across the corpus more often than either appears alone. [target:candidate:relational-identity] [concept:collective-agency]
+*R2 is supported by research-care-ethics.md, research-philosophy-collective-agency.md, and research-viable-system-model.md.*
+
+- **R3**: Norms and protocols are the most tradition-supported missing primitive or layer in Spore's current canon. [target:candidate:protocol-primitive] [concept:protocol-society]
+*R3 is supported by research-commons-governance.md, research-governance-process.md, and research-distributed-systems.md.*
+
+- **R4**: Care and reproduction-continuity are the strongest admission candidates because they name asymmetry and renewal that the current symmetric core omits. [target:candidate:care-and-continuity] [concept:reproduction-continuity]
+*R4 is supported by research-care-ethics.md, research-commons-governance.md, and research-viable-system-model.md.*
+
+- **R5**: Commitment is the capstone's highest-stakes unresolved issue because the corpus never settles whether it is primitive, constructed, or a scheduled-event shadow. [target:candidate:commitment-primitive-status] [concept:commitment]
+*R5 is supported by research-philosophy-collective-agency.md, research-rea-valueflows.md, and research-governance-process.md.*
+
+- **R6**: The review machinery itself is part of the corpus problem: Spore is ahead on machine-readable artifacts but behind on amendment thresholds, audience declaration, and N=2 validation discipline. [target:meta:corpus-foundational-review] [concept:evidence]
+*R6 is supported by research-governance-process.md, research-audience-scoping.md, and research-structured-disagreement.md.*
+
 ## Appendix — Changes from v1 per external review
 
 This capstone was revised on 2026-04-19 in response to external review (`research-capstone-review.md`). Changes are bounded to the four must-fix items identified; non-blocking improvements are deferred to `tmp/capstone-v2-backlog.md`.
