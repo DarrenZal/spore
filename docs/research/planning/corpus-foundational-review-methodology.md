@@ -52,6 +52,24 @@ For this review, the bar is applied as follows:
 
 Where the object under review is meta-corpus or repo-topology rather than a bridge-note claim, the evidence bundle may be composed from the artifact itself, research R-claims, and observed contradictions or metrics. The threshold still maps to the same severity tier.
 
+## Primitive-class inventory rule
+
+Phase 2's `tmp/concept-roster.tsv` uses `primitive-class` as an inventory prioritization flag, not as a canon decision by itself. A concept enters the review inventory as `primitive-class` if it meets at least 2 of these 4 criteria:
+
+1. It is declared primitive in `constitutional-artifacts-and-graph-projections.md` or an elevating ADR.
+2. It appears in at least 5 canon-layer docs.
+3. It has a dedicated lexicon entry, when a lexicon surface exists.
+4. It is referenced as foundational by at least 2 other concepts' definitions.
+
+These criteria are intentionally permissive for discovery. They do not settle the canon question on their own.
+
+Phase 4's counterfactual probe remains decisive: ask "if this concept did not exist, what could the corpus no longer express?" If the answer is "nothing material" because the term losslessly paraphrases already-named concepts, the finding should be recorded as `dead-weight`, `over-specified`, or another level-correction and the roster entry should be demoted from `primitive-class`.
+
+Two failure modes should be treated as explicit primitive-class exclusions even when the admission heuristic was initially met:
+
+- bundle or model labels that only package a composition of already-named concepts
+- implementation or materialization names that only identify the current substrate, transport, or tooling choice for a broader canon concern
+
 ## Rationale-review rule
 
 Read ADR rationale before calling a concept redundant. A concept that looks duplicative at the label level may have been deliberately kept distinct because it blocks a known collapse, preserves an opposition, or protects a layer boundary. Phase 4 and Phase 5 therefore treat prior decision rationale as admissible evidence against premature merges or dissolutions.
