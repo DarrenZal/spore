@@ -147,7 +147,11 @@ These surfaces are independent. One can be adopted without the others.
 
 ## Common Core, Local Variation
 
-Interoperability does not mean identical schemas. It means:
+Interoperability does not mean identical schemas.
+
+**At the level of principles**, interoperation requires: disciplined exchange under explicit consent, transparent provenance, forkability as a feature rather than a failure mode, and preservation of local sovereignty. These principles are the constraints any interoperating federation must satisfy in some form.
+
+**At the level of mechanisms**, Spore federations currently realise those principles through:
 
 - Shared identifiers (RIDs)
 - Shared envelope/event formats
@@ -156,7 +160,7 @@ Interoperability does not mean identical schemas. It means:
 - Explicit translation mappings between local ontologies and shared concepts
 - Clear consent and disclosure semantics
 
-A node should be able to say what it implements, what it exposes, how it maps to shared concepts, and what trust levels it accepts. Forkability is a feature, not a failure mode. This is cosmo-localism by another name: local sovereignty with shared protocols, global coherence without global uniformity. It implies disciplined exchange and selective materialization under explicit permissions, not hidden topology or universal live query.
+These are the mechanisms we've chosen for Spore's federation contexts. Smaller or higher-trust federations may realise the same principles through different mechanisms — for example, human translation instead of machine-readable mappings, implicit consent in dyadic exchanges, or simpler provenance for routine operations. A node should be able to say what it implements, what it exposes, how it maps to shared concepts, and what trust levels it accepts. This is cosmo-localism by another name: local sovereignty with shared principles, global coherence without global uniformity of either protocol details or mechanism choices. The commitment is to disciplined exchange and selective materialization under explicit permissions, not to any specific mechanism set.
 
 ## Learning Membrane
 
