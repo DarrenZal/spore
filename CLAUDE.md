@@ -14,6 +14,7 @@ Master intake plan outside repo:
 
 **Date:** 2026-04-21
 **Status:** Corpus-foundational-review-v1 closed 2026-04-21 — **39/39 findings resolved** (Phase 7 landed 38/39; Phase 8 editorial landed F-024 for 39/39); see `docs/research/planning/corpus-foundational-review-protocol.md` for method; MEMORY has `project_corpus_foundational_review_v1.md`. Canon review v1 closed 2026-04-18 (23 ADRs, protocol v2 harvested). PM Phase 0 DB + HNSW + e2e verified 2026-04-18. Jeff call Thu Apr 23 12pm–1pm PDT. Next-session focus is Jeff call prep + post-call cadence.
+Method protocols (canon-review, foundational-reframing, corpus-foundational-review, and related review machinery) currently live at `docs/research/planning/` in Spore; future v2+ revisions migrate to `flowcoding/docs/methods/` per Flow Coding FC-ADR-0002's attrition-based convention.
 
 **What's Done:**
 - **Corpus foundational review v1 closed** (2026-04-21): 9-phase plan closed after diagnostic (Phases 2–5) + Phase 7 canon-review-v2 rounds + Phase 8 editorial pass + Phase 9 merges. Canon edits landed on `main` in Spore (merge `c5848d1`), IC (`2c90612`), PM (`9eecbae`) within a sub-minute window. Zero partial-drift, zero rollback, validator baseline held at 9 errors / 30 warnings (documented pre-existing bridge-note dangling-refs). Harvest at `docs/research/planning/corpus-foundational-review-protocol.md` with 20 CFR-N rules. Plan: `~/.claude/plans/corpus-foundational-review-v1.md` (CLOSED). Moratorium lifted; `corpus-review/v1` branches deleted.
