@@ -20,7 +20,7 @@ The formal name for the protocol family is **Agent Commons**. Spore is the proje
 
 ## Core Thesis
 
-Coordination at every scale and scope requires the same primitives — sovereign identity, shared memory, commitment protocols, governance patterns, and federation rules. These compose fractally: the same patterns that let a person manage their workflow let a bioregional network coordinate ecological restoration. The goal is collective agency: the situated capacity of agents — individual or collective — to sense, decide, and act meaningfully within the systems that sustain them.
+Coordination across scales and scopes is enabled by a common set of primitives — sovereign identity, shared memory, commitment protocols, governance patterns, and federation rules. When present, these primitives compose fractally: the same patterns that let a person manage their workflow let a bioregional network coordinate ecological restoration. Not all contexts require all five; their presence is what enables composability across scales. The goal is collective agency: the situated capacity of agents — individual or collective — to sense, decide, and act meaningfully within the systems that sustain them.
 
 ## The Problem
 
