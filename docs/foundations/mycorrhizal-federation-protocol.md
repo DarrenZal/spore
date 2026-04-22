@@ -69,13 +69,16 @@ This section is a motivating-language addition. It does not change any specific 
 
 ## What Counts as a Node
 
-In Agent Commons, a node is any sufficiently coherent sovereign party participating in federation, for example:
+In Agent Commons, a node is any sufficiently coherent sovereign party participating in federation. In operational terms, a party is sufficiently coherent to be a node when it can maintain a unified decision-making surface — i.e., it can represent itself in federation agreements, accept commitments, carry attestations, and answer for fulfillment. Coherence is verified through participation rather than pre-declared. Examples:
 
 - a person with local tools and memory
 - a team or working group
 - an organization
 - a federation or network-of-networks
 - a software-hosted agent acting on behalf of one of the above
+- a bioregional stewardship body (e.g., a watershed council) with its own governance surface
+- an autonomous multi-agent system with cohesive decision-making
+- a long-running knowledge garden community with accountable stewardship
 
 The current implementation most often represents nodes as software peers with cryptographic identity, but the protocol is intended to describe relations between broader kinds of holons as well.
 
