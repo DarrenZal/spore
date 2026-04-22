@@ -1,7 +1,7 @@
 ---
 doc_id: spore.canon-decision.dag-delete-structural-legitimacy-promote
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0042"
 opened-on: 2026-04-22
 closed-on: 2026-04-22
@@ -38,7 +38,7 @@ concepts:
 
 ## Status
 
-draft (authored 2026-04-22 under canon-rebuild Phase 2a)
+active (authored + activated 2026-04-22 under canon-rebuild Phase 2a)
 
 ## Context
 
