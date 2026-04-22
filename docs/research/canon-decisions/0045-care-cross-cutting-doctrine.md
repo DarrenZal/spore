@@ -1,7 +1,7 @@
 ---
 doc_id: spore.canon-decision.care-cross-cutting-doctrine
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0045"
 opened-on: 2026-04-22
 closed-on: 2026-04-22
@@ -41,7 +41,7 @@ concepts:
 
 ## Status
 
-draft (authored 2026-04-22 under `canon-rebuild-phase-3b-1-care-primitive-disposition` plan, Option F)
+active (authored + activated 2026-04-22 under `canon-rebuild-phase-3b-1-care-primitive-disposition` plan, Option F)
 
 ## Context
 

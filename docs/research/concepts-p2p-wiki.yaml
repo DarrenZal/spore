@@ -155,8 +155,14 @@ concepts:
 
   - slug: reproductive-commoning
     canonical_label: Reproductive Commoning
-    aliases: [care-commoning, reproductive-labor-commons]
+    aliases: [reproductive-labor-commons]
     one_line_definition: Commoning centered on reproductive labor — care, provisioning, housing, territorial stewardship — as the primary (not derivative) coordination substrate; Federici/Bhattacharya lineage via `Communalization_of_Housework`, `Women_and_the_Commons`, `Caring_Economy`, `Social_Reproduction_Theory`.
+    primary_project: spore
+
+  - slug: care-commoning
+    canonical_label: Care Commoning
+    aliases: [care-as-coordinating-practice, asymmetric-care-relation]
+    one_line_definition: Care as load-bearing cross-cutting doctrine — Held's three senses (labor + disposition + relational practice), Tronto's four-phase process (attentiveness → responsibility → competence → responsiveness, plus caring-with), Kittay's nested-dependency, Federici's invisibilisation critique. Sibling cross-cutting doctrine to `reproductive-commoning` (ADR-0002) and `boundary-commoning` (ADR-0003); applies as lens across commitment / intent / evidence / field / holon / membrane primitives without primitive-elevation. Promoted from `reproductive-commoning` alias to first-class slug per ADR-0045.
     primary_project: spore
 
   - slug: pluriversal-commoning
