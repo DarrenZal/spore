@@ -88,7 +88,7 @@ But holarchy is broader than spec documents. Spec DAGs are a governance-memory a
 
 ## Semilattice Structure
 
-A holon that participates in only one containing whole is a tree node. A holon that participates in multiple overlapping wholes is a semilattice element. Living systems require the latter — a person belongs to a team, a bioregion, a profession, a community of practice, simultaneously. The network axis of the architecture makes this overlap expressible.
+A holon that participates in only one containing whole is a tree node. A holon that participates in multiple overlapping wholes is a semilattice element (Alexander, "A City is Not a Tree"). Spore borrows Alexander's semilattice framing for descriptive purposes — naming the structural property of overlapping membership — rather than adopting his full theory of living-systems topology. Living systems require this overlap: a person belongs to a team, a bioregion, a profession, a community of practice, simultaneously. The network axis of the architecture makes this overlap expressible.
 
 ## Agentic Capacity
 
