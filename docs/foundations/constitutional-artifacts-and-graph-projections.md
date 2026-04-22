@@ -51,7 +51,9 @@ The text is not derived from the graph. The graph is not a degraded form of the 
 
 ## Graph Projections
 
-Different aspects of the coordination ecology are best captured by different graph structures. We have identified eight projections so far — this is not a closed set. These are not separate databases — they are projections of one living system, each revealing different structure. They should be read as conceptual projections over a coordination ecology, not as one always-available distributed query substrate.
+Different aspects of the coordination ecology are best captured by different graph structures. These are not separate databases — they are projections of one living system, each revealing different structure. They should be read as conceptual projections over a coordination ecology, not as one always-available distributed query substrate.
+
+The projections divide into two tiers: **primary projections** (1-3 below: Constitutional, Roadmap DAG, Intent hypergraph) are directly mapped to the coordination ecology and the holonic/network architectural axes; **secondary projections** (4-8 below: Commitment, Epistemic, Event, Routing/flow, Discourse) are useful views composed over the primary structures, surfacing specific dimensions (binding state, epistemic provenance, temporal dynamics, resource circulation, governance revision). The "graph" label is a convenience: primary projections differ structurally (Roadmap is a DAG; Intent is a hypergraph; Constitutional is typically a labelled multigraph), and secondary projections inherit their structural character from the primaries they compose over. The eight projections named here are a working set, not a closed or irreducible one — additional useful views may emerge as the ecology matures.
 
 1. **Constitutional graph** — values, goals, principles, constraints, domains, and the relations between them (supports, constrains, conflicts_with, governs)
 2. **Roadmap DAG** — initiatives, milestones, dependencies, sequence. Directed acyclic: work flows from vision toward evidence.
