@@ -130,14 +130,20 @@ The same patterns recur at every scale. Here are five illustrative levels — no
 
 ## How Adoption Works
 
-You don't restructure your project. You add coordination surfaces:
+**Design principle.** Adoption is additive rather than restructuring. A project composes whichever coordination surfaces match its coordination goals, and can stop at any point. Nothing in the list below is a prerequisite for anything else in the list.
 
-- **Frontmatter** on your docs — they become legible to the governance-memory pattern
-- **A sensor node** on your knowledge garden — your existing content becomes locally queryable by agents and selectively shareable across federation
-- **Edge permissions** — you declare what you share and with whom
-- **Profile declarations** — you state which patterns and protocols you implement
+**Available coordination surfaces** (each independently useful):
 
-Adoption is incremental and reversible. A project can use one pattern (e.g., governance memory) without adopting the full stack. Spore is designed for coexistence with legacy systems, not total rupture — a transitional membrane between inherited and emerging coordination substrates that allows partial adoption, translation, and reversible movement.
+- **A sensor node** on your knowledge garden — your existing content becomes locally queryable by agents and selectively shareable across federation.
+- **Edge permissions** — you declare what you share and with whom.
+- **Profile declarations** — you state which patterns and protocols you implement.
+- **Frontmatter on docs** — a side-effect of working with the governance-memory pattern, which tracks lifecycle state and dependencies across constitutional artifacts. Frontmatter is a convention, not a standalone surface — adding it is how a doc participates in governance-memory, not a separate adoption act.
+
+These surfaces are independent. One can be adopted without the others.
+
+**One typical path (recommendation, not requirement)**: add frontmatter to constitutional artifacts first (low cost, no infrastructure), then stand up a sensor node and declare edge permissions when cross-project queries become useful, then add profile declarations when implementing specific patterns. This sequence has worked for early adopters; it is not mandatory, and projects with different coordination goals will reasonably choose different orderings or subsets.
+
+**Reversibility is a design intention, pending case-study validation.** Spore is designed for coexistence with legacy systems, not total rupture — a transitional membrane between inherited and emerging coordination substrates. Early full-stack adoptions (BKC / Octo) validate the composition story; partial-adoption reversibility has not yet been demonstrated through a case study, and the reversibility claim should be understood as a design goal rather than an operational guarantee.
 
 ## Common Core, Local Variation
 
