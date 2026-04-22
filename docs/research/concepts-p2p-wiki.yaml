@@ -1,6 +1,6 @@
 # status: frozen
-# version: v2
-# frozen_at: 2026-04-17
+# version: v3
+# frozen_at: 2026-04-22
 # owner: Darren Zal
 # purpose: Canonical concept vocabulary governing ADR `concepts:` references, shared framing notes, and bridge-note R-claim `concept:` values across Spore / Intelligence Commons / Poietic Match.
 # Agents reading this file MUST NOT mint concept slugs outside this vocabulary during
@@ -13,8 +13,24 @@
 # platform-cooperativism, REA/ValueFlows, commons-law, and 2 opposition primitives
 # (filtering-membrane, decentralization-theater). polycentric-governance definition
 # expanded with 4-level ladder per §7b absorption.
+# v3 (2026-04-22): adds 2 slugs (governance-memory, adoption-surface) to unblock the
+# canon-review Round 1 work downstream of spore-canon-adversarial-critique
+# (2026-04-22). Extension operator-authorized under the foundation-repair-flexibility
+# directive (memory: feedback_foundation_repair_protocol_flexibility.md).
 
 concepts:
+  - slug: governance-memory
+    canonical_label: Governance Memory
+    aliases: [governance-memory-pattern]
+    one_line_definition: The pattern whereby constitutional artifacts declare machine-readable dependencies, lifecycle state, and provenance via frontmatter so that governance relationships are queryable across a spec DAG — a convention applied to docs, not an architectural layer.
+    primary_project: spore
+
+  - slug: adoption-surface
+    canonical_label: Adoption Surface
+    aliases: [coordination-surface, adoption-pathway]
+    one_line_definition: An independently useful coordination affordance (frontmatter, sensor node, edge permissions, profile declarations) that a project may compose into its practice without restructuring existing work; surfaces are additive and independent, adopted according to the project's coordination goals rather than in a required sequence.
+    primary_project: spore
+
   - slug: boundary-commoning
     canonical_label: Boundary Commoning
     aliases: [boundary-commons, commoning-at-boundaries]
