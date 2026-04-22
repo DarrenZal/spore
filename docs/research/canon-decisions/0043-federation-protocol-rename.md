@@ -1,7 +1,7 @@
 ---
 doc_id: spore.canon-decision.federation-protocol-rename
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0043"
 opened-on: 2026-04-22
 closed-on: 2026-04-22
@@ -38,7 +38,7 @@ concepts:
 
 ## Status
 
-draft (authored 2026-04-22 under canon-rebuild Phase 2b)
+active (authored + activated 2026-04-22 under canon-rebuild Phase 2b)
 
 ## Context
 
