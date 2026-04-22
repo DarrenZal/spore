@@ -5,6 +5,11 @@ CLAUDE.md
 # Generated deep research upload packs
 tmp/deep-research-context-pack-*.md
 
+# Defense-in-depth: never commit env-like files from tmp/
+tmp/.env*
+tmp/*.env
+tmp/**/.env*
+
 # Repo-local prompt stash
 .local/prompts/
 .claude/
