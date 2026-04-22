@@ -20,7 +20,36 @@ The formal name for the protocol family is **Agent Commons**. Spore is the proje
 
 ## Core Thesis
 
-Coordination across scales and scopes is enabled by a common set of primitives — sovereign identity, shared memory, commitment protocols, governance patterns, and federation rules. When present, these primitives compose fractally: the same patterns that let a person manage their workflow let a bioregional network coordinate ecological restoration. Not all contexts require all five; their presence is what enables composability across scales. The goal is collective agency: the situated capacity of agents — individual or collective — to sense, decide, and act meaningfully within the systems that sustain them.
+**Spore's grammar has two kinds of primitives.** *Structural primitives* describe the substrate of coordination — the shape of the coordination space. *Coordination verbs* describe the operations through which agents coordinate across that substrate. Together, the seven primitives form the grammar; cross-cutting doctrine (reproduction-commoning, boundary-commoning) applies lenses over the grammar without adding new primitive categories.
+
+**Structural primitives** (the substrate of coordination):
+
+- **Field** — the shared coordination space; what is between holons; the ecological, economic, or epistemic substrate in which commitments travel. Field is agent-aware but not itself an agent. See `docs/research/canon-decisions/0008-collective-agency-at-field.md`.
+- **Holon** — the part-whole recursive unit; every holon is both a part of a larger whole (it belongs to fields) and a whole containing parts (it has internal composition). Personal operator, pair-matching, bioregional federation: each is a holon at its scale. See ADR-0016 for the field/holon distinction.
+- **Membrane** — the semi-permeable interface between holon and field, and between holons. Membranes filter, translate, authorize, and attest. Spore's strongest-supported primitive across coordination traditions; the near-universal name for what separates operational closure from environmental coupling.
+
+**Coordination verbs** (the operations through which coordination happens):
+
+- **Intent** — pre-commitment coordination signal. Declared or inferred directional stance ("I want," "I offer," "I need," "I will if three others commit"). Where plurality enters the grammar. Not every intent becomes a commitment; governance is partly about how intents are surfaced, combined, deferred, or refused. Broad Spore sense per ADR-0013; PM's `pm:Intent` is a protocol-layer specialization.
+- **Commitment** — the accepted, governed, tracked binding of parties to terms. Commitments stabilize one or more intents into a durable relation with specified attestation and fulfillment conditions. Commitment-qua-primitive is the *operational* sense (offer/accept/attest/fulfill); the *orientation* sense (visions, directional declarations) and *constitutional* sense (foundational value-choices) are artifact-types over operational commitments, not separate primitives.
+- **Evidence** — attested record of observed state, execution, or fulfillment. Evidence grounds the coordination loop in observable reality: claims, fulfillment-traces, provenance-tracked attestations. Spore evidence is attestation-of-execution, not epistemological evidence; it tracks whether commitments were fulfilled and in what state, not what counts as knowledge in general. Broad Spore sense per ADR-0013; PM's `pm:Evidence` / `pm:FulfillmentEvidence` are protocol-layer specializations.
+- **Signal** — live coordination transmission; stigmergic trace; pre-evidence flow. Distinct from evidence: evidence attests state; signal transmits perturbation. Includes algedonic signals (bypassing hierarchy to surface urgency — VSM), intent-publication signals, federation-level coordination messages. See ADR-0007.
+
+**What the primitives earn their place.** A primitive enters the grammar by passing two conditions jointly: (a) it can be specified as a protocol surface with defined inputs, outputs, and governance; AND (b) it has operational implementations across Spore's actual instance families (BKC/Octo bioregional stewardship, Poietic Match pair-matching, personal-operator configurations) at identifiably different scales of coordination. Seven primitives pass both conditions in Spore's current canon.
+
+**What is excluded from primitive status** (and why):
+
+- *Visions, roadmaps, agreements, policies, role definitions, domain definitions* — artifact-types some coordination contexts author to organize intents and commitments at longer time-horizons, not primitive operations or structures. Their presence is a property of the context, not a requirement of the grammar.
+- *Sovereign identity, shared memory, governance patterns, federation rules* — infrastructure surfaces, composition mechanisms, or pattern-libraries (e.g. governance-memory pattern), not primitive operations. Previous Core Thesis framings that listed these as "five primitives" are superseded; they now live at the instance-model and pattern-library layer.
+- *Learning* — meta-property of a healthy primitive loop, not a separable element in it. A loop that does not update its intents, commitments, and evidence-criteria as the world changes is dysfunctional; learning is what a working loop does.
+- *Memory, state* — derived from Evidence + Field; admit as glossary entries only.
+- *Trust, reciprocity, identity, care, reproduction, norms, power/authority* — capstone-identified gap candidates deferred to Phase 3b for canon-level disposition; until that session lands, these operate as either cross-cutting doctrine (reproduction-commoning per ADR-0002, boundary-commoning per ADR-0003) or derived glossary residues.
+
+**Scope and frame acknowledgment.** Spore's primitive grammar operates at a specific layer: *social coordination among sovereign agents capable of declaring intent, entering commitments, and attesting evidence*. Alternative coordination frames — autopoiesis (coupling dynamics as primitive; sub-symbolic structural coupling), active inference (sense/decide/act as primitive), pluriversal traditions (oath/duty/narrative-coherence as the analogues to commitment/intent/evidence, not equivalents), distributed-systems theory (message-passing as primitive) — operate at different layers and privilege different primitives. Spore's grammar does not subsume or invalidate them; the pluriversal-incommensurability tension is held as first-class canon per ADR-0001. This is a scoped grammar, not a universal account of coordination.
+
+**Scope of composability.** Across Spore's three operational instance families (BKC/Octo, Poietic Match, personal-operator), the seven primitives appear as recognisable structures and operations at each scale Spore has reached, with scale-appropriate differences in formalization, party composition, and governance conditions. Whether this composability extends to arbitrary coordination systems at arbitrary scales is a research question, not a demonstrated property.
+
+**Goal.** The grammar's purpose is **collective agency**: the situated capacity of agents — individual or collective — to sense, decide, and act meaningfully within the systems that sustain them. Structural primitives (field, holon, membrane) give the grammar shape. Coordination verbs (intent, commitment, evidence, signal) give the grammar motion. Together they let agents surface what they want, bind to each other to pursue it, verify whether pursuit delivered, and surface the results back into the loop.
 
 ## The Problem
 
@@ -71,22 +100,25 @@ The grammar's protocols, projections, and holon architecture are not neutral con
 
 ## The Coordination Ecology
 
-Visions are constitutional commitments. Intents are pre-commitment coordination signals. Commitments are accepted, scope-bound relations. Evidence validates. Learning revises.
+The coordination verbs (intent, commitment, evidence, signal) form a recurring loop across Spore's structural primitives (field, holon, membrane): intents signal, commitments bind, evidence validates, and evidence feeds the next round of intents. The loop is an **ecology, not a pipeline** — it circulates. Evidence can generate new intents. Commitments can reveal intents that weren't visible before. Any verb can feed any other. Signals run alongside evidence, transmitting live coordination state while evidence records attested history.
 
-**Vision → Roadmap → Intent → Commitment → Evidence → Learning**
+**Intent → Commitment → Evidence → Intent** (with signal as cross-cutting transmission, and loops/cross-links at every edge)
 
-This is a coordination ecology, not a pipeline — it loops. Learning revises visions. Evidence generates new intents. Commitments reveal visions that weren't visible before. Any element can feed any other. Each element serves a different role:
+**Structural primitives host the loop.** Every occurrence of the loop happens *within a holon* (personal-operator, pair, collective), *across membranes* (between holons, between holon and field), *in a field* (the ecological, economic, or epistemic substrate). The structural primitives aren't in the loop — they define the space the loop runs in.
 
-- **Orientation commitments (visions)** orient (direction, values, constraints)
-- **Roadmap** translates vision into structured needs and sequences
-- **Intents** signal (offers, needs, conditions — pre-commitment coordination where plurality enters)
-- **Commitments** bind (labor, capital, capacity, pooled resources — accepted and governed)
-- **Evidence** validates (observations, attestations, fulfillment)
-- **Learning** revises (update roadmap, refine patterns, adapt vision — closing the loop)
+**Artifact-types some coordination contexts author.** Intent and commitment get organized over longer time-horizons through artifacts that are *not* themselves primitives:
 
-The structure can be instantiated at every scale — a single person exercises agency through it; coordination enters when multiple agents' ecologies overlap and need to interoperate. The necessity and salience of each element, however, vary by coordination phase. The full six-element cycle is most load-bearing in discovery and complex-coordination phases; in maintenance-mode and routine operations (where Vision and Roadmap are stable), the cycle typically compresses to Commitment → Evidence → Learning with the earlier elements revisited only periodically.
+- **Visions** — long-horizon orientation artifacts (values, direction, constraints) that anchor a related family of intents and commitments. A coordination context without a written vision can still have working intents, commitments, and evidence; a vision without downstream commitments is an unrealized preference.
+- **Roadmaps** — sequenced-commitment artifacts that translate vision into structured needs and milestones. One way to organize commitments over time; continuous-prioritization backlogs, event-triggered commitment pools, Kanban-style flow, and emergent care-work prioritization are equally valid organizations.
+- **Agreements, policies, roles, domain definitions** — further artifact-types that condition how intents and commitments form and compose within a context.
 
-Economic coordination under discovery and complexity cannot rely on wage or transaction grammar, because these forms depend on specifiability, containment, and measurability assumptions that discovery structurally violates. Under such conditions, governance structure rather than contract terms becomes the necessary basis for coordination. Participation in commitment-based coordination requires standing: security, capability, and membership conditions without which formal participation rights are structurally empty. The principle that governance should vary by the epistemic character of work is well-established — verification thresholds and resource commitments do vary by epistemic phase in production systems at scale. The grammar's commitment protocols are a structural response to this condition.
+Vision and roadmap artifacts are load-bearing in some coordination contexts (large collectives with long time-horizons) and absent from others (person-scale, pair-scale, maintenance-mode operations). Their presence is a property of the coordination context, not a requirement of the grammar.
+
+**Learning is what the loop does, not an element in it.** A coordination loop that does not update its intents, commitments, or evidence-criteria as the world changes is not "not learning" — it is dysfunctional. Learning is the meta-property of a healthy loop, not a separable primitive. Canon references to "learning revises" describe how the primitive loop adapts in response to evidence-commitment mismatch.
+
+**Phase-dependence.** In discovery and complex-coordination phases, the full primitive loop (intent → commitment → evidence → signal → reshape-intent) is load-bearing. In maintenance-mode and routine-operation contexts where commitment terms are stable, the loop compresses to commitment → evidence, with new intents surfaced only when evidence shows divergence. The salience of each primitive varies by coordination phase; the primitive status does not.
+
+**Scale instantiation.** Each coordination verb is realized at every scale Spore has reached. Coordination enters when multiple agents' loops overlap and need to interoperate across holon membranes and field substrate. Economic coordination under discovery cannot rely on wage or transaction grammar because those forms depend on specifiability, containment, and measurability assumptions that discovery structurally violates; under such conditions, governance structure rather than contract terms becomes the necessary basis for coordination. Participation in commitment-based coordination requires standing — security, capability, and membership conditions without which formal participation rights are structurally empty.
 
 ## Three-layer coordination stack (reproduction / production / governance)
 
@@ -114,13 +146,9 @@ These projections are conceptual views over one coordination ecology, not a requ
 - **Routing/flow graph** — how resources, obligations, and information circulate through pools and networks
 - **Discourse graph** — questions, proposals, arguments, objections, decisions. The self-reflective layer: how the coordination ecology reasons about and governs its own evolution
 
-## Self-Similarity
-
-A node can be treated as a coherent point at one scale and as a graph of visions, intents, commitments, and evidence at another. This self-similarity is what makes fractal coordination possible — the same artifact ecology recurs inside every holon, which is why the same patterns work from personal workflow to planetary federation. The [instance model](./foundations/spore-instance-model.md) describes how these recurring ecologies compose into concrete implementations — canon, node (substrate), agent, and site — at different scales.
-
 ## Coordination Scales
 
-The same patterns recur at every scale. Here are five illustrative levels — not a canonical hierarchy:
+Spore's coordination verbs — intent, commitment, evidence, signal — are instantiated across multiple scales Spore has reached, with scale-appropriate differences in formalization, party composition, attestation weight, and governance conditions. Structural primitives (field, holon, membrane) also appear at each scale, with the holon at scale N being a part of a larger holon or field at scale N+1. The following are illustrative rather than exhaustive; which scales a given federation-agent realises is a property of that federation-agent, not a requirement of the grammar.
 
 1. **Personal** — sovereign agent memory, local tools, personal workflow
 2. **Pair/Team** — shared context, handoffs, accumulated knowledge, collaborative governance
