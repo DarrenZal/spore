@@ -1,5 +1,5 @@
 ---
-doc_id: spore.mycorrhizal-federation-protocol
+doc_id: spore.federation-protocol
 doc_kind: architecture
 status: active
 depends_on:
@@ -7,9 +7,11 @@ depends_on:
   - spore.relational-agency-and-holons
 ---
 
-# Mycorrhizal Federation Protocol
+# Federation Protocol
 
-How sovereign nodes connect through mutualistic exchange — the rules governing what flows between agents, holons, and collectives, how trust is established, and how federation maintains coherence without central authority.
+How sovereign nodes connect through governed exchange — the rules governing what flows between agents, holons, and collectives, how trust is established, and how federation maintains coherence without central authority.
+
+*The project name "Spore" and its fungal aesthetic operate at the project-identity layer; this protocol's name is kept plain. The mycorrhizal metaphor informed early design sensibility but does not bear mechanical weight in the protocol specification itself.*
 
 <!-- held-tension: 0001-pluriversal-incommensurability -->
 
@@ -38,7 +40,7 @@ See `spore.connection.reproductive-commoning` (primary source for mechanism 1 ab
 
 ## Boundary-Making Apparatus And Openwashing Discipline
 
-The mycorrhizal federation protocol is a **boundary-making apparatus.** Per `spore.connection.p2p-wiki-pass-2-capstone-synthesis` §2.2, the canon treats boundary-commoning as the architectural pattern all three Commons-family projects instantiate — Spore's federation, IC's memory-governance, and PM's CVLE are boundary-making operations at different scales. The governance question for each federation mechanic is not *whether* a boundary exists but *which boundary-theory variant* is load-bearing for the mechanic being specified.
+The federation protocol is a **boundary-making apparatus.** Per `spore.connection.p2p-wiki-pass-2-capstone-synthesis` §2.2, the canon treats boundary-commoning as the architectural pattern all three Commons-family projects instantiate — Spore's federation, IC's memory-governance, and PM's CVLE are boundary-making operations at different scales. The governance question for each federation mechanic is not *whether* a boundary exists but *which boundary-theory variant* is load-bearing for the mechanic being specified.
 
 The canon keeps four boundary-theory variants distinct (see `spore.term.field` §"Boundary-Commoning As External Cousin-Concept"): filtering-membrane (De Angelis), autopoietic closure (Maturana-Varela), pluriversal ontological difference (Escobar), cosmo-local subsidiarity (Ramos / Bauwens / Kostakis). Federation-protocol authors introducing or revising a specific mechanic must identify which variant is load-bearing for that mechanic; a mechanic that cannot name a variant is a motivating-language gap, not a license to collapse the distinctions.
 
@@ -63,7 +65,7 @@ Per `spore.connection.p2p-wiki-pass-2-capstone-synthesis` §2.4 and `spore:ADR-0
 
 **(c) Administrator-capture-in-peer-governance (Kostakis 2010; Simonite 2013; Gallus).** The protocol **declines** the Wikipedia-style admin-class-accumulation pattern — peer-governance architectures that assume informal structurelessness will produce emergent coordination inherit the tyranny-of-structurelessness failure mode empirically, regardless of claimant intent; admin-class demographic homogeneity then produces coverage skew aligned with admin-class preference. The declination requires the **two-layer capture framing**: (1) editor-layer admin accountability — how administrative authority over contested events, routing decisions, or schema-evolution is distributed, with explicit tenure limits and recall procedures for admin-role holders; (2) infrastructure-holder-layer accountability — how federation-infrastructure holders (node operators, registry maintainers, bridge services) are held accountable to federation participants, how federation-policy changes are approved through community representation (not only through infrastructure-holder fiat), and how federation-scale conflicts are resolved independent of administrator discretion. Existing mechanic that discharges this declination: power-capture mechanism 3 "gatekeeper-role accrual" is the direct mapping — this section tightens the declination text to name Kostakis's two-layer framing explicitly. Canon authors introducing new mechanics that involve admin, operator, or maintainer roles must specify both layers of accountability. Primary wiki anchor: `ic.connection.peer-governance-wikipedia-opposition` (R1 on memory-governance admin-capture; R4 composes with `decentralization-theater` R1 on this doc — the federation protocol declines **both** topology-without-governance and administrator-capture to legitimately claim peer or decentralized status).
 
-The three sub-critiques are co-declining, not substitutable: a protocol that declines (a) while remaining silent on (b) and (c) reproduces the residual failure modes by omission. Future canon revisions of this doc must evaluate new primitives against each of the three sub-critiques and record which existing mechanic (or new declination text) discharges each. This is canon-writing discipline for `mycorrhizal-federation-protocol`, not a canon-composition rule for Spore primitives overall.
+The three sub-critiques are co-declining, not substitutable: a protocol that declines (a) while remaining silent on (b) and (c) reproduces the residual failure modes by omission. Future canon revisions of this doc must evaluate new primitives against each of the three sub-critiques and record which existing mechanic (or new declination text) discharges each. This is canon-writing discipline for `federation-protocol`, not a canon-composition rule for Spore primitives overall.
 
 This section is a motivating-language addition. It does not change any specific protocol mechanism described below; the Sovereignty Invariants, Trust Model, and Federation Mechanics sections remain as specified. What changes is what a competent reader holds in mind when reading those sections: each mechanic is evaluated against the three-sub-critique declination pattern, alongside the four power-capture mechanisms, the four boundary-theory variants, and the four-scope openwashing discipline. See the shared canon-framing note `docs/research/connections/canon-framing-decentralization-myth-bundle.md` and `spore:ADR-0005-decentralization-myth-bundle` for the full cross-project narrative (including IC's `memory-layer-model` declination and PM's structural-declination of the vocabulary by construction).
 

@@ -3,7 +3,7 @@ doc_id: spore.restriction-maps-and-comparison-records
 doc_kind: spec
 status: draft
 depends_on:
-  - spore.mycorrhizal-federation-protocol
+  - spore.federation-protocol
   - spore.claims-evidence-attestation
 ---
 

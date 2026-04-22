@@ -6,7 +6,7 @@ depends_on:
   - spore.project-vision
 relates_to:
   - spore.holonic-network-architecture
-  - spore.mycorrhizal-federation-protocol
+  - spore.federation-protocol
 sources:
   - url: https://github.com/nirholas/claude-code
     title: "Claude Code (source)"

@@ -9,7 +9,7 @@ relates_to:
   - spore.connection.p2p-wiki-post-intake-synthesis
   - spore.connection.boundary-commoning
   - spore.constitutional-artifacts
-  - spore.mycorrhizal-federation-protocol
+  - spore.federation-protocol
 concepts:
   - commons-law
   - boundary-commoning

@@ -10,7 +10,7 @@ relates_to:
   - spore.connection.p2p-wiki-post-intake-synthesis
   - spore.term.field
   - spore.relational-agency-and-holons
-  - spore.mycorrhizal-federation-protocol
+  - spore.federation-protocol
   - spore.mycelial-holarchy-architecture
 concepts:
   - reproductive-commoning

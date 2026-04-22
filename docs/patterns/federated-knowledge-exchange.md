@@ -3,7 +3,7 @@ doc_id: spore.federated-knowledge-exchange
 doc_kind: pattern
 status: active
 depends_on:
-  - spore.mycorrhizal-federation-protocol
+  - spore.federation-protocol
 ---
 
 # Federated Knowledge Exchange

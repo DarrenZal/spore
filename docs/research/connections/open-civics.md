@@ -5,7 +5,7 @@ status: draft
 depends_on:
   - spore.project-vision
 relates_to:
-  - spore.mycorrhizal-federation-protocol
+  - spore.federation-protocol
   - spore.commitment-pooling
   - spore.constitutional-artifacts
   - spore.intent-publication

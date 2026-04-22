@@ -3,7 +3,7 @@ doc_id: spore.store-and-forward-relay
 doc_kind: spec
 status: draft
 depends_on:
-  - spore.mycorrhizal-federation-protocol
+  - spore.federation-protocol
 ---
 
 # Store-and-Forward Relay

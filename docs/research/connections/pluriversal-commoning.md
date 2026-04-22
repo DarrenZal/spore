@@ -16,7 +16,7 @@ relates_to:
   - ic.connection.digital-labor-peer-production-opposition
   - ic.connection.peer-governance-wikipedia-opposition
   - ic.connection.autopoiesis-and-structural-coupling
-  - spore.mycorrhizal-federation-protocol
+  - spore.federation-protocol
   - ic.intelligence-primitives
   - ic.memory-layers
 concepts:

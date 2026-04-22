@@ -36,7 +36,7 @@ Canon = foundation + vision + roadmap docs that define each project's normative 
 **Spore canon (in-scope)**:
 - `docs/foundations/constitutional-artifacts-and-graph-projections.md`
 - `docs/foundations/holonic-network-architecture.md`
-- `docs/foundations/mycorrhizal-federation-protocol.md`
+- `docs/foundations/federation-protocol.md`
 - `docs/foundations/relational-agency-and-holons.md`
 - `docs/foundations/spore-instance-model.md`
 - `docs/foundations/structural-legitimacy.md`

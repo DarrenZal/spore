@@ -7,7 +7,7 @@ depends_on:
 relates_to:
   - spore.connection.sheaf-theory-formalization
   - spore.connection.obstruction-aware-sheafification
-  - spore.mycorrhizal-federation-protocol
+  - spore.federation-protocol
   - spore.mycelial-holarchy-architecture
 sources:
   - title: "Bosca & Ghrist (2026), Neural Networks as Local-to-Global Computations"

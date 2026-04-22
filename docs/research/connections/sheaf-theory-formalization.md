@@ -5,7 +5,7 @@ status: draft
 depends_on:
   - spore.mycelial-holarchy-architecture
 relates_to:
-  - spore.mycorrhizal-federation-protocol
+  - spore.federation-protocol
   - spore.constitutional-artifacts
 sources:
   - path: docs/research/Sheaves/Sheaf Theory Research for Spore.md

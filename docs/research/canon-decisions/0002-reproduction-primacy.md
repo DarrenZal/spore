@@ -85,7 +85,7 @@ R4 and R5 target the same file and are authored as one combined section per caps
   - spore.term.field:reproductive-commoning (5S/0O) — R1 cluster, strong support.
   - spore.relational-agency-and-holons:commons-as-verb (3S/0O) — R2 cluster.
   - spore.mycelial-holarchy-architecture:commons-as-verb (4S/0O) — R3 cluster.
-  - spore.mycorrhizal-federation-protocol:commons-as-verb (3S/0O) — R4 cluster.
+  - spore.federation-protocol:commons-as-verb (3S/0O) — R4 cluster.
 - Cross-project echoes: ic:ic.intelligence-primitives:memory-governance (coordinated IC ADR-0002 secondary cluster); pm:pm.connection.commitment-pooling-and-mutual-credit (R6 cross-hit; the cross-project R-claim sits on a PM connection note, and the PM ADR-0002 derives its own Evidence cluster from pm.project-vision-level framing of commitment-pooling).
 - Allowlist drift (recorded per D7): intake Q6 allowlist lists `spore.mycelial-holarchy-architecture`; live frontmatter on `docs/foundations/holonic-network-architecture.md` shows `doc_id: spore.mycelial-holarchy-architecture`. Allowlist and live agree. No drift on this one. (Noted because the operator prompt flagged this as a possible drift point.)
 - Held-tension overlap (Constraint 5c): checked 2026-04-18; concepts=[reproductive-commoning, commons-as-verb, power-capture, commitment-pooling]. Prior hold-as-tension ADRs:

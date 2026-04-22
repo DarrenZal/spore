@@ -5,14 +5,14 @@ status: draft
 depends_on:
   - spore.project-vision
   - spore.relational-agency-and-holons
-  - spore.mycorrhizal-federation-protocol
+  - spore.federation-protocol
 ---
 
 # Spore Instance Model
 
 How the coordination grammar materializes in running systems — without prescribing a single implementation path.
 
-This document is about the **ontology of Spore embodiments**: how canon, nodes, agents, and sites compose into working instances. It does not redefine federation; the [mycorrhizal federation protocol](./mycorrhizal-federation-protocol.md) governs how sovereign nodes exchange. It does not redefine agency; [relational agency and holons](./relational-agency-and-holons.md) establishes what counts as an agent. This document explains how those existing grammar terms compose into systems that embody the grammar.
+This document is about the **ontology of Spore embodiments**: how canon, nodes, agents, and sites compose into working instances. It does not redefine federation; the [federation protocol](./federation-protocol.md) governs how sovereign nodes exchange. It does not redefine agency; [relational agency and holons](./relational-agency-and-holons.md) establishes what counts as an agent. This document explains how those existing grammar terms compose into systems that embody the grammar.
 
 In the federation protocol, "node" means any sovereign holon participating in federation. The "Node" aspect below is the infrastructure substrate a holon uses to participate — not the holon itself.
 

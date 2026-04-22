@@ -9,7 +9,7 @@ depends_on: []
 relates_to:
   - spore.connection.p2p-wiki-post-intake-synthesis
   - spore.connection.what-the-commons-is-missing-opposition
-  - spore.mycorrhizal-federation-protocol
+  - spore.federation-protocol
 concepts:
   - decentralization-theater
   - power-capture

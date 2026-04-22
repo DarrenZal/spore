@@ -4,7 +4,7 @@ doc_kind: positioning
 status: draft
 depends_on:
   - spore.commitment-pooling
-  - spore.mycorrhizal-federation-protocol
+  - spore.federation-protocol
   - spore.term.intent-pressure
 relates_to:
   - spore.connection.open-civics

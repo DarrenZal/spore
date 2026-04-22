@@ -12,7 +12,7 @@ relates_to:
   - ic.connection.digital-labor-peer-production-opposition
   - spore.connection.what-the-commons-is-missing-opposition
   - ic.connection.knowledge-commons-governance
-  - spore.mycorrhizal-federation-protocol
+  - spore.federation-protocol
 concepts:
   - power-capture
   - knowledge-commons

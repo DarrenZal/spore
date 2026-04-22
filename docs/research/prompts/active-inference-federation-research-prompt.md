@@ -5,7 +5,7 @@ research_subkind: deep_research_prompt
 status: draft
 depends_on:
   - spore.project-vision
-  - spore.mycorrhizal-federation-protocol
+  - spore.federation-protocol
   - spore.connection.sheaf-theory-formalization
 ---
 

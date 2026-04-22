@@ -7,7 +7,7 @@ disposition: clarify existing term
 depends_on: []
 relates_to:
   - spore.term.field
-  - spore.mycorrhizal-federation-protocol
+  - spore.federation-protocol
 concepts:
   - boundary-commoning
   - polycentric-governance

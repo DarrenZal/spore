@@ -56,5 +56,5 @@ These open questions are flagged here as foundation-layer concerns. Operational 
 
 - `docs/project-vision.md` — "Structural Legitimacy" section where the core claim is first introduced
 - `docs/research/canon-decisions/0042-dag-delete-structural-legitimacy-promote.md` — the ADR that promoted this claim to foundation-level status and deleted the DAG-of-authority claim
-- `docs/foundations/mycorrhizal-federation-protocol.md` — where sovereignty-invariants implement one surface of authority-consequence coupling
+- `docs/foundations/federation-protocol.md` — where sovereignty-invariants implement one surface of authority-consequence coupling
 - `docs/patterns/governance-memory.md` — where governance-from-artifacts implements the decision-visibility surface

@@ -8,7 +8,7 @@ depends_on: []
 relates_to:
   - spore.connection.p2p-wiki-field-scan
   - spore.connection.boundary-commoning
-  - spore.mycorrhizal-federation-protocol
+  - spore.federation-protocol
   - spore.mycelial-holarchy-architecture
 concepts:
   - protocol-society

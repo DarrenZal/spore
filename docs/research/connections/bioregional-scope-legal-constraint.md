@@ -9,7 +9,7 @@ relates_to:
   - spore.connection.p2p-wiki-post-intake-synthesis
   - spore.connection.commons-law-and-charter-lineage
   - spore.connection.boundary-commoning
-  - spore.mycorrhizal-federation-protocol
+  - spore.federation-protocol
   - spore.mycelial-holarchy-architecture
 concepts:
   - bioregional-scope

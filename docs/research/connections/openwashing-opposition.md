@@ -10,7 +10,7 @@ relates_to:
   - spore.connection.p2p-wiki-post-intake-synthesis
   - spore.connection.decentralization-theater-opposition
   - spore.connection.what-the-commons-is-missing-opposition
-  - spore.mycorrhizal-federation-protocol
+  - spore.federation-protocol
   - spore.connection.protocol-society
 concepts:
   - value-capture

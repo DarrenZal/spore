@@ -8,7 +8,7 @@ depends_on: []
 relates_to:
   - ic.connection.knowledge-commons-governance
   - ic.memory-layers
-  - spore.mycorrhizal-federation-protocol
+  - spore.federation-protocol
 concepts:
   - knowledge-commons
   - memory-governance
