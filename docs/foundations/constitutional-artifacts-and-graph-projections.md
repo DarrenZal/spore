@@ -38,6 +38,8 @@ This is not a pipeline where each step is "the same thing becoming more concrete
 - **Evidence** validates — observations, attestations, fulfillment records, sensor outputs. Evidence grounds the ecology in reality. Fulfillment records are one subtype inside this larger family, not the whole of it: PM's fulfillment-facing evidence family is a protocol-layer specialization, while Spore keeps `evidence` as the broader epistemic relation.
 - **Learning** revises — update the roadmap, refine patterns, adapt the vision itself. The ecology is a loop, not a line: learning revises visions, evidence generates new intents, commitments reveal visions that weren't visible before.
 
+The cycle is phase-dependent. In discovery and complex-coordination phases all six elements are typically load-bearing. In maintenance-mode and routine-operation contexts, where the Vision and Roadmap are stable, the cycle compresses to Commitment → Evidence → Learning, with the earlier elements revisited only periodically. The structure can be instantiated at every scale; the salience of each element varies by coordination phase.
+
 ## Dual Representation
 
 Every constitutional artifact has two representations:
