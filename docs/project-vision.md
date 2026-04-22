@@ -202,7 +202,7 @@ Spore defines reusable abstractions. It does not absorb its implementations. A S
 - Karl Friston / Active Inference (free energy minimization as coordination principle)
 - Michael Timothy Bennett / Stack Theory (persistence ordering derives normativity from change alone — offers one formal grounding for why living infrastructure should optimize for viable continuation, not convergence)
 
-A bioregion is a natural holon with semilattice relations — overlapping hydrology, species movement, indigenous jurisdiction, institutions, care. The grammar applies: containment gives nested governance, overlap gives lateral reach across boundaries that ecological and social reality has already dissolved.
+A bioregion is an appropriate outer-boundary for nested governance — a holon-in-formation whose material coherence (overlapping hydrology, species movement, indigenous jurisdiction, institutions, care) is well-grounded but whose operational composition into a unified federation agent is emerging work rather than a pre-existing natural fact. The grammar applies as a design frame: containment gives nested governance, overlap gives lateral reach across boundaries that ecological and social reality has already dissolved. Whether a given bioregion functions as a coherent holon (per the operational coherence criterion in the federation protocol) is an empirical question, tested through participation rather than declared in advance.
 
 ## Project Identifiers
 
