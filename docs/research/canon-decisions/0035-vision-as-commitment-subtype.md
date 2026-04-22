@@ -1,7 +1,7 @@
 ---
 doc_id: spore.canon-decision.vision-as-commitment-subtype
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0035"
 opened-on: 2026-04-22
 closed-on: 2026-04-22
@@ -30,7 +30,7 @@ concepts:
 
 ## Status
 
-draft (authored 2026-04-22 under canon-review Round 4 — residual tightening)
+active (authored + activated 2026-04-22 under canon-review Round 4)
 
 ## Context
 
