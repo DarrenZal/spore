@@ -13,10 +13,11 @@ Master intake plan outside repo:
 ## Current Status
 
 **Date:** 2026-04-21
-**Status:** Corpus foundational review v1 closed 2026-04-21 (Phase 7 canon-review-v2 rounds + Phase 8 editorial pass + Phase 9 merges landed across Spore/IC/PM; harvest at `docs/research/planning/corpus-foundational-review-protocol.md`). Canon review v1 closed 2026-04-18 (23 ADRs, protocol v2 harvested). PM Phase 0 DB + HNSW + e2e verified 2026-04-18. Jeff call Thu Apr 23 12pm–1pm PDT. Next-session focus is Jeff call prep + post-call cadence.
+**Status:** Corpus-foundational-review-v1 closed 2026-04-21 — **39/39 findings resolved** (Phase 7 landed 38/39; Phase 8 editorial landed F-024 for 39/39); see `docs/research/planning/corpus-foundational-review-protocol.md` for method; MEMORY has `project_corpus_foundational_review_v1.md`. Canon review v1 closed 2026-04-18 (23 ADRs, protocol v2 harvested). PM Phase 0 DB + HNSW + e2e verified 2026-04-18. Jeff call Thu Apr 23 12pm–1pm PDT. Next-session focus is Jeff call prep + post-call cadence.
 
 **What's Done:**
 - **Corpus foundational review v1 closed** (2026-04-21): 9-phase plan closed after diagnostic (Phases 2–5) + Phase 7 canon-review-v2 rounds + Phase 8 editorial pass + Phase 9 merges. Canon edits landed on `main` in Spore (merge `c5848d1`), IC (`2c90612`), PM (`9eecbae`) within a sub-minute window. Zero partial-drift, zero rollback, validator baseline held at 9 errors / 30 warnings (documented pre-existing bridge-note dangling-refs). Harvest at `docs/research/planning/corpus-foundational-review-protocol.md` with 20 CFR-N rules. Plan: `~/.claude/plans/corpus-foundational-review-v1.md` (CLOSED). Moratorium lifted; `corpus-review/v1` branches deleted.
+- **Corpus foundational review v1 close-state harvested** (2026-04-21): **39/39 findings resolved**, 30 ADRs landed across Spore/IC/PM, 2 new protocols created, three-repo topology ratified, and the harvest doc committed at `docs/research/planning/corpus-foundational-review-protocol.md`.
 - **Jeff re-engagement + call scheduled** (2026-04-19): Jeff replied to Apr 13 compose letter — *"Yus to all that, let's get on a call"* — proposing regular collaboration cadence. Call booked Thu Apr 23, 2026 12pm–1pm PDT via schedule.jeffemmett.com. Call-brief at `~/Documents/Notes/Meetings/People/2026-04-23 Jeff Emmett.md`. Canon-review-v1 evolved grammar during Jeff's silence; Move 0 composition-test now runs against post-canon-review grammar, not Apr-13-compose-letter grammar (the bet from lifting the moratorium early on 2026-04-16).
 - **Full-arc retrospective written** (2026-04-19): `docs/research/connections/wiki-intake-canon-review-retrospective.md` — programmatic full-arc view covering intake + canon-review as one whole (neither capstone alone covered this). Citable by collaborators (Jeff).
 - **PM Phase 0 DB + HNSW + e2e verified** (2026-04-18): database initialized (was previously provisioned 2026-04-11, idempotent re-run), API healthy, `pm matches` e2e verified at semantic score 0.715 / overall 0.808, HNSW index created on embeddings (kicks in at scale — EXPLAIN correctly Seq-Scans the 3-row smoke-test set). Poly ILIKE fallback exercised during intermittent embed-service contention.
@@ -34,6 +35,16 @@ Master intake plan outside repo:
 3. **Evidence program: first real commitment record** — Blocked until Victoria workshop (May–June 2026). Capture checklist ready at `docs/research/evidence/templates/commitment-capture-checklist.md`.
 4. **Sheaf experiment** (time-boxed) — consistency diagnostic on spec DAG. Deferred.
 5. **Canon review v2** (if Pass 3 fires or second round executes) — route through protocol v2 (not v1); triggers listed in protocol §Triggers for canon-review v3. Pass 3 cadence clock runs to 2026-10-17; weak triggers currently.
+
+## Parking lot from canon-review-v1
+
+- (Impact: M) (Effort: M) — v3 frozen-vocab admission round for 33 bridge-note slug-deferred TODOs
+- (Impact: L) (Effort: M) — AC9 dangling-ref cleanup on main (Spore `johar-metacognition-stack`, PM `dating-app-implementation`)
+- (Impact: M) (Effort: L) — foundational-reframing-protocol v2 draft (FR-13.1 solo-operator-exception rule)
+- (Impact: M) (Effort: L) — canon-review-protocol v4 draft (consolidates §12-14 learnings)
+- (Impact: M) (Effort: L) — corpus-foundational-review-protocol v2 draft (tightens AC3/AC12, codifies per-slug-branch pattern)
+- (Impact: M) (Effort: S) — `scripts/validate-rclaim-source.py` (author the referenced-but-missing integrity checker)
+- (Impact: M) (Effort: M) — `scripts/close-phase.sh` automation (tag + tarball + executed-phases.yaml triplet)
 
 ## Immediate Next Step
 
