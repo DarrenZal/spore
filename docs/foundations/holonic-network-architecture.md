@@ -72,7 +72,7 @@ Clear operational rules are required at every interface. Rules can be graduated,
 
 ## Fractal Scale Levels
 
-The same dual-axis pattern repeats at every scale:
+The dual-axis structure applies at each scale; its specific instantiations differ by scale (not a strict recursion, but a recurring architectural motif with scale-appropriate forms):
 
 | Scale | Holonic Expression (Containment) | Network Expression (Overlap) |
 |-------|---------------------|---------------------|
