@@ -47,7 +47,7 @@ Every constitutional artifact has two representations:
 - **Narrative form** for humans — text as constitutional statement, readable and debatable
 - **Graph projection** for machines — queryable, composable, diffable, groundable to world state within a node or through selectively materialized views
 
-The text is not derived from the graph. The graph is not a degraded form of the text. They are complementary views of the same normative structure.
+Text is authoritative; graph is a derived view. Constitutional artifacts are authored as text, and graph representations are generated from that text through tooling (frontmatter parsers, dependency extractors, entity resolvers — currently `koi-processor/scripts/ingest_spec_dag.py`). When text and graph disagree, text is canonical and the graph is regenerated to match. This direction of derivation is deliberate: text is the surface where humans debate and revise, and graph is the surface where machines query and compose. The two representations are complementary but not peers — one authors, one derives.
 
 ## Graph Projections
 
