@@ -77,7 +77,7 @@ Visions are constitutional commitments. Intents are pre-commitment coordination 
 
 This is a coordination ecology, not a pipeline — it loops. Learning revises visions. Evidence generates new intents. Commitments reveal visions that weren't visible before. Any element can feed any other. Each element serves a different role:
 
-- **Vision commitments** orient (direction, values, constraints)
+- **Orientation commitments (visions)** orient (direction, values, constraints)
 - **Roadmap** translates vision into structured needs and sequences
 - **Intents** signal (offers, needs, conditions — pre-commitment coordination where plurality enters)
 - **Commitments** bind (labor, capital, capacity, pooled resources — accepted and governed)
