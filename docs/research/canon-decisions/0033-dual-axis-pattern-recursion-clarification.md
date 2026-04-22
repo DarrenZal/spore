@@ -1,7 +1,7 @@
 ---
 doc_id: spore.canon-decision.dual-axis-pattern-recursion-clarification
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0033"
 opened-on: 2026-04-22
 closed-on: 2026-04-22
@@ -29,7 +29,7 @@ concepts:
 
 ## Status
 
-draft (authored 2026-04-22 under `canon-review-r2-universality-language` plan)
+active (authored + activated 2026-04-22 under `canon-review-r2-universality-language` plan)
 
 ## Context
 
