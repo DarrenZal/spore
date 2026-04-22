@@ -7,7 +7,7 @@ depends_on: []
 
 # Spore — Project Vision
 
-Spore is an infrastructure for collective agency — a common grammar for plural, sovereign coordination across scales and scopes. It operates across the normative commitments that shape how agents see, value, know, and act (ontological, axiological, epistemological, practical). It develops and publishes **Agent Commons**: a pattern language, protocol family, and governance-memory layer that enables coordination and coherence without surrendering sovereignty. Here "agent" means any entity with enough coherence to perceive, decide, and act: a person, an AI, a team, an organization, a federation, a mixed human-AI collective.
+Spore is an infrastructure for collective agency — a common grammar for plural, sovereign coordination across scales and scopes. It operates across the normative commitments that shape how agents see, value, know, and act (ontological, axiological, epistemological, practical). It develops and publishes **Agent Commons**: a pattern language, protocol family, and governance-memory pattern that enables coordination and coherence without surrendering sovereignty. Here "agent" means any entity with enough coherence to perceive, decide, and act: a person, an AI, a team, an organization, a federation, a mixed human-AI collective.
 
 The formal name for the protocol family is **Agent Commons**. Spore is the project that develops, tests, and publishes it.
 
@@ -163,7 +163,7 @@ The workflow is **comparative intake**: external frameworks, papers, repos, and 
 ## Naming Stack
 
 - **Project**: Spore — a pattern that travels, lands in different contexts, and grows local implementations
-- **Protocol family**: Agent Commons — the pattern language, protocols, and governance-memory layer
+- **Protocol family**: Agent Commons — the pattern language, protocols, and governance-memory pattern
 - **Federation protocol**: Mycorrhizal Federation — rules for sovereign exchange across nodes
 - **Architecture**: Holonic Network — dual-axis structure of containment and overlap
 
