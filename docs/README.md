@@ -25,6 +25,7 @@ Theory and first principles that define what kind of system this is:
 - [holonic-network-architecture.md](./foundations/holonic-network-architecture.md) — dual-axis structural model (containment + overlap) plus mediation-over-demarcation for interface design
 - [mycorrhizal-federation-protocol.md](./foundations/mycorrhizal-federation-protocol.md) — sovereign exchange rules, federation invariants
 - [constitutional-artifacts-and-graph-projections.md](./foundations/constitutional-artifacts-and-graph-projections.md) — how visions, intents, and commitments form a coordination ecology with dual text/graph representation
+- [structural-legitimacy.md](./foundations/structural-legitimacy.md) — authority-consequence coupling as the basis of governance legitimacy (replaces the earlier DAG-of-authority framing)
 - [spore-instance-model.md](./foundations/spore-instance-model.md) — how Spore materializes: canon, node, agent, site
 
 ## Patterns

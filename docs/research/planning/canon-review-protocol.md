@@ -39,6 +39,7 @@ Canon = foundation + vision + roadmap docs that define each project's normative 
 - `docs/foundations/mycorrhizal-federation-protocol.md`
 - `docs/foundations/relational-agency-and-holons.md`
 - `docs/foundations/spore-instance-model.md`
+- `docs/foundations/structural-legitimacy.md`
 - `docs/foundations/lexicon/**/*.md` (term docs — `spore.term.*`)
 - `docs/project-vision.md`, `docs/roadmap.md`
 - Plus the protocol-created surfaces: `docs/research/canon-decisions/*.md` and `docs/research/connections/canon-framing-*.md`
