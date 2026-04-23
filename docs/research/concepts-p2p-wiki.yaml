@@ -1,5 +1,5 @@
 # status: frozen
-# version: v11
+# version: v12
 # frozen_at: 2026-04-22
 # owner: Darren Zal
 # purpose: Canonical concept vocabulary governing ADR `concepts:` references, shared framing notes, and bridge-note R-claim `concept:` values across Spore / Intelligence Commons / Poietic Match.
@@ -126,6 +126,35 @@
 # primitive-class verdicts (§4) and gap-disposition verdicts (§3 closed across Phases
 # 3b.1–3b.6) at the glossary/bullet layer. Phase 3b arc complete at canon-grammar layer
 # for the 9-primitive roster. Extension operator-authorized under canon-rebuild-phase-3b-7.
+# v12 (2026-04-22): adds 1 derived glossary slug (`encounter`) for ADR-0055 encounter-as-
+# composition-framing-note (post-Phase-3b encounter-evaluation, Option D + E.1 hybrid).
+# Parked Encounter-as-10th-primitive candidate (ADR-0048 line 73; recontextualized
+# ADR-0050 line 231) evaluated via dedicated earning-test cycle ADR-0048 mandated.
+# Honest per-operation decomposition finding (Step 0.5): earning-test (a) FAILS at
+# verb-primitive level (convene / co-presence-establish / encounter-state-emerge /
+# encounter-close each decompose into existing-verb-compositions + Field-conditions,
+# or are already named as constructed-power mode in ADR-0048); earning-test (b)
+# PASSES multi-scale operational pressure but not primitive-uniquely. Plan-vs-evidence
+# catch per 3b.4 discipline: ADR-0048 line 73 "plausibly passes both tests" claim
+# not confirmed under rigorous articulation. `encounter` admitted as derived analytic
+# vocabulary anchoring shared framing-note at docs/research/connections/canon-framing-
+# encounter-as-composition.md articulating Encounter = Signal (invitation/reframing) +
+# Joint-commitment (attendance-pledge/shared-orientation) + Intent (pre-event-surfacing/
+# in-event-shaping) + Evidence (in-event-attestation/post-event-capture) within bounded
+# Field-conditions (temporal-spatial scope; rule-in-use scaffolding per ADR-0046).
+# NOT a primitive, NOT a doctrine, NOT a mode, NOT a property. Canon object-class
+# inventory unchanged at 4 categories. 9-primitive roster preserved per parsimony-as-
+# earning-test-outcome (ADR-0048) discipline. Federation-encounter pattern-library
+# admission parked with 5 operationally-falsifiable triggers (E-1 pattern-library-spec
+# declared; E-2 3+ multi-instance ad-hoc re-implementation reports; E-3 3+ cross-
+# tradition convergence; E-4 operational grammar-insufficiency documented; E-5 Field
+# sub-stratification separate-plan advances). Johar-corpus 7-bridge-note Encounter
+# usage (johar-situational-truthing structured-encounter, johar-power-cannot-be-
+# allocated federated-encounter-events, johar-metacognition-stack encounter-rules-
+# architectural-layer, johar-brain-self-rewriting-field, johar-word-not-thing, johar-
+# ecology-of-courage encounter-engineering, johar-miss-engineered-city) canon-legibly
+# anchored via slug + framing-note without primitive-inflation. Extension operator-
+# authorized under canon-rebuild-encounter-10th-primitive-evaluation.
 
 concepts:
   - slug: governance-memory
@@ -482,4 +511,10 @@ concepts:
     canonical_label: Double Boundary
     aliases: [ostrom-double-boundary, social-and-resource-boundary]
     one_line_definition: Derived analytic axis on Membrane (admitted under ADR-0053; capstone §7 line 265 verbatim candidate "Not a separate primitive; a named axis on `membrane`. Candidate slug: `double-boundary`") — Ostrom Cox-1A/1B Principle 1 split: a Membrane carries two analytically-distinct boundary functions that current canon previously conflated — *social inclusion* (who participates in the holon, the user-set, the commitment-bearing-parties) and *ecological / resource boundary* (what the holon's commitments range over, the resource extent, the substrate the field projects onto). The two boundaries can have different permeability, different gatekeepers, and different failure modes (social closure with resource over-commitment; resource closure with social over-inclusion). NOT a separate primitive; coexists with `asymmetric-membrane` (ADR-0047 Layer 3) and `permeability` (paired axis). Distinct from frozen-vocab `boundary-commoning` (cross-cutting doctrine on commoning-at-boundaries practice) and `filtering-membrane` (opposition primitive on over-filtering failure mode).
+    primary_project: spore
+
+  - slug: encounter
+    canonical_label: Encounter
+    aliases: [federation-encounter, structured-encounter, coordination-event]
+    one_line_definition: Derived glossary slug for event-scope-shape where multiple holons co-present in a bounded temporal-spatial window, hosting Signal (invitation/reframing-transmission) + Joint-commitment (attendance-pledge/shared-orientation) + Intent (pre-event-surfacing/in-event-shaping) + Evidence (in-event-attestation/post-event-capture) composition within Field-conditions (temporal window, co-location, rule-in-use scaffolding per ADR-0046). Admitted under ADR-0055 (post-Phase-3b encounter-evaluation, Option D + E.1 hybrid) after honest dedicated earning-test evaluation ADR-0048 line 73 mandated — (a) FAILS at verb-primitive level (four candidate operations decompose into existing-verb-compositions or are already named as constructed-power mode per ADR-0048); (b) PASSES multi-scale operational pressure but not primitive-uniquely. NOT a primitive, NOT a doctrine, NOT a mode, NOT a property. Canon object-class inventory preserved. Johar-native structured-encounter-as-discipline reading (johar-situational-truthing "disciplined conversation"; johar-metacognition-stack Layer-10 architectural encounter-rules; johar-ecology-of-courage encounter-engineering) honored at discipline-layer not primitive-layer. Federation-encounter parked as pattern-library admission candidate under 5 operationally-falsifiable triggers (E-1 through E-5). See docs/research/connections/canon-framing-encounter-as-composition.md for compositional decomposition, Johar-native discipline articulation, residue enumeration (R-Enc-1 through R-Enc-4), and pattern-library triggers.
     primary_project: spore
