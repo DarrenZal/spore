@@ -1,0 +1,27 @@
+Phase 3b.6 Preflight Manifest — 2026-04-22
+
+Branch: main
+HEAD: e2751d74910e88ebfc3c9678a91eb3cf992d8a42 (canon: activate ADR-0051 relational-identity-holon-property)
+Working tree: untracked only (no staged/modified tracked files) — explicit staging required
+Validator baseline: 9 errors / 30 warnings (matches Phase-3b rolling baseline)
+ADR-0052 number: AVAILABLE (0044-0051 present, no 0052)
+concepts-p2p-wiki.yaml: v9 — no existing `reciprocity` or `trust` primary slugs (trust-market alias on reputation-market slug; compound uses only)
+Evidence files verified present:
+  - docs/research/corpus-review/research-capstone.md
+  - docs/research/corpus-review/research-trust-reputation.md
+  - docs/research/corpus-review/research-commons-governance.md
+  - docs/research/corpus-review/research-care-ethics.md
+  - docs/research/corpus-review/research-pluriversal.md
+Phase-3b ADRs all present: 0044, 0045, 0046, 0047, 0048, 0049, 0050, 0051
+Capstone verdict re-verified (plan-vs-evidence discipline per Phase 3b.4):
+  - Reciprocity §3 line 106: "admit as derived (paired commitments); flag residues" ✓
+  - Trust §3 line 57: "admit as derived with glossary entry flagging residue" ✓
+  - Both match plan quotations verbatim; no plan-vs-evidence discrepancy detected.
+
+Sensitive files (read before write):
+  - docs/project-vision.md (Core Thesis)
+  - docs/foundations/constitutional-artifacts-and-graph-projections.md
+  - docs/research/canon-decisions/0044..0051-*.md
+  - docs/research/concepts-p2p-wiki.yaml
+
+Ready for Step 1 (decision-brief) OUTSIDE session-atomic window.

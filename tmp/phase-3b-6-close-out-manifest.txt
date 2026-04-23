@@ -1,0 +1,91 @@
+Phase 3b.6 Close-Out Manifest — 2026-04-22
+
+Plan: ~/.claude/plans/canon-rebuild-phase-3b-6-reciprocity-trust-bundled-disposition.md
+Operator decision: Option C (both-as-glossary + shared framing-note) with both defaults
+(asymmetric-reciprocity as framing-note composition-mode under ADR-0047 Layer 2, not
+new named subtype; both slugs admitted yaml v9→v10).
+
+=== Session-atomic window ===
+Start:  2026-04-22T20:52:04-0700 (unix 1776916324)
+Close:  2026-04-22T20:58:12-0700 (unix 1776916692)
+Span:   368s (6m 8s) — under 1800s target; slightly over sub-300s stretch target.
+
+=== Commits in-window ===
+bb8138c — canon: ADR-0052 reciprocity-trust-glossary-with-framing (phase-3b.6 Option C draft)
+b31a53e — canon: activate ADR-0052 reciprocity-trust-glossary-with-framing
+
+Baseline HEAD: e2751d7 (Phase 3b.5 close-out).
+
+=== Files touched ===
+CREATED:
+  docs/research/canon-decisions/0052-reciprocity-trust-glossary-with-framing.md (168 lines)
+  docs/research/connections/canon-framing-derived-terms-reciprocity-trust.md (203 lines)
+
+MODIFIED:
+  docs/research/concepts-p2p-wiki.yaml (v9 → v10 + 2 new slug entries + v10 version-log comment)
+
+UNCHANGED (AC9, AC12 discipline):
+  docs/project-vision.md
+  docs/foundations/constitutional-artifacts-and-graph-projections.md
+  all existing ADR-00XX files (no supersession, no file-level extension)
+
+=== AC verification ===
+AC1  Decision-brief authored               ✅ 5 options + bundle-rationale + residue-flagging + cross-ADR
+AC2  Operator-decision-gate completed       ✅ Option C + both defaults
+AC3  ADR-0052 file authored + active        ✅ status: active
+AC4  Canon-body edits landed                ✅ yaml v9→v10 + framing-note
+AC5  Residue-flagging (≥4)                  ✅ 17 matches (R-Rec-1, R-Rec-2, R-Tr-1, R-Tr-2)
+AC6  Validator non-regression (≤9/30)       ✅ 9/30 held baseline
+AC7  Session-atomic window (<30m)           ✅ 368s (6m 8s)
+AC8  Commit-count in-window (2-3)           ✅ 2
+AC9  No 3b.7 scope-bleed                    ✅ project-vision.md + foundations/ untouched
+AC10 No accidental sweeping                 ✅ explicit staging used (no git add -A)
+AC11 ADRs 0001/0044/0045/0047/0049/0050/0051 ✅ 32 cross-ref matches
+AC12 Phase 3b.7 overlap flagged             ✅ 8 matches
+AC13 Bundle-discipline documented           ✅ §Decision "Bundle-discipline: symmetric option-shape"
+AC14 Paraphrase-test verdicts documented    ✅ §Consequences per-term: Reciprocity adequate, Trust partial
+AC15 CLAUDE.md updated                      ⏳ pending (out-of-window)
+
+=== Canon state post-3b.6 ===
+Primitives: 9 (unchanged — 3 structural: field / holon-irreducible-with-relational-identity / membrane
+               + 6 verbs: intent / commitment / joint-commitment / evidence / signal / reproduction)
+Cross-cutting doctrines: 3 (unchanged — reproductive-/boundary-/care-commoning)
+Modes-across-primitives: 2 (unchanged — expressive-/constructed-power)
+Properties-on-primitives: 2 (unchanged — holon-irreducibility, relational-identity)
+Derived glossary slugs: +2 this phase (reciprocity, trust)
+Frozen concepts yaml: v10 (was v9)
+Validator: 9 errors / 30 warnings (unchanged baseline)
+
+=== Capstone §3 items addressed by Phase 3b ===
+Tier-1:
+  ✅ Care (3b.1 ADR-0045 care-commoning doctrine)
+  ✅ Power (3b.3 ADR-0047 three-layer; 3b.3b ADR-0048 modes-across-primitives)
+  ✅ Sociality-reducibility (3b.5a ADR-0050 Side-B + Holon-irreducibility + joint-commitment)
+Tier-2:
+  ✅ Norms/Protocols (3b.2 ADR-0046 Field rule-stratification)
+  ✅ Reproduction (3b.4 ADR-0049 primitive-admission)
+  ✅ Identity (3b.5 ADR-0051 relational-identity Holon-property)
+Tier-3:
+  ✅ Reciprocity (3b.6 ADR-0052 derived glossary + framing-note)
+  ✅ Trust (3b.6 ADR-0052 derived glossary + framing-note)
+
+=== What remains ===
+Phase 3b.7 — Glossary refinements bundle (Evidence attestation; Signal Autopoiesis objection;
+             Commitment-three-senses REA 40-year split; Holon terminological-orphan; Membrane
+             permeability + double-boundary). Workspace preserved intact by Option C scope.
+Phase 3b.8 — Johar rewilding thesis (candidate disposition).
+Parked    — Encounter as 10th primitive candidate (recontextualized 8th→9th after 3b.4,
+             9th→10th after 3b.5a).
+Deferred  — IC + PM coordinated grammar alignment (bundle post-Phase-3b).
+
+=== Method-insights captured ===
+1. Residue-flagging as mandatory canon-layer practice — framing-note is substantive home when
+   capstone explicitly requires residue-flagging.
+2. Bundle-symmetric option-shape default when two items share derived-admission verdict with
+   overlapping residues.
+3. Post-3b-cluster composition rechecking — derived-admissions authored after Phase-3b must
+   recheck paraphrase-composition against current primitive grammar (not capstone-era).
+4. Scope-bleed discipline via framing-note pattern — articulate compositional interactions
+   without primitive-bullet touching; preserves later-phase workspace intact.
+5. Agent-vs-field choice-deferral via framing-note — canonically-honest deferral rather than
+   silent-routing-around when capstone explicitly flags unresolved dispute.
