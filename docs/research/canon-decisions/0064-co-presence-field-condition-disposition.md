@@ -1,7 +1,7 @@
 ---
 doc_id: spore.canon-decision.co-presence-field-condition-disposition
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0064"
 opened-on: 2026-04-23
 closed-on: 2026-04-23
@@ -222,7 +222,7 @@ concepts:
 
 ## Status
 
-draft (2026-04-23; Option (i) adopt-with-scope-conditioning + sub-option i.1 prose-only per operator Step-2 decision-gate)
+active (2026-04-23; Option (i) adopt-with-scope-conditioning + sub-option i.1 prose-only per operator Step-2 decision-gate)
 
 ## Context
 
