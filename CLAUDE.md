@@ -130,3 +130,9 @@ Start with:
 - [docs/roadmap.md](/Users/darrenzal/projects/spore/docs/roadmap.md)
 
 But for the current active work, prefer the Johar planning stack above.
+
+## Session History
+
+| Session ID | Date | Scope | Key Work |
+|------------|------|-------|----------|
+| `bc5c284d` | 2026-04-22 → 23 | spore | **Canon-rebuild arc close-out (ADRs 0053–0058) + Housekeeping + Downstream Audit**: Phase 3b.7 glossary-refinements (ADR-0053) → Phase 3b.8 rewilding-decline-with-triggers (ADR-0054) → post-Phase-3b Encounter-evaluation (ADR-0055, earning-test (a) FAILED) → Phase 2c semantic refactoring (ADR-0056) → Phase 2c file rename constitutional-artifacts→governance-artifacts (ADR-0057, 126 refs/50 files) → Phase 2c graph-projections 3-primary fragment + dual-axis softens (ADR-0058). Parsimony-as-earning-test-outcome discipline validated (2 admissions + 2 declines across Phase 3b.4/3b.5a/3b.8/post-3b-Encounter). Housekeeping: CLAUDE.md numbering fix + README canon-alignment + project-vision.md readability refactor (mega-bullets → structured sub-bullets). Downstream propagation audit executed (30 hits / 10 files across 4 categories A/B/C/D); stratified as ADR-0059 mechanical cleanup + ADR-0060 coordination-grammar realignment. Validator held 9/30 throughout. 6 plans authored + CLOSED. 7 plans total including downstream-propagation-audit-stratification. |
