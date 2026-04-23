@@ -1,7 +1,7 @@
 ---
 doc_id: spore.canon-decision.governance-artifacts-file-rename
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0057"
 opened-on: 2026-04-23
 closed-on: 2026-04-23
@@ -34,7 +34,7 @@ concepts:
 
 ## Status
 
-draft (authored 2026-04-23 under canon-rebuild Phase 2c)
+active (authored + activated 2026-04-23 under canon-rebuild Phase 2c)
 
 ## Context
 
