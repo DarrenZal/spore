@@ -9,7 +9,7 @@ depends_on:
 
 # Holonic Network Architecture
 
-The structural model underlying Agent Commons: two coexisting axes — containment and overlap — that together describe how sovereign agents, knowledge, and governance compose at every scale and scope. The result is a semilattice structure (Alexander, "A City is Not a Tree"): holons participate in multiple overlapping wholes simultaneously, because living systems cannot be captured by a single clean hierarchy.
+The structural model underlying Agent Commons: two coexisting axes — containment and overlap — that together describe how sovereign agents, knowledge, and governance compose at each scale Spore has reached. The result is a semilattice structure (Alexander, "A City is Not a Tree"): holons participate in multiple overlapping wholes simultaneously, because living systems cannot be captured by a single clean hierarchy.
 
 ## Dual-Axis Topology
 
@@ -82,7 +82,7 @@ The dual-axis structure applies at each scale; its specific instantiations diffe
 | **Network-of-networks** | Federations of organizations or communities coordinating as larger holons | Cross-org entity resolution, shared claims, shared commitments |
 | **Global / bioregional** | Nested governance across many scales without collapsing local autonomy | Knowledge flows across bioregions, movements, and institutions |
 
-At every level: sovereign perspective + shared space + some form of governance memory + federated knowledge.
+At each scale Spore has reached, the pattern is: sovereign perspective + shared space + some form of governance memory + federated knowledge. Whether a given federation-agent realises all four at a given level is a property of that federation-agent, not a requirement of the grammar.
 
 ## Polycentric Governance as Scale-Up Logic
 

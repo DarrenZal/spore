@@ -228,18 +228,15 @@ Constitutional artifacts (visions, agreements, roadmaps, declarations) have two 
 - **Narrative form** for humans — text as constitutional statement
 - **Graph projection** for machines — queryable, composable, diffable, groundable within a node or through selectively materialized views
 
-We have identified eight graph projections so far — this is not a closed set:
-
 These projections are conceptual views over one coordination ecology, not a requirement that every node participate in a single continuously live global query surface. Queryability is local-first; federation determines what gets exchanged, mirrored, or materialized under explicit permissions.
 
-- **Constitutional graph** — values, goals, principles, constraints, domains
-- **Roadmap DAG** — initiatives, milestones, dependencies, sequence
-- **Intent hypergraph** — multi-party offers, needs, conditions (not reducible to binary edges)
-- **Commitment graph** — actors, pools, offers, attestations, fulfillment
-- **Epistemic graph** — entities, claims, evidence, provenance, sensor outputs (public-facing gloss: "knowledge graph"; the epistemic substrate — tracking what counts as knowing, not just what is known)
-- **Event graph** — what changed, when, due to what, from which node
-- **Routing/flow graph** — how resources, obligations, and information circulate through pools and networks
-- **Discourse graph** — questions, proposals, arguments, objections, decisions. The self-reflective layer: how the coordination ecology reasons about and governs its own evolution
+**Three primary graph projections** operate at foundation-level — each has independent schema, materialization in a running-system implementation, query pattern, and non-join use case (ADR-0058 earning-test per Phase 1 §C-11):
+
+- **Constitutional graph** — values, goals, principles, constraints, domains, and the relations between them. Materialized in Spore via the spec-DAG tooling (`ingest_spec_dag.py`) that parses frontmatter `depends_on` and extracts governance-memory structure.
+- **Commitment graph** — actors, pools, offers, needs, attestations, fulfillment state. Materialized in BKC/Octo federation and Poietic Match via commitment-pool state storage with party-structure, attestation, and fulfillment-tracking.
+- **Epistemic graph** (public-facing gloss: "knowledge graph") — entities, claims, evidence, provenance, sensor outputs. Materialized in the KOI substrate (`personal-koi` + `unified-search`): entity resolution, knowledge facts, bridge-note intake. Tracks not only what is known, but what counts as knowing.
+
+**Five view-templates** are composable over the primaries rather than primary at foundation-level: **Roadmap DAG** (Constitutional-specialization ordering initiatives, milestones, and dependencies by sequence); **Intent hypergraph** (Commitment-pre-stage expressing multi-party offers, needs, and conditions as hyperedges before binding); **Event graph** (temporal projection over Commitment + Epistemic event streams); **Routing/flow graph** (Commitment-pool flows surfacing capacity-routing paths); **Discourse graph** (governance-revision layer over Constitutional + Epistemic — questions, proposals, arguments, objections, decisions; the self-reflective layer). Each is a legitimate useful view; none has an independent schema + materialization + non-join use case comparable to the three primaries. ADR-0058 supersedes-via-prose ADR-0036's primary-set (Constitutional / Roadmap DAG / Intent hypergraph) on earning-test grounds; ADR-0036's graph-structure-distinctness reading remains available as research-lens.
 
 ## Coordination Scales
 
