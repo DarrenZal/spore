@@ -1,7 +1,7 @@
 ---
 doc_id: spore.canon-decision.downstream-bounded-parkings-cleanup
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0059"
 opened-on: 2026-04-23
 closed-on: 2026-04-23
