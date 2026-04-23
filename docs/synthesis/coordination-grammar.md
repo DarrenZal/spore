@@ -1,7 +1,7 @@
 # Spore Coordination Grammar
 
-**Status:** Active — updated Phase 12 (review synthesis)
-**Date:** 2026-03-28
+**Status:** Active — updated 2026-04-23 (9-primitive canon alignment per ADR-0060)
+**Date:** 2026-04-23
 
 ## The Grammar Thesis
 
@@ -51,23 +51,39 @@ Will Ruddick's loop foregrounds **caring** as an explicit phase before commitmen
 
 ## Primitives
 
-Eleven coordination primitives. `Field` names the distributed relational medium within which the other ten become legible and operative.
+Nine coordination primitives in two classes. **Structural primitives** describe the substrate of coordination; **coordination verbs** describe the operations through which agents coordinate across that substrate. The number is an earning-test outcome, not an axiom: a primitive enters the grammar by (a) being specifiable as a protocol surface with defined inputs, outputs, and governance, AND (b) having operational implementations across Spore's instance families at identifiably different scales (project-vision.md §Core Thesis). Full definitions and lineage live in `docs/project-vision.md` §Core Thesis and `docs/foundations/governance-artifacts-and-graph-projections.md` §Coordination Ecology; this section gives the synthesis-layer view.
+
+**Structural primitives** (3):
 
 | Primitive | Definition | Worldview Layer |
 |-----------|-----------|-----------------|
-| **Field** | Distributed relational medium in which signals, claims, commitments, entities, and resources become legible to one another, interact, and are revised over time. Shared, learning, and relational field are scale-specific views of the same underlying structure. | Ontological |
-| **Holon** | Bounded center of coherence that can participate. Simultaneously a whole (with internal structure) and a part (presenting a coherent interface to its containing graph). Can be a person, AI agent, team, organization, federation, or mixed collective. | Ontological |
-| **Membrane** | Boundary conditions: visibility, consent, jurisdiction, access. Not just a wall — a transformation interface where crossing, translation, and authorization happen. | Ontological / Praxical |
-| **Signal** | Directional cue: needs, offers, alerts, sensor outputs. The raw material of sensing. | Epistemological |
-| **Claim** | Proposition about world, system, or relationship. The unit of epistemic coordination. | Epistemological |
-| **Evidence** | What bears on a claim. Observations, measurements, deliverables, fulfillment records. | Epistemological |
-| **Attestation** | Situated witnessing, endorsement, or dispute of a claim, event, evidence, or fulfillment. Attestation is itself a claim at a higher level — this recursion gives trust without centralization. | Epistemological / Ethical |
-| **Intent** | A declared directional signal rooted in care, need, offer, concern, or possibility — the pre-commitment primitive. Where plurality enters the system. | Axiological |
-| **Commitment** | A promise accepted into a coordination scope with scope-bound accountability. Something matters enough to hold yourself — or be held — accountable for. | Axiological |
-| **Artifact** | Durable memory surface: vision, spec, agreement, note, pool configuration, proposal, token. Constitutional artifacts are commitments at different levels of specificity. | Ontological / Praxical |
-| **Event** | Something that happened in time. State changes, domain events, settlement events. The temporal primitive. | Ontological |
+| **Field** | Shared coordination space; what is between holons; the ecological, economic, or epistemic substrate in which commitments travel. Field is agent-aware but not itself an agent. Internally stratified into rule-levels (ADR-0046). | Ontological |
+| **Holon** | Part-whole recursive unit; every holon is both a part of a larger whole and a whole containing parts. The whole is not reducible to aggregation of parts (ADR-0050). Carries `relational-identity` as a whole-emergent property (ADR-0051). Can be a person, AI agent, team, organization, federation, or mixed collective. | Ontological |
+| **Membrane** | Semi-permeable interface between holon and field, and between holons. Filters, translates, authorizes, and attests. Carries `permeability` (selective passage) and `double-boundary` (social-inclusion / ecological-resource) as derived axes (ADR-0053); `asymmetric-membrane` when authorize-capacity is distributed asymmetrically (ADR-0047 Layer 3). | Ontological / Praxical |
 
-**Self-similarity:** A holon at one scale is a coherent point; at another, it is a graph of these same primitives. A team is a single node in a federation, and a graph of roles, commitments, intents, and evidence internally. This recursion is why the same grammar works from personal workflow to planetary federation.
+**Coordination verbs** (6):
+
+| Primitive | Definition | Worldview Layer |
+|-----------|-----------|-----------------|
+| **Intent** | Pre-commitment coordination signal. Declared or inferred directional stance ("I want," "I offer," "I need," "I will if three others commit"). Where plurality enters the grammar. Primary surface for **expressive power** (ADR-0048) — articulation of meaning, desire, perception, and dissent. | Axiological |
+| **Commitment** | Accepted, governed, tracked binding of parties to terms. Commitments stabilize one or more intents into a durable relation with specified attestation and fulfillment conditions. Commitment-qua-primitive is the *operational* sense; orientation (visions) and constitutional (foundational value-choices) senses are artifact-types over operational commitments, not separate primitives. Individual-scale binding; irreducibly-joint binding is Joint-commitment (below). Carries `asymmetric-commitment` when one party binds disproportionately (ADR-0047 Layer 2). | Axiological |
+| **Joint-commitment** | Irreducibly-joint binding of two or more parties that is *not* a sum of personal commitments (Gilbert, *Joint Commitment*, OUP 2013). Formed by open expression of readiness under common knowledge; rescindable only by concurrence; produces directed obligations and demand-rights "of a different kind" from moral ones. Operations: form / rescind-by-concurrence / hold-accountable-via-demand-right / extend. Federation protocol-version-adoption is the paradigm case (multi-party-simultaneous by construction). Admitted 2026-04-22 per ADR-0050. | Axiological |
+| **Evidence** | Attested record of observed state, execution, or fulfillment. Grounds the coordination loop in observable reality; tracks whether commitments were fulfilled and in what state. Spore evidence is **attestation-of-execution** (ADR-0053), not epistemological evidence in general. | Epistemological |
+| **Signal** | Live coordination transmission; stigmergic trace; pre-evidence flow. Distinct from evidence: evidence attests state; signal transmits perturbation. Includes algedonic signals (bypassing hierarchy to surface urgency — VSM), intent-publication signals, federation-level coordination messages. Carries pre-reaction — capacity to act on incomplete information — as substrate for **constructed power** (ADR-0048). | Epistemological |
+| **Reproduction** | Coordination labor sustaining the verb-loop across time, actor turnover, and generational succession: enact-succession, transmit-knowledge, replicate-commitment-pattern, regenerate-field-capacity. Operates at cross-episode time-scale (the other verbs coordinate within an episode; reproduction coordinates across episodes by making the next instantiation possible). Canon slug `reproduction-continuity`. Admitted 2026-04-22 per ADR-0049. | Axiological / Praxical |
+
+**On Claims, Attestations, Artifacts, and Events as non-primitives.** Earlier drafts of this synthesis listed Claim, Attestation, Artifact, and Event as standalone primitives. Under current canon they are not members of the 9-primitive roster but remain first-class *concepts* in the synthesis:
+
+- **Claims** are epistemic objects that evidence bears on (§Relations; §Lifecycle Transitions). Referenced by the loop's Claim / Attest phases; produced and witnessed through Evidence and Signal operations.
+- **Attestations** are an operation/function performed within Evidence and Membrane operations, not a standalone primitive. `attestation-of-execution` is a derived glossary slug (ADR-0053) naming the Spore-specific attestation shape.
+- **Artifacts** are durable memory surfaces — visions, specs, agreements, notes, pool configurations, tokens — output types that commitments, evidence, and signals produce. Not coordination operations or structural primitives (project-vision.md §"What is excluded from primitive status").
+- **Events** are state-transition records (something that happened in time). Events are immutable records of transitions in other primitives (§Lifecycle Transitions); Event-graph survives as a view-template in §Graph Projections (ADR-0058).
+
+**Three cross-cutting doctrines** (applied across primitives without adding new primitive categories): **reproductive-commoning** (ADR-0002, visibility-of-reproductive-labor axis), **boundary-commoning** (ADR-0003, membrane-as-practice axis), **care-commoning** (ADR-0045, asymmetric-relational axis).
+
+**Two modes-across-primitives** (ADR-0048; Johar *Power Cannot Be Allocated*, 2026): **expressive power** (Intent / Signal / Evidence carry articulation, dissent, contested perception) and **constructed power** (agency emerging situationally through verb-loop dynamics under exceeding pre-allocated structure). Power operates in three modes — allocational (ADR-0047 decomposition), expressive, and constructed — all canon-necessary.
+
+**Properties on primitives:** holon-irreducibility (ADR-0050), relational-identity (ADR-0051).
 
 ---
 
@@ -170,26 +186,33 @@ Events are immutable. They do not have lifecycle transitions — they are the re
 
 ## Graph Projections
 
-Multiple views over one coordination ecology. These are not separate databases — they are projections of the same living system, each revealing different structure.
+Multiple views over one coordination ecology. These are not separate databases — they are projections of the same living system, each revealing different structure. Per ADR-0058 (Phase 2c), projections are tiered: **three primary projections** each have an independent schema, a materialization path in a running system, a query pattern, and a non-join use case; **five view-templates** are composable over the primaries rather than primary at foundation-level.
 
-| # | Projection | What it captures | Mathematical structure | Coordination loop phases |
-|---|-----------|-----------------|----------------------|-------------------------|
-| 1 | **Constitutional graph** | Visions, values, principles, constraints, domains, policies | DAG (constraint hierarchy) | Interpret, Commit |
-| 2 | **Roadmap DAG** | Initiatives, milestones, dependencies, sequencing | DAG (temporal ordering) | Intend, Commit, Coordinate |
-| 3 | **Epistemic graph** | Entities, claims, evidence, attestations, provenance | Directed graph with weighted edges | Sense, Interpret, Claim, Attest |
-| 4 | **Intent hypergraph** | Needs, offers, intents, conditions, thresholds | Hypergraph (multi-party, multi-condition) | Intend |
-| 5 | **Commitment graph** | Promises, pools, agreements, roles, obligations, fulfillment | Directed graph with lifecycle states | Commit, Coordinate, Act |
-| 6 | **Event graph** | State changes through time, provenance chains | Append-only temporal graph | Act, Revise |
-| 7 | **Flow graph** | Capital, information, attention, obligations moving through system | Weighted directed graph | Coordinate, Act |
-| 8 | **Discourse graph** | Questions, proposals, arguments, objections, decisions | Directed graph (argumentation structure) | Interpret, Claim, Attest, Revise |
+### Primary projections (foundation-level)
 
-**On the discourse graph:** When this synthesis was first drafted, the Spore vision still listed 7 graph types. The discourse graph has since been promoted into the current vision as the 8th core projection; this section records the rationale that surfaced that promotion.
+| # | Projection | What it captures | Mathematical structure | Materialization |
+|---|-----------|-----------------|----------------------|-----------------|
+| 1 | **Constitutional graph** | Visions, values, principles, constraints, domains, policies; governance-memory structure | DAG (constraint hierarchy) | spec-DAG tooling (`koi-processor/scripts/ingest_spec_dag.py`) over text-authoritative canon (ADR-0041) |
+| 2 | **Commitment graph** | Actors, pools, offers, needs, attestations, fulfillment state; both Commitment and Joint-commitment binding | Directed graph with lifecycle states | Running commitment-pool state in BKC/Octo federation and Poietic Match |
+| 3 | **Epistemic graph** (public-facing gloss: "knowledge graph") | Entities, claims, evidence, attestations, provenance, sensor outputs | Directed graph with weighted edges | KOI substrate — `personal-koi` + `unified-search` — entity resolution, knowledge facts, bridge-note intake |
 
-**On the epistemic graph:** This is the graph surface canonized as `epistemic graph`. `Knowledge graph` survives only as an explicit public-facing gloss per ADR-0019; the point of the rename is to emphasize that the surface tracks what counts as knowing (claims, evidence, attestation, provenance), not just stored knowledge.
+### View-templates (composable over primaries)
+
+| View-template | Composes over | What it captures |
+|---------------|--------------|------------------|
+| **Roadmap DAG** | Constitutional (specialization) | Initiatives, milestones, dependencies, sequencing; derivable from Constitutional + sequence annotations |
+| **Intent hypergraph** | Commitment (pre-stage) | Multi-party offers, needs, conditions as hyperedges before binding or retirement; binary edges too small for this stage |
+| **Event graph** | Commitment + Epistemic (temporal projection) | State changes through time, provenance chains; surfaceable from commitment + attestation tables without a separate Event schema |
+| **Routing/flow graph** | Commitment (pool-flow projection) | How resources, obligations, and information circulate through pools and networks; substantially covered by Commitment's pool + attestation structure |
+| **Discourse graph** | Constitutional + Epistemic (governance-revision layer) | Questions, proposals, arguments, objections, decisions; argument-attestation as distinct class (claim-against-claim); whether Discourse earns primary status if a full implementation matures is a future question |
+
+**On the epistemic graph:** This is the graph surface canonized as `epistemic graph`. `Knowledge graph` survives only as an explicit public-facing gloss per ADR-0019; the rename emphasizes that the surface tracks what counts as knowing (claims, evidence, attestation, provenance), not just stored knowledge.
+
+**On tier earning-test:** ADR-0058 supersedes-via-prose ADR-0036's earlier primary-set (Constitutional / Roadmap DAG / Intent hypergraph) on earning-test grounds: Constitutional / Commitment / Epistemic each correspond 1:1 to a load-bearing running-system implementation (spec-DAG tooling / BKC+PM commitment-pools / KOI unified-search), while Roadmap DAG and Intent hypergraph are composable over primaries without independent materialization. ADR-0036's graph-structure-distinctness reading remains available as research-lens.
 
 ### On DAGs and the coordination substrate
 
-Only the constitutional and roadmap graphs are necessarily DAGs. The other six projections are directed graphs, hypergraphs, or temporal graphs. A vision may describe a desired future state that includes or references any graph type — the DAG structure specifically captures irreversible orderings (governance dependency, temporal sequence), not the full topology of what a vision can express.
+Not all projections are DAGs. The Constitutional graph is a DAG (constraint hierarchy); Roadmap DAG (view-template specialization) is a DAG (temporal ordering); Commitment and Epistemic graphs are directed graphs with lifecycle states / weighted edges respectively; view-templates vary (hypergraphs, append-only temporal, weighted directed, argumentation structure). A vision may describe a desired future state that includes or references any graph type — the DAG structure specifically captures irreversible orderings (governance dependency, temporal sequence), not the full topology of what a vision can express.
 
 **Governance is acyclic in structure at a given moment, but cyclical in operation through time.** A DAG captures the governance snapshot — who constrains whom right now. The coordination loop captures the governance process — how evidence revises vision, how revision creates new constraints. The DAG is not the whole graph; it is a constrained projection that requires irreversibility.
 
@@ -243,7 +266,7 @@ The primitives are not a neutral data model. They encode commitments across five
 
 **Holons:** Darren's MacBook, Dobby (NUC), Shawn's node — three bounded centers of coherence, each sovereign, each with its own graph.
 
-**Assessment:** All 10 primitives are instantiated. 4 of 7 membrane operations exercised. The grammar maps cleanly to the relay implementation. The relay is a protocol (store-and-forward) operating within the federated-knowledge-exchange pattern.
+**Assessment:** 7 of 9 primitives clearly instantiated (Field + Holon + Membrane + Intent + Commitment + Evidence + Signal). 4 of 7 membrane operations exercised. Joint-commitment is not present at Gilbertian form — bilateral edge registration, not irreducibly-joint multi-party binding. Reproduction is cross-episode and not instantiated in this single-relay-pilot trace (would appear in long-term vault maintenance across actor turnover). The grammar maps cleanly to the relay implementation. The relay is a protocol (store-and-forward) operating within the federated-knowledge-exchange pattern.
 
 ### Trace 2: BKC Commitment Pooling
 
@@ -271,7 +294,7 @@ The primitives are not a neutral data model. They encode commitments across five
 
 **Holons:** Each landscape group, each person/org within, each pool — nested holarchically. Victoria within Salish Sea within Cascadia. Pool federation mirrors bioregional nesting.
 
-**Assessment:** All 10 primitives present. 6 of 7 membrane operations exercised (only `revoke` not explicitly documented, though implied by sovereignty invariants). The grammar maps to the full economic coordination layer. BKC's three-plane architecture (Knowledge, Capital, Coordination) corresponds to three clusters of graph projections: epistemic (knowledge), commitment + flow (capital), and all others (coordination).
+**Assessment:** 8 of 9 primitives clearly instantiated (Field + Holon + Membrane + Intent + Commitment + Joint-commitment + Evidence + Signal). 6 of 7 membrane operations exercised (only `revoke` not explicitly documented, though implied by sovereignty invariants). **Joint-commitment is present as the paradigm Gilbertian case ADR-0050 cites** — pool-formation, multi-party governance rules, NOAM clearing requiring multi-party simultaneous coordination, and federation protocol-version adoption across 4 bioregional nodes all exhibit irreducibly-joint binding (open expression of readiness under common knowledge; directed obligations and demand-rights of a different kind from moral ones). Reproduction is implicit in ongoing pool maintenance, demurrage-driven circulation, and cross-episode stewardship but is not explicitly traced as a standalone primitive here — long-term pool viability across actor turnover is where Reproduction's cross-episode time-scale would surface. The grammar maps to the full economic coordination layer. BKC's three-plane architecture (Knowledge, Capital, Coordination) corresponds to three clusters of graph projections: epistemic (knowledge), commitment + flow (capital), and all others (coordination).
 
 ### Trace 3: Personal Workflow Skill Routing (brief)
 
@@ -287,7 +310,7 @@ The primitives are not a neutral data model. They encode commitments across five
 | **Act** | Vault files created, entities linked, tasks registered |
 | **Revise** | mentionedIn arrays updated, entity corrections applied |
 
-**Assessment:** Grammar maps cleanly to a personal workflow node. This trace demonstrates the grammar at the simplest scale (personal holon with tool membrane), confirming fractal applicability.
+**Assessment:** 6 of 9 primitives clearly instantiated (Field + Holon + Membrane + Intent + Commitment + Signal; Evidence implicit in entity-resolution validation and mentionedIn updates). Joint-commitment and Reproduction are not single-operator concepts and are expected absent in this single-workflow trace. The grammar maps cleanly to a personal workflow node — this trace demonstrates Spore's grammar at the smallest scale Spore has reached (personal holon with tool membrane).
 
 ---
 
