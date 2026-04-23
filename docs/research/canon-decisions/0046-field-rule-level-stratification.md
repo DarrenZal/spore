@@ -1,7 +1,7 @@
 ---
 doc_id: spore.canon-decision.field-rule-level-stratification
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0046"
 opened-on: 2026-04-22
 closed-on: 2026-04-22
@@ -47,7 +47,7 @@ concepts:
 
 ## Status
 
-draft (authored 2026-04-22 under `canon-rebuild-phase-3b-2-norms-protocols-disposition` plan, Option B)
+active (authored + activated 2026-04-22 under `canon-rebuild-phase-3b-2-norms-protocols-disposition` plan, Option B)
 
 ## Context
 

@@ -1,5 +1,5 @@
 # status: frozen
-# version: v3
+# version: v4
 # frozen_at: 2026-04-22
 # owner: Darren Zal
 # purpose: Canonical concept vocabulary governing ADR `concepts:` references, shared framing notes, and bridge-note R-claim `concept:` values across Spore / Intelligence Commons / Poietic Match.
@@ -17,6 +17,13 @@
 # canon-review Round 1 work downstream of spore-canon-adversarial-critique
 # (2026-04-22). Extension operator-authorized under the foundation-repair-flexibility
 # directive (memory: feedback_foundation_repair_protocol_flexibility.md).
+# v4 (2026-04-22): adds 4 slugs (operational-rule, collective-choice-rule,
+# constitutional-rule, rule-in-use) for ADR-0046 field-rule-level-stratification
+# (Phase 3b.2 Option B — Ostrom 3-level action-situation stack + rule-in-use vs
+# rule-in-form distinction imported into Field primitive internal structure). The
+# 7-rule-type taxonomy (boundary / position / choice / aggregation / information /
+# payoff / scope) is handled prose-only in canon body; slugification decision
+# operator-deferred. Extension operator-authorized under canon-rebuild-phase-3b-2.
 
 concepts:
   - slug: governance-memory
@@ -265,4 +272,28 @@ concepts:
     canonical_label: Decentralization Theater
     aliases: [fake-decentralization, nominal-decentralization]
     one_line_definition: Yarvin framing (and Brastaviceanu extensions) for systems that display the appearance of decentralization — nominal P2P topology, blockchain branding — while retaining centralized power concentrations via admin keys, protocol governance, or operational dependencies; an opposition primitive against unqualified "decentralized" / "peer-to-peer" claims.
+    primary_project: spore
+
+  - slug: operational-rule
+    canonical_label: Operational Rule
+    aliases: [operational-level-rule, day-to-day-rule]
+    one_line_definition: First level in Ostrom's 3-level action-situation stack (operational / collective-choice / constitutional); governs day-to-day coordination within a field — how intents are surfaced, commitments entered, evidence recorded, signals routed. Sibling to collective-choice-rule and constitutional-rule per ADR-0046.
+    primary_project: spore
+
+  - slug: collective-choice-rule
+    canonical_label: Collective-Choice Rule
+    aliases: [rule-amendment-rule, meta-operational-rule]
+    one_line_definition: Second level in Ostrom's 3-level action-situation stack; governs how operational rules are made, modified, and enforced — who has authority to set, amend, or invoke operational rules in a field. The level at which protocol-version amendment typically lives. Sibling to operational-rule and constitutional-rule per ADR-0046.
+    primary_project: spore
+
+  - slug: constitutional-rule
+    canonical_label: Constitutional Rule
+    aliases: [participation-eligibility-rule, foundation-document-rule]
+    one_line_definition: Third level in Ostrom's 3-level action-situation stack; governs who is eligible to participate at the collective-choice level — the amendment-threshold layer. Corresponds to PEP 13 / Debian Foundation Documents / W3C Process Document scope in the governance-process tradition. Sibling to operational-rule and collective-choice-rule per ADR-0046.
+    primary_project: spore
+
+  - slug: rule-in-use
+    canonical_label: Rule-in-Use
+    aliases: [working-rule, observed-rule]
+    one_line_definition: The rules participants would reference if asked to explain and justify their actions (McGinnis 2011 calls this "the pivotal methodological commitment of the Bloomington School"); distinct from rule-in-form (formal written rules). Compliance is assessed against rules-in-use; formal rules that are not working rules have no causal standing. Extends ADR-0041's text-authoritative-with-graph-as-derived-projection discipline to the rule layer. Per ADR-0046.
     primary_project: spore
