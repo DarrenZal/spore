@@ -1,7 +1,7 @@
 ---
 doc_id: spore.canon-decision.power-expressive-constructed-modes
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0048"
 opened-on: 2026-04-22
 closed-on: 2026-04-22
@@ -44,7 +44,7 @@ concepts:
 
 ## Status
 
-draft (authored 2026-04-22 under `canon-rebuild-phase-3b-3b` extension of Phase 3b.3, Johar integration directive)
+active (authored + activated 2026-04-22 under `canon-rebuild-phase-3b-3b` extension of Phase 3b.3, Johar integration directive)
 
 ## Context
 

@@ -1,5 +1,5 @@
 # status: frozen
-# version: v5
+# version: v6
 # frozen_at: 2026-04-22
 # owner: Darren Zal
 # purpose: Canonical concept vocabulary governing ADR `concepts:` references, shared framing notes, and bridge-note R-claim `concept:` values across Spore / Intelligence Commons / Poietic Match.
@@ -314,4 +314,22 @@ concepts:
     canonical_label: Asymmetric Membrane
     aliases: [asymmetric-authorization, gatekeeping-asymmetry, authorize-asymmetry]
     one_line_definition: Named variant of Membrane in which authorize-capacity is distributed asymmetrically — some parties can admit/exclude/gate others while the reverse does not hold. Maps to platform-gatekeeping, immigration-style boundary authority, the gatekeeper-role-accrual failure mode (ADR-0005 power-capture mechanism 3), and Pluriversal ritual/elder-consensus authorization. Layer 3 of ADR-0047's three-layer Power decomposition.
+    primary_project: spore
+
+  - slug: expressive-power
+    canonical_label: Expressive Power
+    aliases: [power-of-articulation, voice-power, dissent-power]
+    one_line_definition: Johar's second form of power (*Power Cannot Be Allocated*, 2026) — "life articulating meaning, desire, perception, and dissent within the system"; vitalizes. Mode-across-primitives (ADR-0048) operating across Intent (plurality-articulation), Signal (dissent-transmission), and Evidence (contested-perception-attestation) rather than as a distinct primitive. Complementary to allocational-power (ADR-0047) and constructed-power; all three Johar forms are canon-necessary.
+    primary_project: spore
+
+  - slug: constructed-power
+    canonical_label: Constructed Power
+    aliases: [situational-power, enacted-power, emergent-power]
+    one_line_definition: Johar's third form of power (*Power Cannot Be Allocated*, 2026) — "situational agency emerging dynamically in response to what presents itself"; adapts. Mode-across-primitives (ADR-0048) operating through verb-loop dynamics (Intent → Commitment → Evidence → Intent iteration under incomplete information) and Signal's pre-reactive propagation. Cannot be codified or pre-allocated; emerges from skilled loop-participation under space/mission/resources/distributed-knowledge conditions. See Johar's loop-fluency framing (*Mycelial Sovereignty*, 2026).
+    primary_project: spore
+
+  - slug: substitution-trap
+    canonical_label: Substitution Trap
+    aliases: [allocational-substitution-trap, assignment-comprehension-gap]
+    one_line_definition: Johar's named failure mode (*Power Cannot Be Allocated*, 2026) — "One can assign authority without generating comprehension. One can define responsibility without producing commitment." Allocational moves that substitute for rather than support expressive/constructed capacity reproduce the decentralization-theater failure-shape at a different scale. Canon-legible complement to ADR-0005's decentralization-myth-bundle critique-frame; named explicitly in ADR-0048.
     primary_project: spore
