@@ -76,7 +76,7 @@ Open Civics and Spore operate at different registers. OC is a normative thesis; 
 - Evidence from Spore: [relational-agency-and-holons.md](../../foundations/relational-agency-and-holons.md):15-29 (holons), [holonic-network-architecture.md](../../foundations/holonic-network-architecture.md):18-26 (membrane operations)
 - Disposition: clarify existing term — "extitution" is useful civic-facing vocabulary; holon+membrane provides the operational specification
 
-**C2: OCIF and Spore's coordination grammar are converging pattern languages at different maturity levels.** Both attempt to create composable pattern languages for distributed coordination. OC describes a meta-pattern inspired by Alexander's pattern language methodology; Spore has a named three-layer architecture (grammar + pattern language + protocols) with ten primitives, five published patterns, and two protocols. The question is whether OC's civic patterns can be expressed as compositions of Spore's ten primitives.
+**C2: OCIF and Spore's coordination grammar are converging pattern languages at different maturity levels.** Both attempt to create composable pattern languages for distributed coordination. OC describes a meta-pattern inspired by Alexander's pattern language methodology; Spore has a named three-layer architecture (grammar + pattern language + protocols) with 9 primitives (3 structural: field / holon / membrane + 6 verbs: intent / commitment / joint-commitment / evidence / signal / reproduction), five published patterns, and two protocols. The question is whether OC's civic patterns can be expressed as compositions of Spore's 9 primitives.
 - Evidence from OC: pp.35-38 (OCIF as meta-pattern for composing civic utilities)
 - Evidence from Spore: [project-vision.md](../../project-vision.md):10-12 (Agent Commons definition), `patterns/` directory (5 files)
 - Disposition: candidate pattern — primary convergence point for Patricia's work
@@ -162,7 +162,7 @@ Patricia Parkinson (Open Civics co-founder) and Darren are in active conversatio
 - Share the comparative intake process itself — a "clear spec" meta-tool for how two projects can learn from each other without merging.
 
 **Near-term (requires Patricia engagement):**
-- Map OCIF patterns to Spore primitive compositions. If Patricia can provide the specific patterns in OCIF (not just the meta-level description), they could be expressed as compositions of Spore's ten primitives. This is the strongest convergence test.
+- Map OCIF patterns to Spore primitive compositions. If Patricia can provide the specific patterns in OCIF (not just the meta-level description), they could be expressed as compositions of Spore's 9 primitives. This is the strongest convergence test.
 - Pilot a bilateral bridge note hosted by both projects. Tests cross-project `depends_on` with a real external project.
 - Health indicator prototype: map R/C/V onto Spore's viability signals and BKC's implementation evidence. Could produce a civic health dashboard pattern both projects publish.
 

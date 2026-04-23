@@ -38,7 +38,7 @@ The discourse graph is composed entirely of existing coordination primitives:
 | **Proposal** | Claim | A claim about what should change — proposes a revision to the coordination ecology |
 | **Argument** | Attestation | Situated endorsement or dispute of a proposal — an attester bearing witness for or against |
 | **Evidence** | Evidence | What bears on the proposal — observations, measurements, prior outcomes, related decisions |
-| **Decision** | Artifact | The durable record of resolution — a constitutional artifact that governs future action |
+| **Decision** | Artifact | The durable record of resolution — a governance artifact at the constitutional level that governs future action |
 | **Question** | Signal | A directional cue that something is unresolved — surfaces gaps in the ecology's self-understanding |
 
 No new primitives are needed. The discourse graph is a projection — a specific view over the same underlying coordination ecology, highlighting the argumentative structure.

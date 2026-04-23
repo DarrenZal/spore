@@ -37,7 +37,7 @@ These verbs form a loop: intents become commitments, commitments produce evidenc
 
 **Containment and overlap** — the holonic axis organizes nested integrity; the network axis organizes cross-cutting participation and lateral reach. The result is a semilattice, not a tree. Living systems cannot be captured by a single clean hierarchy, and neither can the coordination structures that serve them.
 
-**Dual representation** — every constitutional artifact exists as text (for humans) and graph projection (for machines), so the grammar remains legible at both speeds. Graph projections are locally queryable representations that can be selectively federated, rather than one continuously live global graph.
+**Dual representation** — every governance artifact exists as text (for humans) and graph projection (for machines), so the grammar remains legible at both speeds. Graph projections are locally queryable representations that can be selectively federated, rather than one continuously live global graph.
 
 The full argument lives in [project-vision.md](docs/project-vision.md).
 

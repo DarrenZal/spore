@@ -70,7 +70,7 @@ Derived from `project -instantiates-> node profile`.
 
 | Node Profile | Spore | BKC | DW | IndigenomicsAI |
 |-------------|-------|-----|-----|----------------|
-| **Pattern authority** (defines reusable abstractions) | **S** (pattern language + governance-memory layer + spec DAG self-hosting) | -- | -- | -- |
+| **Pattern authority** (defines reusable abstractions) | **S** (pattern language + governance-memory pattern + spec DAG self-hosting) | -- | -- | -- |
 | **Governance-memory project** (spec DAG + frontmatter + doc-check + ingest) | **S** | **S** | **S** | **E** (semantic roadmap as precursor) |
 | **Personal workflow node** (memory + skills + vault + entity graph) | -- | -- | **S** (meeting pipeline, entity linking, skill routing, context injection) | -- |
 | **Bioregional commons** (federation + commitment pools + sensing + ontology commoning) | -- | **S** (4 nodes, 3 planes, meta-protocol, commitment economy) | -- | -- |
@@ -107,7 +107,7 @@ Derived from `instance -exhibits-> membrane profile`.
 Functional dimensions derived from the coordination loop:
 
 - **Epistemic** = sensing, claims, evidence, attestations (Sense/Interpret/Claim/Attest)
-- **Normative** = vision, values, principles, commitments of direction (constitutional artifacts)
+- **Normative** = vision, values, principles, commitments of direction (governance artifacts)
 - **Coordination** = roles, protocols, tasks, roadmaps, synchronization (Coordinate)
 - **Economic** = pools, commitments, allocation, settlement, redistribution (Commit/Act)
 - **Interpretive** = discourse, narrative, meaning-making, sensemaking (Interpret/Discourse)
@@ -151,7 +151,7 @@ Key: **H** = high (primary function), **M** = medium (significant), **L** = low 
 | Candidate | Category | Rationale |
 |-----------|----------|-----------|
 | **store-and-forward relay** | protocol | Validated in Phase 11a (Dobby relay). Grammar derivation: membrane operations (expose + translate + forward). Reusable — any pair of holons behind NAT or with asynchronous connectivity needs this. Currently described within mycorrhizal-federation-protocol but deserves its own protocol doc. |
-| **discourse-as-governance** | pattern | Present as emerging in 3 projects (Spore: discourse graph projection; BKC: decision logs, steward review; DW: plan review workflow). Grammar derivation: discourse graph + claims + attestation + constitutional artifacts. The self-reflective layer the coordination ecology needs. |
+| **discourse-as-governance** | pattern | Present as emerging in 3 projects (Spore: discourse graph projection; BKC: decision logs, steward review; DW: plan review workflow). Grammar derivation: discourse graph + claims + attestation + governance artifacts. The self-reflective layer the coordination ecology needs. |
 | **claims, evidence & attestation anchoring** | protocol | Strongly present in BKC (on-chain anchoring on Celo EAS, Regen Ledger) and emerging in DW (3-tier entity resolution). Grammar derivation: claim lifecycle (proposed/supported/challenged/superseded) + attestation + evidence. Essential for any epistemic coordination. |
 
 ### Keep as Project-Specific (for now)
@@ -302,7 +302,7 @@ The grammar is not worldview-neutral (it has constitutional commitments: provena
 | **Neighbourhood** | Shared membrane / commons profile | Clean. Both are shared spaces with governance. AD4M Neighbourhood has a Perspective + Social DNA; Spore has membrane operations + profile declarations. |
 | **Social DNA** | Protocol / rule layer | Clean. Both encode behavioral constraints. AD4M Social DNA defines what Expressions are valid in a Neighbourhood; Spore protocols define state machines over primitives within a membrane. |
 | **Expressions** | Claims / artifacts / events | Clean. Both are typed communication objects. AD4M Expressions carry a Language (schema); Spore primitives carry type + provenance. |
-| **Perspectives** | Holon's internal graph (local view) | Clean. AD4M Perspective is a set of links from one Agent's viewpoint. Spore's self-similarity principle (node-as-graph) serves the same function — each holon has its own internal coordination ecology. |
+| **Perspectives** | Holon's internal graph (local view) | Clean. AD4M Perspective is a set of links from one Agent's viewpoint. Spore's holons-at-scale recursion serves the same function — each holon hosts its own internal coordination ecology. |
 | **Languages** | Schema / translation mappings | Clean. AD4M Languages define how Expressions are created and verified. Spore's `translate` membrane operation + BKC's ontology-commoning serve an analogous role. |
 
 ### What Maps, What Doesn't

@@ -86,7 +86,7 @@ The current implementation most often represents nodes as software peers with cr
 
 ## Sovereignty Invariants
 
-These hold at every scale and are non-negotiable:
+These hold at the scales Spore has reached and are non-negotiable:
 
 1. **Each node maintains sovereign authority over its own knowledge representation.** No external agent can write to a node's authoritative data without explicit consent. Data arrives as proposals, not commands.
 2. **Sharing is opt-in.** A node chooses what to share, with whom, and under what conditions. There is no global read access.

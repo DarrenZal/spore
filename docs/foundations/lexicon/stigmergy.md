@@ -78,7 +78,7 @@ Per spore:ADR-0005, the decentralization-myth-bundle declination applies: canon 
 
 ## Relationship to Intent Pressure
 
-Stigmergy is one mechanism through which [intent pressure](./intent-pressure.md) propagates. When the normative frontier and epistemic frontier diverge, that gap creates pressure — but the pressure must be made legible for coordination to happen. Stigmergic traces are one way pressure becomes legible without anyone explicitly publishing an intent.
+Stigmergy is one mechanism through which [intent pressure](../../research/connections/intent-pressure.md) propagates. When the normative frontier and epistemic frontier diverge, that gap creates pressure — but the pressure must be made legible for coordination to happen. Stigmergic traces are one way pressure becomes legible without anyone explicitly publishing an intent.
 
 Example: a bioregional knowledge commons node where multiple users independently search for herring population data, find nothing, and log their queries. The accumulated search traces create a stigmergic signal — an inferred need for herring data — that a knowledge gardener can sense and act on. No one declared an intent. The medium itself made the pressure visible.
 

@@ -121,7 +121,7 @@ These map naturally onto viability signals the grammar can sense:
 
 - **Resilience** — repair debt (unresolved disputes, broken commitments), ecological thresholds (approach to irreversible states)
 - **Choice** — forkability (can participants actually leave?), membrane authorization (can they participate partially, on their own terms?)
-- **Vitality** — [intent pressure](../foundations/lexicon/intent-pressure.md) (is the system generating intents? are they activating?), unused capacity (offers without matching needs)
+- **Vitality** — [intent pressure](../research/connections/intent-pressure.md) (is the system generating intents? are they activating?), unused capacity (offers without matching needs)
 
 The civic framing — resilience, choice, vitality — provides a legible organizing layer over these more granular signals. We don't yet have a working dashboard that maps one to the other, but the structural correspondence is strong enough to warrant the attempt.
 
@@ -131,7 +131,7 @@ Open Civics describes an Open Civic Innovation Framework (OCIF) — a "meta-patt
 
 Are these the same pattern language at different maturity levels? Or are they complementary languages that need a translation membrane between them?
 
-We don't know yet. The answer depends on whether OCIF's civic patterns can be expressed as compositions of the grammar's ten primitives — holon, membrane, signal, claim, evidence, attestation, intent, commitment, artifact, event. If they can, the languages are converging. If they can't, the grammar may be missing something, or the civic patterns may operate at a different layer that the grammar supports but does not directly express.
+We don't know yet. The answer depends on whether OCIF's civic patterns can be expressed as compositions of the grammar's 9 primitives (3 structural: field / holon / membrane + 6 verbs: intent / commitment / joint-commitment / evidence / signal / reproduction). If they can, the languages are converging. If they can't, the grammar may be missing something, or the civic patterns may operate at a different layer that the grammar supports but does not directly express.
 
 This is an open research question, and an invitation. The [comparative intake](../research/connections/open-civics.md) recorded the structural mapping in detail. The convergence test is concrete and available to anyone who wants to try it.
 

@@ -53,9 +53,9 @@ This does not make commitment pooling "better" in all contexts. Speculative dyna
 
 The Gitcoin article describes a mechanism at the heart of hyperstition: shared beliefs generate conditions for their own realization. The more people believe in and act on a narrative, the more the material conditions shift to accommodate it. This is sometimes called "coincidence intensification" — the sense that the future is pulling the present toward it.
 
-Spore names this force structurally: **[intent pressure](../foundations/lexicon/intent-pressure.md)**.
+Spore names this force structurally: **[intent pressure](../research/connections/intent-pressure.md)**.
 
-Intent pressure is the gap between the normative frontier (what visions, roadmaps, and constitutional artifacts say should be true) and the epistemic frontier (what sensors, evidence, and current reality report is true). When these diverge, the system feels pressure. That pressure is not a failure state — it is the engine of coordination. Without it, nothing moves.
+Intent pressure is the gap between the normative frontier (what visions, roadmaps, and governance artifacts say should be true) and the epistemic frontier (what sensors, evidence, and current reality report is true). When these diverge, the system feels pressure. That pressure is not a failure state — it is the engine of coordination. Without it, nothing moves.
 
 The structural parallel with hyperstition's self-fulfilling dynamic is suggestive. In both cases, a declared desired future creates force on the present. In hyperstition theory, that force operates through narrative and belief. In Spore's grammar, it operates through the measurable gap between normative and epistemic frontiers — and it drives the coordination ecology (vision → intent → commitment → evidence → learning) through its phases.
 
@@ -84,7 +84,7 @@ Putting these pieces together: Spore's coordination grammar is infrastructure fo
 
 - The **coordination ecology** (vision → intent → commitment → evidence → learning) provides the lifecycle through which shared narratives become actionable, tested, and revised.
 - **[commitment pooling](../patterns/commitment-pooling.md)** provides the collective resource-locking mechanism — a non-speculative alternative to bonding curves and conviction voting.
-- **[intent pressure](../foundations/lexicon/intent-pressure.md)** provides the structural force — the gap between desired and actual that drives coordination.
+- **[intent pressure](../research/connections/intent-pressure.md)** provides the structural force — the gap between desired and actual that drives coordination.
 - **Constitutional commitments** provide the safety criteria — what distinguishes a narrative worth encoding from one that will extract.
 - **Discourse as governance** provides the self-reflective layer — the infrastructure for deliberating which narratives to encode.
 

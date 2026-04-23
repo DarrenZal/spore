@@ -11,9 +11,9 @@ depends_on:
 
 This document bridges the holonic/mycelial architecture and the pattern language. It defines how normative artifacts (visions, agreements, commitments) relate to each other, how they project into graphs, and how they connect to real-world state through sensors.
 
-## Constitutional Artifacts
+## Governance Artifacts
 
-A constitutional artifact is any normative artifact that says "this is what we intend":
+A governance artifact is any normative artifact that says "this is what we intend":
 
 - **Visions** — long-horizon orientation (values, direction, constraints)
 - **Agreements** — reciprocal commitments between parties
@@ -23,7 +23,7 @@ A constitutional artifact is any normative artifact that says "this is what we i
 - **Roles** — named positions with scope, authority, and accountability
 - **Domain definitions** — bounded areas of responsibility and decision-making
 
-All constitutional artifacts are commitments at different levels of specificity. A vision is a constitutional commitment ("we commit to this direction"). A roadmap is a sequenced commitment. A pool entry is an economic commitment. These form a commitment ecology — not a hierarchy where one replaces the other, but an ecology where different kinds serve different roles.
+All governance artifacts are commitments at different levels of specificity. A vision is a constitutional commitment ("we commit to this direction"). A roadmap is a sequenced commitment. A pool entry is an economic commitment. These form a commitment ecology — not a hierarchy where one replaces the other, but an ecology where different kinds serve different roles.
 
 ## The Coordination Ecology
 
@@ -78,7 +78,7 @@ Johar's **substitution trap** (*"One can assign authority without generating com
 
 ## Dual Representation
 
-Every constitutional artifact has two representations:
+Every governance artifact has two representations:
 
 - **Narrative form** for humans — text as constitutional statement, readable and debatable
 - **Graph projection** for machines — queryable, composable, diffable, groundable to world state within a node or through selectively materialized views

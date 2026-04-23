@@ -123,7 +123,7 @@ Johar gives Spore and IC a one-line principle that can travel across both repos:
 > **"LLMs can propose interpretations; only fields with memory, commitment, and revision can learn."**
 
 The three conditions map exactly to Spore's architecture:
-- **Memory** → governance-memory layer + IC's five-layer model
+- **Memory** → governance-memory pattern + IC's five-layer model
 - **Commitment** → commitment ecology
 - **Revision** → discourse-as-governance + claim lifecycle
 
@@ -169,7 +169,7 @@ This sharpens how IC communicates its grounding primitive.
 
 Johar states explicitly what Spore implies but has not declared: "The design challenge is fundamentally organisational, not technical. It sits at the intersection of institutions, governance, finance, interfaces, and computational systems."
 
-This framing is implicit in every Spore design decision (commitment over algorithm, discourse over optimization, governance over automation). It has not been stated as an explicit commitment. Worth adding to Spore's constitutional artifacts or project vision.
+This framing is implicit in every Spore design decision (commitment over algorithm, discourse over optimization, governance over automation). It has not been stated as an explicit commitment. Worth adding to Spore's governance artifacts or project vision.
 
 ### 6. Human/machine asymmetry — tension deepened
 
