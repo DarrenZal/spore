@@ -3,7 +3,7 @@ doc_id: spore.commitment-pooling
 doc_kind: pattern
 status: active
 depends_on:
-  - spore.constitutional-artifacts
+  - spore.governance-artifacts
 ---
 
 # Commitment Pooling

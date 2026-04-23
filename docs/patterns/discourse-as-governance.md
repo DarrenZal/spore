@@ -3,7 +3,7 @@ doc_id: spore.discourse-as-governance
 doc_kind: pattern
 status: draft
 depends_on:
-  - spore.constitutional-artifacts
+  - spore.governance-artifacts
 ---
 
 # Discourse as Governance
@@ -70,5 +70,5 @@ The pattern does not prescribe a single decision procedure (consent, consensus, 
 ## Related Patterns
 
 - **Governance memory** (`spore.governance-memory`) — discourse produces artifacts (decision records, revised specs) that enter governance memory. The discourse graph generates; governance memory preserves.
-- **Constitutional artifacts and graph projections** (`spore.constitutional-artifacts`) — the foundation that defines the eight graph types, including the discourse graph. Discourse-as-governance is how the ecology exercises the discourse graph projection.
+- **Constitutional artifacts and graph projections** (`spore.governance-artifacts`) — the foundation that defines the eight graph types, including the discourse graph. Discourse-as-governance is how the ecology exercises the discourse graph projection.
 - **Claims, evidence, and attestation anchoring** (`spore.claims-evidence-attestation`) — the epistemic infrastructure that discourse depends on. Proposals are claims; arguments are attestations; evidence bears on both. The anchoring protocol gives discourse its epistemic grounding.

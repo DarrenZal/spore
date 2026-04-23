@@ -8,7 +8,7 @@ relates_to:
   - spore.connection.hyperstition
   - spore.connection.hyperstition-markets
   - spore.commitment-pooling
-  - spore.constitutional-artifacts
+  - spore.governance-artifacts
 sources:
   - url: https://gitcoin.co/research/hyperstitions-how-shared-beliefs-shape-onchain-realities
     title: "Hyperstitions: How Shared Beliefs Shape Onchain Realities"

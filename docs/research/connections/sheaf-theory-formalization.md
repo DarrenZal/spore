@@ -6,7 +6,7 @@ depends_on:
   - spore.mycelial-holarchy-architecture
 relates_to:
   - spore.federation-protocol
-  - spore.constitutional-artifacts
+  - spore.governance-artifacts
 sources:
   - path: docs/research/Sheaves/Sheaf Theory Research for Spore.md
     title: "Sheaf-Theoretic Formalizations for Federated Knowledge Architectures (2026)"

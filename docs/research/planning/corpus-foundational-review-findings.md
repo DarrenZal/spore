@@ -665,7 +665,7 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
     ref: /Users/darrenzal/projects/spore/docs/project-vision.md:101-105
     excerpt: "\\\"Knowledge graph\\\" \u2014 entities, claims, evidence, provenance, sensor outputs (the epistemic substrate...)"
   - kind: source-doc
-    ref: /Users/darrenzal/projects/spore/docs/foundations/constitutional-artifacts-and-graph-projections.md:58-58
+    ref: /Users/darrenzal/projects/spore/docs/foundations/governance-artifacts-and-graph-projections.md:58-58
     excerpt: \"Epistemic graph\" (called \"knowledge graph\" in the vision and public-facing docs)
   - kind: source-doc
     ref: /Users/darrenzal/projects/spore/docs/synthesis/decision-memo.md:179-181
@@ -708,7 +708,7 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
     `intent` drifts across repos from a lightweight coordination signal into a protocol object with materially different semantics. In Spore and IC, intent is a pre-commitment directional signal, including inferred intent and routing intent; in PM, `pm:Intent` is a durable published record with consent policy, lifecycle, embedded subject model, and attached evidence. That is a layer shift from primitive verb/signal to schema-bearing protocol artifact without a namespace distinction, so the corpus currently uses one slug for two different ontological jobs.
   evidence:
   - kind: source-doc
-    ref: /Users/darrenzal/projects/spore/docs/foundations/constitutional-artifacts-and-graph-projections.md:36-39
+    ref: /Users/darrenzal/projects/spore/docs/foundations/governance-artifacts-and-graph-projections.md:36-39
     excerpt: An intent is a declared or inferred directional signal
   - kind: source-doc
     ref: /Users/darrenzal/projects/intelligence-commons/docs/foundations/intelligence-primitives.md:81-81
@@ -779,7 +779,7 @@ This consolidation reduced 40 input findings across eight Phase 4 passes to 39 c
     ref: /Users/darrenzal/projects/spore/docs/foundations/relational-agency-and-holons.md:15-18
     excerpt: A holon is simultaneously ... a whole ... a part nested within a larger whole
   - kind: source-doc
-    ref: /Users/darrenzal/projects/spore/docs/foundations/constitutional-artifacts-and-graph-projections.md:67-69
+    ref: /Users/darrenzal/projects/spore/docs/foundations/governance-artifacts-and-graph-projections.md:67-69
     excerpt: The same structure at different scales ... deep implication of the holon concept
   - kind: source-doc
     ref: /Users/darrenzal/projects/spore/docs/foundations/lexicon/field.md:35-39

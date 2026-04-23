@@ -3,7 +3,7 @@ doc_id: spore.intent-publication
 doc_kind: pattern
 status: active
 depends_on:
-  - spore.constitutional-artifacts
+  - spore.governance-artifacts
 ---
 
 # Intent Publication and Activation

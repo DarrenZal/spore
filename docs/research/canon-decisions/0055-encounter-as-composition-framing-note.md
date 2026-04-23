@@ -140,7 +140,7 @@ Johar's *"structured encounter"* (johar-situational-truthing), *"encounter rules
 - **Admits `encounter` as derived glossary slug** in `docs/research/concepts-p2p-wiki.yaml` (v11 → v12). Parallels `attestation-of-execution` / `permeability` / `double-boundary` / `reciprocity` / `trust` as derived glossary slugs admitted without canon-object-class inflation.
 - **Authors shared framing-note** at `docs/research/connections/canon-framing-encounter-as-composition.md` articulating Encounter = Signal (invitation / reframing transmission) + Joint-commitment (attendance-pledge / shared orientation) + Intent (pre-event surfacing / in-event shaping) + Evidence (in-event attestation / post-event capture) within bounded Field-conditions (temporal-spatial scope-conditions; rule-in-use scaffolding per ADR-0046). Also articulates the Johar-native structured-encounter-as-discipline reading at discipline-layer rather than primitive-layer.
 - **Updates `docs/project-vision.md`** with a single line in §*What is excluded from primitive status* closing Encounter per ADR-0055, and a parenthetical in §*Four categories of canon objects* acknowledging federation-encounter-pattern as parked pattern-library candidate. No individual-primitive-bullet edits (preserves recently-refactored readability per operator directive).
-- **Updates `docs/foundations/constitutional-artifacts-and-graph-projections.md`** with minimal parallel acknowledgment in §*Artifact-types some coordination contexts author* or §*Loop-fluency and constructed power* (parallel treatment, where appropriate per operator directive).
+- **Updates `docs/foundations/governance-artifacts-and-graph-projections.md`** with minimal parallel acknowledgment in §*Artifact-types some coordination contexts author* or §*Loop-fluency and constructed power* (parallel treatment, where appropriate per operator directive).
 - **Parks federation-encounter as pattern-library candidate** with operational-pressure triggers for future separate-plan admission. The parking is *admit-as-candidate*, not decline — distinct from ADR-0054 rewilding-decline-with-triggers which parks with *decline-unless-trigger-fires*.
 
 ### What this ADR does NOT do
@@ -241,7 +241,7 @@ Any *one* trigger firing is sufficient to open a future federation-encounter-pat
 - **New file**: `docs/research/connections/canon-framing-encounter-as-composition.md` (shared framing-note articulating Encounter as composition).
 - **Yaml extension**: `docs/research/concepts-p2p-wiki.yaml` v11 → v12 with one new derived glossary slug (`encounter`).
 - **Light canon-body edit**: `docs/project-vision.md` §*What is excluded from primitive status* + §*Four categories of canon objects* (parenthetical acknowledgment). No individual-primitive-bullet edits per operator directive.
-- **Parallel canon-body edit**: `docs/foundations/constitutional-artifacts-and-graph-projections.md` minimal parallel acknowledgment where appropriate (Artifact-types paragraph).
+- **Parallel canon-body edit**: `docs/foundations/governance-artifacts-and-graph-projections.md` minimal parallel acknowledgment where appropriate (Artifact-types paragraph).
 - **No Core Thesis rewrite.** No primitive-count change. No new primitives / doctrines / modes / properties. No individual-primitive-bullet edits.
 
 ## Parking lot

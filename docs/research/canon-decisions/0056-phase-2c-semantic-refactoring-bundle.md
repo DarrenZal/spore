@@ -16,7 +16,7 @@ r_claim_source:
 r_claim_statement: |
   Phase 1 coherence-and-falsifiability audit (`tmp/canon-coherence-falsifiability-audit-2026-04-22.md`
   line 2) enumerated three semantic refactoring items as "Reframe 3-a/b/c":
-  (a) zoom-invariance deletion at `docs/foundations/constitutional-artifacts-and-graph-projections.md:103-111`
+  (a) zoom-invariance deletion at `docs/foundations/governance-artifacts-and-graph-projections.md:103-111`
   (direct contradiction of ADR-0044's Self-Similarity-deletion from project-vision.md);
   (b) intent-pressure demotion from foundation-lexicon status (broader dynamical-
   vocabulary pattern; v2 first-principles audit verdict: "demote from canon,
@@ -52,7 +52,7 @@ Phase 1 coherence-and-falsifiability audit (`tmp/canon-coherence-falsifiability-
 
 ### The three items
 
-**Item 1 — Zoom-invariance deletion.** `docs/foundations/constitutional-artifacts-and-graph-projections.md:103-111` has a "Node as Graph (Zoom Invariance)" section that explicitly invokes "self-similarity" language contradicting ADR-0044's Self-Similarity-deletion from project-vision.md. The Phase-3 Self-Similarity deletion was not fully propagated to the parallel constitutional-artifacts.md treatment. Item 1 closes this.
+**Item 1 — Zoom-invariance deletion.** `docs/foundations/governance-artifacts-and-graph-projections.md:103-111` has a "Node as Graph (Zoom Invariance)" section that explicitly invokes "self-similarity" language contradicting ADR-0044's Self-Similarity-deletion from project-vision.md. The Phase-3 Self-Similarity deletion was not fully propagated to the parallel constitutional-artifacts.md treatment. Item 1 closes this.
 
 Additional downstream touch-points surfaced by Step 0.5 comprehensive vocabulary audit: `docs/foundations/relational-agency-and-holons.md:42` ("fractal scales") and `docs/foundations/holonic-network-architecture.md:73` ("## Fractal Scale Levels" section header) carry vestigial self-similarity framing where the body content already conforms to ADR-0032's scope-conditioning ("not a strict recursion, but a recurring architectural motif").
 
@@ -62,7 +62,7 @@ Intent-pressure is NOT in `docs/research/concepts-p2p-wiki.yaml` v12 (the post-3
 
 **Item 3 — Dynamical-vocabulary audit.** "Metabolic" vocabulary appears in canon in two distinct usage patterns:
 
-- **Load-bearing (preserve verbatim)**: Johar loop-fluency citations per ADR-0048 — e.g., `docs/project-vision.md:92` ("loop-fluency — the metabolic rate at which the verb-loop cycles"); `docs/foundations/constitutional-artifacts-and-graph-projections.md:69, 77` (same citation pattern, one naming *Mycelial Sovereignty* 2026 as source).
+- **Load-bearing (preserve verbatim)**: Johar loop-fluency citations per ADR-0048 — e.g., `docs/project-vision.md:92` ("loop-fluency — the metabolic rate at which the verb-loop cycles"); `docs/foundations/governance-artifacts-and-graph-projections.md:69, 77` (same citation pattern, one naming *Mycelial Sovereignty* 2026 as source).
 - **Decorative (audit target)**: `docs/project-vision.md:172` ("This is metabolic." — standalone); `docs/foundations/relational-agency-and-holons.md:95` ("The ecology is the metabolic cycle...") — Spore's interpretive sentences, not Johar-cited.
 
 Scan confirmed zero canon-layer hits on adjacent dynamical vocabulary ("breathes", "pulse", "respir"); "metabolic" is the sole tell.
@@ -81,7 +81,7 @@ Step 0.5 findings at `tmp/phase-2c-semantic-audit-findings.txt`. Decision-brief 
 
 ### Item 1 — Zoom-invariance deletion
 
-1. `docs/foundations/constitutional-artifacts-and-graph-projections.md:103-111`: replace section with:
+1. `docs/foundations/governance-artifacts-and-graph-projections.md:103-111`: replace section with:
 
    ```
    ## Holon and Field at Adjacent Scales
@@ -114,8 +114,8 @@ Step 0.5 findings at `tmp/phase-2c-semantic-audit-findings.txt`. Decision-brief 
 2. `docs/foundations/relational-agency-and-holons.md:95`: reword *"The ecology is the metabolic cycle through which collective agency develops"* → *"The ecology is the coordination cycle through which collective agency develops"*. Preserves structural claim; drops dynamical-metaphor. Surrounding Johar-framed paragraph (citing Johar's agentic-capacity list by name) unchanged.
 
 3. Preserved verbatim (load-bearing Johar-cited loop-fluency per ADR-0048):
-   - `docs/foundations/constitutional-artifacts-and-graph-projections.md:69` — "the loop's metabolic rate (Johar's 'feel → narrate → respond → learn → re-feel' loop-fluency framing)"
-   - `docs/foundations/constitutional-artifacts-and-graph-projections.md:77` — "The metabolic rate at which the verb-loop cycles — Johar's 'feel → narrate → respond → learn → re-feel' (*Mycelial Sovereignty*, 2026)"
+   - `docs/foundations/governance-artifacts-and-graph-projections.md:69` — "the loop's metabolic rate (Johar's 'feel → narrate → respond → learn → re-feel' loop-fluency framing)"
+   - `docs/foundations/governance-artifacts-and-graph-projections.md:77` — "The metabolic rate at which the verb-loop cycles — Johar's 'feel → narrate → respond → learn → re-feel' (*Mycelial Sovereignty*, 2026)"
    - `docs/project-vision.md:92` — "loop-fluency — the metabolic rate at which the verb-loop cycles"
 
 ### Object-class inventory

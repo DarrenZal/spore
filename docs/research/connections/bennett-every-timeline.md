@@ -7,7 +7,7 @@ depends_on:
 relates_to:
   - spore.term.intent-pressure
   - spore.commitment-pooling
-  - spore.constitutional-artifacts
+  - spore.governance-artifacts
 sources:
   - url: null
     title: "Every Timeline Is an Opinion"

@@ -9,7 +9,7 @@ depends_on:
 relates_to:
   - spore.term.field
   - spore.relational-agency-and-holons
-  - spore.constitutional-artifacts
+  - spore.governance-artifacts
   - spore.governance-memory
   - ic.project-learning-membrane
 disposition: clarify existing term

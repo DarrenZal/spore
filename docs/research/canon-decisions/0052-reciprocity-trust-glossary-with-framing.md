@@ -163,6 +163,6 @@ Held-tension overlap: ADR-0001 pluriversal-incommensurability cluster retains ri
 - **New file**: `docs/research/canon-decisions/0052-reciprocity-trust-glossary-with-framing.md` (this document).
 - **New file**: `docs/research/connections/canon-framing-derived-terms-reciprocity-trust.md` (shared framing-note authored in same plan).
 - **Modified**: `docs/research/concepts-p2p-wiki.yaml` — version bump v9 → v10; two new slug entries (`reciprocity`, `trust`); no existing slugs modified; no existing aliases reassigned.
-- **Unchanged**: `docs/project-vision.md`; `docs/foundations/constitutional-artifacts-and-graph-projections.md`; all existing ADR-00XX files (no supersession, no extension). Phase 3b.7 surfaces preserved intact.
+- **Unchanged**: `docs/project-vision.md`; `docs/foundations/governance-artifacts-and-graph-projections.md`; all existing ADR-00XX files (no supersession, no extension). Phase 3b.7 surfaces preserved intact.
 
 Validator baseline (pre-edit): 9 errors / 30 warnings. Validator target (post-edit): ≤ 9 / ≤ 30.

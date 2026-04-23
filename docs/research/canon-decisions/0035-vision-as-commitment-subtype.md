@@ -9,11 +9,11 @@ decision: edit
 r_claim_source:
   - spore.review.adversarial-critique-2026-04-22:CC-06
 r_claim_statement: |
-  The canon states visions are constitutional commitments (L74 — accurate) but then treats "Vision commitments" as a distinct ecology element alongside Roadmap, Intent, Commitment, Evidence, Learning (L80). This creates ambiguity about whether vision is a primitive or a subtype of commitment. The cleaner reading (supported by constitutional-artifacts-and-graph-projections.md:L26-L27) is: commitment is the primitive; vision is commitment at the orientation scope with slow-change + broad-consent properties.
+  The canon states visions are constitutional commitments (L74 — accurate) but then treats "Vision commitments" as a distinct ecology element alongside Roadmap, Intent, Commitment, Evidence, Learning (L80). This creates ambiguity about whether vision is a primitive or a subtype of commitment. The cleaner reading (supported by governance-artifacts-and-graph-projections.md:L26-L27) is: commitment is the primitive; vision is commitment at the orientation scope with slow-change + broad-consent properties.
 supported_by:
   - /Users/darrenzal/projects/spore/tmp/canon-adversarial-critique-2026-04-21.md
   - /Users/darrenzal/projects/spore/tmp/canon-critique-lens-a.md
-  - docs/foundations/constitutional-artifacts-and-graph-projections.md
+  - docs/foundations/governance-artifacts-and-graph-projections.md
 authorized-by: "spore-canon-adversarial-critique operator directive 2026-04-22"
 queue_reference: "adversarial-critique-2026-04-22 consolidated findings §CC-06 (vision-as-primitive drift)"
 affects_canon:
@@ -38,7 +38,7 @@ The project-vision ecology passage makes two statements about vision that are to
 - L74: "Visions are constitutional commitments."
 - L80: "**Vision commitments** orient (direction, values, constraints)"
 
-L74 is accurate: vision is a kind of commitment. L80 treats "Vision commitments" as a distinct ecology element alongside Roadmap, Intent, Commitment, Evidence, Learning — which implies vision is a primitive distinct from commitment. The constitutional-artifacts-and-graph-projections.md foundation (L26-L27) already establishes the correct relationship: "All constitutional artifacts are commitments at different levels of specificity. A vision is a constitutional commitment." Vision is commitment-at-orientation-scope, not a separate primitive.
+L74 is accurate: vision is a kind of commitment. L80 treats "Vision commitments" as a distinct ecology element alongside Roadmap, Intent, Commitment, Evidence, Learning — which implies vision is a primitive distinct from commitment. The governance-artifacts-and-graph-projections.md foundation (L26-L27) already establishes the correct relationship: "All constitutional artifacts are commitments at different levels of specificity. A vision is a constitutional commitment." Vision is commitment-at-orientation-scope, not a separate primitive.
 
 Lens A (Primitive-Claims Auditor, S2, CC-06) flagged this as primitive-claim drift in the adversarial critique.
 
@@ -63,7 +63,7 @@ Rationale for `edit` disposition (canon-review-protocol v3 §4 with adversarial-
 - supports: 1 lens (Lens A primitive-claims)
 - opposes: 0
 - source: adversarial-critique consolidated findings, CC-06
-- Supporting canon: docs/foundations/constitutional-artifacts-and-graph-projections.md:L26-L27 (subtype relationship)
+- Supporting canon: docs/foundations/governance-artifacts-and-graph-projections.md:L26-L27 (subtype relationship)
 - Held-tension overlap: None blocks 2026-04-22. ADR-0001 pluriversal-incommensurability is orthogonal.
 - Adaptation note: per canon-review Round 4 adversarial-critique protocol adaptation, continuing from R1/R2/R3.
 

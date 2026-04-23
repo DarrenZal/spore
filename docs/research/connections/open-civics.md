@@ -7,7 +7,7 @@ depends_on:
 relates_to:
   - spore.federation-protocol
   - spore.commitment-pooling
-  - spore.constitutional-artifacts
+  - spore.governance-artifacts
   - spore.intent-publication
   - spore.connection.bennett-every-timeline
 sources:

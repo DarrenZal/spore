@@ -141,7 +141,7 @@ Any *one* trigger firing is sufficient to open a Phase 3b.8-v2 disposition cycle
 
 - **Yaml unchanged at v11.** No slug admissions. Fourth consecutive Phase-3b ADR with explicit no-slug disposition (ADR-0052: 0 new, ADR-0051: 1 new, ADR-0050: 1 new, ADR-0053: 3 new derived-glossary, ADR-0054: 0 new).
 - **Validator gate.** Step 7 confirms no regression from baseline 9 errors / 30 warnings.
-- **No canon-body edits.** project-vision.md and constitutional-artifacts-and-graph-projections.md unchanged. No framing-note. No pattern-library entry.
+- **No canon-body edits.** project-vision.md and governance-artifacts-and-graph-projections.md unchanged. No framing-note. No pattern-library entry.
 
 ### Companion-ADR cross-references (load-bearing)
 
@@ -164,7 +164,7 @@ Any *one* trigger firing is sufficient to open a Phase 3b.8-v2 disposition cycle
 ## Diff summary
 
 - **New file**: `docs/research/canon-decisions/0054-rewilding-thesis-decline-with-triggers.md` (this file).
-- **No canon-body edits.** `docs/project-vision.md`, `docs/foundations/constitutional-artifacts-and-graph-projections.md`, and all other canon/foundation docs remain unchanged.
+- **No canon-body edits.** `docs/project-vision.md`, `docs/foundations/governance-artifacts-and-graph-projections.md`, and all other canon/foundation docs remain unchanged.
 - **No yaml changes.** `docs/research/concepts-p2p-wiki.yaml` remains at v11.
 - **No framing-note.** No new files under `docs/research/connections/`.
 - **No pattern-library entries.** No new files under `docs/patterns/`.

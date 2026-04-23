@@ -4,7 +4,7 @@ doc_kind: pattern
 status: active
 depends_on:
   - spore.agent-commons-meta-protocol
-  - spore.constitutional-artifacts
+  - spore.governance-artifacts
 ---
 
 # Governance Memory

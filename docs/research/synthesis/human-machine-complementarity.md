@@ -21,7 +21,7 @@ concepts:
 governance_clusters:
   - spore.relational-agency-and-holons:human-machine-complementarity
   - spore.project-vision:human-machine-complementarity
-  - spore.constitutional-artifacts:human-machine-complementarity
+  - spore.governance-artifacts:human-machine-complementarity
   - spore.mycelial-holarchy-architecture:human-machine-complementarity
   - ic.intelligence-primitives:human-machine-complementarity
   - ic.memory-layers:human-machine-complementarity
@@ -35,7 +35,7 @@ A synthesis note on the human-machine-complementarity field family, drawn from t
 ## Cluster
 
 - **Field family:** human-machine-complementarity
-- **Governance clusters:** 7 (spanning `spore.relational-agency-and-holons`, `spore.project-vision`, `spore.constitutional-artifacts`, `spore.mycelial-holarchy-architecture`, `ic.intelligence-primitives`, `ic.memory-layers`, `ic.project-vision`)
+- **Governance clusters:** 7 (spanning `spore.relational-agency-and-holons`, `spore.project-vision`, `spore.governance-artifacts`, `spore.mycelial-holarchy-architecture`, `ic.intelligence-primitives`, `ic.memory-layers`, `ic.project-vision`)
 - **Source documents:** 9 distinct (4 bridge notes + 5 claim sheets)
 - **Cross-project:** yes (Spore + IC)
 - **Convergence:** 151 supports, 0 opposes

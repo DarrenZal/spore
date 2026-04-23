@@ -34,7 +34,7 @@ A full cycle runs intake → capstone → canon review → protocol-evolution �
 Canon = foundation + vision + roadmap docs that define each project's normative self-description. Research notes, bridge notes, capstone syntheses, patterns, governance, positioning, protocols, and operational docs are NOT canon for the purposes of this protocol.
 
 **Spore canon (in-scope)**:
-- `docs/foundations/constitutional-artifacts-and-graph-projections.md`
+- `docs/foundations/governance-artifacts-and-graph-projections.md`
 - `docs/foundations/holonic-network-architecture.md`
 - `docs/foundations/federation-protocol.md`
 - `docs/foundations/relational-agency-and-holons.md`

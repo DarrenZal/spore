@@ -3,7 +3,7 @@ doc_id: spore.claims-evidence-attestation
 doc_kind: spec
 status: draft
 depends_on:
-  - spore.constitutional-artifacts
+  - spore.governance-artifacts
 ---
 
 # Claims, Evidence, and Attestation Anchoring

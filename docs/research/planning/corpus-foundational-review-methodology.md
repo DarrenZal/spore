@@ -56,7 +56,7 @@ Where the object under review is meta-corpus or repo-topology rather than a brid
 
 Phase 2's `tmp/concept-roster.tsv` uses `primitive-class` as an inventory prioritization flag, not as a canon decision by itself. A concept enters the review inventory as `primitive-class` if it meets at least 2 of these 4 criteria:
 
-1. It is declared primitive in `constitutional-artifacts-and-graph-projections.md` or an elevating ADR.
+1. It is declared primitive in `governance-artifacts-and-graph-projections.md` or an elevating ADR.
 2. It appears in at least 5 canon-layer docs.
 3. It has a dedicated lexicon entry, when a lexicon surface exists.
 4. It is referenced as foundational by at least 2 other concepts' definitions.

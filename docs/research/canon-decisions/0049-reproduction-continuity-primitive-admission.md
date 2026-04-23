@@ -30,7 +30,7 @@ authorized-by: "canon-rebuild-phase-3b-4 operator directive 2026-04-22 (admit re
 queue_reference: "canon-rebuild Phase 3b.4 (Reproduction-continuity) — closes the last capstone §3 Tier-1/2 gap item ranked by §8 Tier 1 item 5; decision-brief 2026-04-22"
 affects_canon:
   - docs/project-vision.md
-  - docs/foundations/constitutional-artifacts-and-graph-projections.md
+  - docs/foundations/governance-artifacts-and-graph-projections.md
   - docs/research/concepts-p2p-wiki.yaml
 related_adrs:
   - spore:ADR-0002-reproduction-primacy
@@ -142,7 +142,7 @@ Capstone §3 paraphrase: *"Repeated commitments over generations + knowledge-tra
 
 1. **Core Thesis framing** (`project-vision.md`): update the opening to name "eight primitives"; split structural (3) from verbs (5).
 
-2. **New verb bullet for Reproduction** in project-vision.md §"Coordination verbs" and the parallel §"The Coordination Ecology" in constitutional-artifacts-and-graph-projections.md. Bullet names: the reproductive-labor content (Federici/Folbre invisibilization critique as admission rationale); Beer/VSM viability-over-time; cyclical ritual / ancestor rebirth (held under ADR-0001 pluriversal-incommensurability); Governance-Process succession-rules (Debian / W3C / IETF); replication-crisis as reproductive-failure mode; distinction from reproductive-commoning (ADR-0002) and care-commoning (ADR-0045); relationship to asymmetric-commitment (ADR-0047 Layer 2).
+2. **New verb bullet for Reproduction** in project-vision.md §"Coordination verbs" and the parallel §"The Coordination Ecology" in governance-artifacts-and-graph-projections.md. Bullet names: the reproductive-labor content (Federici/Folbre invisibilization critique as admission rationale); Beer/VSM viability-over-time; cyclical ritual / ancestor rebirth (held under ADR-0001 pluriversal-incommensurability); Governance-Process succession-rules (Debian / W3C / IETF); replication-crisis as reproductive-failure mode; distinction from reproductive-commoning (ADR-0002) and care-commoning (ADR-0045); relationship to asymmetric-commitment (ADR-0047 Layer 2).
 
 3. **"What the primitives earn their place" paragraph** (project-vision.md L48): update "Seven primitives" → "Eight primitives"; retain the earning-test framing; name reproduction-continuity as the marginal-(a)/strong-(b) admission per Phase 3b.4 discipline.
 
@@ -201,7 +201,7 @@ Capstone §3 paraphrase: *"Repeated commitments over generations + knowledge-tra
 
 - New file: `docs/research/canon-decisions/0049-reproduction-continuity-primitive-admission.md` (this ADR).
 - `docs/project-vision.md`: Core Thesis updated for 7→8 primitive count (L23 opener; L36 new Reproduction bullet; L48 earning-test paragraph; L50 four-categories paragraph; L58 exclusions paragraph; L62 composability paragraph; L64 Goal paragraph). Coordination Ecology opening (L115) and Coordination Scales (L163) updated for verb-list enumeration.
-- `docs/foundations/constitutional-artifacts-and-graph-projections.md`: Coordination Ecology opening (L30) updated for "Five coordination verbs"; new Reproduction bullet after L38 Signal bullet.
+- `docs/foundations/governance-artifacts-and-graph-projections.md`: Coordination Ecology opening (L30) updated for "Five coordination verbs"; new Reproduction bullet after L38 Signal bullet.
 - `docs/research/concepts-p2p-wiki.yaml`: v6 → v7; `reproduction-continuity` slug admitted with definition + source-anchors; version-header comment extended with Phase 3b.4 admission rationale.
 - No ADR-0002 / ADR-0045 file modifications (both extended via prose cross-reference only).
 - No `git add -A`.

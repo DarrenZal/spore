@@ -16,14 +16,14 @@ r_claim_statement: |
   Spore and IC use `intent` as the broad pre-commitment coordination signal and `evidence` as the broad epistemic relation bearing on claims. PM's `pm:Intent` and fulfillment-facing evidence family are protocol-layer specializations of those broader canon surfaces, not replacements for them, so the drift should be resolved by subtype / namespace clarification rather than corpus-wide rename.
 supported_by:
   - /Users/darrenzal/projects/spore/docs/research/connections/canon-framing-cross-repo-concept-splits.md
-  - docs/foundations/constitutional-artifacts-and-graph-projections.md
+  - docs/foundations/governance-artifacts-and-graph-projections.md
   - docs/protocols/claims-evidence-attestation.md
   - docs/research/corpus-review/research-rea-valueflows.md:40-40
   - docs/research/corpus-review/research-capstone-review.md:99-99
 authorized-by: ""
 queue_reference: "Phase 7 round-cross-repo-concept-splits (F-021, F-022)"
 affects_canon:
-  - docs/foundations/constitutional-artifacts-and-graph-projections.md
+  - docs/foundations/governance-artifacts-and-graph-projections.md
   - docs/protocols/claims-evidence-attestation.md
 related_adrs:
   - intelligence-commons:ADR-0009-intent-evidence-subtype-clarification
@@ -50,7 +50,7 @@ The drift is real, but the source review does not justify a corpus-wide rename. 
 
 Edit two Spore canon surfaces to make the subtype relationship explicit.
 
-1. In `docs/foundations/constitutional-artifacts-and-graph-projections.md`, clarify that Spore's `intent` remains the broad pre-commitment coordination surface and that PM's `pm:Intent` is a durable protocol specialization of it.
+1. In `docs/foundations/governance-artifacts-and-graph-projections.md`, clarify that Spore's `intent` remains the broad pre-commitment coordination surface and that PM's `pm:Intent` is a durable protocol specialization of it.
 2. In the same file, clarify that Spore's `evidence` remains the broad epistemic relation and that fulfillment evidence is one subtype within it rather than the corpus-wide definition.
 3. In `docs/protocols/claims-evidence-attestation.md`, clarify that PM's `pm:Evidence` / `pm:EvidenceRef` / `pm:FulfillmentEvidence` family sits inside the wider evidence umbrella as the execution / fulfillment subtype that feeds trust updates.
 
@@ -72,7 +72,7 @@ The clean repair is to name the relationship between those two levels. PM's term
 ## Evidence
 
 - F-021 evidence gate: pass
-  - `docs/foundations/constitutional-artifacts-and-graph-projections.md` defines intent as a declared or inferred directional signal
+  - `docs/foundations/governance-artifacts-and-graph-projections.md` defines intent as a declared or inferred directional signal
   - `docs/foundations/intelligence-primitives.md` in IC uses intent at the routing-signal layer
   - `poietic-match/docs/grammar.md` and `poietic-match/docs/protocol.md` define `pm:Intent` as a durable published protocol record
   - `docs/research/corpus-review/research-rea-valueflows.md:40-40` anchors intent as one half of a commitment, not a durable bilateral commitment artifact
@@ -85,6 +85,6 @@ The clean repair is to name the relationship between those two levels. PM's term
 
 ## Diff summary
 
-- `docs/foundations/constitutional-artifacts-and-graph-projections.md`: clarifies the umbrella sense of `intent` and `evidence`
+- `docs/foundations/governance-artifacts-and-graph-projections.md`: clarifies the umbrella sense of `intent` and `evidence`
 - `docs/protocols/claims-evidence-attestation.md`: clarifies that PM's evidence family is a fulfillment-facing subtype of the broader evidence surface
 

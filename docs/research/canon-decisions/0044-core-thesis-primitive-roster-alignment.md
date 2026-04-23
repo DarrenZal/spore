@@ -24,7 +24,7 @@ authorized-by: "canon-rebuild-phase-3 operator directive 2026-04-22 (Path-2-spli
 queue_reference: "coherence-audit-2026-04-22 C-01 + C-02 + C-03 + C-10 (Core Thesis primitive-roster + composability-scope + list-count-mismatch + self-similarity-scope) + CFR-v1 capstone §4 primitive-audit"
 affects_canon:
   - docs/project-vision.md
-  - docs/foundations/constitutional-artifacts-and-graph-projections.md
+  - docs/foundations/governance-artifacts-and-graph-projections.md
 related_adrs:
   - spore:ADR-0008-collective-agency-at-field
   - spore:ADR-0013-intent-evidence-subtype-clarification
@@ -79,7 +79,7 @@ Replace the Core Thesis section with a rewrite that:
 
 Draft text verbatim from `tmp/canon-phase3-core-thesis-rewrite-draft-v2-2026-04-22.md` §Draft A.
 
-### §2 Coordination Ecology rewrite (project-vision.md L72-L89 + constitutional-artifacts-and-graph-projections.md L28-L41)
+### §2 Coordination Ecology rewrite (project-vision.md L72-L89 + governance-artifacts-and-graph-projections.md L28-L41)
 
 Replace both ecology passages with rewrites that:
 - Replace the six-element list (Vision → Roadmap → Intent → Commitment → Evidence → Learning) with the four-verb loop (Intent → Commitment → Evidence, with Signal as cross-cutting transmission).
@@ -112,7 +112,7 @@ ADR-0032 (`spore:ADR-0032-core-thesis-primitives-scope-conditioning`) is **super
 
 ### Sense-disambiguation for ADR-0035
 
-ADR-0035 (`spore:ADR-0035-vision-as-commitment-subtype`) is NOT modified by this ADR. This Consequences section clarifies the sense in which ADR-0035's "commitment" operates. Per the three-senses-of-commitment distinction canonicalized in the rewritten Coordination Ecology section of `constitutional-artifacts-and-graph-projections.md` (§Draft C):
+ADR-0035 (`spore:ADR-0035-vision-as-commitment-subtype`) is NOT modified by this ADR. This Consequences section clarifies the sense in which ADR-0035's "commitment" operates. Per the three-senses-of-commitment distinction canonicalized in the rewritten Coordination Ecology section of `governance-artifacts-and-graph-projections.md` (§Draft C):
 
 - **Operational commitment** (the primitive introduced here): offer/accept/attest/fulfill binding with specified terms, parties, and governance.
 - **Orientation commitment** (ADR-0035's sense): visions and directional declarations — artifact-types that a coordination context may author at longer time-horizons. Vision is a commitment at orientation scope with slow-change + broad-consent properties.
@@ -156,8 +156,8 @@ Phase 3 does NOT address these; any attempt to address them mid-session-atomic-w
 
 - `project-vision.md:91-95` three-layer coordination stack — unchanged in Phase 3 per Q4; Phase 2c or later may revisit.
 - `project-vision.md:104-116` Graph Projections list — realignment to primitive roster deferred to Phase 2c.
-- `constitutional-artifacts-and-graph-projections.md` Graph Projections section (§54-75) — deferred to Phase 2c.
-- `constitutional-artifacts-and-graph-projections.md` Zoom Invariance / self-similarity (§67-75) — deferred to Phase 2c.
+- `governance-artifacts-and-graph-projections.md` Graph Projections section (§54-75) — deferred to Phase 2c.
+- `governance-artifacts-and-graph-projections.md` Zoom Invariance / self-similarity (§67-75) — deferred to Phase 2c.
 - `foundations/holonic-network-architecture.md:74-84` dual-axis scale-recurrence language — deferred to Phase 2c.
 - `foundations/relational-agency-and-holons.md:42-49` fractal-scales paragraph — deferred to Phase 2c (captured in preflight Check 0.9 OUT-OF-SCOPE hits).
 
@@ -190,6 +190,6 @@ Phase 3 does NOT address these; any attempt to address them mid-session-atomic-w
 - `docs/project-vision.md:72-89` (Coordination Ecology section) — REPLACE with Draft B verbatim (4-verb loop hosted by structural-primitive substrate)
 - `docs/project-vision.md:117-119` (Self-Similarity section) — DELETE entirely per C-10 disposition
 - `docs/project-vision.md:121-129` (Coordination Scales section) — REPLACE opening framing sentence with Edit 4 text; preserve five illustrative bullets verbatim
-- `docs/foundations/constitutional-artifacts-and-graph-projections.md:28-41` (Coordination Ecology section) — REPLACE with Draft C verbatim (4-verb loop + commitment-three-senses + REA-40-year-split inline acknowledgment)
+- `docs/foundations/governance-artifacts-and-graph-projections.md:28-41` (Coordination Ecology section) — REPLACE with Draft C verbatim (4-verb loop + commitment-three-senses + REA-40-year-split inline acknowledgment)
 
 **Historical references preserved** (unchanged): ADR-0032's file (superseded but not modified), ADR-0035's file (companion-clarified but not modified), and out-of-scope deprecated-phrase occurrences in `docs/research/2026-04-03/*`, `docs/research/canon-decisions/0032/0034/*.md` (historical), `docs/foundations/relational-agency-and-holons.md:42` (Phase 2c target).

@@ -72,7 +72,7 @@ Clear operational rules are required at every interface. Rules can be graduated,
 
 **Redundancy risk avoided.** The project vision uses membrane language but does not name the design principle governing membrane specification. The draft names that principle. If the draft restated the vision's "Invariants give containment... Protocols shape connection" language, it would be redundant. Instead it says "the grammar already practices this" and gives concrete mechanism-level examples, which is additive.
 
-### vs. `constitutional-artifacts-and-graph-projections.md`
+### vs. `governance-artifacts-and-graph-projections.md`
 
 **What the draft borrows.** Nothing directly. The constitutional-artifacts doc describes normative artifacts and their graph projections. The draft does not reference artifacts, projections, dual representation, or sensors.
 

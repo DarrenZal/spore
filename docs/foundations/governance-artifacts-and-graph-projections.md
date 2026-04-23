@@ -1,5 +1,5 @@
 ---
-doc_id: spore.constitutional-artifacts
+doc_id: spore.governance-artifacts
 doc_kind: foundation
 status: active
 depends_on:
@@ -7,7 +7,7 @@ depends_on:
   - spore.relational-agency-and-holons
 ---
 
-# Constitutional Artifacts and Graph Projections
+# Governance Artifacts and Graph Projections
 
 This document bridges the holonic/mycelial architecture and the pattern language. It defines how normative artifacts (visions, agreements, commitments) relate to each other, how they project into graphs, and how they connect to real-world state through sensors.
 

@@ -10,7 +10,7 @@ r_claim_source:
   - spore.review.coherence-audit-2026-04-22:C-13
   - spore.review.coherence-audit-2026-04-22:C-08
 r_claim_statement: |
-  C-13: The DAG-of-authority claim at constitutional-artifacts-and-graph-projections.md:90-92 ("authority cycles create paradox... so governance structures are acyclic by necessity") is contradicted by the canon's own polycentric-governance citations in holonic-network-architecture.md. Real governance systems (worker co-ops, polycentric governance, constitutional democracies, recursive democratic structures) contain authority cycles. Phase 1 disposition: delete. C-08: The Structural Legitimacy coupling claim at project-vision.md:54-56 ("Coordination infrastructure becomes viable when authority and consequence are structurally coupled") is the stronger foundation-level grounding and is already in-canon. Phase 1 disposition: promote to foundation-level status. Bundled because the delete + promote together constitute one coherent repair: the DAG claim goes, its proper substantive replacement takes foundation-level status.
+  C-13: The DAG-of-authority claim at governance-artifacts-and-graph-projections.md:90-92 ("authority cycles create paradox... so governance structures are acyclic by necessity") is contradicted by the canon's own polycentric-governance citations in holonic-network-architecture.md. Real governance systems (worker co-ops, polycentric governance, constitutional democracies, recursive democratic structures) contain authority cycles. Phase 1 disposition: delete. C-08: The Structural Legitimacy coupling claim at project-vision.md:54-56 ("Coordination infrastructure becomes viable when authority and consequence are structurally coupled") is the stronger foundation-level grounding and is already in-canon. Phase 1 disposition: promote to foundation-level status. Bundled because the delete + promote together constitute one coherent repair: the DAG claim goes, its proper substantive replacement takes foundation-level status.
 supported_by:
   - /Users/darrenzal/projects/spore/tmp/canon-coherence-falsifiability-audit-2026-04-22.md
   - /Users/darrenzal/projects/spore/tmp/canon-first-principles-audit-v2-2026-04-22.md
@@ -21,7 +21,7 @@ supported_by:
 authorized-by: "canon-rebuild-phase-2a operator directive 2026-04-22 (Option E sequence post-coherence-audit)"
 queue_reference: "coherence-audit-2026-04-22 C-13 (DAG-of-authority delete) + C-08 (Structural Legitimacy promote-to-foundation)"
 affects_canon:
-  - docs/foundations/constitutional-artifacts-and-graph-projections.md
+  - docs/foundations/governance-artifacts-and-graph-projections.md
   - docs/foundations/structural-legitimacy.md
   - docs/research/planning/canon-review-protocol.md
   - docs/README.md
@@ -44,7 +44,7 @@ active (authored + activated 2026-04-22 under canon-rebuild Phase 2a)
 
 Phase 1 coherence-and-falsifiability audit (`tmp/canon-coherence-falsifiability-audit-2026-04-22.md`) produced two related dispositions on governance-legitimacy framing:
 
-**C-13 — DAG-of-authority** (`constitutional-artifacts-and-graph-projections.md:90-92`): `delete`. The claim that *"authority cycles create paradox (A governs B governs A is incoherent), so governance structures are acyclic by necessity"* is contradicted by the canon's own polycentric-governance citations in `holonic-network-architecture.md:91-95` (Aligica/Tarko/McGinnis/Baldwin — polycentric governance is explicitly defined by cyclic mutual-adjustment). Real governance systems across multiple traditions contain authority cycles:
+**C-13 — DAG-of-authority** (`governance-artifacts-and-graph-projections.md:90-92`): `delete`. The claim that *"authority cycles create paradox (A governs B governs A is incoherent), so governance structures are acyclic by necessity"* is contradicted by the canon's own polycentric-governance citations in `holonic-network-architecture.md:91-95` (Aligica/Tarko/McGinnis/Baldwin — polycentric governance is explicitly defined by cyclic mutual-adjustment). Real governance systems across multiple traditions contain authority cycles:
 - Worker-owned cooperatives (workers → managers → workers)
 - Polycentric governance (Ostrom; multiple centers in cyclic mutual-adjustment)
 - Constitutional democracies (People → Legislature → Laws → People, with amendment as further cycle)
@@ -60,7 +60,7 @@ These two dispositions are bundled because they constitute one coherent repair: 
 
 **Edit — bundled four-part repair:**
 
-1. **Delete the DAG-of-authority clause** at `constitutional-artifacts-and-graph-projections.md:90-92`. Replace with a narrower statement: DAGs apply to artifact derivation and document provenance (governance-memory discipline); acyclicity is a document-discipline property, not a governance-authority theorem. Add cross-reference to the new Structural Legitimacy foundation doc where legitimacy is addressed.
+1. **Delete the DAG-of-authority clause** at `governance-artifacts-and-graph-projections.md:90-92`. Replace with a narrower statement: DAGs apply to artifact derivation and document provenance (governance-memory discipline); acyclicity is a document-discipline property, not a governance-authority theorem. Add cross-reference to the new Structural Legitimacy foundation doc where legitimacy is addressed.
 
 2. **Create new foundation doc** `docs/foundations/structural-legitimacy.md` elaborating the coupling claim. Preserves the paragraph in `project-vision.md:54-56` (does not move); adds depth with (a) core claim + polycentric framing, (b) why this replaces DAG-of-authority, (c) implementation surfaces in Spore (commitment protocols, contestability, governance-from-artifacts, polycentric cross-oversight, forkability), (d) open questions (measurement, scale, adversarial cases, temporal dynamics).
 
@@ -84,7 +84,7 @@ Rationale for `edit` disposition:
 
 ## Evidence
 
-- cluster_key: `docs/foundations/constitutional-artifacts-and-graph-projections.md:dag-of-authority-delete + docs/foundations/structural-legitimacy.md:foundation-promote`
+- cluster_key: `docs/foundations/governance-artifacts-and-graph-projections.md:dag-of-authority-delete + docs/foundations/structural-legitimacy.md:foundation-promote`
 - supports: 4 prior audits + 1 Phase 1 coherence audit (5-perspective concurrence); external literature (Lens L) found the DAG claim CONTRADICTED by the canon's own cited sources
 - opposes: 0
 - source: Phase 1 coherence-and-falsifiability audit C-13 (delete) + C-08 (promote), both high confidence
@@ -96,7 +96,7 @@ Rationale for `edit` disposition:
 
 ## Diff summary
 
-**File 1**: `docs/foundations/constitutional-artifacts-and-graph-projections.md` (DAGs bullet in Structure and Flow section):
+**File 1**: `docs/foundations/governance-artifacts-and-graph-projections.md` (DAGs bullet in Structure and Flow section):
 - Old bullet (deleted): `**DAGs** provide acyclic dependency resolution and clear authority flow (the holonic axis) — authority cycles create paradox (A governs B governs A is incoherent), so governance structures are acyclic by necessity. But value relations can be cyclic: justice ↔ equality is a reinforcing loop, not a paradox. DAGs apply to derivation and authority, not to all relations.`
 - New bullet: scope acyclicity to artifact derivation + document provenance; explicitly state it is NOT a governance-authority theorem; cross-reference to Structural Legitimacy foundation doc; preserve value-cycles observation.
 

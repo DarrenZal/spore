@@ -5,7 +5,7 @@ research_subkind: bridge_note
 status: draft
 depends_on:
   - spore.project-vision
-  - spore.constitutional-artifacts
+  - spore.governance-artifacts
 disposition: candidate pattern
 concepts:
   - conversational-sovereignty

@@ -17,7 +17,7 @@ concepts:
 governance_clusters:
   - spore.relational-agency-and-holons:linguistic-closure
   - spore.project-vision:linguistic-closure
-  - spore.constitutional-artifacts:linguistic-closure
+  - spore.governance-artifacts:linguistic-closure
   - spore.mycelial-holarchy-architecture:linguistic-closure
   - spore.lexicon:linguistic-closure
   - ic.intelligence-primitives:linguistic-closure
@@ -32,7 +32,7 @@ A synthesis note on the linguistic-closure field family, drawn from the Johar co
 ## Cluster
 
 - **Field family:** linguistic-closure
-- **Governance clusters:** 8 (spanning `spore.relational-agency-and-holons`, `spore.project-vision`, `spore.constitutional-artifacts`, `spore.mycelial-holarchy-architecture`, `spore.lexicon`, `ic.intelligence-primitives`, `ic.memory-layers`, `ic.project-vision`)
+- **Governance clusters:** 8 (spanning `spore.relational-agency-and-holons`, `spore.project-vision`, `spore.governance-artifacts`, `spore.mycelial-holarchy-architecture`, `spore.lexicon`, `ic.intelligence-primitives`, `ic.memory-layers`, `ic.project-vision`)
 - **Source documents:** 9 distinct (2 bridge notes + 1 IC companion + 6 claim sheets)
 - **Cross-project:** yes (Spore + IC)
 - **Convergence:** 45 supports, 0 opposes

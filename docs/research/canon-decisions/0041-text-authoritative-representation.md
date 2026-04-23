@@ -9,7 +9,7 @@ decision: edit
 r_claim_source:
   - spore.review.coherence-audit-2026-04-22:C-09
 r_claim_statement: |
-  The Dual Representation section at docs/foundations/constitutional-artifacts-and-graph-projections.md:43-50 asserts "The text is not derived from the graph. The graph is not a degraded form of the text. They are complementary views of the same normative structure." This is operationally false and creates hidden authority conflicts whenever text and graph representations disagree. Spore's actual workflow is: humans author markdown with YAML frontmatter; ingestion tooling parses this into graph representations; the text is authored and the graph is derived. Without an explicit precedence rule, every sensor/mapping dispute becomes an ambiguous authority conflict. Phase 1 disposition: reframe-as-explicit-definition — commit to text-authoritative with graph-as-derived-projection.
+  The Dual Representation section at docs/foundations/governance-artifacts-and-graph-projections.md:43-50 asserts "The text is not derived from the graph. The graph is not a degraded form of the text. They are complementary views of the same normative structure." This is operationally false and creates hidden authority conflicts whenever text and graph representations disagree. Spore's actual workflow is: humans author markdown with YAML frontmatter; ingestion tooling parses this into graph representations; the text is authored and the graph is derived. Without an explicit precedence rule, every sensor/mapping dispute becomes an ambiguous authority conflict. Phase 1 disposition: reframe-as-explicit-definition — commit to text-authoritative with graph-as-derived-projection.
 supported_by:
   - /Users/darrenzal/projects/spore/tmp/canon-coherence-falsifiability-audit-2026-04-22.md
   - /Users/darrenzal/projects/spore/tmp/canon-first-principles-audit-v2-2026-04-22.md
@@ -19,7 +19,7 @@ supported_by:
 authorized-by: "canon-rebuild-phase-2a operator directive 2026-04-22 (Option E sequence post-coherence-audit)"
 queue_reference: "coherence-audit-2026-04-22 C-09 (Dual Representation — operationally false; reframe-as-explicit-definition)"
 affects_canon:
-  - docs/foundations/constitutional-artifacts-and-graph-projections.md
+  - docs/foundations/governance-artifacts-and-graph-projections.md
 related_adrs:
   - spore:ADR-0042-dag-delete-structural-legitimacy-promote
 concepts:
@@ -36,7 +36,7 @@ active (authored + activated 2026-04-22 under canon-rebuild Phase 2a)
 
 ## Context
 
-The Phase 1 coherence-and-falsifiability audit (`tmp/canon-coherence-falsifiability-audit-2026-04-22.md` C-09) disposed the Dual Representation section at `constitutional-artifacts-and-graph-projections.md:43-50` as `reframe-as-explicit-definition` with high confidence. All four prior audits (v1, v2, Codex second-opinion, Opus-4-7 second-opinion) converged that the current claim — *"The text is not derived from the graph. The graph is not a degraded form of the text. They are complementary views of the same normative structure."* — is philosophically attractive but operationally untenable. Every future sensor/mapping dispute becomes a hidden authority conflict without an explicit precedence rule.
+The Phase 1 coherence-and-falsifiability audit (`tmp/canon-coherence-falsifiability-audit-2026-04-22.md` C-09) disposed the Dual Representation section at `governance-artifacts-and-graph-projections.md:43-50` as `reframe-as-explicit-definition` with high confidence. All four prior audits (v1, v2, Codex second-opinion, Opus-4-7 second-opinion) converged that the current claim — *"The text is not derived from the graph. The graph is not a degraded form of the text. They are complementary views of the same normative structure."* — is philosophically attractive but operationally untenable. Every future sensor/mapping dispute becomes a hidden authority conflict without an explicit precedence rule.
 
 Spore's actual practice is text-authoritative: humans author markdown with YAML frontmatter (doc_id, depends_on, concepts, etc.); ingestion tooling (currently `/Users/darrenzal/projects/regenai/koi-processor/scripts/ingest_spec_dag.py`) parses this into graph representations. Text is the authored surface; graph is the derived queryable view. When they disagree, regenerating the graph from text is the canonical resolution.
 
@@ -61,7 +61,7 @@ Rationale for `edit` disposition:
 
 ## Evidence
 
-- cluster_key: `docs/foundations/constitutional-artifacts-and-graph-projections.md:dual-representation:text-authoritative`
+- cluster_key: `docs/foundations/governance-artifacts-and-graph-projections.md:dual-representation:text-authoritative`
 - supports: 4 prior audits + 1 Phase 1 coherence audit (5-perspective concurrence)
 - opposes: 0
 - source: Phase 1 coherence-and-falsifiability audit C-09 (high confidence)
@@ -73,7 +73,7 @@ Rationale for `edit` disposition:
 
 ## Diff summary
 
-`docs/foundations/constitutional-artifacts-and-graph-projections.md:50` (final paragraph of Dual Representation section):
+`docs/foundations/governance-artifacts-and-graph-projections.md:50` (final paragraph of Dual Representation section):
 - Old: `The text is not derived from the graph. The graph is not a degraded form of the text. They are complementary views of the same normative structure.`
 - New (authored markdown + frontmatter → graph projection derivation):
 

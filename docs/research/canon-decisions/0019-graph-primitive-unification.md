@@ -16,7 +16,7 @@ r_claim_statement: |
 supported_by:
   - docs/research/planning/reframing/reframing-graph-primitive-unification.md
   - docs/project-vision.md
-  - docs/foundations/constitutional-artifacts-and-graph-projections.md
+  - docs/foundations/governance-artifacts-and-graph-projections.md
   - docs/foundations/spore-instance-model.md
   - docs/roadmap.md
   - tmp/concept-roster.tsv
@@ -24,7 +24,7 @@ authorized-by: reframing-graph-primitive-unification
 queue_reference: "Phase 7 reframing-graph-primitive-unification (F-020)"
 affects_canon:
   - docs/project-vision.md
-  - docs/foundations/constitutional-artifacts-and-graph-projections.md
+  - docs/foundations/governance-artifacts-and-graph-projections.md
   - docs/foundations/spore-instance-model.md
   - docs/roadmap.md
   - tmp/concept-roster.tsv
@@ -62,7 +62,7 @@ Canonicalize `epistemic-graph` as the sole live primitive slug for this surface.
 ### Canon edits authorized by this ADR
 
 1. Update `docs/project-vision.md` so the projection list names **Epistemic graph** as the canonical surface while preserving `knowledge graph` as an explicit public-facing gloss.
-2. Update `docs/foundations/constitutional-artifacts-and-graph-projections.md`, `docs/foundations/spore-instance-model.md`, and `docs/roadmap.md` so live canonical references use `epistemic graph` consistently.
+2. Update `docs/foundations/governance-artifacts-and-graph-projections.md`, `docs/foundations/spore-instance-model.md`, and `docs/roadmap.md` so live canonical references use `epistemic graph` consistently.
 3. Update `tmp/concept-roster.tsv` so `knowledge-graph` is no longer a primitive-class entry.
 4. Leave `docs/research/concepts-p2p-wiki.yaml` unchanged for this bundle.
 
@@ -87,7 +87,7 @@ The decision boundary is therefore precise: Spore canon speaks canonically about
 
 - F-020 evidence gate: pass
   - `docs/project-vision.md` used the predecessor term as the active projection name while already glossing it as epistemic substrate
-  - `docs/foundations/constitutional-artifacts-and-graph-projections.md` already treated `epistemic graph` as the precision term for the same surface
+  - `docs/foundations/governance-artifacts-and-graph-projections.md` already treated `epistemic graph` as the precision term for the same surface
   - `docs/synthesis/decision-memo.md` and `docs/synthesis/coordination-grammar.md` already described the rename as a clarification rather than a new primitive
   - `tmp/concept-roster.tsv` still exposed both slugs as `primitive-class=TRUE`
 - Distinct evidence count: 8
@@ -96,7 +96,7 @@ The decision boundary is therefore precise: Spore canon speaks canonically about
 ## Diff summary
 
 - `docs/project-vision.md`: renamed the live projection to `Epistemic graph` and preserved `knowledge graph` only as an explicit gloss
-- `docs/foundations/constitutional-artifacts-and-graph-projections.md`: aligned sensor-grounding language with `epistemic graph`
+- `docs/foundations/governance-artifacts-and-graph-projections.md`: aligned sensor-grounding language with `epistemic graph`
 - `docs/foundations/spore-instance-model.md`: aligned node-substrate language with `epistemic graph`
 - `docs/roadmap.md`: aligned live roadmap references with `epistemic graph`
 - `tmp/concept-roster.tsv`: demoted `knowledge-graph` from primitive-class status

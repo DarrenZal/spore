@@ -22,7 +22,7 @@ authorized-by: "canon-rebuild-phase-3b-3b operator directive 2026-04-22 (integra
 queue_reference: "post Phase 3b.3 Johar learning-membrane check; operator directive to fully integrate Johar-as-primary-inspiration"
 affects_canon:
   - docs/project-vision.md
-  - docs/foundations/constitutional-artifacts-and-graph-projections.md
+  - docs/foundations/governance-artifacts-and-graph-projections.md
   - docs/research/concepts-p2p-wiki.yaml
 related_adrs:
   - spore:ADR-0044-core-thesis-primitive-roster-alignment
@@ -93,7 +93,7 @@ Modes are **qualities of primitive operation**: how the grammar behaves under st
 
 ## Decision
 
-**edit.** Spore canon admits the full Johar three-form framework as grammar-level modes-across-primitives. Three concept slugs admitted: `expressive-power`, `constructed-power`, `substitution-trap`. Canon-body edits update Core Thesis (project-vision.md) and its parallel (constitutional-artifacts-and-graph-projections.md) to integrate the three-form framework. ADR-0047 remains unmodified on disk; ADR-0048 extends it via canon-body integration and prose cross-reference. Rewilding thesis parked as Phase 3b.8 candidate. "Encounter" primitive-admission parked as dedicated-ADR candidate.
+**edit.** Spore canon admits the full Johar three-form framework as grammar-level modes-across-primitives. Three concept slugs admitted: `expressive-power`, `constructed-power`, `substitution-trap`. Canon-body edits update Core Thesis (project-vision.md) and its parallel (governance-artifacts-and-graph-projections.md) to integrate the three-form framework. ADR-0047 remains unmodified on disk; ADR-0048 extends it via canon-body integration and prose cross-reference. Rewilding thesis parked as Phase 3b.8 candidate. "Encounter" primitive-admission parked as dedicated-ADR candidate.
 
 **Canon integration points:**
 
@@ -103,7 +103,7 @@ Modes are **qualities of primitive operation**: how the grammar behaves under st
 
 3. **"Power across primitives" synthesizing paragraph**: rewrite from allocational-only to three-form. Name allocational + expressive + constructed explicitly. Map each mode to existing primitives. Name the substitution-trap as canon-legible failure mode. Cross-reference Johar explicitly as primary-inspiration.
 
-4. **Verb-loop paragraph in constitutional-artifacts-and-graph-projections.md** (§Coordination Ecology): extend to name **constructed-power-via-loop-fluency** — the verb-loop's metabolic rate (Johar's "feel → narrate → respond → learn → re-feel") is the dynamic substrate for constructed power. Loop-fluency generates situational agency.
+4. **Verb-loop paragraph in governance-artifacts-and-graph-projections.md** (§Coordination Ecology): extend to name **constructed-power-via-loop-fluency** — the verb-loop's metabolic rate (Johar's "feel → narrate → respond → learn → re-feel") is the dynamic substrate for constructed power. Loop-fluency generates situational agency.
 
 5. **"What the primitives earn their place" section in project-vision.md**: add brief note on modes-across-primitives as a first-class canon category distinct from primitives, with the primitive-earning-test referenced as the gate that keeps primitives vs. modes distinguishable.
 
@@ -176,7 +176,7 @@ This ADR names modes at grammar level. It does not *guarantee* that Spore's exis
     - "Power across primitives" synthesizing paragraph rewritten from allocational-only to three-form (allocational + expressive + constructed) with Johar attribution.
     - "What the primitives earn their place" paragraph extended with brief acknowledgment of modes-across-primitives as fourth canon category (alongside primitives, doctrines, patterns).
     - L46 deferred-list entry extended to reference ADR-0048 completing Power articulation.
-  - `docs/foundations/constitutional-artifacts-and-graph-projections.md`:
+  - `docs/foundations/governance-artifacts-and-graph-projections.md`:
     - "Power across primitives" parallel paragraph rewritten for three-form framework.
     - §Coordination Ecology verb-loop paragraph extended with constructed-power-via-loop-fluency reference (Johar's metabolic-rate-of-agency framing).
   - `docs/research/concepts-p2p-wiki.yaml`: version bump v5 → v6; three new slugs — `expressive-power`, `constructed-power`, `substitution-trap`.

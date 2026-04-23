@@ -37,7 +37,7 @@ authorized-by: "canon-rebuild-phase-3b-5a operator directive 2026-04-22 (Option 
 queue_reference: "canon-rebuild Phase 3b.5a (Sociality-reducibility) — closes capstone §8 Tier-1 item 3 'single most consequential unresolved question'; decision-brief 2026-04-22; precursor to Phase 3b.5 Identity disposition"
 affects_canon:
   - docs/project-vision.md
-  - docs/foundations/constitutional-artifacts-and-graph-projections.md
+  - docs/foundations/governance-artifacts-and-graph-projections.md
   - docs/research/concepts-p2p-wiki.yaml
 related_adrs:
   - spore:ADR-0001-pluriversal-incommensurability
@@ -100,7 +100,7 @@ Per decision-brief §Recommendation + operator selection, Option H combines thre
 
 **Move 1 — Canonicalization of implicit Side-B commitment (Option E component).** ADR-0050 includes a canon paragraph in `project-vision.md` explicitly naming Spore's Side-B commitment and enumerating the 3b.1–4 ADRs that structurally tilted it. This is a "lenient" canonicalization — not claiming 3b.1–4 ADRs were Side-B-committed (they were not locked), but claiming Spore canon now commits to the tilt that has been growing structurally. Matches capstone's own *"§1–§3 tilt Side B"* language.
 
-**Move 2 — Holon primitive irreducibility extension (Option F component).** ADR-0016 (field-holon-primitive-distinction) was explicitly agnostic on reducibility. Spore's Holon bullet in `project-vision.md` and the parallel in `constitutional-artifacts-and-graph-projections.md` are extended with an irreducibility clause: *"The whole is not reducible to an aggregation of parts; it exhibits organizational invariants and emergent properties that cannot be analytically recovered from constituent-analysis alone (List/Pettit supervenience-without-reducibility; Thompson dynamic co-emergence)."* This closes the capstone §2 concern *"if A, Spore's holon is mere aggregation"* at the structural layer. ADR-0016 is extended via prose; file unchanged.
+**Move 2 — Holon primitive irreducibility extension (Option F component).** ADR-0016 (field-holon-primitive-distinction) was explicitly agnostic on reducibility. Spore's Holon bullet in `project-vision.md` and the parallel in `governance-artifacts-and-graph-projections.md` are extended with an irreducibility clause: *"The whole is not reducible to an aggregation of parts; it exhibits organizational invariants and emergent properties that cannot be analytically recovered from constituent-analysis alone (List/Pettit supervenience-without-reducibility; Thompson dynamic co-emergence)."* This closes the capstone §2 concern *"if A, Spore's holon is mere aggregation"* at the structural layer. ADR-0016 is extended via prose; file unchanged.
 
 **Move 3 — `joint-commitment` admitted as 9th primitive, 6th coordination verb (Option B component).** Gilbert's joint-commitment (*JC* 2013 Ch. 2: *"a commitment of two or more people, not a sum of personal commitments"*; formed by open expression of readiness under common knowledge; rescindable only by concurrence; produces directed obligations + demand-rights *"of a different kind"* from moral ones) enters Spore's primitive grammar as the sixth coordination verb. Joint-commitment operates at the joint/collective-compositional level, distinct from individual-scale Commitment which retains its symmetric-party and asymmetric-commitment (Layer-2 per ADR-0047) readings.
 
@@ -166,7 +166,7 @@ The narrowing is a philosophical bet consistent with Spore's primitive-structure
 
 1. **Commits to Side B** on the sociality-reducibility axis via explicit canon paragraph in `project-vision.md` (Move 1 — canonicalization of implicit 3b.1–4 tilt).
 
-2. **Extends the Holon primitive definition** with explicit irreducibility clause (Move 2) in `project-vision.md` Holon bullet and the parallel structural-primitives passage in `constitutional-artifacts-and-graph-projections.md`. ADR-0016 is extended via prose cross-reference; the file is not modified.
+2. **Extends the Holon primitive definition** with explicit irreducibility clause (Move 2) in `project-vision.md` Holon bullet and the parallel structural-primitives passage in `governance-artifacts-and-graph-projections.md`. ADR-0016 is extended via prose cross-reference; the file is not modified.
 
 3. **Admits `joint-commitment`** as the 9th primitive — 6th coordination verb (Move 3). Canon structure becomes: 3 structural primitives (field, holon, membrane) + 6 coordination verbs (intent, commitment, joint-commitment, evidence, signal, reproduction) = 9 primitives.
 
@@ -180,7 +180,7 @@ The narrowing is a philosophical bet consistent with Spore's primitive-structure
 
 2. **Holon bullet** (`project-vision.md` L28): extend with irreducibility clause + ADR-0016/ADR-0050 cross-reference + List-Pettit/Thompson lineage citation.
 
-3. **New `joint-commitment` verb bullet** inserted between Commitment (L34) and Evidence (L35) in project-vision.md §"Coordination verbs" and parallel placement in `constitutional-artifacts-and-graph-projections.md` §"The Coordination Ecology" (after existing Commitment bullet). Positioned as sibling-verb to Commitment at the compositional axis.
+3. **New `joint-commitment` verb bullet** inserted between Commitment (L34) and Evidence (L35) in project-vision.md §"Coordination verbs" and parallel placement in `governance-artifacts-and-graph-projections.md` §"The Coordination Ecology" (after existing Commitment bullet). Positioned as sibling-verb to Commitment at the compositional axis.
 
 4. **Side-B-commitment canonicalization paragraph** in `project-vision.md` Core Thesis (new paragraph after Power-across-primitives section): explicitly names Spore's Side-B commitment, enumerates 3b.1–4 tilt ADRs, cross-references ADR-0001 for the distinct pluriversal-incommensurability tension.
 
@@ -286,7 +286,7 @@ ADR-0050 is **partially capstone-recommended-verbatim and partially plan-origina
 
 - New file: `docs/research/canon-decisions/0050-sociality-side-b-plus-primitive.md` (this ADR).
 - `docs/project-vision.md`: Core Thesis opener L23 (8→9 primitives); Holon bullet L28 (irreducibility clause added); new joint-commitment verb bullet inserted between Commitment and Evidence; new Side-B-commitment canonicalization paragraph following Power-across-primitives section; earning-test paragraph L49 updated; four-categories paragraph L51 updated; exclusions paragraph L59 updated (sociality-reducibility marked closed); composability L63 (8→9); Goal L65 verb-list extended.
-- `docs/foundations/constitutional-artifacts-and-graph-projections.md`: Coordination Ecology opening L30 (5→6 verbs); new joint-commitment verb bullet after Commitment bullet; Structural primitives paragraph L42 extended with Holon irreducibility clause.
+- `docs/foundations/governance-artifacts-and-graph-projections.md`: Coordination Ecology opening L30 (5→6 verbs); new joint-commitment verb bullet after Commitment bullet; Structural primitives paragraph L42 extended with Holon irreducibility clause.
 - `docs/research/concepts-p2p-wiki.yaml`: v7 → v8; `joint-commitment` slug admitted with definition, aliases cross-referenced to `collective-agency`, source-anchors to capstone §7 L281 + ADR-0050; version-header comment extended with Phase 3b.5a admission rationale.
 - No ADR-0002 / ADR-0016 / ADR-0044 / ADR-0045 / ADR-0046 / ADR-0047 / ADR-0048 / ADR-0049 file modifications (all extended via prose cross-reference only; ADR-0001 unchanged).
 - No `git add -A`.

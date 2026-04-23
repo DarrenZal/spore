@@ -19,7 +19,7 @@ authorized-by: "spore-canon-adversarial-critique operator directive 2026-04-22"
 queue_reference: "adversarial-critique-2026-04-22 consolidated findings §CC-02 (ecology cycle universality — two-file canon overreach)"
 affects_canon:
   - docs/project-vision.md
-  - docs/foundations/constitutional-artifacts-and-graph-projections.md
+  - docs/foundations/governance-artifacts-and-graph-projections.md
 related_adrs:
   - spore:ADR-0009-coordination-grammar-refresh
   - spore:ADR-0013-intent-evidence-subtype-clarification
@@ -40,7 +40,7 @@ active (authored + activated 2026-04-22 under `canon-review-r2-universality-lang
 The adversarial canon critique (2026-04-22) surfaced a universality overreach in how the coordination ecology cycle — `Vision → Roadmap → Intent → Commitment → Evidence → Learning` — is canonised. The cycle is asserted to "operate at every scale" without conditioning to coordination phase, epistemic context, or scale-specific variation. Lens B (Rhetorical-Overreach & Specificity Auditor) flagged this as finding CC-02, a two-file claim appearing in:
 
 - `docs/project-vision.md:L76-L87` (section: "The Coordination Ecology")
-- `docs/foundations/constitutional-artifacts-and-graph-projections.md:L28-L40` (section: "The Coordination Ecology")
+- `docs/foundations/governance-artifacts-and-graph-projections.md:L28-L40` (section: "The Coordination Ecology")
 
 The supporting corpus confirms phase-dependence: `docs/research/canon-decisions/0009-coordination-grammar-refresh.md` (ADR-0009) explicitly discusses phase-dependent grammar engagement; `docs/research/canon-decisions/0013-intent-evidence-subtype-clarification.md` (ADR-0013) narrows intent and evidence into their broader umbrella forms without claiming the sequence is universally necessary; bridge notes on collective intelligence emphasise context-fit over universal architectures.
 
@@ -86,7 +86,7 @@ Rationale for `edit` disposition (per canon-review-protocol v3 §4 with adversar
 `docs/project-vision.md`:
 - L87: `The same ecology operates at every scale. A single person exercises agency through this cycle.` → conditioning paragraph acknowledging phase-dependence.
 
-`docs/foundations/constitutional-artifacts-and-graph-projections.md`:
+`docs/foundations/governance-artifacts-and-graph-projections.md`:
 - After L39 (end of six-element list): insert phase-conditioning paragraph matching project-vision.md's framing.
 
 Two-file coordinated edit; ~2-3 lines added per file. Zero primitive semantics changed, zero canon scope expansion.

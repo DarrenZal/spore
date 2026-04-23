@@ -55,7 +55,7 @@ An ordinary repo-local ADR is too low-level to decide this safely in one move. B
 
 - source:
   kind: source-doc
-  ref: /Users/darrenzal/projects/spore/docs/foundations/constitutional-artifacts-and-graph-projections.md:58-58
+  ref: /Users/darrenzal/projects/spore/docs/foundations/governance-artifacts-and-graph-projections.md:58-58
   publicly-verifiable: true
   excerpt: "`Epistemic graph` (called `knowledge graph` in the vision and public-facing docs)"
   contributes: Shows the foundation layer already treats the two names as one surface, with `epistemic graph` as the precision term.

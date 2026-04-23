@@ -73,7 +73,7 @@ Johar remainder (design contribution, design hypothesis, Johar-distinctive integ
 ### 2.4 Graph and Projection Artifacts
 
 **What is already observable:**
-- 8 graph projections formally defined in `constitutional-artifacts-and-graph-projections.md`
+- 8 graph projections formally defined in `governance-artifacts-and-graph-projections.md`
 - Spec-DAG operational in this repo (frontmatter dependency graph, validated)
 - Epistemic graph partially instantiated through koi-processor (entity resolution, claims, evidence linking)
 - Commitment graph design exists in the commitment-pooling pattern

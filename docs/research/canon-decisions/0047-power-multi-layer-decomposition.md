@@ -28,7 +28,7 @@ authorized-by: "canon-rebuild-phase-3b-3 operator directive 2026-04-22 (Option G
 queue_reference: "corpus-foundational-review-2026-04-21 capstone §3 Power/Authority verdict + capstone §8 Tier-1 priority #15 + Phase-3b deferral from ADR-0044 enumerated list (item: Power/Authority)"
 affects_canon:
   - docs/project-vision.md
-  - docs/foundations/constitutional-artifacts-and-graph-projections.md
+  - docs/foundations/governance-artifacts-and-graph-projections.md
   - docs/research/concepts-p2p-wiki.yaml
 related_adrs:
   - spore:ADR-0005-decentralization-myth-bundle
@@ -111,7 +111,7 @@ ADR-0005's administrator-capture declination names the failure mode at bundle-le
 
 **Synthesizing frame — "Power across primitives":**
 
-A dedicated paragraph in `project-vision.md` Core Thesis and parallel in `foundations/constitutional-artifacts-and-graph-projections.md` §Coordination Ecology names the three-layer structure explicitly, preventing the multi-layer decomposition from drifting to invisibilisation. The synthesizing frame makes clear that Power is not reducible to any single layer — enumerated-powers, asymmetric-vulnerability, and asymmetric-gatekeeping are distinct structural modes that canon expresses at distinct primitive surfaces. Power-capture (Federici/De Angelis/Caffentzis) is the compound-pattern where all three layers are captured simultaneously; ADR-0005's bundle-declination and ADR-0047's multi-layer primitives together let canon name both the critique-frame and its structural substrate.
+A dedicated paragraph in `project-vision.md` Core Thesis and parallel in `foundations/governance-artifacts-and-graph-projections.md` §Coordination Ecology names the three-layer structure explicitly, preventing the multi-layer decomposition from drifting to invisibilisation. The synthesizing frame makes clear that Power is not reducible to any single layer — enumerated-powers, asymmetric-vulnerability, and asymmetric-gatekeeping are distinct structural modes that canon expresses at distinct primitive surfaces. Power-capture (Federici/De Angelis/Caffentzis) is the compound-pattern where all three layers are captured simultaneously; ADR-0005's bundle-declination and ADR-0047's multi-layer primitives together let canon name both the critique-frame and its structural substrate.
 
 **Pluriversal held-tension (ADR-0001 held):**
 
@@ -123,7 +123,7 @@ Borrows' five-sources-of-law (sacred / natural / deliberative / customary / posi
 - 7-primitive roster preserved (ADR-0044). No new primitives.
 - Cross-cutting doctrine category remains at 3 members (reproductive-commoning, boundary-commoning, care-commoning). Power-commoning/authority-commoning NOT admitted — Option F category-fit rejected.
 - Three named variants admitted at primitive-asymmetry axis: `authority-over-rule-levels` (Field-rule-level power-axis), `asymmetric-commitment` (Commitment-party-asymmetry), `asymmetric-membrane` (Membrane-authorize-asymmetry).
-- Synthesizing frame "Power across primitives" added to Core Thesis (project-vision.md) and mirrored in constitutional-artifacts-and-graph-projections.md §Coordination Ecology.
+- Synthesizing frame "Power across primitives" added to Core Thesis (project-vision.md) and mirrored in governance-artifacts-and-graph-projections.md §Coordination Ecology.
 
 **Paraphrase-test verdict:** **partial-pass across all four modes.**
 
@@ -182,6 +182,6 @@ Without (1)-(4), three-layer decomposition would drift to invisibilisation — t
 - **New file**: `docs/research/canon-decisions/0047-power-multi-layer-decomposition.md` (this file).
 - **Canon edits** (applied in active-commit):
   - `docs/project-vision.md` Core Thesis: Field bullet extended with Layer-1 authority-over-rule-levels sentence; Membrane bullet extended with Layer-3 asymmetric-authorize sentence; Commitment bullet extended with Layer-2 asymmetric-binding sentence; "Power across primitives" synthesizing paragraph inserted after the coordination-verbs bullets; deferred-list entry (L46) updated to remove power/authority and reflect ADR-0047.
-  - `docs/foundations/constitutional-artifacts-and-graph-projections.md` §Coordination Ecology: "Power across primitives" parallel paragraph added after Field-rule-level-stratification paragraph.
+  - `docs/foundations/governance-artifacts-and-graph-projections.md` §Coordination Ecology: "Power across primitives" parallel paragraph added after Field-rule-level-stratification paragraph.
   - `docs/research/concepts-p2p-wiki.yaml`: version bump v4 → v5; three new slugs admitted — `authority-over-rule-levels`, `asymmetric-commitment`, `asymmetric-membrane`.
 - **Unchanged**: ADR-0005, ADR-0044, ADR-0045, ADR-0046, ADR-0001 files (all relationships narrated in ADR-0047 prose per operator directive).

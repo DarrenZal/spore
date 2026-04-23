@@ -6,7 +6,7 @@ research_subkind: canon_framing
 disposition: clarify existing terms
 depends_on: []
 relates_to:
-  - spore.constitutional-artifacts
+  - spore.governance-artifacts
   - spore.claims-evidence-attestation
   - ic.intelligence-primitives
   - pm.grammar

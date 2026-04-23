@@ -17,7 +17,7 @@ supported_by:
 authorized-by: "spore-canon-adversarial-critique operator directive 2026-04-22"
 queue_reference: "adversarial-critique-2026-04-22 consolidated findings §CC-07 (eight graph projections under-justified)"
 affects_canon:
-  - docs/foundations/constitutional-artifacts-and-graph-projections.md
+  - docs/foundations/governance-artifacts-and-graph-projections.md
 related_adrs: []
 concepts:
   - coordination-substrate
@@ -32,7 +32,7 @@ active (authored + activated 2026-04-22 under canon-review Round 4)
 
 ## Context
 
-The `Graph Projections` section of `docs/foundations/constitutional-artifacts-and-graph-projections.md` (L50-L62) presents eight projections as equivalent primitives under the single label "graph," without justification for their independence or structural distinction. Lens A (Primitive-Claims Auditor, S2, CC-07) flagged two related issues:
+The `Graph Projections` section of `docs/foundations/governance-artifacts-and-graph-projections.md` (L50-L62) presents eight projections as equivalent primitives under the single label "graph," without justification for their independence or structural distinction. Lens A (Primitive-Claims Auditor, S2, CC-07) flagged two related issues:
 
 1. **Graph-language elides structural variety**: the canon already distinguishes DAGs (holonic axis, acyclic — Roadmap DAG) from hypergraphs (network axis — Intent hypergraph) elsewhere, but here labels all eight under "graph" uniformly.
 2. **Projections 4-8 appear derivable from 1-3**: Commitment graph, Epistemic graph, Event graph, Routing graph, and Discourse graph can all be analysed as secondary views over Intent (what agents want), Commitment (what agents are bound to), and Evidence (what happened).
@@ -61,7 +61,7 @@ Rationale for `edit` disposition:
 
 ## Evidence
 
-- cluster_key: `docs/foundations/constitutional-artifacts-and-graph-projections.md:eight-projections-tiering`
+- cluster_key: `docs/foundations/governance-artifacts-and-graph-projections.md:eight-projections-tiering`
 - supports: 1 lens (Lens A primitive-claims)
 - opposes: 0
 - source: adversarial-critique consolidated findings, CC-07
@@ -71,4 +71,4 @@ Rationale for `edit` disposition:
 
 ## Diff summary
 
-`docs/foundations/constitutional-artifacts-and-graph-projections.md`: add a short tiering paragraph before or after the eight-item list establishing primary (1-3) vs secondary (4-8) projection tiers and softening the "closed set" framing. Approximately 2-3 lines added.
+`docs/foundations/governance-artifacts-and-graph-projections.md`: add a short tiering paragraph before or after the eight-item list establishing primary (1-3) vs secondary (4-8) projection tiers and softening the "closed set" framing. Approximately 2-3 lines added.

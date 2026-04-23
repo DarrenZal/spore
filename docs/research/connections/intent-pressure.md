@@ -4,7 +4,7 @@ doc_kind: connection
 status: active
 depends_on:
   - spore.intent-publication
-  - spore.constitutional-artifacts
+  - spore.governance-artifacts
 primary_for:
   - intent-pressure
 relates_to:

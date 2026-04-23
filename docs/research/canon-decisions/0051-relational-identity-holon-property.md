@@ -39,7 +39,7 @@ authorized-by: "canon-rebuild-phase-3b-5 operator directive 2026-04-22 (Option A
 queue_reference: "canon-rebuild Phase 3b.5 (Identity) — closes capstone §3 Identity row + capstone §7 identity-as-relational frozen-vocab candidate; decision-brief 2026-04-22; final Tier-2 item from capstone §3 addressed"
 affects_canon:
   - docs/project-vision.md
-  - docs/foundations/constitutional-artifacts-and-graph-projections.md
+  - docs/foundations/governance-artifacts-and-graph-projections.md
   - docs/research/concepts-p2p-wiki.yaml
 related_adrs:
   - spore:ADR-0001-pluriversal-incommensurability
@@ -124,7 +124,7 @@ ADR-0051 does NOT author an integrated four-bucket `§Identity-taxonomy`. The th
 
 Canon-body edits:
 1. **`docs/project-vision.md`** — Holon primitive bullet (§Structural primitives) is extended with a relational-identity property paragraph, immediately following the existing irreducibility clause (ADR-0050) since the two statements structurally compose (ADR-0050 establishes the whole-emergent-layer; ADR-0051 names the property at that layer). The extension articulates the 5-tradition load-bearing basis (VSM S5-closure / Care constitutive-relations / Pluriversal kinship-constitution / Autopoiesis structural-coupling / Commons Nested-I) and maps paraphrase-test residue (Pluriversal kinship-identity) to ADR-0001 held-tension cluster.
-2. **`docs/foundations/constitutional-artifacts-and-graph-projections.md`** — The parallel "Structural primitives host the verbs" paragraph is updated to match project-vision.md: relational-identity added as Holon property alongside the irreducibility clause.
+2. **`docs/foundations/governance-artifacts-and-graph-projections.md`** — The parallel "Structural primitives host the verbs" paragraph is updated to match project-vision.md: relational-identity added as Holon property alongside the irreducibility clause.
 3. **`docs/project-vision.md` L62** (deferred-candidates line): Identity closure is moved from "decision-space shaped" (3b.5a signposting) to "closed by ADR-0051."
 4. **`docs/research/concepts-p2p-wiki.yaml`** — Version bump v8→v9 admitting `relational-identity` as primary slug with alias `identity-as-relational`. Both slugs are admitted to frozen-vocab; bridge-note authors may reference either.
 
@@ -198,7 +198,7 @@ Phase 3b.5 is the final Tier-2 item from capstone §3. After ADR-0051 lands, cap
 Files modified:
 
 1. **`docs/project-vision.md`** — Holon primitive bullet (line 28) extended with relational-identity property paragraph following the ADR-0050 irreducibility clause. Deferred-candidates line (line 62) updated: "Identity closed by ADR-0051." Count bump: 9 primitives unchanged (relational-identity is property-of-primitive, not primitive).
-2. **`docs/foundations/constitutional-artifacts-and-graph-projections.md`** — "Structural primitives host the verbs" paragraph updated to match project-vision.md Holon bullet.
+2. **`docs/foundations/governance-artifacts-and-graph-projections.md`** — "Structural primitives host the verbs" paragraph updated to match project-vision.md Holon bullet.
 3. **`docs/research/concepts-p2p-wiki.yaml`** — Version bumped v8→v9. New slug `relational-identity` admitted with alias `identity-as-relational`; canonical_label "Relational Identity"; one-line definition per §Decision.
 
 Files created:

@@ -16,7 +16,7 @@ r_claim_statement: |
 supported_by:
   - docs/foundations/relational-agency-and-holons.md
   - docs/foundations/lexicon/field.md
-  - docs/foundations/constitutional-artifacts-and-graph-projections.md
+  - docs/foundations/governance-artifacts-and-graph-projections.md
   - docs/research/corpus-review/research-capstone.md:185-185
   - docs/research/corpus-review/research-capstone-review.md:165-165
 authorized-by: ""
@@ -24,7 +24,7 @@ queue_reference: "Phase 7 round-field-holon-clarification (F-023)"
 affects_canon:
   - docs/foundations/relational-agency-and-holons.md
   - docs/foundations/lexicon/field.md
-  - docs/foundations/constitutional-artifacts-and-graph-projections.md
+  - docs/foundations/governance-artifacts-and-graph-projections.md
 related_adrs:
   - spore:ADR-0008-collective-agency-at-field
 concepts:
@@ -44,7 +44,7 @@ F-023 is the corpus review's only S1 finding. The ambiguity is not local wording
 
 Phase 7.9 carries a hard escalation rule: if source review shows that one primitive should dissolve into the other, the round must stop and re-triage to foundational-reframing rather than resolve the issue through a canon-review-v2 ADR.
 
-The round evidence does not support dissolution. ADR-0008 already makes `field` load-bearing as the collective-agency substrate, while `relational-agency-and-holons.md` and `constitutional-artifacts-and-graph-projections.md` still rely on `holon` to name bounded recursive agency. The capstone's phrase "a holon at scale N is a field at scale N+1" is therefore treated as a scale-relation pressure that Spore must clarify, not as proof that one primitive should be deleted.
+The round evidence does not support dissolution. ADR-0008 already makes `field` load-bearing as the collective-agency substrate, while `relational-agency-and-holons.md` and `governance-artifacts-and-graph-projections.md` still rely on `holon` to name bounded recursive agency. The capstone's phrase "a holon at scale N is a field at scale N+1" is therefore treated as a scale-relation pressure that Spore must clarify, not as proof that one primitive should be deleted.
 
 ## Decision
 
@@ -58,7 +58,7 @@ Edit three foundation surfaces to carry that distinction consistently:
 
 - `docs/foundations/relational-agency-and-holons.md`
 - `docs/foundations/lexicon/field.md`
-- `docs/foundations/constitutional-artifacts-and-graph-projections.md`
+- `docs/foundations/governance-artifacts-and-graph-projections.md`
 
 No primitive is dissolved. No frozen-vocabulary change is introduced. No foundational-reframing escalation is triggered.
 
@@ -87,7 +87,7 @@ The clean repair is therefore to name both the distinction and the bridge:
 
 - F-023 evidence gate: pass
   - `docs/foundations/relational-agency-and-holons.md` defines the holon as a whole and a part with its own integrity
-  - `docs/foundations/constitutional-artifacts-and-graph-projections.md` uses holonic recursion to explain zoom-invariant governance structure
+  - `docs/foundations/governance-artifacts-and-graph-projections.md` uses holonic recursion to explain zoom-invariant governance structure
   - `docs/foundations/lexicon/field.md` defines field as the distributed relational medium of coordination
   - `docs/research/corpus-review/research-capstone.md:185-185` states the scale-relation pressure directly
   - `docs/research/corpus-review/research-capstone-review.md:165-165` confirms the problem statement is real and useful
@@ -101,4 +101,4 @@ The clean repair is therefore to name both the distinction and the bridge:
 
 - `docs/foundations/relational-agency-and-holons.md`: adds a direct holon-vs-field clarification paragraph
 - `docs/foundations/lexicon/field.md`: adds the reciprocal cross-reference and states the scale relation as non-identity
-- `docs/foundations/constitutional-artifacts-and-graph-projections.md`: aligns zoom-invariance language with the clarified distinction
+- `docs/foundations/governance-artifacts-and-graph-projections.md`: aligns zoom-invariance language with the clarified distinction

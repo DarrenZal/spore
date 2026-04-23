@@ -4,7 +4,7 @@ doc_kind: research
 status: draft
 depends_on:
   - spore.project-vision
-  - spore.constitutional-artifacts
+  - spore.governance-artifacts
   - spore.term.intent-pressure
 relates_to:
   - spore.term.field

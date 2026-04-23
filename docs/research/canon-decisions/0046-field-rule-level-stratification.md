@@ -24,7 +24,7 @@ authorized-by: "canon-rebuild-phase-3b-2 operator directive 2026-04-22 (Option B
 queue_reference: "corpus-foundational-review-2026-04-21 capstone §3 Norms verdict + capstone §8 Tier-1 priority #4 + Phase-3b deferral from ADR-0044 enumerated list (item: Norms/Protocols)"
 affects_canon:
   - docs/project-vision.md
-  - docs/foundations/constitutional-artifacts-and-graph-projections.md
+  - docs/foundations/governance-artifacts-and-graph-projections.md
   - docs/research/concepts-p2p-wiki.yaml
 related_adrs:
   - spore:ADR-0025-primitive-roster-boundary-cleanup
@@ -99,9 +99,9 @@ Edit `docs/project-vision.md` L27 Field bullet. Current text ends at *"See `docs
 
 (c) Named rule-in-use / rule-in-form distinction and its ADR-0041 coherence. Rules-in-use are the working rules participants would reference when explaining their actions; rules-in-form are formal written rules. Compliance is assessed against rules-in-use; formal rules that are not working rules have no causal standing. This mirrors ADR-0041's text-authoritative-with-graph-as-derived-projection commitment at the rule layer: working practice is canonical, formal text projects that practice, and the two are kept coherent by active regeneration-and-reconciliation discipline.
 
-### §2 constitutional-artifacts-and-graph-projections.md parallel-section extension
+### §2 governance-artifacts-and-graph-projections.md parallel-section extension
 
-Edit `docs/foundations/constitutional-artifacts-and-graph-projections.md` §"The Coordination Ecology" (line 40) extend the "Structural primitives host the verbs" paragraph. After the existing sentence about field/holon/membrane being distinct primitives (ADR-0016), add a paragraph naming Field's internal stratification (3-level stack + 7-rule-type taxonomy axes + rule-in-use vs rule-in-form) consistent with the project-vision Field bullet. The parallel-section edit preserves internal-coherence discipline (ADR-0044 precedent: Core Thesis and parallel section must describe primitives consistently).
+Edit `docs/foundations/governance-artifacts-and-graph-projections.md` §"The Coordination Ecology" (line 40) extend the "Structural primitives host the verbs" paragraph. After the existing sentence about field/holon/membrane being distinct primitives (ADR-0016), add a paragraph naming Field's internal stratification (3-level stack + 7-rule-type taxonomy axes + rule-in-use vs rule-in-form) consistent with the project-vision Field bullet. The parallel-section edit preserves internal-coherence discipline (ADR-0044 precedent: Core Thesis and parallel section must describe primitives consistently).
 
 ### §3 concepts-p2p-wiki.yaml v4 — 4 new slugs
 
@@ -147,7 +147,7 @@ This is not a modification of ADR-0041's scope; it is a recognition that the sam
 
 ### ADR-0044 relationship: preserves 7-primitive roster; extends Field primitive definition
 
-ADR-0044 (`spore:ADR-0044-core-thesis-primitive-roster-alignment`) established the 7-primitive roster (Field, Holon, Membrane structural; Intent, Commitment, Evidence, Signal coordination-verbs). ADR-0046 **preserves** that roster unchanged — no new primitive, no renamed primitive, no demoted primitive. Field's *definition* is extended with Ostromian rule-level stratification, but Field's *status* as one of three structural primitives is unchanged. The parallel ADR-0044 made at `docs/foundations/constitutional-artifacts-and-graph-projections.md` §"The Coordination Ecology" is extended in the same direction (§2 above).
+ADR-0044 (`spore:ADR-0044-core-thesis-primitive-roster-alignment`) established the 7-primitive roster (Field, Holon, Membrane structural; Intent, Commitment, Evidence, Signal coordination-verbs). ADR-0046 **preserves** that roster unchanged — no new primitive, no renamed primitive, no demoted primitive. Field's *definition* is extended with Ostromian rule-level stratification, but Field's *status* as one of three structural primitives is unchanged. The parallel ADR-0044 made at `docs/foundations/governance-artifacts-and-graph-projections.md` §"The Coordination Ecology" is extended in the same direction (§2 above).
 
 ### ADR-0045 relationship: preserved; doctrine-category unchanged
 
@@ -245,7 +245,7 @@ If future review surfaces persistent mis-reads (e.g., readers treating the 7-rul
 
 **Canon-body edits**:
 - `docs/project-vision.md` — Field bullet at L27 extended with Ostrom 3-level stack + 7-rule-type taxonomy reference + rule-in-use vs rule-in-form distinction + ADR-0041 coherence anchor.
-- `docs/foundations/constitutional-artifacts-and-graph-projections.md` — §"The Coordination Ecology" paragraph about structural primitives extended with parallel Field-stratification description.
+- `docs/foundations/governance-artifacts-and-graph-projections.md` — §"The Coordination Ecology" paragraph about structural primitives extended with parallel Field-stratification description.
 
 **Frozen-vocab edit**:
 - `docs/research/concepts-p2p-wiki.yaml` — v3 → v4; 4 new slugs added (`operational-rule`, `collective-choice-rule`, `constitutional-rule`, `rule-in-use`). Ostrom 7-rule-type names remain prose-only at canon-body layer (operator-deferred slugification decision).
