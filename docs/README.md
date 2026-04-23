@@ -64,7 +64,6 @@ The rules Agent Commons uses for its own documentation and project governance:
 Canonical definitions for terms that lack their own primary pattern or foundation doc:
 
 - [field.md](./foundations/lexicon/field.md) — the distributed relational medium within which shared fields, learning fields, and relational fields appear as different projections
-- [intent-pressure.md](./foundations/lexicon/intent-pressure.md) — the structural force between normative and epistemic frontiers
 - [linguistic-closure.md](./foundations/lexicon/linguistic-closure.md) — the structural condition in which categories terminate inquiry before truth evaluation; named failure mode the grammar's structural mechanisms resist
 - [stigmergy.md](./foundations/lexicon/stigmergy.md) — indirect coordination through environmental modification; named mode of signal+event+intent primitives
 

@@ -169,7 +169,7 @@ The holonic axis organizes containment, authority, and nested integrity. The net
 - **Protocols** shape connection (how intents travel across membranes, how commitments settle, how events propagate)
 - **Patterns** mediate between them (recurring forms that let connection happen without collapse of containment)
 
-Containment without overlap is dead — legible on paper, lifeless in use. Overlap without containment is noise. The system must oscillate between stabilizing, opening, routing, testing, and revising. This is metabolic. Spore helps agents and communities reveal and support living overlap between systems, projects, and scales.
+Containment without overlap is dead — legible on paper, lifeless in use. Overlap without containment is noise. The system must oscillate between stabilizing, opening, routing, testing, and revising. Spore helps agents and communities reveal and support living overlap between systems, projects, and scales.
 
 ## Relational Topology
 

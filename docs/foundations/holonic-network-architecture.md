@@ -70,7 +70,7 @@ The grammar already practices this. "Authorized boundary crossing" specifies wha
 
 Clear operational rules are required at every interface. Rules can be graduated, conditional, and context-sensitive — but they must be specified, enforceable, and known. Ambiguous interfaces are a governance failure mode, not a design feature. Mediation is not vagueness; it is precise specification of regulatory function.
 
-## Fractal Scale Levels
+## Scale Levels
 
 The dual-axis structure applies at each scale; its specific instantiations differ by scale (not a strict recursion, but a recurring architectural motif with scale-appropriate forms):
 

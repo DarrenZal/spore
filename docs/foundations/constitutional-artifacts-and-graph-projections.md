@@ -100,15 +100,11 @@ The projections divide into two tiers: **primary projections** (1-3 below: Const
 7. **Routing/flow graph** — how resources, obligations, and information circulate through pools and networks. Where abundance meets need. Where capacity flows.
 8. **Discourse graph** — questions, proposals, arguments, objections, decisions. The self-reflective layer: how the coordination ecology reasons about and governs its own evolution. Without it, revision is ad-hoc.
 
-## Node as Graph (Zoom Invariance)
+## Holon and Field at Adjacent Scales
 
 A node is often a coherent interface over an internal graph. From outside, a team is a point — one participant in a network. From inside, it is a graph of roles, commitments, intents, and evidence.
 
-When you zoom into a node, you find the same artifact ecology: visions, intents, commitments, evidence. This self-similarity is why federation works across scales — the internal structure is compatible with the external protocol because they are the same structure at different scales.
-
-This is the deep implication of the holon concept: a holon is both a whole (with its own internal graph) and a part (presenting a coherent interface to its containing graph). The coordination patterns apply recursively: a person's workflow, a team's governance, an organization's roadmap, and a federation's constitutional commitments all share the same structural logic.
-
-That zoom invariance does not make `holon` and `field` synonymous. The node is holonic when what matters is bounded recursive agency: a whole that is also a part. The graph-like coordination surface inside or around that node is field-like when what matters is distributed relational medium: the substrate through which intents, commitments, evidence, and learning circulate. At the next scale up, the coordination surface produced by lower-scale holons may appear as a field for higher-scale holons. That is the scale relation between the primitives, not a reason to collapse them.
+That scale relation does not make `holon` and `field` synonymous. The node is holonic when what matters is bounded recursive agency: a whole that is also a part. The graph-like coordination surface inside or around that node is field-like when what matters is distributed relational medium: the substrate through which intents, commitments, evidence, and learning circulate. At the next scale up, the coordination surface produced by lower-scale holons may appear as a field for higher-scale holons. That is the scale relation between the primitives, not a reason to collapse them.
 
 ## Grounding Through Sensors
 

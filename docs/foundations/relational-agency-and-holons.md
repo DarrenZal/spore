@@ -39,7 +39,7 @@ Agency in Agent Commons is relational — not the capacity to stand apart, but t
 - an agent can participate in other agents while remaining partially sovereign
 - a collective can interface outwardly as one node while remaining internally plural
 
-This is why the system must support fractal scales. The same structural questions recur at every level:
+The system must operate across multiple scales of agency. Related structural questions arise at each:
 
 - what is the boundary of this agent?
 - what does it know locally?
@@ -92,6 +92,6 @@ A holon that participates in only one containing whole is a tree node. A holon t
 
 ## Agentic Capacity
 
-Johar's framing of agentic capacity — sensing, fielded intelligence, resource access, decoherence from legacy structures, de-territorialization — helps clarify what the coordination ecology is *for*. The ecology is the metabolic cycle through which collective agency develops: visions orient sensing, roadmaps structure fielded intelligence, intents signal resource needs, commitments bind capacity, evidence grounds action, and learning enables decoherence from assumptions that no longer hold. This is not a strict one-to-one mapping but an interpretive frame that illuminates why the ecology takes the shape it does.
+Johar's framing of agentic capacity — sensing, fielded intelligence, resource access, decoherence from legacy structures, de-territorialization — helps clarify what the coordination ecology is *for*. The ecology is the coordination cycle through which collective agency develops: visions orient sensing, roadmaps structure fielded intelligence, intents signal resource needs, commitments bind capacity, evidence grounds action, and learning enables decoherence from assumptions that no longer hold. This is not a strict one-to-one mapping but an interpretive frame that illuminates why the ecology takes the shape it does.
 
 Johar's essay on linguistic closure ([bridge note](../../research/connections/johar-word-not-thing.md)) adds a complementary challenge: in multi-agent coordination ecologies, human and machine agents may contribute *different kinds of knowing*. Machines extend the symbolic layer — graph composition, routing, lifecycle management. Humans anchor the system in what exceeds representation — embodied perception, relational awareness, situational sensitivity. The membrane model accommodates this without abandoning agent-type agnosticism: what crosses the membrane is the coordination-legible surface; what stays sovereign inside the holon includes non-symbolic knowing that the grammar need not — and cannot — capture. This is an unresolved tension worth tracking: the grammar treats all agents as structurally equivalent, but the quality of their contributions may differ in ways that matter for system design.

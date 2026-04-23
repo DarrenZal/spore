@@ -1,6 +1,6 @@
 ---
 doc_id: spore.term.intent-pressure
-doc_kind: foundation
+doc_kind: connection
 status: active
 depends_on:
   - spore.intent-publication
