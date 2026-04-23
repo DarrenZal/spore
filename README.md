@@ -6,13 +6,13 @@
 
 An infrastructure for collective agency — a common grammar for plural, sovereign coordination across scales and scopes.
 
-The project develops **Agent Commons**: a pattern language, protocol family, and governance-memory layer for coordination and coherence without surrendering sovereignty. Here "agent" means any entity with enough coherence to perceive, decide, and act — a person, an AI, a team, an organization, a federation, a mixed human-AI collective.
+The project develops **Agent Commons**: a pattern language, protocol family, and governance-memory pattern for coordination and coherence without surrendering sovereignty. Here "agent" means any entity with enough coherence to perceive, decide, and act — a person, an AI, a team, an organization, a federation, a mixed human-AI collective.
 
 **Spore** is the project. **Agent Commons** is the protocol family it publishes.
 
 Why "Spore"? A spore is portable, generative, and context-sensitive: it moves through larger living networks, lands in a place, and unfolds locally. Spore follows the same logic — a shared coordination grammar that can land across projects, grow in different forms, and remain interoperable without requiring centralization.
 
-At a high level, Spore thinks in **fields**, **networks**, **membranes**, and **gardens**. The field is the wider relational medium of coordination and learning; networks describe its topology; membranes govern boundary crossings; gardens are cultivated regions within that field where knowledge is actively tended.
+At a high level, Spore's grammar has two kinds of primitives. **Structural primitives** (fields, holons, membranes) describe the substrate of coordination — the shape of the coordination space. **Coordination verbs** (intents, commitments, joint-commitments, evidence, signals, reproduction) describe the operations through which agents coordinate across that substrate. A field is the shared coordination space between holons; a holon is a part-whole recursive unit (a person, a team, a federation are holons at their respective scales); a membrane is the semi-permeable interface between a holon and its field, or between holons. Gardens are cultivated regions within a field where knowledge is actively tended.
 
 ## The Problem
 
@@ -20,15 +20,16 @@ As the number of agents, scales, and overlapping memberships grows, coherence de
 
 ## The Coordination Ecology
 
-Coordination is an ecology of ongoing, overlapping activities:
+Coordination happens through six verbs operating across the structural primitives:
 
-- **Vision** orients — direction, values, constraints
-- **Intents** signal — offers, needs, conditions, where plurality enters
-- **Commitments** bind — accepted, scope-bound, governed
-- **Evidence** grounds — observations, attestations, fulfillment
-- **Learning** revises — updating roadmaps, refining patterns, adapting vision
+- **Intents** signal — offers, needs, conditions, declared stances; where plurality enters the grammar
+- **Commitments** bind — accepted, scope-bound, governed individual-scale bindings
+- **Joint-commitments** bind jointly — irreducibly-joint bindings between parties that cannot be analyzed as sums of personal commitments (federation protocol-adoption is the paradigm case)
+- **Evidence** grounds — attested records of execution, observation, fulfillment
+- **Signals** transmit — live coordination state, stigmergic traces, algedonic alerts
+- **Reproduction** sustains — the coordination labor that keeps the loop running across episodes, actor turnover, and generational succession
 
-These activities feed each other in every direction. Learning revises visions. Evidence generates new intents. Commitments reveal visions that weren't visible before. Not all intents become commitments — the space between intention and binding is where plurality lives. The same ecology operates at every scale: a single person exercises agency through this cycle; coordination enters when multiple agents' ecologies overlap and need to interoperate.
+These verbs form a loop: intents become commitments, commitments produce evidence, evidence feeds the next round of intents. Signals run alongside as live transmission; reproduction sustains the loop across episodes. Not all intents become commitments — the space between intention and binding is where plurality lives. Visions, roadmaps, policies, and role definitions are artifact-types that some contexts author to organize commitments over longer time-horizons; they are not primitives in the grammar.
 
 ## What Holds It Together
 
@@ -36,7 +37,7 @@ These activities feed each other in every direction. Learning revises visions. E
 
 **Containment and overlap** — the holonic axis organizes nested integrity; the network axis organizes cross-cutting participation and lateral reach. The result is a semilattice, not a tree. Living systems cannot be captured by a single clean hierarchy, and neither can the coordination structures that serve them.
 
-**Self-similarity** — the same artifact ecology recurs at every scale, from personal workflow to planetary federation. Every constitutional artifact exists as text (for humans) and graph projection (for machines), so the grammar remains legible at both speeds. These projections are locally queryable representations that can be selectively federated, rather than one continuously live global graph.
+**Dual representation** — every constitutional artifact exists as text (for humans) and graph projection (for machines), so the grammar remains legible at both speeds. Graph projections are locally queryable representations that can be selectively federated, rather than one continuously live global graph.
 
 The full argument lives in [project-vision.md](docs/project-vision.md).
 
