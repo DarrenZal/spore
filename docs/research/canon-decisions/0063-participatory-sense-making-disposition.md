@@ -1,9 +1,10 @@
 ---
 doc_id: spore.canon-decision.participatory-sense-making-disposition
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0063"
 opened-on: 2026-04-23
+closed-on: 2026-04-23
 decision: scope-condition
 r_claim_statement: |
   ADR-0053 (glossary-refinements-bundled, Phase 3b.7) §3 Signal refinement acknowledged the enactive-cognition standing objection (Maturana/Varela/Thompson/Di Paolo) in canon-body prose and named participatory-sense-making (De Jaegher & Di Paolo 2007) as a deeper Side-B answer held-open per capstone §8 Tier-3 item 16. ADR-0053 §R-Sig-1 (line 147) explicitly parked the concept as canonically-acknowledged residue: *"Single-tradition support (Autopoiesis/4E) currently insufficient for primitive admission per ADR-0048 parsimony-as-earning-test discipline. Held-open per capstone §8 item 16."* ADR-0063 is the dedicated earning-test evaluation that R-Sig-1 deferred.
@@ -65,7 +66,7 @@ concepts:
 
 ## Status
 
-draft (2026-04-23; Option (i) adopt-with-scope-conditioning + sub-option i.1 prose-only per operator Step-2 decision-gate)
+active (2026-04-23; Option (i) adopt-with-scope-conditioning + sub-option i.1 prose-only per operator Step-2 decision-gate)
 
 ## Context
 
