@@ -1,7 +1,7 @@
 ---
 doc_id: spore.canon-decision.reciprocity-trust-glossary-with-framing
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0052"
 opened-on: 2026-04-22
 closed-on: 2026-04-22
@@ -66,7 +66,7 @@ concepts:
 
 ## Status
 
-draft (authored 2026-04-22 under `canon-rebuild-phase-3b-6` decision-gated plan; Option C — both-as-glossary + shared framing-note with residue-flagging per operator selection post decision-brief)
+active (authored + activated 2026-04-22 under `canon-rebuild-phase-3b-6` decision-gated plan; Option C — both-as-glossary + shared framing-note with residue-flagging per operator selection post decision-brief)
 
 ## Context
 

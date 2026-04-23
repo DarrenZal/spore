@@ -1,5 +1,5 @@
 # status: frozen
-# version: v9
+# version: v10
 # frozen_at: 2026-04-22
 # owner: Darren Zal
 # purpose: Canonical concept vocabulary governing ADR `concepts:` references, shared framing notes, and bridge-note R-claim `concept:` values across Spore / Intelligence Commons / Poietic Match.
@@ -80,6 +80,27 @@
 # identity flagged "irreducible" and operates compatibly under both canon-posture
 # (property) and held-tension (ADR-0001) frames per ADR-0050 dual-operability pattern.
 # Extension operator-authorized under canon-rebuild-phase-3b-5.
+# v10 (2026-04-22): adds 2 derived glossary slugs (reciprocity with aliases reciprocity-
+# pair + paired-commitment; trust with aliases derived-trust + trust-as-willingness) for
+# ADR-0052 reciprocity-trust-glossary-with-framing (Phase 3b.6 Option C — bundled
+# disposition for capstone §3 Tier-3 derived-level pair). Both capstone verdicts single-
+# limb: Reciprocity "admit as derived (paired commitments); flag residues" (line 106);
+# Trust "admit as derived with glossary entry flagging residue" (line 57). Both terms
+# admitted at glossary-layer only — NOT primitive, NOT doctrine, NOT mode, NOT property.
+# Canon object-class inventory unchanged at 4 categories. Four residues canonically-
+# acknowledged in ADR-0052 §Consequences + shared framing-note docs/research/connections/
+# canon-framing-derived-terms-reciprocity-trust.md: R-Rec-1 Pluriversal ritual-with-non-
+# human-kin (ayni/kintu; intersects ADR-0001 held-tension + ADR-0045 care-to-more-than-
+# human); R-Rec-2 Noddings/Kittay non-contractual mutuality (intersects ADR-0045 care-
+# commoning + ADR-0047 Layer 2 asymmetric-commitment); R-Tr-1 Luhmann choice-under-
+# irreducible-uncertainty (stands alone; no canon machinery captures); R-Tr-2 Baier
+# asymmetric-vulnerability (intersects ADR-0045 + ADR-0047 Layer 2 + ADR-0051 relational-
+# identity second-order). Post-3b.1-5a three-mode reciprocity composition (symmetric-
+# dyadic / asymmetric-commitment-pair / joint-commitment-at-both-ends) articulated in
+# framing-note; asymmetric-reciprocity NOT admitted as distinct named subtype (operator
+# Option C default — avoids scope-bleed into 3b.7 Commitment-three-senses territory).
+# Zero project-vision.md or foundations-doc changes; Phase 3b.7 workspace preserved.
+# Extension operator-authorized under canon-rebuild-phase-3b-6.
 
 concepts:
   - slug: governance-memory
@@ -406,4 +427,16 @@ concepts:
     canonical_label: Substitution Trap
     aliases: [allocational-substitution-trap, assignment-comprehension-gap]
     one_line_definition: Johar's named failure mode (*Power Cannot Be Allocated*, 2026) — "One can assign authority without generating comprehension. One can define responsibility without producing commitment." Allocational moves that substitute for rather than support expressive/constructed capacity reproduce the decentralization-theater failure-shape at a different scale. Canon-legible complement to ADR-0005's decentralization-myth-bundle critique-frame; named explicitly in ADR-0048.
+    primary_project: spore
+
+  - slug: reciprocity
+    canonical_label: Reciprocity
+    aliases: [reciprocity-pair, paired-commitment]
+    one_line_definition: Derived glossary term for paired-commitments-with-linked-evidence structure admitted under ADR-0052 (capstone §3 line 106 verdict "admit as derived (paired commitments); flag residues"). Post-3b.1-5a composition is three-mode: symmetric-dyadic (REA/ValueFlows duality; Axelrod Tit-for-Tat), asymmetric-commitment-pair (ADR-0047 Layer 2; Kittay/Folbre/Baier caregiver→cared-for), or joint-commitment-at-both-ends (ADR-0050; federation-protocol-version-adoption). NOT a primitive, doctrine, mode, or property. Residues flagged: Pluriversal ritual-with-non-human-kin (ayni/kintu; R-Rec-1) partially captured via ADR-0001 held-tension + ADR-0045 extension; Noddings/Kittay non-contractual mutuality (R-Rec-2) partially captured via ADR-0045 care-commoning + ADR-0047 Layer 2. See docs/research/connections/canon-framing-derived-terms-reciprocity-trust.md for routing discipline and residue-articulation detail.
+    primary_project: spore
+
+  - slug: trust
+    canonical_label: Trust
+    aliases: [derived-trust, trust-as-willingness]
+    one_line_definition: Derived glossary term for commitment-willingness-given-accumulated-evidence-and-signals structure admitted under ADR-0052 (capstone §3 line 57 verdict "admit as derived with glossary entry flagging residue"). Captures rational-expectation (Hardin), engineering-displacement (Distributed Systems "trustlessness" as explicit denial), Apache earned-authority, and Commons Governance Ostrom 1998 behavioral triad. NOT a primitive, doctrine, mode, or property — capstone-flagged that "engineering traditions route around trust; elevating would force an unresolved agent-vs-field choice." Second-order dependency on ADR-0051 relational-identity for trust-of-whom (trust of a relationally-constituted Holon). Residues flagged: Luhmann choice-under-irreducible-uncertainty (R-Tr-1) — stands alone, no canon machinery captures; Baier asymmetric-vulnerability (R-Tr-2) partially captured via ADR-0045 care-commoning + ADR-0047 Layer 2 asymmetric-commitment. See docs/research/connections/canon-framing-derived-terms-reciprocity-trust.md.
     primary_project: spore
