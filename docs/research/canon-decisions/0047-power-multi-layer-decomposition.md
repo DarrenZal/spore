@@ -1,7 +1,7 @@
 ---
 doc_id: spore.canon-decision.power-multi-layer-decomposition
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0047"
 opened-on: 2026-04-22
 closed-on: 2026-04-22
@@ -51,7 +51,7 @@ concepts:
 
 ## Status
 
-draft (authored 2026-04-22 under `canon-rebuild-phase-3b-3-power-authority-disposition` plan, Option G.full)
+active (authored + activated 2026-04-22 under `canon-rebuild-phase-3b-3-power-authority-disposition` plan, Option G.full)
 
 ## Context
 

@@ -1,5 +1,5 @@
 # status: frozen
-# version: v4
+# version: v5
 # frozen_at: 2026-04-22
 # owner: Darren Zal
 # purpose: Canonical concept vocabulary governing ADR `concepts:` references, shared framing notes, and bridge-note R-claim `concept:` values across Spore / Intelligence Commons / Poietic Match.
@@ -296,4 +296,22 @@ concepts:
     canonical_label: Rule-in-Use
     aliases: [working-rule, observed-rule]
     one_line_definition: The rules participants would reference if asked to explain and justify their actions (McGinnis 2011 calls this "the pivotal methodological commitment of the Bloomington School"); distinct from rule-in-form (formal written rules). Compliance is assessed against rules-in-use; formal rules that are not working rules have no causal standing. Extends ADR-0041's text-authoritative-with-graph-as-derived-projection discipline to the rule layer. Per ADR-0046.
+    primary_project: spore
+
+  - slug: authority-over-rule-levels
+    canonical_label: Authority Over Rule-Levels
+    aliases: [rule-setting-authority, enumerated-power-at-level]
+    one_line_definition: Power axis on Field's 3-level rule-stratification — the capacity to set, amend, and enforce rules at operational / collective-choice / constitutional levels, distributed across participants, roles, and positions. Realizes enumerated-powers-by-role (Debian §4/§5/§6; PEP 13) and polycentric-governance (V. Ostrom 1972; Aligica-Tarko 2012) at primitive-asymmetry level. Layer 1 of ADR-0047's three-layer Power decomposition; built atop ADR-0046.
+    primary_project: spore
+
+  - slug: asymmetric-commitment
+    canonical_label: Asymmetric Commitment
+    aliases: [disproportionate-binding, asymmetric-binding, power-asymmetric-commitment]
+    one_line_definition: Named variant of Commitment in which one party binds disproportionately to another (caregiver→dependent, employer→employee, state→subject, ruler→ruled, ancestor→descendant in Pluriversal sacred-commitment framings). Captures the asymmetric-vulnerability pattern named by Baier 1986, Folbre, Kittay, and Tronto that symmetric-commitment primitive framings structurally miss. Layer 2 of ADR-0047's three-layer Power decomposition; structurally distinct from Care-commoning doctrine-lens (ADR-0045) — lens operates over this machinery, but machinery is broader than care-relations.
+    primary_project: spore
+
+  - slug: asymmetric-membrane
+    canonical_label: Asymmetric Membrane
+    aliases: [asymmetric-authorization, gatekeeping-asymmetry, authorize-asymmetry]
+    one_line_definition: Named variant of Membrane in which authorize-capacity is distributed asymmetrically — some parties can admit/exclude/gate others while the reverse does not hold. Maps to platform-gatekeeping, immigration-style boundary authority, the gatekeeper-role-accrual failure mode (ADR-0005 power-capture mechanism 3), and Pluriversal ritual/elder-consensus authorization. Layer 3 of ADR-0047's three-layer Power decomposition.
     primary_project: spore
