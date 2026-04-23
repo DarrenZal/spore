@@ -1,5 +1,5 @@
 # status: frozen
-# version: v10
+# version: v11
 # frozen_at: 2026-04-22
 # owner: Darren Zal
 # purpose: Canonical concept vocabulary governing ADR `concepts:` references, shared framing notes, and bridge-note R-claim `concept:` values across Spore / Intelligence Commons / Poietic Match.
@@ -101,6 +101,31 @@
 # Option C default — avoids scope-bleed into 3b.7 Commitment-three-senses territory).
 # Zero project-vision.md or foundations-doc changes; Phase 3b.7 workspace preserved.
 # Extension operator-authorized under canon-rebuild-phase-3b-6.
+# v11 (2026-04-22): adds 3 derived glossary slugs (attestation-of-execution, permeability,
+# double-boundary) for ADR-0053 glossary-refinements-bundled (Phase 3b.7 Option E — single
+# bundled ADR closing the five primitive-bullet glossary-level refinements ADR-0044 line 62
+# enumerated as deferred to Phase 3b.7: Evidence-as-attestation-of-execution, Signal-with-
+# Autopoiesis-objection, Commitment-40-year-REA-contradiction, Holon-terminological-orphan,
+# Membrane permeability + double-boundary). All three slugs are derived analytic vocabulary
+# on existing primitives — NOT primitive, NOT doctrine, NOT mode, NOT property. Canon
+# object-class inventory unchanged at 4 categories. (1) `attestation-of-execution` anchors
+# the in-prose phrase already canon-body-resident at project-vision.md L36 + constitutional-
+# artifacts.md L38 since Phase 3 ADR-0044 (capstone §4 line 147 verdict "rename-in-glossary
+# as attestation-of-execution, not epistemological evidence"; capstone v2 Fix 1 reframed
+# from corpus-wide rename to glossary disambiguation preserving broader monitoring/
+# evaluation reading inside `evidence` umbrella — admit slug, do NOT rename primitive).
+# (2) `permeability` names selectively-gated passage axis on Membrane (Bollier-Helfrich
+# semi-permeable; capstone §3 line 120 + §7 line 297 directive "name permeability and
+# double-boundary dimensions explicitly"). (3) `double-boundary` names social-inclusion-vs-
+# ecological/resource analytic axis on Membrane (Ostrom Cox-1A/1B Principle 1 split;
+# capstone §7 line 265 explicit candidate verbatim "Not a separate primitive; a named axis
+# on `membrane`. Candidate slug: `double-boundary`"). Both Membrane axes coexist with
+# `asymmetric-membrane` (ADR-0047 Layer 3 power-axis on the authorize function) and remain
+# distinct from frozen-vocab `filtering-membrane` (an opposition primitive about over-
+# filtering as failure mode). Capstone §3 + §4 disposition closure now complete across
+# primitive-class verdicts (§4) and gap-disposition verdicts (§3 closed across Phases
+# 3b.1–3b.6) at the glossary/bullet layer. Phase 3b arc complete at canon-grammar layer
+# for the 9-primitive roster. Extension operator-authorized under canon-rebuild-phase-3b-7.
 
 concepts:
   - slug: governance-memory
@@ -439,4 +464,22 @@ concepts:
     canonical_label: Trust
     aliases: [derived-trust, trust-as-willingness]
     one_line_definition: Derived glossary term for commitment-willingness-given-accumulated-evidence-and-signals structure admitted under ADR-0052 (capstone §3 line 57 verdict "admit as derived with glossary entry flagging residue"). Captures rational-expectation (Hardin), engineering-displacement (Distributed Systems "trustlessness" as explicit denial), Apache earned-authority, and Commons Governance Ostrom 1998 behavioral triad. NOT a primitive, doctrine, mode, or property — capstone-flagged that "engineering traditions route around trust; elevating would force an unresolved agent-vs-field choice." Second-order dependency on ADR-0051 relational-identity for trust-of-whom (trust of a relationally-constituted Holon). Residues flagged: Luhmann choice-under-irreducible-uncertainty (R-Tr-1) — stands alone, no canon machinery captures; Baier asymmetric-vulnerability (R-Tr-2) partially captured via ADR-0045 care-commoning + ADR-0047 Layer 2 asymmetric-commitment. See docs/research/connections/canon-framing-derived-terms-reciprocity-trust.md.
+    primary_project: spore
+
+  - slug: attestation-of-execution
+    canonical_label: Attestation of Execution
+    aliases: [execution-attestation, fulfillment-attestation]
+    one_line_definition: Derived glossary slug anchoring the in-prose Evidence-as-attestation-of-execution clarification already canon-body-resident at project-vision.md + constitutional-artifacts.md since Phase 3 ADR-0044 (admitted under ADR-0053). Names the execution/provenance subset of the broader `evidence` family — attested record of *whether* and *in what state* commitments were fulfilled (supported by Distributed Systems cryptographic proofs, REA EconomicEvent provenance, Governance-Process W3C CR exit / IETF interop reports). NOT a primitive rename: capstone v2 Fix 1 (line 375) explicitly reframed from "settled rename" to "one proposed reading of evidence, preserving the broader monitoring/evaluation reading"; Commons monitoring-rule + Structured-Disagreement evaluation readings remain inside the `evidence` umbrella. Glossary disambiguation, not primitive class change.
+    primary_project: spore
+
+  - slug: permeability
+    canonical_label: Permeability
+    aliases: [membrane-permeability, semi-permeable-axis]
+    one_line_definition: Derived analytic axis on Membrane (admitted under ADR-0053) — Bollier-Helfrich semi-permeable membrane reading: Membranes are not binary gates; they selectively pass — admitting some intents/commitments/signals/evidence while filtering others, with permeability conditioned by what the membrane authorizes, attests, and translates. Configurable: permeable-by-default with explicit gating, gated-by-default with explicit admission, or differential-by-direction. NOT a separate primitive; coexists with `asymmetric-membrane` (ADR-0047 Layer 3 power-axis on the authorize function) and `double-boundary` (paired axis distinguishing social-inclusion from ecological/resource boundary). Distinct from frozen-vocab `filtering-membrane` (an opposition primitive about over-filtering as failure mode).
+    primary_project: spore
+
+  - slug: double-boundary
+    canonical_label: Double Boundary
+    aliases: [ostrom-double-boundary, social-and-resource-boundary]
+    one_line_definition: Derived analytic axis on Membrane (admitted under ADR-0053; capstone §7 line 265 verbatim candidate "Not a separate primitive; a named axis on `membrane`. Candidate slug: `double-boundary`") — Ostrom Cox-1A/1B Principle 1 split: a Membrane carries two analytically-distinct boundary functions that current canon previously conflated — *social inclusion* (who participates in the holon, the user-set, the commitment-bearing-parties) and *ecological / resource boundary* (what the holon's commitments range over, the resource extent, the substrate the field projects onto). The two boundaries can have different permeability, different gatekeepers, and different failure modes (social closure with resource over-commitment; resource closure with social over-inclusion). NOT a separate primitive; coexists with `asymmetric-membrane` (ADR-0047 Layer 3) and `permeability` (paired axis). Distinct from frozen-vocab `boundary-commoning` (cross-cutting doctrine on commoning-at-boundaries practice) and `filtering-membrane` (opposition primitive on over-filtering failure mode).
     primary_project: spore
