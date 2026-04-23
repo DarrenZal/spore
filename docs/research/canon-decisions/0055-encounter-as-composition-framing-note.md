@@ -1,7 +1,7 @@
 ---
 doc_id: spore.canon-decision.encounter-as-composition-framing-note
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0055"
 opened-on: 2026-04-22
 closed-on: 2026-04-22
