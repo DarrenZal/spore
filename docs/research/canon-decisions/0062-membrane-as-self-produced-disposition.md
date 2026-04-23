@@ -1,7 +1,7 @@
 ---
 doc_id: spore.canon-decision.membrane-as-self-produced-disposition
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0062"
 opened-on: 2026-04-23
 closed-on: 2026-04-23
@@ -71,7 +71,7 @@ concepts:
 
 ## Status
 
-draft (authored 2026-04-23 under `adr-0062-membrane-as-self-produced-disposition` decision-gated plan; Option (g) adopt-with-scope-conditioning + sub-options principled-rule + slug-inclusion=no/v12 per operator Step-2 decision-gate)
+active (2026-04-23; Option (g) adopt-with-scope-conditioning + sub-options principled-rule + slug-inclusion=no/v12 per operator Step-2 decision-gate)
 
 ## Context
 
