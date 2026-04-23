@@ -1,5 +1,5 @@
 # status: frozen
-# version: v8
+# version: v9
 # frozen_at: 2026-04-22
 # owner: Darren Zal
 # purpose: Canonical concept vocabulary governing ADR `concepts:` references, shared framing notes, and bridge-note R-claim `concept:` values across Spore / Intelligence Commons / Poietic Match.
@@ -58,6 +58,28 @@
 # design-by-committee; federation-scale protocol-version-adoption is the clearest
 # irreducibly-joint case). Parallel earning profile to v7's reproduction-continuity.
 # Extension operator-authorized under canon-rebuild-phase-3b-5a.
+# v9 (2026-04-22): adds 1 slug (relational-identity with alias identity-as-relational)
+# for ADR-0051 relational-identity-holon-property (Phase 3b.5 Option A). Capstone §3
+# line 72 verdict verbatim ("admit as a named property of holon, not a separate
+# primitive"); capstone §7 line 259 frozen-vocab candidate. 5 load-bearing traditions
+# converge on the relational-identity reading (Care Ethics "ties that partly constitute
+# our identity"; Pluriversal/Indigenous Governance kinship-with-more-than-human;
+# Commons Governance Bollier-Helfrich "Nested-I"; Autopoiesis/4E structural-coupling
+# Barandiaran-Di Paolo-Rohde; Viable System Model Beer 1984 S5-as-identity-closure).
+# Strict relational-only scope per capstone §7: cryptographic-identity (Distributed
+# BFT / Trust Networks), persistent-handle identity (Friedman-Resnick pseudonym-
+# stability), and authorship/sponsorship identity (Repo-Topology CODEOWNERS; Apache
+# "individuals, not organizations") coexist as distinct identity-buckets in their
+# existing canonical homes and are NOT subsumed or re-disposed by this slug. Slug form:
+# `relational-identity` primary (matches Spore convention modifier-first: cf.
+# `asymmetric-commitment`, `joint-commitment`, `asymmetric-membrane`); alias
+# `identity-as-relational` preserves capstone §7 frontmatter form for citability. 9-
+# primitive roster preserved — property-of-primitive move-pattern (sub-specification of
+# Holon parallel to ADR-0046 Field rule-stratification), not new primitive/doctrine/
+# mode/pattern. Paraphrase-test verdict partial per capstone; Pluriversal kinship-
+# identity flagged "irreducible" and operates compatibly under both canon-posture
+# (property) and held-tension (ADR-0001) frames per ADR-0050 dual-operability pattern.
+# Extension operator-authorized under canon-rebuild-phase-3b-5.
 
 concepts:
   - slug: governance-memory
@@ -190,6 +212,12 @@ concepts:
     canonical_label: Joint Commitment
     aliases: [gilbertian-commitment, collective-commitment, plural-subject-commitment]
     one_line_definition: The irreducibly-joint binding of two or more parties as a single coordination act that is not a sum of personal commitments (Gilbert, *Joint Commitment* 2013); Spore's 9th primitive, 6th coordination verb, operating at the joint/collective-compositional layer distinct from individual-scale Commitment. Admitted per ADR-0050 (Phase 3b.5a Side-B commitment) for capstone §8 Tier-1 item 3 sociality-reducibility closure.
+    primary_project: spore
+
+  - slug: relational-identity
+    canonical_label: Relational Identity
+    aliases: [identity-as-relational, constitutive-identity, nested-I]
+    one_line_definition: The whole-emergent-property of a Holon that is constituted through relations — ties, kinship, structural coupling, commons-nesting, recursion-closure — rather than carried by any individual part. Admitted 2026-04-22 per ADR-0051 (Phase 3b.5 Option A) as named property of Holon per capstone §3 line 72 verdict; 5 load-bearing traditions (Care Ethics "ties that partly constitute our identity" per Held; Pluriversal/Indigenous Governance kinship-with-more-than-human; Commons Governance Bollier-Helfrich "Nested-I"; Autopoiesis/4E structural-coupling per Barandiaran-Di Paolo-Rohde; Viable System Model S5-as-identity-closure per Beer 1984). Property-of-primitive move-pattern (parallel to ADR-0046 Field rule-stratification) — not separate primitive / doctrine / mode / pattern; 9-primitive roster preserved. Strict relational-only scope per capstone §7: cryptographic-identity (Membrane signing-function + federation-protocol signing), persistent-handle identity (federation-protocol persistence + KOI entity-resolution), and authorship/sponsorship identity (Commitment party-composition + Evidence attestor-field) coexist as distinct identity-buckets in their existing canonical homes. Paraphrase-test verdict partial per capstone — Pluriversal kinship-identity flagged "irreducible" and operates compatibly under both the canon-posture frame (property) and the held-tension frame (ADR-0001 pluriversal-incommensurability) per ADR-0050's dual-operability pattern.
     primary_project: spore
 
   - slug: memory-governance

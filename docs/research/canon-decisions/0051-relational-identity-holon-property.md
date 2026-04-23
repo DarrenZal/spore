@@ -1,7 +1,7 @@
 ---
 doc_id: spore.canon-decision.relational-identity-holon-property
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0051"
 opened-on: 2026-04-22
 closed-on: 2026-04-22
@@ -60,7 +60,7 @@ concepts:
 
 ## Status
 
-draft (authored 2026-04-22 under `canon-rebuild-phase-3b-5` decision-gated plan; Option A — `relational-identity` as named property of Holon — per operator selection post decision-brief; to be flipped to `active` after canon-body edits in Step 4)
+active (authored + activated 2026-04-22 under `canon-rebuild-phase-3b-5` decision-gated plan; Option A — `relational-identity` as named property of Holon; strict relational-only scope per capstone §7; slug `relational-identity` primary + `identity-as-relational` alias — per operator selection post decision-brief)
 
 ## Context
 
