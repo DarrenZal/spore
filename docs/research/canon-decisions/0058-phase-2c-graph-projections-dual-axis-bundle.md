@@ -1,7 +1,7 @@
 ---
 doc_id: spore.canon-decision.phase-2c-graph-projections-dual-axis-bundle
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0058"
 opened-on: 2026-04-23
 closed-on: 2026-04-23
@@ -44,7 +44,7 @@ concepts:
 
 ## Status
 
-draft (authored 2026-04-23; activation pending validator no-regression check)
+active (authored + activated 2026-04-23 under canon-rebuild Phase 2c)
 
 ## Context
 
