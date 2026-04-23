@@ -1,5 +1,5 @@
 # status: frozen
-# version: v6
+# version: v7
 # frozen_at: 2026-04-22
 # owner: Darren Zal
 # purpose: Canonical concept vocabulary governing ADR `concepts:` references, shared framing notes, and bridge-note R-claim `concept:` values across Spore / Intelligence Commons / Poietic Match.
@@ -24,6 +24,19 @@
 # 7-rule-type taxonomy (boundary / position / choice / aggregation / information /
 # payoff / scope) is handled prose-only in canon body; slugification decision
 # operator-deferred. Extension operator-authorized under canon-rebuild-phase-3b-2.
+# v7 (2026-04-22): adds 1 slug (reproduction-continuity) for ADR-0049 reproduction-
+# continuity-primitive-admission (Phase 3b.4 Option B — capstone §3 verdict "admit
+# as primitive"; 8th Spore primitive; fifth coordination verb operating at cross-
+# episode time-scale). Differentiated from frozen `reproductive-commoning` (the
+# doctrine-lens on visibility-practice) and `care-commoning` (the doctrine-lens on
+# asymmetric-relational practice). `viability-over-time` is the Beer-lineage synonym
+# noted in glossary, not admitted as separate slug. Earning-test marginal on (a)
+# protocol-surface specifiability (Federici: thinness IS the phenomenon), strong on
+# (b) multi-scale operational implementation. Extension operator-authorized under
+# canon-rebuild-phase-3b-4. (v5/v6 numbering: v5 added 3 asymmetry slugs for ADR-
+# 0047 Phase 3b.3 power-multi-layer-decomposition; v6 added 3 slugs — expressive-
+# power, constructed-power, substitution-trap — for ADR-0048 Phase 3b.3b Johar
+# three-form integration. Prior version-log entries omitted for brevity.)
 
 concepts:
   - slug: governance-memory
@@ -163,7 +176,13 @@ concepts:
   - slug: reproductive-commoning
     canonical_label: Reproductive Commoning
     aliases: [reproductive-labor-commons]
-    one_line_definition: Commoning centered on reproductive labor — care, provisioning, housing, territorial stewardship — as the primary (not derivative) coordination substrate; Federici/Bhattacharya lineage via `Communalization_of_Housework`, `Women_and_the_Commons`, `Caring_Economy`, `Social_Reproduction_Theory`.
+    one_line_definition: Commoning centered on reproductive labor — care, provisioning, housing, territorial stewardship — as the primary (not derivative) coordination substrate; Federici/Bhattacharya lineage via `Communalization_of_Housework`, `Women_and_the_Commons`, `Caring_Economy`, `Social_Reproduction_Theory`. Cross-cutting doctrine per ADR-0002 — the practice-lens for making-reproductive-labor-visible across existing coordination primitives; sibling doctrine to `boundary-commoning` (ADR-0003) and `care-commoning` (ADR-0045). Distinct from `reproduction-continuity` (the primitive verb the doctrine operates over per ADR-0049).
+    primary_project: spore
+
+  - slug: reproduction-continuity
+    canonical_label: Reproduction-Continuity
+    aliases: [viability-over-time, renewal, survival-over-time, coordination-reproduction]
+    one_line_definition: The coordination labor by which the verb-loop, the field-substrate, and established commitment-patterns persist across time, actor turnover, and generational succession. Operations include enact-succession, transmit-knowledge, replicate-commitment-pattern, regenerate-field-capacity. Admitted 2026-04-22 per ADR-0049 as 8th Spore primitive (fifth coordination verb operating at cross-episode time-scale). Capstone §3 verdict "admit as primitive"; §8 Tier 1 item 5. Differentiated from `reproductive-commoning` (ADR-0002 doctrine-lens on visibility-of-reproductive-labor axis) and `care-commoning` (ADR-0045 doctrine-lens on asymmetric-relational axis) — Reproduction-continuity is the primitive verb both doctrines operate over; the three overlap at reproductive-care-work (Federici's primary object of critique) without reducing to each other. Beer/VSM viability-over-time + Governance-Process succession-rules + Pluriversal cyclical ritual + Structured-Disagreement replication-regime all name operations at distinct scales. `viability-over-time` is the Beer-lineage synonym.
     primary_project: spore
 
   - slug: care-commoning

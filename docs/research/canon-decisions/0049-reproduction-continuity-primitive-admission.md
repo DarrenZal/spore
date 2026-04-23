@@ -1,7 +1,7 @@
 ---
 doc_id: spore.canon-decision.reproduction-continuity-primitive-admission
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0049"
 opened-on: 2026-04-22
 closed-on: 2026-04-22
@@ -51,7 +51,7 @@ concepts:
 
 ## Status
 
-draft (authored 2026-04-22 under `canon-rebuild-phase-3b-4` decision-gated plan; Option B — new primitive — per operator selection post decision-brief; pending canon-body edits + activate commit)
+active (authored + activated 2026-04-22 under `canon-rebuild-phase-3b-4` decision-gated plan; Option B — new primitive — per operator selection post decision-brief)
 
 ## Context
 
