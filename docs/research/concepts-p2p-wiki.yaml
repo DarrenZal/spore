@@ -1,5 +1,5 @@
 # status: frozen
-# version: v7
+# version: v8
 # frozen_at: 2026-04-22
 # owner: Darren Zal
 # purpose: Canonical concept vocabulary governing ADR `concepts:` references, shared framing notes, and bridge-note R-claim `concept:` values across Spore / Intelligence Commons / Poietic Match.
@@ -37,6 +37,27 @@
 # 0047 Phase 3b.3 power-multi-layer-decomposition; v6 added 3 slugs — expressive-
 # power, constructed-power, substitution-trap — for ADR-0048 Phase 3b.3b Johar
 # three-form integration. Prior version-log entries omitted for brevity.)
+# v8 (2026-04-22): adds 1 slug (joint-commitment) for ADR-0050 sociality-side-b-plus-
+# primitive (Phase 3b.5a Option H comprehensive Side-B commitment: canonicalize
+# implicit 3b.1-4 tilt + extend Holon primitive with irreducibility clause + admit
+# joint-commitment as 9th primitive / 6th coordination verb at the joint/collective-
+# compositional layer — capstone §8 Tier-1 item 3 "single most consequential
+# unresolved question for whether Spore's canon is complete"; capstone-recommended-
+# verbatim for Side-B primitive admission; closes capstone §2 divergence 1 sociality-
+# reducibility with Gilbertian "commitment of two or more people, not a sum of
+# personal commitments" form). `joint-commitment` is distinct from frozen `collective-
+# agency` (v2) which remains the broader umbrella for collective-capacity talk; joint-
+# commitment names the specific irreducibly-joint Gilbertian binding primitive.
+# `holon-irreducibility` is prose-only per operator directive (lives in Holon's
+# extended bullet + ADR-0050, not minted as separate slug). Earning-test marginal on
+# (a) protocol-surface specifiability (Schmid 2014 circularity objection live; form-
+# joint-commitment / rescind-by-concurrence / hold-accountable-via-demand-right
+# crisper than Reproduction-continuity's, thinner than Intent/Commitment/Evidence/
+# Signal), strong on (b) multi-scale operational implementation (four scales: team-
+# charter / organizational-decision / federation-oath-or-protocol-adoption / protocol-
+# design-by-committee; federation-scale protocol-version-adoption is the clearest
+# irreducibly-joint case). Parallel earning profile to v7's reproduction-continuity.
+# Extension operator-authorized under canon-rebuild-phase-3b-5a.
 
 concepts:
   - slug: governance-memory
@@ -163,6 +184,12 @@ concepts:
     canonical_label: Collective Agency
     aliases: [group-agency, collective-intentionality]
     one_line_definition: The capacity of a group to act as an agent — holding intentions, deliberating, and being held responsible — beyond the sum of individual agencies.
+    primary_project: spore
+
+  - slug: joint-commitment
+    canonical_label: Joint Commitment
+    aliases: [gilbertian-commitment, collective-commitment, plural-subject-commitment]
+    one_line_definition: The irreducibly-joint binding of two or more parties as a single coordination act that is not a sum of personal commitments (Gilbert, *Joint Commitment* 2013); Spore's 9th primitive, 6th coordination verb, operating at the joint/collective-compositional layer distinct from individual-scale Commitment. Admitted per ADR-0050 (Phase 3b.5a Side-B commitment) for capstone §8 Tier-1 item 3 sociality-reducibility closure.
     primary_project: spore
 
   - slug: memory-governance

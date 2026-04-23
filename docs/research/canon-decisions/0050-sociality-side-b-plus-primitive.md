@@ -1,7 +1,7 @@
 ---
 doc_id: spore.canon-decision.sociality-side-b-plus-primitive
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0050"
 opened-on: 2026-04-22
 closed-on: 2026-04-22
