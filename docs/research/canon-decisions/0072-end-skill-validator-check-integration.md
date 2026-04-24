@@ -1,10 +1,11 @@
 ---
 doc_id: spore.canon-decision.end-skill-validator-check-integration
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0072"
 date: 2026-04-25
 opened-on: 2026-04-25
+closed-on: 2026-04-25
 decision: integrate-workflow-check
 r_claim_source:
   - spore:ADR-0067-validator-schema-archived-enum
@@ -76,7 +77,7 @@ concepts: []
 
 ## Status
 
-draft (authored 2026-04-25 under `adr-0072-end-skill-validator-check-integration` decision-gated plan; operator ratified Bundle α at Step-2 decision-gate 2026-04-25; Step 5a draft commit).
+active (activated 2026-04-25 under `adr-0072-end-skill-validator-check-integration` decision-gated plan; operator ratified Bundle α at Step-2 decision-gate 2026-04-25; Step 7 active commit after Step 6 validator parity verified at 9/30 hold; workflow-hygiene-integration-ADR canon-method).
 
 ## Context
 
