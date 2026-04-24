@@ -1,10 +1,11 @@
 ---
 doc_id: spore.canon-decision.cross-repo-projection-script-pm-registration-alignment
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0071"
 date: 2026-04-24
 opened-on: 2026-04-24
+closed-on: 2026-04-24
 decision: edit
 r_claim_source:
   - pm:ADR-0014-canon-alignment-through-spore-adr-0060
@@ -55,7 +56,7 @@ concepts:
 
 ## Status
 
-draft (authored 2026-04-24 under `adr-0071-cross-repo-projection-script-pm-registration-alignment` decision-gated plan; operator ratified `A3/B2/C1/D1/E1/F2/G3` before Step 3 execution)
+active (drafted and activated 2026-04-24 under `adr-0071-cross-repo-projection-script-pm-registration-alignment` decision-gated plan; operator ratified `A3/B2/C1/D1/E1/F2/G3` before Step 3 execution)
 
 ## Context
 
