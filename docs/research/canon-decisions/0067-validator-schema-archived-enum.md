@@ -1,7 +1,7 @@
 ---
 doc_id: spore.canon-decision.validator-schema-archived-enum
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0067"
 opened-on: 2026-04-24
 closed-on: 2026-04-24
@@ -78,7 +78,7 @@ concepts: []
 
 ## Status
 
-draft (authored 2026-04-24 under `adr-0067-validator-schema-archived-enum` decision-gated plan; Step-2 fast-path per operator directive ratifying A1+B5+C2+D3 combination; additive-enum-vocabulary-admission canon-method)
+active (activated 2026-04-24 under `adr-0067-validator-schema-archived-enum` decision-gated plan; Step-2 fast-path per operator directive ratifying A1+B5+C2+D3 combination; additive-enum-vocabulary-admission canon-method)
 
 ## Context
 
