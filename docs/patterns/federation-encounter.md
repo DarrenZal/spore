@@ -1,7 +1,7 @@
 ---
 doc_id: spore.federation-encounter
 doc_kind: pattern
-status: draft
+status: active
 depends_on:
   - spore.governance-artifacts
   - spore.federation-protocol

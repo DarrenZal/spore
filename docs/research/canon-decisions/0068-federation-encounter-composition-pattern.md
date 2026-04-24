@@ -1,7 +1,7 @@
 ---
 doc_id: spore.canon-decision.federation-encounter-composition-pattern
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0068"
 opened-on: 2026-04-24
 closed-on: 2026-04-24
@@ -28,7 +28,7 @@ concepts:
 
 ## Status
 
-draft (authored 2026-04-24 under `adr-0068-federation-encounter-composition-pattern` decision-gated plan; Step 2 fast-path acceptance per operator directive 2026-04-24 "accept child recommendations on A/B/C/D/E/F/G as per decision-brief 2026-04-24"). Active commit flips status to `active`.
+active (activated 2026-04-24 under `adr-0068-federation-encounter-composition-pattern` decision-gated plan; Step 2 fast-path acceptance per operator directive 2026-04-24 "accept child recommendations on A/B/C/D/E/F/G as per decision-brief 2026-04-24").
 
 ## Context
 

@@ -57,7 +57,7 @@ New pattern admissions follow the **dedicated-ADR per candidate** workflow (ADR-
 | `commitment-pooling.md` | `spore.commitment-pooling` | active | composition-pattern | YES (primary_project: pm) |
 | `discourse-as-governance.md` | `spore.discourse-as-governance` | draft | composition-pattern | NO |
 | `federated-knowledge-exchange.md` | `spore.federated-knowledge-exchange` | active | composition-pattern | NO |
-| `federation-encounter.md` | `spore.federation-encounter` | draft | composition-pattern | YES |
+| `federation-encounter.md` | `spore.federation-encounter` | active | composition-pattern | YES |
 | `governance-memory.md` | `spore.governance-memory` | active | composition-pattern | YES |
 | `intent-publication-and-activation.md` | `spore.intent-publication` | active | composition-pattern | NO |
 
