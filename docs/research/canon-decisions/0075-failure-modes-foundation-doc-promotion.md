@@ -1,9 +1,10 @@
 ---
 doc_id: spore.canon-decision.failure-modes-foundation-doc-promotion
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0075"
 opened-on: 2026-04-25
+closed-on: 2026-04-25
 decision: edit
 r_claim_source:
   - spore.review.canon-first-principles-audit-v2-2026-04-22:6.4-item-6
@@ -66,7 +67,7 @@ concepts:
 
 ## Status
 
-draft (authored 2026-04-25 under canon-rebuild Phase 4 Tier B first admission)
+active (authored + activated 2026-04-25 under canon-rebuild Phase 4 Tier B first admission under operator-inverted F6→F5→F3 ordering)
 
 ## Context
 
