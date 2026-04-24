@@ -109,7 +109,7 @@ The essay's strongest new contribution to Spore is the concept of **cognitive ec
 
 Two design implications:
 
-- **Scaffold ownership is a governance question.** The essay warns that whoever designs the scaffolds influences the kinds of minds that can emerge. Spore's constitutional artifacts and governance memory are scaffolds. If Spore is to avoid becoming cognitive feudalism at small scale, the governance of its own scaffolds — what the learning membrane promotes, what the discourse graph surfaces, what the commitment lifecycle makes visible — must itself be subject to the stance-shifting it claims to support. This is a reflexivity requirement, not a feature request.
+- **Scaffold ownership is a governance question.** The essay warns that whoever designs the scaffolds influences the kinds of minds that can emerge. Spore's governance artifacts and governance memory are scaffolds. If Spore is to avoid becoming cognitive feudalism at small scale, the governance of its own scaffolds — what the learning membrane promotes, what the discourse graph surfaces, what the commitment lifecycle makes visible — must itself be subject to the stance-shifting it claims to support. This is a reflexivity requirement, not a feature request.
 
 - **Attention sovereignty is a design criterion.** The essay defines attention sovereignty as the right to not have your horizon hijacked and the right to cultivate doubt into curiosity rather than have doubt engineered into fear. For Spore, this means that governance patterns should be evaluated not only by their correctness but by their attentional effects: does this pattern widen horizons or narrow them? Does it support exploration or engineer closure? This is a quality distinct from efficiency, fairness, or accuracy.
 

@@ -88,7 +88,7 @@ Johar remainder (design contribution, design hypothesis, Johar-distinctive integ
 
 **Reliability:** The spec-DAG is the most mature projection — it is operational and validated. The epistemic graph is partially instantiated through koi-processor. All other projections are design artifacts.
 
-### 2.5 Constitutional Artifacts
+### 2.5 Governance Artifacts
 
 **What is already observable:**
 - Vision document with constitutional commitments (provenance, forkability, pluralism, autonomy, authorized boundary crossing, explicit authority, contestability)
@@ -101,7 +101,7 @@ Johar remainder (design contribution, design hypothesis, Johar-distinctive integ
 - No evidence of the coordination ecology loop completing a full cycle (learning → revised vision)
 - No forkability exercise has been documented
 
-**Reliability:** Constitutional artifacts are well-documented as design intent. No constitutional artifact has yet been stress-tested by operational disagreement or pressure.
+**Reliability:** Governance artifacts are well-documented as design intent. No governance artifact has yet been stress-tested by operational disagreement or pressure.
 
 ### 2.6 Coordination Notes and Logs
 

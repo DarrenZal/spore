@@ -17,7 +17,7 @@ worldview_layer: axiological
 
 # Intent Pressure
 
-The structural force created when the normative frontier (vision, roadmap, constraints) and the epistemic frontier (sensed reality) diverge. Intent pressure is the gap between what constitutional artifacts say should be true and what sensors and evidence report is true.
+The structural force created when the normative frontier (vision, roadmap, constraints) and the epistemic frontier (sensed reality) diverge. Intent pressure is the gap between what governance artifacts say should be true and what sensors and evidence report is true.
 
 ## Where It Comes From
 
