@@ -1,7 +1,7 @@
 ---
 doc_id: spore.canon-decision.project-briefing-pattern-audit-outlier-disposition
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0066"
 opened-on: 2026-04-24
 closed-on: 2026-04-24
@@ -77,7 +77,7 @@ concepts: []
 
 ## Status
 
-draft (authored 2026-04-24 under `adr-0066-project-briefing-pattern-audit-outlier-disposition` decision-gated plan; K3a fast-path per operator Step-2 decision-gate 2026-04-24 ratifying child audit-derived recommendation)
+active (activated 2026-04-24 under `adr-0066-project-briefing-pattern-audit-outlier-disposition` decision-gated plan; K3a fast-path per operator Step-2 decision-gate 2026-04-24 ratifying child audit-derived recommendation)
 
 ## Context
 
