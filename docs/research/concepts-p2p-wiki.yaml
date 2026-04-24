@@ -1,5 +1,5 @@
 # status: frozen
-# version: v13
+# version: v14
 # frozen_at: 2026-04-24
 # owner: Darren Zal
 # purpose: Canonical concept vocabulary governing ADR `concepts:` references, shared framing notes, and bridge-note R-claim `concept:` values across Spore / Intelligence Commons / Poietic Match.
@@ -188,6 +188,21 @@
 # federation-encounter-composition-pattern.md`), ratified at Step 2 via fast-path
 # acceptance 2026-04-24 ("accept child recommendations on A/B/C/D/E/F/G as per decision-
 # brief 2026-04-24").
+# v14 (2026-04-24): adds 1 slug (`view-template`) for ADR-0070 view-template catalog-
+# pattern admission — third and final Wave-2 pattern-library admission under ADR-0065
+# M4 sub-class framework, completing the composition / design-criteria / catalog
+# trifecta validation across ADR-0068 / ADR-0069 / ADR-0070. Host-structure evidence
+# quality is unusually strong for a catalog-pattern: the three-primary substrate and the
+# five view-templates are articulated not only in ADR-0058 parking prose but also in
+# `governance-artifacts-and-graph-projections.md`, `project-vision.md`, and
+# `coordination-grammar.md`. `view-template` names the catalog of five derived views —
+# Roadmap DAG / Intent hypergraph / Event graph / Routing/flow graph / Discourse graph
+# — each a specialization of, or join-derivable from, the three-primary substrate
+# (Constitutional / Commitment / Epistemic). Single-slug admission only: no individual
+# sub-entity slugs minted at v14 per ADR-0070 F2 parsimony discipline. Pattern doc at
+# `docs/patterns/view-template.md`. Extension operator-authorized under ADR-0070
+# view-template-catalog-pattern decision-gated plan (`~/.claude/plans/adr-0070-view-
+# template-catalog-pattern.md`), ratified at Step 2 via operator directive 2026-04-24.
 
 concepts:
   - slug: governance-memory
@@ -556,4 +571,10 @@ concepts:
     canonical_label: Federation Encounter
     aliases: [federation-encounter-pattern, federation-event-coordination-recipe]
     one_line_definition: Pattern-library-layer coordination-recipe for federation-scale event-coordination (multi-party, often multi-org, often multi-node-spanning), composed as Signal (invitation/reframing-transmission) + Joint-commitment (attendance-pledge/shared-orientation) + Intent (pre-event-surfacing/in-event-shaping) + Evidence (in-event-attestation/post-event-capture) within bounded Field-conditions (temporal-spatial scope; rule-in-use scaffolding per ADR-0046; co-presence-mode scope-conditioning per ADR-0064). Admitted under ADR-0068 as the first Wave-2 pattern-library admission under ADR-0065 §M4 composition-pattern sub-class earning-test — (α-comp) composition-articulability PASSES (ADR-0055 framing-note §3 articulates composition; spot-verified against PM match-events independently of framing-note authorship); (β-comp) ≥3 independent instance-families PASSES at N=4 under ADR-0064 honest-rigor cluster-counting discipline (BKC/Octo bioregional federation / PM match-events / DW stand-ups+design-reviews / Cross-federation compose-events; all 6 pair-wise independence checks pass). Pattern-doc at `docs/patterns/federation-encounter.md`. Distinct from the general `encounter` derived glossary slug (above): `encounter` anchors the general event-scope concept applicable wherever the 5-element composition fires (including 1:1 focus-sessions, coaching encounters, etc.); `federation-encounter` anchors the federation-scoped coordination-recipe for adopters. Alias-to-slug promotion at v13 (inherits ADR-0045 `care-commoning` precedent — promoting a v12-era alias of `encounter` into a first-class v13 slug). Trigger-gate status: ADR-0055 E-1 CLOSED (ADR-0065 landed 2026-04-24) + E-5 FIRED (ADR-0064 landed 2026-04-23); either sufficient per ADR-0055 §Trigger discipline.
+    primary_project: spore
+
+  - slug: view-template
+    canonical_label: View Template
+    aliases: [graph-view-template, view-template-pattern]
+    one_line_definition: Pattern-library-layer catalog of five graph views composed over Spore's three primary graph projections. Members: Roadmap DAG (Constitutional specialization ordering initiatives, milestones, and dependencies by sequence), Intent hypergraph (Commitment pre-stage for multi-party offers / needs / conditions), Event graph (Commitment + Epistemic temporal projection), Routing/flow graph (Commitment pool-flow projection), and Discourse graph (Constitutional + Epistemic governance-revision layer). Admitted under ADR-0070 as the first catalog-pattern under ADR-0065's M4 sub-class framework. The catalog binds because each member is a specialization of, or join-derivable from, the three-primary substrate rather than an independent primary projection. No individual sub-entity slugs were minted at admission.
     primary_project: spore

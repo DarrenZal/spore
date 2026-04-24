@@ -15,9 +15,9 @@ This directory holds Spore's pattern library — coordination-recipe patterns or
 
 Patterns form a composition-class with three sub-shapes. Sub-classes are variations-of-pattern-family, not separate canon-object-classes — the four-category canon-object inventory is preserved.
 
-- **composition-patterns** — patterns composed over primitives / doctrines / modes / properties. Exemplars: `governance-memory.md`, `commitment-pooling.md`, `discourse-as-governance.md`, `federated-knowledge-exchange.md`, `intent-publication-and-activation.md`. Federation-encounter is the first novel composition-pattern admission candidate (parked per ADR-0055 triggers E-1..E-5). Earning-test per ADR-0065 §M4: composition-articulability over existing canon-objects AND ≥3 independent instance-families (inherited from ADR-0064 honest-rigor cluster-counting discipline — independent context, not derived-from another counted family, evidenced by bridge-note / operational trace / coded implementation / canon-body reference).
-- **design-criteria-patterns** — patterns articulating named design-criteria-clusters for field-conditions or coordination-substrate. Exemplar: four-enabling-conditions parking per ADR-0048 (space / mission / resources / knowledge for constructed-power; Johar's motivating case at N=4). Earning-test per ADR-0065 §M4: ≥N articulated criteria (N≥3 floor; Johar-4 exemplar) AND ≥1 full-cluster primary-tradition PLUS criteria-operationality evidence (≥1 instance-family where criteria are demonstrably applied, not merely named).
-- **catalog-patterns** — patterns hosting ≥N legitimate sub-entities each independently-motivated with host-structure rationale. Exemplar: view-template pattern-library doc parking per ADR-0058 (5 demoted graph projections: Roadmap DAG / Intent hypergraph / Event / Routing-flow / Discourse). Earning-test per ADR-0065 §M4: ≥N sub-entities (N≥3 floor; view-template-5 exemplar; "a pair is not a catalog") AND host-structure-earning-test (named host-structure property + per-sub-entity demonstration + composition-or-aggregation rule binding sub-entities into single catalog).
+- **composition-patterns** — patterns composed over primitives / doctrines / modes / properties. Exemplars: `governance-memory.md`, `commitment-pooling.md`, `discourse-as-governance.md`, `federated-knowledge-exchange.md`, `intent-publication-and-activation.md`, `federation-encounter.md`. Earning-test per ADR-0065 §M4: composition-articulability over existing canon-objects AND ≥3 independent instance-families (inherited from ADR-0064 honest-rigor cluster-counting discipline — independent context, not derived-from another counted family, evidenced by bridge-note / operational trace / coded implementation / canon-body reference).
+- **design-criteria-patterns** — patterns articulating named design-criteria-clusters for field-conditions or coordination-substrate. Reference candidate and decline precedent: four-enabling-conditions per ADR-0048 parking and ADR-0069 decline-with-triggers (space / mission / resources / knowledge for constructed-power; Johar's motivating case at N=4). Earning-test per ADR-0065 §M4: ≥N articulated criteria (N≥3 floor; Johar-4 exemplar) AND ≥1 full-cluster primary-tradition PLUS criteria-operationality evidence (≥1 instance-family where criteria are demonstrably applied, not merely named).
+- **catalog-patterns** — patterns hosting ≥N legitimate sub-entities each independently-motivated with host-structure rationale. Exemplar and first admission: `view-template.md` via ADR-0070, inheriting ADR-0058's 5 demoted graph projections (Roadmap DAG / Intent hypergraph / Event / Routing-flow / Discourse). Earning-test per ADR-0065 §M4: ≥N sub-entities (N≥3 floor; view-template-5 exemplar; "a pair is not a catalog") AND host-structure-earning-test (named host-structure property + per-sub-entity demonstration + composition-or-aggregation rule binding sub-entities into single catalog).
 
 **N-threshold rule**: ADR-0065 does NOT bake hard numeric thresholds. Per-admission-ADR's Step 0.5 audit proposes N with rationale; operator ratifies at admission-ADR Step 2. Exemplar precedents (Johar-4 / view-template-5) serve as reference anchors.
 
@@ -60,15 +60,15 @@ New pattern admissions follow the **dedicated-ADR per candidate** workflow (ADR-
 | `federation-encounter.md` | `spore.federation-encounter` | active | composition-pattern | YES |
 | `governance-memory.md` | `spore.governance-memory` | active | composition-pattern | YES |
 | `intent-publication-and-activation.md` | `spore.intent-publication` | active | composition-pattern | NO |
+| `view-template.md` | `spore.view-template` | draft | catalog-pattern | YES |
 
-Tentative sub-class classifications are informational, not retroactively enforced (Axis J1 grandfathers existing patterns). Re-verification at any admission-ADR evaluating these files is welcome. `federation-encounter.md` is the first Wave-2 admission under ADR-0065 M4 framework (via ADR-0068, 2026-04-24).
+Tentative sub-class classifications are informational, not retroactively enforced (Axis J1 grandfathers existing patterns). Re-verification at any admission-ADR evaluating these files is welcome. `federation-encounter.md` and `view-template.md` are the first and third Wave-2 admissions under ADR-0065's M4 framework (via ADR-0068 and ADR-0070 respectively); ADR-0069 supplies the intervening decline-with-triggers precedent for the design-criteria sub-class.
 
 ## Parked admission candidates
 
-Post-ADR-0068, two remaining pattern-library admission candidates are tractable under their mapped sub-class workflow:
+Post-ADR-0070, one trigger-gated pattern-library candidate remains parked under its mapped sub-class workflow:
 
-- **four-enabling-conditions** (design-criteria-pattern) — ADR-0048 parking; Johar's 4 criteria + primary-tradition.
-- **view-template pattern-library doc** (catalog-pattern) — ADR-0058 parking; 5 pre-demoted view-templates ready as starting content.
+- **four-enabling-conditions** (design-criteria-pattern) — ADR-0048 parking source; ADR-0069 records decline-with-triggers and preserves a re-evaluation path behind explicit maturation triggers.
 
 ## Cross-references
 
@@ -76,6 +76,9 @@ Post-ADR-0068, two remaining pattern-library admission candidates are tractable 
 - [ADR-0048 power-expressive-constructed-modes](../research/canon-decisions/0048-power-expressive-constructed-modes.md) — four-enabling-conditions parking source + parsimony-as-earning-test discipline + four-categories origin.
 - [ADR-0055 encounter-as-composition-framing-note](../research/canon-decisions/0055-encounter-as-composition-framing-note.md) — R-Enc-4 "pattern-library infrastructure under-specified" residue (closed by ADR-0065) + federation-encounter parking + triggers E-1..E-5.
 - [ADR-0058 phase-2c-graph-projections-dual-axis-bundle](../research/canon-decisions/0058-phase-2c-graph-projections-dual-axis-bundle.md) — view-template parking source (5 demoted graph projections).
+- [ADR-0068 federation-encounter-composition-pattern](../research/canon-decisions/0068-federation-encounter-composition-pattern.md) — first Wave-2 admit; composition-pattern precedent.
+- [ADR-0069 four-enabling-conditions-design-criteria-pattern](../research/canon-decisions/0069-four-enabling-conditions-design-criteria-pattern.md) — Wave-2 decline-with-triggers precedent.
+- [ADR-0070 view-template-catalog-pattern](../research/canon-decisions/0070-view-template-catalog-pattern.md) — third and final Wave-2 admit; catalog-pattern precedent.
 - [project-vision.md §111 Four categories of canon objects](../project-vision.md) — canon-object-class anchor.
 - [governance-artifacts-and-graph-projections.md §Four Categories of Canon Objects](../foundations/governance-artifacts-and-graph-projections.md) — parallel section (authored alongside ADR-0065).
 - [canon-review-protocol.md §1 scope-conditioning on patterns](../research/planning/canon-review-protocol.md) — Axis I4 scope reconciliation (4-framing acknowledgment).
