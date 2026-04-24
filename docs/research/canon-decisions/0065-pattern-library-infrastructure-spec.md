@@ -1,7 +1,7 @@
 ---
 doc_id: spore.canon-decision.pattern-library-infrastructure-spec
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0065"
 opened-on: 2026-04-24
 closed-on: 2026-04-24
