@@ -28,6 +28,7 @@ Theory and first principles that define what kind of system this is:
 - [structural-legitimacy.md](./foundations/structural-legitimacy.md) — authority-consequence coupling as the basis of governance legitimacy (replaces the earlier DAG-of-authority framing)
 - [sensor-oracle-governance.md](./foundations/sensor-oracle-governance.md) — doctrine for sensor selection, calibration, maintainer roles, contestation, disagreement, interpretation authority, and absent-evidence handling across machine / human / AI-summary modalities
 - [representation-authority.md](./foundations/representation-authority.md) — inter-layer precedence doctrine across the five canon representation layers (text / graph / sensor / attestation / agent-summary); extends ADR-0041 text-authoritative-representation; hybrid default + context-overrides + appeal-protocol per ADR-0046 rule-stack
+- [failure-modes.md](./foundations/failure-modes.md) — 8-category failure-mode taxonomy (representation / protocol / sensor-attestation-evidence-integrity / scale-transition / membrane-boundary / commitment-break / actor-capture / meta-pattern-composition) with Ostrom 3-level rule-stack decomposition per category; sibling-doctrine to structural-legitimacy
 - [spore-instance-model.md](./foundations/spore-instance-model.md) — how Spore materializes: canon, node, agent, site
 
 ## Patterns

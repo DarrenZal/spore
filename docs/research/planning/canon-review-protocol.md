@@ -36,6 +36,7 @@ Canon = foundation + vision + roadmap docs that define each project's normative 
 **Scope-conditioning on "patterns"** (ADR-0065 Axis I4; inherits ADR-0062/0063/0064 primitive-bullet scope-conditioning canon-method applied to this protocol-file). Patterns operate under four framings simultaneously: (i) *doc_kind-canonical* per `docs/patterns/governance-memory.md:36` (enumerated in the 9 canonical doc_kinds); (ii) *canon-object-class* per `docs/project-vision.md:111` (fourth category of canon objects alongside primitives / doctrines / modes / properties, organized as composition-class with three sub-shapes per ADR-0065 M4 framework); (iii) *canon-review-protocol-scope-exclusion* per this protocol's lines 34 + 58 (the framing being scope-conditioned); (iv) *product-vocabulary* per `docs/project-vision.md:10, :299` (Agent Commons as published pattern-language artifact). Framings (i) + (ii) + (iv) are broad canon-roles for patterns; framing (iii) narrows THIS protocol's procedural-gate scope. Individual pattern admissions operate outside canon-review-protocol under ADR-0065 pattern-library-infrastructure-spec (dedicated-ADR per candidate per Axis E1, applying sub-class-appropriate earning-test at admission-ADR Step 0.5). Canon-object (broad) ≠ canon-review-protocol-target (narrow).
 
 **Spore canon (in-scope)**:
+- `docs/foundations/failure-modes.md`
 - `docs/foundations/governance-artifacts-and-graph-projections.md`
 - `docs/foundations/holonic-network-architecture.md`
 - `docs/foundations/federation-protocol.md`

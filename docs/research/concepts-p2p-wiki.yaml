@@ -1,5 +1,5 @@
 # status: frozen
-# version: v15
+# version: v16
 # frozen_at: 2026-04-25
 # owner: Darren Zal
 # purpose: Canonical concept vocabulary governing ADR `concepts:` references, shared framing notes, and bridge-note R-claim `concept:` values across Spore / Intelligence Commons / Poietic Match.
@@ -223,6 +223,33 @@
 # gated plan (`tmp/adr-0073-f1-sensor-oracle-governance-plan-2026-04-25.md` per
 # sandbox-fallback precedent), ratified at Step 2 via operator directive 2026-04-25
 # ("Accept child's default bundle on all 10 axes per decision-brief 2026-04-25").
+# v16 (2026-04-25): adds 2 derived glossary slugs (`failure-mode-class`, `coupling-
+# breakdown`) for ADR-0075 failure-modes foundation-doc promotion (Phase 4 Tier B
+# first admission under operator-inverted F6→F5→F3 ordering). `failure-mode-class`
+# is the meta-level concept naming F6's taxonomy unit (a canonically-recognized
+# category of coordination-breakdown; admitting a 9th class requires honest-rigor
+# ≥2-cluster threshold per F6 §Open Questions category-admission discipline).
+# `coupling-breakdown` bridges F6 to structural-legitimacy sibling-doctrine (ADR-0042
+# is positive doctrine; F6 is counterpart taxonomy; `coupling-breakdown` is the
+# specific failure-shape-family anchoring F6.7 actor-capture where authority-
+# consequence coupling fails). Neither slug is a new primitive, doctrine, mode, or
+# property. Canon object-class inventory preserved at 4 categories plus derived
+# glossary slugs (8 → 10) plus patterns (7). Eight category-names (F6.1 through
+# F6.8) stay prose-only per ADR-0053 precedent — category-names are composites of
+# existing frozen-vocab and do not warrant individual slugification. `substitution-
+# trap` (v6), `decentralization-theater` (v2), `filtering-membrane` (v2), and other
+# pre-existing failure-adjacent slugs remain unchanged. F6.8 §4.8.3 introduces the
+# prose naming `capture-via-composition` (novel naming for ADR-0005 bundle shape)
+# but does NOT admit it as a slug — it operates as the category-internal sub-shape
+# label at foundation-doc layer. Extension operator-authorized under ADR-0075
+# failure-modes decision-gated plan (`tmp/adr-0075-f6-decision-brief-2026-04-25.md`
+# per sandbox-fallback precedent), ratified at Step 2 via operator directive 2026-
+# 04-25 ("RATIFIES all 10 child-recommended defaults: A1 all-8 / B2 per-category /
+# C1 inherit ADR-0046 / D2 2-slug / E1 F3-forward-ref / F1 5-file atomic-bundle /
+# G1 protocol-based / H2 sibling-doctrine / I1 narrow Spore-only / J1 narrow");
+# two operator amendments carried: (1) F6.8 internal sub-taxonomy non-negotiable
+# (three sub-modes distinguished); (2) §Consequences method-precedent naming Tier
+# B template-inheritance with honest-rigor per-axis divergence.
 
 concepts:
   - slug: governance-memory
@@ -609,4 +636,16 @@ concepts:
     canonical_label: Replication Regime
     aliases: [replication-regime-evidence, reproductive-evidence-replication, capacity-to-re-enact]
     one_line_definition: Derived glossary slug admitted under ADR-0073 (Phase 4 Tier A first admission; foundation-doc slug-admission piggyback method-precedent) per ADR-0049 §179 direct naming — Evidence subspecies where the grounding is the sustained capacity to re-enact (repeated measurement, re-attestation, re-summarization) across generational change of participants. A replication-regime Evidence claim depends on the phenomenon remaining measurable, attestable, or summarizable when maintainers change, instruments are replaced, or AI models are updated. A phenomenon whose Evidence rests on an instrument or attester that cannot be replicated has a brittle Evidence base. Maintainer-succession (sensor-oracle-governance §4.3) is load-bearing: replication-regime Evidence requires maintainer-assignment protocols to include explicit succession practice, not just current-appointment clarity. Operates at primitive-verb layer (reproduction-continuity, ADR-0049); distinct from and does NOT collapse into visibility-doctrine layer (`reproductive-commoning`, ADR-0002) or asymmetric-relational-doctrine layer (`care-commoning`, ADR-0045). See `docs/foundations/sensor-oracle-governance.md` §5 Reproductive Evidence.
+    primary_project: spore
+
+  - slug: failure-mode-class
+    canonical_label: Failure-Mode Class
+    aliases: [failure-category, failure-mode-category, coordination-breakdown-class]
+    one_line_definition: Derived glossary slug admitted under ADR-0075 (Phase 4 Tier B first admission; failure-modes foundation-doc promotion) naming the meta-level taxonomy unit of F6. A failure-mode class is a structural pattern of coordination-breakdown — not a one-off error or operational incident, but a recognizable shape that recurs across instances and is canon-legible at Field layer. F6 admits 8 classes at authoring time (F6.1 representation / F6.2 protocol / F6.3 sensor-attestation-evidence-integrity / F6.4 scale-transition / F6.5 membrane-boundary / F6.6 commitment-break / F6.7 actor-capture / F6.8 meta-pattern-composition); a 9th class requires honest-rigor ≥2-cluster independent-tradition threshold per F6 §Open Questions category-admission discipline. Category-names themselves are prose-only (composites of existing frozen-vocab) and are NOT individually slugified; this slug names the class-of-thing, not any specific class. NOT a primitive, doctrine, mode, property, or pattern. See `docs/foundations/failure-modes.md`.
+    primary_project: spore
+
+  - slug: coupling-breakdown
+    canonical_label: Coupling Breakdown
+    aliases: [authority-consequence-decoupling, legitimacy-breakdown, coupling-failure]
+    one_line_definition: Derived glossary slug admitted under ADR-0075 naming the specific failure-shape-family where structural-legitimacy authority-consequence coupling (per ADR-0042 `docs/foundations/structural-legitimacy.md`) fails — decision-makers become insulated from the consequences of their decisions. Bridges F6 failure-modes to structural-legitimacy as sibling-doctrine: structural-legitimacy names the positive doctrine (authority-consequence coupling grounds legitimacy); `coupling-breakdown` names the failure-counterpart that anchors F6.7 actor-capture category (maintainer capture, admin-class accumulation, regulatory capture, digital-labor-as-free-gift are all sub-shapes of coupling-breakdown). `structural-legitimacy.md:50` explicitly defers "a unified failure-mode taxonomy for coupling-breakdown" to F6; this slug is the canon-legible handle for that deferral. NOT all failure-mode classes reduce to coupling-breakdown — F6.8 meta-pattern failures, F6.4 scale-transition failures, F6.1 representation failures do not fit the coupling-breakdown shape; the slug is F6.7-specific with cross-ref from F6.5 asymmetric-capture sub-shape. NOT a primitive, doctrine, mode, property, or pattern. See `docs/foundations/failure-modes.md` §4.7 and `docs/foundations/structural-legitimacy.md` §Open Questions.
     primary_project: spore
