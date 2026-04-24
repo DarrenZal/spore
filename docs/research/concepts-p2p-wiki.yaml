@@ -1,6 +1,6 @@
 # status: frozen
-# version: v14
-# frozen_at: 2026-04-24
+# version: v15
+# frozen_at: 2026-04-25
 # owner: Darren Zal
 # purpose: Canonical concept vocabulary governing ADR `concepts:` references, shared framing notes, and bridge-note R-claim `concept:` values across Spore / Intelligence Commons / Poietic Match.
 # Agents reading this file MUST NOT mint concept slugs outside this vocabulary during
@@ -203,6 +203,26 @@
 # `docs/patterns/view-template.md`. Extension operator-authorized under ADR-0070
 # view-template-catalog-pattern decision-gated plan (`~/.claude/plans/adr-0070-view-
 # template-catalog-pattern.md`), ratified at Step 2 via operator directive 2026-04-24.
+# v15 (2026-04-25): adds 2 derived glossary slugs (`longitudinal-attestation`,
+# `replication-regime`) for ADR-0073 sensor-oracle-governance foundation-doc promotion
+# (Phase 4 Tier A first admission). Both slugs are Evidence subspecies operating in
+# reproduction-continuity context, directly named in ADR-0049 §179 as canon-expected
+# vocabulary to be introduced when the sensor-and-oracle-governance foundation doc
+# lands: "the reproductive-Evidence reading (longitudinal attestation; replication-
+# regime) as explicit subspecies of Evidence operating in reproduction-continuity
+# context." Foundation-doc slug-admission piggyback (method-precedent at ADR-0073
+# §Consequences): rather than deferring these two slugs to a separate glossary-bundle
+# ADR (ADR-0053 precedent shape), the foundation-doc ADR admits them atomically,
+# honoring the ADR-0049 forward-ref naming commitment directly. Three-way distinction
+# preservation: both slugs operate at the primitive-verb layer (reproduction-continuity
+# per ADR-0049), NOT at the visibility-doctrine layer (`reproductive-commoning`, ADR-
+# 0002) or the asymmetric-relational-doctrine layer (`care-commoning`, ADR-0045). Canon
+# object-class inventory preserved at 4 categories (primitives / doctrines / modes /
+# properties) plus derived glossary slugs (6 → 8) plus patterns (7, per ADR-0070).
+# Extension operator-authorized under ADR-0073 sensor-oracle-governance decision-
+# gated plan (`tmp/adr-0073-f1-sensor-oracle-governance-plan-2026-04-25.md` per
+# sandbox-fallback precedent), ratified at Step 2 via operator directive 2026-04-25
+# ("Accept child's default bundle on all 10 axes per decision-brief 2026-04-25").
 
 concepts:
   - slug: governance-memory
@@ -577,4 +597,16 @@ concepts:
     canonical_label: View Template
     aliases: [graph-view-template, view-template-pattern]
     one_line_definition: Pattern-library-layer catalog of five graph views composed over Spore's three primary graph projections. Members: Roadmap DAG (Constitutional specialization ordering initiatives, milestones, and dependencies by sequence), Intent hypergraph (Commitment pre-stage for multi-party offers / needs / conditions), Event graph (Commitment + Epistemic temporal projection), Routing/flow graph (Commitment pool-flow projection), and Discourse graph (Constitutional + Epistemic governance-revision layer). Admitted under ADR-0070 as the first catalog-pattern under ADR-0065's M4 sub-class framework. The catalog binds because each member is a specialization of, or join-derivable from, the three-primary substrate rather than an independent primary projection. No individual sub-entity slugs were minted at admission.
+    primary_project: spore
+
+  - slug: longitudinal-attestation
+    canonical_label: Longitudinal Attestation
+    aliases: [sustained-track-record-evidence, reproductive-evidence-longitudinal]
+    one_line_definition: Derived glossary slug admitted under ADR-0073 (Phase 4 Tier A first admission; foundation-doc slug-admission piggyback method-precedent) per ADR-0049 §179 direct naming — Evidence subspecies where the grounding is not a single-moment reading but a sustained track-record across reproduction cycles. A longitudinal attester (human, instrument, or AI-summary process) reports on phenomena whose reality is constituted by continuity across time (ongoing stewardship, sustained ecosystem health, commitment-pool metabolic cycle across many settlements). Single-moment readings are diagnostic but not the Evidence itself; the Evidence is the pattern across the cycle. Operates at primitive-verb layer (reproduction-continuity, ADR-0049); distinct from and does NOT collapse into visibility-doctrine layer (`reproductive-commoning`, ADR-0002) or asymmetric-relational-doctrine layer (`care-commoning`, ADR-0045). Continuity-constituted absent-evidence rule applies (per ADR-0073 §4.7 + §5): absent reading ≠ absent phenomenon; persistent absence is governance-decay. Governance operates under sensor-oracle-governance foundation doctrine across machine / human / AI-summary modalities. See `docs/foundations/sensor-oracle-governance.md` §5 Reproductive Evidence.
+    primary_project: spore
+
+  - slug: replication-regime
+    canonical_label: Replication Regime
+    aliases: [replication-regime-evidence, reproductive-evidence-replication, capacity-to-re-enact]
+    one_line_definition: Derived glossary slug admitted under ADR-0073 (Phase 4 Tier A first admission; foundation-doc slug-admission piggyback method-precedent) per ADR-0049 §179 direct naming — Evidence subspecies where the grounding is the sustained capacity to re-enact (repeated measurement, re-attestation, re-summarization) across generational change of participants. A replication-regime Evidence claim depends on the phenomenon remaining measurable, attestable, or summarizable when maintainers change, instruments are replaced, or AI models are updated. A phenomenon whose Evidence rests on an instrument or attester that cannot be replicated has a brittle Evidence base. Maintainer-succession (sensor-oracle-governance §4.3) is load-bearing: replication-regime Evidence requires maintainer-assignment protocols to include explicit succession practice, not just current-appointment clarity. Operates at primitive-verb layer (reproduction-continuity, ADR-0049); distinct from and does NOT collapse into visibility-doctrine layer (`reproductive-commoning`, ADR-0002) or asymmetric-relational-doctrine layer (`care-commoning`, ADR-0045). See `docs/foundations/sensor-oracle-governance.md` §5 Reproductive Evidence.
     primary_project: spore
