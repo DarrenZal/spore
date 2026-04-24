@@ -1,7 +1,7 @@
 ---
 doc_id: spore.canon-decision.actuator-logic-foundation-doc-promotion
 doc_kind: decision-record
-status: active
+status: draft
 adr_number: "0076"
 opened-on: 2026-04-25
 closed-on: 2026-04-25

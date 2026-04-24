@@ -1,7 +1,7 @@
 ---
 doc_id: spore.actuator-logic
 doc_kind: foundation
-status: active
+status: draft
 depends_on:
   - spore.project-vision
   - spore.governance-artifacts
