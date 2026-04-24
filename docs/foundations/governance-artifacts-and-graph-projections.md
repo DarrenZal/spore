@@ -89,6 +89,20 @@ Every governance artifact has two representations:
 
 Text is authoritative; graph is a derived view. Constitutional artifacts are authored as text, and graph representations are generated from that text through tooling (frontmatter parsers, dependency extractors, entity resolvers — currently `koi-processor/scripts/ingest_spec_dag.py`). When text and graph disagree, text is canonical and the graph is regenerated to match. This direction of derivation is deliberate: text is the surface where humans debate and revise, and graph is the surface where machines query and compose. The two representations are complementary but not peers — one authors, one derives.
 
+## Four Categories of Canon Objects
+
+Parallel to `project-vision.md:111` (ADR-0048), Spore distinguishes four categories of canon objects:
+
+- **Primitives** — the structural substrate (field / holon / membrane) and coordination operations (intent / commitment / joint-commitment / evidence / signal / reproduction) themselves. Earning-test per ADR-0044.
+- **Cross-cutting doctrines** — lenses applied across primitives: reproductive-commoning (ADR-0002), boundary-commoning (ADR-0003), care-commoning (ADR-0045). Practice-orientations, not separate operations.
+- **Modes-across-primitives** — grammatical properties or dynamics of how primitives operate: allocational / expressive / constructed power per Johar three-form framework (ADR-0047/0048). Qualities of primitive operation, not separate elements.
+- **Patterns** — recurring compositions mediating between containment and connection, organized as a composition-class with three sub-shapes per ADR-0065 M4 framework:
+  - **composition-patterns** — patterns composed over primitives / doctrines / modes / properties (e.g. governance-memory pattern; federation-encounter admission candidate per ADR-0055 triggers E-1..E-5). Sub-class earning-test: composition-articulability AND ≥3 independent instance-families.
+  - **design-criteria-patterns** — patterns articulating named design-criteria-clusters for field-conditions or coordination-substrate (e.g. four-enabling-conditions parking per ADR-0048 — space / mission / resources / knowledge for constructed-power). Sub-class earning-test: ≥N articulated criteria (N≥3 floor; Johar-4 exemplar) AND ≥1 full-cluster primary-tradition + criteria-operationality evidence.
+  - **catalog-patterns** — patterns hosting ≥N legitimate sub-entities each independently-motivated with host-structure rationale (e.g. view-template pattern-library doc parking per ADR-0058 over 5 demoted graph projections — Roadmap DAG / Intent hypergraph / Event / Routing-flow / Discourse). Sub-class earning-test: ≥N sub-entities (N≥3 floor; view-template-5 exemplar) AND host-structure-earning-test (named host-structure property + per-sub-entity demonstration + composition-or-aggregation rule).
+
+Sub-classes are variations-of-pattern-family, not separate canon-object-classes — four-category inventory preserved. Sub-class earning-tests are formally specified in ADR-0065 §M4 Sub-class Framework; N-thresholds are deferred to per-admission-ADR Step 0.5 audit with exemplar precedents cited. Modes are distinct from primitives (they are qualities of operation, not separate elements) and distinct from doctrines (they are structural properties, not lenses). Admission workflow for new patterns: dedicated-ADR per candidate applying sub-class-appropriate test (ADR-0065 Axis E1).
+
 ## Graph Projections
 
 Different aspects of the coordination ecology are best captured by different graph structures. These are not separate databases — they are projections of one living system, each revealing different structure. They should be read as conceptual projections over a coordination ecology, not as one always-available distributed query substrate.

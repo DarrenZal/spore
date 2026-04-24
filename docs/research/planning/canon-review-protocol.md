@@ -33,6 +33,8 @@ A full cycle runs intake → capstone → canon review → protocol-evolution �
 
 Canon = foundation + vision + roadmap docs that define each project's normative self-description. Research notes, bridge notes, capstone syntheses, patterns, governance, positioning, protocols, and operational docs are NOT canon for the purposes of this protocol.
 
+**Scope-conditioning on "patterns"** (ADR-0065 Axis I4; inherits ADR-0062/0063/0064 primitive-bullet scope-conditioning canon-method applied to this protocol-file). Patterns operate under four framings simultaneously: (i) *doc_kind-canonical* per `docs/patterns/governance-memory.md:36` (enumerated in the 9 canonical doc_kinds); (ii) *canon-object-class* per `docs/project-vision.md:111` (fourth category of canon objects alongside primitives / doctrines / modes / properties, organized as composition-class with three sub-shapes per ADR-0065 M4 framework); (iii) *canon-review-protocol-scope-exclusion* per this protocol's lines 34 + 58 (the framing being scope-conditioned); (iv) *product-vocabulary* per `docs/project-vision.md:10, :299` (Agent Commons as published pattern-language artifact). Framings (i) + (ii) + (iv) are broad canon-roles for patterns; framing (iii) narrows THIS protocol's procedural-gate scope. Individual pattern admissions operate outside canon-review-protocol under ADR-0065 pattern-library-infrastructure-spec (dedicated-ADR per candidate per Axis E1, applying sub-class-appropriate earning-test at admission-ADR Step 0.5). Canon-object (broad) ≠ canon-review-protocol-target (narrow).
+
 **Spore canon (in-scope)**:
 - `docs/foundations/governance-artifacts-and-graph-projections.md`
 - `docs/foundations/holonic-network-architecture.md`
@@ -56,6 +58,8 @@ Canon = foundation + vision + roadmap docs that define each project's normative 
 - Plus `docs/research/canon-decisions/*.md`
 
 **Explicitly out of scope**: governance/, patterns/, positioning/, protocols/, synthesis/, phase-0-spec (PM), all code, research/ except for canon-decisions and canon-framing files created by this protocol. If a priority-queue item clearly implies changes outside canon, file a follow-on plan — do NOT expand canon-review scope to absorb it.
+
+*(Scope-conditioning note per §1 scope-conditioning on "patterns" above: `patterns/` out-of-scope here means out-of-THIS-protocol's-admission-workflow, NOT out-of-canon-object-class. Pattern admissions follow ADR-0065 pattern-library-infrastructure-spec workflow — dedicated-ADR per candidate with sub-class-appropriate earning-test per ADR-0065 M4 framework. ADR-0065 itself is a canon-decision created by this protocol and is in-scope; the individual pattern files at `docs/patterns/*.md` that ADR-0065 governs are out-of-scope for this protocol's canon-review cycle.)*
 
 ## 2. Canonical R-claim identifier convention
 
