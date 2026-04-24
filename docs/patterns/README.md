@@ -60,7 +60,7 @@ New pattern admissions follow the **dedicated-ADR per candidate** workflow (ADR-
 | `federation-encounter.md` | `spore.federation-encounter` | active | composition-pattern | YES |
 | `governance-memory.md` | `spore.governance-memory` | active | composition-pattern | YES |
 | `intent-publication-and-activation.md` | `spore.intent-publication` | active | composition-pattern | NO |
-| `view-template.md` | `spore.view-template` | draft | catalog-pattern | YES |
+| `view-template.md` | `spore.view-template` | active | catalog-pattern | YES |
 
 Tentative sub-class classifications are informational, not retroactively enforced (Axis J1 grandfathers existing patterns). Re-verification at any admission-ADR evaluating these files is welcome. `federation-encounter.md` and `view-template.md` are the first and third Wave-2 admissions under ADR-0065's M4 framework (via ADR-0068 and ADR-0070 respectively); ADR-0069 supplies the intervening decline-with-triggers precedent for the design-criteria sub-class.
 

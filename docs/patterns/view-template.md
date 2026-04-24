@@ -1,7 +1,7 @@
 ---
 doc_id: spore.view-template
 doc_kind: pattern
-status: draft
+status: active
 depends_on:
   - spore.canon-decision.phase-2c-graph-projections-dual-axis-bundle
   - spore.governance-artifacts

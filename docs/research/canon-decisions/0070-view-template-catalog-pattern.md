@@ -1,10 +1,11 @@
 ---
 doc_id: spore.canon-decision.view-template-catalog-pattern
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0070"
 date: 2026-04-24
 opened-on: 2026-04-24
+closed-on: 2026-04-24
 decision: admit
 depends_on:
   - spore.canon-decision.phase-2c-graph-projections-dual-axis-bundle
@@ -60,7 +61,7 @@ concepts:
 
 ## Status
 
-draft (opened 2026-04-24 under `adr-0070-view-template-catalog-pattern` decision-gated plan; operator ratified `A1/B1/C1/D1/E1/F2/G1` on 2026-04-24 with Constraint-10 `M CLAUDE.md` pre-ratified as parent-session housekeeping).
+active (activated 2026-04-24 under `adr-0070-view-template-catalog-pattern` decision-gated plan; operator ratified `A1/B1/C1/D1/E1/F2/G1` on 2026-04-24 with Constraint-10 `M CLAUDE.md` pre-ratified as parent-session housekeeping).
 
 ## Context
 
@@ -91,7 +92,7 @@ The Step 0.5 audit established the following facts:
 ### Canon baseline preserved by this ADR
 
 - Canon object-class inventory remains at four categories.
-- Pattern inventory will increase from six to seven in-scope patterns once activated.
+- Pattern inventory is seven in-scope patterns at activation.
 - `docs/research/concepts-p2p-wiki.yaml` will move from v13 to v14 with a single new slug `view-template`.
 - ADR-0058 remains unchanged as the historical parking source.
 
