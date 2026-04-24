@@ -2,7 +2,7 @@
 doc_id: spore.research.external.ruddick-2026-commitment-pool
 doc_kind: research
 research_subkind: external_paper
-status: deprecated
+status: archived
 source_pdf: ~/Downloads/ssrn-6606438.pdf
 source_ssrn: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6606438
 author: William O. Ruddick

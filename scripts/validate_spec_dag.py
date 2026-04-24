@@ -107,7 +107,7 @@ def load_project_config(repo_root: Path):
 # Validation
 # ---------------------------------------------------------------------------
 
-DECISION_RECORD_STATUSES = {"draft", "active", "deprecated", "superseded"}
+DECISION_RECORD_STATUSES = {"draft", "active", "deprecated", "superseded", "archived"}
 PROPOSAL_STATUSES = {"draft", "cooling-off", "eligible", "authorized-ADR", "executed", "closed"}
 TIER0_REQUIRED = {"doc_id", "doc_kind", "status", "depends_on"}
 
