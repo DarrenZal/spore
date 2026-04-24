@@ -27,6 +27,7 @@ Theory and first principles that define what kind of system this is:
 - [governance-artifacts-and-graph-projections.md](./foundations/governance-artifacts-and-graph-projections.md) — how visions, intents, and commitments form a coordination ecology with dual text/graph representation
 - [structural-legitimacy.md](./foundations/structural-legitimacy.md) — authority-consequence coupling as the basis of governance legitimacy (replaces the earlier DAG-of-authority framing)
 - [sensor-oracle-governance.md](./foundations/sensor-oracle-governance.md) — doctrine for sensor selection, calibration, maintainer roles, contestation, disagreement, interpretation authority, and absent-evidence handling across machine / human / AI-summary modalities
+- [representation-authority.md](./foundations/representation-authority.md) — inter-layer precedence doctrine across the five canon representation layers (text / graph / sensor / attestation / agent-summary); extends ADR-0041 text-authoritative-representation; hybrid default + context-overrides + appeal-protocol per ADR-0046 rule-stack
 - [spore-instance-model.md](./foundations/spore-instance-model.md) — how Spore materializes: canon, node, agent, site
 
 ## Patterns
