@@ -1,7 +1,7 @@
 ---
 doc_id: spore.canon-decision.actor-governance-foundation-doc-promotion
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0077"
 opened-on: 2026-04-25
 closed-on: 2026-04-25
