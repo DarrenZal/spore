@@ -1,6 +1,6 @@
 # status: frozen
-# version: v12
-# frozen_at: 2026-04-22
+# version: v13
+# frozen_at: 2026-04-24
 # owner: Darren Zal
 # purpose: Canonical concept vocabulary governing ADR `concepts:` references, shared framing notes, and bridge-note R-claim `concept:` values across Spore / Intelligence Commons / Poietic Match.
 # Agents reading this file MUST NOT mint concept slugs outside this vocabulary during
@@ -155,6 +155,39 @@
 # ecology-of-courage encounter-engineering, johar-miss-engineered-city) canon-legibly
 # anchored via slug + framing-note without primitive-inflation. Extension operator-
 # authorized under canon-rebuild-encounter-10th-primitive-evaluation.
+# v13 (2026-04-24): adds 1 slug (`federation-encounter`) for ADR-0068 federation-encounter
+# composition-pattern admission — first Wave-2 pattern-library admission under ADR-0065 M4
+# sub-class framework. Alias-to-slug promotion pattern (inherits ADR-0045 `care-commoning`
+# precedent): `federation-encounter` was previously an alias of the `encounter` derived
+# glossary slug (v12, ADR-0055 aliases list); admitted as standalone slug at v13 to
+# distinguish (a) `encounter` as general glossary-layer event-scope-shape anchor (applies
+# wherever the Signal + Joint-commitment + Intent + Evidence composition fires within
+# bounded Field-conditions — including 1:1 focus-sessions, coaching encounters, etc.) from
+# (b) `federation-encounter` as pattern-library-layer canonical coordination-recipe scoped
+# to federation-scale contexts (multi-party, often multi-org, often multi-node-spanning).
+# Pattern-library admission under ADR-0065 §M4 composition-pattern sub-class earning-test:
+# (α-comp) composition-articulability PASSES (ADR-0055 framing-note §3 articulates Signal +
+# Joint-commitment + Intent + Evidence within bounded Field-conditions; spot-verified
+# against PM match-events independently of framing-note authorship); (β-comp) ≥3
+# independent instance-families PASSES at N=4 under ADR-0064 honest-rigor cluster-counting
+# discipline (BKC/Octo bioregional federation / PM match-events / DW stand-ups+design-
+# reviews / Cross-federation compose-events; all 6 pair-wise independence checks pass).
+# Trigger-gate authorization: ADR-0055 E-1 CLOSED (ADR-0065 landed 2026-04-24 HEAD
+# `1b76701`) + E-5 FIRED (ADR-0064 co-presence-Field-condition scope-conditioning landed
+# 2026-04-23 HEAD `982fb91`); either sufficient per ADR-0055 §Trigger discipline. Pattern
+# doc at `docs/patterns/federation-encounter.md` with `depends_on: [spore.governance-
+# artifacts, spore.federation-protocol]`, concepts cross-ref includes both `federation-
+# encounter` and `encounter`, `relates_to:` list exercises ADR-0065 Axis C3 optional
+# typed-edge for first time in pattern library (sibling-patterns: commitment-pooling,
+# governance-memory, intent-publication). Canon object-class inventory PRESERVED at 4
+# categories (9 primitives / 3 doctrines / 2 modes / 2 properties) + 5+1 in-scope
+# patterns under M4 sub-class framework. 3 downstream Wave-2 admissions remain TRACTABLE:
+# four-enabling-conditions (design-criteria-pattern; ADR-0048 parking) + view-template
+# (catalog-pattern; ADR-0058 parking). Extension operator-authorized under ADR-0068
+# federation-encounter-composition-pattern decision-gated plan (`~/.claude/plans/adr-0068-
+# federation-encounter-composition-pattern.md`), ratified at Step 2 via fast-path
+# acceptance 2026-04-24 ("accept child recommendations on A/B/C/D/E/F/G as per decision-
+# brief 2026-04-24").
 
 concepts:
   - slug: governance-memory
@@ -515,6 +548,12 @@ concepts:
 
   - slug: encounter
     canonical_label: Encounter
-    aliases: [federation-encounter, structured-encounter, coordination-event]
-    one_line_definition: Derived glossary slug for event-scope-shape where multiple holons co-present in a bounded temporal-spatial window, hosting Signal (invitation/reframing-transmission) + Joint-commitment (attendance-pledge/shared-orientation) + Intent (pre-event-surfacing/in-event-shaping) + Evidence (in-event-attestation/post-event-capture) composition within Field-conditions (temporal window, co-location, rule-in-use scaffolding per ADR-0046). Admitted under ADR-0055 (post-Phase-3b encounter-evaluation, Option D + E.1 hybrid) after honest dedicated earning-test evaluation ADR-0048 line 73 mandated — (a) FAILS at verb-primitive level (four candidate operations decompose into existing-verb-compositions or are already named as constructed-power mode per ADR-0048); (b) PASSES multi-scale operational pressure but not primitive-uniquely. NOT a primitive, NOT a doctrine, NOT a mode, NOT a property. Canon object-class inventory preserved. Johar-native structured-encounter-as-discipline reading (johar-situational-truthing "disciplined conversation"; johar-metacognition-stack Layer-10 architectural encounter-rules; johar-ecology-of-courage encounter-engineering) honored at discipline-layer not primitive-layer. Federation-encounter parked as pattern-library admission candidate under 5 operationally-falsifiable triggers (E-1 through E-5). See docs/research/connections/canon-framing-encounter-as-composition.md for compositional decomposition, Johar-native discipline articulation, residue enumeration (R-Enc-1 through R-Enc-4), and pattern-library triggers.
+    aliases: [structured-encounter, coordination-event]
+    one_line_definition: Derived glossary slug for event-scope-shape where multiple holons co-present in a bounded temporal-spatial window, hosting Signal (invitation/reframing-transmission) + Joint-commitment (attendance-pledge/shared-orientation) + Intent (pre-event-surfacing/in-event-shaping) + Evidence (in-event-attestation/post-event-capture) composition within Field-conditions (temporal window, co-location, rule-in-use scaffolding per ADR-0046). Admitted under ADR-0055 (post-Phase-3b encounter-evaluation, Option D + E.1 hybrid) after honest dedicated earning-test evaluation ADR-0048 line 73 mandated — (a) FAILS at verb-primitive level (four candidate operations decompose into existing-verb-compositions or are already named as constructed-power mode per ADR-0048); (b) PASSES multi-scale operational pressure but not primitive-uniquely. NOT a primitive, NOT a doctrine, NOT a mode, NOT a property. Canon object-class inventory preserved. Johar-native structured-encounter-as-discipline reading (johar-situational-truthing "disciplined conversation"; johar-metacognition-stack Layer-10 architectural encounter-rules; johar-ecology-of-courage encounter-engineering) honored at discipline-layer not primitive-layer. See docs/research/connections/canon-framing-encounter-as-composition.md for compositional decomposition, Johar-native discipline articulation, residue enumeration (R-Enc-1 through R-Enc-4). The federation-scoped pattern-library admission predicted by ADR-0055 triggers E-1 through E-5 landed under ADR-0068 as a distinct `federation-encounter` slug (see below; alias-to-slug promotion at v13).
+    primary_project: spore
+
+  - slug: federation-encounter
+    canonical_label: Federation Encounter
+    aliases: [federation-encounter-pattern, federation-event-coordination-recipe]
+    one_line_definition: Pattern-library-layer coordination-recipe for federation-scale event-coordination (multi-party, often multi-org, often multi-node-spanning), composed as Signal (invitation/reframing-transmission) + Joint-commitment (attendance-pledge/shared-orientation) + Intent (pre-event-surfacing/in-event-shaping) + Evidence (in-event-attestation/post-event-capture) within bounded Field-conditions (temporal-spatial scope; rule-in-use scaffolding per ADR-0046; co-presence-mode scope-conditioning per ADR-0064). Admitted under ADR-0068 as the first Wave-2 pattern-library admission under ADR-0065 §M4 composition-pattern sub-class earning-test — (α-comp) composition-articulability PASSES (ADR-0055 framing-note §3 articulates composition; spot-verified against PM match-events independently of framing-note authorship); (β-comp) ≥3 independent instance-families PASSES at N=4 under ADR-0064 honest-rigor cluster-counting discipline (BKC/Octo bioregional federation / PM match-events / DW stand-ups+design-reviews / Cross-federation compose-events; all 6 pair-wise independence checks pass). Pattern-doc at `docs/patterns/federation-encounter.md`. Distinct from the general `encounter` derived glossary slug (above): `encounter` anchors the general event-scope concept applicable wherever the 5-element composition fires (including 1:1 focus-sessions, coaching encounters, etc.); `federation-encounter` anchors the federation-scoped coordination-recipe for adopters. Alias-to-slug promotion at v13 (inherits ADR-0045 `care-commoning` precedent — promoting a v12-era alias of `encounter` into a first-class v13 slug). Trigger-gate status: ADR-0055 E-1 CLOSED (ADR-0065 landed 2026-04-24) + E-5 FIRED (ADR-0064 landed 2026-04-23); either sufficient per ADR-0055 §Trigger discipline.
     primary_project: spore

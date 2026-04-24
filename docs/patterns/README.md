@@ -57,16 +57,16 @@ New pattern admissions follow the **dedicated-ADR per candidate** workflow (ADR-
 | `commitment-pooling.md` | `spore.commitment-pooling` | active | composition-pattern | YES (primary_project: pm) |
 | `discourse-as-governance.md` | `spore.discourse-as-governance` | draft | composition-pattern | NO |
 | `federated-knowledge-exchange.md` | `spore.federated-knowledge-exchange` | active | composition-pattern | NO |
+| `federation-encounter.md` | `spore.federation-encounter` | draft | composition-pattern | YES |
 | `governance-memory.md` | `spore.governance-memory` | active | composition-pattern | YES |
 | `intent-publication-and-activation.md` | `spore.intent-publication` | active | composition-pattern | NO |
 
-Tentative sub-class classifications are informational, not retroactively enforced (Axis J1 grandfathers existing patterns). Re-verification at any admission-ADR evaluating these files is welcome.
+Tentative sub-class classifications are informational, not retroactively enforced (Axis J1 grandfathers existing patterns). Re-verification at any admission-ADR evaluating these files is welcome. `federation-encounter.md` is the first Wave-2 admission under ADR-0065 M4 framework (via ADR-0068, 2026-04-24).
 
 ## Parked admission candidates
 
-Post-ADR-0065, three pattern-library admission candidates become tractable under their mapped sub-class workflow:
+Post-ADR-0068, two remaining pattern-library admission candidates are tractable under their mapped sub-class workflow:
 
-- **federation-encounter** (composition-pattern) — ADR-0055 triggers E-1..E-5; E-5 fired via ADR-0064; E-1 closes via ADR-0065 existence.
 - **four-enabling-conditions** (design-criteria-pattern) — ADR-0048 parking; Johar's 4 criteria + primary-tradition.
 - **view-template pattern-library doc** (catalog-pattern) — ADR-0058 parking; 5 pre-demoted view-templates ready as starting content.
 
