@@ -1,7 +1,7 @@
 ---
 doc_id: spore.canon-decision.sensor-oracle-governance-foundation-doc-promotion
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0073"
 opened-on: 2026-04-25
 closed-on: 2026-04-25
@@ -52,7 +52,7 @@ concepts:
 
 ## Status
 
-draft (awaiting status-flip to active on close-out)
+active (authored + activated 2026-04-25 under canon-rebuild Phase 4 Tier A first admission)
 
 ## Context
 
