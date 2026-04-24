@@ -140,7 +140,7 @@ Constitutional artifacts describe desired states. Sensors describe actual states
 - **Economic sensors** — commitment pool state, token flows, settlement events
 - **Social sensors** — meeting transcripts, governance decisions, community signals
 
-When normative graphs (what we intend) and epistemic graphs (what we observe) are both machine-readable, the gap between them becomes computable. This connects to active inference: mismatch between vision graph and sensor graph creates latent intent-pressure — the directional force that, when made legible, becomes an inferred intent.
+When normative graphs (what we intend) and epistemic graphs (what we observe) are both machine-readable, the gap between them becomes computable. This connects to active inference: mismatch between vision graph and sensor graph creates an observable epistemic gap that, when made legible, becomes an inferred intent.
 
 ## Structure and Flow in the Graph Model
 
