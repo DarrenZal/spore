@@ -1,5 +1,5 @@
 # status: frozen
-# version: v16
+# version: v17
 # frozen_at: 2026-04-25
 # owner: Darren Zal
 # purpose: Canonical concept vocabulary governing ADR `concepts:` references, shared framing notes, and bridge-note R-claim `concept:` values across Spore / Intelligence Commons / Poietic Match.
@@ -250,6 +250,39 @@
 # two operator amendments carried: (1) F6.8 internal sub-taxonomy non-negotiable
 # (three sub-modes distinguished); (2) §Consequences method-precedent naming Tier
 # B template-inheritance with honest-rigor per-axis divergence.
+# v17 (2026-04-25): adds 2 derived glossary slugs (`epistemic-gap`, `response-
+# doctrine`) for ADR-0076 actuator-logic foundation-doc promotion (Phase 4 Tier B
+# second admission, same session as F6 ADR-0075). `epistemic-gap` is the structural
+# trigger-surface noun at the Phase 4 foundation layer — replaces the demoted
+# `intent-pressure` (ADR-0056 moved that term from foundation-lexicon to research-
+# connection status) as the canonical noun for the observable divergence between
+# declared intent or commitment-authored-state and sensor-reported or attested
+# reality. Inherits the phrasing `observable epistemic gap` already canon-live at
+# `docs/foundations/governance-artifacts-and-graph-projections.md:140` post-ADR-
+# 0059c palate-cleanser. `response-doctrine` is the meta-noun naming F5 actuator-
+# logic's canonical subject — the selection-protocol for operational response to
+# a recognized failure (per F6) or observable epistemic gap (per F1 + F4).
+# Response-category names (R1 acknowledge-and-record / R2 contest / R3 amend-
+# declared-state / R4 escalate / R7 hold-as-tension) stay prose-only per ADR-0053
+# precedent — compound phrases or already-canon-live verbs, slugification would
+# over-engineer. R5 withhold / R6 rollback are prose-only per ADR-0062/0063/0064
+# scope-conditioning-over-admission precedent (single-tradition engineering-ops;
+# honest-rigor earning-test fails at heavier-admission threshold; reversibility
+# axis parked as future-ADR trigger). Neither `epistemic-gap` nor `response-
+# doctrine` is a new primitive, doctrine, mode, or property. Canon object-class
+# inventory preserved at 4 categories plus derived glossary slugs (10 → 12) plus
+# patterns (7). Three method-precedents named at ADR-0076 §Consequences per
+# operator directive: (1) template-adaptability validated by re-convergence
+# (B1→B2→B1 across F1/F6/F5 proves substrate-driven discipline); (2) cite-don't-
+# redefine cross-foundation-doc composition (F5 inherits F4 §5.3 appeal-protocol
+# wholesale); (3) hybrid doctrine-pair relational shape H3 (F5 carries both
+# vertical substrate-child to ADR-0042 and horizontal operational-pair sibling
+# to F6). Extension operator-authorized under ADR-0076 actuator-logic decision-
+# gated plan (`tmp/adr-0076-f5-decision-brief-2026-04-25.md` per sandbox-fallback
+# precedent), ratified at Step 2 via operator directive 2026-04-25 ("RATIFIES all
+# 10 child-recommended defaults: A1 full / B1 unified / C1 inherit ADR-0046 /
+# D2 2-slug / E2 reframe with ADR-0056 cite / F1 5-file atomic-bundle / G2
+# inherit F4 appeal-protocol wholesale / H3 hybrid / I1 narrow / J1 narrow").
 
 concepts:
   - slug: governance-memory
@@ -648,4 +681,16 @@ concepts:
     canonical_label: Coupling Breakdown
     aliases: [authority-consequence-decoupling, legitimacy-breakdown, coupling-failure]
     one_line_definition: Derived glossary slug admitted under ADR-0075 naming the specific failure-shape-family where structural-legitimacy authority-consequence coupling (per ADR-0042 `docs/foundations/structural-legitimacy.md`) fails — decision-makers become insulated from the consequences of their decisions. Bridges F6 failure-modes to structural-legitimacy as sibling-doctrine: structural-legitimacy names the positive doctrine (authority-consequence coupling grounds legitimacy); `coupling-breakdown` names the failure-counterpart that anchors F6.7 actor-capture category (maintainer capture, admin-class accumulation, regulatory capture, digital-labor-as-free-gift are all sub-shapes of coupling-breakdown). `structural-legitimacy.md:50` explicitly defers "a unified failure-mode taxonomy for coupling-breakdown" to F6; this slug is the canon-legible handle for that deferral. NOT all failure-mode classes reduce to coupling-breakdown — F6.8 meta-pattern failures, F6.4 scale-transition failures, F6.1 representation failures do not fit the coupling-breakdown shape; the slug is F6.7-specific with cross-ref from F6.5 asymmetric-capture sub-shape. NOT a primitive, doctrine, mode, property, or pattern. See `docs/foundations/failure-modes.md` §4.7 and `docs/foundations/structural-legitimacy.md` §Open Questions.
+    primary_project: spore
+
+  - slug: epistemic-gap
+    canonical_label: Epistemic Gap
+    aliases: [observable-epistemic-gap, sensor-evidence-intent-divergence, gap-surface]
+    one_line_definition: Derived glossary slug admitted under ADR-0076 (Phase 4 Tier B second admission; actuator-logic foundation-doc promotion) as the structural trigger-surface noun at the Phase 4 foundation layer. An epistemic gap is an observable divergence between declared intent or commitment-authored-state (what canon or an instance specifies) and sensor-reported or attested reality (what F1 sensor-oracle-governance governs at input). Structurally replaces the demoted `intent-pressure` (per ADR-0056 which moved that term from foundation-lexicon to research-connection status) as canon's foundation-level trigger-noun for F5 actuator-logic response-doctrine. Inherits the phrasing `observable epistemic gap` already canon-live at `docs/foundations/governance-artifacts-and-graph-projections.md:140` post-ADR-0059c palate-cleanser. NOT dynamical-metaphor (no "pressure" / "force" / "metabolic" framing per ADR-0056 discipline); NOT a re-import of `intent-pressure` vocabulary. Fires F5 response-doctrine (R1 acknowledge-and-record / R2 contest / R3 amend-declared-state / R4 escalate / R7 hold-as-tension) per F5 §5.1 default-selection shape. NOT a primitive, doctrine, mode, property, or pattern. See `docs/foundations/actuator-logic.md` §2 Scope and `docs/foundations/governance-artifacts-and-graph-projections.md` §Grounding Through Sensors.
+    primary_project: spore
+
+  - slug: response-doctrine
+    canonical_label: Response Doctrine
+    aliases: [actuator-logic, response-selection-doctrine, gap-response-doctrine]
+    one_line_definition: Derived glossary slug admitted under ADR-0076 as the meta-noun naming F5 actuator-logic's canonical subject — the selection-protocol for operational response to a recognized failure (per F6 failure-modes) or observable epistemic gap (per F1 sensor-oracle-governance + F4 representation-authority). Binds to 5 canonically-classified response-categories (R1 acknowledge-and-record / R2 contest / R3 amend-declared-state / R4 escalate / R7 hold-as-tension) under B1 unified principled-rule structure (response-selection is governed by gap-shape + canonical text-type per F4 + rule-level per ADR-0046). R5 withhold / R6 rollback are operationally-valid prose-only response-shapes per ADR-0062/0063/0064 scope-conditioning-over-admission precedent; reversibility axis parked as future-ADR trigger. Response-doctrine inherits F4 §5.3 appeal-protocol wholesale per cite-don't-redefine cross-foundation-doc composition discipline (ADR-0076 method-precedent 2). Carries H3 hybrid relational shape to adjacent canon: substrate-child to ADR-0042 structural-legitimacy (authority-consequence coupling grounds response-legitimacy) AND operational-pair sibling to F6 failure-modes (F6 recognize → F5 respond). NOT a primitive, doctrine-in-the-cross-cutting-doctrine-category sense, mode, property, or pattern — it is a foundation-layer doctrinal subject name. See `docs/foundations/actuator-logic.md`.
     primary_project: spore
