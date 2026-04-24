@@ -1,5 +1,5 @@
 # status: frozen
-# version: v17
+# version: v18
 # frozen_at: 2026-04-25
 # owner: Darren Zal
 # purpose: Canonical concept vocabulary governing ADR `concepts:` references, shared framing notes, and bridge-note R-claim `concept:` values across Spore / Intelligence Commons / Poietic Match.
@@ -283,6 +283,48 @@
 # 10 child-recommended defaults: A1 full / B1 unified / C1 inherit ADR-0046 /
 # D2 2-slug / E2 reframe with ADR-0056 cite / F1 5-file atomic-bundle / G2
 # inherit F4 appeal-protocol wholesale / H3 hybrid / I1 narrow / J1 narrow").
+# v18 (2026-04-25): adds 2 derived glossary slugs (`actor-standing`, `governance-
+# response`) for ADR-0077 actor-governance foundation-doc promotion (Phase 4 Tier
+# B FINAL admission, same session as F6 ADR-0075 and F5 ADR-0076; closes Tier B).
+# `actor-standing` is the net-new vocabulary anchor for Q2 standing-grant doctrine
+# from audit-v2 §3.3 item 4 — names the canon-legible standing-to-act condition
+# that every authority-bearing role must establish at admission (per F3 §4.1) and
+# that actor-capture remediation must restore (per F3 §4.6). Standing requires
+# both an explicit grant-source AND coupling-to-consequence evidence (per ADR-
+# 0042); roles without both are canon-illegible. Distinct from `joint-commitment`
+# (the primitive verb at ADR-0050) and from `coupling-breakdown` (the F6.7
+# failure-shape at ADR-0075) — actor-standing names the positive condition;
+# coupling-breakdown names what fails when standing decays. `governance-response`
+# parallels `response-doctrine` (v17, F5) and names F3's discharge counterpart —
+# the doctrine for actor-capture-specific governance-response (per F3 §4.6
+# discharging F6.7 forward-ref). Distinct from `response-doctrine` (which is F5
+# response-doctrine for any epistemic gap) by being actor-capture-scoped: F5
+# selects among R1-R7 response-categories; F3 §4.6 specifies who-has-standing
+# and through-what-protocol when the response is governance-against-actor-capture.
+# Together the two slugs close the standing/response axis at actor layer that
+# audit-v2 §3.3 item 4's four framing questions (Q1 who decides under contest /
+# Q2 how is standing granted / Q3 what authority cycles are valid / Q4 how do
+# human and AI agents differ) collectively required. Q3 authority-cycles per
+# ADR-0042 inheritance (cycles are valid iff coupling preserves at every link);
+# Q4 human-vs-AI named at F3 §4.1 + §6 Open Questions per F1 §6 + F4 §6 precedent.
+# Neither slug is a primitive, doctrine, mode, property, or pattern. Canon
+# object-class inventory PRESERVED at 4 categories plus derived glossary slugs
+# (12 → 14) plus patterns (7). Three method-precedents named at ADR-0077
+# §Consequences per operator directive: (1) B5 SELECTIVE per-category synthesis-
+# depth (NOVEL fifth B-axis; substrate-driven heterogeneity discipline); (2) H3
+# 3-way hybrid relational shape (extends F5 2-way H3 to 3-way: substrate-child
+# to ADR-0042 + operational-pair sibling to F5 AND F6); (3) multi-forward-ref
+# cluster-discharge in single admission (highest single-ADR forward-ref count
+# in canon-rebuild arc — ADR-0042 §82 + F6.7 + F5 §4.2 all discharged at F3).
+# Phase 4 Tier B FULLY CLOSED with this admission; Tier C remaining (F7 + F8 +
+# F2 + F9). Extension operator-authorized under ADR-0077 actor-governance
+# decision-gated plan (`tmp/adr-0077-f3-decision-brief-2026-04-25.md` per
+# sandbox-fallback precedent), ratified at Step 2 via operator directive
+# 2026-04-25 ("RATIFIES all 10 child-recommended defaults: A1 admit-all-8 /
+# B5 SELECTIVE per-category synthesis-depth (NOVEL) / C1 inherit ADR-0046 /
+# D2 2-slug actor-standing+governance-response / E1 full forward-ref discharge /
+# F1 5-file atomic-bundle / G2 cite-don't-redefine F4 §5.3 / H3 HYBRID 3-way /
+# I1 narrow Spore-only / J1 narrow scope").
 
 concepts:
   - slug: governance-memory
@@ -693,4 +735,16 @@ concepts:
     canonical_label: Response Doctrine
     aliases: [actuator-logic, response-selection-doctrine, gap-response-doctrine]
     one_line_definition: Derived glossary slug admitted under ADR-0076 as the meta-noun naming F5 actuator-logic's canonical subject — the selection-protocol for operational response to a recognized failure (per F6 failure-modes) or observable epistemic gap (per F1 sensor-oracle-governance + F4 representation-authority). Binds to 5 canonically-classified response-categories (R1 acknowledge-and-record / R2 contest / R3 amend-declared-state / R4 escalate / R7 hold-as-tension) under B1 unified principled-rule structure (response-selection is governed by gap-shape + canonical text-type per F4 + rule-level per ADR-0046). R5 withhold / R6 rollback are operationally-valid prose-only response-shapes per ADR-0062/0063/0064 scope-conditioning-over-admission precedent; reversibility axis parked as future-ADR trigger. Response-doctrine inherits F4 §5.3 appeal-protocol wholesale per cite-don't-redefine cross-foundation-doc composition discipline (ADR-0076 method-precedent 2). Carries H3 hybrid relational shape to adjacent canon: substrate-child to ADR-0042 structural-legitimacy (authority-consequence coupling grounds response-legitimacy) AND operational-pair sibling to F6 failure-modes (F6 recognize → F5 respond). NOT a primitive, doctrine-in-the-cross-cutting-doctrine-category sense, mode, property, or pattern — it is a foundation-layer doctrinal subject name. See `docs/foundations/actuator-logic.md`.
+    primary_project: spore
+
+  - slug: actor-standing
+    canonical_label: Actor Standing
+    aliases: [standing-to-act, role-standing, governance-standing]
+    one_line_definition: Derived glossary slug admitted under ADR-0077 (Phase 4 Tier B FINAL admission; actor-governance foundation-doc promotion) as the net-new vocabulary anchor for Q2 standing-grant doctrine from audit-v2 §3.3 item 4 ("how is standing granted?"). Actor-standing is the canon-legible standing-to-act condition that every authority-bearing role must establish at admission per F3 §4.1 and that actor-capture remediation must restore per F3 §4.6. Standing requires BOTH an explicit grant-source (inheritance / election-or-selection / self-declaration-with-ratification) AND coupling-to-consequence evidence per ADR-0042 structural-legitimacy. Roles without both grounds are canon-illegible standing claims; they may persist informally but they do not bind canon and do not generate the consequence-coupling required for legitimacy. Distinct from `joint-commitment` (the verb-primitive at ADR-0050 — actor-standing is what a joint-actor must establish to enter joint-commitments) and from `coupling-breakdown` (the F6.7 failure-shape at ADR-0075 — actor-standing names the positive condition; coupling-breakdown names what fails when standing decays without renewal). Operates across all three Ostrom rule-levels per ADR-0046: constitutional rules establish role-eligibility; collective-choice rules govern admission protocols; operational rules apply standing in routine performance. NOT a primitive, doctrine-in-the-cross-cutting-doctrine-category sense, mode, property, or pattern — it is a foundation-layer doctrinal subject name. See `docs/foundations/actor-governance.md` §4.1 + §4.6.
+    primary_project: spore
+
+  - slug: governance-response
+    canonical_label: Governance Response
+    aliases: [actor-governance-response, capture-remediation-doctrine, governance-recovery]
+    one_line_definition: Derived glossary slug admitted under ADR-0077 as the meta-noun naming F3 actor-governance's actor-capture-remediation doctrine (per F3 §4.6 discharging F6.7 actor-capture forward-reference). Governance-response specifies who-has-standing and through-what-protocol when the operational response (per F5 actuator-logic response-doctrine) is governance-against-actor-capture. Distinct from `response-doctrine` (v17, F5 — selection-protocol for ANY epistemic gap across R1-R7 categories) by being actor-capture-scoped: F5 selects among R1-R7; F3 §4.6 specifies the actor-side governance-protocol when R2-contest fires for actor-capture or when escalation routes through F4 §5.3 appeal-protocol with actor-specific standing layered atop. Applies governance-response across all four F6.7 sub-shapes: maintainer-capture (recall pathway + co-maintainer + eligibility-restoration); admin-class accumulation (rotation-discipline + demographic-diversity protocols); regulatory capture (external-feedback channels + cross-federation oversight); digital-labor-as-free-gift (reproductive-labor recognition + labor-class standing-to-contest). Carries H3 3-way hybrid relational shape: substrate-child to ADR-0042 structural-legitimacy (coupling-to-consequence grounds remediation legitimacy) AND operational-pair sibling to F5 actuator-logic (R2-contest routes here) AND operational-pair sibling to F6 failure-modes (F6.7 recognizes; governance-response governs). NOT a primitive, doctrine-in-the-cross-cutting-doctrine-category sense, mode, property, or pattern — it is a foundation-layer doctrinal subject name. See `docs/foundations/actor-governance.md` §4.6.
     primary_project: spore
