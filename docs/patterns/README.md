@@ -70,10 +70,6 @@ Post-ADR-0065, three pattern-library admission candidates become tractable under
 - **four-enabling-conditions** (design-criteria-pattern) — ADR-0048 parking; Johar's 4 criteria + primary-tradition.
 - **view-template pattern-library doc** (catalog-pattern) — ADR-0058 parking; 5 pre-demoted view-templates ready as starting content.
 
-## Audit-outlier (deferred to ADR-0066)
-
-`docs/governance/project-briefing-pattern.md` carries `doc_kind: pattern` but sits outside `docs/patterns/`. Audit finding (Step 0.5 of ADR-0065) identifies it as audit-outlier on three dimensions: placement (`docs/governance/` not `docs/patterns/`), body shape (Problem → Forces → Solution variant), and citation state (0 inbound `depends_on`; isolated). Disposition deferred to ADR-0066 per operator K4 directive (ADR-0065 decision-gate 2026-04-24) — honest-rigor cluster-counting discipline (ADR-0064) argues against inventing a 4th sub-class on single-doc evidence. ADR-0066 evaluates the outlier freshly against the ratified M4 sub-classes once canon. ADR-0065 does NOT touch this file.
-
 ## Cross-references
 
 - [ADR-0065 pattern-library-infrastructure-spec](../research/canon-decisions/0065-pattern-library-infrastructure-spec.md) — this library's infrastructure spec (M4 sub-class framework + K4 outlier deferral).

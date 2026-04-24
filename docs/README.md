@@ -56,7 +56,7 @@ The rules Agent Commons uses for its own documentation and project governance:
 - [agent-commons-meta-protocol.md](./governance/agent-commons-meta-protocol.md) — artifact taxonomy and DAG rules
 - [matter-register.md](./governance/matter-register.md) — thin, queryable register of what Spore currently treats as load-bearing
 - [project-bootstrap-spec.md](./governance/project-bootstrap-spec.md) — tier definitions and bootstrap procedure
-- [project-briefing-pattern.md](./governance/project-briefing-pattern.md) — context assembly for agents
+- [project-briefing-spec.md](./governance/project-briefing-spec.md) — context assembly endpoint spec for agents
 - [adoption-guide.md](./governance/adoption-guide.md) — step-by-step onboarding
 
 ## Lexicon

@@ -1,14 +1,14 @@
 ---
-doc_id: spore.project-briefing-pattern
-doc_kind: pattern
+doc_id: spore.project-briefing-spec
+doc_kind: spec
 status: active
 depends_on:
   - spore.agent-commons-meta-protocol
 ---
 
-# Project Briefing Pattern
+# Project Briefing Spec
 
-A reusable pattern for assembling project context from a knowledge graph, extracted from the working Agent Commons governance layer.
+Operational definition for assembling project context from a knowledge graph via a single API endpoint, extracted from the working Agent Commons governance layer.
 
 ## Problem
 

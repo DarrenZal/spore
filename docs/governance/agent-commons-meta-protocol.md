@@ -20,7 +20,7 @@ Every document in a project using the Agent Commons governance layer has a `doc_
 | `architecture` | Structural decisions — how the system is shaped | Constrains specs and patterns | `spore.mycelial-holarchy-architecture` |
 | `foundation` | Foundational knowledge — domain models, principles | Informs architecture and specs | (domain-specific foundation docs) |
 | `spec` | Operational definitions — what must be true | Constrains implementations | `spore.project-bootstrap-spec` |
-| `pattern` | Reusable solutions — extracted from working systems | Informs future implementations | `spore.project-briefing-pattern` |
+| `pattern` | Reusable solutions — extracted from working systems | Informs future implementations | `spore.governance-memory` |
 | `roadmap` | Sequenced work — what to do and when | References specs, constrained by vision | (project roadmaps) |
 | `operations` | Runbooks, procedures — how to do recurring work | References specs | (operational docs) |
 | `research` | Explorations — not yet validated | May inform future specs | (research docs) |
