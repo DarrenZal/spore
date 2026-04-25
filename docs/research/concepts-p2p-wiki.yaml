@@ -1,6 +1,6 @@
 # status: frozen
-# version: v19
-# frozen_at: 2026-04-25
+# version: v20
+# frozen_at: 2026-04-26
 # owner: Darren Zal
 # purpose: Canonical concept vocabulary governing ADR `concepts:` references, shared framing notes, and bridge-note R-claim `concept:` values across Spore / Intelligence Commons / Poietic Match.
 # Agents reading this file MUST NOT mint concept slugs outside this vocabulary during
@@ -360,6 +360,67 @@
 # directive 2026-04-26 (Step 0.5 audit confirmed pre-pinning; D-axis self-
 # resolved to D2 2-slug per honest-rigor; H-axis self-resolved to H3 4-way per
 # F3 ADR-0077 §231 prediction).
+# v20 (2026-04-26): adds 2 derived glossary slugs (`external-witness`,
+# `validation-loop`) for ADR-0081 external-validation-loop foundation-doc
+# admission (Phase 4 Tier C FINAL admission; Phase 4 FULLY CLOSED at 9/9
+# deficits dispositioned: Tier A F1+F4 + Tier B F6+F5+F3 + Tier C F7+F9+F2-
+# decline+F8). `external-witness` is the load-bearing canonical anchor for F8
+# §4.1 external-witness reading-of-canon-as-authoritative-input doctrine —
+# names entities outside the canon-authoring boundary whose readings of Spore
+# canon shape canon revision without becoming canon-authoritative themselves
+# (preserving the canon-authorship-vs-canon-readership asymmetry per ADR-0041
+# text-authoritative + ADR-0042 structural-legitimacy coupling). `validation-
+# loop` operationalizes the loop-back discipline at foundation layer —
+# parallels F5 `response-doctrine` slug-shape (v17) and binds to F8's 5
+# admitted categories (external-witness reading-of-canon as authoritative-
+# input / routing through governance-bodies / revision-trigger discipline /
+# comparative-intake-protocol as canonical pipeline / cross-modality witness
+# inheritance). Cluster-counting passed under F1 §4 lighter foundation-doc
+# threshold: FULL non-Johar cluster at peer-review / structured-disagreement /
+# AI-debate per `docs/research/corpus-review/research-structured-disagreement.md`
+# (5 sub-traditions, ~30 citations, cited in ADR-0063); NEAR-FULL non-Johar
+# cluster at Fricker testimonial-/hermeneutical-injustice triangulated with
+# Young + Wittgenstein + Harding/Haraway. Johar substrate is adjacent-not-
+# overlapping with F8 territory (Johar uses "external validation" in canon-
+# self-protection-from-overclaim sense; F8 territory is meta-canon-receiving-
+# feedback-from-external-witnesses sense). H3 4-way relational shape: 3
+# substrate-parents (ADR-0042 structural-legitimacy + F4 representation-
+# authority + F3 actor-governance) + 1 operational-pair sibling (F1 sensor-
+# oracle-governance, where F8 is meta-canon parallel of F1 sensor-input
+# pattern). Discharges 5+ explicit forward-references in atomic admission
+# (HIGHEST single-ADR forward-ref discharge in canon-rebuild arc, extending
+# ADR-0077's prior 3-ref maximum): F4 §43 + F4 §115 + F4 §184 §iii + F3 via
+# ADR-0077 §222 + F7 ADR-0078 §181 + F9 ADR-0079 §221 + F9 ADR-0079 §232.
+# Four method-precedents named at ADR-0081 §Consequences per orchestrator
+# directive: (1) honest-rigor cluster-counting yields ADMIT outcome (first
+# time in arc; discipline is verdict-neutral, not decline-biased — extends
+# ADR-0064/0069/0080 decline-precedent set with first-PASS-resulting-in-
+# admission case); (2) audit-then-propose generalized to handoff-readiness-
+# audit-correction at Step 0.5 (per-ADR Step-0.5 audit caught Johar-density
+# framing in pre-arc readiness audit was inexact; per-ADR Step-0.5 carries
+# authority over inter-ADR pre-arc framings when the two diverge); (3) multi-
+# forward-ref cluster-discharge extends to 5+ refs (extends ADR-0077's prior
+# 3-ref maximum at Tier-closure position); (4) F4-anticipated admission (F4
+# §184 §iii explicitly named F8 as F4-revision-trigger source; F8's admission
+# completes the anticipated structural loop). Plus adjacent-not-overlapping
+# substrate finding: surface-vocabulary match is necessary-but-not-sufficient
+# for substrate-relevance; operational-concern match is the actual gating
+# criterion (refines honest-rigor cluster-counting discipline). Neither slug
+# is a primitive, doctrine, mode, property, or pattern. Canon object-class
+# inventory PRESERVED at 4 categories plus derived glossary slugs (16 → 18)
+# plus patterns (7). Phase 4 progress: 9/9 deficits dispositioned; Phase 4
+# FULLY CLOSED. Canon-rebuild arc extends to 33 canon-decisions (0044-0058,
+# 0059a, 0061-0081). Foundation docs 14. DH-PM-1 hard-pause check verified
+# NOT FIRED (F8 doctrine-layer commitments at canon-legibility + governance-
+# body-routing scope; PM accounting-dependence operates at OPERATIONAL-
+# INSTANCE matchmaking layer downstream of any external-validation-loop
+# pattern admission). Extension operator-authorized under ADR-0081 external-
+# validation-loop decision-gated plan (`tmp/adr-0081-decision-brief-2026-04-
+# 26.md` + `tmp/adr-0081-cluster-counting-audit-2026-04-26.md` per sandbox-
+# fallback precedent), pre-pinned axes ratified at Step 2 via operator
+# directive 2026-04-26 morning (Step 0.5 cluster-counting audit confirmed
+# ADMIT verdict; D-axis ratified at D2 2-slug; H-axis ratified at H3 4-way
+# per ADR-0077 §231 multi-way prediction at Tier-C-closure-position).
 
 concepts:
   - slug: governance-memory
@@ -794,4 +855,16 @@ concepts:
     canonical_label: Compensation Pattern Layer
     aliases: [compensation-protocol-boundary, foundation-pattern-compensation-boundary, compensation-deferral-handle]
     one_line_definition: Derived glossary slug admitted under ADR-0079 as the canon-legible boundary-handle naming the foundation-vs-pattern split for compensation-protocols per F3 §4.6 sub-shape 4 deferral ("Specific compensation-protocols are pattern-layer") and F9 §4.3 doctrinal commitment. Compensation-pattern-layer names: (a) what foundation-doctrine commits to (canon-legibility of reproductive-infrastructure per `reproductive-infrastructure`; maintainer-economics canon-legibility per F9 §4.2; labor-class standing-to-contest per F9 §4.7; cross-federation portability per F9 §4.8); (b) what foundation-doctrine does NOT commit to (rates, pricing, allocation algorithms, currency choices, settlement mechanisms, accounting systems, payment frequencies, distribution formulas — these are pattern-layer); (c) the boundary canon-legibility requirement — every pattern-layer compensation-protocol admitted to canon MUST cite F9 doctrine at admission and identify which foundation-doctrine clauses it operationalizes. The boundary itself is a doctrinal commitment. Substitution-trap-prevention (per ADR-0048 mode): foundation-doctrine prescribing a specific compensation-protocol would substitute allocation for coupling — assigning economic structure without generating coupling-to-consequence; the protocol-design is allocational; the coupling is generative; the former does not substitute for the latter. Specific compensation-protocols (commitment-pool dividends, mutual-credit, time-banking, federated payroll, infrastructure-cost-sharing pacts, translation-labour grant pools) admit via ADR-0065 pattern-library-infrastructure-spec workflow. NOT a primitive, doctrine-in-the-cross-cutting-doctrine-category sense, mode, property, or pattern — it is a foundation-layer doctrinal subject name. See `docs/foundations/maintenance-economics.md` §4.3.
+    primary_project: spore
+
+  - slug: external-witness
+    canonical_label: External Witness
+    aliases: [external-reader, comparative-witness, non-spore-canon-reader]
+    one_line_definition: Derived glossary slug admitted under ADR-0081 (Phase 4 Tier C FINAL admission; external-validation-loop foundation-doc admission; Phase 4 CLOSURE) as the load-bearing canonical anchor for F8 §4.1 external-witness reading-of-canon-as-authoritative-input doctrine. An external-witness is an entity outside the canon-authoring boundary whose reading of Spore canon may surface gaps, inconsistencies, translation-failures, substrate-mismatches, or constructive extensions canon-authors did not anticipate. Three modalities per F8 §4.5 (inheriting F1 §2): machine-witness (agent runtimes per `claude-code-membrane-control.md` + `hermes-agent-adversarial-self-trust.md` + `claude-code-flow-coding.md` parsing canon for downstream coordination, with required interpretive-stance disclosure); human-witness (cross-tradition or peer-organization reviewers, with required tradition-attribution); AI-summary witness (LLM agents synthesizing canon for operator reading or cross-system translation, with required model + prompt + sense-making-mode disclosure per ADR-0063). Foundational asymmetry per F8 §4.1: external-witness standing is GRANTED-AS-WITNESS not granted-as-author; the witness's reading enters canon as Evidence per F1 §1, attributable per F3 §4.1, but does NOT carry canon-authorship per ADR-0041 text-authoritative-representation. Routes through governance-bodies per F3 §4.7 (cited wholesale at F8 §4.2). Canonical pipeline: `/comparative-intake` skill + comparative-bridge-note authorship per learning-field-intake-protocol v1. Distinct from `attestation-of-execution` (Evidence subspecies for fulfillment-attestation) — external-witness is the actor-side anchor for who-may-witness-canon-itself, while attestation-of-execution is the Evidence-side anchor for what-is-being-attested. NOT a primitive, doctrine-in-the-cross-cutting-doctrine-category sense, mode, property, or pattern — it is a foundation-layer doctrinal subject name. See `docs/foundations/external-validation-loop.md` §4.1 + §4.5.
+    primary_project: spore
+
+  - slug: validation-loop
+    canonical_label: Validation Loop
+    aliases: [external-validation-loop, witness-feedback-loop, canon-revision-loop]
+    one_line_definition: Derived glossary slug admitted under ADR-0081 as the meta-noun naming F8 external-validation-loop's canonical subject — the discipline by which external-witness readings (per `external-witness`) route back into canon revision through governance-body adjudication without collapsing canon-authorship into canon-readership. Binds to F8's 5 admitted categories (external-witness reading-of-canon-as-authoritative-input / routing through governance-bodies / revision-trigger discipline / comparative-intake-protocol as canonical pipeline / cross-modality witness inheritance) under B5 SELECTIVE per-category synthesis-depth structure. Routes through governance-bodies per F3 §4.7 with four adjudication options per F8 §4.2 (acknowledge-and-record only / canon-review queue admission / immediate canon-revision proposal / triggered foundation-doc revision per F4 §184 §iii). Inherits F4 §5.3 appeal-protocol wholesale per cite-don't-redefine cross-foundation-doc composition discipline (ADR-0076 + ADR-0077 + ADR-0079 G2 precedent). Carries H3 4-way relational shape: 3 substrate-parents (ADR-0042 structural-legitimacy + F4 representation-authority + F3 actor-governance) + 1 operational-pair sibling (F1 sensor-oracle-governance, where F8 is meta-canon parallel of F1 sensor-input pattern). Parallels F5 `response-doctrine` slug-shape (v17): both name the canonical subject of their foundation-doc's discipline; both route through governance-bodies; both inherit F4 §5.3 appeal-protocol wholesale. Distinct from `response-doctrine` by scope: `response-doctrine` selects among R1-R7 response-categories for ANY observable epistemic gap (per F1 + F4); `validation-loop` is the upstream input-stream that may produce the epistemic gaps F5 then responds to (external-witness readings surface gaps that F5 then routes through R1-R7 selection). Discharges 5+ forward-references in atomic admission: F4 §43 + F4 §115 + F4 §184 §iii + F3 via ADR-0077 §222 + F7 ADR-0078 §181 + F9 ADR-0079 §221 + F9 ADR-0079 §232 (HIGHEST single-ADR forward-ref discharge in canon-rebuild arc, extending ADR-0077's prior 3-ref maximum). NOT a primitive, doctrine-in-the-cross-cutting-doctrine-category sense, mode, property, or pattern — it is a foundation-layer doctrinal subject name. See `docs/foundations/external-validation-loop.md`.
     primary_project: spore

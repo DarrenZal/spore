@@ -38,6 +38,7 @@ Canon = foundation + vision + roadmap docs that define each project's normative 
 **Spore canon (in-scope)**:
 - `docs/foundations/actor-governance.md`
 - `docs/foundations/actuator-logic.md`
+- `docs/foundations/external-validation-loop.md`
 - `docs/foundations/failure-modes.md`
 - `docs/foundations/governance-artifacts-and-graph-projections.md`
 - `docs/foundations/holonic-network-architecture.md`
