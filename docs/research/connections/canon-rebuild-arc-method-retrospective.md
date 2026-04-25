@@ -9,11 +9,11 @@ relates_to:
 
 # Canon-Rebuild Arc: Method Retrospective
 
-**Arc window**: 2026-04-22 through 2026-04-24.
+**Arc window**: 2026-04-22 through 2026-04-25.
 
-**Primary concern**: how Spore rebuilt canon language, disposed a dense queue of candidate admissions, stabilized downstream projections, and formalized a pattern-library without inflating canon-object-class count.
+**Primary concern**: how Spore rebuilt canon language, disposed a dense queue of candidate admissions, stabilized downstream projections, formalized a pattern-library without inflating canon-object-class count, and then extended the same method discipline into a foundation-doc family admission cycle and a new cross-repo alignment cadence.
 
-**What this note does**: turn the 2026-04-24 harvest manifest at `tmp/canon-rebuild-arc-method-harvest-2026-04-24.md` into a collaborator-citable bridge note. The harvest manifest is insurance. This note is the canonical method-facing synthesis.
+**What this note does**: turn the 2026-04-24 harvest manifest at `tmp/canon-rebuild-arc-method-harvest-2026-04-24.md` into a collaborator-citable bridge note, and then extend it with `§9` and `§10` covering the 2026-04-25 arc extension (Phase 4 foundation-doc admissions and Wave-N cross-repo alignment). The harvest manifest is insurance. This note is the canonical method-facing synthesis.
 
 **Companion artifact**: [`wiki-intake-canon-review-retrospective`](./wiki-intake-canon-review-retrospective.md) explains how a large prior-art corpus moved three repos' canons. This note explains how a canon-rebuild program changed the method for making canon inside Spore itself.
 
@@ -494,6 +494,126 @@ The answer, after this arc, is much sharper than it was on 2026-04-22:
 
 That is why this note belongs beside the wiki-intake retrospective. The earlier retrospective explains how corpus pressure changed the canon. This one explains how the canon learned to change itself more rigorously.
 
+## §9 Arc extension: Phase 4 and Wave-N alignment (2026-04-25)
+
+The retrospective above ends at 2026-04-24 with the pattern-library phase closed at ADR-0070 and the forward-state queue in `§6` listing Phase 4, Wave-N cross-repo alignment, and infrastructure follow-ons as the remaining method-bearing work.
+
+By the evening of 2026-04-25 most of that queue had closed. Phase 4 Tier A and Tier B landed five foundation docs in a single day, three cross-repo alignment ADRs extended IC's and PM's chains forward, and the method catalog gained roughly a dozen further canon-method precedents that this section compresses into named entries. The `§6` forward-state list was not prescient; it simply named the shape of the work that was next in queue. What is worth recording here is what the execution proved about method when done at that velocity without rollback and without sibling-repo drift.
+
+Canon state at the end of the 2026-04-25 arc is `9 primitives / 3 doctrines / 2 modes / 2 properties / 14 derived glossary slugs / 7 in-scope patterns / 11 foundation docs`, with the four-category canon-object-class inventory preserved. Validator held `9 errors / 30 warnings` exact across every commit of the day.
+
+### §9.1 Phase 4 Tier A established the foundation-doc admission template
+
+The Phase 4 scoping produced nine foundation-doc deficits, tiered A / B / C. Tier A admitted F1 (sensor-oracle-governance, ADR-0073) and F4 (representation-authority, ADR-0074) in the same morning. F1 established the template: ADR-0042 shape plus unified-modality principled-rule plus rule-stratification inheritance from ADR-0046 plus forward-ref-cite-all. F4 extended ADR-0041 text-authoritative-representation from a two-layer treatment into a five-layer inter-layer precedence doctrine via a hybrid default-plus-context-overrides-plus-appeal-protocol shape.
+
+F4's load-bearing method contribution was the **fact-vs-specification text-type distinction**: canon specifications like vision documents, ADRs, and doctrine are text-authoritative; factual reports like sensor readings, attestations, and measurements are instance-authoritative. That distinction resolved a latent authority tension between ADR-0041 and F1, and became the reusable answer for any later doctrine needing to state how representation-layers interact without contradicting each other.
+
+The method lesson is that Tier A was not only about admitting the right foundation docs. It was about discovering what a reusable foundation-doc admission template actually looks like when authored cleanly enough that the next four admissions can inherit its shape rather than re-invent it.
+
+### §9.2 Phase 4 Tier B validated template-adaptability under substrate heterogeneity
+
+Tier B closed same-day in the afternoon with F6 (failure-modes, ADR-0075), F5 (actuator-logic, ADR-0076), and F3 (actor-governance, ADR-0077). The operator-ratified sequence ran F6 → F5 → F3 rather than handoff-default F3 → F5 → F6, because a fresh afternoon session starts with no cross-ADR cache warmth and invention-heavy work is cleaner before synthesis-heavy work. That choice held up in practice: F6 authored a canon-legible eight-category failure-language taxonomy where Spore previously had none, F5 landed a response-doctrine in one-hundred-twenty-two seconds (the day's record) once substrate was complete, and F3 wove four prior-landed substrate ADRs into an eight-category actor-governance taxonomy under a novel fifth B-axis value.
+
+The method contribution most visible across Tier B is that the F1 template was reusable but not rigid. Each admission honestly picked a different B-axis shape based on the substrate it was organizing. F6 diverged from F1's unified-modality principled-rule because eight structurally heterogeneous failure-categories do not unify cleanly; F5 re-converged on unified principled-rule because response-doctrine substrate was substrate-complete; F3 introduced the selective-per-category synthesis-depth shape because substrate maturity varied across its eight categories.
+
+### §9.3 B-axis progression as substrate-driven canon-method discipline
+
+The B-axis progression across the five Phase 4 admissions was **B1 (F1) → B1 (F4) → B2 (F6) → B1 (F5) → B5 (F3)**. Each value was justified by audit of its substrate's structural heterogeneity, not by inheritance from the prior admission's precedent shape. The progression matters because it refutes two tempting simpler disciplines.
+
+A default-to-prior-shape discipline would have forced F6 into B1 unified-modality and produced either a false symmetry across heterogeneous categories or a padded principled-rule that did not describe its substrate. A diverge-as-default discipline would have forced F5 into B2 per-category and lost F4's cite-don't-redefine advantage for categories where the substrate was already coherent.
+
+The honest discipline, ratified five times in a single day, is that B-axis is substrate-driven. Each foundation doc picks B-axis based on what its substrate actually looks like at Step 0.5 audit. B1, B2, and the newly-introduced B5 selective are all legitimate; none are defaults. F3's B5 selective is a canonical new shape for cases where the substrate is heterogeneous enough that uniform treatment would either invent fake symmetry or violate F5's cite-don't-redefine discipline.
+
+### §9.4 H-axis evolution within a single tier
+
+A parallel pattern showed up on the H-axis of doctrinal relational-shape. F6 used H2 pure-sibling (failure counterpart to ADR-0042 structural-legitimacy). F5 introduced H3 two-way hybrid (substrate-child to ADR-0042 plus operational-pair sibling to F6). F3 extended to H3 three-way hybrid (substrate-child to ADR-0042 plus operational-pair siblings to both F5 and F6).
+
+The method contribution is that foundation docs can carry one vertical substrate-coupling and multiple horizontal operational-pair siblings simultaneously. That makes H3 a scalable relational pattern rather than a one-off F5 expedient. It also gives canonical language to the intuition that connective-tissue foundation docs which close multiple prior forward-refs are doing Tier-closing work, not just their own local work.
+
+### §9.5 Additional named canon-method catalog entries
+
+Tier A and Tier B together surfaced about a dozen reusable method-precedents beyond the B- and H-axis progressions already named. The important ones are these.
+
+**Foundation-doc slug-admission piggyback.** Rather than author separate glossary-bundle ADRs, the Phase 4 admissions admitted new slugs directly inside their foundation-doc ADRs when those slugs were load-bearing for the doc's own doctrine. Eight slugs admitted across four admissions (F1: `longitudinal-attestation`, `replication-regime`; F6: `failure-mode-class`, `coupling-breakdown`; F5: `epistemic-gap`, `response-doctrine`; F3: `actor-standing`, `governance-response`). The discipline is that glossary-admission is atomic with the ADR that load-bears it when admission is forced by the same substrate.
+
+**Cite-don't-redefine cross-foundation-doc composition.** F5's G2 axis wholesale-inherits F4's §5.3 appeal-protocol without duplication. This preserves single-source-of-truth and avoids maintenance-drift between parallel doctrine statements. Reusable for any foundation doc composing with prior foundation substrate; introduced in F5; inherited by F3's appeal-protocol reference.
+
+**Multi-forward-ref cluster-discharge.** F3 discharges three forward-refs in a single atomic admission: ADR-0042 `§82` (held from the 2026-04-22 capstone), F6.7 actor-capture (forward-ref from ADR-0075), and F5 `§4.2` authority-delegation (forward-ref from ADR-0076). This is the highest single-ADR forward-ref count in the canon-rebuild arc. It shows that when a foundation doc closes multiple prior forward-refs simultaneously, it is carrying Tier-closing connective function beyond its own local scope. That pattern should be expected for any foundation doc that lands late in a Tier sequence.
+
+**Audit-proposed category earned by residue.** F6.8 meta-pattern (`substitution-trap` plus linguistic-closure plus capture-via-composition) was not in the operator-seeded seven failure categories. Step 0.5 audit against Opus-4-7 exemplars produced an eighth category as honest residue of the seeded set. Operator ratified. This extends the audit-then-propose discipline from `§3.9` to structural non-trivial scope, validating the discipline at levels heavier than typo-cleanup or single-slug refinement.
+
+**Two-direction forward-reference pattern.** F6 simultaneously inherits F1 substrate (its F6.3 sensor-failure sub-taxonomy) and forward-refs F3 substrate (its F6.7 actor-capture deferral). This is distinct from F1 and F4, which only forward-ref. It shows that foundation docs landing mid-Tier can carry both upstream substrate dependencies and downstream deferred dependencies at once, without forcing either relation to dominate.
+
+**Sibling-doctrine shape to structural-legitimacy.** F6 (failure-modes) is positive-doctrine-to-counterpart-taxonomy paired with ADR-0042 (structural-legitimacy). The pairing is reusable for any future canon where a doctrine has a natural failure-language counterpart that deserves its own foundation layer. F5 and F3 subsequently extended this into operational-pair triangles around the same positive doctrine.
+
+**Cognitive-load-optimization for synthesis-vs-invention sequencing.** The afternoon's F6 → F5 → F3 ordering (invention-heavy before synthesis-heavy with a cold-cache start) is a principled flip of the handoff-default F3 → F5 → F6 ordering. The method lesson is that handoff-default sequencing can be reasoned-against when session-state observations (cache warmth, substrate completeness, forward-ref discipline) warrant. Reusable for any multi-ADR same-session arc.
+
+### §9.6 Wave-N cross-repo alignment added axis-J and validated evidence-gated axis movement
+
+On the evening of 2026-04-25 the five Phase 4 admissions drove a fresh cycle of cross-repo alignment ADRs. `ic:ADR-0020` (at `cef35fe`) and `pm:ADR-0017` (at `349e3ac`) landed as REFERENCE-heavy additive alignments following the `ic:ADR-0019` and `pm:ADR-0015` precedent shape.
+
+Both alignments surfaced a new axis worth naming. Before Wave-N, cross-repo alignment ADRs operated over a nine-axis frame (A through I). The Phase 4 admissions added five foundation docs (Spore's foundation-doc family grew from six to eleven, an eighty-three-percent expansion). That is a structurally different propagation surface than the primitive-bullet and pattern-library work the nine-axis frame had been designed for. Rather than force-fit the new surface under an existing axis, both alignment ADRs added **Axis J for foundation-doc family acknowledgment**. IC's J2 light-refresh added a one-paragraph addendum to `intelligence-primitives.md`'s upstream-reference block. PM's J2 mirrored that shape in `grammar.md`'s §1a upstream-coordination-grammar block.
+
+The method contribution is that cross-repo alignment axis-frames are extensible when honest-rigor Step 0.5 audit surfaces structurally new propagation surface. The extension is audit-driven, not scope-inventive. It prevents the alignment ADRs from either force-fitting or failing to acknowledge material upstream change.
+
+A second discipline tightened during Wave-N was **axis symmetry-and-divergence under audit**. IC's Axis I diverged from `ic:ADR-0019`'s I2 narrow-wide to I1 narrow, because the Step 0.5 drift audit surfaced zero pre-existing IC-local drift. PM's Axis E diverged from `pm:ADR-0015`'s E4 partial to E3 decline, because the Step 0.5 audit of today's F1/F4/F6/F5/F3 β-audits produced zero PM-surface citations. Both divergences were audit-driven; neither was symmetry-breaking relative to the prior sibling ADR. Simultaneously, Axis J ratified symmetrically across both siblings (IC J2 and PM J2), because the same structural upstream pressure affected both repos equally.
+
+The method generalization is that **axis symmetry and axis divergence are both honest when audit-driven**. Alignment ADRs neither have to mirror their predecessor repo's shape, nor have to mirror their own prior alignment's shape. They have to mirror what the Step 0.5 audit shows.
+
+PM's E-axis pattern across three alignments further canonized an **evidence-gated per-arc discipline**. The pattern is OFF (pm:ADR-0014 E1 decline, no F-layer yet) → ON (pm:ADR-0015 E4 partial, reciprocal citation via spore:ADR-0068) → OFF (pm:ADR-0017 E3 decline, no reciprocal citation in 0071–0077). Each E-axis decision was driven by whether the current Spore arc actually cited PM operational evidence in earning-test β-audits, not by symmetry with the prior PM alignment ADR.
+
+### §9.7 DH-PM-1 third-execution validates the Step-0 hard-pause discipline
+
+`pm:ADR-0017` was the third PM alignment ADR to execute the DH-PM-1 pluriversal-accounting-dependence hard-pause check at Step 0. The check has returned NOT-FIRED across `pm:ADR-0014`, `pm:ADR-0015`, and `pm:ADR-0017`. Each execution triangulated multiple sources (README status, CLAUDE.md status, recent-commit evidence, calendar check against Victoria LHC Phase 0) rather than trusting any single indicator. The method lesson is that held-tension discipline in canon-adjacent repos works best when hard-pause checks have an explicit evidence-chain rule rather than a status-field rule. That makes the check resistant to stale frontmatter and to premature status-flips during early operational work.
+
+### §9.8 Prediction-validation chains in this arc
+
+Several 2026-04-22 through 2026-04-24 predictions validated during the 2026-04-25 arc.
+
+**ADR-0065 M4 framework → Phase 4 adaptability.** ADR-0065 claimed that sub-class framing could host structurally different admission shapes without canon-object inflation. Phase 4 validated a strictly parallel claim at the foundation-doc layer: the F1 template hosted structurally different B-axis realizations (B1 / B2 / B5) across five admissions without inflating foundation-doc-class count beyond one.
+
+**ADR-0048 parsimony-as-earning-test-outcome → Axis J discipline.** ADR-0048 established that object-admission thresholds are earning-test outcomes, not axioms. Wave-N extended that discipline to alignment-frame-extension: adding Axis J was an earning-test outcome of the foundation-doc-family expansion, not a default move. The discipline generalized from object-admission to frame-extension cleanly.
+
+**ADR-0055 trigger-gates-vs-earning-tests → pm:ADR-0017 E3 decline.** ADR-0055 separated re-entry authorization from admission judgment. `pm:ADR-0017`'s E3 decline validates that separation at alignment-axis layer: whether a Spore ADR triggers PM-axis movement is independent of whether PM evidence meets the axis's movement threshold.
+
+**pm:ADR-0015 E4 PARTIAL → pm:ADR-0017 E3 decline.** Alone, `pm:ADR-0015`'s E4 could have been read as defining a permanent PM-side alignment shape. `pm:ADR-0017`'s honest E3 decline refutes that reading and validates E-axis as evidence-gated per-arc rather than state-held across alignments.
+
+### §9.9 Session-orchestration at scale
+
+The 2026-04-25 arc executed ten Agent-tool orchestrations across the day plus two direct-edit palate-cleansers plus four housekeeping commits, with zero rollbacks and every sibling repo zero-change-verified at every dispatch.
+
+Most of the `§5` session-orchestration lessons held at scale. Two additions are worth recording.
+
+**Agent-tool addressability post-completion.** Name-based SendMessage addressing works while a child is in-flight but fails after the child completes its initial Step 2 handback. UUID-based addressing succeeds via transcript-resume. Future dispatches should capture the child's UUID at Step 2 and use it for continuation. This is not a canon-method-layer discipline; it is an operational reminder for running ten-dispatch days cleanly.
+
+**Scheduling discipline for push-in-session.** Children that complete ADR ceremony without explicit push-in-session instruction can legitimately hold pushes pending operator authorization. The F3 dispatch held push on that basis. Later Wave-N dispatches included explicit push-in-session directives and executed pushes cleanly. The method reminder is that orchestrator prompts should state push expectation at Step 6 rather than assume it.
+
+### §9.10 Updated forward state
+
+With Phase 4 Tier A + Tier B and Wave-N both closed, four Phase 4 Tier C admissions (F7 min-viable-spore-instance, F8 external-validation-loop, F2 translation-mapping-governance, F9 maintenance-economics) remain deferred-pending operational-demand triggers per the Option D3 TIERED ratification. Phase 5 section-level status labels remain as a corpus-wide sweep not yet queued.
+
+Cross-repo propagation of today's foundation docs into IC and PM operational canon remains queued as a possible Wave-N+1 if downstream pressure surfaces. No such pressure has surfaced yet; both sibling alignments were REFERENCE-heavy rather than adopt-heavy.
+
+The canon-rebuild arc has now extended from 2026-04-22 through 2026-04-25 and spans twenty-nine decisions: the ADR chain `0044-0058`, `0059a`, and `0061-0077`. The ADR chain is legible as five phases:
+
+- core rebuild and post-Phase-3b queue formation: `0044-0055`
+- Phase 2c and immediate stabilization: `0056-0060`, plus `0059a`
+- dedicated-ADR queue closure and scope-conditioning triad: `0061-0064`
+- pattern-library phase and Wave 2 validation: `0065-0070`
+- Phase 4 foundation-doc expansion plus Wave-N cross-repo alignment: `0071-0077`
+
+## §10 What this arc extension added on top of §8
+
+The original `§8` summary captured the canon-rebuild arc's durable answer to the question of how Spore changes canon without freezing prematurely or inflating indiscriminately. The 2026-04-25 arc extension did not replace that answer. It did three additional things.
+
+It showed that the method scales. Ten Agent-tool orchestrations in a single day, five foundation docs landing in a single day, three same-day cross-repo alignment ADRs, and zero rollbacks proved that the discipline is not fragile under velocity. Several records set in the 2026-04-22 through 2026-04-24 work held at the higher tempo.
+
+It generalized two disciplines from local moves to structural moves. Audit-then-propose extended from schema-harvest ADRs to structurally new canon categories (F6.8 meta-pattern). Scope-conditioning discipline extended from primitive bullets through protocol-file framing up to cross-repo alignment axis-frame extension (Axis J). Both generalizations are earning-test-validated, not conceptual claims.
+
+It extended the method repertoire with seven new named canon-method entries (foundation-doc admission template, B-axis progression discipline, H-axis evolution within a tier, cite-don't-redefine cross-foundation-doc composition, multi-forward-ref cluster-discharge, sibling-doctrine pairing, cognitive-load-optimization sequencing) plus the axis-J alignment discipline and the evidence-gated E-axis discipline at the cross-repo layer.
+
+The combined retrospective now explains how Spore changes canon across five substrate-shapes: grammar (Phase 3 and 3b), downstream stabilization (Phase 2c), pattern-library (Wave 2), foundation-doc family (Phase 4), and cross-repo propagation (Waves 1 through N). The method-gain is that each substrate-shape earns its own admission discipline without forcing the canon to treat them all through one shape.
+
 ---
 
-**How this note is used.** A collaborator who wants the short version of the arc should read `§3`, `§4`, and `§5` first, then drop into the phase-specific ADRs named in `§7`. If a future canon cycle contradicts this note, the canon and the later ADR chain are authoritative; update this bridge note rather than protecting it as if it were primary law.
+**How this note is used.** A collaborator who wants the short version of the arc should read `§3`, `§4`, `§5`, and `§9` first, then drop into the phase-specific ADRs named in `§7` and the foundation-doc ADRs named in `§9.1` and `§9.2`. If a future canon cycle contradicts this note, the canon and the later ADR chain are authoritative; update this bridge note rather than protecting it as if it were primary law.
