@@ -614,6 +614,118 @@ It extended the method repertoire with seven new named canon-method entries (fou
 
 The combined retrospective now explains how Spore changes canon across five substrate-shapes: grammar (Phase 3 and 3b), downstream stabilization (Phase 2c), pattern-library (Wave 2), foundation-doc family (Phase 4), and cross-repo propagation (Waves 1 through N). The method-gain is that each substrate-shape earns its own admission discipline without forcing the canon to treat them all through one shape.
 
+## §11 Arc extension: Phase 4 Tier C closure (2026-04-26)
+
+Tier C of the Phase 4 admission program closed on 2026-04-26 morning with three admissions: F7 (`min-viable-spore-instance`, ADR-0078) via promote-and-extend; F9 (`maintenance-economics`, ADR-0079) as the first Tier C all-NEW foundation doc; and F2 (`translation-mapping-governance`, ADR-0080) as decline-with-triggers. F8 remains the sole open Phase 4 deficit, gated on honest-rigor cluster-counting at Step 0.5 and ready to land as ADR-0069-shape decline-with-triggers if non-Johar full clusters fail to surface.
+
+Canon state at the end of the 2026-04-26 morning arc is `9 primitives / 3 doctrines / 2 modes / 2 properties / 16 derived glossary slugs / 7 in-scope patterns / 13 foundation docs`, with the four-category canon-object-class inventory preserved. Validator held `9 errors / 30 warnings` exact across every commit of the morning. Sibling repos (IC `cef35fe`, PM `349e3ac`, koi-processor `22463cf4`, darren-workflow `3cc190f`) zero-change verified at every dispatch.
+
+What Tier C added beyond closing the queue is a small set of new method-precedents and one substantive discipline that operates one layer above admission ceremony: a pre-arc readiness audit that materially refined sequencing before any commitment was made.
+
+### §11.1 Tier C readiness audit as pre-arc discipline
+
+Before any Tier C admission opened, the previous orchestrator session executed a read-only Step-0.5-style sweep across all four Tier C deficits and produced a 265-line memo at `tmp/adr-tier-c-readiness-audit-2026-04-25.md`. The memo verdicts each deficit on a four-state trigger taxonomy (STRONG-FIRED / MEDIUM-FIRED / WEAK-FIRED / NOT-FIRED), surfaces per-doc operational-demand signals + substrate-readiness evidence, and pre-stages Step-2 open-questions for any future admission ADR.
+
+The audit caught two material under-counts in the prior session-4 handoff. First, F9 was framed as "the most novel of Tier C — no obvious substrate-ADR to inherit from." The audit corrected this by surfacing `federation-protocol.md:28`'s 5-citation tradition cluster (Federici / Mies / Bresnihan / Bhattacharya / Gibson-Graham) plus F1 §4.3 + F3 §4.6 explicit forward-refs — substrate that put F9 closer to F3's synthesis-heavy shape than to F6's invention-heavy shape. Second, F2 was framed as a foundation-doc admission candidate; the audit surfaced that the yaml-header governance-prose at `concepts-p2p-wiki.yaml` L1-L12 already operationally encoded the doctrine, making F2 closer to a decline-with-triggers candidate than to a foundation-doc candidate.
+
+Both corrections landed in the F9 and F2 ADRs by reference and shaped the executed admissions. F9 was authored on the corrected substrate map (B5 selective + multi-way H3 + foundation-vs-pattern-layer boundary), not on the under-counted "novel" framing. F2 was admitted as decline-with-triggers, not as a parallel foundation doc that would have paraphrased existing yaml-header prose.
+
+The method lesson is that **before opening a new admission arc, audit per-doc trigger-state honestly to refine sequencing and surface mis-framings**. Handoff prose is one input, not authoritative; substrate audit is authoritative. The pre-arc audit is a generalization of `§3.9`'s audit-then-propose from per-ADR Step-0.5 work to inter-ADR pre-arc work. The trigger-state taxonomy (STRONG / MEDIUM / WEAK / NOT-FIRED) is reusable for any future Phase or Wave opening.
+
+### §11.2 F7 promote-and-extend pattern and doc_kind hygiene-bundling
+
+F7 ADR-0078 ran twenty-three seconds in-window — the fastest admission in the canon-rebuild arc. The shape that made it fast was Option B promote-and-extend: flip `spore-instance-model.md`'s `doc_kind` from `architecture` to `foundation` AND extend the existing doc with a new §"Minimum Viable Composition" subsection AND discharge two forward-refs (F6.4 scale-transition + F3 cross-federation actor-portability), all in one atomic admission.
+
+Three options were available (A in-place edit only / B promote-and-extend / C new sibling foundation doc). The audit's recommended Option B was pre-pinned at handoff. The discipline that justifies B over A is **doc_kind hygiene-bundling**: when a doc is already canon-bearing at the foundation layer (registered in `canon-review-protocol.md` §1 and `docs/README.md`'s Foundations listing) but classified as something else (here `architecture`), the natural moment to fix the classification is when the doc is being substantively extended anyway. Bundling the hygiene fix with the substantive admission costs nothing additional and avoids deferring a hygiene gap to a future cleanup ADR.
+
+The reusable lesson is that **at any major admission arc, the orchestrator should check whether doc_kind classifications across canon are correct, and bundle hygiene fixes opportunistically rather than separating them**. This is the same discipline as `§9.5`'s glossary-admission piggyback applied at the doc_kind layer.
+
+F7 also occupies a distinct H-axis position: the relational shape is **H3-flat** rather than H3-2way, H3-3way, or H3-4way. F7's substrate-coupling reaches up to ADR-0042 (structural-legitimacy) and across to F3 + F6 + ADR-0066 K3a precedent (the doc_kind-mismatch precedent), but the operational-pair siblings that F5 and F3 introduced are not load-bearing for F7's content. The shape is reusable for any foundation-doc admission whose substrate is structurally homogeneous (here the four aspects in `spore-instance-model.md` were co-equal) and whose operational-pairs are not yet active.
+
+### §11.3 F9 multi-way H3 and foundation-doctrine-vs-pattern-layer boundary
+
+F9 ADR-0079 landed sub-minute draft-to-active inside roughly seven to nine minutes total. It is the first Tier C all-NEW foundation doc (vs F7's promote-and-extend) and the first foundation-doc admission whose H-axis explicitly took a multi-way shape: **H3 4-way** with substrate-parents `structural-legitimacy + federation-protocol + sensor-oracle-governance + actor-governance` and operational-pair coupling to F1 (maintainer-economics intersection) + F3 (labor-recognition intersection). ADR-0077 §231 had predicted this shape; F9 confirmed it without needing to invent a new H-axis category.
+
+The substantive method contribution F9 added is the **foundation-doctrine-vs-pattern-layer boundary as load-bearing canon-discipline**. F9 commits to canon-legibility requirements at the doctrine layer (e.g., compensation-protocols MUST be canon-legible at admission time; reproductive-infrastructure MUST be named as economic substrate; maintainer-succession MUST carry economic-continuity articulation) without prescribing the protocols themselves. Specific compensation-protocols are pattern-layer per F3 §4.6's explicit deferral; F9 articulates the doctrine that constrains pattern-layer protocols rather than inventing a parallel pattern catalog.
+
+This boundary is reusable. Whenever a foundation-doc deficit risks bleeding into protocol-prescription territory, the load-bearing discipline is to commit to canon-legibility-and-shape requirements without committing to algorithm-and-mechanism. F1 §4.3 had already exercised this for sensor-maintainer assignment (the doctrine commits to maintainer-attribution + structural-legitimacy coupling without prescribing aggregation algorithms); F9 generalizes the same discipline to economic substrate and elevates it to a named canon-method.
+
+Two new derived glossary slugs were admitted with F9: `reproductive-infrastructure` and `compensation-pattern-layer`. The yaml advanced v18 → v19. Both slugs are load-bearing for F9's own doctrine, satisfying the foundation-doc slug-admission piggyback discipline from `§9.5`.
+
+### §11.4 F2 fifth decline-shape: sufficient-spec-prose-as-defer-rationale
+
+F2 ADR-0080 landed in roughly three minutes via decline-with-triggers shape. The substantive contribution is a fifth decline-shape that joins the catalog at `§3.4`.
+
+The decline rationale is **sufficient-spec-prose-as-defer-rationale**: when an existing artifact operationally encodes the doctrine that a deficit-doc would articulate, defer-with-triggers is the honest call rather than authoring a parallel foundation doc that would merely paraphrase existing spec-prose. F2's substrate is the yaml-header governance-prose at `docs/research/concepts-p2p-wiki.yaml` L1-L12 — twelve lines that already specify the governance-doctrine (frozen status; operator-authorized extensions; per-version operator-attribution; required commit-and-version-bump for additions). Authoring `docs/foundations/translation-mapping-governance.md` would have created a parallel spec-prose location requiring maintenance-discipline against the yaml-header-prose without solving an active operational problem.
+
+This shape is **distinct from ADR-0066 K3a reclassification**. K3a moves a wrong-classification doc to its correct doc_kind (e.g., `project-briefing-pattern.md` → `project-briefing-spec.md`). F2 has no parallel pre-existing doc carrying the doctrine at a wrong location; the substrate is yaml-header-prose at the *correct* artifact location, governing the artifact it lives inside. F2 is not reclassification; F2 is "the spec-prose is already where it should be, in the form it should be in, and operationally functional."
+
+It is also **distinct from the four prior decline-shapes at `§3.4`**. ADR-0054 (rewilding-thesis decline) and ADR-0069 (four-enabling-conditions decline) declined under cluster-counting / honest-rigor verdicts. ADR-0055 (encounter framing-note + park-pattern-library-with-triggers) decomposed-and-parked. ADR-0061 (asymmetric-joint-commitment) declined inline-prose-only. F2 declines on a different ground: substrate sufficiency at existing location. The shape-template (decline-with-triggers + 3-trigger structure + ADR-layer formalization) inherits from ADR-0054 / ADR-0069; the *rationale* is novel.
+
+Three re-opening triggers are documented: (a) IC or PM admits its own concepts-registry → cross-repo translation pressure fires; (b) solo-operator yaml-governance machinery breaks down (multi-operator editing / conflicts / mis-attribution); (c) cross-repo audit shows translation-drift (slugs in IC/PM bridge notes don't resolve to Spore concepts-yaml entries).
+
+The decline-shape catalog now stands at five shapes plus K3a reclassification. The discipline lesson is that **canon decline is not one move**; the right shape depends on whether the candidate fails on substrate-evidence (ADR-0054 / ADR-0069), on canon-paraphrase (ADR-0055), on inline-prose adequacy (ADR-0061), or on substrate-already-encoded-elsewhere (ADR-0080). Each shape preserves a different kind of canon hygiene.
+
+### §11.5 Updated B-axis progression
+
+The B-axis progression now reads **B1 (F1) → B1 (F4) → B2 (F6) → B1 (F5) → B5 (F3) → B1 (F7) → B5 (F9) → N/A (F2)**. Each value was justified by audit of its substrate's structural heterogeneity, not by inheritance from the prior admission's precedent shape.
+
+F7 chose B1 because the four aspects in `spore-instance-model.md` are co-equal and structurally homogeneous, making unified principled-rule the natural shape for the §"Minimum Viable Composition" subsection. F9 chose B5 because substrate maturity varies across its categories (labor-recognition has ADR-0002 + ADR-0049 substrate; reproductive-infrastructure has federation-protocol.md:28 substrate; substitution-trap-related has ADR-0048 substrate; cross-federation portability has F3 §6 substrate), making selective-per-category synthesis-depth the honest shape — analogous to F3's earlier B5 admission. F2 has no B-axis because it declined; no foundation-doc body needed organization.
+
+The progression now spans seven completed admissions plus one decline. It strengthens `§9.3`'s claim that B-axis is substrate-driven: across two days, eight admissions, three different B-axis values plus one N/A, no admission picked a B-axis on the basis of mirroring the prior admission. The discipline is **operational, not aspirational**.
+
+### §11.6 H-axis evolution within Tier C
+
+H-axis evolution now reads **H2 (F6) → H3-2way (F5) → H3-3way (F3) → H3-flat (F7) → H3-4way (F9)**. F2 has no H-axis (decline).
+
+H3-flat (F7) is a new shape distinguished by reaching upward to substrate-parents without yet binding into operational-pair siblings. Operationally it functions as preparation for future operational-pair coupling: F7's content (instance-composition tests, scale-transition existence-thresholds, cross-federation portability rules) sets up siblings that may later admit and bind in. H3-flat is the shape a foundation doc takes when its substrate-coupling is mature but its operational-pair partners are not yet load-bearing.
+
+H3-4way (F9) confirms ADR-0077 §231's prediction that connective-tissue foundation-docs landing late in a Phase can carry multi-way relational shape. The four substrate-parents anchor F9's doctrine in coupling-to-consequence (ADR-0042), reproductive-labour visibility (federation-protocol.md:28), maintainer-attribution (F1), and labor-recognition (F3) simultaneously. The shape is reusable for any future foundation-doc admission whose doctrine needs to anchor in multiple structurally-different prior commitments at once.
+
+The combined H-axis catalog (H2 / H3-2way / H3-3way / H3-flat / H3-4way) is now five shapes. As with B-axis, none are defaults; each was substrate-driven at Step 0.5 audit time.
+
+### §11.7 Plan-vs-evidence catch generalized to handoff layer
+
+`§3.9`'s audit-then-propose discipline originated as a Step-0.5 discipline within individual ADR ceremony. `§9.5` extended it to structurally new canon categories at admission time (the F6.8 meta-pattern admission). The 2026-04-26 morning arc extended it again, this time to **handoff prose itself**.
+
+The Tier C readiness audit caught two material under-counts in the previous session-4 handoff (F9 substrate-richness; F2 reclassification-vs-foundation candidacy). Both were corrected by reference in the executed admissions. The method generalization is that **handoff prose is treated as one input to admission decisions, not as authoritative — substrate audit is authoritative**. This holds whether the handoff was authored by a different session, a different agent, or by the same operator at a different time. Audit-then-propose now operates at three layers: per-ADR Step-0.5 (`§3.9`), inter-ADR pre-arc (`§11.1`), and handoff-level (this subsection).
+
+### §11.8 Phase 4 closure shape
+
+The full Phase 4 admission program now stands at 8 of 9 deficits closed across two days. Tier A and Tier B closed 2026-04-25 same-day with five admissions. Tier C closed 2026-04-26 morning with three admissions (F7 admit / F9 admit / F2 decline). F8 external-validation-loop is the sole remaining deficit and is gated on honest-rigor cluster-counting at Step 0.5 — Johar substrate is rich but Johar-as-primary-inspiration cannot auto-escalate per ADR-0064 / ADR-0069 discipline. F8 will land as either a foundation-doc admission (if non-Johar full clusters surface) or an ADR-0069-shape decline-with-triggers (if cluster-counting fails), and either outcome closes Phase 4 cleanly.
+
+The method-shape lesson at Phase 4 scale is that **a multi-deficit phased admission program can close cleanly without any single admission carrying the full weight**. Phase 4 was scoped at nine deficits, ratified as Option D3 TIERED with operational-demand triggers gating Tier C, and executed across two days with eight admissions plus one ADR-shape decline plus one remaining deficit gated on honest-rigor. No admission was rushed; no decline was over-engineered; no deferral was indefinite. The discipline that made this work is the combination of Phase-scoping ratification (Phase 4 scoping plan), pre-tier readiness audit (`§11.1`), and per-admission Step-0.5 discipline (`§3.9`).
+
+### §11.9 Updated forward state
+
+Phase 4 Tier C closure leaves four method-bearing items in queue:
+
+- **F8 external-validation-loop** — sole remaining Phase 4 deficit; honest-rigor cluster-counting at Step 0.5 gates admission; ADR-0069-shape decline-with-triggers ready if cluster-counting fails.
+- **Cross-repo Wave-N+1** — Tier B admissions (F6 / F5 / F3) and Tier C admissions (F7 / F9 / F2-deferred) may warrant IC + PM cross-repo alignment ADRs analogous to the 2026-04-25 evening Wave-N. No operational pressure has surfaced; admission depends on whether downstream sibling repos signal need for foundation-doc-family acknowledgment beyond the 2026-04-25 alignment chain.
+- **Phase 5 corpus-wide section-level status labels** — strategic next major arc; tag-agnostic ratification per Q6 holds across all Phase 4 admissions including Tier C.
+- **Retrospective §12 capstone** when arc actually closes — the present §11 extension covers the 2026-04-26 morning Tier C arc; F8's resolution and any subsequent cross-repo work would warrant a further extension or a final capstone.
+
+The canon-rebuild arc has now extended from 2026-04-22 through 2026-04-26 morning and spans thirty-two decisions: the ADR chain `0044-0058`, `0059a`, and `0061-0080`. The ADR chain is legible as six phases:
+
+- core rebuild and post-Phase-3b queue formation: `0044-0055`
+- Phase 2c and immediate stabilization: `0056-0060`, plus `0059a`
+- dedicated-ADR queue closure and scope-conditioning triad: `0061-0064`
+- pattern-library phase and Wave 2 validation: `0065-0070`
+- Phase 4 Tier A + Tier B foundation-doc expansion plus Wave-N cross-repo alignment: `0071-0077`
+- Phase 4 Tier C closure (F7 admit, F9 admit, F2 decline): `0078-0080`
+
+## §12 What this arc extension added on top of §10
+
+The `§10` summary captured the 2026-04-25 arc's scaling proof, the audit-then-propose generalizations, and the seven new named canon-method entries. The 2026-04-26 morning Tier C arc did three additional things on top of that.
+
+It introduced **pre-arc readiness audit as a discipline above admission ceremony**. The Tier C readiness audit (`§11.1`) operated one layer above per-ADR Step-0.5 work and surfaced material handoff under-counts before any admission opened. The result was that two of three admissions executed against corrected substrate maps. The discipline is reusable for any future Phase or Wave opening; the trigger-state taxonomy (STRONG / MEDIUM / WEAK / NOT-FIRED) generalizes.
+
+It validated that **method-discipline holds when admissions vary in shape across a single tier**. Tier C ran three structurally different admissions in a single morning: a promote-and-extend (F7) that fixed a doc_kind hygiene gap atomically with substantive admission; an all-NEW foundation doc (F9) that carried multi-way H3 relational shape and articulated a foundation-doctrine-vs-pattern-layer boundary as load-bearing canon-discipline; and a decline-with-triggers (F2) whose rationale was substrate-already-encoded-in-existing-prose. None of the three forced the others into a shared shape.
+
+It extended the catalog repertoire with three new named entries plus one decline-shape: doc_kind hygiene-bundling (F7), foundation-doctrine-vs-pattern-layer boundary (F9), multi-way H3 confirmed across three positions (H3-2way / H3-3way / H3-4way / H3-flat), and sufficient-spec-prose-as-defer-rationale (F2 decline-shape). The decline-shape catalog now stands at five plus K3a reclassification.
+
+The combined retrospective now explains how Spore changes canon across six substrate-shapes: grammar, downstream stabilization, pattern-library, foundation-doc family (Tiers A + B + C), cross-repo propagation, and pre-arc readiness audit as the discipline above admission ceremony itself. Each substrate-shape continues to earn its own admission discipline. The method-gain is that the canon's capacity to change has scaled to multi-day multi-tier programs without losing per-admission honesty.
+
 ---
 
-**How this note is used.** A collaborator who wants the short version of the arc should read `§3`, `§4`, `§5`, and `§9` first, then drop into the phase-specific ADRs named in `§7` and the foundation-doc ADRs named in `§9.1` and `§9.2`. If a future canon cycle contradicts this note, the canon and the later ADR chain are authoritative; update this bridge note rather than protecting it as if it were primary law.
+**How this note is used.** A collaborator who wants the short version of the arc should read `§3`, `§4`, `§5`, `§9`, and `§11` first, then drop into the phase-specific ADRs named in `§7` and the foundation-doc ADRs named in `§9.1`, `§9.2`, and `§11`. If a future canon cycle contradicts this note, the canon and the later ADR chain are authoritative; update this bridge note rather than protecting it as if it were primary law.
