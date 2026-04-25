@@ -1,7 +1,7 @@
 ---
 doc_id: spore.maintenance-economics
 doc_kind: foundation
-status: draft
+status: active
 depends_on:
   - spore.project-vision
   - spore.structural-legitimacy
