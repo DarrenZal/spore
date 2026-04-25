@@ -1,7 +1,7 @@
 ---
 doc_id: spore.canon-decision.min-viable-spore-instance-foundation-promotion
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0078"
 opened-on: 2026-04-26
 closed-on: 2026-04-26
@@ -84,7 +84,7 @@ concepts:
 
 ## Status
 
-draft (authored 2026-04-26 under canon-rebuild Phase 4 Tier C first admission; promote-and-extend shape; status flips to `active` at the activation commit per F5/F3 ceremony-anomaly-avoidance discipline)
+active (authored + activated 2026-04-26 under canon-rebuild Phase 4 Tier C first admission; promote-and-extend shape)
 
 ## Context
 
