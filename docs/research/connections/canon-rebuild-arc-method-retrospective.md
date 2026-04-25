@@ -726,6 +726,123 @@ It extended the catalog repertoire with three new named entries plus one decline
 
 The combined retrospective now explains how Spore changes canon across six substrate-shapes: grammar, downstream stabilization, pattern-library, foundation-doc family (Tiers A + B + C), cross-repo propagation, and pre-arc readiness audit as the discipline above admission ceremony itself. Each substrate-shape continues to earn its own admission discipline. The method-gain is that the canon's capacity to change has scaled to multi-day multi-tier programs without losing per-admission honesty.
 
+## §13 Arc extension: Phase 4 Tier C closure completion via F8 admission (2026-04-26 evening)
+
+The 2026-04-26 morning Tier C arc closed three of four Tier C deficits and left F8 external-validation-loop as the sole remaining Phase 4 deficit, gated on honest-rigor cluster-counting at Step 0.5. Session 5 of the same day landed F8 as ADR-0081 — a foundation-doc admission that closes Phase 4 at 9 of 9 deficits dispositioned (8 admit + 1 decline-with-triggers).
+
+Canon state at the end of the 2026-04-26 evening session is `9 primitives / 3 doctrines / 2 modes / 2 properties / 18 derived glossary slugs / 7 in-scope patterns / 14 foundation docs`, with the four-category canon-object-class inventory preserved. Validator held `9 errors / 30 warnings` exact across both ADR-0081 commits. Sibling repos (IC `cef35fe`, PM `349e3ac`, koi-processor `22463cf4`, darren-workflow `3cc190f`) zero-change verified at session start and end.
+
+What the F8 admission added beyond closing the Phase is a small but load-bearing set of method-precedents that each refine prior discipline rather than introducing a new substrate-shape: the first verdict-neutral validation of honest-rigor cluster-counting; a fourth layer of audit-then-propose that operates on prior audit prose; the highest single-ADR forward-ref discharge in the arc; and the completion of an F4-anticipated admission loop that demonstrates a clean two-move pattern for canon-evolution under foresight.
+
+### §13.1 Step-0.5 catch on Johar-substrate framing
+
+The 2026-04-25 evening Tier C readiness audit (`§11.1`) framed F8 as Johar-heavy substrate with cluster-counting risk, citing six planning-doc occurrences of the phrase "external validation" in Johar-derived corroboration material. The framing was load-bearing for the F8 sequencing recommendation (admit-pending-cluster-counting) and pre-staged the ADR-0069-shape decline as the natural outcome if cluster-counting failed.
+
+Session 5's per-ADR Step-0.5 audit caught that the framing was inexact. The Johar usage of "external validation" is canon-self-protection-from-overclaim sense — it names the discipline by which a Johar synthesis declines to invent cross-tradition cluster support that does not exist, and accepts decline-with-triggers as the honest outcome. The F8 territory, by contrast, is meta-canon-receiving-feedback-from-external-witnesses sense — it names the doctrinal layer that organizes how external readings of Spore canon route through the canon's own governance structures.
+
+These two senses are adjacent but not overlapping. The Johar discipline operates inside the corroboration-quality of a Johar synthesis; the F8 doctrine operates outside Spore canon at the witness-and-feedback boundary. F8 is therefore not Johar-primary-inspiration in the ADR-0054 / ADR-0069 sense, and the Johar-density framing was not actually predictive of the cluster-counting outcome.
+
+The method generalization is that **per-ADR Step-0.5 audit can and sometimes must correct pre-arc readiness audit framings**. The audit-then-propose discipline now operates at four layers: per-ADR Step-0.5 (`§3.9`), inter-ADR pre-arc (`§11.1`), handoff prose (`§11.7`), and per-ADR Step-0.5 correcting pre-arc audit prose (this subsection). The recursion is the discipline's own correction-mechanism. Each layer can audit the layer above; no layer is final until per-ADR Step-0.5 ratifies it.
+
+This is not a critique of the readiness audit. The audit's framing was a hypothesis about substrate-shape, and the audit explicitly invited Step-0.5 verification before any admission opened. The framing dissolved when subjected to that verification. The lesson is that **readiness-audit framings are inputs, not authority** — the same disposition the audit itself takes toward handoff prose.
+
+A specific refinement worth canonizing: **surface-vocabulary match is necessary but not sufficient for substrate-relevance; operational-concern match is the actual gating criterion**. The Johar prose used the phrase "external validation"; F8 territory uses the same phrase. Surface vocabulary aligned. Operational concerns did not align. Future cluster-counting audits should explicitly check operational-concern match in addition to vocabulary citation density.
+
+### §13.2 Honest-rigor cluster-counting yields ADMIT outcome
+
+Honest-rigor cluster-counting was first introduced at ADR-0064 / ADR-0069 as a discipline for resisting Johar-primary-inspiration auto-escalation in admission decisions. ADR-0080 then applied the same discipline to F2's translation-mapping-governance disposition, declining via sufficient-spec-prose-as-defer-rationale. All three prior cluster-counting-gated ADRs declined.
+
+ADR-0081's audit applied the same discipline and produced an admit outcome. The cluster-counting verdict identified two non-Johar full clusters: a peer-review / structured-disagreement / AI-debate cluster (five sub-traditions, roughly thirty distinct citations across the canon-context, and a canonical bridge-note at `docs/research/connections/research-structured-disagreement.md`), and a near-full Fricker epistemic-injustice cluster triangulated with Young, Wittgenstein, and Harding-Haraway substrate. Cluster (c) AI-interpretability / XAI was subsumed within (b) rather than standing alone; cluster (d) outsider-witness anthropology was not found in canon-context.
+
+Two non-Johar full clusters meets the ADR-0064 / ADR-0069 threshold for foundation-doc admission. The discipline cleared honestly.
+
+The method contribution is that **cluster-counting is verdict-neutral, not decline-biased**. The earlier three declines could have been read as evidence that the discipline was structured to produce declines under Johar-heavy substrate. ADR-0081's admission refutes that reading. The discipline filters honestly: declines surface when substrate is genuinely Johar-primary; admissions surface when substrate is genuinely cross-tradition. Both directions are canonically real.
+
+This pairs with the §13.1 lesson. The audit-then-propose recursion that corrected the Johar-density framing is precisely what enabled the verdict-neutral verdict: a force-fit of the Johar framing would have produced a force-fit decline. The two disciplines compose: audit-then-propose verifies the framing; cluster-counting then operates on the corrected substrate.
+
+### §13.3 Multi-forward-ref cluster-discharge extends to 5+ refs
+
+ADR-0077 (F3 actor-governance) set the prior arc maximum for single-ADR forward-ref discharge at three: ADR-0042 §82 (held from the 2026-04-22 capstone), F6.7 actor-capture (forward-ref from ADR-0075), and F5 §4.2 authority-delegation (forward-ref from ADR-0076). The shape was named in `§9.5` as multi-forward-ref cluster-discharge and identified as Tier-closing connective work.
+
+ADR-0081 lands at the Phase-closure position with five-plus forward-refs discharged simultaneously: F4 §43 (meta-layers as F8 territory), F4 §115 (wider-AI-interpretation under I2 deferred to F8), F4 §184 §revision-trigger-iii (F8 feedback as F4 revision-trigger), F3 ADR-0077 §222 (governance-bodies receive external-validation-loop feedback), F7 ADR-0078 §181 (cross-federation portability echo), F9 ADR-0079 §221 + §232 (maintenance-economics intersections with feedback-routing).
+
+This is the highest single-ADR forward-ref discharge count in the canon-rebuild arc. The pattern is reusable: **late-Tier or arc-closing foundation docs naturally accumulate connective-tissue forward-ref discharge counts**. As earlier admissions in a Tier or Phase forward-ref subsequent admissions, the closing admission discharges the whole accumulated set. Phase 4's F8 closes Tier C and the entire Phase, which puts it at the densest discharge position in the arc.
+
+A subtler observation: each forward-ref in the discharge set was authored by a different prior-ADR with a different operational concern. F4 forward-refs anticipated F8 from the representation-authority side (where authority routes when meta-layers fire). F3 forward-refs anticipated F8 from the actor-governance side (where governance-bodies receive external feedback). F7 anticipated from cross-federation portability. F9 anticipated from maintenance-economics intersections. The discharge integrates four distinct anticipation directions in a single foundation-doc body. **Multi-direction discharge**, not just multi-ref discharge, is what foundation-doc Tier-closing positions enable.
+
+### §13.4 F4-anticipated admission
+
+F4 representation-authority (ADR-0074) §184 §revision-trigger-iii explicitly named "F8 external-validation-loop feedback if authored" as one of four conditions under which F4 doctrine may need updating. The forward-reference was a deliberate canon-act: F4 acknowledged that its current scope (default + context-overrides + appeal-protocol within representation-authority) might prove insufficient when external validation feedback became operational, and pre-staged the trigger that would invite F4 revision.
+
+ADR-0081's admission instantiates the loop. F4's revision-trigger (iii) is no longer aspirational; F4 now has an admitted F8 doctrine to receive feedback through. If F8-routed external feedback ever produces operational pressure on F4's appeal-protocol or precedence-rule, F4 will be revised under the trigger F4 itself authorized. The two-move pattern (forward-ref-to-future-doc-then-admit-future-doc) is closed.
+
+The method contribution is that **forward-reference-then-admission is a clean two-move canon-evolution pattern under foresight**. It works when the forward-referencing doc is honest about scope-limitation (F4 §6 explicit I1 NARROW + §184 §iii) and when the future-admission discharges the forward-ref directly (F8 §Context cites F4 §184 §iii as anticipating this admission). The pattern is reusable: any foundation doc that names a future foundation-doc as a revision-trigger source authorizes a clean canon-evolution path that subsequent work can follow without inventing new authority.
+
+A related discipline worth naming: **canon-evolution under foresight is distinct from canon-evolution under pressure**. F4's anticipation of F8 was not driven by F8-shaped pressure already firing; it was driven by F4's honest acknowledgment that its own scope was provisional pending F8-shaped territory being doctrinally addressed. Canon can pre-stage its own revision triggers without waiting for breakage. The two-move pattern operationalizes that capacity.
+
+### §13.5 Updated B-axis progression
+
+The B-axis progression now reads **B1 (F1) → B1 (F4) → B2 (F6) → B1 (F5) → B5 (F3) → B1 (F7) → B5 (F9) → B5 (F8)** plus N/A (F2 decline). The progression spans eight admissions across Tiers A, B, and C, plus one decline. F8 is the third B5 application, after F3 and F9.
+
+Each B-axis value continues to be substrate-driven at Step-0.5 audit time, not chosen by inheritance from the prior admission's shape. F8's B5 selective-per-category was the honest call because F8's substrate is heterogeneous: peer-review tradition has structured-disagreement protocols and citation conventions; epistemic-injustice tradition has hermeneutical and testimonial dimensions; AI-interpretability tradition has technical evaluation methods; cross-comparative-intake operational evidence has bridge-note routing patterns. Treating these uniformly under B1 unified principled-rule would either invent fake symmetry or pad the principled-rule beyond its substrate.
+
+Three legitimate B-axis values (B1, B2, B5) are now validated across eight admissions. Zero defaults; all substrate-driven. The discipline is operational, not aspirational.
+
+### §13.6 Updated H-axis catalog
+
+H-axis evolution now reads **H2 (F6) → H3-2way (F5) → H3-3way (F3) → H3-flat (F7) → H3-4way (F9) → H3-4way (F8)** plus N/A (F2 decline). F8 is the second H3-4way application, after F9.
+
+F8's H3-4way relational shape carries substrate-parents `structural-legitimacy` (ADR-0042) + `representation-authority` (F4) + `actor-governance` (F3) plus one operational-pair sibling `sensor-oracle-governance` (F1). The substrate-coupling is wider than F9's H3-4way (F9 had three substrate-parents and two operational-pair siblings); F8 has three substrate-parents and one operational-pair sibling. The total relational anchor count is the same (four); the distribution differs.
+
+The H-axis catalog now stands at five distinct shapes (H2 / H3-2way / H3-3way / H3-flat / H3-4way) with H3-4way appearing twice in different anchor-distributions. Like B-axis, none are defaults; each is substrate-driven at Step-0.5 audit time. The pattern that connective-tissue foundation-docs at Tier-closing or Phase-closing positions tend toward multi-way H3 is now confirmed across two admissions (F9 + F8), validating ADR-0077 §231's prediction.
+
+### §13.7 Phase 4 closure declaration
+
+Phase 4 is fully closed at 9 of 9 deficits dispositioned. The disposition map:
+
+- **Tier A admits**: F1 sensor-oracle-governance (ADR-0073); F4 representation-authority (ADR-0074)
+- **Tier B admits**: F6 failure-modes (ADR-0075); F5 actuator-logic (ADR-0076); F3 actor-governance (ADR-0077)
+- **Tier C admits**: F7 min-viable-spore-instance promote-and-extend (ADR-0078); F9 maintenance-economics (ADR-0079); F8 external-validation-loop (ADR-0081)
+- **Tier C decline-with-triggers**: F2 translation-mapping-governance (ADR-0080)
+
+Across two days, the program executed eleven Agent-tool orchestrations, landed nine ADRs (ADR-0073 through ADR-0081 with ADR-0080's decline-shape ADR included), zero rollbacks, and held validator at 9 errors / 30 warnings exact across every commit. Each admission was honest at Step-0.5. No admission was rushed. No decline was over-engineered. No deferral was indefinite.
+
+The method-shape at Phase 4 scale is that **a multi-deficit phased admission program can close cleanly across multiple days when admission ceremony is decision-gated and each deficit's disposition is substrate-audited honestly at Step-0.5**. The combination of Phase scoping ratification (Phase 4 scoping plan), pre-tier readiness audit (`§11.1`), per-ADR Step-0.5 discipline (`§3.9`), and the audit-then-propose recursion that allows prior audit prose to be corrected (`§13.1`) is what made this work. Each discipline scales when the others hold; none can substitute for the others.
+
+This is the first complete Phase closure in the canon-rebuild arc. Prior arcs (Phase 3 grammar rebuild, Phase 3b primitive disposition, Phase 2c semantic refactoring, pattern-library Wave 2) closed their work but were not Phase-numbered admission programs of the same shape. Phase 4 is the first program that named a deficit count up-front, scoped admissions tiered by substrate-readiness, and dispositioned every named deficit before the program closed.
+
+### §13.8 Updated forward state
+
+With Phase 4 fully closed, three method-bearing items remain in queue:
+
+- **Cross-repo Wave-N+1** — Tier B admissions (F6 / F5 / F3), Tier C admissions (F7 / F9), and the F8 admission may warrant IC + PM cross-repo alignment ADRs analogous to the 2026-04-25 evening Wave-N. F2 (decline-with-triggers) typically does not require sibling-repo propagation. No operational pressure has surfaced; admission depends on whether downstream sibling repos signal need for extended foundation-doc-family acknowledgment beyond the 2026-04-25 alignment chain.
+- **Phase 5 corpus-wide section-level status labels** — strategic next major arc; tag-agnostic ratification per Q6 holds across all Phase 4 admissions including Tier C. All thirteen new foundation docs (post-Phase-3) are tag-ready but not pre-tagged. The Phase 5 sweep is corpus-wide.
+- **Phase 4 capstone declaration ADR (optional)** — a lightweight ADR formally closing Phase 4 with the disposition map and the named method-precedents could be authored, similar in shape to other arc-closing acknowledgment ADRs. Whether such an ADR is needed (versus relying on this retrospective extension as the closure-of-record) is operator-discretion.
+
+The canon-rebuild arc has now extended from 2026-04-22 through 2026-04-26 evening and spans thirty-three decisions: the ADR chain `0044-0058`, `0059a`, and `0061-0081`. The ADR chain is legible as seven phases:
+
+- core rebuild and post-Phase-3b queue formation: `0044-0055`
+- Phase 2c and immediate stabilization: `0056-0060`, plus `0059a`
+- dedicated-ADR queue closure and scope-conditioning triad: `0061-0064`
+- pattern-library phase and Wave 2 validation: `0065-0070`
+- Phase 4 Tier A + Tier B foundation-doc expansion plus Wave-N cross-repo alignment: `0071-0077`
+- Phase 4 Tier C admissions plus decline (F7 / F9 / F2): `0078-0080`
+- Phase 4 Tier C closure via F8 admission: `0081`
+
+## §14 What this arc extension added on top of §12
+
+The `§12` summary captured the 2026-04-26 morning Tier C arc's introduction of pre-arc readiness audit as a discipline above admission ceremony, the validation that method-discipline holds when admissions vary in shape across a single tier, and three new named entries plus one decline-shape (doc_kind hygiene-bundling, foundation-doctrine-vs-pattern-layer boundary, multi-way H3 at three positions, and sufficient-spec-prose-as-defer-rationale). The 2026-04-26 evening F8 admission did four additional things on top of that.
+
+It validated that **honest-rigor cluster-counting is verdict-neutral, not decline-biased**. ADR-0064, ADR-0069, and ADR-0080 had all declined under cluster-counting. ADR-0081's admission under the same discipline refutes the alternative reading (that the discipline was structured to produce declines under Johar-heavy substrate) and confirms the alternative shape (the discipline filters honestly in either direction depending on actual cross-tradition substrate). Both decline and admit outcomes are canonically real under the same discipline.
+
+It introduced **a fourth layer to the audit-then-propose recursion**. The discipline now operates at four nested layers: per-ADR Step-0.5 verifies its own audit; inter-ADR pre-arc audits handoff framings; handoff prose audits prior session conclusions; and per-ADR Step-0.5 audits prior pre-arc audit prose. The recursion is its own correction-mechanism. Each layer can audit the layer above; no layer is final until per-ADR Step-0.5 ratifies it. The Step-0.5 catch on Johar-substrate framing was the first operational use of this fourth layer.
+
+It demonstrated **forward-reference-then-admission as a clean two-move canon-evolution pattern under foresight**. F4's §184 §revision-trigger-iii pre-staged the F8 admission as one of four conditions under which F4 doctrine may need updating. F8's admission discharges that anticipation cleanly. Canon can pre-stage its own revision triggers without waiting for breakage; subsequent work follows the authorized path without inventing new authority. This is canon-evolution under foresight, distinct from canon-evolution under pressure.
+
+It produced **the first complete Phase closure in the canon-rebuild arc**. Phase 4 scoped nine deficits up-front, ratified TIERED admission via Option D3, and dispositioned every named deficit across two days at eleven Agent-tool orchestrations with zero rollbacks. The combination of Phase scoping, pre-tier readiness audit, per-ADR Step-0.5 discipline, and audit-then-propose recursion is what made the program close cleanly. The method-shape is reusable for any future Phase: scope deficits up-front, audit substrate per-deficit, admit or decline honestly at Step-0.5, refine framings recursively when prior audits prove inexact.
+
+The combined retrospective now explains how Spore changes canon across seven substrate-shapes: grammar (Phase 3 / 3b), downstream stabilization (Phase 2c), pattern-library (Wave 2), foundation-doc family across all three tiers (Phase 4), cross-repo propagation (Waves 1 through N), pre-arc readiness audit as the discipline above admission ceremony (introduced 2026-04-26 morning), and audit-then-propose recursion that allows prior audit prose to be corrected at per-ADR Step-0.5 (introduced 2026-04-26 evening). Each substrate-shape continues to earn its own admission discipline. The method-gain across the entire 2026-04-22 through 2026-04-26 arc is that the canon's capacity to change has scaled across multi-day multi-tier programs without losing per-admission honesty, and now closes Phase-scoped programs cleanly via decision-gated discipline at every nested layer.
+
 ---
 
-**How this note is used.** A collaborator who wants the short version of the arc should read `§3`, `§4`, `§5`, `§9`, and `§11` first, then drop into the phase-specific ADRs named in `§7` and the foundation-doc ADRs named in `§9.1`, `§9.2`, and `§11`. If a future canon cycle contradicts this note, the canon and the later ADR chain are authoritative; update this bridge note rather than protecting it as if it were primary law.
+**How this note is used.** A collaborator who wants the short version of the arc should read `§3`, `§4`, `§5`, `§9`, `§11`, and `§13` first, then drop into the phase-specific ADRs named in `§7` and the foundation-doc ADRs named in `§9.1`, `§9.2`, `§11`, and `§13`. If a future canon cycle contradicts this note, the canon and the later ADR chain are authoritative; update this bridge note rather than protecting it as if it were primary law.
