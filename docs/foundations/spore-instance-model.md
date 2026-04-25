@@ -1,11 +1,13 @@
 ---
 doc_id: spore.instance-model
-doc_kind: architecture
-status: draft
+doc_kind: foundation
+status: active
 depends_on:
   - spore.project-vision
   - spore.relational-agency-and-holons
   - spore.federation-protocol
+  - spore.failure-modes
+  - spore.actor-governance
 ---
 
 # Spore Instance Model
@@ -53,6 +55,78 @@ These examples are illustrative, not an exhaustive registry of all current or fu
 | BKC / Octo | Extends Spore canon + own BKC canon | 4 federated KOI nodes | OpenClaw agent (Octo) | Quartz site + chat widget |
 | Dobby | Spore-adjacent, partially aligned | Personal KOI (NUC) | Dobby agent (Telegram) | No |
 | Future Spore public instance | Follows Spore canon | Public Spore node (dedicated) | Coordination-domain agent | Public Spore site |
+
+## Minimum Viable Composition
+
+The composition table above is illustrative; this section articulates what makes any given holon a Spore-instance, what makes one *adjacent* without crossing the threshold, and what falls *outside the grammar* entirely. The section operationalizes ADR-0042 coupling-to-consequence at instance-composition layer and discharges two prior forward-references (F6.4 scale-transition and F3 cross-federation portability — see §"Forward-Reference Discharges" below).
+
+### Principled rule (B1 unified across the four aspects)
+
+A coordinative holon is a **Spore-instance** when, at minimum, *all three* of the following hold:
+
+1. **Grammar use** — the holon performs at least one Spore coordination-grammar operation (intent, commitment, joint-commitment, evidence, signal, reproduction; or governance-artifact authoring under spec-DAG discipline) in a canon-legible way through one or more of Canon, Node, Agent, or Site.
+2. **Canon-legible accountability** — the holon is canon-legibly accountable to Spore canon through some grammar-channel: it either (a) extends or contributes back to spore-canon directly, or (b) declares fidelity to the canon (using its concepts, conforming to its protocols, citing its commitments) at a level that allows other Spore-instances to evaluate the conformance.
+3. **Coupling-to-consequence** (per `structural-legitimacy.md`) — the holon's authority-bearing roles inside the instance are coupled to the consequences of decisions made through those roles. An instance whose decision-makers are systematically decoupled from outcomes operates as F6.7 actor-capture risk at instance scale (see `failure-modes.md` §4.7).
+
+A holon that satisfies (1) but fails (2) or (3) is **Spore-adjacent**: it uses the grammar but is not yet canon-legibly accountable to it (Dobby is the canonical case at the composition table — agent-level grammar use without Canon contribution and without yet being canon-coupled at agent-rotation discipline). A holon that fails (1) entirely is **out-of-grammar**: it may be coordinative, even sophisticated, but it is not legible as a Spore-instance regardless of substrate similarity.
+
+This rule does **not** require all four aspects. A canon-only instance (this repo) is viable; a node-only instance is viable; a personal node without a site is viable. Required is that whichever aspects the holon does materialize, they are grammar-conformant *and* the instance as a whole carries canon-legible accountability and coupling.
+
+### Aspect-coverage threshold
+
+Coverage of the four aspects is not the threshold; *grammar-fidelity within whatever coverage exists* is the threshold. A one-aspect Spore-instance (e.g., canon-only) can be fully Spore. A four-aspect holon that uses Spore-shaped artifacts without grammar-conformant operations is not Spore — it has the look of an instance without the structure of one.
+
+The four-aspects framing is descriptive of *what materializations are available*; the principled rule is what governs *whether any given materialization is in-grammar*.
+
+### Boundary cases — Spore vs Spore-adjacent vs out-of-grammar
+
+The composition table's "Spore-adjacent, partially aligned" row (Dobby) is canon-legible under this rule:
+
+- Dobby uses Spore grammar at Agent layer (intent → commitment → evidence → signal cycles in Telegram interactions, reproduction-continuity-shaped routines).
+- Dobby does NOT yet contribute Canon back to spore-canon.
+- Dobby does NOT yet have canon-legible coupling-to-consequence at agent-rotation or maintainer-replacement layer (Darren is the de-facto sole maintainer; recall pathway is informal).
+
+Dobby is therefore Spore-adjacent: condition (1) holds; conditions (2) and (3) hold partially-or-not. The path from Spore-adjacent to full Spore-instance is: declare canon-fidelity (close (2)) and establish canon-legible recall and coupling-to-consequence at agent layer (close (3) per `actor-governance.md` §4.1 + §4.6 sub-shape 1).
+
+The grammar does *not* mark Dobby as deficient — being adjacent is a legitimate composition. The mark is only that Dobby is not yet a *Spore-instance* in the strong sense; it is a holon-using-Spore-grammar without yet being a holon-governed-as-Spore.
+
+A holon that uses, for example, KOI or a similar substrate but does not enact the coordination-grammar verbs (intent / commitment / evidence / signal / reproduction / joint-commitment) in canon-legible ways is **out-of-grammar**: it may be infrastructure-compatible without being grammar-compatible.
+
+### Rule-level decomposition (C1 inheriting ADR-0046 Ostrom 3-level rule-stack)
+
+Instance-composition decisions stratify across the rule-stack:
+
+- **Constitutional rule layer** — *which compositions count as Spore-instances at all*. The principled rule above operates here. Federation-level constitutional decisions (e.g., admitting a federation-instance into broader cross-federation alignment) operate at this layer.
+- **Collective-choice rule layer** — *protocols for declaring fidelity, contributing Canon, establishing coupling-to-consequence shapes*. Instance maintainers operate here when extending Canon, configuring Node membranes, or admitting new agent-roles.
+- **Operational rule layer** — day-to-day grammar operations (running intent → commitment cycles, exposing curated knowledge through Site, federating with peer Nodes). Routine instance-life lives here.
+
+Disputes about whether a given holon is a Spore-instance, a Spore-adjacent holon, or out-of-grammar route through `representation-authority.md` §5.3 Appeal-Protocol wholesale (cite-don't-redefine inheritance from F4 / F5 / F3 precedent), with `actor-governance.md` §4.6 governance-response if instance-level standing is contested.
+
+### Relationship to F6.4 scale-transition (forward-ref discharge)
+
+F6 §4.4 (failure-modes.md L109-121) names scale-transition failures: *"patterns that work at one scale break when composed into or scaled down from another scale."* That doctrine names the cross-scale failure mode categorically; this section names the corresponding minimum-viable threshold below which a holon is not yet at a scale Spore-grammar can hold.
+
+The relationship is structural: F6.4 governs *failures that manifest at scale-boundaries*; F7 (this section) governs *the existence threshold below which patterns cannot compose at all*. A holon below the threshold articulated here is not "failing scale-transition" in the F6.4 sense — it is not yet at a scale where Spore grammar applies. Conversely, a holon above the threshold may still encounter F6.4 scale-transition failures when composing across scales, and those failures route to F6 governance-response (which routes to F5 actuator-logic and F3 actor-governance per Tier B canon).
+
+This articulates the F6.4 ↔ F7 boundary: F6.4 is failure-categorization at boundary-crossings between scales where the grammar already applies; F7 is the existence-threshold of grammar-applicability itself.
+
+### Cross-federation portability (F3 forward-ref discharge)
+
+`actor-governance.md` §"Open Questions" L199 deferred cross-federation actor-portability to F7. This section discharges the deferral as follows:
+
+- **Actor-portability is not automatic across federations** (F3 §"Open Questions" preserves this constraint).
+- **Portability-shape is grounded in instance-composition compatibility**: an actor's standing in source-federation can be admitted in target-federation when the source and target are both Spore-instances under this section's principled rule AND their canon-legible accountability shapes are mutually-readable (each can evaluate the other's coupling-to-consequence record).
+- **Spore-adjacent holons cannot ground actor-portability** by themselves — an actor with standing only in a Spore-adjacent holon must establish standing in the target federation through that federation's own §4.1 admission pathways (per `actor-governance.md`).
+- **Cross-federation portability protocols** (specific admission shortcuts, mutual-recognition conventions) are pattern-layer (per ADR-0068 federation-encounter pattern composition); foundation doctrine commits to the *grounding* of portability in instance-compatibility without specifying mechanisms.
+
+This discharges the F3 §"Open Questions" L199 forward-reference at foundation-doctrine layer, leaving operational portability protocols to pattern-layer development.
+
+### Forward-Reference Discharges
+
+This section closes two previously-open forward-references:
+
+- **F6.4 scale-transition** (`docs/foundations/failure-modes.md` §4.4): F6.4 names scale-transition failures categorically; F7 (this section) names the minimum-viable existence threshold below which the grammar does not yet apply. Boundary articulated.
+- **F3 cross-federation actor-portability** (`docs/foundations/actor-governance.md` §"Open Questions" L199): portability is grounded in instance-composition compatibility per the principled rule above; specific protocols remain pattern-layer.
 
 ## Personal Node vs Public Node
 
