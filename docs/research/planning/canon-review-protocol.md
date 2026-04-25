@@ -42,6 +42,7 @@ Canon = foundation + vision + roadmap docs that define each project's normative 
 - `docs/foundations/governance-artifacts-and-graph-projections.md`
 - `docs/foundations/holonic-network-architecture.md`
 - `docs/foundations/federation-protocol.md`
+- `docs/foundations/maintenance-economics.md`
 - `docs/foundations/relational-agency-and-holons.md`
 - `docs/foundations/representation-authority.md`
 - `docs/foundations/sensor-oracle-governance.md`

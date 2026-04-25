@@ -1,5 +1,5 @@
 # status: frozen
-# version: v18
+# version: v19
 # frozen_at: 2026-04-25
 # owner: Darren Zal
 # purpose: Canonical concept vocabulary governing ADR `concepts:` references, shared framing notes, and bridge-note R-claim `concept:` values across Spore / Intelligence Commons / Poietic Match.
@@ -325,6 +325,41 @@
 # D2 2-slug actor-standing+governance-response / E1 full forward-ref discharge /
 # F1 5-file atomic-bundle / G2 cite-don't-redefine F4 §5.3 / H3 HYBRID 3-way /
 # I1 narrow Spore-only / J1 narrow scope").
+# v19 (2026-04-26): adds 2 derived glossary slugs (`reproductive-infrastructure`,
+# `compensation-pattern-layer`) for ADR-0079 maintenance-economics foundation-doc
+# admission (Phase 4 Tier C SECOND admission; first Tier C all-NEW foundation doc
+# after F7 ADR-0078 promote-and-extend variant). `reproductive-infrastructure` is
+# the canonical anchor for the 5-citation tradition cluster (Federici/Mies/
+# Bresnihan/Bhattacharya/Gibson-Graham) already-canon at federation-protocol.md:28;
+# names the substrate of care/provisioning/maintenance/translation work that
+# reproduces associational practice. Inherits ADR-0002 reproductive-commoning
+# doctrine + ADR-0049 reproduction-continuity primitive at the foundation-doctrine
+# layer F9 articulates. `compensation-pattern-layer` names the foundation-vs-
+# pattern boundary as load-bearing canon-discipline per F9 §4.3 (closing F3 §4.6
+# sub-shape 4 deferral that compensation-protocols are pattern-layer). Foundation-
+# doctrine commits to canon-legibility of the boundary itself; pattern-layer
+# compensation-protocols MUST cite F9 doctrine at admission with foundation-clause
+# attribution. Three method-precedents named at ADR-0079 §Consequences per
+# orchestrator directive: (1) first Tier C all-NEW foundation-doc admission
+# (validates Tier C admit-shape-flexibility; F7 promote-and-extend + F9 all-NEW
+# both legitimate per substrate state); (2) H3 4-way relational shape (extends
+# ADR-0077 H3 3-way to 4-way: 3 substrate-parents ADR-0042 + ADR-0002 + ADR-0049
+# AND 2 operational-pair siblings F1 + F3); (3) foundation-doctrine-vs-pattern-
+# layer boundary as load-bearing canon-discipline (when prior canon defers a
+# sub-area to pattern-layer, a subsequent foundation doc can carry the boundary
+# itself as foundation-doctrine commitment). Neither slug is a primitive,
+# doctrine, mode, property, or pattern. Canon object-class inventory PRESERVED at
+# 4 categories plus derived glossary slugs (14 → 16) plus patterns (7). Phase 4
+# progress: 7/9 deficits closed; F8 + F2 remaining. DH-PM-1 hard-pause check
+# verified NOT FIRED (F9 doctrine-layer commitments at canon-legibility +
+# foundation-vs-pattern boundary scope; PM accounting-dependence operates at
+# operational-instance pricing layer downstream of pattern-layer compensation-
+# protocol admission). Extension operator-authorized under ADR-0079 maintenance-
+# economics decision-gated plan (`tmp/adr-0079-decision-brief-2026-04-26.md` per
+# sandbox-fallback precedent), pre-pinned axes ratified at Step 2 via operator
+# directive 2026-04-26 (Step 0.5 audit confirmed pre-pinning; D-axis self-
+# resolved to D2 2-slug per honest-rigor; H-axis self-resolved to H3 4-way per
+# F3 ADR-0077 §231 prediction).
 
 concepts:
   - slug: governance-memory
@@ -747,4 +782,16 @@ concepts:
     canonical_label: Governance Response
     aliases: [actor-governance-response, capture-remediation-doctrine, governance-recovery]
     one_line_definition: Derived glossary slug admitted under ADR-0077 as the meta-noun naming F3 actor-governance's actor-capture-remediation doctrine (per F3 §4.6 discharging F6.7 actor-capture forward-reference). Governance-response specifies who-has-standing and through-what-protocol when the operational response (per F5 actuator-logic response-doctrine) is governance-against-actor-capture. Distinct from `response-doctrine` (v17, F5 — selection-protocol for ANY epistemic gap across R1-R7 categories) by being actor-capture-scoped: F5 selects among R1-R7; F3 §4.6 specifies the actor-side governance-protocol when R2-contest fires for actor-capture or when escalation routes through F4 §5.3 appeal-protocol with actor-specific standing layered atop. Applies governance-response across all four F6.7 sub-shapes: maintainer-capture (recall pathway + co-maintainer + eligibility-restoration); admin-class accumulation (rotation-discipline + demographic-diversity protocols); regulatory capture (external-feedback channels + cross-federation oversight); digital-labor-as-free-gift (reproductive-labor recognition + labor-class standing-to-contest). Carries H3 3-way hybrid relational shape: substrate-child to ADR-0042 structural-legitimacy (coupling-to-consequence grounds remediation legitimacy) AND operational-pair sibling to F5 actuator-logic (R2-contest routes here) AND operational-pair sibling to F6 failure-modes (F6.7 recognizes; governance-response governs). NOT a primitive, doctrine-in-the-cross-cutting-doctrine-category sense, mode, property, or pattern — it is a foundation-layer doctrinal subject name. See `docs/foundations/actor-governance.md` §4.6.
+    primary_project: spore
+
+  - slug: reproductive-infrastructure
+    canonical_label: Reproductive Infrastructure
+    aliases: [reproductive-substrate, care-provisioning-maintenance-translation-substrate, federation-reproductive-substrate]
+    one_line_definition: Derived glossary slug admitted under ADR-0079 (Phase 4 Tier C SECOND admission; maintenance-economics foundation-doc admission) as the canonical anchor for the 5-citation tradition cluster (Federici / Mies / Bresnihan / Bhattacharya / Gibson-Graham) already-canon at `docs/foundations/federation-protocol.md:28`. Reproductive-infrastructure names the substrate of care, provisioning, maintenance, and translation labour that reproduces the associational practice a coordination protocol serves. Per F9 §4.1, reproductive-infrastructure operates as first-order coordination content across three rule-levels (constitutional / collective-choice / operational); naturalising, de-valorising, or invisibilising it reproduces the historically-prior capture mechanism the tradition cluster identifies. F9 doctrine commits to canon-legibility of reproductive-infrastructure at admission time without prescribing specific compensation arrangements (those are pattern-layer per `compensation-pattern-layer` slug + F3 §4.6 + F9 §4.3). Inherits ADR-0002 reproductive-commoning cross-cutting doctrine + ADR-0049 reproduction-continuity primitive verb. Cross-modality scope: machine-sensor maintenance (compute / hosting / bandwidth costs); human-attestation reproductive-substrate (witness practice; governance-body upkeep); AI-translation reproductive-substrate (model-and-prompt lifecycle; regeneration-audit); cross-federation translation labour (federation-interface upkeep). Distinct from `reproduction-continuity` (v7 primitive verb) — reproductive-infrastructure names the substrate within which the primitive operates. NOT a primitive, doctrine-in-the-cross-cutting-doctrine-category sense, mode, property, or pattern — it is a foundation-layer doctrinal subject name. See `docs/foundations/maintenance-economics.md` §4.1.
+    primary_project: spore
+
+  - slug: compensation-pattern-layer
+    canonical_label: Compensation Pattern Layer
+    aliases: [compensation-protocol-boundary, foundation-pattern-compensation-boundary, compensation-deferral-handle]
+    one_line_definition: Derived glossary slug admitted under ADR-0079 as the canon-legible boundary-handle naming the foundation-vs-pattern split for compensation-protocols per F3 §4.6 sub-shape 4 deferral ("Specific compensation-protocols are pattern-layer") and F9 §4.3 doctrinal commitment. Compensation-pattern-layer names: (a) what foundation-doctrine commits to (canon-legibility of reproductive-infrastructure per `reproductive-infrastructure`; maintainer-economics canon-legibility per F9 §4.2; labor-class standing-to-contest per F9 §4.7; cross-federation portability per F9 §4.8); (b) what foundation-doctrine does NOT commit to (rates, pricing, allocation algorithms, currency choices, settlement mechanisms, accounting systems, payment frequencies, distribution formulas — these are pattern-layer); (c) the boundary canon-legibility requirement — every pattern-layer compensation-protocol admitted to canon MUST cite F9 doctrine at admission and identify which foundation-doctrine clauses it operationalizes. The boundary itself is a doctrinal commitment. Substitution-trap-prevention (per ADR-0048 mode): foundation-doctrine prescribing a specific compensation-protocol would substitute allocation for coupling — assigning economic structure without generating coupling-to-consequence; the protocol-design is allocational; the coupling is generative; the former does not substitute for the latter. Specific compensation-protocols (commitment-pool dividends, mutual-credit, time-banking, federated payroll, infrastructure-cost-sharing pacts, translation-labour grant pools) admit via ADR-0065 pattern-library-infrastructure-spec workflow. NOT a primitive, doctrine-in-the-cross-cutting-doctrine-category sense, mode, property, or pattern — it is a foundation-layer doctrinal subject name. See `docs/foundations/maintenance-economics.md` §4.3.
     primary_project: spore
