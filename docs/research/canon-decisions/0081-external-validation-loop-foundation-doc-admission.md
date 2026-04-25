@@ -1,7 +1,7 @@
 ---
 doc_id: spore.canon-decision.external-validation-loop-foundation-doc-admission
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0081"
 opened-on: 2026-04-26
 closed-on: 2026-04-26
