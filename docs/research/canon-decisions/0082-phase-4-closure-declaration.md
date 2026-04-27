@@ -1,7 +1,7 @@
 ---
 doc_id: spore.canon-decision.phase-4-closure-declaration
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0082"
 opened-on: 2026-04-27
 closed-on: 2026-04-27
