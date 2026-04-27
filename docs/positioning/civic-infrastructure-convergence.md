@@ -121,7 +121,7 @@ These map naturally onto viability signals the grammar can sense:
 
 - **Resilience** — repair debt (unresolved disputes, broken commitments), ecological thresholds (approach to irreversible states)
 - **Choice** — forkability (can participants actually leave?), membrane authorization (can they participate partially, on their own terms?)
-- **Vitality** — [intent pressure](../research/connections/intent-pressure.md) (is the system generating intents? are they activating?), unused capacity (offers without matching needs)
+- **Vitality** — observable epistemic gap (per F5 ADR-0076 reframe of demoted [intent-pressure](../research/connections/intent-pressure.md): is the system generating intents? are they activating?), unused capacity (offers without matching needs)
 
 The civic framing — resilience, choice, vitality — provides a legible organizing layer over these more granular signals. We don't yet have a working dashboard that maps one to the other, but the structural correspondence is strong enough to warrant the attempt.
 

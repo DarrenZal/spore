@@ -41,14 +41,14 @@ Declaring an intent is an act of caring — something matters enough to make it 
 
 Intents can be **explicitly published** ("I offer 40 hours of GIS mapping," "we need a grant writer for Q3") or **inferred from sensing** -- repeated requests in meeting transcripts, unmet tensions surfaced by retrospectives, resource flow patterns, or gaps between normative state (vision graph) and world state (sensor data).
 
-Inferred intents connect to active inference: mismatch between what normative artifacts (vision, roadmap, active constraints) declare should be true and what sensors report is true creates **latent intent-pressure** -- a signal that something needs to move.
+Inferred intents connect to active inference: mismatch between what normative artifacts (vision, roadmap, active constraints) declare should be true and what sensors report is true creates an **observable epistemic gap** -- a signal that something needs to move (per F5 ADR-0076 `epistemic-gap` slug; reframe of the demoted `intent-pressure` predecessor per ADR-0056).
 
-This pressure exists between two frontiers:
+This gap exists between two frontiers:
 
 - The **normative frontier**: what the vision, roadmap, and active constraints require — the conditions that must hold for the desired future to be realized.
 - The **epistemic frontier**: what current reality affords — the states that are reachable given what sensors and evidence currently report.
 
-Intents are the active edges that try to bridge these two frontiers. They are not just offers and needs — they are the legible pressure between sensed reality and desired reality. This gives caring a structural form: to care is to sense the distance between what-is and what-matters, and to make that distance visible.
+Intents are the active edges that try to bridge these two frontiers. They are not just offers and needs — they are the legible distance between sensed reality and desired reality. This gives caring a structural form: to care is to sense the distance between what-is and what-matters, and to make that distance visible.
 
 ### Matching as composition
 

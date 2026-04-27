@@ -27,7 +27,7 @@ Three primitives compose to produce stigmergic coordination:
 
 - **Signal** — a directional cue (need, offer, alert, sensor output). Signals modify the shared coordination environment — they are the "traces" in the medium.
 - **Event** — an immutable record of something that happened. Events accumulate into a history that shapes the landscape other agents sense. A pattern of events creates gradients that orient future action.
-- **Inferred intent** — intent pressure can be inferred from accumulated signals and events without anyone explicitly declaring it. Repeated unmet requests, resource flow gaps, or recurring patterns of activity create legible pressure — the stigmergic equivalent of a pheromone trail growing stronger with reinforcement.
+- **Inferred intent** — an inferred intent can emerge from accumulated signals and events without anyone explicitly declaring it. Repeated unmet requests, resource flow gaps, or recurring patterns of activity create a legible epistemic gap (per F5 ADR-0076 `epistemic-gap` slug; reframe of the demoted `intent-pressure` predecessor per ADR-0056) — the stigmergic equivalent of a pheromone trail growing stronger with reinforcement.
 
 The coordination loop's **sense** phase is where stigmergy enters: agents perceive the current state of the shared medium (event graph, signal history, entity graph) and respond to the gradients they find there.
 
@@ -76,16 +76,16 @@ Stigmergic coordination primitives in Spore canon — wherever the grammar invok
 
 Per spore:ADR-0005, the decentralization-myth-bundle declination applies: canon text invoking stigmergy as a positively-valued primitive either scopes the language away from the three bundle critiques (digital-labor-as-free-gift, administrator-capture-in-peer-governance, decentralization-theatre) or carries explicit acknowledgement of them alongside the stigmergy invocation.
 
-## Relationship to Intent Pressure
+## Relationship to Epistemic Gap
 
-Stigmergy is one mechanism through which [intent pressure](../../research/connections/intent-pressure.md) propagates. When the normative frontier and epistemic frontier diverge, that gap creates pressure — but the pressure must be made legible for coordination to happen. Stigmergic traces are one way pressure becomes legible without anyone explicitly publishing an intent.
+Stigmergy is one mechanism through which an [observable epistemic gap](../../research/connections/intent-pressure.md) propagates (per F5 ADR-0076 `epistemic-gap` slug; the link target is the demoted predecessor `spore.term.intent-pressure` research-connection that names the historical concept). When the normative frontier and epistemic frontier diverge, that gap is real but must be made legible for coordination to happen. Stigmergic traces are one way the gap becomes legible without anyone explicitly publishing an intent.
 
-Example: a bioregional knowledge commons node where multiple users independently search for herring population data, find nothing, and log their queries. The accumulated search traces create a stigmergic signal — an inferred need for herring data — that a knowledge gardener can sense and act on. No one declared an intent. The medium itself made the pressure visible.
+Example: a bioregional knowledge commons node where multiple users independently search for herring population data, find nothing, and log their queries. The accumulated search traces create a stigmergic signal — an inferred need for herring data — that a knowledge gardener can sense and act on. No one declared an intent. The medium itself made the gap visible.
 
 ## What Stigmergy Is Not
 
 - **Not a new primitive.** Signal, event, and inferred intent already compose to support it. Naming it recognizes a well-known coordination pattern, not a gap in the grammar.
-- **Not identical to explicit intent publication.** Stigmergic signals are typically inferred from environmental traces, not declared. The [intent publication](../../patterns/intent-publication-and-activation.md) pattern handles the explicit case; stigmergy handles the implicit case. Both produce intent pressure.
+- **Not identical to explicit intent publication.** Stigmergic signals are typically inferred from environmental traces, not declared. The [intent publication](../../patterns/intent-publication-and-activation.md) pattern handles the explicit case; stigmergy handles the implicit case. Both surface observable epistemic gaps.
 - **Not sufficient for high-stakes coordination.** Stigmergy works well for low-cost, reversible actions (ants can abandon a trail). For high-stakes commitments, explicit intent publication, consent, and membrane authorization are needed. Stigmergy orients; commitment protocols bind.
 
 ## Source

@@ -49,17 +49,17 @@ The substitution matters. Speculative price dynamics create incentives for exit-
 
 This does not make commitment pooling "better" in all contexts. Speculative dynamics have real coordination power — they aggregate dispersed belief signals rapidly and at scale. But commitment pooling is designed for contexts where the coordination substrate needs to be trusted, where accountability matters more than liquidity, and where exit should be a sovereign right rather than a profit opportunity.
 
-## Intent Pressure as Coincidence Intensification
+## Epistemic Gap as Coincidence Intensification
 
 The Gitcoin article describes a mechanism at the heart of hyperstition: shared beliefs generate conditions for their own realization. The more people believe in and act on a narrative, the more the material conditions shift to accommodate it. This is sometimes called "coincidence intensification" — the sense that the future is pulling the present toward it.
 
-Spore names this force structurally: **[intent pressure](../research/connections/intent-pressure.md)**.
+Spore names this force structurally: **observable epistemic gap** (per F5 ADR-0076 `epistemic-gap` slug; reframe of the demoted [intent-pressure](../research/connections/intent-pressure.md) predecessor per ADR-0056).
 
-Intent pressure is the gap between the normative frontier (what visions, roadmaps, and governance artifacts say should be true) and the epistemic frontier (what sensors, evidence, and current reality report is true). When these diverge, the system feels pressure. That pressure is not a failure state — it is the engine of coordination. Without it, nothing moves.
+The epistemic gap is the divergence between the normative frontier (what visions, roadmaps, and governance artifacts say should be true) and the epistemic frontier (what sensors, evidence, and current reality report is true). When these diverge, the system carries an observable gap. That gap is not a failure state — it is the engine of coordination. Without it, nothing moves.
 
 The structural parallel with hyperstition's self-fulfilling dynamic is suggestive. In both cases, a declared desired future creates force on the present. In hyperstition theory, that force operates through narrative and belief. In Spore's grammar, it operates through the measurable gap between normative and epistemic frontiers — and it drives the coordination ecology (vision → intent → commitment → evidence → learning) through its phases.
 
-The difference is that Spore makes the force legible and governable. Intent pressure can be sensed (through inferred intents, unmet needs, resource flow gaps), channeled (through the legibility progression), and resolved (through commitment pooling and evidence). Hyperstition theory describes the mechanism; Spore provides the grammar for composing and governing it.
+The difference is that Spore makes the gap legible and governable. The gap can be sensed (through inferred intents, unmet needs, resource flow gaps), channeled (through the legibility progression), and resolved (through commitment pooling and evidence). Hyperstition theory describes the mechanism; Spore provides the grammar for composing and governing it.
 
 ## The Constructive Distinction
 
@@ -84,7 +84,7 @@ Putting these pieces together: Spore's coordination grammar is infrastructure fo
 
 - The **coordination ecology** (vision → intent → commitment → evidence → learning) provides the lifecycle through which shared narratives become actionable, tested, and revised.
 - **[commitment pooling](../patterns/commitment-pooling.md)** provides the collective resource-locking mechanism — a non-speculative alternative to bonding curves and conviction voting.
-- **[intent pressure](../research/connections/intent-pressure.md)** provides the structural force — the gap between desired and actual that drives coordination.
+- **observable epistemic gap** (per F5 ADR-0076; demoted predecessor at [intent-pressure](../research/connections/intent-pressure.md)) provides the structural force — the gap between desired and actual that drives coordination.
 - **Constitutional commitments** provide the safety criteria — what distinguishes a narrative worth encoding from one that will extract.
 - **Discourse as governance** provides the self-reflective layer — the infrastructure for deliberating which narratives to encode.
 
@@ -92,7 +92,7 @@ This is not a claim that Spore *is* a hyperstition framework. It is a coordinati
 
 ## Disposition
 
-This synthesis does not suggest changes to Spore's core grammar. The coordination ecology, constitutional commitments, commitment pooling, and intent pressure already provide the relevant structures. What the comparison offers is:
+This synthesis does not suggest changes to Spore's core grammar. The coordination ecology, constitutional commitments, commitment pooling, and the epistemic gap (per F5 ADR-0076) already provide the relevant structures. What the comparison offers is:
 
 1. **A communication frame** — Spore's grammar can be positioned as infrastructure for constructive hyperstition, which may resonate with audiences in the Web3 and regenerative coordination spaces.
 2. **A sharpened articulation** — The constitutional commitments are not just design principles; they are candidate criteria for the constructive/extractive distinction that hyperstition theory identifies but does not resolve.
