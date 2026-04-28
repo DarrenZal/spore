@@ -103,6 +103,7 @@ Comparative articles that position Spore's grammar relative to other frameworks:
 
 - [hyperstition-as-coordination.md](./positioning/hyperstition-as-coordination.md) — Spore as grammar for composing constructive hyperstitions
 - [civic-infrastructure-convergence.md](./positioning/civic-infrastructure-convergence.md) — civic infrastructure requirements and how the coordination grammar addresses them
+- [agentic-bioregionalism.md](./positioning/agentic-bioregionalism.md) — multi-agent coordination at bioregional scope; the broader frame BKC and adjacent bioregional work compose with
 
 ## Roadmap
 
