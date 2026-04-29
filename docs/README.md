@@ -89,6 +89,7 @@ Bridge notes and comparative notes on external concepts and their structural rel
 - [open-civics.md](./research/connections/open-civics.md) — civic infrastructure as enabling conditions; pattern language convergence with OCIF
 - [johar-word-not-thing.md](./research/connections/johar-word-not-thing.md) — linguistic closure, sufficiency error, perceptual fidelity; named failure modes and design qualities for the grammar
 - [comparative-mediation-over-demarcation.md](./research/connections/comparative-mediation-over-demarcation.md) — six-tradition support picture for the enacted mediation principle in holonic network architecture
+- [look-but-dont-summarize-canon-method.md](./research/connections/look-but-dont-summarize-canon-method.md) — the F4 §4.5 agent-summary-lower-priority discipline articulated as canon-method; empirically validated by 2026-04-28 load-bearing test Q3 §5 (the absence of AI-summary at canon roots is the load-bearing feature, not a gap)
 
 ## Research Ops
 
