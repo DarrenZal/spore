@@ -31,3 +31,7 @@ For full one-line descriptions, see [`docs/README.md`](../README.md) §Foundatio
 ## Lexicon
 
 For canonical definitions of terms that lack their own primary foundation doc, see [`./lexicon/`](./lexicon/) — currently `field`, `linguistic-closure`, `stigmergy`.
+
+## Related Positioning
+
+- [`../positioning/canon-coverage-gaps.md`](../positioning/canon-coverage-gaps.md) — names confirmed and adjacent canon-coverage gaps without promoting them to foundation doctrine.
