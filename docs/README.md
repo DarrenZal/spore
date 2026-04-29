@@ -83,6 +83,7 @@ Bridge notes and comparative notes on external concepts and their structural rel
 - [constructive-hyperstition.md](./research/connections/constructive-hyperstition.md) — the constructive/extractive distinction; constitutional commitments as candidate criteria
 - [bennett-every-timeline.md](./research/connections/bennett-every-timeline.md) — persistence ordering, valence, and the cosmic ought; formal grounding for intent pressure and constitutional weakness
 - [flow-funding.md](./research/connections/flow-funding.md) — flow funding mechanisms (hub-cultivator, TBFF); allocation patterns as commitment pooling extensions
+- [bkc-seven-layer-stack-as-instance-instantiation.md](./research/connections/bkc-seven-layer-stack-as-instance-instantiation.md) — BKC's seven-layer operational stack mapped to Spore primitives, patterns, and foundation docs with explicit lossiness boundaries
 - [claude-code-membrane-control.md](./research/connections/claude-code-membrane-control.md) — Claude Code as membrane-control surface; authorize, expose, revoke, fork validated at production scale
 - [promise-foundation-commitment-protocol.md](./research/connections/promise-foundation-commitment-protocol.md) — Promise Foundation commitment protocol; structural parallels to commitment pooling lifecycle
 - [open-civics.md](./research/connections/open-civics.md) — civic infrastructure as enabling conditions; pattern language convergence with OCIF
