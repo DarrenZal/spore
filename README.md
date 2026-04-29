@@ -58,12 +58,29 @@ You do not migrate into Spore as a platform. You let your project speak more of 
 
 For concrete steps, see the [adoption guide](docs/governance/adoption-guide.md).
 
-## Ecosystem
+## Canon scope and inter-canon roles
 
-Spore defines a grammar and publishes patterns and protocols. Others adopt and implement them. A Spore instance is any project that implements some composition of the grammar's patterns.
+Spore defines a grammar and publishes patterns and protocols. Others adopt and implement them. A Spore instance is any project that implements some composition of the grammar's patterns. Spore is one of several canon-bearing repositories in the agent-commons ecosystem; each canon-bearing peer owns a distinct concern, and cross-canon citations are disciplined to prevent role-confusion.
+
+| Canon | Owns | Relationship to Spore |
+|---|---|---|
+| **Spore** (this repo) | Coordination grammar — primitives, doctrines, modes, properties, patterns, foundation docs, ADRs | — |
+| **Intelligence Commons** (IC) | Intelligence primitives — retrieval, memory layers, grounding, agentic control | Downstream-aligned; tracks Spore via cross-repo alignment ADRs |
+| **Poietic Match** (PM) | Sovereignty-preserving compositional matchmaking — protocol-objects (Intent, CommitmentBundle, TrustAttestation, MatchProposal) | Downstream-aligned; tracks Spore via cross-repo alignment ADRs |
+| **[bioregional-coordination](https://github.com/DarrenZal/bioregional-coordination)** | Agentic bioregionalism — meta-articulation of Spore primitives at bioregional scope | Peer instance-family member; cites Spore at upstream-reference layer (not fork; not downstream sibling) |
+| **[BKC / Octo](https://github.com/BioregionalKnowledgeCommons/Octo)** | Operational instance — seven-layer stack (mapping → graph → commitment-pool → flow-funding → AI agents → federation → bioregional finance), Greater Victoria pilot | Peer instance-family member; downstream-by-citation (frontmatter `depends_on: spore.<slug>`); peer in the family of instances |
+
+**Cite Spore for:** any coordination-grammar question, any ADR-numbered decision, any pattern-library entry, the `spore:ADR-NNNN-<slug>` cross-canon citation convention.
+
+**Don't cite Spore for:** bioregional-specific operational detail (BKC owns); financial-instrument enumeration (BKC owns); intelligence-primitive specifics (IC owns); compositional-matchmaking protocol-objects (PM owns); bioregional-scope meta-articulation (bioregional-coordination owns).
+
+For the AI-agent navigation frame this role-pinning supports, see [`docs/positioning/agents-and-canons.md`](docs/positioning/agents-and-canons.md).
+
+### Infrastructure
+
+Canon does not run by itself — these repos provide the operational substrate (not canon-bearing peers):
 
 - **[koi-processor](https://github.com/RegenAI/koi-processor)** — node substrate: epistemic graph (public-facing `knowledge graph` gloss), entity resolution, federation, sensors
-- **[BKC / Octo](https://github.com/BioregionalKnowledgeCommons/Octo)** — operational instance family: BKC canon + 4 federated nodes + Octo agent + Quartz sites
 
 ## Status
 
