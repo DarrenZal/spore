@@ -843,6 +843,135 @@ It produced **the first complete Phase closure in the canon-rebuild arc**. Phase
 
 The combined retrospective now explains how Spore changes canon across seven substrate-shapes: grammar (Phase 3 / 3b), downstream stabilization (Phase 2c), pattern-library (Wave 2), foundation-doc family across all three tiers (Phase 4), cross-repo propagation (Waves 1 through N), pre-arc readiness audit as the discipline above admission ceremony (introduced 2026-04-26 morning), and audit-then-propose recursion that allows prior audit prose to be corrected at per-ADR Step-0.5 (introduced 2026-04-26 evening). Each substrate-shape continues to earn its own admission discipline. The method-gain across the entire 2026-04-22 through 2026-04-26 arc is that the canon's capacity to change has scaled across multi-day multi-tier programs without losing per-admission honesty, and now closes Phase-scoped programs cleanly via decision-gated discipline at every nested layer.
 
+## §15 Arc extension: Post-Phase-4 era — ADR-0083 graduation, bregion spawn, canon-navigability load-bearing test, R1-R6 ship (2026-04-27 → 2026-04-29)
+
+Phase 4 closed cleanly on 2026-04-26 evening. The three-day window after closure (2026-04-27 → 2026-04-29) produced canon work in a structurally different register: not foundation-doc admissions but positioning graduations, peer-canon spawn, empirical validation, and light-bundle role-pinning prose. The era added six new method-precedents while exercising the disciplines that the Phase 4 arc had earned.
+
+### §15.1 Positioning-doc graduation as light-ceremony pattern (ADR-0083, 2026-04-28)
+
+The first move post-Phase-4 was graduating a meta-vision memo from `tmp/spore-meta-vision-2026-04-27.md` (532 lines, 3 review-passes, draft) to canonical positioning at `docs/positioning/agents-and-canons.md` (135 lines, distilled). ADR-0083 ratified the graduation under **light-ceremony positioning-doc graduation pattern** analogous to ADR-0035 (vision-as-commitment-subtype). Three properties make the pattern reusable:
+
+**Property 1 — `decision: edit` with same-commit activation.** Distinct from foundation-doc admission ceremony (2-commit draft+activate; heavier ADR; concepts-yaml v-bump if applicable), the graduation lands as a single 3-file atomic-bundle (positioning doc + ADR + docs/README registration) at active status from commit-1. The light ceremony reflects that positioning prose articulates strategic frames without committing new doctrine.
+
+**Property 2 — Distillation discipline.** The 532-line memo at `tmp/` retains as historical artifact; the 135-line graduated doc is its own coherent prose, not a memo-as-canon. Sections from the memo that are operator-internal (open-questions registries, naming explorations, disposition meta, amendment logs) are NOT carried forward. The graduated doc reads cleanly as positioning, not as a flattened memo.
+
+**Property 3 — Future-ADR-shape candidates marker-flagged, not committed.** The graduated doc preserves three flagged-not-committed candidates (AI-summary authority + evaluation; graph-substrate-of-canon; canon-citizenship-layers) that operationally fired during the era but did not earn admission ceremony. Marker-flagging keeps them visible to canon-navigators without forcing premature admission. Each candidate awaits its own earning-test trigger.
+
+The pattern is reusable for any future positioning-prose graduation where the substrate has been articulated but not earned canon-doctrine status.
+
+### §15.2 Peer-canon spawn under Q3 minimal-skeleton-grow-organically (bregion, 2026-04-28)
+
+The same day, a brand-new canon-bearing repo spawned at `~/projects/bioregional-coordination/` with `bregion:ADR-0001` ratifying repo identity and Spore relationship. The spawn established the **peer-instance-family-member relationship pattern** as a third canon-citizenship layer alongside downstream-aligned siblings (IC, PM) and external-witness agents (per F8 ADR-0081). Three properties:
+
+**Property 1 — Repo-identity ADR ratifies the relationship before substantive canon admits.** `bregion:ADR-0001` came first; the project-vision came second. The relationship-shape (peer with BKC; cites Spore via upstream-reference) was canonized before any local doctrine was authored. This prevents accidental drift into the wrong relationship-shape (downstream-aligned vs. peer; sibling-of-peer vs. peer-of-peer).
+
+**Property 2 — Q3 minimal-skeleton-grow-organically posture.** The repo at spawn-time has only project-vision + ADR-0001 + minimal CLAUDE.md/README/foundations index. Local foundation docs / patterns / additional ADRs admit only when bioregional-specific operational pressure surfaces that Spore canon does not cover. The earning-test discipline applies recursively at the peer.
+
+**Property 3 — Reciprocal-citation closure via Spore-side bridge notes.** The peer does NOT author alignment ADRs at the peer; instead, Spore-side bridge notes (`spore.connection.bioregional-coordination-as-peer-instance-family`, `spore.connection.bkc-as-instance-family`, `spore.connection.bkc-seven-layer-stack-as-instance-instantiation`) close cross-citation gaps. The peer's CLAUDE.md surfaces these upstream cross-refs for in-repo awareness without forcing the peer to formalize alignment.
+
+**Method-precedent codified**: `feedback_peer_instance_family_vs_downstream_aligned.md` captures the structural distinction; `feedback_upstream_downstream_canon_propagation.md` captures when each propagation pattern fires.
+
+### §15.3 Canon-navigability load-bearing test as empirical validation discipline (2026-04-28 afternoon)
+
+The day after ADR-0083 graduation, a load-bearing test ran the canon's own claim against a fresh general-purpose agent with no prior conversation context. Three queries — cross-canon composition (multi-sector Cascadia bioregional hub spanning civic + government + private + First Nations across mapping/finance/knowledge/ecology/food/governance domains over 30+ year horizons); deep foundation-doc traversal (8-month sensor-drift through F6/F5/F4); recursive self-reference ("how does Spore think about AI agents using its canon?") — exercised the canon's navigability under realistic operational pressure.
+
+The agent produced a ~4000-word navigation log with 10 caught cascade-misses (6/10 canon-citation-direction errors — the highest-frequency cascade shape). The most striking finding came from Q3 §5: *"the absence of AI-summary at canon roots is the load-bearing feature, not a gap."* Forcing the agent to read prose surfaced the canon's deliberately-under-specified state (categories committed at F4/F8/F1/instance-model; machinery deferred; integrating frame articulated as draft positioning). A summary at canon root would have flattened a 4-claim truth-in-tension.
+
+Three properties make the test pattern reusable:
+
+**Property 1 — KOI-search-before-dispatch grounds queries in real operational vocabulary.** A salmon-stream watershed framing was too narrow; KOI-search for "Regenerate Cascadia bioregional coordination" surfaced the actual multi-sector / multi-domain shape (BKC three-plane architecture, BFF financial-instrument typology, Hub Cultivator + TBFF, Indigenomics Institute, etc.) that grounded Q1 in operational reality.
+
+**Property 2 — 3-query battery exercises three distinct navigation pressures.** Cross-canon forces multi-canon traversal; deep traversal forces foundation-doc reading; recursive self-reference tests whether the freshest canon is findable unaided. The recursive query is the load-bearing one because it cannot be answered without the discipline-state being correctly held.
+
+**Property 3 — Per-query navigation log with 5 required sections.** Files-read-in-order / synthesis-attempted / gaps-noticed / near-cascade-misses / AI-summary-helpfulness. Section 4 (near-cascade-misses) is the load-bearing data — document the breakage, not the polish. Polished synthesis hides where navigation broke.
+
+**Method-precedent codified**: `feedback_load_bearing_test_discipline.md`. Empirical validation is now a canon-method; positioning claims about canon should be tested with fresh-agent navigation within ~24h of graduation.
+
+### §15.4 Light-bundle ship from empirical findings (R1-R6 across 2026-04-28 + 2026-04-29)
+
+The load-bearing test produced 6 prioritized recommendations. The bundle shipped across two days:
+
+- **R1** (3-way canon role-pinning at Spore + bregion + BKC inner roots) + **R2** (Spore docs/foundations/README.md co-located routing aid by-question) + **R5** (Future-ADR-shape candidates parking section in canon-decisions/README.md) shipped 2026-04-28 afternoon as a 3-repo light bundle (~1 hour vs 2-hour budget). Closed 4-of-10 cascade-miss shapes pre-emptively (BKC defines federation / bregion is "the canon" / Hub Cultivator-as-Spore-canon / commitment-pooling-as-BKC-contribution — all canon-citation-direction errors).
+
+- **R3** (`docs/positioning/canon-coverage-gaps.md`) + **R4** (`docs/research/connections/bkc-seven-layer-stack-as-instance-instantiation.md`) shipped 2026-04-29 overnight via fresh dispatched agent under HOLD-AT-COMMIT discipline. R3 honestly enumerates what canon does NOT cover (food systems coordination; multi-actor-class federation; Indigenous-protocol → coordination-grammar mapping). R4 maps BKC's seven-layer stack to Spore's primitives + patterns + foundation docs, honest about lossiness (Layer 4 + Layer 7 explicitly named "lossy by design"; Hub Cultivator/TBFF/BFF financial-instrument typology preserved as BKC-authored, not Spore canon — citation-direction discipline).
+
+- **R6** (`docs/research/connections/look-but-dont-summarize-canon-method.md`) shipped 2026-04-29 morning, articulating F4 §4.5 agent-summary-lower-priority discipline as canon-method with empirical Q3 §5 evidence. Closes load-bearing-test arc at 6/6.
+
+The bundle is **positioning prose grounded in empirical evidence** — not new doctrine, not earning-test admission, not foundation-doc weight. The shape is the legitimate post-doctrinal-arc move: surface what the empirical test found, ship the closure pre-emptively for highest-frequency cascade shapes, articulate the canon-method that protects the discipline going forward.
+
+### §15.5 Cross-workstream cascade-miss as newly identified failure mode
+
+The orchestrator session itself produced a discipline-error worth naming. Twice across 2026-04-28 + 2026-04-29, when the operator asked for strategic review, the orchestrator suggested work from a different workstream (YOE Aaron AI Guide build deadline) despite the session's explicit Spore-canon-and-related scope. The operator corrected both times.
+
+The failure mode: the user-level `~/CLAUDE.md` carries chronological project history across the operator's full work portfolio. Pattern-matching on cross-project pressure (deadline urgency) without honoring session-scope produces this cascade-miss reliably. The operator runs ~12 parallel sessions during a working day; cross-session coordination is their responsibility (and they have it). Orchestrator's job is to honor scope, not to second-guess it.
+
+**Method-precedent codified**: `feedback_workstream_scope_discipline.md`. The default is strict in-scope discipline. Cross-workstream suggestion is OK only when (a) operator explicitly asks broad strategic review, (b) hard deadline within ~24h emerges that operator may have missed AND active workstream cannot address it, (c) discovered shared-infrastructure breakage affects the active workstream, or (d) operator explicitly opens the door mid-session.
+
+This is the first arc-extension that names a discipline-error in the orchestrator's own behavior as a method-precedent worth codifying. The recursive cascade-miss-discipline applies to behavior-discipline as well as content-discipline.
+
+### §15.6 Multi-session orchestrator-handoff pattern validation under HOLD-AT-COMMIT
+
+The 2026-04-25 multi-session-orchestrator-handoff arc (session `bc5c284d` cont. 2) had shipped the bridge note (`fc.connection.multi-session-orchestrator-handoff` in flowcoding canon) + handoff-snapshot.sh / handoff-restore.sh / PreCompact + SessionStart hooks. The post-Phase-4 era exercised the pattern several times and validated three additional properties:
+
+**Property 1 — HOLD-AT-COMMIT discipline for overnight work.** When a handoff dispatches work to a fresh agent while the operator sleeps, the handoff specifies "commit but DO NOT PUSH; surface deliverable at `tmp/<status-report>.md`; operator pushes after morning review." This is safer than agent-push-on-completion: operator wakes to clean diffs reviewable in ~5 minutes; agent's commit history is intact; rollback is trivial if review surfaces issues. The R3+R4 overnight pattern validated this empirically.
+
+**Property 2 — Cascade-miss in the handoff itself is a real layer.** The R3+R4 handoff prompt specified frontmatter dependency format as `spore.foundations.<slug>` and `spore.patterns.<slug>` (aliased forms); the actual canon convention is short-form `spore.<slug>`. The overnight execution agent grep-verified against authoritative live doc_ids and corrected the format before commit. The cascade-miss-discipline (`feedback_cascade_miss_discipline.md` L4 — handoff technical-claims) operated cleanly across handoff-author → execution-agent layers. Recursive discipline applies: handoff authors must grep-verify citation-format against authoritative repo state, not rely on memory.
+
+**Property 3 — Time-on-task estimates compress when handoff is highly-specified.** The R3+R4 handoff estimated 2-3 hours; actual time was ~10 minutes for substantive deliverables. The compression is explicable (highly-specified structure + line counts + content per section + citations + commit messages + acceptance criteria; pre-existing source material from yesterday's memo + agent report; both deliverables were positioning/connection prose not foundation-doc-weight earning-test-and-admit). Honest revised estimate for similar future work: 30-60 min for highly-specified positioning/connection authoring with pre-existing source material; reserve 2-3 hour band for invention-heavy work.
+
+### §15.7 Reciprocal-citation gap closure pattern (R4 + bkc-as-instance-family)
+
+The era closed two reciprocal-citation gaps that the 2026-04-27 BKC coherence audit had identified. The companion pattern (one peer-relationship bridge + one operational-stack bridge) is now reusable:
+
+- `spore.connection.bkc-as-instance-family` (2026-04-27) — articulates BKC as federation-encounter instance-family at the relational layer.
+- `spore.connection.bkc-seven-layer-stack-as-instance-instantiation` (2026-04-29) — maps BKC's operational stack to Spore primitives + patterns + foundation docs, honest about lossiness at Layer 4 + Layer 7.
+
+Together the two notes close the asymmetry where BKC `depends_on:` Spore via frontmatter but Spore-side cross-citation was thin. The pattern: *one peer-relationship bridge for the structural layer + one operational-mapping bridge for the substrate layer*. Future peer-instance-family additions can use the same two-bridge shape.
+
+The same era authored `spore.connection.bioregional-coordination-as-peer-instance-family` for bregion, completing the three-peer reciprocal-citation graph (Spore ↔ BKC ↔ bregion).
+
+### §15.8 Honest gap-articulation as positioning discipline (R3 = canon-coverage-gaps)
+
+`docs/positioning/canon-coverage-gaps.md` is the first positioning doc to honestly enumerate what Spore canon does NOT cover, in keeping with honest-rigor cluster-counting discipline. Three confirmed gaps (food systems coordination; multi-actor-class federation; Indigenous-protocol → coordination-grammar mapping) plus four agent-discovered adjacent items correctly classified at the boundary (inter-domain composition; bad-evidence governance repair; failure-detection mechanisms; specific compensation protocols — all pattern/protocol-layer-shaped, NOT silent foundation gaps).
+
+**Property 1 — Re-opening triggers per ADR-0054/0069/0080 precedent.** Each gap names operationally-falsifiable conditions under which the gap stops being a gap. Re-opening is not auto-admission; it opens an audit cycle that may still decline, scope-condition, park as prose, admit a pattern, or route to an instance repo.
+
+**Property 2 — "What this doc does not do" §6 preserves no-new-doctrine constraint explicitly.** The doc does not propose new primitives, doctrines, modes, properties, patterns, protocols, ADRs, or repo structure. It does not treat every silence as a deficiency. It does not make Spore responsible for domains where another canon, an instance repo, or a consented practice community should lead.
+
+**Property 3 — Adjacent territory § distinguishes pattern-layer from foundation-layer gaps.** Some gaps are pattern-layer-shaped (food systems; multi-actor-class federation); others are boundary-of-canon-scope (Indigenous-protocol mapping); still others are deliberate foundation-vs-pattern-layer boundary discipline (specific compensation protocols). The distinction prevents false-positive admission pressure on pattern-shaped concerns.
+
+The pattern is reusable for any future canon era that wants to articulate honestly what's NOT covered.
+
+### §15.9 Canon-method articulation as connection notes (R6 = look-but-dont-summarize)
+
+`docs/research/connections/look-but-dont-summarize-canon-method.md` articulates F4 §4.5 agent-summary-lower-priority as a canon-method with empirical Q3 §5 validation. The shape is reusable: when the canon already commits a discipline (F4 §4.5) but the discipline benefits from being surfaced as canon-citable canon-method (rather than only as foundation-doc clause), a connection-layer note can do that work without admitting new doctrine.
+
+**Property 1 — No new doctrine.** The connection note articulates an existing discipline; it does not commit new claims. F4 §4.5 remains the doctrinal source.
+
+**Property 2 — Empirical evidence anchors as primary source.** Q3 §5 finding from the load-bearing test (cited verbatim in §3 of the canon-method note) provides the operational validation. Connection notes can carry empirical findings as primary evidence even when the underlying claim is doctrinal.
+
+**Property 3 — Future-ADR prerequisite preservation.** The note preserves what Sub-C (AI-summary authority + evaluation operationalization) will need to honour when it eventually fires; it does not pre-design the Sub-C ADR. Marker-flagging future-ADR prerequisites at the connection layer keeps them visible without forcing premature admission.
+
+## §16 What this arc extension added on top of §14
+
+The `§14` summary captured Phase 4's clean closure as the first complete Phase closure in the arc, with method-shape reusable for any future Phase scoping (deficits up-front, audit substrate per-deficit, admit or decline honestly at Step-0.5, refine framings recursively). The post-Phase-4 era added six things on top of that.
+
+It validated **positioning-doc graduation as light-ceremony pattern** distinct from foundation-doc admission ceremony. The 3-property pattern (decision: edit + same-commit activation; distillation discipline; future-ADR-shape candidates marker-flagged) is reusable for any positioning prose that has been articulated but does not commit new doctrine. The pattern preserves canon-evolution capacity without adding ceremony-weight where substrate doesn't earn it.
+
+It admitted **a third canon-citizenship layer** alongside downstream-aligned siblings and external-witness agents. The peer-instance-family-member relationship pattern (BKC, bregion) operates with read-time + bridge-note-based mechanics rather than the write-time + ADR-based mechanics of downstream-aligned siblings. The two structurally different relationships now have explicit method-precedent codification, allowing future canon-bearing repos to choose the right shape at admission-time.
+
+It introduced **empirical validation as canon-method**. The load-bearing test discipline (fresh agent + 3-query battery + per-query navigation log + ship-highest-frequency-cascade-closure-same-session) is now a documented canon-method with `feedback_load_bearing_test_discipline.md` and an empirical demonstration in the 2026-04-28 test. Positioning claims about canon are now testable, not just internally coherent.
+
+It named **a new failure mode in orchestrator-behavior discipline** — cross-workstream cascade-miss. The user-level CLAUDE.md project-chronicle reliably tempts pattern-matching on cross-project pressure without session-scope honor. `feedback_workstream_scope_discipline.md` codifies the discipline; the recursive cascade-miss-discipline now applies to behavior as well as content.
+
+It validated **multi-session orchestrator-handoff under HOLD-AT-COMMIT**. The pattern (commit but don't push; surface deliverable at tmp/; operator pushes after morning review) is safer than agent-push-on-completion and validated empirically by the 2026-04-29 R3+R4 overnight ship. Cascade-miss in the handoff itself is a real layer (L4 handoff technical-claims); handoff authors must grep-verify citation-format against authoritative repo state.
+
+It produced **two new positioning-discipline patterns** — honest gap-articulation (R3) and canon-method articulation as connection note (R6). Each is reusable for future post-doctrinal-arc work where the canon is mature enough to surface what it doesn't cover and to articulate disciplines as canon-citable canon-method without admitting new doctrine.
+
+The combined retrospective now explains how Spore canon evolves across nine substrate-shapes: grammar (Phase 3 / 3b), downstream stabilization (Phase 2c), pattern-library (Wave 2), foundation-doc family across all three tiers (Phase 4), cross-repo propagation (Waves 1 through N), pre-arc readiness audit, audit-then-propose recursion, light-ceremony positioning graduation (post-Phase-4), and empirical validation via load-bearing test (post-Phase-4). The arc's overall method-gain is that the canon now has both substrate-admission discipline (Phase 4 and earlier) AND empirical-validation discipline (post-Phase-4), with the two operating cleanly on different layers — substrate-admission for new doctrine, empirical-validation for already-graduated positioning.
+
+The post-Phase-4 era closes the load-bearing-test recommendation arc at 6/6 (R1+R2+R3+R4+R5+R6 across 2026-04-28 + 2026-04-29). The canon ecosystem (Spore + bregion + IC + PM + BKC + koi-processor) is in coherent good shape: cross-canon citations resolve, Wave-N+1 alignment current through ADR-0082, reciprocal-citation gaps closed, validator 9/30 EXACT held throughout, and zero rollbacks across the full multi-day arc.
+
 ---
 
-**How this note is used.** A collaborator who wants the short version of the arc should read `§3`, `§4`, `§5`, `§9`, `§11`, and `§13` first, then drop into the phase-specific ADRs named in `§7` and the foundation-doc ADRs named in `§9.1`, `§9.2`, `§11`, and `§13`. If a future canon cycle contradicts this note, the canon and the later ADR chain are authoritative; update this bridge note rather than protecting it as if it were primary law.
+**How this note is used.** A collaborator who wants the short version of the arc should read `§3`, `§4`, `§5`, `§9`, `§11`, `§13`, and `§15` first, then drop into the phase-specific ADRs named in `§7` and the foundation-doc ADRs named in `§9.1`, `§9.2`, `§11`, and `§13`. If a future canon cycle contradicts this note, the canon and the later ADR chain are authoritative; update this bridge note rather than protecting it as if it were primary law.
