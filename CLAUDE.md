@@ -1,3 +1,7 @@
+<!-- workstream: spore -->
+
+> **Stream scope:** Spore + related canons (IC, PM, koi-processor, BKC, bioregional-coordination). Cross-stream recommendations require operator opt-in. See `~/CLAUDE.md` "Stream-scope discipline" for rule.
+
 # CLAUDE.md
 
 This repo already has broad project documentation in `README.md` and `docs/`, but the active workstream right now is the Johar corpus program. If resuming that work, start here instead of reconstructing session history.
