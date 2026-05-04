@@ -1,5 +1,5 @@
 # status: frozen
-# version: v20
+# version: v21
 # frozen_at: 2026-04-26
 # owner: Darren Zal
 # purpose: Canonical concept vocabulary governing ADR `concepts:` references, shared framing notes, and bridge-note R-claim `concept:` values across Spore / Intelligence Commons / Poietic Match.
@@ -421,6 +421,59 @@
 # directive 2026-04-26 morning (Step 0.5 cluster-counting audit confirmed
 # ADMIT verdict; D-axis ratified at D2 2-slug; H-axis ratified at H3 4-way
 # per ADR-0077 §231 multi-way prediction at Tier-C-closure-position).
+# v21 (2026-05-04): adds 2 derived glossary slugs (`route-graph`,
+# `settlement-operator`) for ADR-0084 route-graph-settlement-operator-vocab-
+# admission. First post-Phase-4 vocab-only admission since ADR-0052
+# (~13 days prior). Substrate: Ruddick (2026) CPP intake bridge note
+# (`spore.connection.ruddick-2026-commitment-pool-route-graphs` committed
+# `8279032` 2026-05-04) + DECISION-BRIEF at `tmp/ruddick-intake-canon-
+# pressure-decision-brief-2026-05-04.md`. Bundle-symmetric per ADR-0052
+# precedent: shared substrate (Ruddick paper RID `orn:source:ruddick-2026-
+# cpp`) + shared verdict-shape (ADMIT-likely under ≥2-cluster threshold) +
+# shared primary source. Cluster-strength asymmetry within bundle canonically-
+# acknowledged (extends ADR-0052 reciprocity-stronger-than-trust precedent):
+# `route-graph` carries 3 full clusters (Mehrling/Minsky/Ingham layered-
+# claims + Lamport/Clarke-Grumberg-Peled state-machine networks + Duffie-
+# Zhu/CPMI-IOSCO/Fleischman-Dini-Littera payment-rail/network-economics) +
+# Ruddick primary; `settlement-operator` carries 2 full clusters (Mehrling/
+# Minsky layered-claims + CPMI-IOSCO/Duffie-Zhu settlement-finality
+# regulatory) + 1 PARTIAL cluster (Lamport TLA+ next-state functions —
+# settlement-shaped but not named) + Ruddick primary. Both pass ≥2-cluster
+# operational threshold honestly. Cross-ADR interactions documented in ADR-
+# 0084 §Consequences (no framing-note per E2 axis): (1) `route-graph` is
+# substrate-surface that ADR-0068 federation-encounter composition-pattern
+# operates on — distinct abstraction layers, NOT aliasable; (2) `settlement-
+# operator` operates on commitments admitted into `commitment-pooling`
+# (v2 admission) operational territory — distinct function within territory,
+# NOT aliasable; (3) `settlement-operator` provides formal-substrate anchor
+# for F4 representation-authority (ADR-0074) `≡_H`-shaped observable-
+# preservation discipline; (4) `settlement-operator` provides finance-domain
+# anchor for F5 actuator-logic (ADR-0076) repair-class taxonomy (Ruddick's
+# U^r 12-op set maps cleanly into F5 R1-R7 admitted response-categories
+# per bridge note R3 disposition). Lower-ceremony alternatives considered +
+# rejected: aliasing `route-graph` into `federation-encounter` would
+# conflate substrate vs composition-pattern abstraction layers; aliasing
+# `settlement-operator` into `commitment-pooling` would conflate function
+# vs territory referents. Neither slug is a primitive, doctrine-in-cross-
+# cutting-doctrine-category, mode, property, or pattern. Canon object-class
+# inventory PRESERVED at 4 categories plus derived glossary slugs (18 → 20)
+# plus patterns (7). Zero canon-body changes; zero Wave-N+1 sibling
+# alignment fires (IC + PM both H2-decline concepts-p2p-wiki.yaml per
+# `feedback_peer_instance_family_vs_downstream_aligned.md`). Held v3 review
+# state (`project_will_ruddick_cpp_review_held.md`) preserved unchanged;
+# vocab admission cites multiple traditions (≥2 non-Ruddick full clusters
+# per slug) so does NOT claim Will Ruddick endorsement of Spore canon —
+# concept-attribution per academic convention, zero verbatim text
+# reproduction. Extension operator-authorized under ADR-0084 decision-gated
+# plan (`~/.claude/plans/adr-0084-route-graph-settlement-operator-vocab-
+# admission.md`) with Codex /review-plan round 1 high (NOT-READY 7
+# strategic open questions, all 7 accepted by operator 2026-05-04, plan
+# resolutions documented in plan §Codex round-1 review resolutions; no
+# further verification round budgeted per workflow discipline). Canon-
+# rebuild arc extends to 34 canon-decisions (0044-0058, 0059a, 0061-0081,
+# 0082, 0083, 0084). Foundation docs 14 (unchanged). First post-Phase-4
+# vocab-only admission validates that derived-glossary admission remains a
+# clean canon-tool after foundation-doc admission arc closed.
 
 concepts:
   - slug: governance-memory
@@ -867,4 +920,16 @@ concepts:
     canonical_label: Validation Loop
     aliases: [external-validation-loop, witness-feedback-loop, canon-revision-loop]
     one_line_definition: Derived glossary slug admitted under ADR-0081 as the meta-noun naming F8 external-validation-loop's canonical subject — the discipline by which external-witness readings (per `external-witness`) route back into canon revision through governance-body adjudication without collapsing canon-authorship into canon-readership. Binds to F8's 5 admitted categories (external-witness reading-of-canon-as-authoritative-input / routing through governance-bodies / revision-trigger discipline / comparative-intake-protocol as canonical pipeline / cross-modality witness inheritance) under B5 SELECTIVE per-category synthesis-depth structure. Routes through governance-bodies per F3 §4.7 with four adjudication options per F8 §4.2 (acknowledge-and-record only / canon-review queue admission / immediate canon-revision proposal / triggered foundation-doc revision per F4 §184 §iii). Inherits F4 §5.3 appeal-protocol wholesale per cite-don't-redefine cross-foundation-doc composition discipline (ADR-0076 + ADR-0077 + ADR-0079 G2 precedent). Carries H3 4-way relational shape: 3 substrate-parents (ADR-0042 structural-legitimacy + F4 representation-authority + F3 actor-governance) + 1 operational-pair sibling (F1 sensor-oracle-governance, where F8 is meta-canon parallel of F1 sensor-input pattern). Parallels F5 `response-doctrine` slug-shape (v17): both name the canonical subject of their foundation-doc's discipline; both route through governance-bodies; both inherit F4 §5.3 appeal-protocol wholesale. Distinct from `response-doctrine` by scope: `response-doctrine` selects among R1-R7 response-categories for ANY observable epistemic gap (per F1 + F4); `validation-loop` is the upstream input-stream that may produce the epistemic gaps F5 then responds to (external-witness readings surface gaps that F5 then routes through R1-R7 selection). Discharges 5+ forward-references in atomic admission: F4 §43 + F4 §115 + F4 §184 §iii + F3 via ADR-0077 §222 + F7 ADR-0078 §181 + F9 ADR-0079 §221 + F9 ADR-0079 §232 (HIGHEST single-ADR forward-ref discharge in canon-rebuild arc, extending ADR-0077's prior 3-ref maximum). NOT a primitive, doctrine-in-the-cross-cutting-doctrine-category sense, mode, property, or pattern — it is a foundation-layer doctrinal subject name. See `docs/foundations/external-validation-loop.md`.
+    primary_project: spore
+
+  - slug: route-graph
+    canonical_label: Route Graph
+    aliases: [pool-route-graph, federation-route-graph, multi-pool-route-graph, route-graph-substrate]
+    one_line_definition: Derived glossary slug admitted under ADR-0084 (post-Phase-4 vocab-only admission, bundle-symmetric with `settlement-operator` per ADR-0052 precedent) as the canonical anchor for the multi-pool federation-coordination substrate surface — pools as nodes, admissible directed edges where overlap and guard constraints are satisfied. Cited in 3 independent full clusters per honest-rigor cluster-counting (per ADR-0064 surface-vocab-vs-operational-concern discipline): (i) Mehrling 2011 + Minsky 1986 + Ingham 2004 monetary-hierarchy / layered-claims literature treats inter-institutional claim chains as graph-shaped; (ii) Lamport 2002 + Clarke-Grumberg-Peled 1999 state-machine specification + model-checking literature regularly models inter-node graphs of state machines; (iii) Duffie-Zhu 2011 + CPMI-IOSCO 2012 + Fleischman-Dini-Littera 2020 payment-rail / network-economics treats inter-CCP / inter-bank / inter-pool clearing as graph structures. Primary source Ruddick 2026 §3.2 Definition 5 (`G_P = (𝒫, E)` where 𝒫 is set of pools and edges `e=(P_u, P_v)` are admissible only if overlap and guard constraints satisfied) + §8.2 route-selection formalism (`G_R = (N, E)` with edge feasibility predicate `F(e, s)` and cost function `c(e, s)`; minimization objective subject to feasibility and settlement-completion constraints). Operational-concern match per ADR-0064: PASS — names a *specific* operational object (multi-pool federation-coordination surface) shared across traditions, not just shared vocabulary. Distinct from `federation-encounter` (ADR-0068 composition-pattern) by abstraction layer: route-graph is the substrate-surface that federation-encounter composition-pattern operates on; relationship is substrate-of, not equivalent-to or alias-of. Operational substrate for ADR-0046 Field rule-stratification at network scale (T+Π in Ruddick's source-model is the formal machinery for `rule-in-use` slug). Materially STRENGTHENS ADR-0068 β-evidence count via Ruddick worked constructions §5–§6 (deposit-transfer-redemption + repo-style + CCP-clearing + ROLA + ROSCA + grain-bank + cross-pool reserve-shortfall — ≥4 independent instance-families at finance + mutual-aid layer) without requiring ADR-0068 file edit (read-time citation, not write-time canon shift). NOT a primitive, doctrine-in-the-cross-cutting-doctrine-category, mode, property, or pattern — it is a derived-glossary substrate-surface anchor.
+    primary_project: spore
+
+  - slug: settlement-operator
+    canonical_label: Settlement Operator
+    aliases: [settlement-function, institution-relative-settlement, sigma-operator]
+    one_line_definition: Derived glossary slug admitted under ADR-0084 (bundle-symmetric with `route-graph` per ADR-0052 precedent) as the canonical anchor for the institution-relative function mapping executable obligations and inventories to realized settlement outputs (Σ in Ruddick's source-model tuple `I = (S, A, T, Π, Σ)`). Cited in 2 independent full clusters + 1 partial cluster per honest-rigor cluster-counting (cluster-strength asymmetry within bundle canonically-acknowledged per ADR-0052 reciprocity-stronger-than-trust precedent): (i) Mehrling 2011 + Minsky 1986 layered-claims literature explicitly distinguishes settlement from convertibility from issuance; (ii) CPMI-IOSCO 2012 + Duffie-Zhu 2011 financial-market-infrastructure literature explicitly names settlement-finality as regulatory + technical concern; (iii) Lamport 2002 state-machine specifications carry settlement-shaped operators implicitly in TLA+ next-state functions and model-checking semantics — present-but-implicit, NOT full cluster (acknowledged honestly as partial-cluster within bundle). Primary source Ruddick 2026 §3.1 Definition 1 (`I = (S, A, T, Π, Σ)` with Σ as settlement operator that maps executable obligations and inventories to realized settlement outputs) + Settlement-layer note (Σ is institution-relative: retail wallet redemption / CCP novation+waterfall / grain bank inventory release; for past-oriented certifications Σ may denote pool acceptance, exchange, or settlement into other commitments rather than redemption against original issuer). Operational-concern match per ADR-0064: PASS — names a *specific* operational function (institution-relative settlement output mapping) shared across traditions, not just the word "settlement." Distinct from `commitment-pooling` (v2 admission) by relationship: settlement-operator is a specific function within commitment-pooling operational territory, not an alias. Provides formal-substrate anchor for F4 representation-authority (per ADR-0074) `≡_H`-shaped observable-preservation discipline — Ruddick's Definition 8 stutter-insensitive observational equivalence + Σ specification together formalize what F4 names doctrinally. Provides finance-domain anchor for F5 actuator-logic (per ADR-0076) repair-class taxonomy — Ruddick's `U^r` 12-operation repair-class set (reroute / defer / renegotiate / revalue / relimit / recurate / guarantor-invoke / insurance-invoke / support-request / adjudicate / override / re-enter) maps cleanly into F5 R1-R7 admitted response-categories per bridge note R3 disposition; settlement-operator is the canonical anchor for repair-via-Σ-substitution patterns. NOT a primitive, doctrine-in-the-cross-cutting-doctrine-category, mode, property, or pattern — it is a derived-glossary function-within-territory anchor.
     primary_project: spore
