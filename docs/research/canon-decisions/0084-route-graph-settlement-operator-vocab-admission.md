@@ -1,7 +1,7 @@
 ---
 doc_id: spore.canon-decision.route-graph-settlement-operator-vocab-admission
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0084"
 opened-on: 2026-05-04
 closed-on: 2026-05-04
