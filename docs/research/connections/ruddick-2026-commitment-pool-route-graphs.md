@@ -219,47 +219,70 @@ Per the canonical taxonomy in `learning-field-intake-protocol.md`: `no change` /
 
 **Stream-scope discipline applies to recommendations, not just writes** (per `feedback_workstream_scope_discipline.md`): this section describes what each sibling artifact covers and where Spore's substrate read agrees / diverges / leaves gaps. It makes no recommendation for action at IC/BKC/PM/bregion. Cross-stream opt-in remains a separate operator-gated decision.
 
-### Pre-write validation log
+**Corrigendum 2026-05-04 (post-publication)**: this section originally (commits `8279032` + `262d4b4` + `45be0ff`) (a) mislabeled two `bioregional-coordination` files as "BKC" — they belong to **bregion** (the canon arm at `~/projects/bioregional-coordination/`), distinct from BKC (the workshop arm at `~/projects/BioregionKnwoledgeCommons/BioregionalKnowledgeCommoning/`); and (b) entirely missed BKC's foundation-layer commitment material (4 foundation-spec docs + 1 GE-integration compatibility memo). Operator pushback prompted the audit. Both errors corrected below. ADR-0084's vocab admission of `route-graph` + `settlement-operator` stands unaffected (cluster-counting was on academic traditions, not sibling-repo coverage); the corrigendum strengthens rather than weakens the cross-repo substrate picture.
 
-All five sibling artifact paths and doc_ids verified against live frontmatter at `2026-05-04`:
+### Pre-write validation log (post-corrigendum)
 
-| Repo | Path | Live doc_id | Verified |
-|---|---|---|---|
-| IC | `IndigenomicsAI/docs/methodology/ruddick-commitment-pool-bridge.md` | `indigenomics.methodology.ruddick-commitment-pool-bridge` | ✓ |
-| BKC | `bioregional-coordination/docs/research/connections/commitment-pool-route-graphs-review.md` | `bioregional-coordination.connection.commitment-pool-route-graphs-review` | ✓ |
-| BKC | `bioregional-coordination/docs/research/connections/ruddick-commitment-pool-route-graphs-peer-review.md` | `bioregional-coordination.connection.ruddick-commitment-pool-route-graphs-peer-review` | ✓ |
-| PM | `poietic-match/docs/research/connections/commitment-pooling-and-mutual-credit.md` | `pm.connection.commitment-pooling-and-mutual-credit` | ✓ |
-| PM | `poietic-match/docs/research/connections/sarafu-and-ruddick-lineage.md` | `pm.connection.sarafu-and-ruddick-lineage` | ✓ |
+All sibling artifact paths and doc_ids verified against live frontmatter at `2026-05-04`:
+
+| Repo | Path | Live doc_id | Layer | Verified |
+|---|---|---|---|---|
+| IC | `IndigenomicsAI/docs/methodology/ruddick-commitment-pool-bridge.md` | `indigenomics.methodology.ruddick-commitment-pool-bridge` | methodology | ✓ |
+| **bregion** | `bioregional-coordination/docs/research/connections/commitment-pool-route-graphs-review.md` | `bioregional-coordination.connection.commitment-pool-route-graphs-review` | connection | ✓ |
+| **bregion** | `bioregional-coordination/docs/research/connections/ruddick-commitment-pool-route-graphs-peer-review.md` | `bioregional-coordination.connection.ruddick-commitment-pool-route-graphs-peer-review` | connection | ✓ |
+| PM | `poietic-match/docs/research/connections/commitment-pooling-and-mutual-credit.md` | `pm.connection.commitment-pooling-and-mutual-credit` | connection | ✓ |
+| PM | `poietic-match/docs/research/connections/sarafu-and-ruddick-lineage.md` | `pm.connection.sarafu-and-ruddick-lineage` | connection | ✓ |
+| **BKC** | `BioregionKnwoledgeCommons/BioregionalKnowledgeCommoning/docs/foundations/commitment-pooling-foundations.md` | `bkc.commitment-pooling` | foundation-spec | ✓ |
+| **BKC** | `.../docs/foundations/commitment-economy-vision.md` | `bkc.commitment-economy-vision` | foundation-architecture | ✓ |
+| **BKC** | `.../docs/foundations/commitment-economy-design.md` | `bkc.commitment-economy-design` | foundation-spec | ✓ |
+| **BKC** | `.../docs/foundations/flow-funding-foundations.md` | (no frontmatter doc_id; layer-tagged "Pattern Language + Capital Coordination") | foundation-prose | ✓ |
+| **BKC** | `.../docs/ge-integration/compatibility-memo.md` | (no frontmatter doc_id; concept-mapping artifact) | integration-spec | ✓ |
 
 (Foreign doc_ids cited in body prose per the plan's cross-repo reference convention; they do NOT appear in this note's frontmatter `relates_to:` array, which holds Spore-local doc_ids only.)
 
 ### What each sibling covers
 
-- **`indigenomics.methodology.ruddick-commitment-pool-bridge`** (v0.2, 2026-04-24): IC corpus mapping. CVLE+RVLFHG+commitment-tuple coverage, with detailed mapping to four IC corpora (Apr 30 survey / 25-theme ontology / 350+ legal cases / RAPs). Theme 4 worked example shows R, V, L, F, H, G across all six interfaces. Temporal orientation `χ ∈ {future, past}` distinguishes promissory survey responses from certified RAP claims. **No formal C/R-claim register**; structured as bridge-note exposition.
+**IC** (Indigenomics):
+- **`indigenomics.methodology.ruddick-commitment-pool-bridge`** (v0.2, 2026-04-24): IC corpus mapping. CVLE+RVLFHG+commitment-tuple coverage, with detailed mapping to four IC corpora (Apr 30 survey / 25-theme ontology / 350+ legal cases / RAPs). Theme 4 worked example shows R, V, L, F, H, G across all six interfaces. Temporal orientation `χ ∈ {future, past}` distinguishes promissory survey responses from certified RAP claims. No formal C/R-claim register; structured as bridge-note exposition.
+
+**bregion** (`bioregional-coordination`; canon arm; peer-instance-family of BKC per `feedback_peer_instance_family_vs_downstream_aligned.md`):
 - **`bioregional-coordination.connection.commitment-pool-route-graphs-review`** (2026-05-02): bioregional/sheaf bridge. Adds two layers Ruddick does not articulate: (a) privacy + anti-extraction requirements, (b) sheaf/hypergraph generalization of route graphs at bioregional governance scale.
 - **`bioregional-coordination.connection.ruddick-commitment-pool-route-graphs-peer-review`** (2026-05-02): peer-review-shaped artifact (5 major comment areas + 6 open questions for Will). Outreach-track-adjacent; not a substrate-grammar map. Treats the paper from a friendly-revision-not-restructuring stance.
+
+**PM** (Poietic Match; matchmaking with commitments):
 - **`pm.connection.commitment-pooling-and-mutual-credit`**: PM-side Tier-1b anchor for matching grammar. CVLE substrate + commitment-pooling-vs-mutual-credit distinction + market-dependence caution. 4 R-claims targeting PM grammar / PM protocol / PM project-vision / Spore intent-pressure term + 10 C-claims anchored to P2P Foundation wiki.
 - **`pm.connection.sarafu-and-ruddick-lineage`**: PM-side sibling exploring Sarafu Network as operational pilot of commitment pooling.
 
+**BKC** (`BioregionalKnowledgeCommoning`; workshop / production-implementation arm; carries its OWN foundation-layer commitment-pooling framework with on-chain Celo deployment 2026-03-22):
+- **`bkc.commitment-pooling`** (Draft v0.1, 2026-03-03): BKC's canonical Commitment Pooling Foundations doc. Source context explicitly cites *Grassroots Economics Sarafu network; CLC DAO specification; Will Ruddick Substack*. Establishes commitment pooling as **"the missing economic primitive for bioregional coordination."** Tier 2 Pool Federation describes **multi-hop credit routing across pools via trust links** (the route-graph substrate at BKC layer); Tier 3 governance maps to BKC's commons governance membrane. C0 (done Mar 2026) shipped 23+ verified commitments, 33,400 VCV minted, multi-participant TBFFSettler with redistribution, SwapPool VCV↔cUSD, dual-chain proofs (Regen Ledger + Celo EAS).
+- **`bkc.commitment-economy-vision`** (Draft v0.1, 2026-03-22): philosophy + pattern language; cites Ruddick / GE, Cosmo-Local Credit (CLC) white paper, Kinship Earth / Regenerate Cascadia BioFi, Mycopunks TBFF protocol. Frames commitment economy as ecology not financial infrastructure.
+- **`bkc.commitment-economy-design`**: technical spec. Two-layer commitment-pooling-supply-side + needs-based-sufficiency layer; on-chain TBFFSettler architecture; CLC netting yield formalized as `(gross routed value − net external liquidity injected) / gross routed value` (proxy for reduced extractive metabolic dependency); explicitly engages cycle clearing + multi-hop exchange + federation across bioregions.
+- **flow-funding-foundations.md**: Pattern Language + Capital Coordination layer. Bioregional Flow Funding (Hub Cultivator / Regenerate Cascadia trust-based) + Threshold-Based Flow Funding (TBFF / MycoFi algorithmic) — both converge on BKC knowledge graph.
+- **ge-integration/compatibility-memo.md** (2026-03-22): explicit BKC ↔ GE/Sarafu ↔ CLC DAO concept mapping table with code references (`erc20-pool/solidity/SwapPool.sol`, Sarafu dApp `swap-form.tsx`, Celo mainnet deployment addresses). Maps BKC's Commitment ↔ CAV ↔ CLC redeemable voucher; CommitmentPool ↔ SwapPool ↔ CLC clearing pool; TBFF threshold bands ↔ TokenLimiter ↔ pool safety limits. Hackathon result: full commitment economy on Celo mainnet end-to-end pipeline.
+
 ### Where Spore's substrate-grammar read agrees with siblings
 
-- **CVLE four-functions are the canonical decomposition**: IC (Theme 4), PM (matching grammar), and Spore (this note + `curation-valuation-limitation-exchange` slug in v20) all converge on CVLE as the right four-function abstraction.
-- **RVLFHG is implementation-layer not canon-layer**: implicit agreement across all repos — none of the siblings promote RVLFHG to a primitive-shaped canon object.
-- **Promise-theoretic framing of commitment**: PM's commitment-pooling-and-mutual-credit + Spore's `spore.connection.promise-foundation-commitment-protocol` + Ruddick §2.3 + IC's commitment-tuple framing all align on commitment-as-non-coercive-attestation reading.
+- **CVLE four-functions are the canonical decomposition**: IC (Theme 4), PM (matching grammar), bregion (review-bridge engagement), BKC (`bkc.commitment-pooling` + compatibility memo), and Spore (this note + `curation-valuation-limitation-exchange` slug in v20) all converge on CVLE as the right four-function abstraction.
+- **RVLFHG is implementation-layer not canon-layer at Spore**: implicit agreement across IC + bregion + PM. **BKC differs**: the GE compatibility memo explicitly maps the six interfaces (Registry / Value Index / Limiter / Fee Policy / Vault-Settlement / Governance) to GE's `SwapPool` + `IQuoter` + `TokenLimiter` + pool admin/owner contract API at code-reference level. BKC engages RVLFHG at production-implementation layer; Spore reads RVLFHG as below-canon.
+- **Promise-theoretic framing of commitment**: PM's commitment-pooling-and-mutual-credit + Spore's `spore.connection.promise-foundation-commitment-protocol` + Ruddick §2.3 + IC's commitment-tuple framing + BKC's `bkc.commitment-economy-vision` all align on commitment-as-non-coercive-attestation reading.
+- **Multi-hop routing as core mechanism**: Ruddick §3.2 Def 5 + §8.2 route-selection formalism (now `route-graph` slug per ADR-0084) maps to **BKC's Tier-2 Pool Federation** ("Credits route multi-hop across pools via trust links") + **CLC DAO `SwapRouter.quoteExactInput(Hop[])`** (cited in BKC compatibility memo) + Sarafu production routing. Cross-repo convergence is operationally explicit, not just descriptive.
+- **Settlement / netting as engineering concern**: BKC's `bkc.commitment-economy-design` engages cycle clearing + netting + TBFFSettler at on-chain implementation layer; CLC's `IQuoter` (DecimalQuoter / RelativeQuoter / OracleQuoter) implements value-index resolution; Ruddick formalizes Σ as institution-relative settlement operator (now `settlement-operator` slug per ADR-0084). Spore + BKC + CLC convergence at vocabulary + mechanism layer.
 
 ### Where Spore's substrate-grammar read DIVERGES from siblings
 
-- **R2 χ-temporal-orientation canon-pressure** is named here as `unresolved tension` for Spore. IC's bridge handles temporal orientation as a survey-response-vs-RAP-claim *corpus* distinction, not a *primitive-bullet* scope-conditioning question. BKC review treats `χ` as descriptive paper apparatus. PM bridges treat `χ` implicitly. Only Spore's substrate-grammar read surfaces the "should Commitment primitive bullet acquire χ-orientation as structural property" question — because only Spore has primitives at canon-doctrine layer to scope-condition. **Per `feedback_upstream_downstream_canon_propagation.md`, axis-divergence is per-repo-honest, not inconsistency.**
+- **R2 χ-temporal-orientation canon-pressure** is named here as `unresolved tension` for Spore. IC's bridge handles temporal orientation as a survey-response-vs-RAP-claim *corpus* distinction, not a *primitive-bullet* scope-conditioning question. bregion review treats `χ` as descriptive paper apparatus. PM bridges treat `χ` implicitly. BKC's `bkc.commitment-economy-design` treats commitments as forward-promise-default with redemption-against-issuance (chi=future tilt) but doesn't structurally name χ-orientation. Only Spore's substrate-grammar read surfaces the "should Commitment primitive bullet acquire χ-orientation as structural property" question — because only Spore has primitives at canon-doctrine layer to scope-condition. **Per `feedback_upstream_downstream_canon_propagation.md`, axis-divergence is per-repo-honest, not inconsistency.**
 - **F5 / F6 / F3 / F4 / F8 alignment**: only Spore reads Ruddick's repair-class + realization-classes + governance + observational-equivalence + falsifiability against the post-Phase-4 foundation-doc taxonomy. Sibling repos do not have this canon layer and do not read for this alignment.
 - **ADR-0078 instance-model validation via Appendix B** is unique to Spore's read because only Spore has ADR-0078.
+- **Production-implementation depth**: BKC has Celo-mainnet deployment with VCV GiftableTokens + TBFFSettler + SwapPool + dual-chain proof (Regen Ledger + Celo EAS attestations); Spore reads at canon-grammar layer with NO production implementation. BKC's compatibility memo also names a real production failure (GE SwapPool MEV vulnerability — bot drained deposited cUSD within 16 blocks; GiftableToken safe-approve pattern needed) — operational substrate Spore canon does not engage.
 
-### What is covered nowhere yet (gap items, descriptive only)
+### What remains under-specified at the cross-repo coordination-grammar layer (post-corrigendum)
 
-- **Settlement-operator Σ as named cross-repo concept**: Spore lacks a canonical name for institution-relative settlement at the canon layer; IC's CVLE coverage doesn't promote Σ; BKC review notes Σ as paper apparatus but does not promote; PM doesn't engage Σ at primitive level. Across the four-repo ecosystem, settlement-operator territory is descriptively under-specified at the cross-repo coordination-grammar layer.
-- **Route-graph as multi-pool-federation cross-repo concept**: implicitly covered by ADR-0068 federation-encounter composition-pattern in Spore, but no canonical cross-repo vocabulary for "multi-pool route" exists today.
-- **Cost-function-composition for repair (Ruddick §8.2)**: not engaged at canonical level by any sibling.
+- **Route-graph as canon-vocabulary across siblings**: Spore now admits `route-graph` slug (ADR-0084 v21). BKC engages multi-hop routing operationally + cites CLC SwapRouter at code level — but does NOT have a canonical "route-graph" vocabulary anchor at concepts-yaml-equivalent layer. PM + bregion + IC have NO concepts-yaml. Cross-repo *vocabulary* is Spore-canonical-only; cross-repo *operational concept* is convergent.
+- **Settlement-operator Σ as canon-vocabulary across siblings**: Spore now admits `settlement-operator` slug (ADR-0084 v21). BKC's `bkc.commitment-economy-design` engages settlement at TBFFSettler + cycle-clearing + netting layer; CLC's `IQuoter` operationalizes value-index resolution. But no sibling has a canonical "settlement-operator" *vocabulary anchor*.
+- **Cost-function-composition for repair (Ruddick §8.2)**: not engaged at canonical level by any sibling. **This is the only candidate from the original gap list that survives the BKC corrigendum** — BKC's compatibility memo touches multi-hop routing + value index but does NOT engage Ruddick's specific cost-function-composition framing for repair.
+- **R2 χ-temporal-orientation primitive-bullet scope-conditioning**: Spore-only canon-pressure (BKC + bregion + PM + IC don't have primitive-bullet layer to scope-condition).
 
-(Per the plan's stream-scope discipline, surfacing these as gap items is descriptive observation; whether any repo decides to close them is a separate operator-gated decision in a separate session.)
+(Per the plan's stream-scope discipline, surfacing these as descriptive observation; whether any repo decides to close them is a separate operator-gated decision in a separate session. **The original §7 understated cross-repo convergence by missing BKC entirely** — corrigendum corrects the picture: BKC carries the heaviest production-implementation engagement of any sibling, including on-chain Celo deployment.)
 
 ---
 
