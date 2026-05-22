@@ -35,3 +35,11 @@ df3541a913c5fdadd27745b58eb77dd26900251bb64da2d35c9e86f026eb7765  724899  53  20
 474afac9b601f6719317c93fefb555caf92b68c37d074df44a6951333cb9e53a  541917  35  2026-02-12-the-cost-of-staying-alive-how-living-systems-budget-survival-remember.pdf
 3450629ddb96f052c074a4e77c7d8baa4ea2353d19a3a8238cea9a0fadd49eb0  853966  80  2026-02-24-the-grammar-of-violence-decoding-the-background-program-of-modern-power.pdf
 c2858f185fbce556ba41b8a2e27352e0807dac1f73ffc86765a166e664a70ad0  643729  51  2026-02-24-the-invisible-architecture-of-violence-collective-trauma-identity-myth-and-the.pdf
+2026-03-04-the-life-value-framework-a-roadmap-for-global-systemic-solvency-gemini.pdf sha256=2799d77d05be06ca604298b99007872be9cf0ee15efae66a99c935709c5f79d6 size=620672 pages=26 wave=5
+2026-03-05-the-violence-viability-architecture-life-ground-governance-and-the-stability-of.pdf sha256=ac99ac0d9c00fc0316b696ad6f76b3fba6cbd13ff9c773c8ef8f3b6df20b5f70 size=1022715 pages=98 wave=5
+2026-03-06-the-violence-viability-architecture-life-ground-governance-and-the-future-of.pdf sha256=8fe94418fc876db85c41ee487cbe2c03df964dd10e2bece312fd7234e626628c size=935451 pages=92 wave=5
+2026-03-07-the-violence-viability-architecture-life-ground-governance-and-the-dynamics-of.pdf sha256=85823a51be64b68b477ca0663677a08f77e4992073719fe0327a8e0966daf328 size=1330136 pages=78 wave=5
+2026-03-08-reflexive-civilizational-governance-life-ground-viability-and-the-architecture.pdf sha256=a185d46adb27bce281638abe742feffcc970c479220eba32f009cf816b030913 size=1262769 pages=56 wave=5
+2026-03-17-viability-geometry-a-minimal-relational-framework-for-persistence-in-complex.pdf sha256=9784cc5b5aa9fc8a80247e896d4dcfb3bdd93e185aebb9e39ac033bc94826e6f size=1442327 pages=89 wave=5
+2026-03-19-the-viability-grammar-toward-a-general-theory-of-persistence-in-complex.pdf sha256=4aa29415e43259eeeb186ff3f888eae6641c4f356589ecbaa0ecad627e323542 size=1534949 pages=74 wave=5
+2026-04-03-from-structure-to-practice-diagnosing-and-navigating-viability-in-the-real.pdf sha256=bed9ccc60c6ad555a3b5675b48146edd606bb567637c5f4756bc2737f923b8b6 size=1974213 pages=159 wave=5
