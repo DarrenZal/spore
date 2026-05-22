@@ -1,14 +1,26 @@
-# DECISION-BRIEF — Sahely Corpus Phase 2 Canon-Pressure (Waves 1+2)
+# DECISION-BRIEF — Sahely Corpus Phase 2 Canon-Pressure (Waves 1+2, REFINED post-Waves-3+4)
+
+**Original date:** 2026-05-22 (Waves 1+2 baseline) — **REFINED 2026-05-22 (Waves 3+4 consolidation; see §17)**
+
+> **REFINEMENT NOTE (2026-05-22 post-Wave-4)**: This DECISION-BRIEF was originally authored after Waves 1+2 (6 anchor bridge notes). Per operator dispatch §"Post-Wave-3" + §"Post-Wave-4" SINGLE FINAL DECISION-BRIEF refinement pass, **§17 (NEW) consolidates Wave-3 + Wave-4 surfacings** (Galtung-as-6th-cluster for C1 substrate-enrichment; C15 R-Sacred-memory-transformation marginal candidate; C10 elevation candidate to 4-cluster count then preserved-at-4 per W4.3 honest probe; C7 Trigger v PROBED + DOES NOT FIRE per W3.2; C16 R-Collective-subconscious-pathology marginal candidate; R-Civil-commons-Ruddick-bridge cross-repo candidate; CAPSTONE substrate strengthening for C3; three substantive C1 layer-instantiations from W4.2). The Wave-1+2 cluster-counting math + per-candidate dispositions in §§1-16 stand as baseline; §17 documents updates. §18 (renumbered from original §17) carries Pause points + next steps; §19 (renumbered from original §18) carries Summary. **Final per-candidate disposition table with refinement-status is at §17.4; final bundle architecture estimate at §17.5; final Wave-N+1 alignment surface at §17.6.** Operator ratification of refined dispositions requested before Layer 3 handoff.
+
+---
 
 **Date:** 2026-05-22
-**Source intake:** Sahely (bsahely.com) corpus Phase 2 anchor bridge notes (Wave 1: anchors #1+#2+#5; Wave 2: anchors #3+#4+#6) — 6 bridge notes at `docs/research/connections/sahely-*.md` totaling 2083 lines
-**Bridge note paths:**
-- W1.1 `spore.connection.sahely-maturana-viability-grammar` (301 lines)
-- W1.2 `spore.connection.sahely-biology-of-living-coordination` (338 lines)
-- W1.5 `spore.connection.sahely-entanglement-to-governance` (324 lines)
-- W2.3 `spore.connection.sahely-architecture-of-viability` (342 lines)
-- W2.4 `spore.connection.sahely-keeping-life-coherence-alive` (390 lines)
-- W2.6 `spore.connection.sahely-ethics-as-science-of-viability` (388 lines)
+**Source intake:** Sahely (bsahely.com) corpus Phase 2 anchor bridge notes — **12 bridge notes post-Wave-4** at `docs/research/connections/sahely-*.md` totaling **4185 lines** (Wave 1: anchors #1+#2+#5 = 963 lines; Wave 2: anchors #3+#4+#6 = 1120 lines; Wave 3: anchors #7+#8+#9 = 972 lines; Wave 4: anchors #10+#11+#12 = 1065 lines)
+**Bridge note paths (all 12 post-Wave-4)**:
+- W1.1 `spore.connection.sahely-maturana-viability-grammar` (301 lines; commit `4e29f5f`)
+- W1.2 `spore.connection.sahely-biology-of-living-coordination` (338 lines; commit `4e29f5f`)
+- W1.5 `spore.connection.sahely-entanglement-to-governance` (324 lines; commit `4e29f5f`)
+- W2.3 `spore.connection.sahely-architecture-of-viability` (342 lines; commit `5316d07`)
+- W2.4 `spore.connection.sahely-keeping-life-coherence-alive` (390 lines; commit `5316d07`)
+- W2.6 `spore.connection.sahely-ethics-as-science-of-viability` (388 lines; commit `5316d07`)
+- **W3.1** `spore.connection.sahely-toward-life-coherent-peace` (365 lines; commit `b95d4b8`)
+- **W3.2** `spore.connection.sahely-coherence-to-viability` (274 lines; commit `c5fc0f4`) — C7 Trigger v PROBE
+- **W3.3** `spore.connection.sahely-systems-immunology` (333 lines; commit `fe961c9`)
+- **W4.1** `spore.connection.sahely-money-growth-to-life-coherence` (366 lines; commit `3867db2`)
+- **W4.2** `spore.connection.sahely-life-value-manifesto` (289 lines; commit `66d1ddc`) — C3 CAPSTONE
+- **W4.3** `spore.connection.sahely-medicine-of-living-coherence` (410 lines; commit `b748eef`) — C10 5th-cluster PROBE
 **Source corpus:** Phase 1 closed 2026-05-22 at 103/104 coverage; 17+ Person entities + 110+ Concepts + 103 SpecDoc episodes in personal-koi KG; ~3,400+ pages KG-indexed.
 **Author:** Bichara Sahely (bsahely.com) with foundational frameworks drawn from McMurtry (life-value onto-axiology), Maturana school (autopoiesis, biology of love, cultural biology), Galtung (structural violence), and ~8 additional integrated thinker-lineages per Wave-2 #3 summit paper.
 **Audience:** operator + future canon-decision session(s) (operator-gated per ratification request §13)
@@ -710,9 +722,197 @@ To be verified after commit + push:
 
 ---
 
-## 17. Pause points + next steps
+## 17. Post-Wave-3+4 Refinement Consolidation
 
-**PAUSE 2 of 2 (per operator dispatch)**: after this brief commits + pushes, pause for **operator ratification** of per-candidate dispositions (§14 ratification table) BEFORE:
+Per operator dispatch §"Post-Wave-3" + §"Post-Wave-4": SINGLE FINAL DECISION-BRIEF refinement pass consolidating Wave-3 + Wave-4 surfacings. The §§1-16 cluster-counting + per-candidate dispositions stand as Wave-1+2 baseline; this section documents updates from 6 additional bridge notes (Waves 3+4; 2102 lines added).
+
+### 17.1 Refinement scope + sequence
+
+Phase 2 substrate-gathering closed at Wave 4. **12 anchor bridge notes / 4185 total lines / 4 waves / 4 separate commits + 6 per-anchor commits (Wave-3+4 per-anchor discipline)**. All bridge notes operate in supporting-evidence mode (no self-litigation of Layer-2 verdicts). Wave-3+4 surfacings classified per refinement-impact:
+
+- **Substrate-enrichment for ratified ADMITs** (NOT verdict-change): Galtung-6th-cluster for C1; CAPSTONE for C3; 3 layer-instantiations for C1 (Security Trap + Growth Illusion + Cancer Stage); McMurtry-secondary extension for C3 (W4.1 economic-foundation)
+- **Cluster-count elevation candidates** (operator-elective): C10 from 2→4 clusters (Naviaux + Allostasis-upgrade per W3.3); preserved at 4 per W4.3 honest probe (no 5th cluster surfaced)
+- **C7 Trigger v PROBE outcome**: DOES NOT FIRE per W3.2 honest analysis; decline holds; 6 triggers preserved
+- **NEW marginal candidates** for operator-elective DECISION-BRIEF consideration: C15 R-Sacred-memory-transformation (W3.1); C16 R-Collective-subconscious-pathology (W4.2)
+- **Cross-repo bridge-note candidate**: R-Civil-commons-Ruddick-bridge (W4.1) — BKC peer-instance-family operator-elective
+- **Cross-anchor pattern observations**: recurring Sahely 5-7-step-protocol shape (W3.1 7-step Peace + W3.3 5-stage Phase Restoration + W4.2 Master Map 5 stages)
+
+### 17.2 Wave-3 surfacings consolidated
+
+**(i) Galtung-as-6th-cluster for C1 R-Trap-cluster** (from W3.1 peace bridge note)
+
+- **HONEST VERDICT** (per anti-enthusiasm-override discipline): YES genuinely independent cluster on lineage-genealogy + operational-concern-match grounds. Norwegian-peace-research institutionally distinct from continental post-Marxist Cluster 3 (PRIO founded 1959; Journal of Peace Research founded 1964). Galtung's direct/structural/cultural-violence triad is operationally identical to substitution-trap shape at peace-civilization scale.
+- **REFINEMENT-IMPACT**: substrate-enrichment for already-ratified C1 ADMIT (Option D); NOT verdict-change. C1 cluster-count updates from §4.2's 5 → **6 full clusters**: (1) Johar/Sufi / (2) Sahely-Maturana / (3) Post-Marxist critical-theory / (4) Postcolonial / (5) Legibility-Bureaucracy / **(6) Galtung Norwegian-peace-research**.
+- **LAYER-3 IMPACT**: when C1 ADR-X1 drafted, Galtung tradition-anchor citation added to §Context alongside other 5 clusters; verdict-shape unchanged; ceremony unchanged.
+
+**(ii) C15 R-Sacred-memory-transformation** (from W3.1 peace bridge note)
+
+- **HONEST VERDICT**: marginal cluster-counting (2 full Sahely + Truth-and-Reconciliation tradition; 2 partial memory studies + trauma studies); operational-concern-match: sacred-memory-transformation-from-grievance-possession-to-custodial-responsibility.
+- **REFINEMENT-IMPACT**: marginal candidate. Likely-shape if elevated: DECLINE-with-trigger per ADR-0054/0069 precedent.
+- **RECOMMENDATION (operator-elective)**: defer as marginal candidate. Re-opening triggers: (a) ≥3rd independent tradition articulating sacred-memory-transformation operationally; (b) Spore-side operational pressure for memory-handling discipline; (c) future intake (e.g., truth-and-reconciliation literature) deepens substrate.
+
+**(iii) C7 R-Sheaf-graph-substrate Trigger v PROBE** (from W3.2 coherence-to-viability bridge note)
+
+- **HONEST VERDICT (PROBE-FINDING)**: Trigger v **DOES NOT FIRE**. Per-cited-tradition analysis: Deacon teleodynamics (engages C primitive; NOT sheaf-coordination-substrate); S. Kauffman adjacent-possible (engages O primitive; NOT sheaf-coordination-substrate); Taleb antifragility (engages O × M; NOT sheaf-coordination-substrate); Bejan constructal law (engages O × M under C; NOT sheaf-coordination-substrate); pure-math citations (Fano/octonions/symplectic/cubic/quartic — sheaves-themselves cluster RICH but applied BY Sahely to coordination-grammar; counts toward Cluster 1 Sahely formal derivation per ADR-0064).
+- **REFINEMENT-IMPACT**: C7 DECLINE-with-trigger **HOLDS** post-probe. Cluster-count remains 2 full (Sahely + Hale). All 6 re-opening triggers (i-vi per §10.5) **preserved unchanged**. Probe-finding STRENGTHENS the decline-discipline by demonstrating that even Sahely's own predecessor work + cross-domain operationalization + adjacent-tradition citations do not constitute fresh independent cluster.
+- **LAYER-3 IMPACT**: no shift. C7 stays at framing-note-only declines-with-trigger status.
+
+**(iv) C10 elevation candidate (cluster-count to 4)** (from W3.3 immunology bridge note)
+
+- **W3.3 substrate added**: Naviaux Cell Danger Response as substantive 4th cluster (Ch7 + Ch15 dedicated treatment); upgraded Allostasis from §12.2 PARTIAL → FULL (Ch8 §8.1-§8.5 substantive treatment).
+- **C10 cluster-count updated**: from §12.2's "Sahely-Maturana / Salutogenesis / Allostasis-partial / Network-medicine-partial = ≥2 full" to **(1) Sahely-Maturana / (2) Salutogenesis / (3) Allostasis-upgraded-FULL / (4) Naviaux-FULL = 4 full clusters**.
+- **W4.3 PROBE outcome** (see §17.3 (vii)): C10 stays at 4 clusters per honest probe; no 5th surfaced at extraction layer.
+- **REFINEMENT-IMPACT**: C10 disposition stays `framing-note-only` (ratified). 4-cluster count exceeds ≥3-cluster derived-glossary admission threshold; **could elevate to scope-condition-likely OR admit-candidate IF operator opens**. Operator-elective.
+- **RECOMMENDATION (operator-elective)**: consider C10 elevation to admit-candidate (≥3-cluster derived-glossary threshold already exceeded; 5th-cluster not strictly required for slug admission). If elevated, likely shape: `health-as-coherent-transition` derived-glossary slug OR ADR-0049 narrative extension via clinical-medicine substrate. **Bundle β implications**: total ADR count grows from 6 → 7 if C10 elevates.
+
+### 17.3 Wave-4 surfacings consolidated
+
+**(v) C16 R-Collective-subconscious-pathology (NEW candidate)** (from W4.2 manifesto bridge note)
+
+- **HONEST VERDICT**: marginal cluster-counting (1 FULL Sahely-Gemini synthesis + 1 PARTIAL Maturanan-emotioning + 1 FULL-or-PARTIAL psychoanalytic Freud/Jung/Lacan lineage depending on operational-claim-shape-vs-operational-concern judgment per `feedback_surface_vocabulary_vs_operational_concern.md`); operational-concern-match: collective-subconscious-as-life-incoherence-driver (CMT/DMA/RP framework).
+- **REFINEMENT-IMPACT**: marginal candidate. Likely-shape if elevated: DECLINE-with-trigger per ADR-0054/0069 precedent (single-source-from-primary-inspiration + marginal multi-cluster math + psychoanalytic operational-concern-match contested).
+- **RECOMMENDATION (operator-elective)**: defer as marginal candidate. Re-opening triggers: (a) ≥3rd independent tradition articulating collective-subconscious-as-life-incoherence-driver operationally; (b) Spore-side operational pressure for subconscious-pathology-handling discipline; (c) future Sahely-corpus deepening of CMT/DMA/RP framework across ≥3 additional works.
+
+**(vi) Three substantive C1 layer-instantiations** (from W4.2 manifesto: Security Trap + Growth Illusion + Cancer Stage of Capitalism)
+
+- **REFINEMENT-IMPACT**: substrate-deepening for already-ratified C1 ADMIT (Option D); strengthens admission-rationale across security-policy / economic / civilizational layers. NOT verdict-change.
+- **Security Trap (C-9)** = security-as-full-spectrum-dominance permanent-emergency destroying life-support it claims to protect — paradigm-case substitution-trap at security-policy layer.
+- **Growth Illusion (C-10)** = money-sequence multiplication blind to productive-vs-parasitic distinction — paradigm-case substitution-trap at economic layer (composes with W4.1 R-Money-as-false-invariant).
+- **Cancer Stage of Capitalism (C-5, McMurtry 1999 canonical)** = military-industrial money sequences multiplying at the expense of the life-support systems they inhabit — paradigm-case substitution-trap at civilizational scale.
+- **LAYER-3 IMPACT**: when C1 ADR drafted, three layer-instantiations cited as paradigm-cases for `golden-calf-trap` slug admission. Strengthens §Context narrative depth.
+
+**(vii) C3 CAPSTONE substrate strengthening** (from W4.2 manifesto)
+
+- **REFINEMENT-IMPACT**: W4.2 manifesto provides foundational-triad position grounding Bundle β Option C admission rationale (Manifesto + W2.3 Architecture + W3.1 Peace). Strongest single-piece evidence for C3 doctrine-admission shape per operator dispatch. NOT verdict-change; substrate-strengthening at foundational layer.
+- **W4.1 money paper** provides economic-foundation extension of LVOA from ethics to economics (McMurtry-secondary; six reconstruction pillars + formal economic state vector x(t) + Civil Commons as core economic infrastructure).
+- **LAYER-3 IMPACT**: C3 ADR draft cites W4.2 Manifesto as canonical primary-source for life-value-doctrine foundational frame + W4.1 money paper for economic-foundation substrate + W2.6 Ethics-as-Viability + W2.3 Architecture-of-Viability + W3.1 Middle East Peace as applied-protocol instantiation. Bundle β Option C foundational-triad citation depth substantially enriched.
+
+**(viii) W4.3 C10 5th-cluster PROBE outcome**
+
+- **HONEST VERDICT**: NO 5th cluster surfaced at extraction layer per W4.3 anti-enthusiasm-override probe. Per-candidate honest assessment: Engel biopsychosocial (1977) NOT cited at extraction TOC; Network medicine (Barabasi/Loscalzo/Vidal) NOT cited; Patient-centered care (Cassell/Saunders) NOT cited; Clinical-systems-biology / functional medicine (Bland/Hyman) NOT cited; 7-pattern grammar at clinical scale = Sahely-Maturana per-domain-instantiation (Cluster 1 internal evolution) per W3.3 family-of-7-primitive-grammars finding, NOT independent tradition.
+- **REFINEMENT-IMPACT**: C10 cluster-count holds at **4 full clusters** (from W3.3 elevation); does NOT escalate to 5 per W4.3 honest probe. 5th-cluster admission deferred pending Phase-3 deeper reading (pp6-151 of medicine paper) OR external operational pressure. Operator decides whether 4-cluster count justifies elevation per §17.2 (iv).
+
+**(ix) R-Civil-commons-Ruddick-bridge cross-repo candidate** (from W4.1 money bridge note)
+
+- **HONEST VERDICT**: three-layer composition (McMurtry foundation + Ruddick protocol ADR-0084 + BKC implementation) suggests potential BKC peer-instance-family bridge-note. Strongest cross-tradition foundation-doctrine substrate for commitment-pooling territory surfaced to date.
+- **REFINEMENT-IMPACT**: cross-repo bridge-note candidate; operator-gated separate session per stream-scope discipline. No Spore-side ADR change.
+- **RECOMMENDATION (operator-elective)**: include in Wave-N+1 cross-stream consideration (Layer 3 deferral per `feedback_workstream_scope_discipline.md`); separate session with explicit cross-stream auth. Candidate bridge-note location: `bkc.connection.mcmurtry-civil-commons-as-economic-foundation` (or operator-named).
+
+**(x) Recurring Sahely 5-7-step-protocol cross-anchor pattern** (W3.1 + W3.3 + W4.2)
+
+- **OBSERVATION**: Sahely operates with recurring 5-7-step protocol shape across multiple scales:
+  - W3.1 Peace: 7-step (PROTECT-LIFE-GROUND / NAME-ALL-WOUNDS / DISTINGUISH-NEEDS / TRANSFORM-MEMORY / BUILD-CIVIL-COMMONS / INSTITUTIONALIZE-REPAIR / DISARM-WAR)
+  - W3.3 Immunology: 5-stage (PROTECT / RESOLVE / CLEAR / REPAIR / REINTEGRATE)
+  - W4.2 Manifesto: Appendix A Master Map = 5 Stages of Systemic Regulation (deferred from extraction)
+- All with **PROTECT as first move**. Cross-anchor pattern.
+- **REFINEMENT-IMPACT**: substrate observation; composes with F5 actuator-logic response-doctrine; **NOT canon-pressure** (Spore already canonical at F5 + parsimony-as-outcome ADR-0048). Surface for operator observation only.
+
+### 17.4 Updated per-candidate disposition table (post-Wave-3+4)
+
+Refinement-status column added. Original §14 table dispositions stand; this table documents Wave-3+4 substrate-strengthening / cluster-count updates / new-candidate flags.
+
+| # | Candidate | Original verdict (§14) | Wave-3+4 refinement status |
+|---|---|---|---|
+| **C1** | R-Trap-cluster | ADMIT Option D | **Strengthened**: 5 → 6 clusters via Galtung Norwegian-peace-research; +3 layer-instantiations (Security Trap + Growth Illusion + Cancer Stage); +Money-Sequence-as-substitution-trap (W4.1) |
+| C2 | R-Care-cluster | scope-condition ADR-0045 via Maturana | **Strengthened**: clinical-encounter-as-structural-coupling articulation (W3.3 + W4.3) |
+| **C3** | R-McMurtry-substrate | ADMIT Option C `life-value-doctrine` 4th doctrine | **CAPSTONE STRENGTHENED**: foundational-triad (W4.2 Manifesto + W2.3 Architecture + W3.1 Peace) + economic-foundation extension (W4.1) + clinical-policy operationalization (W4.3 §25 Seven Policy Domains) |
+| C4 | R-Immanent-ethics | Fold into C3 ADR (ADR-0042 narrative ext) | Unchanged |
+| C5 | R-Falsifiability | framing-note-only | Unchanged |
+| C6 | R-Civil-Commons | ADMIT standalone `civil-commons` slug | **Strengthened**: McMurtry primary-source (W4.1 C-17) + manifesto-foundational (W4.2) |
+| **C7** | R-Sheaf-graph-substrate | DECLINE-with-trigger | **PROBE-FINDING: Trigger v DOES NOT FIRE** (W3.2); decline holds; 6 triggers preserved unchanged |
+| C8 | R-Failure-three-stage | framing-note-only | Unchanged (composes with C7 decline) |
+| C9 | R-Joint-Maturanan | framing-note-only | Unchanged |
+| **C10** | R-Health-as-coherent-transition | framing-note-only (≥2 full clusters per §12.2) | **CLUSTER-COUNT ELEVATED 2 → 4 (W3.3 Naviaux + Allostasis-upgrade)**; held at 4 per W4.3 PROBE (no 5th surfaced); **operator-elective elevation candidate** to scope-condition-likely OR admit-candidate (≥3-cluster derived-glossary threshold exceeded) |
+| C11 | R-Civilization-extended-niche | framing-note-only (fold into C1 framing-note) | Unchanged |
+| C12 | R-Margin-as-reserve | scope-condition F9 | **Strengthened**: allostatic-load substrate (W3.3) |
+| C13 | R-Perception-as-power | scope-condition F4 via Galtung + standpoint-epistemology | **Strengthened**: Galtung cultural-violence + Doctrine of Just War canonical citation (W3.1 + W4.2) |
+| C14 | R-Externalization-as-deferred-collapse | framing-note-only (fold into C1) | **Strengthened**: economic-layer articulation (W4.1) |
+| (D1) | R-Wu-wei | carry-forward decline-with-trigger | Reinforced via W3.2 XPR/XPO articulation |
+| (D2) | R-E7-viability-scalar | carry-forward decline-with-trigger | Reinforced via W3.2 ω→N3→I4 hierarchy articulation (same family of mathematical-invariant-as-coherence-metric) |
+| **C15 (NEW)** | R-Sacred-memory-transformation | — | **MARGINAL candidate flagged for operator-elective consideration** (W3.1); likely-shape if elevated: DECLINE-with-trigger per ADR-0054/0069 |
+| **C16 (NEW)** | R-Collective-subconscious-pathology (CMT/DMA/RP) | — | **MARGINAL candidate flagged for operator-elective consideration** (W4.2); likely-shape if elevated: DECLINE-with-trigger per ADR-0054/0069 |
+| **(cross-repo)** | R-Civil-commons-Ruddick-bridge | — | **Cross-repo bridge-note candidate** (W4.1); operator-elective BKC peer-instance-family bridge-note; separate-session cross-stream auth |
+
+### 17.5 Final bundle architecture estimate (post-Wave-4)
+
+Per operator dispatch: "Bundle β shape may shift if C10 elevates to admit-candidate; total ADR count may grow from ~6 → ~7."
+
+**Post-Wave-4 honest assessment**:
+
+- **C10 stays at 4 clusters** from W3.3 + W4.3 honest probe; does NOT strictly require elevation but **operator-elective** (≥3-cluster derived-glossary threshold already exceeded by 4-cluster count).
+- **C15 + C16 marginal candidates**; if either elevates to admit-candidate (unlikely per cluster-counting math), total ADR count grows further.
+- **Galtung-6th-cluster** is substrate-enrichment for C1 (already ratified ADMIT); not new ADR.
+- **Ruddick-bridge** is cross-repo bridge-note candidate (operator-elective; not Spore-side ADR).
+
+**Most likely outcome**: Bundle β as-ratified holds (6 main ADRs + framing-notes); C10 + C15 + C16 stay at framing-note-only / marginal candidate status pending future operational pressure. **If C10 elevates: 7 main ADRs.**
+
+**Updated Bundle Architecture α (most likely; 6 main ADRs)**:
+
+- ADR-X1: **C1 R-Trap-cluster Option D** — bundled vocab admission (`golden-calf-trap` + `recursive-audit-method` slugs) + ADR-0048 narrative extension + dedicated framing-note `canon-framing-recursive-audit-method.md` (folds C11 + C14)
+- ADR-X2: **C3 Option C** — admit `life-value-doctrine` as 4th cross-cutting doctrine (sibling to reproductive-commoning / boundary-commoning / care-commoning); folds C4 R-Immanent-ethics narrative ext to ADR-0042; canon-object-class expansion (3 → 4 doctrines)
+- ADR-X3: **C6 standalone** — `civil-commons` derived-glossary slug admission (yaml v21 → v22)
+- ADR-X4: **C2 scope-condition** — ADR-0045 narrative extension via Maturana tradition-anchor
+- ADR-X5: **C12 scope-condition** — F9 maintenance-economics narrative extension
+- ADR-X6: **C13 scope-condition** — F4 representation-authority narrative extension via Galtung + standpoint-epistemology tradition-anchors
+- **Framing-notes**: C5 / C8 / C9 / C10 / C11 / C14 + dedicated `canon-framing-recursive-audit-method.md` per C1 Option D
+- **Decline-with-trigger**: C7 (preserved 6 triggers); D1 + D2 (carry-forward); C15 + C16 (deferred as marginal candidates with operator-elective re-consideration triggers)
+- **Cross-repo bridge candidates** (operator-elective Layer 3 deferral): R-Civil-commons-Ruddick-bridge (BKC peer-instance-family)
+
+**Optional Bundle Architecture α+1 (if C10 elevates; 7 main ADRs)**:
+
+- All 6 above + ADR-X7: **C10 elevation** — `health-as-coherent-transition` derived-glossary slug OR ADR-0049 reproduction-continuity narrative extension via clinical-medicine substrate (Sahely-Maturana / Salutogenesis / Allostasis / Naviaux 4-cluster substrate)
+
+**Estimated Layer 3 wall-clock effort (Bundle α; 6 ADRs)**: ~4-8 hours operator-gated; 2-3 calendar weeks including Codex review rounds.
+
+### 17.6 Final Wave-N+1 IC + PM alignment surface for life-value-doctrine
+
+Per Layer 3 deferral preservation (per operator dispatch "Layer 3 explicit deferral: Cross-stream Wave-N+1...remains operator-elective separate-session work post-Layer-3-admission") + `feedback_upstream_downstream_canon_propagation.md`:
+
+**C3 Option C (new 4th cross-cutting doctrine `life-value-doctrine`) DOES require Wave-N+1 alignment** (canon-object-class expansion is load-bearing per `feedback_upstream_downstream_canon_propagation.md`):
+
+- **ic:ADR-X** — `life-value-doctrine` REFERENCE alignment per ic:ADR-0019 + ic:ADR-0021 precedent. IC has 7 intelligence primitives at domain layer above Spore's 9 coordination primitives per ic:ADR-0018; life-value-doctrine adds 4th cross-cutting doctrine at Spore's doctrine layer; IC's H2-decline concepts-registry per ic:ADR-0019 means no slug propagation. Alignment shape: narrative-extension acknowledging Spore's 4th doctrine + IC-side application implications.
+- **pm:ADR-X** — `life-value-doctrine` REFERENCE alignment per pm:ADR-0015 + pm:ADR-0018 precedent. PM has 4 protocol objects at protocol layer; PM's H2-decline concepts-registry per pm:ADR-0015 means no slug propagation. Alignment shape: narrative-extension acknowledging Spore's 4th doctrine + PM-side matchmaking-with-life-value implications.
+
+**Estimated**: 1 IC alignment ADR + 1 PM alignment ADR; ~30-60 min each per Wave-1+2 alignment ADR precedent.
+
+**Other ratified admits do NOT require Wave-N+1 alignment** per current sibling H2-decline concepts-registry posture:
+- C1 bundled vocab admission (`golden-calf-trap` + `recursive-audit-method` slugs): no alignment (IC + PM don't have concepts-yaml)
+- C6 standalone slug admission (`civil-commons`): no alignment
+- C2 / C12 / C13 scope-conditions: optional REFERENCE alignment if substrate composes with sibling territory (e.g., C13 scope-condition F4 via Galtung composes with IC observer-discipline territory); operator-elective.
+
+**Cross-repo peer-instance-family considerations** (per `feedback_peer_instance_family_vs_downstream_aligned.md`):
+- **bregion**: planetary-scale + life-ground territory composes with C3 + C6 admits; descriptive cross-reference only at bridge-note layer; no alignment ADR required.
+- **BKC**: commitment-pooling foundation-doctrine substrate composes with C6 + R-Civil-commons-Ruddick-bridge cross-repo candidate; operator-elective separate session per stream-scope discipline.
+
+**OPERATOR-ELECTIVE**: cross-stream opt-in required at separate session per `feedback_workstream_scope_discipline.md`. NO write-side recommendations from this refinement pass.
+
+### 17.7 Refinement summary
+
+**Phase 2 substrate-gathering COMPLETE post-Wave-4.** 12 bridge notes / 4185 lines / 4 waves / 4 main commits + 6 per-anchor commits (Wave-3+4 commit-per-anchor discipline). Zero rollbacks across all waves. Validator 9/237 EXACT held throughout. Sibling SHAs frozen per C3.
+
+**Net refinement-impact**:
+- **2 strengthened ADMIT-likely** (C1 substrate-deepening + C3 CAPSTONE strengthening) without verdict-change
+- **1 cluster-count elevation candidate preserved** (C10 from 2 → 4 clusters; operator-elective elevation to admit-candidate)
+- **1 PROBE held discipline** (C7 Trigger v probed honestly, does not fire, decline holds)
+- **2 new marginal candidates flagged** for operator-elective consideration (C15 + C16; likely DECLINE-with-trigger if elevated)
+- **1 cross-repo bridge-note candidate** (R-Civil-commons-Ruddick-bridge to BKC; operator-elective separate session)
+- **Bundle β as-ratified holds** (6 main ADRs; optionally 7 if C10 elevates)
+- **Wave-N+1 alignment surface preserved** (C3 Option C requires IC + PM alignment ADRs; operator-elective Layer 3 deferral)
+
+**Operator ratification of §17 refinements requested**:
+1. **C10 elevation decision**: operator-elective elevate to admit-candidate (Bundle α+1; 7 ADRs) OR hold at framing-note-only (Bundle α; 6 ADRs)?
+2. **C15 + C16 marginal candidates**: defer / DECLINE-with-trigger / surface in future intake?
+3. **Cross-repo bridge-note candidate (R-Civil-commons-Ruddick-bridge to BKC)**: operator-elective Layer 3 deferral preserved; surface IF cross-stream opt-in opens.
+4. **Bundle architecture confirmation**: Bundle α (6 ADRs) confirmed OR shift to Bundle α+1 (7 ADRs) per C10 decision?
+5. **Wave-N+1 alignment surface**: confirmed (C3 Option C requires IC + PM alignment ADRs operator-elective separate session)?
+
+After operator ratification of §17 refinements: ready for Layer 3 ADR drafting handoff (separate session per dispatch §"Layer 3 explicit deferral").
+
+---
+
+## 18. Pause points + next steps
+
+**PAUSE 2 of 2 (per operator dispatch)**: after this brief commits + pushes, pause for **operator ratification** of per-candidate dispositions (§14 ratification table + **§17.4 refinement-status table** + **§17.7 refinement-summary questions**) BEFORE:
 - Wave 3 anchor dispatch (anchors #7 peace-Middle-East + #8 coherence-to-viability + #9 immunology), AND
 - Any Layer 3 ADR drafting work (which is itself separately gated on operator selection of bundle architecture from §13.2 + per-candidate shape from §14).
 
@@ -740,7 +940,9 @@ To be verified after commit + push:
 
 ---
 
-## 18. Summary
+## 19. Summary (Waves 1+2 baseline; see §17 for post-Wave-3+4 refinement)
+
+> **POST-WAVE-3+4 NOTE**: This summary documents the Wave-1+2 baseline. See §17 for refinement consolidation post-Wave-3+4. **Post-Wave-4 net status**: 2 strengthened ADMIT-likely (C1 substrate-deepening including Galtung-6th-cluster; C3 CAPSTONE) + 1 cluster-count elevation candidate (C10 from 2 → 4 clusters; operator-elective) + 1 PROBE held discipline (C7 Trigger v does not fire) + 2 new marginal candidates (C15 + C16) + 1 cross-repo bridge-note candidate (R-Civil-commons-Ruddick-bridge); Bundle β as-ratified holds (6 main ADRs; optionally 7 if C10 elevates).
 
 This DECISION-BRIEF consolidates 18 canon-pressure R-claims surfaced across 6 Wave-1+2 anchor bridge notes (2083 lines) into 14 candidate clusters + 2 carry-forward declines. Per-candidate cluster-counting under ADR-0064 + `feedback_audit_then_propose.md` + `feedback_surface_vocabulary_vs_operational_concern.md` honest-rigor produces:
 
