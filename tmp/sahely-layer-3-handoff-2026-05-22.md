@@ -63,7 +63,7 @@ Per `feedback_intake_to_vocab_admission_program.md` + ADR-0084 precedent: **each
 **Per-axis sketch** (operator confirms at Step 2):
 - A: ADMIT — bundled vocab + narrative-ext + framing-note triple
 - B: Bundle-symmetric vocab admission per ADR-0052/0084 precedent
-- C: Cluster-counting honest at 6 full clusters (Sahely-Maturana + Galtung peace-research + McMurtry Cancer Stage + Bernays propaganda + situationist spectacle + Žižek ideology critique per W2.4 + W3.1 + W4.2 substrate-strengthening)
+- C: Cluster-counting honest at 6 full clusters per DECISION-BRIEF §4.2 + §17.2 (i): (1) Johar/Sufi (existing ADR-0048 substrate) + (2) Sahely-Maturana school + (3) Post-Marxist critical theory (genealogically aggregated as ONE cluster per honest-rigor cluster-aggregation discipline: Marx-Lukacs-Frankfurt-Gramsci-Foucault-Bourdieu-Brown) + (4) Postcolonial critique (Fanon/Spivak/Said/Mbembe/Quijano/Mignolo) + (5) State-legibility/bureaucratic-form critique (Scott/Graeber/Illich) + (6) Galtung Norwegian-peace-research (PRIO 1959 / JPR 1964 institutional distinctness per W3.1)
 - D: Vocab slugs `golden-calf-trap` + `recursive-audit-method` admitted; ADR-0048 body extended with trap-shape narrative; dedicated framing-note authored at `docs/research/connections/canon-framing-recursive-audit-method.md`
 - E: 4 files atomic-bundle (ADR-X1.md + ADR-0048.md narrative-ext + concepts-yaml v21→v22 + canon-framing-recursive-audit-method.md)
 - F: cite-all of W2.4 + W2.3 + W3.1 + W4.1 + W4.2 + W4.3 bridge notes + Galtung-6th-cluster substrate
@@ -95,7 +95,7 @@ Per `feedback_intake_to_vocab_admission_program.md` + ADR-0084 precedent: **each
 **Per-axis sketch** (operator confirms at Step 2):
 - A: ADMIT new cross-cutting doctrine (canon-object-class expansion at member-count layer)
 - B: cite-all foundational-triad + economic-foundation + ethics-substrate + clinical-policy substrate
-- C: ≥3 full cluster honest cluster-counting per W2.6 + W4.2 (McMurtry / Polanyi substantive economy / Sen-Nussbaum capabilities) + 2 partial (Max-Neef / post-growth) + 1 instance-family (BKC commitment-pooling)
+- C: ≥3 full cluster honest cluster-counting per DECISION-BRIEF §6.2 (McMurtry / Polanyi substantive economy / Sen-Nussbaum capabilities) + 2 PARTIAL (Max-Neef Human-Scale Development / post-growth Doughnut Economics) + 1 FULL contributing partially via C6 (Bollier-Helfrich-Linebaugh commons tradition)
 - D: 1 new slug + canon-body edits + framing-note-companion authored
 - E: 5-file atomic-bundle (ADR-X2.md + project-vision.md + governance-artifacts.md + concepts-yaml v22→v23 + canon-framing-life-value-doctrine.md NEW)
 - F: cite W4.2 Manifesto as foundational citation + W2.3 + W3.1 + W4.1 + W2.6 + W4.3 as substantive substrate
@@ -120,7 +120,7 @@ Per `feedback_upstream_downstream_canon_propagation.md`: canon-object-class expa
 
 ### ADR-X3: C6 standalone `civil-commons` derived-glossary slug
 
-**Substrate**: C6 R-Civil-Commons-substrate admission per DECISION-BRIEF §9 + §17 refinement; ADMIT standalone ratified by operator. ≥3 full clusters (McMurtry-primary via W2.4 + W4.1 + W4.2 + Bollier-Helfrich + Ostrom commons-governance) + 2 partial (Polanyi public-goods substantive-economy + Castoriadis instituted-imaginary).
+**Substrate**: C6 R-Civil-Commons-substrate admission per DECISION-BRIEF §9 + §17 refinement; ADMIT standalone ratified by operator. ≥3 full clusters per §9.2: (1) McMurtry Civil Commons (independently citable across *Cancer Stage of Capitalism* + civil-commons literature; substrate-strengthened via W2.4 + W4.1 + W4.2 anchors) + (2) Ostrom commons-governance (*Governing the Commons* 1990 + Hess+Ostrom *Understanding Knowledge as Commons* 2007) + (3) Bollier-Helfrich-Linebaugh commons tradition (*Think Like a Commoner* / *Patterns of Commoning* / *Stop, Thief!*) + 1 evidence-cluster (BKC cross-repo instance-family per §9.2; foundation-layer commitment-pooling framework citing GE/Sarafu/CLC + on-chain Celo deployment 2026-03-22 per 2026-05-04 §7 corrigendum at `spore.connection.ruddick-2026-commitment-pool-route-graphs`).
 
 **Composition**:
 - Admit `civil-commons` derived-glossary slug (per ADR-0084 / ADR-0073 / ADR-0079 derived-glossary slug precedent)
