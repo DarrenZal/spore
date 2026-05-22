@@ -822,16 +822,16 @@ Refinement-status column added. Original §14 table dispositions stand; this tab
 | **C7** | R-Sheaf-graph-substrate | DECLINE-with-trigger | **PROBE-FINDING: Trigger v DOES NOT FIRE** (W3.2); decline holds; 6 triggers preserved unchanged |
 | C8 | R-Failure-three-stage | framing-note-only | Unchanged (composes with C7 decline) |
 | C9 | R-Joint-Maturanan | framing-note-only | Unchanged |
-| **C10** | R-Health-as-coherent-transition | framing-note-only (≥2 full clusters per §12.2) | **CLUSTER-COUNT ELEVATED 2 → 4 (W3.3 Naviaux + Allostasis-upgrade)**; held at 4 per W4.3 PROBE (no 5th surfaced); **operator-elective elevation candidate** to scope-condition-likely OR admit-candidate (≥3-cluster derived-glossary threshold exceeded) |
+| **C10** | R-Health-as-coherent-transition | framing-note-only (≥2 full clusters per §12.2) | **CLUSTER-COUNT ELEVATED 2 → 4 (W3.3 Naviaux + Allostasis-upgrade)**; held at 4 per W4.3 PROBE (no 5th surfaced); **operator-elective elevation candidate** to scope-condition-likely OR admit-candidate (≥3-cluster derived-glossary threshold exceeded). **OPERATOR FINAL (2026-05-22)**: HOLD at framing-note-only (no elevation; Bundle α confirmed at 6 ADRs; no Bundle α+1 shift). See §17.8 for ratification narrative. |
 | C11 | R-Civilization-extended-niche | framing-note-only (fold into C1 framing-note) | Unchanged |
 | C12 | R-Margin-as-reserve | scope-condition F9 | **Strengthened**: allostatic-load substrate (W3.3) |
 | C13 | R-Perception-as-power | scope-condition F4 via Galtung + standpoint-epistemology | **Strengthened**: Galtung cultural-violence + Doctrine of Just War canonical citation (W3.1 + W4.2) |
 | C14 | R-Externalization-as-deferred-collapse | framing-note-only (fold into C1) | **Strengthened**: economic-layer articulation (W4.1) |
 | (D1) | R-Wu-wei | carry-forward decline-with-trigger | Reinforced via W3.2 XPR/XPO articulation |
 | (D2) | R-E7-viability-scalar | carry-forward decline-with-trigger | Reinforced via W3.2 ω→N3→I4 hierarchy articulation (same family of mathematical-invariant-as-coherence-metric) |
-| **C15 (NEW)** | R-Sacred-memory-transformation | — | **MARGINAL candidate flagged for operator-elective consideration** (W3.1); likely-shape if elevated: DECLINE-with-trigger per ADR-0054/0069 |
-| **C16 (NEW)** | R-Collective-subconscious-pathology (CMT/DMA/RP) | — | **MARGINAL candidate flagged for operator-elective consideration** (W4.2); likely-shape if elevated: DECLINE-with-trigger per ADR-0054/0069 |
-| **(cross-repo)** | R-Civil-commons-Ruddick-bridge | — | **Cross-repo bridge-note candidate** (W4.1); operator-elective BKC peer-instance-family bridge-note; separate-session cross-stream auth |
+| **C15 (NEW)** | R-Sacred-memory-transformation | — | **MARGINAL candidate flagged for operator-elective consideration** (W3.1); likely-shape if elevated: DECLINE-with-trigger per ADR-0054/0069. **OPERATOR FINAL (2026-05-22)**: framing-note-only composing with C1 recursive-audit-method framing-note as **Trojan-Horse-class trap** (sacralized-captured-distinction; sacred-as-captured-distinction substrate). NOT separate ADR; NOT DECLINE-with-trigger; folded into C1 ADR-X1 framing-note layer. See §17.8 for ratification narrative. |
+| **C16 (NEW)** | R-Collective-subconscious-pathology (CMT/DMA/RP) | — | **MARGINAL candidate flagged for operator-elective consideration** (W4.2); likely-shape if elevated: DECLINE-with-trigger per ADR-0054/0069. **OPERATOR FINAL (2026-05-22)**: DECLINE-with-trigger per ADR-0054/0069 precedent (honest per-candidate cluster-counting; psychoanalytic operational-concern-match contested; preserve re-opening triggers). NOT folded into other candidates. See §17.8 for ratification narrative + 3 re-opening triggers. |
+| **(cross-repo)** | R-Civil-commons-Ruddick-bridge | — | **Cross-repo bridge-note candidate** (W4.1); operator-elective BKC peer-instance-family bridge-note; separate-session cross-stream auth. **OPERATOR FINAL (2026-05-22)**: Spore-side descriptive cross-reference AUTHORED at `docs/research/connections/sahely-ruddick-civil-commons-bridge.md` (commit `3347c2f`, 336 lines, Phase 2 closure Task A). NO BKC-side write; BKC peer-instance-family bridge-note candidate preserved as operator-elective separate-session work per stream-scope discipline. See §17.8 for ratification narrative. |
 
 ### 17.5 Final bundle architecture estimate (post-Wave-4)
 
@@ -907,6 +907,120 @@ Per Layer 3 deferral preservation (per operator dispatch "Layer 3 explicit defer
 5. **Wave-N+1 alignment surface**: confirmed (C3 Option C requires IC + PM alignment ADRs operator-elective separate session)?
 
 After operator ratification of §17 refinements: ready for Layer 3 ADR drafting handoff (separate session per dispatch §"Layer 3 explicit deferral").
+
+### 17.8 OPERATOR FINAL DISPOSITIONS (2026-05-22) — Phase 2 closure
+
+**Per operator ratification 2026-05-22 of §17.7 refinement-summary questions.** All 5 questions answered; Phase 2 substrate-gathering + Layer-2 DECISION-BRIEF refinement CLOSED; ready for Layer 3 separate-session handoff at `tmp/sahely-layer-3-handoff-2026-05-22.md` (Phase 2 closure Task C).
+
+**Five operator decisions ratified**:
+
+**(1) C10 elevation decision → HOLD at framing-note-only**
+
+Operator decision: HOLD C10 at framing-note-only. **No elevation** to admit-candidate. Bundle α confirmed at 6 ADRs; no shift to Bundle α+1 (7 ADRs).
+
+Rationale: 4-cluster count (Sahely-Maturana + Salutogenesis + Allostasis-upgraded + Naviaux per W3.3 + W4.3 honest probe) exceeds ≥3-cluster derived-glossary threshold but does not strictly require elevation. Holding at framing-note-only preserves parsimony-as-earning-test-outcome discipline (ADR-0048): elevation pressure does not yet operationally fire from Spore-side; substrate is preserved at framing-note layer for future re-consideration if operational pressure surfaces.
+
+Layer 3 impact: C10 stays at framing-note-only in Bundle α framing-notes pack (alongside C5, C8, C9). NO ADR-X7 elevation. Bundle α ratified at 6 ADRs (X1-X6) + 6 framing-notes per §17.5.
+
+**(2) C15 + C16 marginal candidates → SPLIT disposition**
+
+Operator decision: **SPLIT** — C15 framing-note-only composing with C1 recursive-audit (Trojan-Horse-class trap); C16 DECLINE-with-trigger per ADR-0054/0069 precedent.
+
+**C15 R-Sacred-memory-transformation → framing-note-only composing with C1 recursive-audit**:
+- Rationale: sacralized-captured-distinction structurally fits Golden Calf Trap / recursive-audit-method substrate (sacred-as-captured-distinction; the corrective distinction was sacralized, captured, and ritualized). Composes with C1 ADR-X1 framing-note layer as **Trojan-Horse-class trap subtype** (the captured distinction is preserved and revered specifically to prevent its critique).
+- Layer 3 impact: C15 substrate FOLDED into dedicated `canon-framing-recursive-audit-method.md` framing-note per C1 Option D triple-move. The framing-note describes Trojan-Horse-class traps as one trap-shape among others (Golden-Calf simple-substitution; Sacralized Trojan-Horse preservation-via-reverence; etc). NOT separate ADR; NOT DECLINE-with-trigger.
+- This composition preserves the substrate-resonance honestly without inventing slug-admission pressure (no `sacred-memory-transformation` slug; the trap-shape inhabits the recursive-audit framing-note layer).
+
+**C16 R-Collective-subconscious-pathology (CMT/DMA/RP) → DECLINE-with-trigger per ADR-0054/0069 precedent**:
+- Rationale: honest per-candidate cluster-counting marginal (1 FULL Sahely-Gemini synthesis + 1 PARTIAL Maturanan-emotioning + 1 FULL-or-PARTIAL psychoanalytic Freud/Jung/Lacan lineage depending on operational-claim-shape-vs-operational-concern judgment per `feedback_surface_vocabulary_vs_operational_concern.md`). Psychoanalytic operational-concern-match contested (psychoanalytic literature engages collective-subconscious differently from Sahely's CMT/DMA/RP framework; not all psychoanalytic citations support the same operational claim). ADR-0048 parsimony-as-earning-test-outcome favors decline under marginal cluster-counting + contested operational-concern-match.
+- Re-opening triggers preserved (3):
+  (a) ≥3rd independent tradition articulating collective-subconscious-as-life-incoherence-driver operationally (NOT surface-vocabulary match per ADR-0064 discipline; operational-concern-match required);
+  (b) Spore-side operational pressure for subconscious-pathology-handling discipline (e.g., a Spore federation instance reports operational pressure for collective-subconscious-as-coordination-pathology vocabulary not covered by existing canon);
+  (c) future Sahely-corpus deepening of CMT/DMA/RP framework across ≥3 additional works substantively articulating the framework as operational diagnostic apparatus.
+- Layer 3 impact: C16 enters Bundle α decline-with-trigger list alongside C7 / D1 / D2. ADR-X6-decline-equivalent treatment (lightweight decline-with-trigger ADR per ADR-0054/0069 precedent shape; could fold into existing Bundle α framing-notes pack OR stand-alone decline ADR per operator Layer 3 preference). NOT folded into other admit-candidates.
+
+**(3) R-Civil-commons-Ruddick-bridge → AUTHOR Spore-side now**
+
+Operator decision: AUTHOR Spore-side descriptive cross-reference bridge note now (Phase 2 closure Task A).
+
+Execution: `docs/research/connections/sahely-ruddick-civil-commons-bridge.md` AUTHORED 2026-05-22 (commit `3347c2f`, 336 lines). Three-layer composition documented:
+- Foundation-doctrine layer (McMurtry-primary via Sahely 2026-01-10 §9 + §8 + §5)
+- Protocol layer (Ruddick April 2026; ADR-0084 admitted `route-graph` + `settlement-operator`)
+- Implementation layer (BKC commitment-pooling foundation-doctrine framework; production on-chain Celo deployment 2026-03-22)
+
+Stream-scope discipline preserved: NO BKC-side write; NO bregion-side write; foreign doc_ids (`bkc.*` / `bioregional-coordination.*` / `pm.*` / `indigenomics.*`) in body prose only; `relates_to:` frontmatter holds Spore-local doc_ids only. BKC peer-instance-family bridge-note candidate (`bkc.connection.mcmurtry-civil-commons-as-economic-foundation` or operator-named) **preserved as operator-elective separate-session work** per `feedback_workstream_scope_discipline.md`.
+
+Layer 3 impact: bridge note provides substrate-coherence context for C6 `civil-commons` slug admission ADR-X3 + C3 `life-value-doctrine` doctrine admission ADR-X2 (both gated on Layer 3 separate-session execution). Layer 3 ADRs can cite this bridge note as substrate-coherence evidence alongside W4.1 R-Civil-Commons-economic-infrastructure-deepens-C6 + W2.4 R-Civil-Commons-substrate origin.
+
+**(4) Bundle architecture confirmation → Bundle α (6 main ADRs + framing-notes)**
+
+Operator decision: Bundle α confirmed at 6 main ADRs + 6 framing-notes per §17.5. NO shift to Bundle α+1 (consequence of (1) C10 HOLD).
+
+Final Bundle α architecture:
+- **ADR-X1**: C1 R-Trap-cluster Option D triple-move — bundled vocab admission (`golden-calf-trap` + `recursive-audit-method` slugs; yaml v21→v22 bundle-symmetric per ADR-0052/0084 precedent) + ADR-0048 narrative extension + dedicated `canon-framing-recursive-audit-method.md` framing-note (folds C11 + C14 + **C15 as Trojan-Horse-class trap subtype** per (2) above)
+- **ADR-X2**: C3 R-McMurtry-substrate-cluster Option C — admit `life-value-doctrine` as 4th cross-cutting doctrine (sibling to `reproductive-commoning` / `boundary-commoning` / `care-commoning`); folds C4 R-Immanent-ethics narrative extension to ADR-0042; canon-object-class expansion (3 → 4 doctrines)
+- **ADR-X3**: C6 standalone — admit `civil-commons` derived-glossary slug (yaml v22→v23 OR bundle-symmetric with C1 admission OR separate-commit per Layer 3 sequencing decision)
+- **ADR-X4**: C2 scope-condition — ADR-0045 narrative extension via Maturana tradition-anchor (clinical-encounter-as-structural-coupling articulation per W3.3 + W4.3 substrate-strengthening)
+- **ADR-X5**: C12 scope-condition — F9 maintenance-economics narrative extension (allostatic-load substrate per W3.3 substrate-strengthening)
+- **ADR-X6**: C13 scope-condition — F4 representation-authority narrative extension via Galtung + standpoint-epistemology tradition-anchors (Galtung cultural-violence + Doctrine of Just War canonical citation per W3.1 + W4.2 substrate-strengthening)
+
+Bundle α framing-notes (6 total):
+- **canon-framing-recursive-audit-method.md** (dedicated; per C1 ADR-X1 Option D triple-move; folds C11 R-Civilization-extended-niche + C14 R-Externalization-as-deferred-collapse + **C15 R-Sacred-memory-transformation as Trojan-Horse-class trap subtype**)
+- canon-framing-C5-falsifiability-as-discipline.md (per C5 framing-note-only ratification)
+- canon-framing-C8-failure-three-stage.md (per C8 framing-note-only ratification)
+- canon-framing-C9-joint-Maturanan.md (per C9 framing-note-only ratification)
+- canon-framing-C10-health-as-coherent-transition.md (per (1) above; substrate held at framing-note layer; 4-cluster count documented; re-opening conditions noted)
+- (C11 + C14 + C15 folded into recursive-audit framing-note; no standalone framing-notes for these)
+
+Bundle α decline-with-trigger entries (4 total):
+- C7 R-Sheaf-graph-substrate (6 triggers preserved per §10.5; PROBE-FINDING decline holds per W3.2)
+- D1 R-Wu-wei (carry-forward decline-with-trigger; reinforced via W3.2 XPR/XPO articulation)
+- D2 R-E7-viability-scalar (carry-forward decline-with-trigger; reinforced via W3.2 ω→N3→I4 articulation)
+- **C16 R-Collective-subconscious-pathology (CMT/DMA/RP)** (per (2) above; 3 re-opening triggers preserved)
+
+Cross-repo bridge-note (already authored):
+- `spore.connection.sahely-ruddick-civil-commons-bridge` (Phase 2 closure Task A; commit `3347c2f`)
+
+Cross-repo bridge-note candidates (operator-elective Layer 3 deferral):
+- BKC `bkc.connection.mcmurtry-civil-commons-as-economic-foundation` (or operator-named) — operator-elective separate-session work per stream-scope discipline
+
+**(5) Wave-N+1 alignment surface → CONFIRMED**
+
+Operator decision: §17.6 Wave-N+1 alignment surface confirmed. C3 Option C `life-value-doctrine` admission requires IC + PM alignment ADRs per `feedback_upstream_downstream_canon_propagation.md` (canon-object-class expansion is load-bearing). Other ratified admits (C1 bundled vocab; C6 standalone slug; C2/C12/C13 scope-conditions) do NOT require Wave-N+1 alignment per current sibling H2-decline concepts-registry posture.
+
+Wave-N+1 alignment ADRs (operator-elective separate-session work; NOT in scope of Layer 3 session for this Bundle α):
+- **ic:ADR-X**: `life-value-doctrine` REFERENCE alignment per ic:ADR-0019 + ic:ADR-0021 precedent (~30-60 min)
+- **pm:ADR-X**: `life-value-doctrine` REFERENCE alignment per pm:ADR-0015 + pm:ADR-0018 precedent (~30-60 min)
+
+Cross-repo peer-instance-family considerations:
+- bregion: descriptive cross-reference only at bridge-note layer; no alignment ADR required
+- BKC: BKC peer-instance-family bridge-note candidate per (3) above; operator-elective separate session per stream-scope discipline
+
+**CROSS-STREAM OPT-IN REQUIRED** at separate session per `feedback_workstream_scope_discipline.md`. NO write-side recommendations from this ratification.
+
+---
+
+### 17.9 Phase 2 closure summary
+
+**Phase 2 substrate-gathering + Layer-2 DECISION-BRIEF refinement CLOSED 2026-05-22.**
+
+Final tallies:
+- **12 anchor bridge notes** authored across 4 waves (4185 lines + Phase-2-closure Ruddick-Civil-Commons bridge 336 lines = 4521 lines total)
+- **Wave 1+2**: 6 anchor bridge notes / 2083 lines / 4 main commits
+- **Wave 3+4**: 6 anchor bridge notes / 2102 lines / 6 per-anchor commits
+- **DECISION-BRIEF authored** (Wave-1+2 baseline; commit `872e467`; 756 lines)
+- **DECISION-BRIEF refined post-Waves-3+4** (commit `69d83cb`; +202 lines / 958 lines total)
+- **Phase 2 closure Task A — Ruddick-Civil-Commons cross-repo bridge** (commit `3347c2f`; 336 lines; descriptive composition per operator ratification §17.8 (3))
+- **Phase 2 closure Task B — operator-final-dispositions §17.8 added** (this commit)
+- **Phase 2 closure Task C — Layer 3 handoff prompt** (forthcoming commit at `tmp/sahely-layer-3-handoff-2026-05-22.md`)
+
+Zero rollbacks across all waves + DECISION-BRIEF + Phase 2 closure tasks. Validator 9/237 EXACT held throughout (warnings may grow ~1 per new corpus-review-input artifact; sibling SHAs frozen per C3).
+
+Final Bundle α architecture: **6 main ADRs (X1-X6) + 6 framing-notes + 4 decline-with-trigger entries + 1 Spore-side cross-repo bridge note already authored + 1 BKC cross-repo bridge-note candidate preserved**.
+
+**Wave-N+1 alignment surface preserved**: C3 Option C (life-value-doctrine 4th cross-cutting doctrine admission) requires ic:ADR-X + pm:ADR-X alignment ADRs per Wave-1+2 alignment precedent (operator-elective separate-session work; NOT in scope of Layer 3 session for this Bundle α; estimated ~30-60 min each per Wave-1+2 alignment ADR precedent).
+
+**READY FOR LAYER 3 HANDOFF**. Separate-session work per `feedback_intake_to_vocab_admission_program.md` 3-layer separation discipline. Handoff prompt at `tmp/sahely-layer-3-handoff-2026-05-22.md` (Phase 2 closure Task C). Estimated Layer 3 wall-clock effort: ~4-8 hours operator-gated; 2-3 calendar weeks including per-ADR Codex review rounds per `feedback_intake_to_vocab_admission_program.md`.
 
 ---
 
