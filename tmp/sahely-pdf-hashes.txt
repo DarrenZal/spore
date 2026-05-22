@@ -1,0 +1,5 @@
+# Sahely PDF hash manifest (per intake plan C2)
+# Format: <sha256>  <relative-path>  <source-url>  <download-iso>
+# PDFs themselves are LOCAL-ONLY (gitignored per .gitignore); this manifest provides audit trail.
+
+820676ddfe326406e0109dec0389ff8123efa3446d3f06c74b8fa5068ef778c1  docs/research/corpus-review/originals/sahely-pdfs/2026-05-21-toward-a-maturana-informed-viability-grammar-deriving-diagnostic-distinctions.pdf  https://bsahely.com/wp-content/uploads/securepdfs/2026/05/Toward-a-Maturana-Informed-Viability-Grammar_Dr-Bichara-Sahely-210526.pdf  2026-05-21T22:30:00Z

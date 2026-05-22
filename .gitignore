@@ -16,3 +16,8 @@ tmp/**/.env*
 
 # Local Playwright MCP artifacts
 .playwright-mcp/
+
+# Sahely intake (bsahely.com) — PDFs local-only per intake plan C2
+# Audit trail via tmp/sahely-pdf-hashes.txt (committed)
+docs/research/corpus-review/originals/sahely-pdfs/
+tmp/sahely-step-0/
