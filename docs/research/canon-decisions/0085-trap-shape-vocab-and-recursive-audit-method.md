@@ -1,9 +1,10 @@
 ---
 doc_id: spore.canon-decision.trap-shape-vocab-and-recursive-audit-method
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0085"
 opened-on: 2026-05-23
+closed-on: 2026-05-23
 decision: edit
 r_claim_source:
   - spore.connection.sahely-keeping-life-coherence-alive
