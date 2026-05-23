@@ -1,5 +1,5 @@
 # status: frozen
-# version: v21
+# version: v22
 # frozen_at: 2026-04-26
 # owner: Darren Zal
 # purpose: Canonical concept vocabulary governing ADR `concepts:` references, shared framing notes, and bridge-note R-claim `concept:` values across Spore / Intelligence Commons / Poietic Match.
@@ -474,6 +474,74 @@
 # 0082, 0083, 0084). Foundation docs 14 (unchanged). First post-Phase-4
 # vocab-only admission validates that derived-glossary admission remains a
 # clean canon-tool after foundation-doc admission arc closed.
+# v22 (2026-05-23): adds 2 derived glossary slugs (`golden-calf-trap`,
+# `recursive-audit-method`) for ADR-0085 trap-shape-vocab-and-recursive-
+# audit-method admission. First Sahely-corpus Bundle α admission (Bundle α
+# = 6 ADRs X1-X6 + 6 framing-notes + 4 decline-with-trigger entries per
+# DECISION-BRIEF §17.5 + §17.8 operator final dispositions). Triple-move
+# Option D composition (per DECISION-BRIEF §4.5 + §17.8 (2) operator
+# ratification) — bundled vocab admission + ADR-0048 §Consequences
+# narrative extension via extend-via-prose precedent (ADR-0050 / ADR-0077
+# / ADR-0084 pattern; ADR-0048 frontmatter status / decision PRESERVED) +
+# dedicated framing-note at `docs/research/connections/canon-framing-
+# recursive-audit-method.md` articulating trap-shape taxonomy (Golden-Calf
+# simple-substitution + Sacralized Trojan-Horse preservation-via-reverence)
+# + recursive-audit-method canon-method articulation + folded substrate
+# documentation for C11 R-Civilization-extended-niche + C14 R-Externalization-
+# as-deferred-collapse + C15 R-Sacred-memory-transformation as Trojan-Horse-
+# class trap subtype per §17.8 (2). Substrate UNION-of-8 per Codex round 2
+# item 2 reconciliation — DECISION-BRIEF §4.1 substantive-substrate (W2.4
+# + W1.1 + W2.6) ∪ Layer 3 handoff §3 line 69 axis F set (W2.4 + W2.3 +
+# W3.1 + W4.1 + W4.2 + W4.3) = 8 bridge notes total. Bundle-symmetric per
+# ADR-0052 + ADR-0084 precedent — shared substrate (Sahely corpus) +
+# shared verdict-shape (ADMIT-likely) + complementary operational roles
+# (golden-calf-trap names the shape; recursive-audit-method names the
+# method that surfaces it). Cluster-strength asymmetry within bundle
+# canonically-acknowledged per Codex round 2 item 3 honest-rigor
+# reconciliation — `golden-calf-trap` carries 6 full clusters (Johar/Sufi
+# + Sahely-Maturana + Post-Marxist genealogically-aggregated + Postcolonial
+# + State-legibility/bureaucratic + Galtung Norwegian-peace-research);
+# `recursive-audit-method` carries 2 full clusters supporting the METHOD
+# specifically (Sahely-Maturana via W2.4 + W1.1/C-12; Johar/Sufi via ADR-
+# 0048 derivation). Both pass ≥2-cluster operational threshold per ADR-0052
+# precedent. Three substantive layer-instantiations per Sahely W4.2 manifesto
+# (DECISION-BRIEF §17.3 (vi)) — Security Trap (security-policy layer) +
+# Growth Illusion (economic layer composing with W4.1) + Cancer Stage of
+# Capitalism (civilizational scale per McMurtry 1999 canonical). C16 R-
+# Collective-subconscious-pathology NOT folded into ADR-X1 per Layer 3
+# handoff §3 line 79; preserved separately as DECLINE-with-trigger in
+# Bundle α decline list per §17.8 (2). NEW slug entries use YAML folded
+# block-scalar `>-` per Step 2 2026-05-23 amendment to Codex round 2 item
+# 6 (isolated-fragment safe_load pre-append gate); defends against pre-
+# existing colon-space PyYAML strict-parse fragility (tooling-gap parked
+# as separate operator-elective yaml-cleanup ADR per Step 2 ratification
+# Item 5). Cross-ADR interactions documented in ADR-0085 §Consequences +
+# framing-note layer (per ADR-0052 + ADR-0084 hybrid precedent) — (1)
+# `golden-calf-trap` ↔ ADR-0048 substitution-trap mode (shape-of, not
+# equivalent-to); (2) `recursive-audit-method` ↔ existing canon-method
+# discipline feedback memories (audit-then-propose + 3-layer separation +
+# parsimony-elegance dual; slug names what disciplines collectively enact);
+# (3) folded substrate C11+C14+C15 at framing-note layer; (4) ADR-0001
+# pluriversal-incommensurability held-tension UNCHANGED (recursive-audit-
+# method admitted at Western-deliberative-rationality frame; alternate
+# pluriversal recursive-audit shapes acknowledged at framing-note layer).
+# Canon object-class inventory PRESERVED at 4 categories plus derived
+# glossary slugs (20 → 22) plus patterns (7). Zero canon-body changes;
+# zero Wave-N+1 sibling alignment fires (IC + PM both H2-decline concepts-
+# p2p-wiki.yaml per `feedback_peer_instance_family_vs_downstream_aligned.md`).
+# Held v3 review state preserved (ADR-0085 cites Sahely corpus exclusively
+# + Johar/Sufi via existing ADR-0048 derivation; no new Ruddick claims).
+# Extension operator-authorized under ADR-0085 decision-gated plan (`~/.
+# claude/plans/1-layer-3-handoff-refactored-hellman.md`) with Codex /review-
+# plan 2-round known-ceiling discipline (Round 1 high lint + 1 open question
+# applied 2026-05-22; Round 2 high lint + 8 must-fix items all accepted +
+# applied 2026-05-22; Round 3 verification Phase 2 READY 0 questions / Phase
+# 3 hung Codex-side flake / 2-round known-ceiling discipline applied per
+# `feedback_intake_to_vocab_admission_program.md`). Canon-rebuild arc extends
+# to 35 canon-decisions (0044-0058, 0059a, 0061-0081, 0082, 0083, 0084, 0085).
+# Foundation docs 14 (unchanged). First Sahely-corpus admission validates
+# 3-layer separation discipline (bridge-note + DECISION-BRIEF + ADR) against
+# multi-anchor substrate intake.
 
 concepts:
   - slug: governance-memory
@@ -932,4 +1000,18 @@ concepts:
     canonical_label: Settlement Operator
     aliases: [settlement-function, institution-relative-settlement, sigma-operator]
     one_line_definition: Derived glossary slug admitted under ADR-0084 (bundle-symmetric with `route-graph` per ADR-0052 precedent) as the canonical anchor for the institution-relative function mapping executable obligations and inventories to realized settlement outputs (Σ in Ruddick's source-model tuple `I = (S, A, T, Π, Σ)`). Cited in 2 independent full clusters + 1 partial cluster per honest-rigor cluster-counting (cluster-strength asymmetry within bundle canonically-acknowledged per ADR-0052 reciprocity-stronger-than-trust precedent): (i) Mehrling 2011 + Minsky 1986 layered-claims literature explicitly distinguishes settlement from convertibility from issuance; (ii) CPMI-IOSCO 2012 + Duffie-Zhu 2011 financial-market-infrastructure literature explicitly names settlement-finality as regulatory + technical concern; (iii) Lamport 2002 state-machine specifications carry settlement-shaped operators implicitly in TLA+ next-state functions and model-checking semantics — present-but-implicit, NOT full cluster (acknowledged honestly as partial-cluster within bundle). Primary source Ruddick 2026 §3.1 Definition 1 (`I = (S, A, T, Π, Σ)` with Σ as settlement operator that maps executable obligations and inventories to realized settlement outputs) + Settlement-layer note (Σ is institution-relative: retail wallet redemption / CCP novation+waterfall / grain bank inventory release; for past-oriented certifications Σ may denote pool acceptance, exchange, or settlement into other commitments rather than redemption against original issuer). Operational-concern match per ADR-0064: PASS — names a *specific* operational function (institution-relative settlement output mapping) shared across traditions, not just the word "settlement." Distinct from `commitment-pooling` (v2 admission) by relationship: settlement-operator is a specific function within commitment-pooling operational territory, not an alias. Provides formal-substrate anchor for F4 representation-authority (per ADR-0074) `≡_H`-shaped observable-preservation discipline — Ruddick's Definition 8 stutter-insensitive observational equivalence + Σ specification together formalize what F4 names doctrinally. Provides finance-domain anchor for F5 actuator-logic (per ADR-0076) repair-class taxonomy — Ruddick's `U^r` 12-operation repair-class set (reroute / defer / renegotiate / revalue / relimit / recurate / guarantor-invoke / insurance-invoke / support-request / adjudicate / override / re-enter) maps cleanly into F5 R1-R7 admitted response-categories per bridge note R3 disposition; settlement-operator is the canonical anchor for repair-via-Σ-substitution patterns. NOT a primitive, doctrine-in-the-cross-cutting-doctrine-category, mode, property, or pattern — it is a derived-glossary function-within-territory anchor.
+    primary_project: spore
+
+  - slug: golden-calf-trap
+    canonical_label: Golden Calf Trap
+    aliases: [golden-calf, golden-calf-class-trap, simple-substitution-trap, corrective-capture-shape]
+    one_line_definition: >-
+      Derived glossary slug admitted under ADR-0085 (Sahely corpus Bundle α first admission; bundle-symmetric with `recursive-audit-method` per ADR-0052 + ADR-0084 precedent) as the canon-legible simple-substitution trap-shape variant of ADR-0048 `substitution-trap` mode. Canonical 5-stage shape — corrective distinction becomes captured, hardened, ritualized, and finally a selection-mechanism (actors who fail to perform fidelity to the now-captured distinction are filtered out, regardless of whether the distinction still addresses the original problem). Cited in 6 independent full clusters per honest-rigor cluster-counting (per ADR-0064 surface-vocab-vs-operational-concern discipline; DECISION-BRIEF §4.2 + §17.2 (i) authoritative post-cascade-miss-fix `97b0667`); (i) Johar/Sufi (existing ADR-0048 Johar derivation substrate); (ii) Sahely-Maturana school (Maturana / Verden-Zöller / Bunnell / Dávila Yáñez); (iii) Post-Marxist critical theory (genealogically aggregated as ONE full cluster per honest-rigor cluster-aggregation discipline — Marx-Lukacs-Frankfurt-Gramsci-Foucault-Bourdieu-Brown, tightly genealogical lineages count as 1 cluster); (iv) Postcolonial critique (Fanon-Spivak-Said-Mbembe-Quijano-Mignolo); (v) State-legibility / bureaucratic-form critique (Scott-Graeber-Illich); (vi) Galtung Norwegian-peace-research (PRIO 1959 / JPR 1964 institutional distinctness per §17.2 (i); direct/structural/cultural-violence triad operationally identical to substitution-trap shape at peace-civilization scale). Primary source Sahely W2.4 (2026-05-19, 68pp, 11-trap mythic-diagnostic grammar with Golden Calf decisive) + W2.6 §4.7 (Money-Value paradigm-case substitution per Principle 6). Three substantive layer-instantiations per Sahely W4.2 manifesto — Security Trap (security-policy layer), Growth Illusion (economic layer composing with W4.1 R-Money-as-false-invariant), Cancer Stage of Capitalism (civilizational scale per McMurtry 1999 canonical). Distinct from Sacralized Trojan-Horse class trap subtype (sacralized preservation-via-reverence shape; C15 substrate folded as Trojan-Horse-class trap variant at framing-note layer rather than separate slug admission per honest-rigor parsimony discipline + §17.8 (2) operator ratification). Operational-concern match per ADR-0064 PASS — names a specific operational shape (5-stage corrective-distinction-becomes-domination), not just shared vocabulary. NOT a primitive, doctrine, mode, property, or pattern — derived-glossary trap-shape anchor naming canonical sub-shape of ADR-0048 substitution-trap mode. See ADR-0085 §Decision + `docs/research/connections/canon-framing-recursive-audit-method.md` for full trap-shape taxonomy + recursive-audit-method canon-method articulation.
+    primary_project: spore
+
+  - slug: recursive-audit-method
+    canonical_label: Recursive Audit Method
+    aliases: [recursive-life-coherence-audit, grammar-applies-its-own-question, self-applying-audit]
+    one_line_definition: >-
+      Derived glossary slug admitted under ADR-0085 (bundle-symmetric with `golden-calf-trap` per ADR-0052 + ADR-0084 cluster-strength-asymmetry-within-bundle precedent) as the canonical anchor for the canon-method discipline of surfacing captured distinctions by applying a viability-grammar's own question to itself. Primary source Sahely W2.4 (2026-05-19) recursive life-coherence audit method + W1.1 C-12 recursive safeguard ("A viability grammar becomes life-incoherent if it is used to dominate, accuse, or negate. Therefore, the grammar must apply its own question to itself"). Cluster-strength asymmetry honestly documented per Codex round 2 item 3 reconciliation — `recursive-audit-method` carries 2 full clusters supporting the METHOD specifically; (i) Sahely-Maturana school (W2.4 recursive-audit + W1.1 C-12 recursive-safeguard naming the self-applying discipline); (ii) Johar/Sufi internal-recursive-audit (existing ADR-0048 substrate via Johar's "the grammar must turn on itself" mandate per derivation primary-inspiration). The territory-wide 6 clusters belong to `golden-calf-trap` (the trap-shape the method surfaces), NOT to the method itself — adjacent traditions (Post-Marxist critical theory + Postcolonial + State-legibility + Galtung) articulate trap-shapes but do NOT name a reflexive method that the discipline turns on itself. Both slugs meet ≥2-cluster operational threshold for derived-glossary admission per ADR-0052 precedent (where reciprocity carried 4 clusters and trust carried 3 with explicit asymmetry preserved); admission is bundle-symmetric because shared substrate (Sahely corpus) + shared verdict-shape (ADMIT-likely) + complementary operational roles (golden-calf-trap names the trap-shape; recursive-audit-method names the discipline that surfaces it) hold honestly without forcing cluster-count parity. Composes with existing Spore canon-method discipline feedback memories — `feedback_audit_then_propose.md` (Step 0.5 audit discipline) + `feedback_intake_to_vocab_admission_program.md` (3-layer separation) + `feedback_parsimony_elegance_dual_discipline.md` (parsimony-as-earning-test-outcome; rejects "would fill a beautiful gap" as admission argument). Operational-concern match per ADR-0064 PASS — names a specific operational method (recursive self-application of the grammar's own audit question), not just shared vocabulary. Provides Spore-side anchor for Sahely-Maturana recursive-safeguard substrate against grammar-as-domination. NOT a primitive, doctrine, mode, property, or pattern — derived-glossary canon-method anchor. See ADR-0085 §Decision + `docs/research/connections/canon-framing-recursive-audit-method.md` for canon-method articulation + cross-tradition substrate documentation + trap-shape taxonomy.
     primary_project: spore
