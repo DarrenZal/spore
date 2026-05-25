@@ -1,6 +1,6 @@
 # status: frozen
-# version: v22
-# frozen_at: 2026-04-26
+# version: v23
+# frozen_at: 2026-05-25
 # owner: Darren Zal
 # purpose: Canonical concept vocabulary governing ADR `concepts:` references, shared framing notes, and bridge-note R-claim `concept:` values across Spore / Intelligence Commons / Poietic Match.
 # Agents reading this file MUST NOT mint concept slugs outside this vocabulary during
@@ -542,6 +542,67 @@
 # Foundation docs 14 (unchanged). First Sahely-corpus admission validates
 # 3-layer separation discipline (bridge-note + DECISION-BRIEF + ADR) against
 # multi-anchor substrate intake.
+# v23 (2026-05-25): adds 1 slug (`life-value-doctrine`) for ADR-0086 life-value-
+# doctrine-fourth-cross-cutting-doctrine admission. Second Sahely-corpus Bundle α
+# admission (ADR-X2 per DECISION-BRIEF §17.5 + §17.8 (1)+(4) operator final
+# dispositions). Cross-cutting-doctrine canon-object-class member-count expansion
+# 3 → 4 (sibling to `reproductive-commoning` ADR-0002 + `boundary-commoning` ADR-
+# 0003 + `care-commoning` ADR-0045). Doctrine articulation per McMurtry Life-
+# Value Onto-Axiology (LVOA) — value = enablement of range of being / doing /
+# feeling / thinking; lens-over-primitives evaluating coordination outcomes for
+# life-value vs money-value (cumulative monetary indicators decoupled from life-
+# coherence). NOT a primitive (fails earning-test (a): evaluative substrate, not
+# coordination operation); NOT decomposable across primitives (Option B rejected
+# — reproduces money-value invisibilisation Polanyi names as fictitious-commodity
+# move); admitted at doctrine-layer per Option C ratification (§17.8 (4)). Nine-
+# primitive parsimony preserved. Substrate-citation surface per DECISION-BRIEF
+# §17.3 (vii) foundational-triad cite-all: W4.2 manifesto CAPSTONE
+# (`spore.connection.sahely-life-value-manifesto`) + W2.3 architecture-of-
+# viability + W3.1 toward-life-coherent-peace + W4.1 money paper (economic-
+# foundation extension) + W2.6 ethics-as-viability (ethics-domain) + W4.3
+# medicine-of-living-coherence (clinical-policy operationalization) + Ruddick-
+# Civil-Commons bridge (3-layer composition McMurtry → Ruddick → BKC). Cross-
+# tradition cluster-counting per gate (a) honest-rigor — DO NOT inflate: 3 FULL
+# (C1 McMurtry multi-book multi-decade corpus operationalized across 6 Sahely
+# papers / C2 Polanyi substantive-economy via cross-paper density 12 hits across
+# 5 of 7 notes / C3 Sen-Nussbaum capabilities-approach via W2.6 + W4.3) + 2
+# PARTIAL (C4 Max-Neef human-scale development / C5 post-growth-Doughnut
+# Raworth-Jackson-Daly-Hickel). C6 Bollier-Helfrich NOT counted as 4th FULL per
+# DECISION-BRIEF §6.2 ("C3 includes Civil Commons but is broader"). Four
+# doctrine-application-domains: ethics (W2.6) / economics (W4.1) / clinical-
+# policy (W4.3) / peace (W3.1). Cross-cutting-doctrine canon-object-class
+# placement — `life-value-doctrine` sits in doctrines section of yaml (NOT
+# derived-glossary section); category error to increment derived-glossary subset
+# count. Doctrine-slug count 3 → 4; yaml-line-count 78 → 79; derived-glossary
+# subset count UNCHANGED. Canon-body edits at 3 ENUMERATION-TARGET sites
+# verified at Step 0.5 §3.6 (project-vision.md L23 Core Thesis + L111 Four
+# Categories (ii) + governance-artifacts.md L97 Cross-cutting doctrines bullet);
+# NARRATIVE-CONTEXT references at project-vision.md L73/L83/L123 + governance-
+# artifacts.md L53 EXPLICITLY UNTOUCHED (Reproduction-primitive narratives +
+# Side-B canon-posture commentary reference specific prior doctrines; adding
+# life-value-doctrine would be a cascade-miss). ADR-0042 §Consequences extend-
+# via-prose narrative-extension folds C4 R-Immanent-ethics; frontmatter
+# UNCHANGED per ADR-0050 / ADR-0077 precedent. Wave-N+1 ic + pm alignment
+# EXPLICITLY DEFERRED to operator-elective separate-session work per
+# `feedback_workstream_scope_discipline.md`; both repos H2-decline concepts-p2p-
+# wiki.yaml per ic:ADR-0019 + pm:ADR-0015 so propagation will be prose-only
+# doctrine-reference rather than slug-propagation. BKC peer-instance-family
+# bridge candidate (Ruddick-Civil-Commons → BKC commitment-pooling 3-layer
+# composition) preserved as operator-elective separate-session work. Sequencing
+# predecessor ADR-0085 (HEAD `b44ac28`) — line 59 explicit forward-ref to ADR-
+# 0086; `golden-calf-trap` shape + `recursive-audit-method` discipline
+# underwrite life-value evaluation (McMurtry's *Cancer Stage of Capitalism* maps
+# to Golden Calf class-trap at civilizational scale per ADR-0085 three
+# substantive layer-instantiations). DH-PM-1 hard-pause check NOT FIRED at Step
+# 0 (PM Pre-alpha; no Victoria LHC Phase 0 operational data). Extension
+# operator-authorized under ADR-0086 decision-gated plan (`~/.claude/plans/1-
+# layer-3-handoff-iridescent-quasar.md`) with Codex /review-plan 2-round known-
+# ceiling discipline (Round 1 high 5 questions all applied; Round 2 high 3
+# follow-on consistency items all applied; END-loop at known-ceiling per
+# `feedback_intake_to_vocab_admission_program.md`). Canon-rebuild arc extends to
+# 36 canon-decisions (0044-0058, 0059a, 0061-0081, 0082, 0083, 0084, 0085, 0086).
+# Foundation docs 14 (unchanged). Cross-cutting-doctrine canon-object-class
+# member-count 3 → 4; canon object-class inventory PRESERVED at 4 categories.
 
 concepts:
   - slug: governance-memory
@@ -1014,4 +1075,11 @@ concepts:
     aliases: [recursive-life-coherence-audit, grammar-applies-its-own-question, self-applying-audit]
     one_line_definition: >-
       Derived glossary slug admitted under ADR-0085 (bundle-symmetric with `golden-calf-trap` per ADR-0052 + ADR-0084 cluster-strength-asymmetry-within-bundle precedent) as the canonical anchor for the canon-method discipline of surfacing captured distinctions by applying a viability-grammar's own question to itself. Primary source Sahely W2.4 (2026-05-19) recursive life-coherence audit method + W1.1 C-12 recursive safeguard ("A viability grammar becomes life-incoherent if it is used to dominate, accuse, or negate. Therefore, the grammar must apply its own question to itself"). Cluster-strength asymmetry honestly documented per Codex round 2 item 3 reconciliation — `recursive-audit-method` carries 2 full clusters supporting the METHOD specifically; (i) Sahely-Maturana school (W2.4 recursive-audit + W1.1 C-12 recursive-safeguard naming the self-applying discipline); (ii) Johar/Sufi internal-recursive-audit (existing ADR-0048 substrate via Johar's "the grammar must turn on itself" mandate per derivation primary-inspiration). The territory-wide 6 clusters belong to `golden-calf-trap` (the trap-shape the method surfaces), NOT to the method itself — adjacent traditions (Post-Marxist critical theory + Postcolonial + State-legibility + Galtung) articulate trap-shapes but do NOT name a reflexive method that the discipline turns on itself. Both slugs meet ≥2-cluster operational threshold for derived-glossary admission per ADR-0052 precedent (where reciprocity carried 4 clusters and trust carried 3 with explicit asymmetry preserved); admission is bundle-symmetric because shared substrate (Sahely corpus) + shared verdict-shape (ADMIT-likely) + complementary operational roles (golden-calf-trap names the trap-shape; recursive-audit-method names the discipline that surfaces it) hold honestly without forcing cluster-count parity. Composes with existing Spore canon-method discipline feedback memories — `feedback_audit_then_propose.md` (Step 0.5 audit discipline) + `feedback_intake_to_vocab_admission_program.md` (3-layer separation) + `feedback_parsimony_elegance_dual_discipline.md` (parsimony-as-earning-test-outcome; rejects "would fill a beautiful gap" as admission argument). Operational-concern match per ADR-0064 PASS — names a specific operational method (recursive self-application of the grammar's own audit question), not just shared vocabulary. Provides Spore-side anchor for Sahely-Maturana recursive-safeguard substrate against grammar-as-domination. NOT a primitive, doctrine, mode, property, or pattern — derived-glossary canon-method anchor. See ADR-0085 §Decision + `docs/research/connections/canon-framing-recursive-audit-method.md` for canon-method articulation + cross-tradition substrate documentation + trap-shape taxonomy.
+    primary_project: spore
+
+  - slug: life-value-doctrine
+    canonical_label: Life-Value Doctrine
+    aliases: [life-value-onto-axiology, life-value-vs-money-value, lvoa-doctrine]
+    one_line_definition: >-
+      Cross-cutting doctrine admitted under ADR-0086 (Sahely-corpus Bundle α #2 / ADR-X2 per DECISION-BRIEF §17.5 + §17.8 (1)+(4) operator final dispositions) as the fourth member of Spore's cross-cutting-doctrine canon-object-class (sibling to `reproductive-commoning` ADR-0002 + `boundary-commoning` ADR-0003 + `care-commoning` ADR-0045). Doctrine articulation per McMurtry Life-Value Onto-Axiology (LVOA) — value = enablement of range of being / doing / feeling / thinking; lens-over-primitives evaluating whether coordination outcomes serve life-value or money-value (cumulative monetary indicators decoupled from life-coherence). Applies as lens across all nine Spore primitives (field / holon / membrane structural + intent / commitment / joint-commitment / evidence / signal / reproduction verbs) without primitive-elevation — Option C ratified over Option A (10th primitive; fails earning-test (a) — evaluative substrate not coordination operation) and Option B (decompose across primitives; rejected because distributing life-value into property-of-Commitment + lens-on-Evidence + Field-condition reproduces money-value invisibilisation Polanyi names as fictitious-commodity move). Four doctrine-application-domains each anchored to specific Sahely substrate paper — ethics (W2.6 ethics-as-science-of-viability) / economics (W4.1 money-growth-to-life-coherence + Polanyi-substantive-economy) / clinical-policy (W4.3 medicine-of-living-coherence + Sen-Nussbaum-capabilities) / peace (W3.1 toward-life-coherent-peace + life-coherence-at-civilization-scale). Substrate-citation surface per DECISION-BRIEF §17.3 (vii) foundational-triad cite-all rule (UNION-set of 7 bridge notes): W4.2 manifesto CAPSTONE (`spore.connection.sahely-life-value-manifesto`) + W2.3 (`sahely-architecture-of-viability`) + W3.1 (`sahely-toward-life-coherent-peace`) + W4.1 (`sahely-money-growth-to-life-coherence`) + W2.6 (`sahely-ethics-as-science-of-viability`) + W4.3 (`sahely-medicine-of-living-coherence`) + `sahely-ruddick-civil-commons-bridge` (3-layer composition McMurtry → Ruddick → BKC). Cross-tradition cluster-counting per gate (a) honest-rigor (DO NOT inflate): 3 FULL (C1 McMurtry LVOA multi-book multi-decade corpus operationalized across 6 Sahely papers / C2 Polanyi substantive-economy via cross-paper density 12 hits across 5 of 7 notes / C3 Sen-Nussbaum capabilities-approach via W2.6 + W4.3) + 2 PARTIAL (C4 Max-Neef human-scale development / C5 post-growth-Doughnut Raworth-Jackson-Daly-Hickel). C6 Bollier-Helfrich NOT counted as 4th FULL per DECISION-BRIEF §6.2 (C3 includes Civil Commons but is broader). Sequencing predecessor ADR-0085 — `golden-calf-trap` shape + `recursive-audit-method` discipline underwrite life-value evaluation (McMurtry's *Cancer Stage of Capitalism* maps to Golden Calf class-trap at civilizational scale per ADR-0085 three substantive layer-instantiations). ADR-0042 §Consequences narrative-extension folds C4 R-Immanent-ethics; structural-legitimacy gains evaluative substrate (legitimacy of coordination outcomes readable through life-value lens without primitive-grammar extension); frontmatter UNCHANGED per ADR-0050 / ADR-0077 extend-via-prose precedent. Composition with sibling doctrines (lens-intersection without subsumption): reproductive-commoning ↔ life-value-doctrine at reproduction-as-life-value-enablement intersection (reproduction-continuity ADR-0049 verb operates under both lenses); boundary-commoning ↔ life-value-doctrine at life-coherent-boundary discipline (Civil Commons names boundary-set within which life-value is collectively secured); care-commoning ↔ life-value-doctrine at ethics-of-care-as-life-value-enablement layer (care as one mode through which life-value is enabled; doctrines remain distinct — care-commoning relational-discipline, life-value-doctrine evaluative-substrate). Wave-N+1 ic + pm doctrine-reference alignment EXPLICITLY DEFERRED to operator-elective separate-session work per `feedback_workstream_scope_discipline.md` (both H2-decline concepts-p2p-wiki.yaml per ic:ADR-0019 + pm:ADR-0015; propagation will be prose-only doctrine-reference). BKC peer-instance-family bridge candidate (Ruddick-Civil-Commons → BKC commitment-pooling 3-layer composition) preserved as operator-elective separate-session work. Operational-concern match per ADR-0064 PASS — names a specific operational evaluative-substrate (range of being/doing/feeling/thinking enabled by coordination outcomes), not just shared vocabulary. Cross-cutting-doctrine canon-object-class member-count 3 → 4; nine-primitive parsimony preserved; canon object-class inventory PRESERVED at 4 categories. See ADR-0086 §Decision + `docs/research/connections/canon-framing-life-value-doctrine.md` for full doctrine articulation + cross-tradition substrate documentation + four-application-domain operationalization.
     primary_project: spore

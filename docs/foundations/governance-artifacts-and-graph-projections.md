@@ -94,7 +94,7 @@ Text is authoritative; graph is a derived view. Constitutional artifacts are aut
 Parallel to `project-vision.md:111` (ADR-0048), Spore distinguishes four categories of canon objects:
 
 - **Primitives** — the structural substrate (field / holon / membrane) and coordination operations (intent / commitment / joint-commitment / evidence / signal / reproduction) themselves. Earning-test per ADR-0044.
-- **Cross-cutting doctrines** — lenses applied across primitives: reproductive-commoning (ADR-0002), boundary-commoning (ADR-0003), care-commoning (ADR-0045). Practice-orientations, not separate operations.
+- **Cross-cutting doctrines** — lenses applied across primitives: reproductive-commoning (ADR-0002), boundary-commoning (ADR-0003), care-commoning (ADR-0045), life-value-doctrine (ADR-0086). Practice-orientations, not separate operations.
 - **Modes-across-primitives** — grammatical properties or dynamics of how primitives operate: allocational / expressive / constructed power per Johar three-form framework (ADR-0047/0048). Qualities of primitive operation, not separate elements.
 - **Patterns** — recurring compositions mediating between containment and connection, organized as a composition-class with three sub-shapes per ADR-0065 M4 framework:
   - **composition-patterns** — patterns composed over primitives / doctrines / modes / properties (e.g. governance-memory pattern; federation-encounter admission candidate per ADR-0055 triggers E-1..E-5). Sub-class earning-test: composition-articulability AND ≥3 independent instance-families.
