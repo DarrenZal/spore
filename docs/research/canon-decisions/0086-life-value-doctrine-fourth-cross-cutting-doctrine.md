@@ -1,9 +1,10 @@
 ---
 doc_id: spore.canon-decision.life-value-doctrine-fourth-cross-cutting-doctrine
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0086"
 opened-on: 2026-05-25
+closed-on: 2026-05-25
 decision: edit
 r_claim_source:
   - spore.connection.sahely-life-value-manifesto
@@ -64,7 +65,7 @@ concepts:
 
 ## Status
 
-draft
+active
 
 ## Context
 

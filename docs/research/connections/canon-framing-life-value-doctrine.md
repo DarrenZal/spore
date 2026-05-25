@@ -2,7 +2,7 @@
 doc_id: spore.connection.canon-framing-life-value-doctrine
 doc_kind: research
 research_subkind: canon_framing
-status: draft
+status: active
 decision_slug: life-value-doctrine
 affected_repos:
   - spore
