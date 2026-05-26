@@ -1,7 +1,7 @@
 ---
 doc_id: spore.canon-decision.civil-commons-derived-glossary-slug-admission
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0087"
 opened-on: 2026-05-25
 closed-on: 2026-05-25
@@ -64,7 +64,7 @@ concepts:
 
 ## Status
 
-draft
+active
 
 ## Context
 
