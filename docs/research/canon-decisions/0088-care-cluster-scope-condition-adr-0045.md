@@ -1,7 +1,7 @@
 ---
 doc_id: spore.canon-decision.care-cluster-scope-condition-adr-0045
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0088"
 opened-on: 2026-05-25
 closed-on: 2026-05-25
@@ -69,7 +69,7 @@ concepts:
 
 ## Status
 
-draft (authored 2026-05-25 under `~/.claude/plans/purring-gathering-river.md`; activated within same atomic-bundle session per Bundle α 2-commit ceremony)
+active (authored + activated 2026-05-25 under `~/.claude/plans/purring-gathering-river.md`; atomic-bundle 2-commit ceremony per Bundle α discipline)
 
 ## Context
 
