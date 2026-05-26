@@ -1,5 +1,5 @@
 # status: frozen
-# version: v23
+# version: v24
 # frozen_at: 2026-05-25
 # owner: Darren Zal
 # purpose: Canonical concept vocabulary governing ADR `concepts:` references, shared framing notes, and bridge-note R-claim `concept:` values across Spore / Intelligence Commons / Poietic Match.
@@ -603,6 +603,117 @@
 # 36 canon-decisions (0044-0058, 0059a, 0061-0081, 0082, 0083, 0084, 0085, 0086).
 # Foundation docs 14 (unchanged). Cross-cutting-doctrine canon-object-class
 # member-count 3 → 4; canon object-class inventory PRESERVED at 4 categories.
+# v24 (2026-05-25): adds 1 derived glossary slug (`civil-commons`) for ADR-0087
+# civil-commons-derived-glossary-slug-admission. Third Sahely-corpus Bundle α
+# admission (ADR-X3 per DECISION-BRIEF §17.5 + §9 C6 standalone substrate +
+# §17.8 (3) operator final dispositions). Substrate per McMurtry-coined Civil
+# Commons articulation — socially-constructed systems (public water, sanitation,
+# public health, education, legal frameworks, environmental protections) that
+# enable universal access to life-goods and constitute primary economic
+# infrastructure (the base layer upon which all market activity depends per
+# *Cancer Stage of Capitalism* 2013 + civil-commons-specific literature).
+# Orthodox-economics treats these as "externalities" but McMurtry's framing
+# inverts this — markets and private enterprise presuppose the civil commons;
+# erosion of civil-commons is operationally identical to contraction of life
+# capital. Cited in Spore canon via Sahely 2026-01-10 §9 verbatim McMurtry
+# quote at W4.1 (`spore.connection.sahely-money-growth-to-life-coherence`) +
+# W2.6 Principle 5 (`spore.connection.sahely-ethics-as-science-of-viability`).
+# Cross-tradition cluster-counting per gate (a) honest-rigor (DO NOT inflate to
+# 4+ FULL tradition-clusters by adding Polanyi / Max-Neef / Sen-Nussbaum / post-
+# growth — those compose with C3 broader McMurtry-substrate territory operation-
+# alized as `life-value-doctrine` per ADR-0086, NOT standalone C6 Civil Commons
+# specifically): 3 FULL tradition-clusters (C1 McMurtry Civil Commons multi-book
+# corpus / C2 Ostrom commons-governance *Governing the Commons* 1990 + Hess+
+# Ostrom 2007 / C3 Bollier-Helfrich-Linebaugh commons tradition *Think Like a
+# Commoner* / *Patterns of Commoning* / *Stop, Thief!* + *Magna Carta Manifesto*)
+# + 1 FULL evidence-cluster (BKC operational instance-family at `bkc.commitment-
+# pooling` foundation-doctrine + on-chain Celo deployment 2026-03-22 per Spore-
+# side `sahely-ruddick-civil-commons-bridge.md` 2026-05-22 — counts as instance-
+# family β-evidence per ADR-0068 admission-pattern precedent, NOT as 4th
+# tradition-cluster category error). Cluster-strength asymmetry within Bundle α
+# canonically-acknowledged per ADR-0052/0084 cluster-strength-asymmetry-within-
+# bundle precedent: Bollier-Helfrich-Linebaugh is FULL for `civil-commons`
+# standalone here (C6 substrate) but PARTIAL for `life-value-doctrine` (ADR-0086
+# C3 — DECISION-BRIEF §6.2 explicit verbatim "C3 includes Civil Commons but is
+# broader"); same cluster operates at different strengths in different candidate
+# contexts. Substrate-citation surface per F1 axis cite-all UNION-of-6 bridge
+# notes (matches ADR-0085 F1 / ADR-0086 F1 reconciliation precedent): W4.2
+# manifesto CAPSTONE (`spore.connection.sahely-life-value-manifesto`) + W4.1
+# (`sahely-money-growth-to-life-coherence` McMurtry §9 verbatim citation) + W2.4
+# (`sahely-keeping-life-coherence-alive` trap-shape substrate) + W2.6 (`sahely-
+# ethics-as-science-of-viability` R-Civil-Commons-substrate origin + Principle 5
+# Civil Commons Development as measure of progress vs GDP) + W4.3 (`sahely-
+# medicine-of-living-coherence` clinical-policy operationalization) + `sahely-
+# ruddick-civil-commons-bridge` (Phase 2 closure Task A 3-layer composition
+# McMurtry → Ruddick → BKC substrate-coherence context). Aliases discipline per
+# Codex /review-plan R1 Q2 categorical-correctness lesson (applied preemptively
+# from ADR-X2 Q2 discipline): `aliases: [civil-commons-substrate]` only. The
+# initially-proposed `civil-commons-doctrine` alias DROPPED as category error
+# in vocabulary — `civil-commons` is derived-glossary slug NOT doctrine;
+# aliasing to `-doctrine` suffix would mislead downstream readers into reading
+# civil-commons as fifth cross-cutting doctrine sibling to reproductive-commoning
+# + boundary-commoning + care-commoning + life-value-doctrine, which would
+# conflate canon-object-classes. `civil-commons-substrate` retained per Spore
+# precedent (`coordination-substrate` + `solidarity-substrate` slug suffix-
+# convention) — descriptively accurate; harmless even if redundant with the
+# substrate-role narrative in `one_line_definition`. Sequencing predecessor
+# ADR-0086 (HEAD `359810e`) — life-value-doctrine §86 + §134 explicitly names
+# `civil-commons` as economic-infrastructure substrate per W4.2 §C-10 Growth
+# Illusion + W4.1 economic-foundation extension; ADR-0087 closes Layer 3 hand-
+# off §6 sequencing constraint ("ADR-X2 should land before ADR-X3 — life-value-
+# doctrine cites civil-commons") by admitting the slug Spore canon now needs to
+# anchor the composition at glossary layer. Wave-N+1 ic + pm alignment EXPLICITLY
+# DEFERRED — both H2-decline concepts-p2p-wiki.yaml per ic:ADR-0019 + pm:ADR-0015;
+# vocab admissions don't propagate as alignment ADRs unless siblings have own
+# concepts-registry (they don't). BKC peer-instance-family bridge candidate
+# (`bkc.connection.mcmurtry-civil-commons-as-economic-foundation` or operator-
+# named) preserved as operator-elective separate-session work; Spore-side cross-
+# reference already AUTHORED at `sahely-ruddick-civil-commons-bridge.md` (Phase
+# 2 closure Task A `3347c2f`). bregion peer-instance-family considerations
+# descriptive cross-reference only; no alignment ADR. Operational-concern match
+# per ADR-0064 PASS — names a specific operational substrate-noun (socially-
+# constructed life-good provisioning systems per McMurtry Civil Commons
+# articulation), not just shared vocabulary. NOT a primitive (fails earning-test
+# (a): substrate-noun, not coordination operation), NOT a doctrine (the doctrine
+# is `life-value-doctrine` per ADR-0086; civil-commons is one operational-
+# substrate the doctrine operates over), NOT a mode, NOT a property, NOT a
+# pattern — derived-glossary slug only. Canon-object-class inventory PRESERVED
+# at 4 categories (primitives 9 / doctrines 4 / modes 2 / properties 2) + 7
+# patterns. Derived-glossary subset count 22 → 23; doctrine count UNCHANGED at
+# 4; yaml-line-count 79 → 80. Categorical-correctness lives in slug's
+# `one_line_definition` narrative explicit-phrasing ("Derived-glossary slug,
+# NOT primitive / doctrine / mode / property / pattern"), NOT physical placement
+# (yaml is flat list under single `concepts:` root per Step 0.5 Gate (b-cont)
+# verification; section-comment markers narrative-only). Held v3 review boundary
+# preserved (`project_will_ruddick_cpp_review_held.md` unmoved) — this admission
+# cites Sahely corpus exclusively (6 anchor bridge notes UNION) + Sahely-Ruddick-
+# Civil-Commons cross-repo composition bridge (Phase 2 closure Task A); no new
+# Ruddick claims; concept-attribution per academic convention; zero verbatim
+# text reproduction in slug definition. Three method-precedents named at ADR-
+# 0087 §Consequences per operator directive: (1) first standalone-slug +
+# dedicated-framing-note admission shape (lighter than ADR-0085 triple-move
+# bundle but heavier than ADR-0084 vocab-only-no-framing — validates framing-
+# note layer as scope-discipline shape when cross-ADR composition substrate
+# density exceeds §Consequences scope-bleed threshold); (2) cluster-strength
+# asymmetry across Bundle (intra-bundle vs inter-bundle) — extends ADR-0052/
+# 0084 within-bundle precedent to inter-bundle case where same cluster operates
+# at different strengths across different admissions within the same Bundle α;
+# (3) aliases discipline preemptively applied from ADR-X2 Q2 categorical-
+# correctness lesson — extends from canon-object-class placement to alias-naming
+# (validates the categorical-correctness discipline operates recursively at
+# multiple layers). Extension operator-authorized under ADR-0087 decision-gated
+# plan (`~/.claude/plans/from-your-orchestrator-agent-cheerful-feigenbaum.md`)
+# with Codex /review-plan 2-round known-ceiling discipline (Round 1 high 3
+# questions: Q1 framing-note operator-preserves-Step-2-sub-decision, Q2
+# alias-revise drop-doctrine-keep-substrate applied, Q3 Codex-timing accept
+# Step-1.5-pre-Step-2-ratification-move applied; Round 2 high 1 question
+# Codex-persistence at N=2 on Q1 below 3+ retrospective-signal threshold,
+# END-loop at known-ceiling per `feedback_intake_to_vocab_admission_program.md`).
+# Canon-rebuild arc extends to 37 canon-decisions (0044-0058, 0059a, 0061-0081,
+# 0082, 0083, 0084, 0085, 0086, 0087). Foundation docs 14 (unchanged).
+# Cross-cutting-doctrine canon-object-class member-count UNCHANGED at 4; canon
+# object-class inventory PRESERVED at 4 categories + 7 patterns; derived-
+# glossary subset 22 → 23.
 
 concepts:
   - slug: governance-memory
@@ -1082,4 +1193,11 @@ concepts:
     aliases: [life-value-onto-axiology, life-value-vs-money-value, lvoa-doctrine]
     one_line_definition: >-
       Cross-cutting doctrine admitted under ADR-0086 (Sahely-corpus Bundle α #2 / ADR-X2 per DECISION-BRIEF §17.5 + §17.8 (1)+(4) operator final dispositions) as the fourth member of Spore's cross-cutting-doctrine canon-object-class (sibling to `reproductive-commoning` ADR-0002 + `boundary-commoning` ADR-0003 + `care-commoning` ADR-0045). Doctrine articulation per McMurtry Life-Value Onto-Axiology (LVOA) — value = enablement of range of being / doing / feeling / thinking; lens-over-primitives evaluating whether coordination outcomes serve life-value or money-value (cumulative monetary indicators decoupled from life-coherence). Applies as lens across all nine Spore primitives (field / holon / membrane structural + intent / commitment / joint-commitment / evidence / signal / reproduction verbs) without primitive-elevation — Option C ratified over Option A (10th primitive; fails earning-test (a) — evaluative substrate not coordination operation) and Option B (decompose across primitives; rejected because distributing life-value into property-of-Commitment + lens-on-Evidence + Field-condition reproduces money-value invisibilisation Polanyi names as fictitious-commodity move). Four doctrine-application-domains each anchored to specific Sahely substrate paper — ethics (W2.6 ethics-as-science-of-viability) / economics (W4.1 money-growth-to-life-coherence + Polanyi-substantive-economy) / clinical-policy (W4.3 medicine-of-living-coherence + Sen-Nussbaum-capabilities) / peace (W3.1 toward-life-coherent-peace + life-coherence-at-civilization-scale). Substrate-citation surface per DECISION-BRIEF §17.3 (vii) foundational-triad cite-all rule (UNION-set of 7 bridge notes): W4.2 manifesto CAPSTONE (`spore.connection.sahely-life-value-manifesto`) + W2.3 (`sahely-architecture-of-viability`) + W3.1 (`sahely-toward-life-coherent-peace`) + W4.1 (`sahely-money-growth-to-life-coherence`) + W2.6 (`sahely-ethics-as-science-of-viability`) + W4.3 (`sahely-medicine-of-living-coherence`) + `sahely-ruddick-civil-commons-bridge` (3-layer composition McMurtry → Ruddick → BKC). Cross-tradition cluster-counting per gate (a) honest-rigor (DO NOT inflate): 3 FULL (C1 McMurtry LVOA multi-book multi-decade corpus operationalized across 6 Sahely papers / C2 Polanyi substantive-economy via cross-paper density 12 hits across 5 of 7 notes / C3 Sen-Nussbaum capabilities-approach via W2.6 + W4.3) + 2 PARTIAL (C4 Max-Neef human-scale development / C5 post-growth-Doughnut Raworth-Jackson-Daly-Hickel). C6 Bollier-Helfrich NOT counted as 4th FULL per DECISION-BRIEF §6.2 (C3 includes Civil Commons but is broader). Sequencing predecessor ADR-0085 — `golden-calf-trap` shape + `recursive-audit-method` discipline underwrite life-value evaluation (McMurtry's *Cancer Stage of Capitalism* maps to Golden Calf class-trap at civilizational scale per ADR-0085 three substantive layer-instantiations). ADR-0042 §Consequences narrative-extension folds C4 R-Immanent-ethics; structural-legitimacy gains evaluative substrate (legitimacy of coordination outcomes readable through life-value lens without primitive-grammar extension); frontmatter UNCHANGED per ADR-0050 / ADR-0077 extend-via-prose precedent. Composition with sibling doctrines (lens-intersection without subsumption): reproductive-commoning ↔ life-value-doctrine at reproduction-as-life-value-enablement intersection (reproduction-continuity ADR-0049 verb operates under both lenses); boundary-commoning ↔ life-value-doctrine at life-coherent-boundary discipline (Civil Commons names boundary-set within which life-value is collectively secured); care-commoning ↔ life-value-doctrine at ethics-of-care-as-life-value-enablement layer (care as one mode through which life-value is enabled; doctrines remain distinct — care-commoning relational-discipline, life-value-doctrine evaluative-substrate). Wave-N+1 ic + pm doctrine-reference alignment EXPLICITLY DEFERRED to operator-elective separate-session work per `feedback_workstream_scope_discipline.md` (both H2-decline concepts-p2p-wiki.yaml per ic:ADR-0019 + pm:ADR-0015; propagation will be prose-only doctrine-reference). BKC peer-instance-family bridge candidate (Ruddick-Civil-Commons → BKC commitment-pooling 3-layer composition) preserved as operator-elective separate-session work. Operational-concern match per ADR-0064 PASS — names a specific operational evaluative-substrate (range of being/doing/feeling/thinking enabled by coordination outcomes), not just shared vocabulary. Cross-cutting-doctrine canon-object-class member-count 3 → 4; nine-primitive parsimony preserved; canon object-class inventory PRESERVED at 4 categories. See ADR-0086 §Decision + `docs/research/connections/canon-framing-life-value-doctrine.md` for full doctrine articulation + cross-tradition substrate documentation + four-application-domain operationalization.
+    primary_project: spore
+
+  - slug: civil-commons
+    canonical_label: Civil Commons
+    aliases: [civil-commons-substrate]
+    one_line_definition: >-
+      Derived glossary slug admitted under ADR-0087 (Sahely-corpus Bundle α #3 / ADR-X3 per DECISION-BRIEF §9 C6 standalone substrate + §17.5 Bundle α architecture + §17.8 (3) operator final dispositions). McMurtry-coined term for socially-constructed systems (public water, sanitation, public health, education, legal frameworks, environmental protections) that enable universal access to life-goods and constitute primary economic infrastructure — the base layer upon which all market activity depends per *Cancer Stage of Capitalism* (2013) + civil-commons-specific literature. Orthodox economics treats these as "public expenditures" or "externalities" but McMurtry's framing inverts this: markets and private enterprise *presuppose* the civil commons; erosion of civil-commons is operationally identical to contraction of life capital (per Sahely 2026-01-10 §9 verbatim McMurtry citation at W4.1). Cited in Spore canon via Sahely 2026-01-10 §9 verbatim McMurtry quote at W4.1 (`spore.connection.sahely-money-growth-to-life-coherence`) + W2.6 Principle 5 Civil Commons Development as measure of progress vs GDP (`spore.connection.sahely-ethics-as-science-of-viability`). Cross-tradition cluster-counting per gate (a) honest-rigor (DO NOT inflate — Polanyi / Max-Neef / Sen-Nussbaum / post-growth compose with C3 broader McMurtry-substrate territory via `life-value-doctrine` per ADR-0086, NOT standalone C6 Civil Commons specifically): 3 FULL tradition-clusters (C1 McMurtry Civil Commons multi-book corpus *Cancer Stage of Capitalism* 2013 + civil-commons-specific literature / C2 Ostrom commons-governance *Governing the Commons* 1990 + Hess+Ostrom *Understanding Knowledge as Commons* 2007 / C3 Bollier-Helfrich-Linebaugh commons tradition *Think Like a Commoner* / *Patterns of Commoning* / *Stop, Thief!* + *Magna Carta Manifesto* 2008) + 1 FULL evidence-cluster (BKC operational instance-family at `bkc.commitment-pooling` foundation-doctrine + on-chain Celo deployment 2026-03-22 per Spore-side `sahely-ruddick-civil-commons-bridge.md` 2026-05-22 — counts as instance-family β-evidence per ADR-0068 admission-pattern precedent, NOT as 4th tradition-cluster which would be a category error). Cluster-strength asymmetry within Bundle α canonically-acknowledged per ADR-0052/0084 cluster-strength-asymmetry-within-bundle precedent: Bollier-Helfrich-Linebaugh is FULL for `civil-commons` standalone here (C6 substrate) but PARTIAL for `life-value-doctrine` (ADR-0086 C3 — DECISION-BRIEF §6.2 explicit verbatim "C3 includes Civil Commons but is broader"); same cluster operates at different strengths in different candidate contexts. Aggregate ≥3 FULL tradition-clusters + 1 FULL evidence-cluster meets ≥2-cluster derived-glossary admission threshold per ADR-0052 precedent cleanly with substantial headroom. Substrate-citation surface per F1 axis cite-all UNION-of-6 bridge notes (matches ADR-0085 F1 / ADR-0086 F1 reconciliation precedent): W4.2 CAPSTONE foundational (`sahely-life-value-manifesto`) + W4.1 economic-foundation extension McMurtry §9 verbatim Civil-Commons-as-primary-economic-infrastructure citation (`sahely-money-growth-to-life-coherence`) + W2.4 trap-shape substrate composing with W4.1 economic-layer (`sahely-keeping-life-coherence-alive`) + W2.6 R-Civil-Commons-substrate origin + Principle 5 Civil Commons Development as measure of progress vs GDP (`sahely-ethics-as-science-of-viability`) + W4.3 clinical-policy operationalization composing with Seven Policy Domains (`sahely-medicine-of-living-coherence`) + Phase 2 closure Task A 3-layer composition McMurtry → Ruddick → BKC substrate-coherence context (`sahely-ruddick-civil-commons-bridge`). Sequencing predecessor ADR-0086 (HEAD `359810e`) — life-value-doctrine §86 + §134 explicitly names `civil-commons` as economic-infrastructure substrate per W4.2 §C-10 Growth Illusion + W4.1 economic-foundation extension; ADR-0087 closes Layer 3 handoff §6 sequencing constraint ("ADR-X2 should land before ADR-X3 — life-value-doctrine cites civil-commons") by admitting the slug Spore canon now needs to anchor the composition at glossary layer. Substrate composition with `life-value-doctrine` (ADR-0086 4th cross-cutting doctrine — civil-commons is one operational-substrate the doctrine operates over at economics + clinical-policy + peace doctrine-application-domains); F9 `maintenance-economics` (ADR-0079 substrate-coherent at foundation-doctrine layer per Spore-side bridge note §4.1; NO F9 narrative-ext required, composes at relates_to layer only); `route-graph` + `settlement-operator` (ADR-0084 Ruddick protocol layer of 3-layer composition McMurtry → Ruddick → BKC); `golden-calf-trap` + `recursive-audit-method` (ADR-0085 trap-shape vocabulary + discipline composing with civil-commons capture-mechanism evaluation per Sahely W4.2 §C-9 Security Trap + §C-10 Growth Illusion + §C-5 Cancer Stage of Capitalism layer-instantiations); `structural-legitimacy` (ADR-0042 substrate-parent H3-flat relationship). Aliases discipline per Codex /review-plan R1 Q2 categorical-correctness lesson (applied preemptively from ADR-X2 Q2 discipline): `civil-commons-substrate` only. The initially-proposed `civil-commons-doctrine` alias DROPPED as category error in vocabulary — `civil-commons` is derived-glossary slug NOT doctrine; aliasing to `-doctrine` suffix would mislead downstream readers into reading civil-commons as fifth cross-cutting doctrine sibling to reproductive-commoning + boundary-commoning + care-commoning + life-value-doctrine, conflating canon-object-classes. `civil-commons-substrate` retained per Spore precedent (`coordination-substrate` + `solidarity-substrate` slug suffix-convention) — descriptively accurate of substrate-role; harmless even if redundant with substrate-role narrative in this `one_line_definition`. Three substantive Civil-Commons layer-instantiations per McMurtry-via-Sahely substrate: public-infrastructure layer (water systems, sanitation, public health, education — McMurtry W4.1 §9 explicit enumeration) + legal-institutional layer (legal frameworks securing rights and trust; constitutional protections; enforceable contracts as civil-commons NOT private-property-as-civil-commons) + environmental-protection layer (ecological protections preserving shared life conditions; climate-protection regime; biodiversity protection at planetary-scale composition with `life-value-doctrine` planetary-scale Open Question per ADR-0086). Wave-N+1 ic + pm alignment EXPLICITLY DEFERRED — both H2-decline concepts-p2p-wiki.yaml per ic:ADR-0019 + pm:ADR-0015; vocab admissions don't propagate as alignment ADRs unless siblings have own concepts-registry (they don't). BKC peer-instance-family bridge candidate (`bkc.connection.mcmurtry-civil-commons-as-economic-foundation` or operator-named) preserved as operator-elective separate-session work; Spore-side cross-reference already AUTHORED at `sahely-ruddick-civil-commons-bridge.md` (Phase 2 closure Task A `3347c2f`). bregion peer-instance-family considerations descriptive cross-reference only at planetary-scale + life-ground territory; no alignment ADR. Operational-concern match per ADR-0064 PASS — names a specific operational substrate-noun (socially-constructed life-good provisioning systems per McMurtry Civil Commons articulation), not just shared vocabulary. Derived-glossary slug, NOT primitive / doctrine / mode / property / pattern; canon-object-class inventory PRESERVED at 4 categories (primitives 9 / doctrines 4 / modes 2 / properties 2) + 7 patterns. See ADR-0087 §Decision + `docs/research/connections/canon-framing-civil-commons.md` for cluster-counting substrate documentation + cross-ADR composition articulation + 3-layer composition substrate-coherence context.
     primary_project: spore
