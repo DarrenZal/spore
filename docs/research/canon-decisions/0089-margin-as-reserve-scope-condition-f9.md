@@ -1,7 +1,7 @@
 ---
 doc_id: spore.canon-decision.margin-as-reserve-scope-condition-f9
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0089"
 opened-on: 2026-05-28
 closed-on: 2026-05-28
@@ -71,7 +71,7 @@ concepts:
 
 ## Status
 
-draft (authoring under `~/.claude/plans/adr-0089-margin-as-reserve-scope-condition-f9.md`; atomic-bundle 2-commit ceremony per Bundle α discipline)
+active (authored + activated 2026-05-28 under `~/.claude/plans/adr-0089-margin-as-reserve-scope-condition-f9.md`; atomic-bundle 2-commit ceremony per Bundle α discipline)
 
 ## Context
 
