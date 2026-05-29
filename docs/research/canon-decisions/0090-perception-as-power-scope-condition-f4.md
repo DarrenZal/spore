@@ -1,7 +1,7 @@
 ---
 doc_id: spore.canon-decision.perception-as-power-scope-condition-f4
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0090"
 opened-on: 2026-05-29
 closed-on: 2026-05-29
@@ -76,7 +76,7 @@ concepts:
 
 ## Status
 
-draft (authored 2026-05-29 under `~/.claude/plans/adr-0090-perception-as-power-scope-condition-f4.md`; atomic-bundle 2-commit ceremony per Bundle α discipline; FINAL Bundle α ADR — closes Bundle α at 6/6 on activation)
+active (authored + activated 2026-05-29 under `~/.claude/plans/adr-0090-perception-as-power-scope-condition-f4.md`; atomic-bundle 2-commit ceremony per Bundle α discipline; FINAL Bundle α ADR — closes Bundle α at 6/6)
 
 ## Context
 
