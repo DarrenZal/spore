@@ -24,7 +24,11 @@
  *
  * Runtime globals injected by the Workflow harness (do NOT import): `agent`,
  * `pipeline`, `log`. Author agents OMIT agentType (they need Write); verifiers
- * use agentType:'Explore' (read-only, re-read file on disk).
+ * use the registered read-only skeptic subagent `darren-workflow:skeptic`
+ * (VERIFIER_AGENT_TYPE below), falling back to agentType:'Explore' if the agent
+ * registry hasn't reloaded since the type was added (manually-added subagents
+ * need a session restart to register). The completeness-audit pattern's meta-
+ * auditor is the paired `darren-workflow:skeptic-of-skeptics` subagent.
  *
  * ---------------------------------------------------------------------------
  * ORCHESTRATOR MAIN-LOOP RESPONSIBILITIES — keep these OUT of the workflow
@@ -96,6 +100,13 @@ const CANON_DECISIONS_DIR = REPO + '/<path/to/canon-decisions>'         // FILL 
 
 // VERIFIERS_PER_NOTE — how many independent skeptic passes per artifact.
 const VERIFIERS_PER_NOTE = 1   // set 2 for canon-critical waves; run both, require both pass
+
+// VERIFIER_AGENT_TYPE — the registered read-only skeptic subagent (darren-workflow
+// plugin: agents/skeptic.md — default-FAIL, re-reads the file on disk, structured
+// {check, quoted_offender, why} refutations). Falls back to 'Explore' if the agent
+// registry hasn't reloaded since the type was added (a manually-added subagent needs
+// a session restart to register; both are read-only so the fallback is behaviorally close).
+const VERIFIER_AGENT_TYPE = 'darren-workflow:skeptic'   // fallback if unregistered: 'Explore'
 
 // ---------------------------------------------------------------------------
 // CONSISTENCY_MAP — the SHARED resolved canon-citation table handed to every
@@ -334,7 +345,7 @@ const verdicts = await pipeline(candidates,
     for (let i = 0; i < VERIFIERS_PER_NOTE; i++) {
       passes.push(await agent(verifyPrompt(note, c), {
         label: `verify:${c.slug}${VERIFIERS_PER_NOTE > 1 ? ':' + (i + 1) : ''}`,
-        phase: 'Verify', schema: VERDICT_SCHEMA, agentType: 'Explore',
+        phase: 'Verify', schema: VERDICT_SCHEMA, agentType: VERIFIER_AGENT_TYPE,
       }))
     }
     if (passes.length === 1) return passes[0]
