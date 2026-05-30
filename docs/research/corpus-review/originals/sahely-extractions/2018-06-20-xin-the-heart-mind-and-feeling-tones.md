@@ -1,0 +1,72 @@
+---
+rid: orn:source:bsahely-2018-06-20-xin-the-heart-mind-and-feeling-tones
+url: https://bsahely.com/2018/06/20/xin-the-heart-mind-and-feeling-tones-a-unifying-systems-theory-framework/
+published_iso: 2018-06-20
+ai_co_authored: false
+is_repost: true
+repost_source: William Gray; Paul A. LaViolette (with Wikipedia "Xin (concept)" excerpt)
+extraction_status: success
+injection_signal_detected: false
+---
+
+# Extraction Record — "Xin (The Heart-Mind) and Feeling Tones: A Unifying Systems Theory Framework"
+
+**Attribution discipline (REPOST / CURATED ASSEMBLAGE):** This is a **foundation-era (2018-06-20)** Bichara Sahely blog post that **assembles and reposts several primary-source texts verbatim** under a Sahely-original framing banner. The post body is overwhelmingly the **verbatim work of other authors** — it is NOT a Sahely-composed essay. The assembled sources, in order of appearance, are: (1) an excerpt from the Wikipedia article *"Xin (concept)"* on the Chinese heart-mind; (2) Paul A. LaViolette's *"Teaching with Feeling in Mind"* (reprinted from *On the Beam* 6(2), 1986); (3) William Gray's *"Understanding Creative Thought Processes: An Early Formulation of the Emotional-Cognitive Structure Theory"* (*Man-Environment Systems* 9, 1979); (4) Paul A. LaViolette's *"Thoughts About Thoughts About Thoughts: The Emotional-Perceptive Cycle Theory"* (*Man-Environment Systems* 9, 1979, Parts I + II); and (5) Paul A. LaViolette's *"The Thermodynamics of the 'Aha' Experience"* (SGSR, 1980) with its addendum *"The Pleasure of Creation."* Per the repost-wave protocol, **the substantive theory claims below attach to Gray and LaViolette** (and the Xin excerpt to Wikipedia), **NOT to Sahely**. **Sahely's role is curator-assembler**, supplying the unifying title/banner ("Xin (The Heart-Mind) and Feeling Tones: A Unifying Systems Theory Framework — TOWARD LIFE-KNOWLEDGE") and the editorial juxtaposition. This is the **pre-AI-collaboration era** of the corpus (`ai_co_authored: false`), well before the Dec-2022+ AI-co-authored white-paper explosion.
+
+**Body density note:** The fetched post body is **large but almost entirely reposted source material** (~680 lines of assembled primary texts). There is **no separate Sahely-authored synthesis section** — the Sahely contribution is the curatorial juxtaposition + the title banner, not new prose. The verbatim claims below therefore SAMPLE the key load-bearing claims of the assembled sources (per intake instructions: "SAMPLE the key claims, do not quote exhaustively") rather than reproducing the full assemblage. There is **no instruction-shaped content** anywhere in the body (`injection_signal_detected: false`); the only non-content text is WordPress social-share / "Like this" boilerplate (source lines 667–682), which is excluded.
+
+## Section structure
+
+The post has no explicit `<h2>`-style HTML headings; it is a flat concatenation of reposted papers, each with its own internal section structure. Its de-facto logical sections (with the source-author owning each block) are:
+
+- **Title / banner** — "Xin (The Heart-Mind) and Feeling Tones: A Unifying Systems Theory Framework — TOWARD LIFE-KNOWLEDGE" (Sahely framing)
+- **Xin excerpt** — Wikipedia *"Xin (concept)"* on the Chinese heart-mind (cognition-and-emotion-coextensive)
+- **LaViolette, "Teaching with Feeling in Mind" (1986)** — feeling-tones / brain-as-loom / agrarian-teaching
+- **Gray, "Understanding Creative Thought Processes" (1979)** — emotional-cognitive structure theory: §I Introduction, §II The Ubiquitous Nuance, §III The Organization of Thought, §IV System Forming Aspects of Thought, §V Creativity / the Unconscious, §VI The Nature of Humanistic Thought
+- **LaViolette, "Thoughts About Thoughts About Thoughts" (1979)** — emotional-perceptive cycle theory: Part I Theoretical Development (emergence of cognition / order-through-fluctuation / Brusselator analogy / coevolution / the sick society) + Part II Neurophysiological Evidence (Papez circuit / PCDT loop / arousal / recruiting response / primary-secondary process / autopoietic mind)
+- **LaViolette, "The Thermodynamics of the 'Aha' Experience" (1980)** + addendum — feeling-tone/waveform correlate / threshold of thought / unified (triune) brain theory / pleasure-of-creation
+- **Social-share + "Like this" boilerplate** — WordPress chrome (excluded from claims)
+
+## Verbatim key claims
+
+All quotes verbatim from the source text. For this **REPOST / ASSEMBLAGE**, the quotes are the **original authors' words (Wikipedia "Xin"; LaViolette; Gray)** that Sahely assembled/reposted — they are **not** Sahely's own composition. Each is tagged `[html-section:<nearest heading or "body">]`. This is a SAMPLE of load-bearing claims, not exhaustive.
+
+- **C1 (Wikipedia "Xin" — cognition-and-emotion coextensive)** [html-section:Xin-excerpt] "emotion and reason were not considered separate entities, but rather as coextensive; xin (心) itself is a concept that is as much cognitive as emotional."
+
+- **C2 (LaViolette 1986 — feeling tones as experiential units)** [html-section:Teaching-with-Feeling] "This theory conceives creative thoughts as emerging spontaneously from a fabric of sensation and emotion composed of experiential units called 'feeling tones.' According to Bill Gray, basic feeling tones, like the primary colors of the rainbow, combine in a nearly infinite number of ways to form a whole spectrum of shades and these represent all aspects of our internal and external experience."
+
+- **C3 (LaViolette 1986 — brain as self-weaving loom)** [html-section:Teaching-with-Feeling] "the brain may be conceived as a kind of sophisticated loom, one which is suited to the weaving of mental fabrics. However, this is a very unusual loom. For, these feeling tone tapestries have the unique ability of themselves being able to run the controls of the loom. Thus the fabric is able to weave itself in a self-determining fashion!"
+
+- **C4 (LaViolette 1986 — agrarian, not programming, model of teaching)** [html-section:Teaching-with-Feeling] "Teaching is not a programming process, the feeding of information into computer-like brains. Rather, it is an agrarian process — the acquisition of knowledge being likened to the raising of crops. The teacher's purpose is to provide sunlight, fertilizer, and water, and an environment free of predators in which sensitivity, caring, and curiosity are free to develop."
+
+- **C5 (Gray 1979 — repairing the Cartesian split)** [html-section:Gray-abstract] "This theory posits an integrating relationship between emotion and cognition, which repairs the age old Cartesian split between feeling and thinking… Thoughts are conceived as 'emotional-cognitive structures', i.e. structured assemblies of cognitive fragments fused together by their emotional coding elements."
+
+- **C6 (Gray 1979 — primacy of feeling; danger of holding the dichotomy)** [html-section:Gray-III] "the pathway of spontaneous growth and development is in the direction of emotions organizing cognitions. This is in accord with the evidence that we are feeling beings before we are thinking beings. However, in stating this point in this fashion we are in danger of perpetuating the error of dividing personality into parts (thinking vs. feeling) when the primary evidence is that personality is a holistic function."
+
+- **C7 (Gray 1979 — relevant nurturing environment / system precursors)** [html-section:Gray-IV] "system formation proceeds when two or more system precursors are brought together in a relational sense… A relevant nurturing environment, as the name implies, is an environment which tends to nurture the growth of an emotional nuance (or organizing focus)."
+
+- **C8 (Gray 1979 — emotional-cognitive structure as stabilized pattern of flow)** [html-section:Gray-IV] "emotional-cognitive structures are essentially 'fliess-gleichgewichts'… a general system term originally introduced by Ludwig von Bertalanffy to describe the character of open systems, and may be translated as meaning 'stabilized pattern of flow'. This term captures the essential difference between living and non-living systems."
+
+- **C9 (Gray 1979 — the danger of feeling-drained cognition)** [html-section:Gray-VI] "it is the emotional aspect of life that carries the humanistic element, the concern of men for one another, and that when ideas are drained of their feeling element they become pathological and dangerous. It is this type of ahumanistic logic that permits man to manipulate symbols in such a way so as to allow him to carry out actions based purely on logical connectedness, without regard as to whether the results are destructive to society."
+
+- **C10 (LaViolette 1979 — cognition as order-through-fluctuation)** [html-section:EPC-emergence-of-cognition] "Viewing such a transition from a macrolevel viewpoint, it will have appeared that the emotional theme spontaneously changed its emotional state… from being a highly complex pattern of emotional nuances to being a relatively simple characterization. It is this spontaneous self-simplifying process which, I believe, constitutes cognition and which accounts for the emergence of creative thought in man."
+
+- **C11 (LaViolette 1979 — emergence is bottom-up, not deterministic)** [html-section:EPC-emergence-of-cognition] "In hierarchical terms, cognition is not a top-down process; it is a bottom-up process. It is a phenomenon of emergence, of microlevel phenomena producing macrolevel effects. So, cognition is inherently stochastic."
+
+- **C12 (LaViolette 1979 — concepts must be freely created bottom-up, not transmitted)** [html-section:EPC-thought-and-symbolism] "Concepts cannot be transmitted from one person's mind to another's like TV signals. They cannot be replicated, code and all, from the top-down as in programming a computer. They must be learned from the bottom-up. They must by freely created. Thus, symbolism serves as a means of translating from one's own internally developed code to a commonly agreed upon code."
+
+- **C13 (LaViolette 1979 — the sick society; left-brain overdose, Hazel Henderson)** [html-section:EPC-the-sick-society] "Today we see our culture suffering from an overdose of left-brain hemisphere Cartesian cognition. It has led to compulsive dichotomizing and the Tower of Babel of academic disciplines that now fractionate reality. Accordingly we reward analysis and punish synthesis, while the interesting problems exist at the interfaces between the disciplines."
+
+- **C14 (LaViolette 1979 — comprehension as system formation requiring time)** [html-section:EPC-the-sick-society] "Comprehension, being a process of system formation, requires a certain length of time to occur. Without taking time to contemplate and to let feelings organize cognitions into structured and meaningful forms, one is left basically with just a collection of cognitions."
+
+- **C15 (LaViolette 1979 — the mind as autopoietic / self-producing system)** [html-section:EPC-thoughts-that-go-round] "Metaphorically speaking, the fabric controls the loom and the loom weaves the fabric. The mind, therefore, is self-producing, or, in systems theoretic terminology, the mind is an autopoietic system. It is a reality system which creates its own form."
+
+- **C16 (LaViolette 1979 — mind emerging within body; resolving the mind-body problem)** [html-section:EPC-thoughts-that-go-round] "Mind may be regarded as evolving within body (or brain). The physical architecture of the brain and the biochemical behavior of nerve cells serve as a womb in which feelings may differentiate, combine, self-organize, and relationally increase in complexity… It is within this self-reflexive structure that self-reflection or consciousness emerges."
+
+- **C17 (LaViolette 1980 — feeling-tone/waveform correlate; non-interreducibility of mind and brain)** [html-section:Aha-feeling-tones] "A feeling tone may be viewed as the mental manifestation of a neuroelectrical waveform. Thus, the basic dual entity: feeling tone/waveform may be regarded as the basic psycho-physical correlate of mental/physical experience… the feeling tone/waveform correlation thesis recognizes the non-interreducibility of mind and brain phenomena."
+
+- **C18 (LaViolette 1980 — creative advance of consciousness; gradual evolution preserving elements)** [html-section:Aha-stream-of-consciousness] "This change would be one of gradual evolution in which existing elements of consciousness would be for the most part preserved yet at the same time altered by the continually changing feeling tone content… Here we have just constructed a model which accounts for the 'creative advance' of consciousness, a phenomenon which formed the basis of Henri Bergson's philosophy of nature."
+
+- **C19 (Sahely framing banner — life-knowledge orientation)** [html-section:title] "Xin (The Heart-Mind) and Feeling Tones: A Unifying Systems Theory Framework - TOWARD LIFE-KNOWLEDGE"
+
+**Extraction note:** C1 is Wikipedia's framing of the Chinese *xin* (heart-mind cognition/emotion coextensivity); C2–C4 are LaViolette (1986); C5–C9 are William Gray (1979 ECS theory); C10–C16 are LaViolette (1979 EPC theory); C17–C18 are LaViolette (1980 thermodynamics-of-aha); C19 is **Sahely's curatorial framing banner** — it is the principal Sahely-authored element of the post, supplying the "unifying systems theory framework" juxtaposition + the "TOWARD LIFE-KNOWLEDGE" orientation that recurs across the 2018 foundation-era Sahely posts. The recurrent foundation-era themes that connect this assemblage to the wider Sahely corpus — **autopoiesis / self-producing systems** (C15), **organism-as-living-system vs mechanism** (C3, C8), **self-organization / order-through-fluctuation** (C10–C11), **the sick society / left-brain overdose** (C13), **comprehension-as-time-requiring** (C14), and **feeling-drained-cognition-as-dangerous** (C9) — are read into the bridge note **descriptively** (as foundation-era resonance), NOT asserted as new vocabulary from this text. No `life-value` / `civil-commons` / `life-capital` vocabulary appears verbatim in this body; the life-value substrate is implicit only in the "TOWARD LIFE-KNOWLEDGE" banner. **Single-source rigor:** Sahely is one author-corpus; this assemblage's recurrence of autopoiesis/self-organization themes is NOT independent evidence for any canon move (the assembled authors Gray + LaViolette are a single curated lineage, not independent traditions surfacing convergently).
