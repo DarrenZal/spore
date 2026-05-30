@@ -1,0 +1,13 @@
+docs/foundations/lexicon/stigmergy.md: 2
+docs/foundations/governance-artifacts-and-graph-projections.md: 1
+docs/foundations/federation-protocol.md: 0
+docs/patterns/intent-publication-and-activation.md: 1
+docs/patterns/discourse-as-governance.md: 0
+docs/positioning/civic-infrastructure-convergence.md: 2
+docs/positioning/hyperstition-as-coordination.md: 3
+docs/project-vision.md: 0
+README.md: 0
+docs/README.md: 0
+docs/research/connections/johar-neuroplastic-field.md: 0
+docs/synthesis/decision-memo.md: 0
+docs/research/connections/open-civics.md: 0

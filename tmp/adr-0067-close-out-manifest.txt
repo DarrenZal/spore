@@ -1,0 +1,145 @@
+ADR-0067 CLOSE-OUT MANIFEST
+===========================
+Date: 2026-04-24 (local 2026-04-23 ~19:40 PDT)
+Branch: main
+Authored by: child executor (A1+B5+C2+D3 execution)
+
+COMMIT SHAS
+-----------
+PREEXEC_SHA:  0e43937b0793b63a744f4fbb489a8192a7fc0435
+DRAFT_SHA:    2f5106e940bde5831ccd7d98da2b66ca63e0ae5d
+ACTIVE_SHA:   353e69f1bc15bcac3ecc62ba44bd37c350ea4a4b
+
+SESSION-ATOMIC WINDOW
+---------------------
+Start: (tmp/adr-0067-window-start.txt)
+End:   (tmp/adr-0067-window-end.txt)
+Duration: 258 seconds (~4m18s)
+
+Baseline comparison:
+  ADR-0057 pure-rename: 17s
+  ADR-0066 5-path reclassify + rename: 307s
+  ADR-0067 4-path enum-extension + retcon: 258s
+  Projected (decision-brief §8): 120-240s. Actual: 258s (within budget; slightly above upper projection due to 2-round review + Constraint-10 operator-gate pause).
+
+VALIDATOR PARITY
+----------------
+Pre-exec:   FAILED: 9 error(s), 30 warning(s)
+Post-exec:  FAILED: 9 error(s), 30 warning(s)
+Delta: 0 new errors ✓ (Constraint 7 + AC6 PASS)
+Warning-count: 30 → 30 (stable; no drift)
+
+Ruddick file post-verification:
+  - NOT present in validator post-error output ✓
+  - `archived` value accepted by extended enum ✓
+  - AC7 PASS
+
+IC + PM ZERO-CHANGE VERIFICATION (Step 7.5)
+-------------------------------------------
+IC HEAD-start: f15f96f33d7384c9c169594a8525eb2a6599bd3b
+IC HEAD-end:   f15f96f33d7384c9c169594a8525eb2a6599bd3b
+IC diff: empty ✓ (AC8 PASS; EXACT SHA match per Constraint 3)
+
+PM HEAD-start: 6d4935cf1e042475fb6a1ee007fea0ac0a567d8b
+PM HEAD-end:   6d4935cf1e042475fb6a1ee007fea0ac0a567d8b
+PM diff: empty ✓ (AC8 PASS; EXACT SHA match per Constraint 3)
+
+B5 DEFER VERIFICATION (Step 7)
+------------------------------
+SKILL.md md5-start: c2ca8b1ca69d484e8a8dd3dfe6bb67b9
+SKILL.md md5-end:   c2ca8b1ca69d484e8a8dd3dfe6bb67b9
+diff: empty ✓ (AC12 PASS; /end skill not modified; /end skill validator-check deferred to ADR-0068)
+
+DIFF MANIFEST (PREEXEC → ACTIVE)
+--------------------------------
+git diff --name-status 0e43937..HEAD:
+  A  docs/research/canon-decisions/0067-validator-schema-archived-enum.md
+  M  docs/research/external/ruddick-2026-commitment-pool-route-graphs.md
+  M  docs/research/planning/canon-review-protocol.md
+  M  scripts/validate_spec_dag.py
+
+Expected 4 artifact-paths per Constraint 1. Delivered: 4 ✓
+- 3 modifies
+- 1 add
+- 0 renames, 0 deletes
+- 0 unexpected paths
+
+ACCEPTANCE CRITERIA TABLE
+=========================
+AC1  Validator pre-baseline 9/30                            PASS (tmp/adr-0067-validator-pre.txt)
+AC2  Validator edit — "archived" in DECISION_RECORD_STATUSES PASS (scripts/validate_spec_dag.py:110 verified; PROPOSAL_STATUSES unchanged)
+AC3  Protocol §Status lifecycle has 5th archived bullet     PASS (distinct semantics from deprecated + superseded; universal-enum scope note; sed -n '141,150p' verified)
+AC4  Ruddick retcon status: archived; metadata preserved    PASS (status: deprecated → archived; archived: 2026-04-23 preserved; body unchanged; other frontmatter unchanged)
+AC5  New ADR-0067 file with valid frontmatter               PASS (decision: extend-enum; supported_by = [ADR-0065, ADR-0066]; r_claim_source OMITTED)
+AC6  Validator post 9/30 (parity held)                      PASS (tmp/adr-0067-validator-post.txt identical error-count; atomic-bundle prevented transient invalid state)
+AC7  Ruddick validates cleanly; archived accepted           PASS (ruddick not in post-error output; grep confirms)
+AC8  IC + PM exact SHA match                                PASS (IC + PM diffs empty)
+AC9  Two distinct commits; no --amend                       PASS (DRAFT_SHA 2f5106e ≠ ACTIVE_SHA 353e69f; git log --oneline -3 confirms order)
+AC10 Explicit-paths staging only; no git add -A             PASS (4 explicit paths; diff shows exactly 4 allowlist files)
+AC11 No orphan references                                   PASS (N/A — purely additive enum extension; no values removed)
+AC12 SKILL.md unchanged (B5 defer discipline)               PASS (md5 diff empty; /Users/darrenzal/projects/darren-workflow/skills/end/SKILL.md untouched)
+AC13 concepts-p2p-wiki.yaml unchanged (v12)                 PASS (not staged; not modified)
+AC14 No canon-body file outside 4-path allowlist modified   PASS (diff manifest shows exactly 4 paths)
+AC15 ADR-0065 + ADR-0066 unchanged on disk                  PASS (additive; neither file in diff manifest)
+
+15/15 ACs PASS
+
+CANON-METHOD CONTRIBUTIONS DOCUMENTED
+=====================================
+1. **Additive-enum-vocabulary-admission** — single-enum-value addition with distinct-from-existing semantics + same-commit protocol-doc update. Reusable pattern; inherits protocol v3 unification-shape at additive scope.
+2. **Retcon-within-commit-message-authorization** — 1c7ec64 commit message explicitly named "pending validator schema ADR" as deferred-fix trigger; D3 retcon fulfills signaled-intent rather than history-rewrite. Reusable pattern for closing pending-ADR-flagged states.
+3. **Meta-constitutional ADDITIVE-not-load-bearing interpretive precedent** — operator Step-2 ratification establishes that single-value enum additions with distinct-from-existing semantics operate as ordinary-ADR, not requiring foundational-reframing per canon-review-protocol.md:315.
+4. **Atomic-bundle discipline for cross-cutting canon edits** — when multiple allowlist edits have order-dependent validity constraints (here: A1 enum addition + D3 retcon), atomic-bundle in single draft-commit is load-bearing discipline. Commit-boundary is the only rollback-observable state.
+
+Documented in ADR-0067 §Consequences §Positive.
+
+CONSTRAINT-10 TRIPWIRE RESOLUTION
+==================================
+Step 4 surfaced 1 tracked-file modification (` M CLAUDE.md`) pre-execution.
+Operator ratification at pause-point (2026-04-24): parent-session housekeeping for ADR-0066 close-out; pre-approved for non-allowlisted path; NOT a strict-scope violation.
+Action: proceeded with Step 5 via explicit-path staging. CLAUDE.md NOT included in draft or active commits — verified post-execution (CLAUDE.md absent from diff manifest).
+
+Future-ADR guidance surfaced during operator ratification: Constraint-10-on-parent-session-scoped-files (CLAUDE.md / memory indexes) behaved correctly as a tripwire; always require operator ratification for Option-1-proceed (do NOT auto-accept).
+
+PARKING ITEMS SURFACED DURING EXECUTION
+=======================================
+None new. ADR-0065 + ADR-0066 parking inherited; documented in ADR-0067 §Parking lot:
+- ADR-0068 /end skill validator-check integration (B5 deferral; cross-repo + baseline-mechanism design)
+- Per-doc_kind enum refinement (future if research-vs-ADR archived semantics diverge)
+- Full lifecycle vocabulary review (A3 deferral; if operational pressure surfaces new lifecycle states)
+- 18 raw-research-input files (warning-only pre-governance category; out-of-scope)
+- 3 pattern-library admission candidates (preserved from ADR-0065/0066)
+- ADR-0059b commons-law in-file consistency (LOW; preserved)
+- IC + PM coordinated grammar alignment (NOT triggered for ADR-0067)
+
+ROLLBACK TRIGGERS: NONE FIRED
+=============================
+- Rollback-0 (pre-exec validator or HEAD drift): did not fire (9/30 + 0e43937 confirmed; Step 4 Constraint-10 pause ratified as parent-session housekeeping, not drift)
+- Rollback-1 (post-exec validator > +0 new errors): did not fire (9/30 parity held)
+- Rollback-2 (orphaned current-state ref): did not fire (purely additive; no refs to orphan)
+- Rollback-3 (write to IC/PM or SKILL.md): did not fire (IC/PM diffs empty; SKILL.md md5 match)
+- Rollback-4 (excluded-file modification): did not fire (diff manifest = 4 allowlist paths exactly)
+
+ADR-0065 PARKING ITEM CLOSURE
+==============================
+§Parking lot line 340: "Validator schema ADR for archived status enum addition" — CLOSED by ADR-0067 active-commit.
+§Parking lot line 341: "Workflow-discipline validator-check in /end skill" — DEFERRED to ADR-0068 per B5.
+
+Enum states post-ADR-0067:
+- DECISION_RECORD_STATUSES: 5 values {draft, active, deprecated, superseded, archived}
+- PROPOSAL_STATUSES: 6 values (unchanged)
+- 5 semantically-distinct lifecycle states available for non-proposal governed artifacts
+
+Corpus state post-ADR-0067:
+- 9 primitives / 3 doctrines / 2 modes / 2 properties (PRESERVED)
+- 6 derived glossary slugs (PRESERVED)
+- 5 in-scope patterns (PRESERVED)
+- 3 pattern-library admission candidates parked (PRESERVED)
+- Concepts yaml v12 (PRESERVED)
+- Validator 9 errors / 30 warnings (baseline held)
+- 1 file now at status: archived (ruddick; semantic-debt closed per 1c7ec64 authorization)
+
+NEXT STEPS (per operator directive)
+===================================
+Step 9 CLAUDE.md housekeeping: OUT-OF-SCOPE; PARENT session handles.
+Return to operator with close-out summary. No push to origin (awaiting operator authorization).

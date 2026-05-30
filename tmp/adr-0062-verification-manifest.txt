@@ -1,0 +1,23 @@
+# ADR-0062 Verification Manifest
+# Generated: 2026-04-23
+
+## Validator Post-Edit
+- 9 errors / 30 warnings (matches baseline)
+- Output: tmp/adr-0062-validator-post.txt
+
+## Frontmatter Check (5 required pairs)
+- doc_id: spore.canon-decision.membrane-as-self-produced-disposition ✓
+- doc_kind: decision-record ✓
+- status: draft ✓
+- adr_number: "0062" ✓
+- decision: scope-condition ✓
+
+## Yaml Version (unchanged per Option g slug-inclusion=no)
+- # version: v12 (unchanged)
+
+## Canon-Body Edits
+- docs/project-vision.md: new sub-bullet added to Membrane bullet (production-mode scope)
+- docs/foundations/governance-artifacts-and-graph-projections.md: parallel sub-bullet added
+
+## ADR File
+- docs/research/canon-decisions/0062-membrane-as-self-produced-disposition.md created

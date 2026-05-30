@@ -1,0 +1,36 @@
+ADR-0070 Preflight Manifest
+Date: 2026-04-24
+
+Repo:
+- Path: /Users/darrenzal/projects/spore
+- Branch: main
+- HEAD: 528157c6f767dc7a140247e1c18a1cbfac13d347
+
+Validator baseline:
+- Command: python3 scripts/validate_spec_dag.py
+- Result: FAILED
+- Errors: 9
+- Warnings: 30
+
+Concepts YAML baseline:
+- File: docs/research/concepts-p2p-wiki.yaml
+- Status: frozen
+- Version: v13
+- Frozen at: 2026-04-24
+
+ADR slot confirmation:
+- docs/research/canon-decisions/0070-view-template-catalog-pattern.md: absent
+- Highest active ADR on disk at preflight: 0069
+- ADR-0070 slot: empty / available
+
+Sibling repo baselines (read-only):
+- Intelligence Commons HEAD: f15f96f33d7384c9c169594a8525eb2a6599bd3b
+- Poietic Match HEAD: 6d4935cf1e042475fb6a1ee007fea0ac0a567d8b
+
+Tracked-file modifications at preflight:
+- M CLAUDE.md
+
+Constraint-10 note:
+- No other tracked-file modifications detected in Spore at preflight.
+- Multiple untracked files/directories are present; they are not Constraint-10 tracked-file trips.
+- M CLAUDE.md is expected parent-session housekeeping and must be pre-ratified with operator at Step 2 before any Step 3+ execution.

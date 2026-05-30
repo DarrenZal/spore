@@ -1,0 +1,65 @@
+ADR-0071 Preflight Manifest
+Date: 2026-04-24
+
+Repo:
+- Path: /Users/darrenzal/projects/spore
+- Branch: main
+- HEAD: fd2238b5464b94ce7b5aa4d38edf90d082b20f17
+- Expected baseline from brief: `fd2238b` or later
+- Result: matched exactly
+
+Sibling repo baselines:
+- koi-processor
+  - Path: /Users/darrenzal/projects/regenai/koi-processor
+  - Branch: regen-prod
+  - HEAD: 006be2d54cf975597d9de596582130b147c3d9f1
+- Intelligence Commons
+  - HEAD: 8ce665ee28633efbfc4182a083ac8b279b53fd76
+  - Expected baseline from brief: `8ce665e`
+  - Result: matched exactly
+- Poietic Match
+  - HEAD: 86f2d4b1c3e21e359886e2e606b56aecc2ba8e01
+  - Expected baseline from brief: `86f2d4b`
+  - Result: matched exactly
+
+Validator baseline:
+- Command: python3 scripts/validate_spec_dag.py
+- Result: FAILED
+- Errors: 9
+- Warnings: 30
+- Baseline status: matched expected stable-field `9 / 30`
+
+Spore worktree status:
+- Tracked-file modifications: none
+- `M CLAUDE.md`: not present
+- Untracked parent-session-state: present
+- Constraint-10 gate result: PASS for Step 0 / Step 0.5 audit work
+
+koi-processor worktree status:
+- Command: git -C /Users/darrenzal/projects/regenai/koi-processor status --short
+- Tracked-file modifications: none
+- Untracked parent-session-state:
+  - `migrations/086_deep_extraction_schema.sql`
+  - `scripts/backfill_job7_peninsula_municipality_embeddings.py`
+  - `scripts/extract_deep_sessions.py`
+  - `scripts/extract_deep_sessions_shim.sh`
+  - `scripts/extract_via_telus.py`
+  - `scripts/schemas/`
+  - `scripts/telus_io.py`
+- Production-caution note: no tracked-file pause condition fired, but untracked parent-session-state exists and should remain untouched
+
+ADR slot confirmation:
+- `docs/research/canon-decisions/0071-*.md`: absent
+- Highest ADR on disk at preflight: `0070-view-template-catalog-pattern.md`
+- ADR-0071 slot: empty / available
+
+Canon baseline snapshot from operator brief:
+- 9 primitives / 3 doctrines / 2 modes / 2 properties / 6 derived glossary slugs
+- 7 in-scope patterns
+- concepts yaml v14
+- validator 9 / 30 held exact
+
+Step 0 result:
+- Proceed to Step 0.5 audit
+- No tracked-file halt condition fired in Spore or koi-processor
+- IC and PM remain read-only

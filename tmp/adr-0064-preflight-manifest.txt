@@ -1,0 +1,54 @@
+ADR-0064 Preflight Manifest
+Generated: 2026-04-23
+Status: PASS (all gates clear)
+
+=== HEAD SHAs ===
+Spore PREEXEC_SHA: 04a9ce5 (post-ADR-0063 housekeeping)
+IC HEAD: f15f96f (post-ic:ADR-0018 canon-alignment-through-spore-adr-0060)
+PM HEAD: 6d4935c (post-pm:ADR-0014 canon-alignment-through-spore-adr-0060)
+
+=== GATE 1: Working-tree clean (scoped paths) ===
+Checked paths: docs/research/canon-decisions/ docs/research/connections/ docs/project-vision.md
+  docs/foundations/governance-artifacts-and-graph-projections.md docs/research/concepts-p2p-wiki.yaml
+Result: Only untracked docs/research/connections/hermes-agent-adversarial-self-trust.md
+  (pre-existing untracked file; OUTSIDE active-edit scope)
+PASS
+
+=== GATE 2: ADR-0064 slot empty ===
+ls docs/research/canon-decisions/0064-*.md → exit code 1 (no matches)
+PASS
+
+=== GATE 3: ADR-0063 active ===
+grep ^status: docs/research/canon-decisions/0063-participatory-sense-making-disposition.md → "status: active"
+PASS
+
+=== GATE 4: Validator baseline ===
+python3 scripts/validate_spec_dag.py: 9 error(s), 30 warning(s)
+PASS (9/30 stable-field baseline confirmed)
+
+=== GATE 5: yaml v12 baseline ===
+head -1 docs/research/concepts-p2p-wiki.yaml → "# status: frozen"
+# version: v12 (confirmed at line 2)
+PASS
+
+=== GATE 6: IC/PM working-tree status ===
+IC: git status --short → ?? tmp/ only (pre-existing; no new edits)
+PM: git status --short → ?? tmp/ only (pre-existing; no new edits)
+PASS
+
+=== GATE 7: Minimum precedent files readable ===
+ADR-0046: READABLE (Field rule-stratification)
+ADR-0055: READABLE (R-Enc-1 + Trigger E-5 source)
+ADR-0062: READABLE (scope-conditioning precedent — Membrane)
+ADR-0063: READABLE (scope-conditioning precedent — Signal)
+PASS
+
+=== GATE 8: Target files exist ===
+docs/project-vision.md: EXISTS
+docs/foundations/governance-artifacts-and-graph-projections.md: EXISTS
+docs/research/connections/canon-framing-encounter-as-composition.md: EXISTS
+docs/research/concepts-p2p-wiki.yaml: EXISTS (at docs/research/concepts-p2p-wiki.yaml)
+PASS
+
+=== SUMMARY ===
+All 8 gates PASS. Execution authorized to proceed to Step 0.5.

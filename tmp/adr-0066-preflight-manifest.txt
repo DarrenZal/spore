@@ -1,0 +1,64 @@
+ADR-0066 PREFLIGHT MANIFEST
+================================
+Timestamp: 2026-04-24 (local 2026-04-23 19:21 PDT)
+Author: child executor (per operator directive)
+
+ENVIRONMENT
+-----------
+cwd: /Users/darrenzal/projects/spore
+branch: main
+HEAD: 5b4fa86 (descendant of 151cc72 ✓)
+HEAD commit: "docs: CLAUDE.md /end session wrap — 3eab9e52 ADR-0065 + M4 framework + ADR-0059a + 2 landings"
+
+HEAD ancestry:
+  5b4fa86 docs: CLAUDE.md /end session wrap
+  151cc72 canon: activate ADR-0059a downstream cascade-miss cleanup
+  c782778 canon: ADR-0059a downstream cascade-miss cleanup (draft)
+  a8429bf docs: CLAUDE.md entry for ADR-0065
+  1b76701 canon: activate ADR-0065 pattern-library-infrastructure-spec
+
+ADR SLOT STATUS
+---------------
+docs/research/canon-decisions/ last 5 entries:
+  0062-membrane-as-self-produced-disposition.md
+  0063-participatory-sense-making-disposition.md
+  0064-co-presence-field-condition-disposition.md
+  0065-pattern-library-infrastructure-spec.md  ← active (last)
+  README.md
+ADR-0066 slot: EMPTY ✓
+
+ADR-0065 status: active (verified via frontmatter read — draft bc54da0 → active 1b76701 per HEAD history)
+
+VALIDATOR BASELINE
+------------------
+Command: python3 scripts/validate_spec_dag.py
+Tail output:
+  FAILED: 9 error(s), 30 warning(s)
+Exact baseline: 9 errors / 30 warnings (matches post-ADR-0065 baseline per CLAUDE.md entry 31)
+
+AUDIT TARGET
+------------
+File: docs/governance/project-briefing-pattern.md (101 lines; doc_id: spore.project-briefing-pattern; doc_kind: pattern; status: active; depends_on: [spore.agent-commons-meta-protocol])
+
+K4 DEFERRAL SOURCE
+------------------
+ADR-0065 §Consequences (lines 243, 251-267) + §K4 deferral rationale (lines 162-169):
+  - Operator selected K4 defer over child's original K1 recommendation
+  - Rationale: 50-50 judgment call; honest-rigor cluster-counting discipline
+    (ADR-0064) argues against inventing 4th sub-class on single-doc evidence
+  - ADR-0066 scope: evaluate outlier against 3 ratified M4 sub-classes
+    (composition-pattern / design-criteria-pattern / catalog-pattern); if NO
+    clean fit, reconsider K1-provisional 4th sub-class OR K3 reclassification
+  - Forward-reference to ADR-0066 lives in body prose only (NOT frontmatter)
+    per validator-safety rule
+
+DECISION-GATED PLAN POSTURE
+---------------------------
+Steps 0 / 0.5 / 1 / 2 = OUTSIDE session-atomic window (current phase)
+Steps 3 / 4 / 5 / 6 / 7 / 7.5 = INSIDE window (post operator Step-2 decision)
+Step 8 = close-out manifest
+Step 9 = CLAUDE.md housekeeping — OUT-OF-SCOPE (parent handles)
+
+READ-ONLY REPOS AT AUTHORING START
+-----------------------------------
+IC + PM: unchanged; zero-new-changes to be verified at Step 7.5 post-execution.

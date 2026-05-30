@@ -1,0 +1,233 @@
+ADR-0068 federation-encounter composition-pattern admission — CLOSE-OUT MANIFEST
+================================================================================
+Date: 2026-04-24
+Operator: Darren Zal
+Plan: ~/.claude/plans/adr-0068-federation-encounter-composition-pattern.md
+
+Commit record
+-------------
+PREEXEC_SHA : 353e69f1bc15bcac3ecc62ba44bd37c350ea4a4b (pre-ADR-0068 HEAD; post-ADR-0067 activation)
+DRAFT_SHA   : fba5ea08f728cb0dc374b6c7b4046be002390f94
+ACTIVE_SHA  : 4e711ac150253a011749673bcc810bb40891e368
+
+Session-atomic window
+---------------------
+WINDOW_START (epoch): 1777004666
+WINDOW_END   (epoch): 1777005138
+ELAPSED             : 472 seconds (7m52s)
+BUDGET              : 2700 seconds (45 min)
+UTILIZATION         : 17.5% (comfortable margin)
+VERDICT             : PASS (AC16)
+
+Comparative timing:
+- ADR-0067 (enum-addition): 258s
+- ADR-0066 (reclassify + file rename): 307s
+- ADR-0068 (this — first Wave-2 admission): 472s
+- ADR-0065 (spec-ADR 5 files + M4 framework): 524s
+ADR-0068 slots between ADR-0066 and ADR-0065 as projected (larger
+than ADR-0067 because pattern-doc authoring is heavier than single
+enum edit; smaller than ADR-0065 because no M4 framework authorship).
+
+Validator gate
+--------------
+V1a pre-exec (Step 4)        : 9 errors / 30 warnings (baseline captured)
+V1b post-draft (Step 6)      : 9 errors / 30 warnings (EXACT match)
+V1c post-active (Step 7.5)   : 9 errors / 30 warnings (EXACT match)
+VERDICT                       : PASS (AC4 + AC5); zero error drift; zero warning drift
+
+V2 depends_on + relates_to existence
+-------------------------------------
+spore.governance-artifacts     : OK
+spore.federation-protocol      : OK
+spore.commitment-pooling       : OK
+spore.governance-memory        : OK
+spore.intent-publication       : OK
+VERDICT                         : PASS (AC10); 5/5 targets verified existing at Step 4 + AC10 at Step 7.5
+
+V3 IC + PM zero-change
+-----------------------
+IC HEAD-start : f15f96f33d7384c9c169594a8525eb2a6599bd3b
+IC HEAD-end   : f15f96f33d7384c9c169594a8525eb2a6599bd3b
+IC            : MATCH (diff empty)
+PM HEAD-start : 6d4935cf1e042475fb6a1ee007fea0ac0a567d8b
+PM HEAD-end   : 6d4935cf1e042475fb6a1ee007fea0ac0a567d8b
+PM            : MATCH (diff empty)
+VERDICT       : PASS (AC6 + AC7); read-only discipline preserved
+
+V4 allowlist-strict diff
+------------------------
+Diff ($PREEXEC_SHA..$ACTIVE_SHA) sort:
+  A  docs/patterns/federation-encounter.md
+  A  docs/research/canon-decisions/0068-federation-encounter-composition-pattern.md
+  M  docs/patterns/README.md
+  M  docs/research/concepts-p2p-wiki.yaml
+
+Expected: exactly these 4 paths.
+Actual  : exact match.
+VERDICT : PASS (AC1); allowlist held strict.
+
+Must-NOT-touch sentinel (must be 0):
+  docs/research/canon-decisions/0055-encounter-as-composition-framing-note.md  : 0 (unchanged)
+  docs/research/canon-decisions/0065-pattern-library-infrastructure-spec.md    : 0
+  docs/research/connections/canon-framing-encounter-as-composition.md           : 0
+  docs/project-vision.md                                                        : 0
+  docs/foundations/governance-artifacts-and-graph-projections.md                : 0
+  docs/research/planning/canon-review-protocol.md                               : 0
+  docs/governance/project-briefing-spec.md                                      : 0
+  scripts/validate_spec_dag.py                                                  : 0
+  CLAUDE.md                                                                      : 0
+Total sentinel matches: 0
+VERDICT : PASS (AC2 + AC3 + AC14)
+
+V6 Frontmatter AC spot-checks
+-----------------------------
+AC8 ADR-0068 frontmatter:
+  doc_id      : spore.canon-decision.federation-encounter-composition-pattern ✓
+  doc_kind    : decision-record ✓
+  status      : active ✓
+  adr_number  : "0068" ✓
+  decision    : admit ✓
+  opened-on   : 2026-04-24 ✓
+  closed-on   : 2026-04-24 ✓
+  supported_by: 5 ADR refs (all existing) ✓
+  related_adrs: 7 ADR refs (all existing) ✓
+VERDICT : PASS (AC8)
+
+AC9 pattern-doc frontmatter:
+  doc_id      : spore.federation-encounter ✓
+  doc_kind    : pattern ✓
+  status      : active ✓
+  depends_on  : [spore.governance-artifacts, spore.federation-protocol] ✓
+  concepts    : [federation-encounter, encounter, joint-commitment, governance-memory] ✓
+  relates_to  : [spore.commitment-pooling, spore.governance-memory, spore.intent-publication] ✓ (FIRST OPERATIONAL USE)
+VERDICT : PASS (AC9)
+
+AC11 yaml v13 + slug:
+  Header version    : v13 ✓
+  frozen_at         : 2026-04-24 ✓
+  New slug          : federation-encounter (present) ✓
+  encounter aliases : federation-encounter REMOVED (promoted) ✓
+VERDICT : PASS (AC11)
+
+AC12 README updated:
+  Currently-admitted row: federation-encounter.md | spore.federation-encounter | active | composition-pattern | YES ✓
+  Parked removed        : ✓
+  Candidate-count prose : "two remaining" ✓
+VERDICT : PASS (AC12)
+
+AC13 composition B1 verbatim:
+  Pattern-doc contains "Signal + Joint-commitment + Intent + Evidence within bounded Field-conditions" : 1 occurrence ✓
+VERDICT : PASS (AC13)
+
+V5 Commit discipline
+--------------------
+Draft commit     : fba5ea0 (4 allowlist files, atomic-bundle) ✓
+Active commit    : 4e711ac (3 files — status flips only) ✓
+Total commits    : 2 (draft + active; no --amend, no force-push) ✓
+VERDICT           : PASS (AC15)
+
+16-AC verdict matrix
+--------------------
+AC1  allowlist strict            : PASS
+AC2  must-NOT-touch strict       : PASS
+AC3  CLAUDE.md untouched         : PASS (pre-existing M CLAUDE.md preserved in working tree)
+AC4  validator error baseline    : PASS (9 = 9)
+AC5  warning tolerance           : PASS (30 = 30; zero drift)
+AC6  IC HEAD unchanged           : PASS (exact SHA match)
+AC7  PM HEAD unchanged           : PASS (exact SHA match)
+AC8  ADR-0068 frontmatter valid  : PASS
+AC9  pattern-doc frontmatter     : PASS (relates_to first operational use)
+AC10 no dangling refs            : PASS (V2 pre-check + zero new validator errors)
+AC11 yaml v13 + slug             : PASS
+AC12 README updated correctly    : PASS
+AC13 composition B1 verbatim     : PASS
+AC14 framing-note unchanged      : PASS (sentinel 0)
+AC15 two commits                 : PASS
+AC16 session-atomic ≤ 2700s      : PASS (472s / 17.5% utilization)
+
+SCORE: 16/16 ACs PASS
+
+Canon state post-ADR-0068
+--------------------------
+Primitives (9)                : UNCHANGED (3 structural + 6 verb)
+Cross-cutting doctrines (3)   : UNCHANGED (reproductive-commoning / boundary-commoning / care-commoning)
+Modes-across-primitives (2)   : UNCHANGED (expressive-power / constructed-power)
+Properties-on-primitives (2)  : UNCHANGED (holon-irreducibility / relational-identity)
+Derived glossary slugs (6)    : UNCHANGED (attestation-of-execution / permeability / double-boundary / reciprocity / trust / encounter)
+Pattern sub-classes (M4, 3)   : UNCHANGED (composition / design-criteria / catalog)
+In-scope patterns             : 5 → 6 (NEW: federation-encounter admitted as composition-pattern)
+Project-briefing-spec         : UNCHANGED (K3a via ADR-0066)
+Concepts yaml                 : v12 → v13 (1 new slug: federation-encounter; 1 alias removed from encounter)
+Validator baseline            : 9/30 (PRESERVED exact)
+Canon object-class inventory  : 4 categories (UNCHANGED)
+
+Canon-rebuild arc extension continues: now 20 canon-decisions
+(0044–0058 + 0059a-parking + 0061–0068) across the arc.
+
+Method-precedent contributions (new or reinforced)
+---------------------------------------------------
+1. **First Wave-2 pattern-library admission under ADR-0065 M4 framework.** Canonical template established for Wave-2 ADR-0069 (four-enabling-conditions design-criteria-pattern) + Wave-2 ADR-0070 (view-template catalog-pattern). 7-axis decision-brief (A through G) + C3 tiered frontmatter + E1 dedicated-ADR workflow + H1 yaml slug admission all exercised.
+
+2. **First operational use of `relates_to:` typed pattern-to-pattern edge** (ADR-0065 Axis C3 optional field). Three sibling-pattern targets (commitment-pooling / governance-memory / intent-publication) each structurally related in well-understood ways (post-encounter commitment-coordination / post-encounter evidence-governance / pre-encounter intent-feeding). Establishes convention for downstream admissions.
+
+3. **M4 composition-pattern earning-test operationally validated.** ADR-0065 §M4 (α composition-articulability + β ≥3 independent instance-families under ADR-0064 honest-rigor cluster-counting) exercises in-the-wild. α spot-verified against independently-authored PM repo (guards against framing-note tautology). β passes at N=4 with 6 pair-wise independence checks all clean.
+
+4. **Alias-to-slug promotion pattern extended** (ADR-0045 `care-commoning` precedent). v12 alias → v13 standalone slug for `federation-encounter` — light vocab-gov move without disrupting prior citations of parent slug. Applicable to future cases where a conceptual distinction emerges between glossary-layer general concept and pattern-library-layer specific recipe.
+
+5. **Trigger-gate-vs-earning-test layering clarified as canon-method.** ADR-0055 triggers E-1..E-5 authorize re-entry into admission cycle; ADR-0065 §M4 governs the admission decision. Two distinct layers. Documented in ADR-0068 §Context as method-clarification for future parked-candidate dispositions navigating similar layering.
+
+6. **Honest-rigor cluster-counting discipline extended to β-independence pair-wise checks.** ADR-0064 discipline applied not just to aggregate instance-family count but to all 6 pair-wise independence checks. BKC-vs-Cross-federation borderline flagged explicitly as R-FE-2 residue with honest rationale. Discipline operates at per-pair granularity.
+
+7. **Constraint-10 one-time pre-approval precedent.** Operator's explicit "RATIFIED as pre-approved per ADR-0067 precedent... Do NOT auto-accept in future ADRs; today's CLAUDE.md state is the specific pre-approved scope" establishes one-time-pre-approval pattern as distinct from auto-accept-forward-policy. Clean scope demarcation.
+
+8. **2-round /review-plan cap validated for composition-pattern admission.** Round 1: 2 FAIL lint + 9 questions. Round 2: 0 FAIL lint + 7 questions (diminishing returns material — 4 real + 3 diminishing; all addressed substantively). Known-ceiling acceptance at round 3+ per feedback memory discipline.
+
+Parking items
+-------------
+WAVE-2 QUEUE (2 remaining):
+- ADR-0069 (TBD): four-enabling-conditions → design-criteria-pattern admission (ADR-0048 parking source; Johar 4 criteria)
+- ADR-0070 (TBD): view-template pattern-library doc → catalog-pattern admission (ADR-0058 parking source; 5 demoted projections)
+
+WAVE-1 TAIL (small / cross-repo):
+- ADR-0068/darren-workflow: /end skill validator-check integration (B5 deferral from ADR-0067; baseline-mechanism design)
+
+WAVE-3 (cross-repo coordination):
+- Cross-repo projection-script PM-registration alignment (pm:ADR-0014 parking)
+- ic:ADR-0019 + pm:ADR-0015 Phase 2b cross-repo realignment propagating 0061-0068 drift
+
+CANON-OBJECT-CLASS FUTURES (strategic, not priority):
+- structured-encounter-as-event-discipline 5th canon-object-class candidate (ADR-0055 R-Enc-2; recurrence-based admission requires ≥2 more event-discipline candidates — still ONE candidate at present; defer)
+
+LOW PRIORITY:
+- ADR-0059b commons-law in-file consistency (3 refs at L53/63/117)
+- IC + PM `federation-encounter` slug propagation (queued with canon-rebuild arc extension)
+
+ADR-0068-SPECIFIC RESIDUES:
+- R-FE-1 encounter-vs-federation-encounter disambiguation discipline (ongoing citation hygiene)
+- R-FE-2 BKC-vs-Cross-federation instance-family boundary (borderline flagged)
+- R-FE-3 pattern-doc-vs-framing-note drift risk (manual discipline)
+- R-FE-4 non-federation encounter-pattern admissions (future dedicated ADRs)
+
+BROADER SCOPE:
+- Meta-learning capstone end-of-sweep (harvest canon-method patterns across ADR-0044 through latest-ADR)
+- Phase 4 (9 foundation docs) + Phase 5 (section-level status labels)
+
+Push status
+-----------
+Spore origin: NOT PUSHED (awaiting operator `/end` authorization per session-prompt directive)
+IC origin   : at f15f96f (from 2026-04-23 /end; UNCHANGED this session)
+PM origin   : at 6d4935c (from 2026-04-23 /end; UNCHANGED this session)
+
+Working-tree state post-execution
+----------------------------------
+- HEAD at 4e711ac (ADR-0068 active)
+- `M CLAUDE.md` preserved as pre-existing parent-session housekeeping (untouched; operator-pre-approved one-time scope)
+- Expected untracked: tmp/adr-0068-* artifacts + pre-existing AGENTS.md + PNG screenshots + docs/research/Sheaves + docs/research/corpus-review/originals + docs/research/synthesis/compositional-field-architecture.md + tools/
+
+Close-out discipline
+--------------------
+All 16 ACs verified PASS; canon state preserved (9+3+2+2+6 inventory held; +1 in-scope pattern); Wave-2 queue advances 3→2. IC + PM read-only preserved. Session-atomic discipline held well under budget (17.5% utilization). Validator 9/30 baseline preserved exact.
+
+Ready for operator review. Parent session handles Step 9 (CLAUDE.md Status + Session History update at /end).
+
+End of close-out manifest.

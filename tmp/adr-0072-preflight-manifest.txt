@@ -1,0 +1,107 @@
+ADR-0072 Preflight Manifest
+Date: 2026-04-25
+Session: spore:ADR-0072 /end skill validator-check integration
+
+===============================================
+HEAD Baselines (all 4 repos)
+===============================================
+
+Spore:            0800679c3e243571962d8da774e17ff705aea151   (expected 0800679 ✓)
+IC:               8ce665ee28633efbfc4182a083ac8b279b53fd76   (expected 8ce665e ✓)
+PM:               86f2d4b1c3e21e359886e2e606b56aecc2ba8e01   (expected 86f2d4b ✓)
+darren-workflow:  021153ee8908f4f850fce754a1639d537b156b30   (expected 021153e ✓)
+
+===============================================
+Worktree State
+===============================================
+
+Spore:
+- untracked: tmp/* (ADR 0059-0071 artifacts; all prior-session)
+- untracked: AGENTS.md, docs/research/Sheaves/sheaf-theory-synthesis.md,
+             docs/research/corpus-review/originals/{Core Primitives, Primitives-1, Primitives}.md,
+             spore-*.png (live site screenshots)
+- tracked modifications: NONE
+- Target-set for ADR-0072:
+    - docs/research/canon-decisions/0072-end-skill-validator-check-integration.md (NEW)
+
+IC (read-only): clean worktree (only untracked tmp/)
+PM (read-only): clean worktree (only untracked tmp/)
+
+darren-workflow:
+- tracked modification: memory/MEMORY.md
+  - Nature: ADDITIVE (36 lines inserted)
+  - Content: pgvector HNSW bulk-load memory pointer + macOS case-variant dup git diagnosis note
+            + "canon-review patterns (updated 2026-04-24)" section with 4 bullets summarizing
+            ADR-0066/0065/0071 method-precedents
+  - Origin: Parent-session housekeeping from today's Wave 1/2/3 sweep; NOT ADR-0072 work
+  - CONSTRAINT-10 TRIPWIRE: tracked modification outside ADR-0072 target-set
+  - Target-set for ADR-0072 (if F1 BUNDLED adopted):
+      - skills/end/SKILL.md (ADDITIVE step insertion)
+
+===============================================
+Spore Validator Baseline
+===============================================
+
+Command: python3 scripts/validate_spec_dag.py
+Exit code: 1 (FAILED — pre-existing baseline, NOT caused by ADR-0072 work)
+Result: 9 errors / 30 warnings   (matches expected 9/30 baseline ✓)
+
+Error categories (for reference):
+- 7 connections with wrong doc_id prefix (ic./pm. instead of spore.)
+- 1 planning doc with wrong prefix
+- 1 broken depends_on ref (johar-metacognition-stack → johar-sheaf-theory-formalization)
+
+===============================================
+ADR Slot Verification
+===============================================
+
+Latest Spore ADR: docs/research/canon-decisions/0071-cross-repo-projection-script-pm-registration-alignment.md
+ADR-0072 slot: EMPTY ✓
+
+===============================================
+Concepts Registry
+===============================================
+
+Spore concepts yaml version: v14 (verified in prior session; no change planned for ADR-0072)
+
+===============================================
+SKILL.md Baseline
+===============================================
+
+Path: /Users/darrenzal/projects/darren-workflow/skills/end/SKILL.md
+Branch: main
+Size: 131 lines
+Current steps: 1 (find CLAUDE.md) → 2 (session ID) → 3 (summarize) → 4 (read CLAUDE.md)
+            → 5 (update CLAUDE.md) → 6 (rename session) → 7 (confirm)
+No validator-check step exists.
+
+===============================================
+Cross-Repo Validator Survey (informational)
+===============================================
+
+Spore:          scripts/validate_spec_dag.py — EXISTS; canonical validator
+IC:             no validator (confirmed per ic:ADR-0019 audit)
+PM:             no validator (confirmed per pm:ADR-0015 audit)
+koi-processor:  validator presence unknown (out-of-scope for ADR-0072 audit)
+
+===============================================
+Constraint-10 Tripwire Summary
+===============================================
+
+ONE TRIPWIRE FIRED:
+  darren-workflow/memory/MEMORY.md modified (36 lines, additive)
+  Nature: parent-session housekeeping from today's Wave 1/2/3 sweep
+  Disposition: OPERATOR RATIFICATION REQUIRED at Step 2 handback
+  Recommendation: operator pre-ratifies (matches ADR-0067 parent-session-tracked-drift-ratification precedent)
+
+ALL OTHER REPOS: clean tracked state.
+
+===============================================
+Projection (per scope option)
+===============================================
+
+F1 BUNDLED (Spore ADR + SKILL.md edit same session): 20–30 min session-atomic
+F2 SPORE-ADR-ONLY (SKILL.md deferred): 10–15 min
+F3 SEQUENTIAL (Spore ADR this session; SKILL.md next-session darren-workflow session): 10–15 min Spore-side
+
+===============================================

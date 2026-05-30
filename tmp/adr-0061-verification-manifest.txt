@@ -1,0 +1,15 @@
+ADR-0061 Verification Manifest
+Generated: 2026-04-23
+
+Pre-commit checks:
+
+[PASS] Validator: 9 errors / 30 warnings (baseline held)
+[PASS] Yaml version unchanged: v12 (no bump per Option (d) decline)
+[PASS] Frontmatter fields present: doc_id, doc_kind, status=draft, adr_number=0061, decision=decline
+[PASS] r_claim_source field: OMITTED (per authoritative rule — no pre-registered review for parked-candidate dispositions)
+[PASS] ADR file exists at correct path: docs/research/canon-decisions/0061-asymmetric-joint-commitment-slug-disposition.md
+
+Allowlist (single-file commit pair):
+  docs/research/canon-decisions/0061-asymmetric-joint-commitment-slug-disposition.md
+
+Next: Step 6 — draft commit (status: draft)

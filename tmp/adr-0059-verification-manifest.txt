@@ -1,0 +1,84 @@
+ADR-0059 Verification Manifest
+Generated: 2026-04-23
+Executed by: Claude Sonnet 4.6
+
+=== VALIDATOR POST-EDIT ===
+errors=9 warnings=30
+RESULT: PASS (matches 9/30 baseline)
+
+=== A1: residual foundations/lexicon/intent-pressure path links ===
+grep -n "foundations/lexicon/intent-pressure" (13 target files) → 0 hits
+RESULT: PASS
+
+=== A1: relates_to/depends_on spore.term.intent-pressure frontmatter preserved ===
+stigmergy.md:11 → PRESERVED
+civic-infrastructure-convergence.md:8 → PRESERVED
+hyperstition-as-coordination.md:7 → PRESERVED
+RESULT: PASS (3 frontmatter entries preserved)
+
+=== A1: new link targets exist ===
+docs/research/connections/intent-pressure.md → EXISTS
+RESULT: PASS
+
+=== A2: constitutional artifact family-name check (5 A2-touched files) ===
+grep -n "constitutional artifact" | grep -vi "constitutional commitment|constitutional level" → 0 hits
+RESULT: PASS
+
+=== A2: section header renamed ===
+grep "^## Constitutional Artifacts" governance-artifacts-and-graph-projections.md → 0
+grep "^## Governance Artifacts" governance-artifacts-and-graph-projections.md → 1 (line 14)
+RESULT: PASS
+
+=== A18: ADR-0035 constitutional commitments preserved ===
+grep -c "constitutional commitment" docs/project-vision.md → 2
+RESULT: PASS
+
+=== A3: federation-protocol:89 scope-conditioning ===
+sed -n '89p' docs/foundations/federation-protocol.md | grep "at every scale.*non-negotiable" → 0
+Post-edit line 89: "These hold at the scales Spore has reached and are non-negotiable:"
+RESULT: PASS
+
+=== C: governance-memory layer check ===
+grep -n "governance-memory layer" (README.md, docs/README.md, johar-neuroplastic-field.md, decision-memo.md) → 0
+RESULT: PASS
+
+=== D1: self-similarity residual check ===
+sed -n '305p' docs/synthesis/decision-memo.md | grep -E "self.similar|zoom.invariance|fractal" → 0
+RESULT: PASS
+
+=== D2: stale primitive count check ===
+grep -nE "10 primitive|ten primitive|11 primitive|eleven primitive" open-civics.md civic-infrastructure-convergence.md → 0
+RESULT: PASS
+
+=== A17: governance-artifacts doc_id ===
+grep -l "^doc_id: spore.governance-artifacts" docs/foundations/ → docs/foundations/governance-artifacts-and-graph-projections.md (exactly 1)
+RESULT: PASS
+
+=== INFORMATIONAL: Cascade-miss parking items (outside 13-file target set) ===
+Files carrying "constitutional artifact" family-name outside target set (NOT edited per strict-scope rule):
+- docs/research/planning/human-economy-batch-2-prep.md:33
+- docs/research/planning/instrumentation-evidence-design-batch-1.md:104
+- docs/research/connections/johar-brain-self-rewriting-field.md:112
+- docs/research/connections/intent-pressure.md:20
+- docs/research/connections/commons-law-and-charter-lineage.md:71,131,150
+Status: LOGGED as parking items. Not in 13-file target set. Operator decides follow-on.
+
+=== OVERALL VERIFICATION ===
+All Step 7 authoritative gate checks PASS.
+Cascade-miss items logged (non-blocking).
+Validator 9/30 holds.
+
+=== POST-COMMIT VERIFICATION (Step 9.5) ===
+PREEXEC_SHA: 2c3d2014d02a1c982662b72b69aaf0b575fc7ac5
+DRAFT_SHA: 0336fa8
+ACTIVE_SHA: a92af17
+
+AC13 (full-range allowlist): 13 files = target set + ADR-0059 file. PASS
+AC15 (draft-commit scope): same 13 files. PASS
+AC16 (active-commit scope): exactly 1 file (ADR-0059). PASS
+AC9 (session-atomic window): 12 seconds (10:29:11 → 10:29:23 PDT). PASS
+
+AC8 re-confirmed post-active: errors=9 warnings=30. PASS
+Validator diff: only governed-docs count 228→229 (ADR-0059 addition). PASS
+
+ALL ACs PASS.

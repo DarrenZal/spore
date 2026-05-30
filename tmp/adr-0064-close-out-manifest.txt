@@ -1,0 +1,167 @@
+ADR-0064 Close-Out Manifest
+Generated: 2026-04-23
+
+=== STATUS ===
+COMPLETE
+
+=== Option selected ===
+Option (i) adopt-with-scope-conditioning
+Sub-option: i.1 (prose-only, no slug, no framing-note)
+— exact match to ADR-0062 + ADR-0063 precedent
+
+=== SHAs ===
+Spore PREEXEC_SHA: 04a9ce5
+Spore DRAFT:       0c7440e (draft commit)
+Spore ACTIVE:      982fb91 (activate commit)
+
+=== IC + PM zero-new-changes ===
+IC HEAD-start: f15f96f
+IC HEAD-end:   f15f96f  (MATCH)
+IC working tree: tmp/ only (pre-existing, not edited)
+
+PM HEAD-start: 6d4935c
+PM HEAD-end:   6d4935c  (MATCH)
+PM working tree: tmp/ only (pre-existing, not edited)
+
+=== Session-atomic window ===
+Duration: 607 seconds (10m07s)
+Budget: 30+5 minutes
+Status: WELL UNDER BUDGET
+
+=== Validator ===
+Pre: 9 errors / 30 warnings
+Post: 9 errors / 30 warnings
+DELTA: 0 — BASELINE HELD
+
+=== Yaml version ===
+Pre: v12
+Post: v12 (unchanged per Option i.1 spec)
+
+=== Files touched (Spore) ===
+- docs/research/canon-decisions/0064-co-presence-field-condition-disposition.md (new, 258 lines)
+- docs/project-vision.md (Field bullet extended, 1 new sub-bullet)
+- docs/foundations/governance-artifacts-and-graph-projections.md (parallel Field co-presence-mode paragraph inserted after rule-levels paragraph)
+
+=== Cross-tradition breadth finding ===
+7-cluster taxonomy evaluation:
+- Cluster A (Common-knowledge-philosophy): FULL — Lewis 1969, Schiffer 1972, Chwe 2001 (under A per counting rule)
+- Cluster B (Micro-sociology/interaction-order): FULL — Goffman 1963/1967/1974, Collins 2004 (genuinely independent from A)
+- Cluster C (Phenomenological-intersubjectivity): PARTIAL — Schutz 1967 (independent); Husserl/Merleau-Ponty absorbed into A
+- Cluster D (Situated-practice): PARTIAL (family-claim only)
+- Cluster E (Dialogism): VERY PARTIAL (family-claim only)
+- Cluster F (Johar-native): FULL if counted; operator judgment: NOT counted on honest-rigor
+- Cluster G (Coordination-game-theory): VERY PARTIAL; Chwe under A per counting rule
+
+Honest count: 2 full clusters (A + B) confirmed.
+ADR-0055 single-cluster block RESOLVED at ≥2-cluster threshold.
+≥3 threshold for heavier admission NOT MET (Johar-native escalation declined).
+
+=== ADR-0046 / ADR-0055 / ADR-0062 / ADR-0063 precedent relationships ===
+ADR-0046 (Field rule-stratification): ORTHOGONAL axes
+  - Rule-levels (operational/collective-choice/constitutional) govern coordination-action-type
+  - Co-presence-mode governs situational-substrate
+  - Both axes coexist on Field; ADR-0046 file unchanged
+
+ADR-0055 (Encounter framing-note): STABILIZED
+  - Line 97 Lewis/Schiffer co-presence-establish reference now has canonical home
+  - Framing-note cross-referenced from Field bullet; Encounter disposition not reopened
+  - Trigger E-5 (separate-plan investigation) FIRED and disposed via scope-conditioning
+    rather than via sub-stratification (trigger's predicted admission-shape)
+  - R-Enc-1 residue CLOSED
+
+ADR-0062 (Membrane production-mode): FIRST APPLICATION of primitive-bullet scope-conditioning
+ADR-0063 (Signal sense-making-mode): SECOND APPLICATION
+ADR-0064 (Field co-presence-mode): THIRD APPLICATION — structural-primitive-wide discipline validated
+  - Autopoiesis-enactive-tension canonical resolution triad COMPLETED across all three structural primitives
+  - All three resolve same canonical-layering-vs-enactive-constitution tension-shape via
+    primitive-bullet scope-conditioning
+
+=== Disposition summary ===
+- Field primitive operationally spans 2 co-presence-modes:
+  - co-presence-requiring (BKC/Octo quarterly meetings; sync governance-artifact authoring; DW design-reviews)
+  - co-presence-non-requiring (Octo autonomous research; PM async protocol; async PR-review; async spec-DAG authoring)
+- 5/9 dual-mode cases (highest across the three-structural-primitive sweep)
+- No new primitives / doctrines / modes / properties / slugs
+- Canon object-class inventory preserved at 4 categories
+- 9-primitive roster preserved
+- 6 derived glossary slugs unchanged
+- Concepts yaml v12 unchanged
+- Canon-method contribution: scope-conditioning validated as structural-primitive-wide discipline
+
+=== Audit findings paraphrased into ADR body ===
+§Context §Step 0.5 audit: 9 operational cases enumerated with classifications
+§Context §Cross-tradition evaluation: 7-cluster taxonomy with per-cluster assessment
+§Context §ADR-0046 relationship: ORTHOGONAL axes finding
+§Context §ADR-0055 Encounter framing-note relationship: stabilizes-without-reopening
+§Context §ADR-0062/0063 scope-conditioning precedent relationship: third application
+§Context §Earning-test verdict: Q-a MARGINAL + Q-b PARTIAL (joint-passage not met)
+§Decision §Method-precedent contribution: structural-primitive-wide discipline validated
+§Decision §Autopoiesis-enactive tension triad: canonical resolution complete across 3 primitives
+§Decision §Final dedicated-ADR parked candidate: originally-parked queue fully closed
+§Consequences §Positive: 8 positive findings articulated
+§Consequences §Negative/Cost: 4 cost findings articulated (Field-bullet density; pattern generalization risk; heavier-admission deferred)
+§Consequences §Neutral/Deferred: 4 deferred items (downstream propagation; IC/PM alignment; federation-encounter pattern-library; heavier-admission pathway)
+§Consequences §Re-visit conditions: 5 revisit triggers articulated
+
+=== AC results ===
+AC1  Preflight manifest per plan                                PASS
+AC2  Step 0.5 audit manifest ≥5 cases + 7-cluster breadth       PASS (9 cases, 7 clusters)
+AC3  Decision-brief with options + recommendation + Step-2      PASS
+AC4  Step 2 operator decision captured                          PASS
+AC5  ADR-0064 file + frontmatter + related_adrs                 PASS (12 related ADRs)
+AC6  Chosen option executed; dispositions logged                PASS (Option i.1)
+AC7  Yaml version per option                                    PASS (v12 unchanged)
+AC8  Validator 9/30 post-active                                 PASS
+AC9  Session-atomic ≤ 35 min                                    PASS (10m07s)
+AC10 No git add -A                                              PASS (explicit staging)
+AC11 Changed-file allowlist matches option-specific             PASS (3 files = i.1 allowlist)
+AC12 Active-commit diff = 1 file                                PASS
+AC13 Audit findings paraphrased into ADR §Context               PASS
+AC14 IC + PM zero-new-changes                                   PASS
+AC15 Close-out report w/ breadth + precedent articulations      PASS (this manifest)
+
+=== Final-candidate-of-originally-parked-queue ===
+CONFIRMED: ADR-0064 closes the dedicated-ADR-parked queue originally
+specified in Phase 3b + post-Phase-3b. Queue status:
+- ADR-0061 (asymmetric-joint-commitment slug): DECLINE — Q4 structural failure across all candidates
+- ADR-0062 (membrane-as-self-produced): SCOPE-CONDITION (1st application)
+- ADR-0063 (participatory-sense-making): SCOPE-CONDITION (2nd application)
+- ADR-0064 (co-presence-Field-condition): SCOPE-CONDITION (3rd application)
+
+Four-out-of-four parked candidates formally processed. Three structural-
+primitive scope-conditionings validate the pattern as structural-primitive-
+wide discipline. The autopoiesis-enactive-tension canonical resolution
+triad is complete. Primary next focus per CLAUDE.md item #23: pattern-
+library infrastructure phase and canon-object-class recurrence-based
+admission phase.
+
+=== Surprises / Parking additions ===
+Surprises: None structurally significant. The Johar-native cluster-counting
+judgment (honest-rigor declining to count primary-inspiration as full
+third cluster) was the pivotal operator determination — had it been
+counted, the ADR would have landed as (a) Field sub-stratification or
+(d) property-on-Field rather than (i) scope-condition. The honest-rigor
+precedent is worth noting as method-canonical.
+
+Parking additions:
+- **Honest-rigor cluster-counting discipline** — the precedent of declining
+  to count primary-inspiration (Johar-native) as full cluster for heavier-
+  admission threshold purposes should be surfaced in future canon-review
+  protocol updates as a canonical practice.
+- **Cluster B (Goffman/Collins micro-sociology) as canon-citable tradition** —
+  this ADR is the first to treat Goffman's *Behavior in Public Places* /
+  *Interaction Ritual* and Collins' *Interaction Ritual Chains* as full-
+  cluster citations in Spore canon. Future canon-review rounds may
+  surface additional uses for these traditions beyond co-presence.
+- **R-0064-1 through R-0064-5 revisit triggers** articulated in ADR §Consequences
+  for future canon-review rounds if evidence evolves.
+
+=== Next focus post-ADR-0064 ===
+Per CLAUDE.md Status line + Immediate Next Step + item #23:
+- Downstream propagation audit (already stratified as ADR-0059 + ADR-0060)
+- IC + PM coordinated grammar alignment (post-downstream-audit)
+- Pattern-library infrastructure phase (CLAUDE.md item #23 pending)
+- Canon-object-class recurrence-based admission phase (CLAUDE.md item #23 pending)
+
+Phase 4 (9 new foundation docs) + Phase 5 (section-level status labels)
+remain as previously enumerated.

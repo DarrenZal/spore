@@ -1,0 +1,4 @@
+A	docs/research/canon-decisions/0067-validator-schema-archived-enum.md
+M	docs/research/external/ruddick-2026-commitment-pool-route-graphs.md
+M	docs/research/planning/canon-review-protocol.md
+M	scripts/validate_spec_dag.py

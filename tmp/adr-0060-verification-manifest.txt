@@ -1,0 +1,78 @@
+ADR-0060 VERIFICATION MANIFEST
+Generated: 2026-04-23
+
+=== STEP 5 VERIFICATION BATCH ===
+
+--- Validator post-edit ---
+Command: python scripts/validate_spec_dag.py > tmp/adr-0060-validator-post.txt 2>&1
+ERRORS:   9 (held at baseline)
+WARNINGS: 30 (held at baseline — counted via prefix 'warn:')
+Result: PASS (9/30 baseline held)
+
+--- Stale-term greps ---
+Pattern: "11 primitive|eleven primitive|Self-similarity|fractal applicability|zoom.invariance"
+Result: 0 hits in docs/synthesis/coordination-grammar.md
+Result: PASS
+
+--- Preserved-term greps ---
+Pattern "9 primitive|Nine primitive|nine primitive": 3 hits (AC8 requirement ≥1)
+  PASS
+Pattern "joint-commitment" (case-insensitive): 6 hits (AC8 requirement ≥1)
+  PASS
+Pattern "reproduction" (case-insensitive): 4 hits (AC8 requirement ≥1)
+  PASS
+
+--- Line count ---
+Pre:  303 lines
+Post: 326 lines (net +23 — ADR-0058 2-table structure adds rows; Primitives section carries more context per row)
+
+=== STEP 7 PRE-COMMIT DIFF GUARD ===
+Staged lines outside status-line pattern: 0 (only frontmatter status: field
+flip + ## Status section mirror flip — ADR-0058 precedent)
+Result: PASS
+
+=== STEP 7.5 POST-COMMIT VERIFICATION ===
+
+--- SHAs ---
+PREEXEC_SHA: 39db70b9ace4ffff5960d280cf92a9b9ff59d4f0
+DRAFT_SHA:   39650e5b1c91ee4a00066ba95538b3dbd02cd178
+ACTIVE_SHA:  27da29da19e711f1e21803ccd5c5e130b591cb17
+
+--- Session-atomic window ---
+Draft author-date:  2026-04-23T11:10:17-07:00
+Active author-date: 2026-04-23T11:10:43-07:00
+Delta: 26s (well under 35-min AC11 threshold)
+Result: PASS
+
+--- Changed-file allowlist (PREEXEC..ACTIVE) ---
+Actual:
+  docs/research/canon-decisions/0060-coordination-grammar-realignment.md
+  docs/synthesis/coordination-grammar.md
+Expected (Option R.partial):
+  docs/research/canon-decisions/0060-coordination-grammar-realignment.md
+  docs/synthesis/coordination-grammar.md
+tmp/ artifacts: not in tree (untracked as required)
+Result: PASS (2 files, allowlist matches exactly)
+
+--- Active-commit minimal-diff (DRAFT..ACTIVE) ---
+docs/research/canon-decisions/0060-coordination-grammar-realignment.md
+Count: 1 file
+Result: PASS
+
+=== FINAL VERIFICATION ROLL-UP ===
+AC1 Preflight:          PASS
+AC2 Audit manifest:     PASS (tmp/adr-0060-audit-manifest-2026-04-23.md, 10 sections)
+AC3 Decision-brief:     PASS (R.full/S/R.partial + recommendation + Step-2 form)
+AC4 Operator decision:  PASS (Option R.partial + defaults per Step-2 gate response)
+AC5 ADR-0060 file:      PASS (frontmatter matches ADR-0058/0059 schema; §Context/§Decision/§Consequences present; related_adrs includes 0044/0048/0049/0050/0051/0053/0056/0058/0059 — 9 references, AC requirement ≥8)
+AC6 Option executed:    PASS (disposition log written, 13 rows)
+AC7 Stale-term greps:   PASS (0 hits for 11 primitive|eleven primitive|Self-similarity|fractal applicability|zoom.invariance)
+AC8 Preserved-term:     PASS (nine-primitive 3, joint-commitment 6 case-insensitive, reproduction 4)
+AC9 Option S checks:    N/A (Option R.partial selected)
+AC10 Validator post:    PASS (9/30 held)
+AC11 Session-atomic:    PASS (26s draft→active)
+AC12 No git add -A:     PASS (explicit staging only)
+AC13 Allowlist:         PASS (2 files, matches Option R.partial allowlist exactly)
+AC14 Active-diff=1:     PASS (1 file flipped status only)
+AC15 Close-out report:  PENDING (returned to main with this manifest)
+

@@ -1,0 +1,118 @@
+ADR-0066 CLOSE-OUT MANIFEST
+===========================
+Date: 2026-04-24 (local 2026-04-23 ~19:24 PDT)
+Branch: main
+Authored by: child executor (K3a reclassify decision)
+
+COMMIT SHAS
+-----------
+PREEXEC_SHA:  5b4fa864a39d6e4a13b3292a44218c8449596ed2
+DRAFT_SHA:    8771a3eb0c64dcf7fe588a043ab2ba6e52f6ffe8
+ACTIVE_SHA:   0e43937b0793b63a744f4fbb489a8192a7fc0435
+
+SESSION-ATOMIC WINDOW
+---------------------
+Start timestamp: (captured at tmp/adr-0066-window-start.txt)
+End timestamp:   (captured at tmp/adr-0066-window-end.txt)
+Duration: 307 seconds (≈5m07s)
+Baseline comparison:
+  ADR-0057 (126 refs / 50 files): 17s
+  ADR-0065 spec-ADR (6-file allowlist): 524s
+  ADR-0066 5-file + rename: 307s
+
+Window duration in-band; spec-level reclassification with file rename + ADR authoring
+fits between pure-rename (ADR-0057) and multi-file spec-ADR (ADR-0065).
+
+VALIDATOR PARITY
+----------------
+Pre-exec:   FAILED: 9 error(s), 30 warning(s)
+Post-exec:  FAILED: 9 error(s), 30 warning(s)
+Delta: 0 new errors ✓ (Constraint 7 + AC11 PASS)
+
+IC + PM ZERO-CHANGE VERIFICATION
+--------------------------------
+IC HEAD-start: f15f96f33d7384c9c169594a8525eb2a6599bd3b
+IC HEAD-end:   f15f96f33d7384c9c169594a8525eb2a6599bd3b
+IC diff: empty ✓ (AC14 PASS)
+
+PM HEAD-start: 6d4935cf1e042475fb6a1ee007fea0ac0a567d8b
+PM HEAD-end:   6d4935cf1e042475fb6a1ee007fea0ac0a567d8b
+PM diff: empty ✓ (AC14 PASS)
+
+DIFF MANIFEST
+-------------
+git diff --name-status PREEXEC_SHA..ACTIVE_SHA:
+  M	docs/README.md
+  M	docs/governance/agent-commons-meta-protocol.md
+  R093	docs/governance/project-briefing-pattern.md	docs/governance/project-briefing-spec.md
+  M	docs/patterns/README.md
+  A	docs/research/canon-decisions/0066-project-briefing-pattern-audit-outlier-disposition.md
+
+Expected 6 artifact-paths per Constraint 1. Delivered: 6 ✓
+  - 1 rename (R093 = 93% similarity; frontmatter + H1 + opening-paragraph edits)
+  - 3 modifies
+  - 1 add
+  - 1 old-path absent (counted as rename source)
+
+ACCEPTANCE CRITERIA TABLE
+=========================
+AC1  Validator pre-baseline 9/30                       PASS (tmp/adr-0066-validator-pre.txt)
+AC2  Rename + history preserved via --follow           PASS (git log --follow returns 5+ commits pre-rename)
+AC3  Frontmatter doc_id/doc_kind/status/depends_on     PASS (doc_id: spore.project-briefing-spec; doc_kind: spec; status: active)
+AC4  H1 "Project Briefing Spec"                        PASS (verified via head -10 of renamed file)
+AC5  Opening-paragraph self-label removed              PASS ("Operational definition for assembling...")
+AC6  Body subsections unchanged                        PASS (R093 similarity preserves body; only frontmatter/H1/opening line 11 edited)
+AC7  Meta-protocol row 23 = spore.governance-memory    PASS (sed -n '23p' confirms)
+AC8  README.md:59 updated                              PASS (filename link + description aligned with reclassification)
+AC9  patterns/README.md audit-outlier section removed  PASS (Cross-references section now follows Parked admission candidates directly)
+AC10 ADR-0066 valid frontmatter, r_claim_source OMIT   PASS (decision: reclassify; supported_by = 5 ADRs ADR-0043/0048/0057/0064/0065; r_claim_source absent)
+AC11 Validator post 9/30                               PASS (tmp/adr-0066-validator-post.txt identical error-count)
+AC12 No orphaned current-state refs                    PASS (all spore.project-briefing-pattern + project-briefing-pattern.md refs in ADR-0065 historical + ADR-0066 audit-trail body prose only)
+AC13 DRAFT_SHA + ACTIVE_SHA captured; window duration  PASS (distinct SHAs; 307s duration)
+AC14 IC + PM HEADs unchanged                           PASS (diff empty for both)
+AC15 Status flipped draft → active in active-commit    PASS (active-commit diff shows 2 insertions + 2 deletions = status: draft → active + ## Status line)
+AC16 Two distinct commits; no --amend                  PASS (git log --oneline -3 shows both commits; no force-push, no --amend)
+AC17 Explicit paths only; no git add -A                PASS (diff shows exactly 6 expected artifact-paths; no unexpected files)
+
+17/17 ACs PASS
+
+CANON-METHOD CONTRIBUTIONS DOCUMENTED
+=====================================
+1. decline-pattern-status-via-reclassification (new; 4th decline-shape joining ADR-0054/0055/0061)
+2. structural-sibling-pairing audit-technique (new; reusable for future doc_kind audits)
+3. meta-protocol canonical-example-coherence-check (new anti-drift discipline)
+
+Documented in ADR-0066 §Consequences §Positive.
+
+PARKING ITEMS SURFACED DURING EXECUTION
+=======================================
+None new. All previously-parked items from ADR-0065 preserved in ADR-0066 §Parking lot:
+- federation-encounter pattern-library admission (composition-pattern under ADR-0065)
+- four-enabling-conditions admission (design-criteria-pattern)
+- view-template admission (catalog-pattern)
+- Validator schema ADR for `archived` status enum (from ADR-0065 entry-gate investigation)
+- /end skill validator-check workflow integration
+- ADR-0059b commons-law L53/63/117 (LOW priority)
+- IC + PM coordinated grammar alignment (NOT triggered by ADR-0066; reserved)
+
+ROLLBACK TRIGGERS: NONE FIRED
+=============================
+- Rollback-0 (pre-exec validator ≠ 9/30): did not fire (9/30 baseline confirmed)
+- Rollback-1 (post-exec validator > +1 new error): did not fire (9/30 parity held)
+- Rollback-2 (orphaned current-state ref): did not fire (AC12 clean — only historical-ADR refs remain)
+- Rollback-3 (write to IC/PM): did not fire (AC14 diffs empty)
+- Rollback-4 (excluded-file modification): did not fire (diff manifest shows exactly 6 allowlisted paths)
+
+K4 DEFERRAL CLOSURE
+===================
+ADR-0065 §K4 deferral (line 160 + line 243 + lines 251-267) CLOSED by ADR-0066 active-commit.
+Audit-outlier count: 1 → 0.
+4-category canon-object-class inventory: 4 (preserved).
+Pattern sub-class count: 3 (preserved).
+Yaml v12 (unchanged).
+
+NEXT STEPS (per operator directive)
+===================================
+Step 9 CLAUDE.md housekeeping: OUT-OF-SCOPE per operator original directive; PARENT session handles.
+
+Return to operator with close-out summary. No push to origin (awaiting operator authorization).

@@ -1,0 +1,118 @@
+ADR-0065 Step 7.5 Verification Manifest
+Generated: 2026-04-24T01:10:27Z
+
+================================================================
+Session-atomic timing
+================================================================
+STEP3_START: 1776992503 (2026-04-24T01:01:43Z)
+ACTIVE_COMMIT: 1776993027 (2026-04-24T01:10:27Z)
+DURATION: 524 seconds (8m 44s)
+BUDGET: 2700 seconds (45 min)
+USAGE: 19.4% (well under budget)
+AC12 (≤2700s): PASS
+
+================================================================
+SHAs
+================================================================
+PREEXEC_SHA:  1c7ec641d47d6e45e9dae83fb08d7273c0711956
+DRAFT_SHA:    bc54da02310c4f0f17ccb151d7209baa362eb2f6  (canon: ADR-0065 ... draft)
+ACTIVE_SHA:   1b76701ecd8970eae40b2a94c9fda0b409ab00bb  (canon: activate ADR-0065 ...)
+
+================================================================
+AC verification results (27 ACs)
+================================================================
+AC1  — preflight manifest OK                               PASS
+AC2  — audit manifest OK (includes sub-class-candidate)    PASS (reused from earlier session)
+AC3  — decision-brief ≥33 options, 11 axes                 PASS (revised prior to Step 2)
+AC4  — Step 2 operator directive captured + allowlist      PASS (fast-path)
+AC5  — ADR-0065 frontmatter; related_adrs = 8 ADR-IDs,
+       NO ADR-0066 forward-ref                             PASS
+AC6  — canon-review-protocol.md lines 34+58 edited with
+       I4 4-framing acknowledgment                         PASS
+AC7  — four-categories parallel in governance-artifacts
+       with M4 3 sub-classes named                         PASS
+AC8  — Axis C C3 tiered schema in docs/patterns/README.md  PASS
+AC9  — Axis H1 required-going-forward: yaml v12 unchanged  PASS
+AC10 — Axis J1 none: 0 files under docs/patterns/ edited
+       (README is new, not backfill of existing 5;
+       project-briefing-pattern excluded per K4)           PASS
+AC11 — validator stable-field post = 9/30                  PASS
+AC12 — session-atomic ≤ 45 min                             PASS (524s used)
+AC13 — no git add -A; explicit git add per file            PASS (5 files adds + 1 active add)
+AC14 — allowlist UNION: comm -23 returns empty             PASS
+AC15 — active-commit diff = 1 file (status: flip only)     PASS
+AC16 — audit findings paraphrased into ADR §Context        PASS (audit-delta section)
+AC17 — IC + PM HEAD unchanged + clean                      PASS
+         IC HEAD: f15f96f (matches baseline)
+         PM HEAD: 6d4935c (matches baseline)
+AC18 — close-out report delivered                          (pending Step 8)
+AC19 — ADR body §M4 Sub-class Framework section with 3
+       sub-class definitions + 3 candidate-mappings        PASS
+AC20 — ADR §Consequences K4 deferral paragraph +
+       forward-ref ADR-0066 body-only                      PASS
+AC21 — project-vision.md §111 updated with 3 sub-classes   PASS
+AC22 — audit-validity-at-HEAD-shift: 84ea597..1c7ec64 =
+       only hermes + (84ea597..HEAD = only allowlist paths) PASS
+AC23 — §M4 earning-test definitions inherit plan §M4;
+       N-thresholds deferred with Johar-4/view-template-5
+       exemplars                                            PASS
+AC24a — supported_by = 8 ADR-IDs, no tmp/ paths            PASS
+AC24b — §Context body references ≥5 canonical sources     PASS (project-vision.md:10/:111/:299 +
+                                                                canon-review-protocol.md:34+58 +
+                                                                governance-artifacts.md +
+                                                                5 docs/patterns/*.md +
+                                                                governance/project-briefing-pattern.md +
+                                                                concepts-p2p-wiki.yaml = 9 of 10)
+AC25 — validator exact 9/30 (not ≥)                        PASS
+AC26 — required tmp/ artifacts present + readable          PASS (entry gate)
+AC27 — git diff on docs/governance/project-briefing-
+       pattern.md returns empty (K4 untouched)             PASS
+
+================================================================
+Changed-file allowlist match
+================================================================
+git diff --name-only 1c7ec64..1b76701:
+  docs/foundations/governance-artifacts-and-graph-projections.md  ✓ allowlist
+  docs/patterns/README.md                                          ✓ allowlist (new)
+  docs/project-vision.md                                           ✓ allowlist
+  docs/research/canon-decisions/0065-pattern-library-
+    infrastructure-spec.md                                         ✓ allowlist (new)
+  docs/research/planning/canon-review-protocol.md                 ✓ allowlist
+
+comm -23 (diff vs allowlist): empty = PASS
+
+================================================================
+Validator evidence
+================================================================
+Pre-validator  (HEAD 1c7ec64):  FAILED: 9 error(s), 30 warning(s)
+Post-validator (HEAD 1b76701):  FAILED: 9 error(s), 30 warning(s)
+Delta: 0 errors, 0 warnings (exact-9/30 held per AC25)
+
+================================================================
+IC + PM cross-repo read-only check
+================================================================
+IC repo (/Users/darrenzal/projects/intelligence-commons):
+  HEAD before: f15f96f33d7384c9c169594a8525eb2a6599bd3b
+  HEAD after:  f15f96f33d7384c9c169594a8525eb2a6599bd3b  (identical)
+  git diff --quiet: exit 0 (clean)
+
+PM repo (/Users/darrenzal/projects/poietic-match):
+  HEAD before: 6d4935cf1e042475fb6a1ee007fea0ac0a567d8b
+  HEAD after:  6d4935cf1e042475fb6a1ee007fea0ac0a567d8b  (identical)
+  git diff --quiet: exit 0 (clean)
+
+Zero-new-changes verified both repos.
+
+================================================================
+Push status
+================================================================
+Push HELD per plan §Push HELD until operator explicit authorization.
+Origin branches NOT advanced.
+
+================================================================
+Summary
+================================================================
+27/27 ACs PASS. Session-atomic 524s (19% of 45-min budget).
+M4 sub-class framework established in canon. K4 defer-to-ADR-0066
+preserved. Three downstream admissions tractable.
+Ready for Step 8 close-out.

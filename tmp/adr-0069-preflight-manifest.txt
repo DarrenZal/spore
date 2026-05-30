@@ -1,0 +1,27 @@
+ADR-0069 Preflight Manifest
+Date: 2026-04-23
+Working directory: /Users/darrenzal/projects/spore
+Branch: main
+
+Spore repo baseline
+- HEAD start: 4e711ac150253a011749673bcc810bb40891e368
+- ADR slot 0069: empty at session start
+- Concepts yaml: docs/research/concepts-p2p-wiki.yaml
+- Concepts yaml status/version: frozen / v13
+- Concepts yaml frozen_at: 2026-04-24
+
+Validator baseline
+- Command: python3 scripts/validate_spec_dag.py
+- Result: FAILED
+- Counts: 9 errors / 30 warnings
+
+Sibling repo baselines (read-only)
+- Intelligence Commons HEAD start: f15f96f33d7384c9c169594a8525eb2a6599bd3b
+- Poietic Match HEAD start: 6d4935cf1e042475fb6a1ee007fea0ac0a567d8b
+
+Tracked modifications at session start
+- M CLAUDE.md
+
+Notes
+- Constraint-10 tracked-file tripwire observed only for CLAUDE.md at session start.
+- Untracked files were present at session start; not treated as tracked-file modifications for Constraint 10.

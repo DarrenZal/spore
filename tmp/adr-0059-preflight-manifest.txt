@@ -1,0 +1,88 @@
+ADR-0059 Preflight Manifest
+Generated: 2026-04-23
+Executed by: Claude Sonnet 4.6
+
+=== PREEXEC_SHA ===
+PREEXEC_SHA=2c3d2014d02a1c982662b72b69aaf0b575fc7ac5
+
+=== GATE 1: HEAD ancestry ===
+HEAD SHA: 2c3d2014d02a1c982662b72b69aaf0b575fc7ac5
+git merge-base --is-ancestor 2c3d201 HEAD: PASS
+RESULT: PASS
+
+=== GATE 2: Working-tree clean (13 target files) ===
+All 13 target files show empty git status --short output.
+RESULT: PASS
+
+=== GATE 3: ADR-0059 slot check ===
+ls docs/research/canon-decisions/0059-*.md returned no matches.
+RESULT: PASS (slot empty)
+
+=== GATE 4: Previous ADR status ===
+grep '^status:' docs/research/canon-decisions/0058-*.md → status: active
+RESULT: PASS
+
+=== GATE 5: Validator baseline ===
+errors=9 warnings=30 (warnings use 'warn:' lowercase prefix)
+RESULT: PASS (9/30 confirmed)
+
+=== GATE 6: Target-file existence (13 files) ===
+OK: docs/foundations/lexicon/stigmergy.md
+OK: docs/foundations/governance-artifacts-and-graph-projections.md
+OK: docs/foundations/federation-protocol.md
+OK: docs/patterns/intent-publication-and-activation.md
+OK: docs/patterns/discourse-as-governance.md
+OK: docs/positioning/civic-infrastructure-convergence.md
+OK: docs/positioning/hyperstition-as-coordination.md
+OK: docs/project-vision.md
+OK: README.md
+OK: docs/README.md
+OK: docs/research/connections/johar-neuroplastic-field.md
+OK: docs/synthesis/decision-memo.md
+OK: docs/research/connections/open-civics.md
+RESULT: PASS (all 13 exist)
+
+=== GATE 7: Depends_on doc_id verification ===
+ADR-0029: spore.canon-decision.governance-memory-framing-cleanup  ✓
+ADR-0044: spore.canon-decision.core-thesis-primitive-roster-alignment  ✓
+ADR-0050: spore.canon-decision.sociality-side-b-plus-primitive  ✓
+ADR-0056: spore.canon-decision.phase-2c-semantic-refactoring-bundle  ✓
+ADR-0057: spore.canon-decision.governance-artifacts-file-rename  ✓
+ADR-0058: spore.canon-decision.phase-2c-graph-projections-dual-axis-bundle  ✓
+All doc_ids match expected values.
+RESULT: PASS
+
+=== PRE-EDIT BASELINE COUNTS ===
+(grep -cE "intent-pressure|constitutional artifact|governance-memory layer|self.similar|fractal|zoom.invariance|10 primitive|eleven primitive")
+docs/foundations/lexicon/stigmergy.md: 2
+docs/foundations/governance-artifacts-and-graph-projections.md: 4
+docs/foundations/federation-protocol.md: 0
+docs/patterns/intent-publication-and-activation.md: 1
+docs/patterns/discourse-as-governance.md: 1
+docs/positioning/civic-infrastructure-convergence.md: 2
+docs/positioning/hyperstition-as-coordination.md: 4
+docs/project-vision.md: 2
+README.md: 1
+docs/README.md: 1
+docs/research/connections/johar-neuroplastic-field.md: 2
+docs/synthesis/decision-memo.md: 4
+docs/research/connections/open-civics.md: 0
+
+=== README disambiguation ===
+docs/README.md carries the 'governance-memory layer' hit (line 3).
+README.md carries a 'constitutional artifact' family-name hit (line 40).
+Both will be edited.
+
+=== KEY A1 FINDINGS ===
+stigmergy.md:11 - relates_to: spore.term.intent-pressure (PRESERVE frontmatter)
+stigmergy.md:81 - body ref to ./intent-pressure.md (relative path — REWRITE to connections/)
+governance-artifacts.md:125 - "latent intent-pressure" concept usage (VERIFIED-NEUTRAL)
+intent-publication-and-activation.md:44 - "latent intent-pressure" concept (VERIFIED-NEUTRAL)
+civic-infrastructure-convergence.md:8 - relates_to: spore.term.intent-pressure (PRESERVE frontmatter)
+civic-infrastructure-convergence.md:124 - ../foundations/lexicon/intent-pressure.md relative path (REWRITE)
+hyperstition-as-coordination.md:7 - relates_to: spore.term.intent-pressure (PRESERVE frontmatter)
+hyperstition-as-coordination.md:56 - ../foundations/lexicon/intent-pressure.md relative path (REWRITE)
+hyperstition-as-coordination.md:87 - ../foundations/lexicon/intent-pressure.md relative path (REWRITE)
+
+=== OVERALL PREFLIGHT RESULT ===
+ALL GATES PASS — execution authorized to proceed.

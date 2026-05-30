@@ -1,0 +1,26 @@
+ADR-0061 Preflight Manifest
+Generated: 2026-04-23
+
+PREEXEC_SHA: 512d008705d3f5dcd2b7874532f5ea43aade110c
+
+Gates:
+[PASS] HEAD ancestry: 512d008 confirmed (exact match; descendant-or-equal satisfied)
+[PASS] Working-tree clean (scoped): only untracked file in docs/research/connections/ is hermes-agent-adversarial-self-trust.md (untracked, not staged); canon-decisions/ clean; concepts-p2p-wiki.yaml clean
+[PASS] Slot availability: ls docs/research/canon-decisions/0061-*.md returns 0
+[PASS] ADR-0060 status: active
+[PASS] Target files exist:
+  - docs/research/canon-decisions/0047-power-multi-layer-decomposition.md ✓
+  - docs/research/canon-decisions/0050-sociality-side-b-plus-primitive.md ✓
+  - docs/research/canon-decisions/0052-reciprocity-trust-glossary-with-framing.md ✓
+  - docs/research/connections/canon-framing-derived-terms-reciprocity-trust.md ✓
+  - docs/research/concepts-p2p-wiki.yaml ✓ (NOTE: path is docs/research/concepts-p2p-wiki.yaml, not repo root)
+[PASS] Validator baseline: 9 errors / 30 warnings (matches expected 9/30 baseline)
+[PASS] Concepts yaml version: v12 (comment line 2: "# version: v12")
+
+Sibling repo SHAs for audit evidence:
+  IC HEAD: f15f96f33d7384c9c169594a8525eb2a6599bd3b
+  PM HEAD: 6d4935cf1e042475fb6a1ee007fea0ac0a567d8b
+
+Note on yaml path: actual path is docs/research/concepts-p2p-wiki.yaml (plan assumptions said repo root — corrected here for all subsequent steps).
+
+PREFLIGHT: PASS — proceeding to Step 0.5 earning-test audit.

@@ -1,0 +1,67 @@
+ADR-0067 PREFLIGHT MANIFEST
+============================
+Timestamp: 2026-04-24 (local 2026-04-23 ~19:30 PDT)
+Author: child executor
+
+ENVIRONMENT
+-----------
+cwd: /Users/darrenzal/projects/spore
+branch: main
+HEAD: 0e43937b0793b63a744f4fbb489a8192a7fc0435 (ADR-0066 active; descendant of ADR-0065)
+HEAD message: "canon: activate ADR-0066 project-briefing-pattern audit-outlier disposition (K3a reclassify to doc_kind: spec)"
+
+ADR SLOT STATUS
+---------------
+Last entries in docs/research/canon-decisions/:
+  0064-co-presence-field-condition-disposition.md
+  0065-pattern-library-infrastructure-spec.md        ← active
+  0066-project-briefing-pattern-audit-outlier-disposition.md  ← active
+ADR-0067 slot: EMPTY ✓
+
+VALIDATOR BASELINE
+------------------
+Command: python3 scripts/validate_spec_dag.py
+Tail output: FAILED: 9 error(s), 30 warning(s)
+Exact baseline: 9 errors / 30 warnings ✓
+
+IC + PM HEAD-START (read-only anchors)
+--------------------------------------
+IC:  f15f96f33d7384c9c169594a8525eb2a6599bd3b
+PM:  6d4935cf1e042475fb6a1ee007fea0ac0a567d8b
+
+CONCEPTS YAML
+-------------
+v12 (unchanged) — no slug admission expected for ADR-0067
+
+UNTRACKED FILE SURVEY (strict-scope check)
+------------------------------------------
+Pre-existing tmp/adr-0066-* and tmp/adr-0067-preflight-manifest.txt (in creation).
+No tracked canon-scope files have uncommitted modifications (`git status --short` shows only untracked files).
+
+AUDIT TARGET
+------------
+Primary: scripts/validate_spec_dag.py (323 lines; DECISION_RECORD_STATUSES at line 110)
+Secondary: docs/research/planning/canon-review-protocol.md §Status lifecycle (lines 141-145)
+Tertiary: docs/research/external/ruddick-2026-commitment-pool-route-graphs.md (evidence-chain file)
+Optional (Axis B dependent): /Users/darrenzal/projects/darren-workflow/skills/end/SKILL.md (130 lines)
+
+PARKING-SOURCE CITATIONS
+------------------------
+ADR-0065 §Parking lot entries (lines 340-341):
+  - "Validator schema ADR for `archived` status enum addition (flagged during entry-gate investigation 2026-04-24; ruddick-2026 file drift)"
+  - "Workflow-discipline validator-check in `/end` skill (flagged during entry-gate investigation; detect untracked-working-tree drift that changes validator baseline between preflight and execution)"
+
+Ruddick commits (evidence chain):
+  - f24b0d8 "canon: fix ruddick research frontmatter (status: archived → superseded per file's own archivist note citing IndigenomicsAI + X3 successor)"
+  - 1c7ec64 "canon: ruddick research status superseded → deprecated (superseded requires superseded_by companion; deprecated is least-wrong enum value pending validator schema ADR to add 'archived' as first-class status)"
+
+DECISION-GATED PLAN POSTURE
+---------------------------
+Steps 0 / 0.5 / 1 / 2 = OUTSIDE session-atomic window (current phase; this manifest + audit + decision-brief + plan)
+Steps 3 / 4 / 5 / 6 / 7 / 7.5 = INSIDE window (post operator Step-2 decision)
+Step 8 = close-out manifest
+Step 9 = CLAUDE.md housekeeping — OUT-OF-SCOPE (parent handles)
+
+READ-ONLY REPOS AT AUTHORING START
+-----------------------------------
+IC + PM: unchanged; zero-new-changes to be verified at Step 7.5 post-execution.

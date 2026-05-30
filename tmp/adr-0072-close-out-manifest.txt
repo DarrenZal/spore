@@ -1,0 +1,159 @@
+ADR-0072 Close-out Manifest
+Date: 2026-04-25
+ADR: spore:ADR-0072 /end skill validator-check integration
+Bundle: α (A1 + B2 + C4 + D1 + E1 + F3 + G1 + H3 + I2)
+
+===============================================
+Per-axis disposition ratified
+===============================================
+
+A = A1 DECISION-RECORD (standard shape)
+B = B2 NO-BASELINE ABSOLUTE (parsimony-first; B1 upgrade-path preserved)
+C = C4 NEVER (implied by B2)
+D = D1 WARN (D2 architecturally impossible under B2 + Spore 9/30 baseline)
+E = E1 FULL-PASS (validator <1s)
+F = F3 SEQUENTIAL (Spore ADR this session; darren-workflow SKILL.md deferred)
+G = G1 NARROW (only /end skill in ADR scope)
+H = H3 CONFIGURABLE (detect-and-run per repo)
+I = I2 NOTE (one-line info if validator absent)
+
+Constraint-10 disposition: (b) LEAVE-TO-PARENT for darren-workflow/memory/MEMORY.md
+
+===============================================
+Commits
+===============================================
+
+Spore PREEXEC_SHA:       0800679c3e243571962d8da774e17ff705aea151
+Spore draft SHA:         6235128 (canon: ADR-0072 ... draft)
+Spore active SHA:        99db4a636219e7ca3a0511f6d02f2ce9186f8825 (active)
+
+No darren-workflow commits (F3 SEQUENTIAL; deferred).
+No IC commits (read-only; held at 8ce665e).
+No PM commits (read-only; held at 86f2d4b).
+No koi-processor commits (read-only; out of scope).
+
+===============================================
+Validator parity
+===============================================
+
+Step 0 baseline:   FAILED: 9 error(s), 30 warning(s)
+Step 4 re-verify:  FAILED: 9 error(s), 30 warning(s)
+Step 6 post-draft: FAILED: 9 error(s), 30 warning(s)
+Step 7.5 final:    FAILED: 9 error(s), 30 warning(s) (from Spore root)
+
+HELD EXACT ✓
+
+===============================================
+Cross-repo read-only verification
+===============================================
+
+IC HEAD:             8ce665ee28633efbfc4182a083ac8b279b53fd76 (unchanged ✓)
+PM HEAD:             86f2d4b1c3e21e359886e2e606b56aecc2ba8e01 (unchanged ✓)
+darren-workflow HEAD: 021153ee8908f4f850fce754a1639d537b156b30 (unchanged ✓)
+SKILL.md md5:        c2ca8b1ca69d484e8a8dd3dfe6bb67b9 (unchanged ✓)
+memory/MEMORY.md:    M status preserved from parent-session; NOT committed this session ✓
+
+===============================================
+Acceptance Criteria
+===============================================
+
+1. ADR-0072 file created at correct path                                   ✓
+2. Frontmatter status: draft at Step 5a with all required fields           ✓
+3. Per-axis decisions (Bundle α) cited in authorized_by field              ✓
+4. Validator 9/30 parity after Step 5a draft commit                        ✓
+5. status: active at Step 7; closed-on field set                           ✓
+6. Validator 9/30 parity after Step 7 active commit                        ✓
+7. IC HEAD parity held (8ce665e unchanged)                                 ✓
+8. PM HEAD parity held (86f2d4b unchanged)                                 ✓
+9. darren-workflow HEAD + SKILL.md md5 unchanged; MEMORY.md NOT touched    ✓
+10. Cross-repo citation: SKILL.md path + line numbers (F2 form, no SHA)    ✓
+11. Parking-source trace: ADR-0065 §Parking lot line 341 + ADR-0067 B5     ✓
+12. §Consequences documents 3 method-precedents per operator directive    ✓
+13. Close-out manifest written to tmp/adr-0072-close-out-manifest.txt      ✓
+14. Plan file: denied by sandbox; documented in §Implementation Notes;
+    decision-brief serves as authoritative plan per operator directive     ✓ (documented)
+15. Explicit-path staging; no push; within session-atomic budget           ✓
+
+All 15 ACs PASS.
+
+===============================================
+Session-atomic span
+===============================================
+
+Step 5a draft commit:  6235128
+Step 7 active commit:  99db4a6
+Draft → active window: under 2 minutes (well within 2700s budget)
+
+===============================================
+Method-precedent contributions (§Consequences)
+===============================================
+
+1. Spore-ADR-documenting-deferred-cross-repo-implementation pattern (F3 SEQUENTIAL;
+   inherits from spore:ADR-0071 A3 SEQUENTIAL but targets darren-workflow
+   non-canon-bearing third-repo rather than canon-adjacent koi-processor)
+
+2. Validator-check-as-parsimony-first-workflow-integration (B2 + D1 minimum viable;
+   B1 + D4 upgrade-path preserved; B2 × D2 architectural-impossibility-under-
+   failed-baseline analysis documented)
+
+3. Implicit-citation discipline for deferred implementation (F2 file-path +
+   line-numbers; no commit-SHA pin since target-state not yet committed; parallels
+   ADR-0071 F2 but distinction: ADR-0071 pinned SHAs for live-state files;
+   ADR-0072 omits SHAs for target-state files that don't yet exist)
+
+===============================================
+Canon state (post-ADR-0072)
+===============================================
+
+Primitives:              9 (PRESERVED)
+Doctrines:               3 (PRESERVED)
+Modes:                   2 (PRESERVED)
+Properties:              2 (PRESERVED)
+Derived glossary slugs:  6 (PRESERVED)
+In-scope patterns:       7 (PRESERVED)
+Concepts yaml:           v14 (PRESERVED)
+Validator baseline:      9/30 (HELD EXACT)
+
+Canon-object-class inventory: 4 categories (primitives / doctrines / modes /
+properties; patterns admit under M4 sub-class framework) — PRESERVED.
+
+ADR-0065 §Parking lot: items (1) + (2) CLOSED.
+ADR-0067 Axis B5 deferral: CLOSED.
+
+Canon-rebuild arc: 24 canon-decisions (ADRs 0044-0058, 0061-0072, 0059a).
+
+===============================================
+Parking items (carried forward)
+===============================================
+
+- Follow-on session: darren-workflow skills/end/SKILL.md edit (F3 SEQUENTIAL;
+  3-5 min; same-week target cadence; also handles MEMORY.md parent-session
+  drift disposition independently)
+- Upgrade-path B1 + C1 + D4 (file-persisted baseline + tiered enforcement;
+  triggered on repeated untracked-drift incidents despite warning-surfacing)
+- H3 detection-pattern evolution (if future repos adopt differently-named
+  validators)
+- G2 wide-scope audit (if other darren-workflow skills need validator-check
+  hooks; requires evidence-based audit per ADR-0064 cluster-counting)
+- ADR-0059b commons-law L53/63/117 (LOW; 3 residual refs)
+- PM canon prose realignment (ADR-0071 follow-on; LOW)
+- koi-processor infra prose realignment (ADR-0071 follow-on; LOW)
+- Forward-reference precedent for ADR authorship (relative-phrasing vs
+  re-anchoring convention; parking for canon-review-protocol refinement)
+
+===============================================
+Plan file anomaly
+===============================================
+
+Intended location: /Users/darrenzal/.claude/plans/adr-0072-end-skill-validator-check-integration.md
+Actual disposition: sandbox denied Write + Bash write-access to ~/.claude/plans/
+  for this child session (two attempts rejected).
+Resolution: plan content embedded in decision-brief at
+  /Users/darrenzal/projects/spore/tmp/adr-0072-decision-brief-2026-04-25.md
+  with a "Plan Structure (embedded)" section.
+Operator directive (pre-Step-3): "at Step 3, attempt to write plan content to
+  /Users/darrenzal/.claude/plans/... If sandbox denies, document in ADR
+  §Implementation Notes and proceed with tmp/-hosted plan." — honored.
+ADR §Implementation Notes §bullet-1 records the anomaly.
+
+===============================================

@@ -1,0 +1,53 @@
+ADR-0071 Verification Manifest
+Date: 2026-04-24
+
+Spore commit sequence:
+- Draft commit: d5fed2c1ed65f4d08095cc71ae48a15768352937
+- Active commit: fb27e00ebbebcbd692c8e908aa5ac1ed585f20d6
+
+Committed messages:
+- `d5fed2c` — `draft: author ADR-0071 cross-repo projection-script PM-registration alignment`
+- `fb27e00` — `canon: activate ADR-0071 cross-repo projection-script PM-registration alignment`
+
+Files changed in-session:
+- `docs/research/canon-decisions/0071-cross-repo-projection-script-pm-registration-alignment.md`
+
+Files not changed in-session:
+- no `koi-processor` files
+- no `poietic-match` files
+- no `intelligence-commons` files
+- no Spore canon-body files beyond ADR-0071
+
+Validator parity:
+- Command: `python3 scripts/validate_spec_dag.py`
+- Output file: `tmp/adr-0071-validator-final.txt`
+- Final line: `FAILED: 9 error(s), 30 warning(s)`
+- Result: baseline held exactly
+
+Cross-repo HEAD-end verification:
+- Spore HEAD-end: `fb27e00ebbebcbd692c8e908aa5ac1ed585f20d6`
+- koi-processor HEAD-end: `006be2d54cf975597d9de596582130b147c3d9f1`
+- IC HEAD-end: `8ce665ee28633efbfc4182a083ac8b279b53fd76`
+- PM HEAD-end: `86f2d4b1c3e21e359886e2e606b56aecc2ba8e01`
+
+Cross-repo zero-change discipline:
+- koi-processor:
+  - tracked-file modifications: none
+  - untracked parent-session-state remained unchanged
+  - HEAD-end short SHA: `006be2d5`
+- IC:
+  - HEAD-end matched Step 0 baseline exactly
+- PM:
+  - HEAD-end matched Step 0 baseline exactly
+
+Explicit-path staging discipline:
+- used explicit add path only:
+  - `/Users/darrenzal/projects/spore/docs/research/canon-decisions/0071-cross-repo-projection-script-pm-registration-alignment.md`
+- no `git add -A`
+- no `git add .`
+
+Step 7.5 result:
+- PASS
+- ADR-0071 is active in Spore
+- sibling repos remained unchanged
+- no push performed

@@ -1,0 +1,39 @@
+ADR-0070 verification manifest
+Date: 2026-04-24
+
+Draft commit:
+e4fb98a26f4e4800806cf0ee90c7a52e110767d5
+
+Active commit:
+78edd2df831d3cf2f5014ad1249bc68822d665cc
+
+Allowlisted repo paths committed:
+- docs/research/canon-decisions/0070-view-template-catalog-pattern.md
+- docs/patterns/view-template.md
+- docs/research/concepts-p2p-wiki.yaml
+- docs/patterns/README.md
+
+Validator baseline preserved:
+- pre: tmp/adr-0070-validator-pre.txt
+- post-draft: tmp/adr-0070-validator-post-draft.txt
+- post-active: tmp/adr-0070-validator-post.txt
+- expected/result: FAILED: 9 error(s), 30 warning(s)
+
+IC HEAD start/end:
+- f15f96f33d7384c9c169594a8525eb2a6599bd3b
+- f15f96f33d7384c9c169594a8525eb2a6599bd3b
+- status: unchanged
+
+PM HEAD start/end:
+- 6d4935cf1e042475fb6a1ee007fea0ac0a567d8b
+- 6d4935cf1e042475fb6a1ee007fea0ac0a567d8b
+- status: unchanged
+
+Tracked-file workspace check after active commit:
+- only pre-ratified parent-session housekeeping change remains: M CLAUDE.md
+- no other tracked modifications remain in spore worktree
+
+Notes:
+- explicit-path staging used for both commits
+- no edits made in IC or PM
+- no push performed

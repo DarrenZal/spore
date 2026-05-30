@@ -1,0 +1,100 @@
+ADR-0068 federation-encounter composition-pattern admission — PREFLIGHT MANIFEST
+================================================================================
+Date: 2026-04-24
+Operator: Darren Zal
+Session: fresh (/clear invoked at session start)
+
+HEAD SHAs (baseline)
+--------------------
+Spore (primary)   : 353e69f1bc15bcac3ecc62ba44bd37c350ea4a4b
+                    (last commit: "canon: activate ADR-0067 validator-schema
+                     archived-enum addition")
+IC (read-only)    : f15f96f33d7384c9c169594a8525eb2a6599bd3b  [expected match]
+PM (read-only)    : 6d4935cf1e042475fb6a1ee007fea0ac0a567d8b  [expected match]
+
+Validator baseline (scripts/validate_spec_dag.py)
+--------------------------------------------------
+9 errors / 30 warnings (MUST PRESERVE at end-of-execution)
+- 7 ERRORs are cross-repo doc_id-prefix drift (ic./pm.) — pre-existing
+- 1 ERROR dangling depends_on (johar-metacognition-stack — pre-existing)
+- 1 ERROR foundational-reframing-protocol-v1.md doc_id-prefix — pre-existing
+- 30 warns are raw-research-input pre-governance files (expected)
+
+ADR slot check
+--------------
+Last active canon-decision: 0067-validator-schema-archived-enum.md
+ADR-0068 slot: EMPTY — confirmed
+Numeric adjacency: no gaps in 0044–0067 sweep; ADR-0068 is the next slot.
+
+Concepts yaml state
+-------------------
+Path: docs/research/concepts-p2p-wiki.yaml
+Version: v12 (frozen 2026-04-22)
+Slug count: 60
+Latest vocab addition: ADR-0055 `encounter` derived glossary slug (v11→v12)
+
+IC + PM read-only baseline
+--------------------------
+IC HEAD start : f15f96f33d7384c9c169594a8525eb2a6599bd3b
+PM HEAD start : 6d4935cf1e042475fb6a1ee007fea0ac0a567d8b
+(Verify HEAD-end equals HEAD-start at Step 7 — zero-change discipline)
+
+Parent-session tracked-file modifications (Constraint 10 advance notice)
+------------------------------------------------------------------------
+`M CLAUDE.md` is pre-existing at session start (not introduced by this ADR).
+This was present through ADR-0065/0066/0067 executions per their
+preexec-status manifests — parent-session housekeeping that accumulates
+across sessions.
+
+Posture for ADR-0068: will NOT auto-stage; will stage ADR-0068 artifact-paths
+explicitly per Constraint 10 + explicit-path-staging discipline.
+
+Untracked scratch (expected, not in scope)
+------------------------------------------
+- AGENTS.md (new at session level)
+- docs/research/Sheaves/sheaf-theory-synthesis.md (parallel work)
+- docs/research/corpus-review/originals/{Core Primitives,Primitives,Primitives-1}.md
+- docs/research/synthesis/compositional-field-architecture.md (X5 skeleton)
+- spore-*.png (site screenshots, parent-session)
+- tmp/adr-0059…0067* (historical ADR manifests; keep untracked)
+- tools/ directory
+
+Status: CLEAN for ADR-0068 execution under explicit-path-staging.
+
+Canon-object-class inventory (verified from live canon, not cached memory)
+---------------------------------------------------------------------------
+Primitives (9)        : field / holon / membrane / intent / commitment /
+                        joint-commitment / evidence / signal / reproduction
+Cross-cutting doctrines (3)  : reproductive-commoning (ADR-0002) /
+                               boundary-commoning (ADR-0003) /
+                               care-commoning (ADR-0045)
+Modes-across-primitives (2)  : expressive-power / constructed-power (ADR-0048)
+Named properties (2)         : holon-irreducibility (ADR-0050) /
+                               relational-identity (ADR-0051)
+Derived glossary slugs (6)   : attestation-of-execution / permeability /
+                               double-boundary / reciprocity / trust / encounter
+
+Patterns (M4 sub-class framework per ADR-0065) — to verify at Step 0.5:
+  To audit: docs/patterns/ + docs/governance/ directories for actual listings;
+  surface-count may differ from cached 5.
+
+Trigger status from ADR-0055 §Parking
+-------------------------------------
+E-1 pattern-library-spec declared : CLOSED (via ADR-0065 existence)
+E-2 ≥3 multi-instance re-implementation reports : TBD (Step 0.5 audit)
+E-3 ≥3 cross-tradition convergence on event-discipline : TBD (Step 0.5 audit)
+E-4 operational grammar-insufficiency documented : TBD (Step 0.5 audit)
+E-5 Field sub-stratification separate-plan : FIRED (via ADR-0064
+    co-presence-Field-condition scope-conditioning)
+
+Preflight verdict
+-----------------
+- HEADs: match expected ✓
+- Validator: 9/30 baseline confirmed ✓
+- ADR slot: empty ✓
+- Sibling repos: read-only baseline recorded ✓
+- Explicit-path-staging discipline: confirmed ✓
+- Constraint-10 tripwire: M CLAUDE.md noted as pre-existing;
+  not auto-accept policy in effect for any Step 4+ changes to tracked files
+  outside allowlist
+READY to proceed to Step 0.5 audit.

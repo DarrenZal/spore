@@ -1,0 +1,2 @@
+docs/research/canon-decisions/0060-coordination-grammar-realignment.md
+docs/synthesis/coordination-grammar.md

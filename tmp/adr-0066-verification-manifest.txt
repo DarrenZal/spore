@@ -1,0 +1,5 @@
+M	docs/README.md
+M	docs/governance/agent-commons-meta-protocol.md
+R093	docs/governance/project-briefing-pattern.md	docs/governance/project-briefing-spec.md
+M	docs/patterns/README.md
+A	docs/research/canon-decisions/0066-project-briefing-pattern-audit-outlier-disposition.md

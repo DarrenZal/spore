@@ -1,0 +1,53 @@
+# ADR-0062 Preflight Manifest
+# Generated: 2026-04-23
+
+## PREEXEC_SHA
+7350f0d4bf49e2fa5cb03561c194c02bf34af7f1
+
+## Ancestry check (7350f0d is ancestor of HEAD)
+PASS
+
+## Working-tree clean gate (scoped to canon paths)
+PASS — only untracked file in scope-adjacent dir: docs/research/connections/hermes-agent-adversarial-self-trust.md (untracked, not in canon paths)
+
+## ADR-0062 slot availability
+PASS — ls docs/research/canon-decisions/0062-*.md → 0 files
+
+## ADR-0061 status gate
+PASS — status: active
+
+## Validator baseline
+PASS — 9 errors / 30 warnings (matches expected 9/30 baseline)
+Output: tmp/adr-0062-validator-pre.txt
+
+## Concepts yaml version
+PASS — # version: v12 (comment header)
+File: docs/research/concepts-p2p-wiki.yaml (actual path: docs/research/concepts-p2p-wiki.yaml)
+
+## Target file existence gate
+PASS — all source ADRs exist:
+  - docs/research/canon-decisions/0044-core-thesis-primitive-roster-alignment.md ✓
+  - docs/research/canon-decisions/0047-power-multi-layer-decomposition.md ✓
+  - docs/research/canon-decisions/0050-sociality-side-b-plus-primitive.md ✓
+  - docs/research/canon-decisions/0051-relational-identity-holon-property.md ✓
+  - docs/research/canon-decisions/0053-glossary-refinements-bundled.md ✓
+  - docs/research/canon-decisions/0054-rewilding-thesis-decline-with-triggers.md ✓
+  - docs/research/canon-decisions/0055-encounter-as-composition-framing-note.md ✓
+  - docs/research/canon-decisions/0061-asymmetric-joint-commitment-slug-disposition.md ✓
+  - docs/project-vision.md ✓
+  - docs/foundations/governance-artifacts-and-graph-projections.md ✓
+
+## IC HEAD (READ-ONLY)
+f15f96f33d7384c9c169594a8525eb2a6599bd3b
+
+## IC working-tree status at Step 0
+?? tmp/  (pre-existing untracked dir only; no modified tracked files)
+
+## PM HEAD (READ-ONLY)
+6d4935cf1e042475fb6a1ee007fea0ac0a567d8b
+
+## PM working-tree status at Step 0
+?? tmp/  (pre-existing untracked dir only; no modified tracked files)
+
+## All gates: PASS
+## Proceed to Step 0.5

@@ -1,0 +1,105 @@
+ADR-0065 Preflight Manifest
+Generated: 2026-04-24
+Executor: Child agent (Steps 0 + 0.5 + 1 OUTSIDE session-atomic window)
+
+================================================================
+Step 0 Preflight Results — All gates pass except one concern flagged
+================================================================
+
+GATE 1 — PREEXEC_SHA capture
+  Spore HEAD: 84ea597e44a2fb1e25d05ade48ba448795822d17
+  Expected: 84ea597 or descendant
+  Result: PASS (exact match)
+  Recent history: 84ea597 docs: CLAUDE.md /end session wrap — bc5c284d full arc summary
+                  dcaa159 docs: CLAUDE.md entry for ADR-0064 co-presence-Field-condition SCOPE-CONDITION
+                  982fb91 canon: activate ADR-0064 co-presence-field-condition-disposition
+
+GATE 2 — Working-tree clean gate (scoped)
+  Command: git status --short -- docs/research/canon-decisions/ docs/research/connections/
+                                    docs/project-vision.md
+                                    docs/foundations/governance-artifacts-and-graph-projections.md
+                                    docs/research/planning/canon-review-protocol.md
+                                    docs/research/concepts-p2p-wiki.yaml docs/patterns/
+  Result: ONE pre-existing untracked file in scoped path
+    ?? docs/research/connections/hermes-agent-adversarial-self-trust.md (11262 bytes, dated Apr 22)
+  Disposition: FLAGGED-NOT-ABORT. File is pre-existing (before ADR-0065 work).
+               It is NOT in the allowlist for ADR-0065. Child will NOT touch it.
+               Operator should decide pre-Step-3 whether this needs separate handling
+               (commit it, move to root tmp/, or accept as pre-existing scope exception).
+               Not a child-agent-introduced violation.
+
+GATE 3 — Slot-availability gate
+  Command: ls docs/research/canon-decisions/0065-*.md 2>/dev/null | wc -l
+  Result: 0 (no match)
+  PASS
+
+GATE 4 — Previous-ADR status gate
+  Command: grep '^status:' docs/research/canon-decisions/0064-*.md
+  Result: status: active
+  PASS
+
+GATE 5 — Validator baseline gate
+  Command: python scripts/validate_spec_dag.py > tmp/adr-0065-validator-pre.txt 2>&1
+  Final line: FAILED: 9 error(s), 30 warning(s)
+  Stable-field parse: 9/30
+  PASS (matches expected baseline)
+  Note: Initial grep missed warnings (validator uses lowercase "warn:" tokens).
+        Used validator footer line as authoritative count source.
+
+GATE 6 — Concepts yaml version gate
+  File: docs/research/concepts-p2p-wiki.yaml
+  Header:
+    # status: frozen
+    # version: v12
+    # frozen_at: 2026-04-22
+  Result: v12 (matches expected baseline)
+  PASS
+
+GATE 7 — IC/PM HEAD + status baseline capture
+  IC repo: /Users/darrenzal/projects/intelligence-commons
+    HEAD: f15f96f33d7384c9c169594a8525eb2a6599bd3b
+    Status: ?? tmp/  (pre-existing untracked tmp/; OK per ADR-0062/0063/0064 precedent)
+  PM repo: /Users/darrenzal/projects/poietic-match
+    HEAD: 6d4935cf1e042475fb6a1ee007fea0ac0a567d8b
+    Status: ?? tmp/  (pre-existing untracked tmp/; OK)
+  PASS — both baselines captured for Step 7.5 zero-new-changes verification
+
+GATE 8 — Target-file existence gate
+  ADR precedents:
+    docs/research/canon-decisions/0044-core-thesis-primitive-roster-alignment.md  EXISTS
+    docs/research/canon-decisions/0048-power-expressive-constructed-modes.md       EXISTS
+    docs/research/canon-decisions/0055-encounter-as-composition-framing-note.md    EXISTS
+    docs/research/canon-decisions/0058-phase-2c-graph-projections-dual-axis-bundle.md EXISTS
+    docs/research/canon-decisions/0061-asymmetric-joint-commitment-slug-disposition.md EXISTS
+    docs/research/canon-decisions/0062-membrane-as-self-produced-disposition.md    EXISTS
+    docs/research/canon-decisions/0063-participatory-sense-making-disposition.md   EXISTS
+    docs/research/canon-decisions/0064-co-presence-field-condition-disposition.md  EXISTS
+  Existing patterns (docs/patterns/):
+    commitment-pooling.md                      EXISTS
+    discourse-as-governance.md                 EXISTS
+    federated-knowledge-exchange.md            EXISTS
+    governance-memory.md                       EXISTS
+    intent-publication-and-activation.md       EXISTS
+    CLAUDE.md                                  EXISTS (pattern-library-internal-doc; inventory in Step 0.5)
+  Canon candidates for edits:
+    docs/project-vision.md                     EXISTS
+    docs/foundations/governance-artifacts-and-graph-projections.md   EXISTS
+    docs/research/planning/canon-review-protocol.md                  EXISTS
+    docs/research/concepts-p2p-wiki.yaml                             EXISTS
+  PASS — all targets present
+
+================================================================
+Summary
+================================================================
+Preflight result: 7 of 8 gates PASS cleanly; GATE 2 (scoped clean tree)
+flags ONE pre-existing untracked file (docs/research/connections/hermes-agent-adversarial-self-trust.md, Apr 22).
+This file is unrelated to ADR-0065, will not be touched by child, and is not in
+the ADR-0065 allowlist. Operator should decide pre-Step-3 whether to commit or
+defer; child recommendation: defer (zero-touch for ADR-0065 scope).
+
+All other gates PASS. Child proceeds to Step 0.5 audit.
+
+SHAs captured:
+  PREEXEC_SHA_spore = 84ea597e44a2fb1e25d05ade48ba448795822d17
+  IC_BASELINE_SHA   = f15f96f33d7384c9c169594a8525eb2a6599bd3b
+  PM_BASELINE_SHA   = 6d4935cf1e042475fb6a1ee007fea0ac0a567d8b

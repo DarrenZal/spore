@@ -1,0 +1,4 @@
+A	docs/patterns/federation-encounter.md
+A	docs/research/canon-decisions/0068-federation-encounter-composition-pattern.md
+M	docs/patterns/README.md
+M	docs/research/concepts-p2p-wiki.yaml

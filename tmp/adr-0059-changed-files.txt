@@ -1,0 +1,13 @@
+README.md
+docs/README.md
+docs/foundations/federation-protocol.md
+docs/foundations/governance-artifacts-and-graph-projections.md
+docs/foundations/lexicon/stigmergy.md
+docs/patterns/discourse-as-governance.md
+docs/positioning/civic-infrastructure-convergence.md
+docs/positioning/hyperstition-as-coordination.md
+docs/project-vision.md
+docs/research/canon-decisions/0059-downstream-bounded-parkings-cleanup.md
+docs/research/connections/johar-neuroplastic-field.md
+docs/research/connections/open-civics.md
+docs/synthesis/decision-memo.md

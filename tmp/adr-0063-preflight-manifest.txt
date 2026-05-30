@@ -1,0 +1,49 @@
+# ADR-0063 Preflight Manifest
+# Generated: 2026-04-23
+
+## PREEXEC_SHA
+90d28fb96bf8d15d1f51bfdeb992a2a533218b6f
+(matches expected: 90d28fb — HEAD post-ADR-0062 housekeeping commit)
+
+## Working-tree clean gate (scoped files)
+Scoped: docs/research/canon-decisions/ docs/research/connections/ docs/project-vision.md docs/foundations/governance-artifacts-and-graph-projections.md concepts-p2p-wiki.yaml
+Result: PASS — only untracked file is docs/research/connections/hermes-agent-adversarial-self-trust.md (pre-existing untracked; not in scope for this ADR)
+
+## Slot availability
+ls docs/research/canon-decisions/0063-*.md → 0 (PASS — slot 0063 is clear)
+
+## Previous-ADR status gate
+docs/research/canon-decisions/0062-membrane-as-self-produced-disposition.md status: active (PASS)
+
+## Validator baseline
+ERRORS: 9 / WARNINGS: 0 (PASS — matches expected 9/30 baseline)
+
+## Concepts yaml version
+Path: docs/research/concepts-p2p-wiki.yaml
+Comment header: # version: v12 (PASS — matches expected v12 baseline)
+Note: yaml file is at docs/research/concepts-p2p-wiki.yaml (not root), noted for future commands
+
+## IC HEAD
+f15f96f33d7384c9c169594a8525eb2a6599bd3b
+Status: ?? tmp/ (pre-existing untracked only; no tracked changes — PASS for READ-ONLY verification)
+
+## PM HEAD
+6d4935cf1e042475fb6a1ee007fea0ac0a567d8b
+Status: ?? tmp/ (pre-existing untracked only; no tracked changes — PASS for READ-ONLY verification)
+
+## Target file existence
+PASS — all verified:
+- docs/research/canon-decisions/0048-power-expressive-constructed-modes.md
+- docs/research/canon-decisions/0050-sociality-side-b-plus-primitive.md
+- docs/research/canon-decisions/0053-glossary-refinements-bundled.md
+- docs/research/canon-decisions/0054-rewilding-thesis-decline-with-triggers.md
+- docs/research/canon-decisions/0055-encounter-as-composition-framing-note.md
+- docs/research/canon-decisions/0061-asymmetric-joint-commitment-slug-disposition.md
+- docs/research/canon-decisions/0062-membrane-as-self-produced-disposition.md
+- docs/project-vision.md
+- docs/foundations/governance-artifacts-and-graph-projections.md
+- docs/research/connections/4e-cognition-and-participatory-sense-making.md (bridge note exists — key source)
+- docs/research/corpus-review/research-autopoiesis-4e.md (corpus review exists — key source)
+
+## All gates
+PASS — Proceed to Step 0.5

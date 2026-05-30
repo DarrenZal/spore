@@ -1,0 +1,79 @@
+ADR-0064 Verification Manifest — Step 5 + 7.5
+Generated: 2026-04-23
+
+=== Validator ===
+Pre-ADR: 9 errors / 30 warnings (baseline)
+Post-ADR: 9 errors / 30 warnings
+DELTA: 0 — BASELINE HELD
+
+=== Concepts yaml ===
+Pre-ADR: v12
+Post-ADR: v12 (unchanged per Option i.1 spec)
+
+=== Frontmatter check ===
+doc_id: spore.canon-decision.co-presence-field-condition-disposition
+doc_kind: decision-record
+adr_number: "0064"
+decision: scope-condition (per authoritative mapping rule)
+r_claim_source: OMITTED (no pre-registered review)
+status: active (post-flip commit)
+authorized-by: operator directive 2026-04-23 ADR-0064 Step-2 decision-gate
+  (Option i.1 prose-only scope-conditioning)
+
+=== IC + PM zero-new-changes ===
+IC HEAD pre: f15f96f
+IC HEAD post: f15f96f (MATCH)
+IC working tree: ?? tmp/ only (pre-existing)
+
+PM HEAD pre: 6d4935c
+PM HEAD post: 6d4935c (MATCH)
+PM working tree: ?? tmp/ only (pre-existing)
+
+=== Session-atomic window ===
+Start: 1776981233 (Step 3 post-operator-gate)
+End: 1776981840 (post-active-commit + verification)
+Duration: 607 seconds (≈10 minutes 7 seconds)
+Budget: 30 + 5 minutes
+Status: WELL UNDER BUDGET
+
+=== Changed files (Step 7.5 allowlist check) ===
+Option (i.1) allowlist: {
+  docs/project-vision.md,
+  docs/foundations/governance-artifacts-and-graph-projections.md,
+  docs/research/canon-decisions/0064-*.md
+}
+Actual changed files (git diff --name-only 04a9ce5..HEAD):
+  docs/foundations/governance-artifacts-and-graph-projections.md
+  docs/project-vision.md
+  docs/research/canon-decisions/0064-co-presence-field-condition-disposition.md
+MATCH: Yes (3 files; exactly matches allowlist)
+
+=== Commits ===
+Draft: 0c7440e (Option i.1 scope-conditioning, draft)
+Active: 982fb91 (activate ADR-0064)
+PREEXEC_SHA: 04a9ce5
+2 commits, no extras.
+
+=== Active-commit diff scope ===
+Active commit diff: 1 file (ADR-0064 only), 2 insertions + 2 deletions
+  (status: draft → active + Status-header flip)
+
+=== AC results ===
+AC1  Preflight manifest per plan                                PASS
+AC2  Step 0.5 audit manifest ≥5 cases + 7-cluster breadth       PASS (9 cases)
+AC3  Decision-brief with options + recommendation + Step-2      PASS
+AC4  Step 2 operator decision captured                          PASS (in frontmatter + brief)
+AC5  ADR-0064 file + frontmatter + related_adrs                 PASS
+AC6  Chosen option executed; dispositions logged                PASS (Option i.1)
+AC7  Yaml version per option                                    PASS (v12 unchanged)
+AC8  Validator 9/30 post-active                                 PASS
+AC9  Session-atomic ≤ 35 min                                    PASS (10m07s)
+AC10 No git add -A                                              PASS (explicit staging only)
+AC11 Changed-file allowlist matches option-specific             PASS (3 files = i.1 allowlist)
+AC12 Active-commit diff = 1 file                                PASS
+AC13 Audit findings paraphrased into ADR §Context               PASS
+AC14 IC + PM zero-new-changes                                   PASS
+AC15 Close-out report w/ breadth + precedent articulations      PENDING (Step 8)
+
+=== SUMMARY ===
+All Step-5/7.5 verification checks PASS.

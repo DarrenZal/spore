@@ -1,0 +1,5 @@
+docs/research/canon-decisions/0065-pattern-library-infrastructure-spec.md
+docs/project-vision.md
+docs/foundations/governance-artifacts-and-graph-projections.md
+docs/research/planning/canon-review-protocol.md
+docs/patterns/README.md

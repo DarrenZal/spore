@@ -1,0 +1,49 @@
+ADR-0060 PREFLIGHT MANIFEST
+Generated: 2026-04-23
+
+=== PREEXEC SHA ===
+PREEXEC_SHA: 39db70b9ace4ffff5960d280cf92a9b9ff59d4f0
+Ancestor check (39db70b in HEAD ancestry): PASS
+
+=== WORKING-TREE CLEAN GATE (scoped) ===
+Files checked:
+  - docs/synthesis/coordination-grammar.md
+  - docs/research/canon-decisions/ (directory)
+  - docs/research/connections/coordination-grammar-ground-truth-traces.md (does not exist — OK)
+Result: PASS (no uncommitted changes in target paths)
+
+=== SLOT-AVAILABILITY GATE ===
+ls docs/research/canon-decisions/0060-*.md: no matches (count = 0)
+Result: PASS
+
+=== PREVIOUS-ADR STATUS GATE ===
+grep '^status:' docs/research/canon-decisions/0059-downstream-bounded-parkings-cleanup.md
+  → status: active
+Result: PASS
+
+=== VALIDATOR BASELINE GATE ===
+Command: python scripts/validate_spec_dag.py > tmp/adr-0060-validator-pre.txt 2>&1
+ERRORS:   9 (pattern: '^\s*(ERROR|\[ERROR\])')
+WARNINGS: 30 (prefix: 'warn:' lines in output — 30 confirmed by line count)
+Note: grep pattern '\[WARN\]' returns 0 because warnings use 'warn:' prefix (not '[WARN]')
+Baseline confirmed 9 errors / 30 warnings per ADR-0059 established baseline.
+Result: PASS
+
+=== TARGET-FILE EXISTENCE GATE ===
+test -f docs/synthesis/coordination-grammar.md: PASS
+Line count: 303 (matches plan assumption)
+
+=== DEPENDS_ON DOC_ID CAPTURE ===
+ADR-0044: spore.canon-decision.core-thesis-primitive-roster-alignment
+ADR-0048: spore.canon-decision.power-expressive-constructed-modes
+ADR-0049: spore.canon-decision.reproduction-continuity-primitive-admission
+ADR-0050: spore.canon-decision.sociality-side-b-plus-primitive
+ADR-0051: spore.canon-decision.relational-identity-holon-property
+ADR-0056: spore.canon-decision.phase-2c-semantic-refactoring-bundle
+ADR-0058: spore.canon-decision.phase-2c-graph-projections-dual-axis-bundle
+ADR-0059: spore.canon-decision.downstream-bounded-parkings-cleanup
+
+=== SUMMARY ===
+All 7 preflight gates: PASS
+No aborts triggered.
+Proceeding to Step 0.5 (comprehensive audit).

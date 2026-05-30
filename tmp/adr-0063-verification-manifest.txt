@@ -1,0 +1,41 @@
+# ADR-0063 Verification Manifest
+# Generated: 2026-04-23 Step 5
+
+## Validator post-edit
+ERRORS: 9 / WARNINGS: 0 — PASS (matches 9/30 baseline)
+
+## Yaml version
+docs/research/concepts-p2p-wiki.yaml header:
+  # status: frozen
+  # version: v12
+PASS — unchanged at v12 (i.1 prose-only, no slug admission)
+
+## ADR-0063 frontmatter
+doc_id: spore.canon-decision.participatory-sense-making-disposition
+doc_kind: decision-record
+status: draft (pre-activation)
+adr_number: "0063"
+opened-on: 2026-04-23
+decision: scope-condition (per ADR-0062 precedent; validator accepts)
+PASS — matches ADR-0062 schema
+
+## Changed files (scoped)
+ M docs/foundations/governance-artifacts-and-graph-projections.md
+ M docs/project-vision.md
+?? docs/research/canon-decisions/0063-participatory-sense-making-disposition.md
+PASS — exactly 3 files in scope for this ADR. All other modifications are pre-existing untracked (tmp/, etc.)
+
+## IC zero-new-changes verification
+IC HEAD-end: f15f96f33d7384c9c169594a8525eb2a6599bd3b
+IC HEAD-start: f15f96f33d7384c9c169594a8525eb2a6599bd3b
+MATCH — PASS
+IC STATUS: ?? tmp/ (pre-existing untracked only)
+
+## PM zero-new-changes verification
+PM HEAD-end: 6d4935cf1e042475fb6a1ee007fea0ac0a567d8b
+PM HEAD-start: 6d4935cf1e042475fb6a1ee007fea0ac0a567d8b
+MATCH — PASS
+PM STATUS: ?? tmp/ (pre-existing untracked only)
+
+## All verification gates
+PASS — Proceed to Step 6 draft commit.
