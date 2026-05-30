@@ -1,3 +1,7 @@
+# macOS Finder metadata
+.DS_Store
+**/.DS_Store
+
 # Claude Code context injection files
 CLAUDE.md
 **/CLAUDE.md
