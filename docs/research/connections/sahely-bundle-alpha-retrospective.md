@@ -13,6 +13,8 @@ relates_to:
   - spore.canon-decision.perception-as-power-scope-condition-f4              # ADR-0090
   - spore.connection.sahely-ruddick-civil-commons-bridge
   - spore.connection.canon-rebuild-arc-method-retrospective                  # shape-match precedent
+  - ic.canon-decision.canon-alignment-through-spore-adr-0086                 # ic:ADR-0022 Wave-N+1 alignment (soft/associative; see §4 precedent #17)
+  - pm.canon-decision.canon-alignment-through-spore-adr-0086                 # pm:ADR-0019 Wave-N+1 alignment (soft/associative; see §4 precedent #17)
 concepts:
   - golden-calf-trap
   - recursive-audit-method
@@ -146,8 +148,9 @@ The pattern is legible as a single curve: round-2 catch → execution catch (whi
 ## §4 Method-precedent inventory
 
 Catalogued by category, each grounded in the ADR §Consequences / §Parking where it was named, with
-its origin and reusability. Documented honestly — only precedents actually carried in the ADRs, not
-padded to a target count.
+its origin and reusability — including the two cross-repo Wave-N+1 alignment ADRs (ic:ADR-0022 +
+pm:ADR-0019) whose own §Consequences ground the cross-repo sub-section below. Documented honestly —
+only precedents actually carried in the ADRs, not padded to a target count.
 
 ### Discipline gates
 
@@ -188,10 +191,14 @@ padded to a target count.
 
 - **Live-capture-not-inline-snapshot** *(X4, Codex R2 B1/B2)*: inline plan-snapshots of canonical
   files drift from the live files and are cascade-miss-prone; capture state live at Step 0.5 instead.
-- **Canonical-section-heading lint-preemption** *(X5; X6 second consecutive)*: author the plan with
-  the exact heading set the linter expects (Goal / Non-goals / Constraints / Assumptions / Acceptance
-  criteria / Verification / Risks / Rollback) → 0-lint-FAIL on Codex R1. *(This very retrospective's
-  plan reproduced the result a third time — see §4 meta-precedents.)*
+- **Canonical-section-heading lint-preemption** *(X5; X6 second consecutive; extended to the plan-file
+  layer at pm:ADR-0019 R1)*: author the plan with the exact heading set the linter expects (Goal /
+  Non-goals / Constraints / Assumptions / Acceptance criteria / Verification / Risks / Rollback) →
+  0-lint-FAIL on Codex R1. The preemption applies to the **plan-file itself**, not only ADR bodies:
+  pm:ADR-0019's R1 surfaced a `lint canonical-sections` must-fix on its plan (ic:ADR-0022's R1 did not
+  flag it — PM-specific), and this retrospective's *extension* plan-file applied the heading set
+  preemptively for a clean R1 — a fourth consecutive instance (X5 → X6 → this retrospective's authoring
+  → this extension's plan-file). *(See §4 meta-precedents for the generalization-beyond-ADRs claim.)*
 
 ### Codex `/review-plan` discipline
 
@@ -256,9 +263,105 @@ padded to a target count.
   the operational-pressure threshold folds descriptively into a framing-note rather than admitting
   separate slugs.
 
+### Cross-repo Wave-N+1 alignment precedents (ic:ADR-0022 + pm:ADR-0019)
+
+These landed 2026-05-29 in separate IC- and PM-scoped sessions under Form-1 cross-stream authorization
+(not this Spore session); the siblings advanced post-arc — IC `d74f1d02` → `c3b6af3`, PM `5e06cd01` →
+`bac8115`, each as a draft+active pair — so §2's Bundle-α freeze SHAs were correct for the six landings
+and the alignment is strictly post-arc. The single trigger was ADR-0086's canon-object-class expansion
+(3 → 4 cross-cutting doctrines); both alignments were REFERENCE-heavy, Option-2 (count-fix + upstream-
+reference block, no new structural doctrine bullet/paragraph), H2-decline (no slug import). The catalog
+below is honest-derived and grouped by category, **not padded** to the dispatch's "16": the two
+precedent-dense ADRs happen to carry roughly that many distinct cross-repo precedents, and the honesty
+discipline (above) governs the count.
+
+**Wave-N+1 trigger-classification**
+
+- **Canon-object-class expansion is the sole Wave-N+1 trigger**: of the 0083–0090 arc, only ADR-0086
+  (doctrines 3 → 4) fired sibling alignment; 0083 (positioning) / 0084 (vocab) / 0085 (vocab + method) /
+  0087 (derived-glossary) / 0088–0090 (scope-conditions) are all non-triggering per
+  `feedback_upstream_downstream_canon_propagation.md` + DECISION-BRIEF §17.8(5). One trigger among many
+  non-triggering siblings.
+- **Title-by-trigger + Context-covers-full-audit-scope**: each alignment ADR is titled "through-adr-0086"
+  (the single triggering movement) while its Context audits and clears the full 0083–0090 arc through
+  current Spore HEAD — preventing a tracking-chain coverage gap without inflating the title to imply the
+  whole arc propagated. The next sibling alignment picks up cleanly after 0090.
+- **Enumeration-vs-narrative discrimination preserves closed-ADR history**: live-canon doctrine-counts
+  are corrected at the enumeration sites, but "three doctrines" mentions in *closed* ADRs (ic:ADR-0018
+  lines 9/95/116/137/156; pm:ADR-0014 lines 10/144/234) and accurate-at-authoring paragraph headers
+  (pm `project-vision.md:54` "care … third doctrine") are preserved unchanged — retconning them would
+  corrupt the record of what was true when each landed.
+
+**REFERENCE-heavy alignment shape**
+
+- **First-live-C-axis under a REFERENCE-heavy posture**: ic:ADR-0019/0020/0021 and pm:ADR-0015/0017/0018
+  all C3-declined because no new doctrine existed to propagate; ic:ADR-0022 is IC's *first-ever* live
+  C-axis and pm:ADR-0019 is PM's *first since pm:ADR-0014*. When an upstream canon-object-class gains a
+  member, the downstream alignment's corresponding axis goes live even under REFERENCE-heavy — the work
+  is count-currency + reference, not adoption.
+- **Option-2 (upstream-reference-block-carries-application) vs Option-1 (structural deepening)**: the J2
+  block authors sibling-surface application narrative (IC: the life-value-vs-money-value lens reads IC's
+  `enclosure` / `commercial-capture` failure modes; PM: reads PM's commoning-vs-microcredit distinction +
+  `substitution-trap`); structural deepening into a parity §Memory-Governance bullet / project-vision
+  paragraph is operator-elective future own-canon work. A later reader must not mistake Option-2 for
+  "no application content authored."
+- **Reference ≠ registration**: the doctrine appears in IC/PM only as a referenced upstream concept —
+  prose + the ADR's `concepts:` frontmatter — and H2-decline of a concepts-registry means neither repo
+  mirrors Spore's v22 → v23 yaml movement or imports the slug.
+- **Sibling-symmetric alignment recorded in-ADR**: IC + PM aligned at the same trigger, same day, both
+  REFERENCE-heavy, both Option-2, both H2-decline; each J2 block records the sibling symmetry so the
+  cross-repo Wave-N+1 alignment arc stays visible from either repo.
+- **Manual-verification discipline for validator-less sibling repos**: IC + PM carry no validator, so
+  frontmatter / citation / status checks are manual in the alignment execution path (the Spore-side
+  9/237 EXACT gate has no sibling analog).
+
+**PM-specific execution disciplines**
+
+- **Multi-site count-fix as canon-internal-correctness preservation**: PM enumerates Spore's
+  cross-cutting-doctrine count at *two* live-canon sites (grammar.md:249 + project-vision.md:54), where
+  IC has one (intelligence-primitives.md); a cross-stream count-shift must update *all* live-canon
+  enumeration sites atomically or create a grammar(4) ↔ vision(3) contradiction. Composes with
+  title-by-trigger: the title names the trigger; the atomic bundle covers every enumeration site the
+  trigger touches.
+- **Pre-canonical-alignment-discovery via target-canon grep**: grepping the *target* canon (not only the
+  upstream source) surfaced PM's pre-existing commoning-vs-microcredit + substitution-trap mappings,
+  letting the J2 block *reference* an existing doctrine-mapping rather than *invent* application
+  narrative — PM's PARTIAL-and-genuine relevance is grounded in pre-existing canon, not asserted.
+- **DH-PM-1 evidence-basis grounded in repo artifacts** *(precedent #14; memory-codified at
+  `feedback_dh_pm1_evidence_basis_discipline.md`)*: the hard-pause NOT-FIRED verdict is grounded in
+  current repo artifacts — `src/pm/*.py` + `migrations/` + `tests/` exist (code existence ≠ trigger) and
+  Victoria LHC Phase 0 operational HNSW-ranked real-data is absent (the unmet criterion) — **not** the
+  stale CLAUDE.md "No code yet" string. Fifth consecutive clean DH-PM-1 execution; the Victoria window is
+  now open (2026-05-29 ∈ May–June) but the condition is unmet.
+- **Dispatch-target-site precision**: the orchestrator dispatch named only grammar.md §1a; the Step-0.5
+  grep surfaced project-vision.md:54 as an *unlisted* second live-canon enumeration site, re-surfaced to
+  the operator before scope was fixed — cascade-miss discipline applied to the dispatch (cf. the
+  orchestrator-framing-correction meta-precedent below).
+- **E-axis binary-citation gate (OFF-ON-OFF-OFF-OFF across five Wave-N PM alignment ADRs)**: each ADR
+  audits the *current* arc's actual citations, not the prior arc's precedent shape; E3 decline this round
+  is evidence-gated honest-rigor, not symmetry-bound.
+- **Held-tension currency ≠ drift-repair**: the IC `:156` held-tension range refresh (0044-0082 →
+  0044-0090) and the DH-IC-1 / DH-PM-1 held-currency mentions are held-tension maintenance, keeping the
+  I1-narrow scope honest (the count-corrections are part of the C-alignment, not separate drift-repair).
+- **Out-of-allowlist staleness parked, not fixed**: PM's stale CLAUDE.md "No code yet" string is
+  out-of-allowlist for a REFERENCE alignment → parking-lot follow-on, not silent scope expansion
+  (staging-discipline at the cross-repo layer).
+
+**Cross-repo-identity / this doc's own frontmatter**
+
+- **#17 frontmatter-field-semantics-distinction** *(surfaced authoring this extension)*: `relates_to:` is
+  a soft / associative field — unvalidated by `validate_spec_dag.py` and foreign-tolerant in practice
+  (the active `canon-framing-boundary-theory-unifier.md` carries `ic.*` / `pm.*` entries) — whereas
+  `related_adrs:` and `r_claim_source:` are hard fields kept Spore-local per Gate (L5b). This resolves
+  the apparent conflict between the sahely-ruddick bridge's "relates_to holds Spore-local only" framing
+  and the boundary-theory-unifier precedent: they reflect *different field-semantics*, not contradictory
+  disciplines. It governs why *this* doc's `relates_to:` carries the two foreign alignment-ADR ids while
+  Gate (L5b) still holds for the hard fields — a refinement of, not an exception to, Gate (L5b).
+
 ### Meta-precedents (retrospective-authoring layer)
 
-Four precedents this retrospective demonstrates in its own authoring:
+Seven precedents this retrospective demonstrates in its own authoring (the original four, plus three
+surfaced while authoring this cross-repo extension):
 
 - **`orchestrator-framing-correction-via-recursive-discipline`**: the X2 catch was a *validator* halt,
   not a Codex "Step 5 HALT" — the dispatch's own shorthand was corrected by applying cascade-miss
@@ -273,6 +376,23 @@ Four precedents this retrospective demonstrates in its own authoring:
 - **`canonical-section-heading-preemption-generalizes-beyond-ADRs`**: this connection-doc plan
   achieved a **third consecutive 0-lint-FAIL Codex R1** (X5 → X6 → this retrospective), validating the
   preemption as a discipline for *all* Spore doc-authoring, not just ADR-shaped work.
+- **`retrospective-self-currency-update`**: when a retrospective documents work that has since landed
+  and its own status sections still enumerate that work as outstanding, currency-update those sites per
+  the same enumeration-vs-narrative discipline applied to the target canons. Demonstrated here: §7's
+  first bullet was forward-tense ("operator-elective") for work that landed the same day; this extension
+  marks it LANDED — self-application of the very discipline the two alignment ADRs just applied to PM's
+  grammar(4) ↔ vision(3) sites.
+- **`cross-session-precedent-propagation-requires-memory-codification`**: a precedent documented in a
+  doc or ADR does not propagate to the next session's authoring unless it is also codified to memory.
+  The canonical-section-heading-preemption discipline was already in this retrospective's §4, yet it did
+  not reach this extension's *first* plan-file draft — the regression that prompted the canonical-heading
+  refactor. The logical consequence (codify the heading-preemption discipline to a memory entry) is
+  parked as an elective follow-on, surfaced rather than silently dropped.
+- **`check-memory-before-authoring-new-precedent`**: a positive instance — precedent #14's memory
+  (`feedback_dh_pm1_evidence_basis_discipline.md`) was found already auto-harvested, so the planned
+  memory work was scoped to a minimal two-wikilink enrichment rather than a duplicate file; an
+  application of the global memory-hygiene rule ("check for an existing file that already covers it"),
+  freshly demonstrated this session.
 
 ## §5 Operator-judgment moments
 
@@ -325,11 +445,13 @@ Surfaced during the arc and held, with re-opening conditions preserved:
 
 ## §7 Operator-elective post-Bundle-α work
 
-- **Wave-N+1 IC + PM REFERENCE alignment for `life-value-doctrine`** — the **only** Bundle α admission
-  requiring sibling alignment, because it is the only one that expanded the canon-object-class
-  inventory (per `feedback_upstream_downstream_canon_propagation.md`: the trigger is canon-object-class
-  expansion; the five vocab/scope-condition admissions do not fire it). Reference-shape per ic:ADR-0019/0021
-  + pm:ADR-0015/0018; ~30–60 min per repo; **DH-PM-1 hard-pause check required at PM Step 0**.
+- **Wave-N+1 IC + PM REFERENCE alignment for `life-value-doctrine`** — **LANDED 2026-05-29**
+  (ic:ADR-0022 `c3b6af3` + pm:ADR-0019 `bac8115`; both REFERENCE-heavy Option-2, H2-decline → no slug
+  import; **DH-PM-1 NOT FIRED, fifth consecutive clean**, re-grounded on repo artifacts). This was the
+  **only** Bundle α admission requiring sibling alignment, because it is the only one that expanded the
+  canon-object-class inventory (3 → 4 doctrines; per `feedback_upstream_downstream_canon_propagation.md`
+  the five vocab/scope-condition admissions do not fire Wave-N+1). The precedents these two ADRs carried
+  are catalogued in §4 → *Cross-repo Wave-N+1 alignment precedents*.
 - **Optional IC perception-as-power composition** *(X6 §Parking)* — the C13 substrate (Galtung
   structural-violence + standpoint-epistemology) composes with IC observer-discipline at the
   substrate-articulation layer; operator-elective, opens only if IC opens cross-stream.
@@ -355,6 +477,12 @@ Surfaced during the arc and held, with re-opening conditions preserved:
 **Cross-repo bridge** — [`sahely-ruddick-civil-commons-bridge`](sahely-ruddick-civil-commons-bridge.md)
 (McMurtry foundation-doctrine → Ruddick protocol → BKC implementation, 3-layer composition; Phase 2
 closure Task A).
+
+**Cross-repo Wave-N+1 alignment ADRs** — ic:ADR-0022
+(`ic.canon-decision.canon-alignment-through-spore-adr-0086`, IC `c3b6af3`) · pm:ADR-0019
+(`pm.canon-decision.canon-alignment-through-spore-adr-0086`, PM `bac8115`) — both REFERENCE-heavy
+Option-2 alignments for the `life-value-doctrine` canon-object-class expansion, landed 2026-05-29 in
+sibling-scoped sessions; precedents catalogued in §4 → *Cross-repo Wave-N+1 alignment precedents*.
 
 **Substrate** — 12 Sahely anchor bridge notes (`sahely-*`, Waves 1–4); the Phase 2 DECISION-BRIEF
 (`tmp/sahely-corpus-canon-pressure-decision-brief-2026-05-22.md`); the Layer 3 handoff
