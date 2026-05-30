@@ -53,9 +53,19 @@
  *     `for x in $W`.
  *
  * ---------------------------------------------------------------------------
+ * A leading "Canon-facts" phase machine-reads the live canon (yaml version +
+ * slugs + doctrines + ADR doc_ids) and PREPENDS those authoritative facts to the
+ * authored consistency-map at run-time — so author + verifier share a verified
+ * ground truth and a hand-transcription slip in a doc_id/slug can't propagate
+ * unchecked (the "derive-from-live-canon" guardrail). Set DERIVE_CANON_FACTS=false
+ * to skip. The two judgments this still cannot self-validate (require human
+ * sign-off): a "zero new pressure" verdict (false-negative-on-aggregate) and the
+ * verifier checklist's own coverage — see feedback_completeness_audit_skeptic_of_skeptics.md.
+ *
  * See also (method references):
- *   ~/.claude/projects/-Users-darrenzal-projects-spore/memory/feedback_workflow_orchestrated_intake.md
- *   docs/research/connections/sahely-bundle-alpha-retrospective.md
+ *   memory/feedback_workflow_orchestrated_intake.md  ·  feedback_completeness_audit_skeptic_of_skeptics.md
+ *   docs/research/connections/sahely-intake-arc-method-retrospective.md  ·  sahely-bundle-alpha-retrospective.md
+ *   docs/research/planning/learning-field-intake-protocol.md §13
  * ===========================================================================*/
 
 // FILL PER INTAKE: workflow identity. Rename per intake program + wave.
@@ -63,6 +73,7 @@ export const meta = {
   name: '<intake-name>-waveN',               // FILL PER INTAKE: e.g. 'sahely-phase3-wave'
   description: '<intake> wave — author + adversarially verify N <artifact-kind>', // FILL PER INTAKE
   phases: [
+    { title: 'Canon-facts', detail: 'one agent machine-reads the live canon (yaml version + slugs + doctrines + ADR doc_ids) so the consistency-map FACTS cannot be stale' },
     { title: 'Author', detail: 'one author agent per candidate writes a single artifact file' },
     { title: 'Verify', detail: 'read-only skeptic refutes citation/discipline violations against the file on disk' },
   ],
@@ -75,20 +86,36 @@ const REPO = '<ABSOLUTE_PATH_TO_REPO>'                                   // FILL
 const EXT  = REPO + '/<path/to/evidence-extraction-records>'            // FILL PER INTAKE
 const CONN = REPO + '/<path/to/output-artifacts-dir>'                   // FILL PER INTAKE
 
+// CANON AUTHORITY paths — the live sources the Canon-facts agent machine-reads
+// (and the verifier greps). Keeping these as the single source of truth removes
+// the "shared-ground-truth shares its errors" risk: the FACTS (yaml version,
+// slug list, doctrine list, ADR doc_ids) are derived from live canon at run-time,
+// so a hand-transcription error in the authored map below cannot go unchecked.
+const CONCEPTS_YAML      = REPO + '/<path/to/concepts-registry.yaml>'   // FILL PER INTAKE
+const CANON_DECISIONS_DIR = REPO + '/<path/to/canon-decisions>'         // FILL PER INTAKE
+
 // VERIFIERS_PER_NOTE — how many independent skeptic passes per artifact.
 const VERIFIERS_PER_NOTE = 1   // set 2 for canon-critical waves; run both, require both pass
 
 // ---------------------------------------------------------------------------
 // CONSISTENCY_MAP — the SHARED resolved canon-citation table handed to every
-// author AND every verifier. This is the load-bearing input: it tells agents to
-// cite the RESOLVED canon state (not stale "pending"/"admit-candidate" framing).
-// The Sahely arc's 2 caught FAILs were both stale-citation drift this map exists
-// to prevent. Keep it specific: theme -> exact ADR/slug/doctrine, with object-
-// class distinctions (doctrine vs glossary-slug vs shape-of).
+// author AND every verifier. Load-bearing: it tells agents to cite the RESOLVED
+// canon state (not stale "pending"/"admit-candidate" framing). The Sahely arc's
+// 2 caught FAILs were both stale-citation drift this map exists to prevent.
+//
+// TWO LAYERS (the 2026-05-30 risk-guardrail "derive-from-live-canon"):
+//   (1) LIVE FACTS — machine-derived by the Canon-facts agent at workflow-start
+//       (yaml version + slug list + doctrine list + ADR doc_ids/titles). These
+//       are authoritative and cannot be stale; they are PREPENDED at runtime.
+//   (2) AUTHORED JUDGMENT (below) — the theme→target SEMANTIC mapping + object-
+//       class nuance (doctrine vs slug vs shape-of). This is judgment, still
+//       hand-written, but now sits ATOP verified facts, so a transcription slip
+//       in a doc_id/slug is caught by the live layer instead of propagating.
 // ---------------------------------------------------------------------------
-const CONSISTENCY_MAP = `
-// FILL PER INTAKE: the resolved canon-citation map for THIS intake's canon state.
-RESOLVED CANON-CITATION CONSISTENCY MAP (state the concepts-yaml version, doctrine count, ADR ceiling).
+const CONSISTENCY_MAP_AUTHORED = `
+// FILL PER INTAKE: the theme→target SEMANTIC map for THIS intake (judgment layer; the
+// live FACTS — yaml version, exact doc_ids/slugs, doctrine list — are prepended at runtime).
+RESOLVED CANON-CITATION CONSISTENCY MAP (theme → resolved target; the live-facts block above is authoritative for exact doc_ids/slugs/version — if this authored map disagrees with it, the live facts win).
 Cite the RESOLVED state — NOT any "pending DECISION-BRIEF" / "admit-candidate" framing.
 Map each theme to its exact resolved citation, preserving object-class:
 - <theme A keywords>  -> cite <ADR-XXXX> (<doc_id>); slug(s): <slug> (note shape-of vs equivalent-to if relevant).
@@ -97,6 +124,11 @@ Map each theme to its exact resolved citation, preserving object-class:
 - <decline theme>     -> framing-note-only ONLY; cite the DECLINE-with-triggers disposition. DO NOT propose admission.
 - Other already-canonical resonances: <theme> -> <ADR/slug>; <theme> -> <ADR/slug>.
 `
+
+// Reassigned after the Canon-facts agent runs (live facts prepended). Until then
+// it falls back to the authored layer alone, so the script is valid even if the
+// Canon-facts phase is removed.
+let CONSISTENCY_MAP = CONSISTENCY_MAP_AUTHORED
 
 // ---------------------------------------------------------------------------
 // SHAPE — the artifact template the author must produce (frontmatter + sections).
@@ -172,8 +204,8 @@ function verifyPrompt(note, c) {
 
 FILE: ${note && note.path ? note.path : CONN + '/' + c.slug + '.md'}
 EVIDENCE: ${EXT}/${c.stem}.md
-CONCEPTS AUTHORITY: ${REPO}/<path/to/concepts-registry>     // FILL PER INTAKE
-ADR AUTHORITY: ${REPO}/<path/to/canon-decisions>/           // FILL PER INTAKE
+CONCEPTS AUTHORITY: ${CONCEPTS_YAML}
+ADR AUTHORITY: ${CANON_DECISIONS_DIR}
 
 CHECKS (run Bash grep against the actual file; refute precisely with quoted offenders):
 1. cites_correct_resolved_adrs — wherever the note engages a mapped theme, it cites the RESOLVED ADR per the map below, NOT a "pending DECISION-BRIEF"/"admit-candidate" framing; object-classes (doctrine vs slug vs shape-of) are preserved.
@@ -236,6 +268,31 @@ const VERDICT_SCHEMA = {
   required: ['stem', 'path', 'is_consistent', 'refutations', 'checks'],
 }
 
+// ---------------------------------------------------------------------------
+// CANON-FACTS — machine-read the LIVE canon so the consistency-map facts cannot
+// be stale (derive-from-live-canon; removes the shared-ground-truth-shares-errors
+// risk). The agent greps CONCEPTS_YAML + CANON_DECISIONS_DIR and returns the
+// authoritative version/slugs/doctrines/ADRs; the result is PREPENDED to the
+// authored map at runtime. Set DERIVE_CANON_FACTS=false to skip (then the
+// authored map alone is used — accept the stale-transcription risk knowingly).
+// ---------------------------------------------------------------------------
+const DERIVE_CANON_FACTS = true
+const CANON_FACTS_SCHEMA = {
+  type: 'object',
+  properties: {
+    yaml_version: { type: 'string' },                                    // e.g. "v24"
+    slugs: { type: 'array', items: { type: 'string' } },                 // every concept slug in the registry
+    doctrines: { type: 'array', items: { type: 'string' } },             // the cross-cutting doctrine names
+    adrs: { type: 'array', items: { type: 'object', properties: { id: { type: 'string' }, doc_id: { type: 'string' }, title: { type: 'string' } }, required: ['doc_id'] } },
+    facts_block: { type: 'string' },                                     // a ready-to-embed prose block of the above (the authoritative reference)
+  },
+  required: ['yaml_version', 'slugs', 'doctrines', 'adrs', 'facts_block'],
+}
+const canonFactsPrompt = `You are a read-only canon-facts extractor. Machine-read the LIVE canon and return the authoritative current state so downstream authors cannot cite stale doc_ids/slugs/version. Use Bash grep.
+- Concepts registry: ${CONCEPTS_YAML} — extract the version marker (e.g. a '# version: vNN' line) and EVERY concept slug, and the list of cross-cutting doctrine names.
+- Canon-decisions: ${CANON_DECISIONS_DIR}/*.md — extract each relevant ADR's id (NNNN), its 'doc_id:' frontmatter value, and its title. (For a large set, focus on the ADRs the THIS-intake authored map below references + the most recent admissions.)
+Return: yaml_version, slugs[], doctrines[], adrs[{id, doc_id, title}], and facts_block — a compact prose block listing the version, the doctrine names, and the exact ADR doc_ids (so an author can copy them verbatim). Do NOT invent; only report what is on disk. If a path is a FILL-PER-INTAKE placeholder (contains '<'), return empty arrays + facts_block:"(canon paths not configured)".`
+
 const WAVE = 1   // FILL PER INTAKE: bump per wave.
 
 // WARNING: args.candidates arrives undefined with scriptPath; embed candidates here.
@@ -248,6 +305,26 @@ const candidates = [
 ]
 
 log(`Wave ${WAVE}: ${candidates.length} artifacts (author -> skeptic verify; ${VERIFIERS_PER_NOTE} verifier(s)/note)`)
+
+// Canon-facts phase — derive live canon FACTS and PREPEND them to the authored
+// map, so author + verifier share machine-verified doc_ids/slugs/version (not a
+// hand-transcription that could drift). authorPrompt/verifyPrompt read the `let
+// CONSISTENCY_MAP` at call-time (inside the pipeline below), so reassigning it
+// here takes effect for every agent.
+if (DERIVE_CANON_FACTS) {
+  const cf = await agent(canonFactsPrompt, { label: 'canon-facts', phase: 'Canon-facts', schema: CANON_FACTS_SCHEMA })
+  if (cf && cf.facts_block && !/canon paths not configured/i.test(cf.facts_block)) {
+    CONSISTENCY_MAP =
+      `LIVE-DERIVED CANON FACTS (machine-read from disk at workflow-start — AUTHORITATIVE for exact version / doc_ids / slugs; the authored map below must not contradict these):\n` +
+      `concepts-yaml: ${cf.yaml_version}\n` +
+      `cross-cutting doctrines: ${cf.doctrines.join(', ')}\n` +
+      `ADR doc_ids: ${cf.adrs.map(a => a.doc_id).filter(Boolean).join(', ')}\n` +
+      `${cf.facts_block}\n\n` + CONSISTENCY_MAP_AUTHORED
+    log(`Canon-facts: yaml ${cf.yaml_version}, ${cf.slugs.length} slugs, ${cf.doctrines.length} doctrines, ${cf.adrs.length} ADRs — prepended`)
+  } else {
+    log('Canon-facts: canon paths not configured (FILL PER INTAKE) — using authored map alone')
+  }
+}
 
 const verdicts = await pipeline(candidates,
   (c) => agent(authorPrompt(c), { label: `author:${c.slug}`, phase: 'Author', schema: NOTE_SCHEMA }),
