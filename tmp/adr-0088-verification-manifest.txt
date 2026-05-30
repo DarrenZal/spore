@@ -1,0 +1,89 @@
+# ADR-0088 Step 5 Verification Manifest
+
+**Date**: 2026-05-25
+**ADR**: spore:ADR-0088 care-cluster-scope-condition-adr-0045
+**Plan**: `~/.claude/plans/purring-gathering-river.md`
+**Atomic-bundle commits**: 8ba854e (draft) → b737f34 (active)
+**Bundle α position**: 4 of 6 (ADR-X4 lands)
+
+## Gate-by-gate verdicts
+
+### 1. Validator post-state
+- Pre (Step 0): `FAILED: 9 error(s), 237 warning(s)`
+- Post (Step 5): `FAILED: 9 error(s), 237 warning(s)`
+- VERDICT: EXACT match — zero drift on errors/warnings
+- Governed docs: 301 (was 300; +1 for ADR-0088 admission)
+
+### 2. HEAD~2..HEAD bundle scope (per Codex R2 M2)
+```
+docs/research/canon-decisions/0045-care-cross-cutting-doctrine.md
+docs/research/canon-decisions/0088-care-cluster-scope-condition-adr-0045.md
+```
+- VERDICT: PASS — exactly 2 ADR files (committed-allowlist-strict held)
+
+### 3. Sibling SHAs UNCHANGED from Step 0 baseline
+| Sibling | Step 0 baseline | Step 5 actual | Verdict |
+|---|---|---|---|
+| IC | d74f1d0 | d74f1d026fcfa8074877f81efc83b7cd6951cd0e | UNCHANGED |
+| PM | 5e06cd0 | 5e06cd012dfc78ab851a35ef9e5b9f181024f131 | UNCHANGED |
+| bregion | 07ff973 | 07ff9738e9b7156a043c836bfe1e1c4e432bfd26 | UNCHANGED |
+| BKC inner | 967e95e | 967e95e74a2850ab8a1d3e4fa9a51c7de9c45f1f | UNCHANGED |
+| koi-processor | ada5b9a | ada5b9a06eb01e1fc279ebfb3d9b6981b3eb9c52 | UNCHANGED |
+| darren-workflow | 059129a | 059129a35d58c67c3c807dd70641a7141e01fefa | UNCHANGED |
+- VERDICT: ALL PASS — Spore-only discipline held
+
+### 4. Gate (j) byte-equal-frontmatter re-verification — FIRST FORMAL APPLICATION
+- Step 0.5 baseline (captured at audit manifest):
+  - end_line: 38
+  - md5: 7a9a05d3065bdb285492242242edb3cf
+- Step 5 post-bundle (re-captured live):
+  - end_line: 38
+  - md5: 7a9a05d3065bdb285492242242edb3cf
+- VERDICT: BYTE-EQUAL MATCH — narrative-extension touched body prose only; frontmatter preserved verbatim
+
+### 5. Concepts yaml UNCHANGED
+- v24 header preserved (`# version: v24`)
+- 80 slugs total (matches Step 0 baseline)
+- 4 doctrines present: boundary-commoning + care-commoning + life-value-doctrine + reproductive-commoning
+- VERDICT: PASS — no yaml edit per scope-condition shape
+
+### 6. No new framing-note authored
+- Existing files: `canon-framing-care-commoning.md` (ADR-0045 companion; preserved)
+- NEW files: none
+- VERDICT: PASS — ADR-0088 has NO `shared_framing:` field per scope-condition precedent ADR-0046/0062/0063/0064
+
+### 7. ADR-0088 file state
+- `status: active` confirmed at frontmatter line 4
+- `adr_number: "0088"` confirmed
+- All 13 supported_by paths resolve to live filesystem (verified at Step 0.5 + audit manifest)
+- Body §Status flipped to "active (authored + activated 2026-05-25 ...)"
+
+### 8. ADR-0045 narrative-extension applied at §Consequences
+- Line-count delta: 204 → 227 (+23 lines body prose)
+- Substrate-anchor terms present: Maturana / structural coupling / Verden-Zöller / Dávila / 4 bridge-note slugs
+- Inserted after §"Downstream" subsection, before "## Evidence"
+- Frontmatter byte-equal preserved (per Gate (j) verification above)
+
+### 9. Git log clean
+```
+b737f34 intake: sahely Layer 3 ADR-0088 care-cluster-scope-condition-adr-0045 — ACTIVE
+8ba854e intake: sahely Layer 3 ADR-0088 care-cluster-scope-condition-adr-0045 — DRAFT
+2783f1c intake: sahely Layer 3 ADR-0087 civil-commons-derived-glossary-slug-admission — ACTIVE
+```
+- VERDICT: PASS — draft → active 2-commit ceremony matches Bundle α discipline
+
+## All gates verdict: PASS
+
+**Push posture**: AWAITING operator authorization. Spore HEAD `b737f34` ahead of `origin/main` by 2 commits (8ba854e + b737f34). No automatic push.
+
+## Method-precedent contributions
+
+1. **First formal application of Gate (j) byte-equal-frontmatter discipline** (captured-and-verified md5 baseline → re-verified post-bundle byte-equal match) — extends informal ADR-X2 precedent (which preserved ADR-0042 frontmatter through narrative-ext but did not formalize the verification). Reusable across all future extend-via-prose narrative-extensions per Bundle α midpoint retrospective parking.
+
+2. **First scope-condition admission in Bundle α** — establishes scope-condition shape precedent for X5 + X6. Lightest-ceremony admission (2-file atomic-bundle; no yaml; no framing-note; no canon-body); validates that scope-condition shape exists alongside slug-admission and doctrine-admission shapes in Bundle α architecture.
+
+3. **Pre-commit allowlist HALT check operational** (per Codex R2 M1) — both 4a (2-file allowlist) and 4b (1-file allowlist) passed cleanly. Reusable across all atomic-bundle commits.
+
+4. **HEAD~2..HEAD bundle verification operational** (per Codex R2 M2) — scopes over both draft + active commits; closes the gap that HEAD~1..HEAD would have left open. Reusable across all 2-commit ceremonies.
+
+5. **Cascade-miss caught at Step 0.5** (DECISION-BRIEF filename `sahely-corpus-decision-brief-2026-05-22.md` vs actual `sahely-corpus-canon-pressure-decision-brief-2026-05-22.md`) — Gate (L5b) live-resolve discipline caught a plan-inline-reference cascade-miss before commit. Reinforces Codex R2 B1/B2 inline-plan-snapshots-are-cascade-miss-prone method-precedent.

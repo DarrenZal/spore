@@ -1,0 +1,70 @@
+ADR-0087 Step 5 Post-Commit Verification Manifest — 2026-05-25
+================================================================
+
+## Step 5.1 Validator state — PASS
+- Pre-state (Step 0):   9 errors / 237 warnings — captured at tmp/adr-0087-validator-pre.txt
+- Post-state (Step 5):  9 errors / 237 warnings — captured at tmp/adr-0087-validator-post.txt
+- Diff pre→post: ONLY change is "Governed docs: 298 → 300" (+2 — ADR-0087 + canon-framing-civil-commons.md both counted as governed)
+- Error/warning count: EXACT MATCH (no drift) ✓
+
+## Step 5.2 Git log clean
+- 2783f1c intake: sahely Layer 3 ADR-0087 civil-commons-derived-glossary-slug-admission — ACTIVE
+- c30f77d intake: sahely Layer 3 ADR-0087 civil-commons-derived-glossary-slug-admission — DRAFT
+- 359810e intake: sahely Layer 3 ADR-0086 life-value-doctrine-fourth-cross-cutting-doctrine — ACTIVE (predecessor)
+
+## Step 5.3 Allowlist verification per Gate (f)
+Draft commit c30f77d: 3 files / +573 / -1
+- docs/research/canon-decisions/0087-civil-commons-derived-glossary-slug-admission.md (NEW, +282 lines)
+- docs/research/concepts-p2p-wiki.yaml (MODIFY, +119 / -1)
+- docs/research/connections/canon-framing-civil-commons.md (NEW, +172 lines)
+
+Active commit 2783f1c: 1 file / +2 / -2
+- docs/research/canon-decisions/0087-civil-commons-derived-glossary-slug-admission.md (status flip draft → active)
+
+NO unauthorized files touched. Tracked-dirt baseline preserved (M AGENTS.md + M CLAUDE.md + tmp/ untracked).
+
+## Step 5.4 Sibling SHAs sanity — ALL FROZEN ✓
+| Repo            | Step 0 baseline  | Step 5 actual    | Verdict |
+|---              |---               |---               |---      |
+| Spore (HEAD)    | 359810e          | 2783f1c          | ADVANCED per ADR-0087 active commit (expected) |
+| IC              | d74f1d0          | d74f1d0          | UNCHANGED ✓ |
+| PM              | 5e06cd0          | 5e06cd0          | UNCHANGED ✓ |
+| bregion         | 07ff973          | 07ff973          | UNCHANGED ✓ |
+| BKC inner       | 967e95e          | 967e95e          | UNCHANGED ✓ |
+| koi-processor   | ada5b9a          | ada5b9a          | UNCHANGED ✓ |
+| darren-workflow | 059129a          | 059129a          | UNCHANGED ✓ |
+
+## Step 5.5 Concepts yaml deltas
+| Metric                              | Pre  | Post | Delta |
+|---                                  |---   |---   |---    |
+| Slug count (total)                  | 79   | 80   | +1 ✓  |
+| Derived-glossary subset             | 22   | 23   | +1 ✓  |
+| Doctrine count                      | 4    | 4    | 0 (unchanged; categorical-correctness preserved per ADR-X2 Q2 lesson) ✓ |
+| Version (`# version:`)              | v23  | v24  | +1 ✓  |
+| civil-commons slug placement        | N/A  | L1198 (end-of-file) | chronological-admission precedent matched ✓ |
+
+## Step 5.6 Canon-rebuild arc
+- Pre: 36 canon-decisions (0044–0058 + 0059a + 0061–0081 + 0082 + 0083 + 0084 + 0085 + 0086)
+- Post: 37 canon-decisions (+ 0087) ✓
+
+## Step 5.7 Canon-object-class inventory
+- PRESERVED at 4 categories: primitives 9 / doctrines 4 / modes 2 / properties 2
+- Patterns: 7 (unchanged)
+- Foundation docs: 14 (unchanged)
+- Derived glossary slugs: 22 → 23 (+1)
+
+## Step 5.8 Pre-existing limitations carried forward
+- PyYAML L854 col 879 baseline-fragility (inside relational-identity entry from ADR-0051 v9; pre-existing, line-position shifts as new history blocks added per v-bump) — carried forward per ADR-0085 + ADR-0086 parking. Does NOT block; validator (authoritative check) holds clean 9/237 EXACT.
+
+## Verdict: ALL STEP 5 GATES PASS — ADR-0087 LANDED LOCALLY
+- Both commits clean (draft c30f77d + active 2783f1c)
+- Validator 9/237 EXACT held
+- Sibling SHAs frozen
+- yaml structure preserved
+- Categorical-correctness maintained
+- Cluster-strength asymmetry canonically-acknowledged
+- All cited substrate bridge notes resolve via Step 0.5 Gate (b) UNION-citation audit
+
+## Pending: operator push-confirmation
+Push posture per R2-Q2 (Layer 3 standard): push-after-active-commit awaits operator-confirm before `git push origin main`.
+Spore HEAD currently at 2783f1c (advance of 5 commits from origin/main per `git log` — includes today's ADR-0086 chain).

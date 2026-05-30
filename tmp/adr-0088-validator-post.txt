@@ -1,0 +1,3 @@
+  ERROR: docs/research/connections/johar-metacognition-stack.md (spore.connection.johar-metacognition-stack): broken local depends_on 'spore.connection.johar-sheaf-theory-formalization' — no such doc_id in repo
+
+FAILED: 9 error(s), 237 warning(s)

@@ -1,0 +1,160 @@
+# ADR-0088 Close-out Manifest
+
+**Date**: 2026-05-25
+**ADR**: spore:ADR-0088 care-cluster-scope-condition-adr-0045
+**Plan**: `~/.claude/plans/purring-gathering-river.md`
+**Bundle α position**: 4 of 6 (X4 LANDED — first scope-condition admission)
+
+---
+
+## Final state
+
+**Spore HEAD**: `b737f34baf9f708c1c9f8ec2b74d2c87ae7c0f2c` (origin/main synced ✓)
+**Push SHA range**: `2783f1c..b737f34` (2 commits — draft + active)
+**Bundle α arc**: X1 `b44ac28` → X2 `359810e` → X3 `2783f1c` → **X4 `b737f34`** → X5 pending → X6 pending
+
+### Commits pushed
+- `8ba854e` intake: sahely Layer 3 ADR-0088 care-cluster-scope-condition-adr-0045 — DRAFT
+- `b737f34` intake: sahely Layer 3 ADR-0088 care-cluster-scope-condition-adr-0045 — ACTIVE
+
+### Files committed (allowlist-strict, exactly 2)
+- `docs/research/canon-decisions/0088-care-cluster-scope-condition-adr-0045.md` (NEW; +204 lines)
+- `docs/research/canon-decisions/0045-care-cross-cutting-doctrine.md` (MODIFY; +23 lines body prose at §Consequences narrative-ext; frontmatter byte-equal preserved)
+
+### Files explicitly NOT modified (scope-condition shape + Gate (j))
+- `docs/research/concepts-p2p-wiki.yaml` — UNCHANGED (v24 / 80 slugs / 23 derived / 4 doctrines / 7 patterns)
+- `docs/project-vision.md` — UNCHANGED
+- `docs/foundations/governance-artifacts-and-graph-projections.md` — UNCHANGED
+- `docs/research/connections/canon-framing-care-commoning.md` — UNCHANGED (existing ADR-0045 companion)
+- ADR-0045 frontmatter (lines 1-38) — BYTE-EQUAL PRESERVED (md5 `7a9a05d3065bdb285492242242edb3cf` verified at Step 0.5 baseline + Step 5 post-bundle)
+- No NEW framing-note authored (NO `shared_framing:` field in ADR-0088 frontmatter)
+- IC / PM / bregion / BKC / koi-processor / darren-workflow — ZERO touches (all 6 sibling SHAs frozen)
+
+### Canon state delta
+- Foundation docs: 14 (UNCHANGED)
+- Concepts yaml: v24 (UNCHANGED), 80 slugs (UNCHANGED), 23 derived-glossary subset (UNCHANGED), 4 doctrines (UNCHANGED — boundary-commoning + care-commoning + life-value-doctrine + reproductive-commoning), 7 patterns (UNCHANGED)
+- Canon-rebuild arc: 37 → 38 canon-decisions (ADR-0088 admitted)
+- Governed docs: 300 → 301 (+1 for ADR-0088 file)
+- Validator: 9 errors / 237 warnings EXACT (held throughout; zero drift)
+
+### Sibling SHAs final (all 6 UNCHANGED from Phase 2 C3 frozen baseline)
+- IC: d74f1d026fcfa8074877f81efc83b7cd6951cd0e
+- PM: 5e06cd012dfc78ab851a35ef9e5b9f181024f131
+- bregion: 07ff9738e9b7156a043c836bfe1e1c4e432bfd26
+- BKC inner: 967e95e74a2850ab8a1d3e4fa9a51c7de9c45f1f
+- koi-processor: ada5b9a06eb01e1fc279ebfb3d9b6981b3eb9c52
+- darren-workflow: 059129a35d58c67c3c807dd70641a7141e01fefa
+
+---
+
+## Per-axis disposition (RATIFIED at Step 2 fast-path 2026-05-25)
+
+- **A2** narrative-extension to existing ADR (NOT new admission)
+- **B1** cite-all UNION-of-4 substrate (W1.1 + W1.2 + W3.3 + W4.3)
+- **C1** scope-condition substrate-strengthening (2 FULL clusters honest cluster-counting per §5.2)
+- **D1** 0 new slugs + 0 canon-body edits + 1 narrative-ext + 1 NEW ADR record
+- **E1** 2-file atomic-bundle + §Consequences-only edit target (per B3 cleanup — §Context off-limits)
+- **F1** cite-all UNION-of-4 (matches B)
+- **G1** narrow scope
+- **H_N/A** narrative-ext to existing ADR; no new substrate-parent/operational-pair
+- **I1** narrow Spore-only — NO Wave-N+1 alignment
+- **J1** narrow
+
+---
+
+## Review discipline applied (most thoroughly reviewed in Bundle α)
+
+**11 substantive items resolved across 3 review layers**:
+
+1. **Parent-review (orchestrator)**: 3 refinements applied
+   - §188 parenthetical self-correction removed; E.1 pros rewritten not to lean on X2 precedent
+   - §278 verification grep targets changed from wave-shortcodes to substrate-anchor terms + bridge-note slugs
+   - §212 Step 0 annotations clarified that pre-/clear "VERIFIED" notes are reference baselines NOT authorizations to skip Step 0 re-verification
+
+2. **Codex /review-plan Round 1 high**: 2 open questions resolved
+   - Q1 §Consequences ratification (E.2 selected per ADR-X2/0086 precedent + ADR-0050/0077/0084 extend-via-prose precedent)
+   - Q2 13-path supported_by canonical enumeration replacing vague "tmp/ + bridges + ADRs ..."
+
+3. **Codex /review-plan Round 2 high**: 4 blockers + 2 missing tests applied
+   - B1 ADR-0045 frontmatter snapshot staleness — dropped inline snapshot, switched to live-capture
+   - B2 yaml line-count staleness — switched to semantic invariants (v24 + 80 slugs + 4 doctrines + 7 patterns)
+   - B3 E.1 branch removal — §Consequences as the only allowed edit target throughout plan
+   - B4 commit-allowlist-strict — defined committed allowlist as exactly the 2 ADR files
+   - M1 pre-commit allowlist check — `git diff --cached --name-only` HALT after each `git add`
+   - M2 HEAD~2..HEAD bundle verification — replaces narrower HEAD~1..HEAD which only catches latest commit
+
+**2-round known-ceiling discipline held** per `feedback_intake_to_vocab_admission_program.md` — NO Round 3 dispatched after R2 substantive items applied.
+
+---
+
+## Method-precedent contributions (for Bundle α midpoint retrospective)
+
+### 1. First formal application of Gate (j) byte-equal-frontmatter discipline
+- ADR-X2 (ADR-0086) applied informally to ADR-0042 (preserved frontmatter through narrative-ext but did not formalize verification)
+- ADR-X4 (ADR-0088) formalizes via captured-and-verified byte-range:
+  - Step 0.5: `awk` boundary detection (end_line: 38) + `md5` checksum (`7a9a05d3065bdb285492242242edb3cf`)
+  - Step 5: live re-capture; byte-equal MATCH verified
+- **Reusable across all future extend-via-prose narrative-extensions**. Composes with `feedback_cascade_miss_discipline.md` L5b at the frontmatter-discipline layer.
+
+### 2. First scope-condition admission in Bundle α
+- Lightest-ceremony shape (2-file atomic-bundle; no yaml; no framing-note; no canon-body)
+- Validates that scope-condition shape exists alongside slug-admission (ADR-X1+X3) + doctrine-admission (ADR-X2) shapes in Bundle α architecture
+- **Establishes shape precedent for ADR-X5 + ADR-X6** if either uses scope-condition disposition
+
+### 3. Pre-commit allowlist HALT check operational (per Codex R2 M1)
+- 4a check (2 files): PASS — `0045-...md` + `0088-...md` exactly
+- 4b check (1 file): PASS — `0088-...md` only
+- **Reusable across all atomic-bundle commits**. Composes with `feedback_never_git_add_all.md`.
+
+### 4. HEAD~2..HEAD full-bundle verification operational (per Codex R2 M2)
+- Scopes over both draft + active commits
+- Closes gap that narrower HEAD~1..HEAD would have left open (catches active only, misses draft's ADR-0045 narrative-ext)
+- **Reusable across all 2-commit ceremonies**
+
+### 5. Cascade-miss caught at Step 0.5 via Gate (L5b) live-resolve discipline
+- DECISION-BRIEF filename in plan: `sahely-corpus-decision-brief-2026-05-22.md` (MISSING from filesystem)
+- Live canonical filename: `sahely-corpus-canon-pressure-decision-brief-2026-05-22.md`
+- **Reinforces Codex R2 B1/B2 inline-plan-snapshots-of-canonical-files-are-cascade-miss-prone method-precedent** — Gate (L5b) live-resolve at Step 0.5 caught the drift before commit; ADR-0088 supported_by enumeration uses the correct canonical filename
+
+### 6. Honest-rigor cluster-counting yields ADMIT outcome at scope-condition layer
+- 2 FULL clusters threshold (≥2-cluster sufficient for scope-condition NOT ≥3-cluster for new admission)
+- Cluster 1: Held/Tronto/Kittay/Federici care-ethics lineage (canonically established at ADR-0045 §Operational-earning)
+- Cluster 2: Sahely-Maturana school (Maturana/Verden-Zöller/Bunnell/Dávila Yáñez verified at W1.1 + W1.2 + W3.3 + W4.3 substrate)
+- Adjacent partials (Hochschild/Folbre/Whyte-Kimmerer/Noddings) honestly counted as substrate-resonance NOT third FULL cluster per `feedback_surface_vocabulary_vs_operational_concern.md`
+- **Validates that scope-condition is a legitimate cluster-counting verdict** (not always "admit new slug" or "decline")
+
+---
+
+## Bundle α arc state post-X4
+
+**4 of 6 ADRs landed cleanly**:
+- ADR-X1 (ADR-0085) — golden-calf-trap + recursive-audit-method slugs + ADR-0048 narrative-ext + framing-note (Option D triple-move) — `b44ac28`
+- ADR-X2 (ADR-0086) — life-value-doctrine 4th cross-cutting doctrine (canon-object-class expansion 3→4) + ADR-0042 narrative-ext + framing-note — `359810e`
+- ADR-X3 (ADR-0087) — civil-commons derived-glossary slug + framing-note (Option B standalone; first standalone-slug + framing-note shape) — `2783f1c`
+- ADR-X4 (ADR-0088) — **care-cluster scope-condition substrate-strengthening + ADR-0045 narrative-ext** (FIRST scope-condition admission; lightest ceremony; Gate (j) formalized) — `b737f34` ← **THIS ADR**
+
+**Remaining**: ADR-X5 + ADR-X6 + framing-notes for any X5/X6 + decline-with-trigger entries — operator-elective separate-session work per 3-layer discipline.
+
+**Validator**: 9/237 EXACT held across all 4 Bundle α landings (zero drift).
+**Sibling SHAs**: All 6 frozen across Phase 2 C3 → ADR-X4 (Spore-only discipline held consistently).
+**Push posture**: All 4 Bundle α ADRs pushed to origin/main.
+
+---
+
+## Handback artifacts
+
+- **Plan**: `~/.claude/plans/purring-gathering-river.md` (CLOSED)
+- **Preflight manifest**: `tmp/adr-0088-preflight-manifest.txt`
+- **Audit manifest**: `tmp/adr-0088-audit-manifest-2026-05-25.md` (10-gate Step 0.5 audit + DECISION-BRIEF filename catch + Gate (j) baseline capture)
+- **Validator pre-state**: `tmp/adr-0088-validator-pre.txt`
+- **Validator post-state**: `tmp/adr-0088-validator-post.txt`
+- **Verification manifest**: `tmp/adr-0088-verification-manifest.txt` (Step 5 9-gate post-bundle verification + Gate (j) byte-equal MATCH)
+- **Close-out manifest**: `tmp/adr-0088-close-out-manifest.txt` (THIS FILE)
+
+All tmp/ artifacts remain operator-session artifacts per AC30 whitelist; NOT committed per Gate (f) allowlist-strict + `feedback_never_git_add_all.md`.
+
+---
+
+## Status: HANDBACK TO ORCHESTRATOR
+
+Bundle α progresses to 4 of 6 on landing. Ready for ADR-X5 / ADR-X6 dispatch at operator's discretion.

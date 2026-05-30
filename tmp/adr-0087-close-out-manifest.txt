@@ -1,0 +1,101 @@
+ADR-0087 Close-Out Manifest — 2026-05-25
+==========================================
+
+## ADR
+- Title: civil-commons-derived-glossary-slug-admission
+- ADR number: 0087
+- doc_id: spore.canon-decision.civil-commons-derived-glossary-slug-admission
+- Status: ACTIVE
+- Bundle position: 3rd of 6 in Sahely Bundle α (after ADR-0085 X1, ADR-0086 X2)
+
+## Commits (local, unpushed)
+- c30f77d intake: sahely Layer 3 ADR-0087 civil-commons-derived-glossary-slug-admission — DRAFT
+- 2783f1c intake: sahely Layer 3 ADR-0087 civil-commons-derived-glossary-slug-admission — ACTIVE
+
+## Files modified (3 total per E1 axis atomic-bundle)
+- NEW docs/research/canon-decisions/0087-civil-commons-derived-glossary-slug-admission.md (282 lines)
+- MODIFY docs/research/concepts-p2p-wiki.yaml (v23→v24; +119 -1 = +118 net; +1 slug at L1198; +110-line v24 history block)
+- NEW docs/research/connections/canon-framing-civil-commons.md (172 lines)
+
+## Per-axis dispositions (all plan-default; E.1 ratified at Step 2 sub-decision)
+A1 ADMIT derived-glossary slug
+B1 cite-all UNION-of-6 substrate bridge notes
+C1 3 FULL tradition-clusters + 1 FULL evidence-cluster + FULL-vs-PARTIAL asymmetry callout vs ADR-0086 C3
+D1 1 new slug + framing-note + NO canon-body changes
+E.1 NEW dedicated canon-framing-civil-commons.md
+F1 cite-all UNION-of-6 (matches axis B)
+G1 narrow scope
+H1 H3-flat substrate-parents-only (ADR-0042 + ADR-0079 implicit cite)
+I1 narrow Spore-only — NO Wave-N+1 alignment
+J1 narrow scope
+
+## Aliases
+[civil-commons-substrate] only (civil-commons-doctrine alias DROPPED per Codex R1 Q2 categorical-correctness)
+
+## Codex /review-plan outcomes (2-round known-ceiling discipline)
+- Round 1 high: 3 questions
+  - Q1 framing-note: REJECT (operator preserves Step 2 sub-decision as canonical discipline)
+  - Q2 aliases: ACCEPT-revise (drop -doctrine alias; keep -substrate)
+  - Q3 Codex-timing: ACCEPT (move Step 5 → Step 1.5 pre-Step-2-ratification placement)
+  - Lint L.b TAIL (7 canonical-section FAILs; cosmetic per Bundle α precedent)
+- Round 2 high: 1 question (Codex-persistence on Q1 at N=2 below 3+ retrospective-signal threshold)
+- END-loop at known-ceiling per feedback_intake_to_vocab_admission_program.md
+
+## Canon state deltas
+| Metric                          | Pre  | Post | Delta |
+|---                              |---   |---   |---    |
+| Canon-rebuild arc decisions     | 36   | 37   | +1    |
+| Concepts yaml version           | v23  | v24  | +1    |
+| yaml slug count                 | 79   | 80   | +1    |
+| Derived-glossary subset         | 22   | 23   | +1    |
+| Doctrine count                  | 4    | 4    | 0 (UNCHANGED) |
+| Foundation docs                 | 14   | 14   | 0 (UNCHANGED) |
+| Patterns                        | 7    | 7    | 0 (UNCHANGED) |
+| Canon-object-class inventory    | 4    | 4    | 0 (PRESERVED) |
+
+## Validator
+- Pre-state: 9 errors / 237 warnings EXACT
+- Post-state: 9 errors / 237 warnings EXACT
+- ONLY change: "Governed docs: 298 → 300" (+2: ADR-0087 + canon-framing-civil-commons.md both counted as governed; matches ADR-0086 precedent)
+
+## Sibling repos (all frozen — sibling-zero-change C3 discipline)
+- IC: d74f1d0 (unchanged)
+- PM: 5e06cd0 (unchanged)
+- bregion: 07ff973 (unchanged)
+- BKC inner: 967e95e (unchanged)
+- koi-processor: ada5b9a (unchanged)
+- darren-workflow: 059129a (unchanged)
+
+## Method-precedents contributed
+1. First standalone-slug + dedicated-framing-note admission shape (lighter than ADR-0085 triple-move bundle but heavier than ADR-0084 vocab-only-no-framing)
+2. Cluster-strength asymmetry across Bundle (intra-bundle vs inter-bundle) — extends ADR-0052/0084 within-bundle precedent to inter-bundle case (same Bollier-Helfrich-Linebaugh cluster: FULL here / PARTIAL in ADR-0086)
+3. Evidence-cluster-as-instance-family-β-evidence honest classification (BKC evidence-cluster NOT 4th tradition-cluster category error per Step 0.5 gate (a))
+4. Aliases discipline preemptively applied from ADR-X2 Q2 categorical-correctness lesson (recursive operation at canon-object-class placement + alias-naming layers)
+
+## Meta-learning flagged for post-Bundle-α retrospective
+- Codex /review-plan step positioning error repeats from ADR-X1 R1 Q1 → ADR-X3 R1 Q3 (this admission). Two consecutive plans had the same plan-template fidelity error. Template fix at planning-skill layer would prevent recurrence.
+
+## Pre-existing limitations carried forward
+- PyYAML L854 col 879 baseline-fragility (inside relational-identity entry from ADR-0051 v9; pre-existing, line-position shifts per each v-bump as history blocks accumulate). Does NOT block; validator (authoritative check) holds clean. Per ADR-0085/0086 parking.
+
+## Parking
+- ic Wave-N+1 alignment (operator-elective; ~30-60 min IF cross-stream opens)
+- pm Wave-N+1 alignment (operator-elective; DH-PM-1 hard-pause check required at PM Step 0)
+- BKC peer-instance-family bridge candidate (bkc.connection.mcmurtry-civil-commons-as-economic-foundation or operator-named) operator-elective separate-session
+- bregion peer-instance-family (descriptive cross-reference only; no alignment ADR)
+- McMurtry-primary direct reading (operator-elective IF deeper substrate-evidence required for future ADR)
+- F9 maintenance-economics narrative-ext citing McMurtry foundation-doctrine substrate (operator-elective)
+- Remaining Bundle α ADRs (X4 + X5 + X6 + framing-notes + decline-with-trigger entries) — operator-elective separate-session work per 3-layer discipline
+
+## Push posture
+- Push-after-active-commit per R2-Q2 Layer 3 standard
+- AWAITING OPERATOR PUSH-CONFIRMATION before `git push origin main`
+- Current state: 2 local commits ahead of origin/main (c30f77d + 2783f1c)
+
+## Push outcome (post-Step-6 operator-confirm)
+- Pushed 2026-05-25 with operator authorization
+- SHA range: 359810e..2783f1c (2 commits — draft c30f77d + active 2783f1c)
+- origin/main now at 2783f1c
+- AC-15 satisfied: all 6 sibling SHAs UNCHANGED from Step 0 baseline post-push (no side effects)
+- Bundle α progress: 3 of 6 main ADRs complete (X1 ADR-0085 + X2 ADR-0086 + X3 ADR-0087)
+- Remaining: X4 C2 care-cluster scope-condition ADR-0045 + X5 C12 margin scope-condition F9 + X6 C13 perception-as-power scope-condition F4 + framing-notes pack + decline-with-trigger entries (C16)

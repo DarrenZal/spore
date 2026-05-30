@@ -1,0 +1,5 @@
+  ERROR: docs/research/connections/reputation-gaming-opposition.md (ic.connection.reputation-gaming-opposition): doc_id must start with 'spore.' (project_id from project.json)
+  ERROR: docs/research/planning/foundational-reframing-protocol-v1.md (spec:spore.foundational-reframing-protocol): doc_id must start with 'spore.' (project_id from project.json)
+  ERROR: docs/research/connections/johar-metacognition-stack.md (spore.connection.johar-metacognition-stack): broken local depends_on 'spore.connection.johar-sheaf-theory-formalization' — no such doc_id in repo
+
+FAILED: 9 error(s), 237 warning(s)

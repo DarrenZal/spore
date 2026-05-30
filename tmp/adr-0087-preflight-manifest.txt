@@ -1,0 +1,22 @@
+ADR-0087 Step 0 Preflight Manifest — 2026-05-25
+================================================
+
+Spore HEAD (expected 359810e):
+359810e069be6f23e2bbc0c2f1b60225be261c44 ✓ MATCH
+
+Validator baseline (expected 9 errors / 237 warnings EXACT):
+FAILED: 9 error(s), 237 warnings — captured at tmp/adr-0087-validator-pre.txt ✓ MATCH
+
+Sibling SHAs (captured for post-execution comparison per L4 cascade-miss discipline):
+IC:               d74f1d026fcfa8074877f81efc83b7cd6951cd0e
+PM:               5e06cd012dfc78ab851a35ef9e5b9f181024f131
+bregion:          07ff9738e9b7156a043c836bfe1e1c4e432bfd26
+BKC (inner):      <captured-via-separate-command>
+koi-processor:    ada5b9a06eb01e1fc279ebfb3d9b6981b3eb9c52
+darren-workflow:  059129a35d58c67c3c807dd70641a7141e01fefa
+
+Tracked-dirt baseline per Gate (f):
+M AGENTS.md
+M CLAUDE.md
+?? <untracked tmp/, research notes, image files, grant-materials/, etc.>
+NO uncommitted changes to canon files. ✓

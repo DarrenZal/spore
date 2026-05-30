@@ -1,0 +1,64 @@
+=== /Users/darrenzal/projects/IndigenomicsAI ===
+ M CLAUDE.md
+?? .turbo/
+?? 01-rising-1440.png
+?? 02-layout-1440.png
+?? 03-chat-response-1440.png
+?? 04-fullflow-1440.png
+?? 05-fullflow-1280.png
+?? 06-layout-1280.png
+?? 07-layout-1920.png
+?? 08-layout-1920-clean.png
+?? 09-methods-modal.png
+?? 3col-live-prod-after-rising.png
+?? 3col-live-prod-app.png
+?? 3col-live-prod.png
+?? AGENTS.md
+?? data/Books/Indigenomics.pdf
+?? data/Books/Indigenomics.txt
+?? docs/carol-anne-2025/
+?? docs/podcast/
+?? prod-01-welcome-1440.png
+?? prod-02-fullflow-1440.png
+?? rising-animation.png
+?? scripts/obsidian_to_notion.py
+?? v2-graph-fully-seeded.png
+?? v2-graph-label-fix.png
+?? v2-graph-localhost.png
+?? v2-graph-seeded.png
+?? v2-test-01-graph-initial.png
+?? v2-test-02-graph-fixed.png
+?? v2-test-03-chat-response.png
+?? v2-test-04-sidecar-after-citation-click.png
+?? v2-test-05-custom-question-fullflow.png
+?? v2-test-06-after-new-conversation.png
+?? v2/packages/knowledge/data/book1-worldview.json
+?? v2/packages/knowledge/data/book2-worldview.json
+?? v2/packages/knowledge/data/graph.json
+?? v2/packages/knowledge/data/indigenomics-ontology-v1.json
+?? v2/packages/knowledge/data/statcan-ipea-baseline.json
+=== /Users/darrenzal/projects/bioregional-coordination ===
+ M docs/README.md
+ M docs/research/connections/README.md
+?? docs/research/connections/active-inference-biofirm-and-bioregional-coherence.md
+?? docs/research/connections/active-inference-local-generative-model-research-boundary.md
+?? docs/research/connections/agent-b-review-triage-and-v0-roadmap.md
+?? docs/research/connections/bioregional-workshop-simulation-and-private-computation.md
+?? docs/research/connections/commitment-pool-route-graphs-review.md
+?? docs/research/connections/living-coherence-hypergraph-sheaves-and-plurality.md
+?? docs/research/connections/obstruction-report-v0-routing-diagnostic.md
+?? docs/research/connections/privacy-posture-v0.md
+?? docs/research/connections/ruddick-commitment-pool-route-graphs-peer-review.md
+?? docs/research/connections/sheaf-coordination-priority-threads.md
+?? docs/research/connections/victoria-projection-schema-v0-delta.md
+?? docs/research/connections/victoria-workshop-simulator-v0.md
+?? docs/workshops/
+=== /Users/darrenzal/projects/poietic-match ===
+?? tmp/
+=== /Users/darrenzal/projects/darren-workflow ===
+ M memory/MEMORY.md
+ M skills/meeting-tasks/SKILL.md
+ M skills/process-note/SKILL.md
+?? AGENTS.md
+?? docs/specs/gardening-plugin-spec.md
+?? ontology/

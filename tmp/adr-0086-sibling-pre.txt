@@ -1,0 +1,12 @@
+# Sibling repo HEAD snapshot — pre-execution
+# Captured: 2026-05-25 (Step 0.3)
+# Plan baseline references in plan §0.3 + AC-8
+
+IC /Users/darrenzal/projects/intelligence-commons d74f1d026fcfa8074877f81efc83b7cd6951cd0e
+PM /Users/darrenzal/projects/poietic-match 5e06cd012dfc78ab851a35ef9e5b9f181024f131
+bregion /Users/darrenzal/projects/bioregional-coordination 07ff9738e9b7156a043c836bfe1e1c4e432bfd26
+koi /Users/darrenzal/projects/regenai/koi-processor ada5b9a06eb01e1fc279ebfb3d9b6981b3eb9c52
+dw /Users/darrenzal/projects/darren-workflow 059129a35d58c67c3c807dd70641a7141e01fefa
+BKC SKIP-per-non-locatable /Users/darrenzal/projects/BKCCOP (per plan §0.3 + AC-8)
+
+# Baseline match: all 5 prefixes match plan-specified short-SHAs (d74f1d02 / 5e06cd01 / 07ff9738 / ada5b9a0 / 059129a3)
