@@ -1,0 +1,63 @@
+# ADR-0073 F1 sensor-oracle-governance — Preflight Manifest
+Date: 2026-04-25
+Session: fresh orchestrator-child for Phase 4 Tier A admission
+Plan: ~/.claude/plans/adr-0073-f1-sensor-oracle-governance.md (fallback tmp/)
+
+## Baseline HEADs (verified at Step 0)
+
+Spore (primary working repo):
+  HEAD:           8867acc079ca063109fb7d79865e0af4f641466e
+  Expected:       8867acc
+  Match:          PASS
+  Context:        post-ADR-0059b cascade-miss partial closure
+
+IC (read-only sibling):
+  HEAD:           8ce665ee28633efbfc4182a083ac8b279b53fd76
+  Path:           /Users/darrenzal/projects/intelligence-commons
+  Expected:       8ce665e
+  Match:          PASS
+
+PM (read-only sibling):
+  HEAD:           db8323253c50affd5cfdd8f3c5d0ccd61af69b2d
+  Path:           /Users/darrenzal/projects/poietic-match
+  Expected:       db83232
+  Match:          PASS
+
+koi-processor (read-only sibling):
+  HEAD:           1119f703452950c52b04511a19a9026974882d88
+  Path:           /Users/darrenzal/projects/regenai/koi-processor
+  Expected:       1119f703
+  Match:          PASS
+  Branch:         regen-prod
+
+darren-workflow (read-only sibling):
+  HEAD:           3cc190f45b66c3bae3596ea5e195fc8561b93265
+  Path:           /Users/darrenzal/projects/darren-workflow
+  Expected:       3cc190f
+  Match:          PASS
+
+## Working Tree State (Spore)
+
+Tracked modifications: NONE (Constraint 10 clean)
+Untracked files: numerous (tmp/ artifacts, research originals, PNG assets, AGENTS.md) — all OUTSIDE target set for ADR-0073
+Target allowlist for Step 3+:
+  - docs/research/canon-decisions/0073-sensor-oracle-governance-foundation-doc-promotion.md (NEW)
+  - docs/foundations/sensor-oracle-governance.md (NEW)
+  - docs/README.md (foundation-doc registration edit)
+  - docs/research/planning/canon-review-protocol.md §1 (registration edit)
+  - docs/research/concepts-p2p-wiki.yaml (conditional; only if D-axis admits slugs)
+  - /Users/darrenzal/projects/spore/CLAUDE.md (session-wrap only at /end)
+
+## Canon State (expected, to verify at Step 0.5)
+
+- 9 primitives / 3 doctrines / 2 modes / 2 properties / 6 derived glossary slugs
+- 7 in-scope patterns
+- Concepts yaml v14
+- Foundation docs: 7 (federation-protocol, governance-artifacts-and-graph-projections, holonic-network-architecture,
+  relational-agency-and-holons, spore-instance-model, structural-legitimacy, + 3 lexicon entries)
+- Validator baseline: 9/30 held exact
+- Canon-rebuild arc at 24 canon-decisions (ADR-0073 slot empty)
+
+## Preflight Verdict
+
+ALL HEADS BASELINE-VERIFIED. Working tree scope-clean. Safe to proceed to Step 0.5 audit.

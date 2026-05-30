@@ -1,0 +1,34 @@
+ADR-0077 F3 actor-governance preflight manifest
+================================================
+date: 2026-04-25 (continuation, post-F4)
+plan_path: tmp/adr-0077-f3-decision-brief-2026-04-25.md (sandbox-fallback per spore:ADR-0072 precedent)
+
+Validator state:
+  python3 scripts/validate_spec_dag.py 2>&1 | tail -1
+  → FAILED: 9 error(s), 30 warning(s)
+
+Repo HEADs (snapshot, immutable for child session):
+  Spore:           9a04945cdd60c8d3b5b4882dbe60dfcaa690801f  (post-F5 housekeeping; pushed origin/main)
+  IC:              8ce665ee28633efbfc4182a083ac8b279b53fd76  (origin/main; READ-ONLY)
+  PM:              db8323253c50affd5cfdd8f3c5d0ccd61af69b2d  (origin/main; READ-ONLY)
+  koi-processor:   22463cf4673fb6c4aceba3148f34d4415f5c5976  (origin/regen-prod; READ-ONLY)
+  darren-workflow: 3cc190f45b66c3bae3596ea5e195fc8561b93265  (origin/main; READ-ONLY)
+
+Canon state baseline:
+  Concepts yaml:   v17 (post-F5: +epistemic-gap +response-doctrine; post-F6: +failure-mode-class +coupling-breakdown; pre-F3)
+  Foundation docs: 10 (post-F1+F4+F6+F5)
+  Validator hold:  9/30 exact (preserve through both commits)
+  Canon-rebuild arc: 28 canon-decisions (0044–0058, 0061–0076, 0059a)
+
+Target: F3 actor-governance, FINAL Tier B admission of Phase 4
+Expected ADR slot: 0077-actor-governance-foundation-doc-promotion.md
+Expected foundation-doc: docs/foundations/actor-governance.md
+Expected target session-atomic: 10-18 min (synthesis-heavy; F5 was 122s; F6 was 8m21s; F3 likely closer to F6)
+
+Discipline tripwires:
+  - NEVER git add -A; explicit paths only
+  - Sibling repos READ-ONLY; HEAD verification at Step 7
+  - Foundation doc authored with status: draft initially (no premature status: active)
+  - Single ceremony: draft → active commit pair (no F5-style three-commit anomaly)
+  - 2-round /review-plan cap with known-ceiling discipline
+  - Constraint-10 tripwire on tracked files outside allowlist

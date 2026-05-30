@@ -1,0 +1,21 @@
+ADR-0075 F6 failure-modes foundation-doc admission — preflight manifest
+TIMESTAMP: 2026-04-25 (session start)
+
+SPORE_HEAD: f6121f45e846b6b67c75def47f57bb7fe8cc9734 (origin/main synced)
+IC_HEAD: 8ce665ee28633efbfc4182a083ac8b279b53fd76 (unchanged from yesterday)
+PM_HEAD: db8323253c50affd5cfdd8f3c5d0ccd61af69b2d (unchanged)
+KOI_HEAD: 22463cf4673fb6c4aceba3148f34d4415f5c5976 (koi-processor)
+DW_HEAD: 3cc190f45b66c3bae3596ea5e195fc8561b93265 (darren-workflow)
+
+VALIDATOR_BASELINE: FAILED: 9 error(s), 30 warning(s) — confirmed exact
+
+UNTRACKED_SNAPSHOT: AGENTS.md + docs/research/Sheaves/sheaf-theory-synthesis.md + docs/research/corpus-review/originals/*.md + spore-*.png (screenshots) + tmp/adr-* (prior-ADR artifacts) + tmp/adr-0060..0074-* + tmp/canon-* + tmp/downstream-* + tmp/encounter-* + tmp/handoff-* + tmp/phase-* + related. No tracked-file modifications.
+
+CANON STATE:
+- Foundation docs: 9 (target: 10 post-F6)
+- Concepts yaml: v15
+- Canon-rebuild arc canon-decisions: 26
+- Primitives: 9 / Doctrines: 3 / Modes: 2 / Properties: 2 / Derived glossary: 8
+- Patterns: 7 in-scope (M4 sub-class framework)
+
+NEXT STEP: 0.5 audit of failure-language substrate before proposing taxonomy

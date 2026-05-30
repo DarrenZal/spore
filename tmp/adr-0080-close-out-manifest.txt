@@ -1,0 +1,131 @@
+ADR-0080 close-out manifest
+============================
+
+Date: 2026-04-26
+ADR: spore:ADR-0080 — F2 translation-mapping-governance defer-with-triggers
+Phase: Phase 4 Tier C (third admission this session; F7+F9 prior; F8 sole remaining)
+Disposition: DECLINE-with-triggers (ADR-0054 / ADR-0069 analog)
+
+Commits
+-------
+- Draft:   e41de09  draft: F2 translation-mapping-governance defer-with-triggers (ADR-0080)
+- Active:  a224fac  canon: activate ADR-0080 F2 translation-mapping-governance defer-with-triggers
+- Pushed:  origin/main  4fc58ad..a224fac
+
+Allowlist
+---------
+1 file ONLY:
+  + docs/research/canon-decisions/0080-translation-mapping-governance-defer-with-triggers.md (NEW)
+
+NO yaml v-bump. NO foundation-doc. NO canon-review-protocol §1 update. NO docs/README registration.
+
+Acceptance criteria (15/15 PASS)
+--------------------------------
+AC1  ADR file exists with required frontmatter ............................. PASS
+AC2  Allowlist = 1 file (no yaml; no foundation-doc; no §1; no README) ..... PASS
+AC3  3 re-opening triggers verbatim per pre-pinning ......................... PASS
+AC4  §Consequences names "Sufficient-spec-prose-as-defer-rationale" ......... PASS
+AC5  Distinction from ADR-0066 K3a reclassification documented .............. PASS
+AC6  DH-PM-1 NOT-APPLICABLE recorded in §Context ............................ PASS
+AC7  Validator 9/30 baseline held exact ..................................... PASS (9 err / 30 warn)
+AC8  IC HEAD cef35fe unchanged .............................................. PASS
+AC9  PM HEAD 349e3ac unchanged .............................................. PASS
+AC10 koi-processor HEAD 22463cf4 unchanged .................................. PASS
+AC11 darren-workflow HEAD 3cc190f unchanged ................................. PASS
+AC12 Draft + active commits recorded ........................................ PASS
+AC13 Both pushed to origin/main ............................................. PASS
+AC14 No tracked files outside ADR allowlist (Constraint-10) ................. PASS (CLAUDE.md untouched)
+AC15 Decision-brief + close-out manifest written to tmp/ .................... PASS
+
+Canon state delta
+-----------------
+- Foundation docs:               13         (unchanged — no admission)
+- Concepts yaml:                 v19        (unchanged — no slug change)
+- Derived glossary slugs:        16         (unchanged)
+- Canon-rebuild arc:             31 → 32    canon-decisions (0044–0058, 0061–0080, 0059a)
+- Phase 4 progress:              7/9 → 8/9  deficits closed (F2 defer counted as closed)
+                                            • Tier A: F1 (ADR-0073) + F4 (ADR-0074)
+                                            • Tier B: F6 (ADR-0075) + F5 (ADR-0076) + F3 (ADR-0077)
+                                            • Tier C: F7 (ADR-0078) + F9 (ADR-0079) + F2 (ADR-0080-defer)
+                                            • Remaining: F8 external-validation-loop (gated by cluster-counting)
+- Primitives / doctrines / modes / properties / patterns: PRESERVED
+- Canon-object-class inventory:  PRESERVED (4 categories)
+
+Sibling-repo zero-change (verified)
+-----------------------------------
+- IC:               HEAD cef35fe unchanged (matches Step 0 baseline)
+- PM:               HEAD 349e3ac unchanged (matches Step 0 baseline)
+- koi-processor:    HEAD 22463cf4 unchanged (matches Step 0 baseline)
+- darren-workflow:  HEAD 3cc190f unchanged (matches Step 0 baseline)
+
+DH-PM-1 hard-pause check
+------------------------
+NOT-APPLICABLE: F2 is concepts-registry governance (vocabulary layer); DH-PM-1 is
+PM accounting-dependence (commitment-pool / coordination-grammar layer). The
+two concerns do not overlap. No hard-pause check fires.
+
+Method-precedent contributions (1 NEW)
+--------------------------------------
+"Sufficient-spec-prose-as-defer-rationale" (FIRST operational use):
+  When an existing artifact operationally encodes the canon-doctrine that a
+  deficit-doc would articulate, defer-with-triggers is the honest call rather
+  than authoring a parallel foundation doc that would merely paraphrase the
+  existing spec-prose. Reusable for any future deficit where in-place spec-
+  prose suffices.
+
+  Distinct from ADR-0066 K3a reclassification: ADR-0066 moved a wrong-classification
+  doc to its correct doc_kind. F2 keeps existing prose-spec authoritative as-is
+  at the *correct* artifact location (yaml header governing the yaml itself);
+  F2 is NOT reclassification.
+
+  Distinct from ADR-0054 / ADR-0069 declines: those declined under cluster-
+  counting / honest-rigor verdicts. F2 declines on substrate-sufficiency at
+  existing location. The shape-template (decline-with-triggers + 3-trigger
+  structure + ADR-layer formalization) inherits from ADR-0054 / ADR-0069;
+  the *rationale* is novel.
+
+Substrate evidence audit (Step 0.5 verified)
+--------------------------------------------
+- yaml header L1-L12 governance-prose extant at v19 (frozen-status, slug-mint
+  prohibition for fan-out agents, extension-protocol with operator-approval
+  + version-bump + per-version authorization-notes, memory reference)
+- ADR-0034 L45 names "translation-mappings" as Spore's implementation-mechanism
+- project-vision.md:283 mentions translation-mappings in Common Core, Local
+  Variation section
+- IC concepts-yaml: NONE (verified empty); H2-decline per ic:ADR-0019 + ic:ADR-0020
+- PM concepts-yaml: NONE (verified empty); H2-decline per pm:ADR-0015 + pm:ADR-0017
+- Cross-repo translation-mapping pressure: NOT YET FIRED
+
+3 re-opening triggers (operationally-falsifiable)
+------------------------------------------------
+(a) IC or PM admits its own concepts-registry → cross-repo translation pressure
+(b) Solo-operator yaml-governance machinery breaks down (multi-operator editing,
+    conflicts, mis-attribution)
+(c) Cross-repo audit shows translation-drift (slugs in IC/PM bridge notes don't
+    resolve to Spore concepts-yaml entries)
+
+Parking items remaining (Phase 4)
+----------------------------------
+F8 external-validation-loop: SOLE remaining Phase 4 deficit.
+  - STRONG-FIRED on operational-demand (Claude Code reads Spore canon routinely;
+    Hermes + Flow Coding bridge intakes; comparative-intake protocol)
+  - GATED by cluster-counting at Step 0.5 (need ≥1-2 non-Johar full clusters
+    or land as ADR-0069-style decline-with-triggers)
+  - Candidate non-Johar clusters to audit: Fricker testimonial-justice;
+    Popper/Kuhn/Latour scientific-validation; XAI/mechanistic-interpretability;
+    Levinas face-of-other / outsider-witness anthropology
+  - Predicted session-atomic: 15-25 min if foundation doc admitted; ~5 min
+    if framing-note; ~3 min if decline-with-triggers ADR
+
+Predicted vs actual session-atomic
+----------------------------------
+Predicted: ~3 min in-window (per audit §4 "predicted session-atomic")
+Actual:    in-window mechanical decline-shape; substrate well-articulated;
+           decision-gated structure put most work outside commit window
+           (single ADR file, atomic 2-commit ceremony — draft e41de09 → active a224fac)
+
+Plan-file / decision-brief location
+-----------------------------------
+~/.claude/plans/ NOT attempted (sandbox-deny pattern from F5/F6/F3); decision
+content embedded at tmp/adr-0080-decision-brief-2026-04-26.md per established
+fallback precedent.

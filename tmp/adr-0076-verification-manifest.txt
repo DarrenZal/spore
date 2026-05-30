@@ -1,0 +1,130 @@
+ADR-0076 F5 actuator-logic — Verification Manifest
+Date: 2026-04-25
+Phase: Phase 4 Tier B second admission (F6+F5 complete; F3 remaining)
+
+=== Commit chain ===
+PREEXEC SHA:    2427d5f8146e63095647dde21bc3a5b2ecb47f86
+DRAFT SHA:      a88d9403530c7efc8f844d5d1b96bc5a854fa3a6
+CORRECTION SHA: 5198875 (active→draft status-ceremony correction)
+ACTIVE SHA:     8695d7f427b21a5ea072411ad0a2cff0edb21e12
+Branch:         main
+Push:           clean to origin/main (a1da461..8695d7f)
+
+Session-atomic: 122 seconds (~2m02s) — fastest Phase 4 Tier B admission
+  (F6 was 8m21s; F5's faster cadence reflects decision-gated plan structure
+   putting audit + decision-brief outside the window, plus B1 template
+   re-convergence meant no new structural shape to invent)
+
+=== Validator baseline ===
+Pre-draft:    FAILED: 9 error(s), 30 warning(s)  [baseline]
+Post-draft:   FAILED: 9 error(s), 30 warning(s)  [exact match]
+Post-correction: FAILED: 9 error(s), 30 warning(s)  [exact match]
+Post-active:  FAILED: 9 error(s), 30 warning(s)  [exact match]
+
+=== Sibling repos (READ-ONLY; zero-change) ===
+intelligence-commons:  8ce665ee28633efbfc4182a083ac8b279b53fd76  [UNCHANGED]
+poietic-match:         db8323253c50affd5cfdd8f3c5d0ccd61af69b2d  [UNCHANGED]
+koi-processor:         22463cf4673fb6c4aceba3148f34d4415f5c5976  [UNCHANGED]
+darren-workflow:       3cc190f45b66c3bae3596ea5e195fc8561b93265  [UNCHANGED]
+
+=== 5-file atomic-bundle ===
+NEW   docs/foundations/actuator-logic.md  (~225 lines)
+NEW   docs/research/canon-decisions/0076-actuator-logic-foundation-doc-promotion.md  (~155 lines)
+EDIT  docs/research/planning/canon-review-protocol.md §1  (+1 line)
+EDIT  docs/README.md Foundations listing  (+1 line)
+EDIT  docs/research/concepts-p2p-wiki.yaml v16→v17  (+31 lines; 2 new slug entries)
+
+=== 10-axis disposition (all operator-ratified 2026-04-25) ===
+A1 full response-doctrine scope
+B1 unified principled-rule (re-convergent with F1 after F6's B2 divergence)
+C1 inherit ADR-0046 Ostrom 3-level rule-stack
+D2 admit 2 slugs (epistemic-gap + response-doctrine; yaml v16→v17)
+E2 reframe with explicit ADR-0056 cite
+F1 5-file atomic-bundle
+G2 inherit F4 §5.3 appeal-protocol wholesale (cite-don't-redefine)
+H3 hybrid structural-legitimacy substrate-child + F6 operational-pair
+I1 narrow Spore-only
+J1 narrow scope
+
+=== 5 admitted response-categories (all pass honest-rigor ≥2-cluster) ===
+R1 acknowledge-and-record
+R2 contest (routes F1 §4.4 sensor / F4 §5.3 inter-layer)
+R3 amend-declared-state (text-authoritative per F4 §5.1)
+R4 escalate (Ostrom rule-stack per ADR-0046)
+R7 hold-as-tension (ADR-0001 shape)
+
+=== 2 operationally-valid, prose-only (no slug) ===
+R5 withhold / pause (reversibility-sensitive; parked)
+R6 rollback / restore (reversibility-sensitive; parked)
+
+=== Forward-refs DISCHARGED ===
+F1 sensor-oracle-governance.md:38 — response-to-mismatch doctrine
+F4 representation-authority.md:41 — response after inter-layer precedence
+F6 failure-modes.md:45 + :219 — response-and-recovery doctrine
+
+=== Forward-refs REMAINING OPEN ===
+F3 actor-governance (forthcoming) — actor-capture-specific response doctrine
+
+=== Canon state delta ===
+Foundation docs: 10 → 11
+Concepts yaml: v16 → v17
+Derived glossary slugs: 10 → 12
+Canon-rebuild arc: 27 → 28 canon-decisions (0044–0058, 0061–0076, 0059a)
+Primitives/doctrines/modes/properties/patterns: PRESERVED
+Canon object-class inventory: PRESERVED at 4 categories
+
+=== Three method-precedents named at §Consequences ===
+1. Template-adaptability validated by re-convergence (B1→B2→B1 across F1/F6/F5)
+2. Cite-don't-redefine cross-foundation-doc composition (F4 §5.3 inherit)
+3. Hybrid doctrine-pair relational shape H3 (vertical + horizontal simultaneously)
+
+=== Acceptance criteria (17/17 PASS) ===
+AC1  Preflight validator 9/30 exact [PASS]
+AC2  Audit manifest authored at tmp/ per sandbox-fallback [PASS]
+AC3  Decision-brief authored with 10-axis dispositions [PASS]
+AC4  Operator ratification at Step 2 [PASS — all 10 defaults + 3 method-precedents]
+AC5  ADR-0076 authored with 10-axis disposition + §Consequences method-precedents [PASS]
+AC6  Foundation doc actuator-logic.md authored with full 5-category taxonomy [PASS]
+AC7  canon-review-protocol.md §1 registration alphabetical [PASS]
+AC8  docs/README.md Foundations listing registration alphabetical [PASS]
+AC9  concepts-p2p-wiki.yaml v16→v17 with 2 slug entries [PASS]
+AC10 Draft commit atomic-bundle 5 files explicit paths [PASS]
+AC11 Validator held exact post-draft [PASS]
+AC12 Active-flip ceremony (draft→active) completed [PASS — via correction commit + active commit chain]
+AC13 Validator held exact post-active [PASS]
+AC14 Sibling repos HEAD zero-change verified [PASS — IC/PM/KOI/DW all unchanged]
+AC15 Three method-precedents named explicitly [PASS — per operator directive]
+AC16 Push to origin main clean [PASS — a1da461..8695d7f]
+AC17 Verification manifest at tmp/ [PASS — this file]
+
+=== Method-discipline notes ===
+
+- Sandbox-plan-file contingency operated: ~/.claude/plans/ denied; plan content
+  consolidated into tmp/adr-0076-f5-audit-manifest-2026-04-25.md +
+  tmp/adr-0076-f5-decision-brief-2026-04-25.md per spore:ADR-0072 precedent.
+
+- Draft-commit wrote status: active prematurely; correction commit reset to
+  draft, then active commit flipped to active. Three-commit chain (draft +
+  correction + active) vs. canonical two-commit (draft + active). Documented
+  as minor ceremony deviation; functionally equivalent outcome. Future Tier B
+  admissions should write status: draft at authoring-time to preserve canonical
+  two-commit ceremony.
+
+- Intent-pressure reframe handled per E2 discipline: explicit ADR-0056 cite in
+  §Context; inherited "observable epistemic gap" phrasing from governance-
+  artifacts.md:140 (post-ADR-0059c palate-cleanser); admitted `epistemic-gap`
+  slug to structurally close Phase 4 foundation-layer residue. Canon-body
+  intent-pressure refs in stigmergy.md + 6 other locations remain parked per
+  ADR-0056 R-IP-1 scope.
+
+- Tier B progression: F6 (2026-04-25 ~14:07) + F5 (2026-04-25 ~15:15) landed
+  same day; Tier B one-away from closure with F3 actor-governance remaining as
+  final Tier B admission. Operator-inverted ordering (F6 → F5 → F3) validates
+  cognitive-load optimization per ADR-0075 method-precedent.
+
+- Template-adaptability B-axis sequence now visible: F1 B1 unified → F6 B2
+  per-category → F5 B1 unified (re-convergent). This is the ADR-0076 method-
+  precedent 1 in action — substrate-driven B-axis discipline confirmed across
+  three consecutive Tier A+B admissions.
+
+=== End manifest ===

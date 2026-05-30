@@ -1,0 +1,149 @@
+ADR-0078 F7 min-viable-spore-instance foundation-doc promotion — Close-Out Manifest
+====================================================================================
+
+Date: 2026-04-26
+Author: Agent-tool child orchestrated by parent Tier C session
+Disposition: Option B promote-and-extend (operator pre-pinned at handoff)
+Phase: Canon-rebuild Phase 4 Tier C — FIRST admission
+Outcome: PASS — 17/17 ACs
+
+----------------------------------------------------------------------
+COMMITS
+----------------------------------------------------------------------
+
+Draft commit:    7f3e843ae05c7dc65211bda63200662e4571f67f  2026-04-24 20:33:41 -0700
+Active commit:   9861cabaa1ba4e4509c8f9c2d505e3b13251e317  2026-04-24 20:34:04 -0700
+Push:            origin/main (70c8421..9861cab)
+
+Session-atomic span (draft → active in-window): 23 seconds
+Step 3-5 elapsed (start of edits → active commit): ~5 minutes
+
+----------------------------------------------------------------------
+SIBLING-REPO ZERO-CHANGE VERIFICATION
+----------------------------------------------------------------------
+
+IC (intelligence-commons):  cef35fedb23f6b7efc5827cf72715cc188b5879d  (unchanged from baseline)
+PM (poietic-match):         349e3ace05c76022c0a9429b7a4d45325ebed525  (unchanged from baseline)
+koi-processor:              22463cf4673fb6c4aceba3148f34d4415f5c5976  (unchanged from baseline)
+darren-workflow:            3cc190f45b66c3bae3596ea5e195fc8561b93265  (unchanged from baseline)
+
+----------------------------------------------------------------------
+ACCEPTANCE CRITERIA — ALL 17 PASS
+----------------------------------------------------------------------
+
+AC1  ADR file exists at docs/research/canon-decisions/0078-min-viable-spore-instance-foundation-promotion.md with required frontmatter — PASS
+AC2  docs/foundations/spore-instance-model.md frontmatter doc_kind: architecture → foundation — PASS
+AC3  New §"Minimum Viable Composition" subsection added (~73 lines; target 50-100) — PASS
+AC4  F6.4 + F3 forward-refs discharged in new subsection prose — PASS
+AC5  Validator baseline 9/30 held exact (no new errors or warnings) — PASS
+AC6  IC HEAD cef35fe unchanged at end of execution — PASS
+AC7  PM HEAD 349e3ac unchanged — PASS
+AC8  koi-processor HEAD 22463cf4 unchanged — PASS
+AC9  darren-workflow HEAD 3cc190f unchanged — PASS
+AC10 Draft commit + active commit recorded — PASS (7f3e843 / 9861cab)
+AC11 Both commits pushed to origin/main — PASS (70c8421..9861cab)
+AC12 No tracked files outside ADR allowlist modified (Constraint-10) — PASS
+AC13 docs/README.md foundations listing covers spore-instance-model.md — PASS (verified L34 pre-existing)
+AC14 docs/research/planning/canon-review-protocol.md §1 references spore-instance-model.md — PASS (verified L48 pre-existing)
+AC15 Decision-brief written to tmp/adr-0078-decision-brief-2026-04-26.md — PASS
+AC16 Close-out manifest written to tmp/adr-0078-close-out-manifest.txt — PASS (this file)
+AC17 Session-atomic span recorded — PASS (23 seconds in-window)
+
+----------------------------------------------------------------------
+CANON STATE DELTA
+----------------------------------------------------------------------
+
+Foundation docs:           11 → 12  (spore-instance-model.md promoted from doc_kind: architecture to foundation)
+Concepts yaml:             v18 unchanged (D1 default; no new slugs)
+Canon object-class:        4 categories PRESERVED (primitives / doctrines / modes / properties)
+Primitives:                9 PRESERVED
+Doctrines:                 3 PRESERVED
+Modes:                     2 PRESERVED
+Properties:                2 PRESERVED
+Patterns:                  7 in-scope PRESERVED
+Derived glossary slugs:    14 unchanged (D1 default)
+Canon-rebuild arc:         29 → 30 canon-decisions (0044–0058, 0061–0078, 0059a)
+
+Phase 4 progress:          6 of 9 deficits closed
+                            - Tier A: F1 (ADR-0073) + F4 (ADR-0074) — landed 2026-04-25 morning
+                            - Tier B: F6 (ADR-0075) + F5 (ADR-0076) + F3 (ADR-0077) — landed 2026-04-25 afternoon
+                            - Tier C first: F7 (ADR-0078) — landed 2026-04-26
+Tier C remaining:          F8 external-validation-loop + F2 translation-mapping-governance + F9 maintenance-economics
+
+----------------------------------------------------------------------
+NEW METHOD-PRECEDENTS (3 named in §Consequences per orchestrator directive)
+----------------------------------------------------------------------
+
+1. First Tier C admission via promote-and-extend (Option B)
+   - Distinct shape from Tier A/B all-NEW foundation docs
+   - Pattern: existing doc gets doc_kind hygiene flip + new subsection articulating canon-decision-grade content
+   - Lower ceremony when substrate exists pre-admission
+   - Demonstrates substrate-maturity-driven Tier ceremony progression
+     (Tier A highest / Tier B mid / Tier C lower-when-substrate-exists)
+   - Reusable for future Tier admissions where substrate-doc already exists
+
+2. Doc_kind hygiene-bundling pattern
+   - Bundle frontmatter doc_kind flip with substantive admission ADR
+   - Avoids separate hygiene-PR + substantive-ADR fragmentation
+   - First operational application of Tier C readiness audit §8 Pattern 3
+   - Reusable for any future doc-classification cleanup surfaced during substantive admission
+
+3. H3-flat substrate-parents-only when the foundation doc IS the extended doc
+   - H3 multi-way (F5/F3 precedent) assumed substrate-parent + operational-pair-sibling shape
+   - Promote-and-extend reveals operational-pair shape only fits all-NEW docs
+   - Under Option B promote-and-extend, the operational-pair-sibling slot is the doc itself
+   - H3-flat (substrate-parents F6 + F3; no operational-pair sibling) is corresponding promote-and-extend variant
+   - Closes ADR-0077 §231 H3 anticipation reading
+   - Reusable for any future promote-and-extend admission
+
+----------------------------------------------------------------------
+PARKED ITEMS / FORWARD-REFS REMAINING
+----------------------------------------------------------------------
+
+Discharged forward-refs:
+  - F6.4 scale-transition (failure-modes.md §4.4 L109-121) — boundary articulated
+  - F3 cross-federation actor-portability (actor-governance.md §"Open Questions" L199) — grounded in instance-composition compatibility
+
+Remaining open forward-refs:
+  - F8 external-validation-loop (forthcoming): F7 governs existence threshold; F8 will govern external-witness validation-loops layered atop
+  - F9 maintenance-economics (forthcoming): F7's coupling-to-consequence names instance-level legitimacy; F9 will operationalize economic substrate
+
+Parked items per J1 narrow scope:
+  - ADR-0059c-shape cascade-miss at governance-artifacts-and-graph-projections.md:134-143 (compounds across F1+F4+F6+F5+F3+F7)
+  - Cross-repo IC + PM minimum-viable-instance alignment (Wave-N queue)
+  - Phase 5 section-level status labels (separate layer; tag-agnostic)
+  - Instance-validation algorithms (pattern-layer)
+  - F7 §"Open Questions" deeper articulation (temporal dynamics, decay-with-time, multi-federation-membership)
+
+----------------------------------------------------------------------
+DELIVERABLES
+----------------------------------------------------------------------
+
+Files committed (allowlist 5; net edits 2 NEW + 1 EDIT):
+  - NEW   docs/research/canon-decisions/0078-min-viable-spore-instance-foundation-promotion.md
+  - EDIT  docs/foundations/spore-instance-model.md  (+73 lines new subsection; doc_kind flip; status flip; depends_on extension)
+
+Verify-only (no edits at execution):
+  - docs/research/planning/canon-review-protocol.md  (L48 entry pre-existing)
+  - docs/README.md  (L34 entry pre-existing)
+  - docs/research/concepts-p2p-wiki.yaml  (v18 unchanged per D1 default)
+
+Tmp/ artifacts (untracked):
+  - tmp/adr-0078-decision-brief-2026-04-26.md
+  - tmp/adr-0078-close-out-manifest.txt (this file)
+
+----------------------------------------------------------------------
+HAND-BACK SUMMARY (for orchestrator)
+----------------------------------------------------------------------
+
+(a) Draft + active commit SHAs:        7f3e843 / 9861cab
+(b) AC count:                            17/17 PASS (≥15 target met)
+(c) Session-atomic time:                 23s in-window; ~5min Step 3-5 total
+(d) New method-precedents:               3 named (promote-and-extend / doc_kind hygiene-bundling / H3-flat)
+(e) Canon state delta:                   foundation-docs 11→12; arc 29→30; Phase 4 6/9 closed
+(f) Sibling-repo SHAs unchanged:         IC cef35fe / PM 349e3ac / koi 22463cf4 / DW 3cc190f
+(g) Parking items for next-session queue: F8 / F9 / F2 Tier C remaining; ADR-0059c-shape cascade-miss compounding
+
+----------------------------------------------------------------------
+END CLOSE-OUT MANIFEST
+----------------------------------------------------------------------

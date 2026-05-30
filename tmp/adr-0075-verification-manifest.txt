@@ -1,0 +1,70 @@
+ADR-0075 F6 failure-modes foundation-doc admission — verification manifest
+
+WINDOW_OPEN:  2026-04-24T20:44:42Z
+WINDOW_CLOSE: 2026-04-24T20:53:03Z
+WINDOW_DURATION: 8m21s (501s)
+
+COMMITS:
+- draft: 966302b (5-file atomic-bundle; f6121f45 → 966302b)
+- active: d20c9ff (2-file status-flip; 966302b → d20c9ff)
+- push: origin/main f6121f4..d20c9ff (clean)
+
+VALIDATOR: FAILED: 9 error(s), 30 warning(s) — held EXACT at Step 0 preflight and Step 7 verification; 3 intra-window intermediate checks all 9/30.
+
+CANON STATE DELTA:
+- foundation docs: 9 → 10 (failure-modes.md added; ls count confirmed at 10)
+- concepts yaml: v15 → v16 (2 new slugs: failure-mode-class + coupling-breakdown)
+- canon-rebuild arc: 26 → 27 canon-decisions (0044–0058, 0061–0075, 0059a)
+- derived glossary slugs: 8 → 10
+- primitives/doctrines/modes/properties/patterns/canon-object-class: PRESERVED
+
+SIBLING REPOS (Step 0 baselines vs Step 7 final):
+- IC     8ce665ee28633efbfc4182a083ac8b279b53fd76 → 8ce665ee28633efbfc4182a083ac8b279b53fd76 ✓ MATCH
+- PM     db8323253c50affd5cfdd8f3c5d0ccd61af69b2d → db8323253c50affd5cfdd8f3c5d0ccd61af69b2d ✓ MATCH
+- koi    22463cf4673fb6c4aceba3148f34d4415f5c5976 → 22463cf4673fb6c4aceba3148f34d4415f5c5976 ✓ MATCH
+- DW     3cc190f45b66c3bae3596ea5e195fc8561b93265 → 3cc190f45b66c3bae3596ea5e195fc8561b93265 ✓ MATCH
+
+ALLOWLIST (5 files):
+- NEW  docs/foundations/failure-modes.md (~251 lines)
+- NEW  docs/research/canon-decisions/0075-failure-modes-foundation-doc-promotion.md (~199 lines)
+- EDIT docs/README.md (+1 line)
+- EDIT docs/research/planning/canon-review-protocol.md (+1 line)
+- EDIT docs/research/concepts-p2p-wiki.yaml (v15 → v16; +~40 lines)
+
+AC PASS COUNT:
+AC1  Preflight manifest ✓ (tmp/adr-0075-preflight-manifest.txt)
+AC2  Audit manifest ✓ (tmp/adr-0075-f6-audit-manifest-2026-04-25.md)
+AC3  Decision-brief ✓ (tmp/adr-0075-f6-decision-brief-2026-04-25.md)
+AC4  Operator ratification ✓ (Step 2 message; all 10 defaults + 2 amendments)
+AC5  ADR-0075 authored ✓ (complete frontmatter matching F1/F4 shape)
+AC6  Foundation doc ✓ (complete frontmatter + 8-category body)
+AC7  canon-review-protocol §1 ✓ (alphabetical insertion)
+AC8  docs/README.md ✓ (Foundations list insertion)
+AC9  concepts yaml v-bump ✓ (v15→v16; 2 new slugs)
+AC10 Draft commit atomic ✓ (5 files; no stray; explicit staging)
+AC11 Active commit flips status ✓ (draft→active on both ADR + foundation)
+AC12 Push to origin/main ✓
+AC13 Validator 9/30 EXACT ✓ (held throughout)
+AC14 IC + PM + koi + DW HEADs EXACT ✓
+AC15 Verification manifest ✓ (this file)
+AC16 Method-precedents in §Consequences ✓ (5 precedents)
+AC17 Session-atomic window closed ✓ (8m21s / 15-min projection; within budget)
+
+ALL 17 ACs PASS.
+
+OPERATOR AMENDMENTS CARRIED:
+1. F6.8 internal sub-taxonomy non-negotiable ✓ — §4.8.1 substitution-trap + §4.8.2 linguistic-closure + §4.8.3 capture-via-composition each with operational-shape + distinguishing-feature + canon-evidence cite (foundation-doc §4.8; ADR §Decision "Operator amendment §1")
+2. §Consequences method-precedent #5 "Tier B template inheritance with honest-rigor per-axis divergence" ✓ (ADR-0075 §Consequences Method-precedent contributions item 5)
+
+DECISION-GATED PLAN STRUCTURE DISCIPLINE: Step 0 preflight + Step 0.5 audit + Step 1 decision-brief + Step 2 operator-gate all OUTSIDE window. Only Steps 3-7 inside window. 501s in-window for 5-file atomic-bundle with ~450-line foundation doc + ADR plus 3 light edits + concepts yaml v-bump. Under F1 projection and on-par with F4's execution footprint.
+
+KNOWN PARKED ITEMS (per J1 narrow):
+- ADR-0059c-shape cascade-miss governance-artifacts.md:134-143 (follow-on)
+- L117 mycorrhizal ref commons-law-and-charter-lineage.md (follow-on)
+- Phase 5 section-level status labels (separate-layer sweep)
+- F3 actor-governance forward-ref (F6.7 category-level named; F3 will add governance-response)
+- F5 actuator-logic forward-ref (F6 names recognition; F5 will add operational-response)
+- Meta-canon capture sub-subsection F6.8.4 (covered adequately under §4.8 constitutional-rule; admit if routine operation demands)
+- Cross-repo IC + PM alignment ADRs (Wave-N queue post-F6)
+
+HANDOFF: Tier B queue advances — F5 actuator-logic next (synthesis-heavy; inherits F1+F4+F6 template with F6 forward-ref now discharged for recognition-layer); then F3 actor-governance (final Tier B; discharges F6.7 forward-ref).

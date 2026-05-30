@@ -1,0 +1,73 @@
+ADR-0077 F3 actor-governance verification manifest
+====================================================
+date: 2026-04-25 (continuation, post-F5 same session)
+
+Commit pair (Spore main):
+  draft:  b93f0c167... — "draft: F3 actor-governance foundation-doc admission (ADR-0077)"
+  active: 0e96cd3c93ef544e3819adbde8665026df93e388 — "canon: activate ADR-0077 F3 actor-governance foundation-doc admission"
+
+5-repo HEAD verification (post-Step-7):
+  Spore:           0e96cd3c93ef544e3819adbde8665026df93e388  (main; advance from 9a04945; UNPUSHED)
+  IC:              8ce665ee28633efbfc4182a083ac8b279b53fd76  (origin/main; ZERO-CHANGE confirmed)
+  PM:              db8323253c50affd5cfdd8f3c5d0ccd61af69b2d  (origin/main; ZERO-CHANGE confirmed)
+  koi-processor:   22463cf4673fb6c4aceba3148f34d4415f5c5976  (origin/regen-prod; ZERO-CHANGE confirmed)
+  darren-workflow: 3cc190f45b66c3bae3596ea5e195fc8561b93265  (origin/main; ZERO-CHANGE confirmed)
+
+Validator hold:
+  pre-execution:    FAILED: 9 error(s), 30 warning(s)
+  post-edit pre-commit:  FAILED: 9 error(s), 30 warning(s)
+  post-active-commit:    FAILED: 9 error(s), 30 warning(s)
+  → 9/30 baseline EXACT through both commits.
+
+5-file atomic-bundle landed (draft commit):
+  NEW   docs/foundations/actor-governance.md (status: draft → active; ~330 lines)
+  NEW   docs/research/canon-decisions/0077-actor-governance-foundation-doc-promotion.md (status: draft → active)
+  EDIT  docs/research/planning/canon-review-protocol.md §1 — register actor-governance.md
+  EDIT  docs/README.md Foundations listing — register entry
+  EDIT  docs/research/concepts-p2p-wiki.yaml v17 → v18; admit 2 slugs (actor-standing, governance-response)
+
+ACs verified:
+  AC1  Foundation doc authored at docs/foundations/actor-governance.md ✓
+  AC2  ADR authored at docs/research/canon-decisions/0077-... ✓
+  AC3  canon-review-protocol §1 registration line inserted alphabetically ✓
+  AC4  docs/README.md Foundations listing entry inserted ✓
+  AC5  yaml v17 → v18 with 2 new slug entries (actor-standing + governance-response) ✓
+  AC6  Foundation doc authored with status: draft initially (no premature active) ✓
+  AC7  Single ceremony: draft → active commit pair (no F5-style three-commit anomaly) ✓
+  AC8  10-axis disposition documented in ADR (A1/B5/C1/D2/E1/F1/G2/H3/I1/J1) ✓
+  AC9  3 method-precedents named explicitly in §Consequences ✓
+  AC10 8-category taxonomy (3 HEAVY + 5 SELECTIVE) authored at foundation §4 ✓
+  AC11 Forward-references explicitly discharged: ADR-0042 §82 + F6.7 + F5 §4.2 ✓
+  AC12 Validator 9/30 baseline held exact across both commits ✓
+  AC13 Sibling repos zero-change verified at Step 7 ✓
+  AC14 Atomic-bundle staged via explicit paths (no git add -A) ✓
+  AC15 Sandbox-plan-file contingency: tmp/ decision-brief + audit-manifest ✓
+  AC16 ADR §Diff summary lists all 5 files in atomic bundle ✓
+  AC17 ADR §Implementation Notes records sandbox-fallback + Phase 4 Tier B closure ✓
+
+Method-precedents canonized (3, per operator directive):
+  1. B5 SELECTIVE per-category synthesis-depth (NOVEL fifth B-axis)
+  2. H3 3-way hybrid relational shape (extends F5 2-way to 3-way)
+  3. Multi-forward-ref cluster-discharge in single admission (highest in arc)
+
+Canon state delta:
+  Foundation docs:        11 → 12
+  Concepts yaml:          v17 → v18 (+actor-standing, +governance-response)
+  Derived glossary slugs: 12 → 14
+  Canon-rebuild arc:      28 → 29 canon-decisions (0044–0058, 0061–0077, 0059a)
+  Primitives:             9 (PRESERVED)
+  Doctrines:              3 (PRESERVED)
+  Modes:                  2 (PRESERVED)
+  Properties:             2 (PRESERVED)
+  Patterns:               7 (PRESERVED)
+  Canon object-class inventory: 4 categories (PRESERVED)
+
+Phase 4 progress:
+  Tier A: F1 + F4 (LANDED 2026-04-25)
+  Tier B: F6 + F5 + F3 (LANDED 2026-04-25 same session — FULLY CLOSED)
+  Tier C: F7 + F8 + F2 + F9 (DEFERRED-PENDING)
+  Total: 5 of 9 deficits closed
+
+Push status: UNPUSHED pending operator /end authorization.
+
+End verification manifest.

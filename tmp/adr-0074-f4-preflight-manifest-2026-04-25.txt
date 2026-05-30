@@ -1,0 +1,120 @@
+ADR-0074 F4 Representation-Authority — Preflight Manifest
+Date: 2026-04-25
+Stage: Step 0 preflight (Step 2 handback — no Step 3+ execution)
+
+========================================================================
+REPO HEADS (baseline for Step 0)
+========================================================================
+
+spore:          28fc1e4  (expected 28fc1e4; post-F1 housekeeping commit) ✓
+ic:             8ce665e  (expected 8ce665e; read-only) ✓
+pm:             db83232  (expected db83232; read-only) ✓
+koi-processor:  1119f70  (expected 1119f703; read-only) ✓
+darren-workflow: 3cc190f (expected 3cc190f; read-only) ✓
+
+All 5 HEADs match expected state. Proceed.
+
+========================================================================
+NOTE ON REPO LOCATIONS (deviation from brief)
+========================================================================
+
+Brief said:
+  IC: /Users/darrenzal/projects/ic           (not found at that path)
+  PM: /Users/darrenzal/projects/pm           (not found at that path)
+
+Actual locations:
+  IC: /Users/darrenzal/projects/intelligence-commons    (HEAD matches 8ce665e) ✓
+  PM: /Users/darrenzal/projects/poietic-match           (HEAD matches db83232) ✓
+
+The HEAD verification confirms these are the correct repos. Treating as
+minor path-resolution detail (naming convention in brief was an alias);
+no scope change required. Cross-repo read-only discipline stands.
+
+========================================================================
+WORKING TREE STATE (spore)
+========================================================================
+
+Clean: many untracked ?? entries (tmp/ artifacts from prior ADRs +
+  AGENTS.md + docs/research/Sheaves/ + docs/research/corpus-review/originals/
+  + spore-*.png + other untracked; NO modifications to tracked files).
+
+Zero staged edits; zero tracked-file modifications. Strict-scope
+preflight (Constraint 10) clean for F4 authoring.
+
+========================================================================
+CANON STATE (post-F1, pre-F4)
+========================================================================
+
+- 9 primitives (Field, Holon, Membrane, Intent, Commitment, joint-commitment,
+  Evidence, Signal, Reproduction-continuity)
+- 3 cross-cutting doctrines (reproductive-commoning, boundary-commoning,
+  care-commoning)
+- 2 modes across primitives (expressive-power, constructed-power)
+- 2 properties (holon-irreducibility, relational-identity)
+- 8 derived glossary slugs (per concepts-p2p-wiki.yaml v15 after F1 added
+  longitudinal-attestation + replication-regime)
+- 7 in-scope patterns (per docs/patterns/README.md)
+- 8 foundation docs (expected 8 per F1 ADR-0073 §Consequences line 119;
+  verified: federation-protocol, governance-artifacts-and-graph-projections,
+  holonic-network-architecture, relational-agency-and-holons,
+  spore-instance-model, structural-legitimacy, sensor-oracle-governance, plus
+  3 lexicon entries)
+- Concepts yaml at v15
+- Validator: expected 9 errors / 30 warnings held exact
+
+========================================================================
+F4 CANON-RECONNAISSANCE ARTIFACTS
+========================================================================
+
+Existing canon references to "representation-authority":
+  - 1 in ADR-0041 line 58 (forward-ref to Phase 4)
+  - 2 in F1 foundation doc (sensor-oracle-governance.md:37 + :147)
+  - 3 in ADR-0073 (F1 ADR; lines 61, 71, 112, 114)
+  Result: slug is mentioned but NOT defined; F4 authors the definition.
+
+ADR-0041 (text-authoritative-representation):
+  - Resolved text-vs-graph precedence (text wins; graph regenerates from text)
+  - Line 58 explicitly opens Phase 4 work:
+    "Phase 4's representation-authority foundation doc (when authored) can
+    build on this ADR as the text-vs-graph layer of a broader precedence
+    hierarchy (text / graph / sensor / attestation)."
+
+ADR-0073 (F1 sensor-oracle-governance):
+  - Explicit scope-boundary: F1 is intra-modality; F4 is inter-layer
+  - Sensor-oracle-governance.md:37 + :147 defer inter-layer precedence to F4
+  - Template pattern established: ADR + foundation doc + canon-review-
+    protocol §1 registration + docs/README.md registration + optional
+    concepts yaml slug admission
+
+========================================================================
+TOOLING + VALIDATOR
+========================================================================
+
+Validator state (scripts/validate_spec_dag.py):
+  DECISION_RECORD_STATUSES = {"draft", "active", "deprecated", "superseded",
+    "archived"}  (per ADR-0067 enum-addition)
+
+No validator changes required for F4. F4 uses decision: edit (same as F1,
+ADR-0042 precedent).
+
+========================================================================
+TMP ARTIFACTS (this session)
+========================================================================
+
+Planned artifacts:
+  - tmp/adr-0074-f4-preflight-manifest-2026-04-25.txt (this file)
+  - tmp/adr-0074-f4-audit-manifest-2026-04-25.md       (Step 0.5)
+  - tmp/adr-0074-f4-decision-brief-2026-04-25.md       (Step 1 decision-brief)
+  - ~/.claude/plans/adr-0074-f4-representation-authority.md (Step 1 plan,
+    tmp/ fallback if sandbox denies)
+
+========================================================================
+HANDBACK DISCIPLINE
+========================================================================
+
+This session ends at Step 2 handback. No Step 3+ execution without explicit
+operator approval via SendMessage continuation. No git add, no commits,
+no edits to tracked canon files.
+
+========================================================================
+End preflight manifest.

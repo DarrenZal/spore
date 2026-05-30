@@ -1,0 +1,28 @@
+ADR-0076 F5 actuator-logic — Preflight Manifest
+Date: 2026-04-25
+
+=== Validator baseline ===
+FAILED: 9 error(s), 30 warning(s)  [EXACT MATCH]
+
+=== Spore ===
+HEAD: 2427d5f8146e63095647dde21bc3a5b2ecb47f86
+Tracked-change status: clean (untracked tmp/ + images only)
+
+=== Sibling HEADs (READ-ONLY throughout) ===
+intelligence-commons:     8ce665ee28633efbfc4182a083ac8b279b53fd76
+poietic-match:            db8323253c50affd5cfdd8f3c5d0ccd61af69b2d
+koi-processor:            22463cf4673fb6c4aceba3148f34d4415f5c5976
+darren-workflow:          3cc190f45b66c3bae3596ea5e195fc8561b93265
+
+=== Canon state ===
+Foundation docs: 10 (post-F1+F4+F6)
+Concepts yaml: v16
+Canon-rebuild arc: 27 canon-decisions (0044–0058, 0061–0075, 0059a)
+Validator: 9 errors / 30 warnings (target: hold EXACT)
+
+=== Discipline reminders ===
+- NEVER git add -A (explicit paths only)
+- Sibling repos READ-ONLY throughout
+- Sandbox-plan-file contingency: consolidate to tmp/ per ADR-0072 precedent
+- Intent-pressure reframe LOAD-BEARING (ADR-0056 demoted the term)
+- Honest-rigor cluster-counting for response-category earning-tests

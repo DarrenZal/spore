@@ -1,0 +1,124 @@
+# ADR-0073 F1 sensor-oracle-governance — Close-Out Manifest
+Date: 2026-04-25
+Session: Phase 4 Tier A first admission
+
+## Status: CLOSED
+
+Spore ADR-0073 LANDED. Phase 4 Tier A first admission CLOSED.
+
+## Commit Pair
+
+- Draft commit: aed402f (status: draft; atomic-bundle 5-file allowlist)
+- Active commit: 120cb29 (status flip draft -> active)
+- Baseline pre-exec: 8867acc
+- Session-atomic span: ≤ operator-budget 2700s (within projection 15-22 min)
+
+## Acceptance Criteria Status
+
+- AC1 ADR-0073 authored per ADR-0042 shape — PASS
+- AC2 Foundation doc authored per structural-legitimacy.md shape (extended for 7-concern scope) — PASS (203 lines; within 200-250 projection)
+- AC3 ADR-0044 Evidence-primitive reinforcement — PASS (§1 Core Claim + §Related)
+- AC4 ADR-0049 three-way distinction preserved + longitudinal-attestation named — PASS (§5 Reproductive Evidence explicit)
+- AC5 ADR-0046 rule-stack inheritance handled — PASS (C1 INHERIT at §3 Structural Doctrine)
+- AC6 F4 scope preserved (intra-modality only; inter-layer precedence deferred to F4) — PASS (§2 Scope explicit boundary)
+- AC7 Three modalities via principled-rule — PASS (§2 Scope abstraction; §4 per-concern "Cross-modality note" prose-inline, not tables)
+- AC8 Phase 5 tag-agnostic — PASS (§6 Open Questions last bullet)
+- AC9 canon-review-protocol.md §1 updated — PASS
+- AC10 docs/README.md updated — PASS
+- AC11 concepts yaml v14 -> v15 with 2 slugs — PASS (D2 per decision-brief)
+- AC12 Validator 9/30 held exact — PASS (pre + post)
+- AC13 Draft + active commit pair on Spore; no sibling-repo touches — PASS
+- AC14 Cross-repo HEADs verified unchanged at Step 7.5 — PASS (all 4 sibling HEADs match baseline)
+- AC15 Session-atomic honored — PASS (draft aed402f → active 120cb29 inside reserved window)
+
+## Cross-Repo HEAD Verification (Step 7.5)
+
+- Spore pre-exec: 8867acc → post: 120cb29
+- IC: 8ce665e (start) → 8ce665e (end) READ-ONLY PRESERVED
+- PM: db83232 (start) → db83232 (end) READ-ONLY PRESERVED
+- koi-processor: 1119f703 (start) → 1119f703 (end) READ-ONLY PRESERVED
+- darren-workflow: 3cc190f (start) → 3cc190f (end) READ-ONLY PRESERVED
+
+## Canon State Delta
+
+PRE-ADR-0073:
+- 9 primitives / 3 doctrines / 2 modes / 2 properties / 6 derived glossary slugs / 7 in-scope patterns
+- Concepts yaml v14
+- Foundation docs: 7 (+ 3 lexicon entries)
+- Canon-rebuild arc at 24 canon-decisions
+
+POST-ADR-0073:
+- 9 primitives / 3 doctrines / 2 modes / 2 properties / 8 derived glossary slugs / 7 in-scope patterns
+- Concepts yaml v15 (longitudinal-attestation + replication-regime admitted)
+- Foundation docs: 8 (+ 3 lexicon entries)
+- Canon-rebuild arc at 25 canon-decisions (first Phase 4 Tier A admission)
+
+Object-class inventory PRESERVED at 4 categories (primitives / doctrines / modes / properties).
+
+## Files Touched (5-file atomic-bundle allowlist — Constraint 10 clean)
+
+1. docs/research/canon-decisions/0073-sensor-oracle-governance-foundation-doc-promotion.md (NEW; 162 lines)
+2. docs/foundations/sensor-oracle-governance.md (NEW; 203 lines)
+3. docs/research/planning/canon-review-protocol.md (§1 line-insert; +1 line)
+4. docs/README.md (Foundations listing line-insert; +1 line)
+5. docs/research/concepts-p2p-wiki.yaml (v14→v15 header update + 2 slug entries; ~30 net lines)
+
+OUT-OF-SCOPE preserved: governance-artifacts-and-graph-projections.md:134-143 residual
+intent-pressure language UNTOUCHED per J1 NARROW ratification. Deferred as separate
+ADR-0059c-shape cleanup commit at operator's choice.
+
+## Ratified Decision Bundle (operator 2026-04-25)
+
+- A1 FULL-DOCTRINE
+- B1 UNIFIED PRINCIPLED-RULE ABSTRACTION
+- C1 INHERIT rule-stratification
+- D2 ADMIT 2 DERIVED SLUGS (longitudinal-attestation + replication-regime)
+- E1 FULL REGISTRATION
+- F1 CITE ALL 4 FORWARD-REF ADRs
+- G2 PROTOCOL-BASED CONTESTATION
+- H3 CONTEXTUAL ABSENT-EVIDENCE
+- I1 + I3 TAG-AGNOSTIC DESIGN + MENTION IN §Open Questions
+- J1 NARROW
+
+## Method-Precedents Canonized (§Consequences of ADR-0073)
+
+1. **First Tier A foundation-doc admission of Phase 4** — template pattern for F2-F9
+   follow-on admissions (ADR-0042 shape + unified-modality + rule-stratification-
+   inheritance + forward-ref-cite-all + no-back-annotation)
+2. **Unified-modality principled-rule abstraction at foundation layer** — three-modality
+   scope authored as single doctrine via principled-rule discipline (analog to
+   ADR-0062/0063/0064 primitive-bullet scope-conditioning, applied at foundation-doc
+   layer for the first time); reusable for future multi-modality foundation docs
+3. **Rule-stratification as Tier-inheritable template** — ADR-0046 permissive inheritance
+   offer accepted at F1; F2-F6 can inherit same Ostrom 3-level rule-stack without
+   re-earning the move; reduces per-foundation-doc admission ceremony
+4. **Foundation-doc slug-admission piggyback** — 2 derived glossary slugs admitted via
+   foundation-doc ADR rather than separate glossary-bundle ADR; honors ADR-0049
+   forward-ref naming commitment directly and atomically; reusable when foundation
+   doc introduces necessary vocabulary
+
+## Queue Advances
+
+- Phase 4 Tier A — FIRST admission CLOSED. Tier A queue: F1 (CLOSED) + F4 representation-authority (NEXT; will build on F1's sensor-layer + inherit F1's rule-stack template)
+- Phase 4 Tier B — F3 actor-governance + F5 actuator-logic + F6 failure-modes (pending; inheritable from F1 template)
+- Phase 4 Tier C — F7 MVS + F8 external-validation-loop + F2 translation-mapping + F9 maintenance-economics (defer-pending)
+- Wave 1 tail — /end skill validator-check ADR (cross-repo darren-workflow edit; unaffected by F1)
+- ADR-0071 follow-ons — PM canon prose + koi-processor infra prose (unaffected by F1)
+- ADR-0059b — commons-law L53/63/117 residual refs (LOW, unaffected)
+- Cascade-miss ADR-0059c-shape — governance-artifacts §Grounding Through Sensors residual
+  intent-pressure language (NEW parking item surfaced at F1 J1 ratification; 2-line edit)
+
+## Artifacts
+
+- Preflight: tmp/adr-0073-f1-preflight-manifest-2026-04-25.txt
+- Audit: tmp/adr-0073-f1-audit-manifest-2026-04-25.md
+- Plan: tmp/adr-0073-f1-sensor-oracle-governance-plan-2026-04-25.md (sandbox fallback from ~/.claude/plans/)
+- Decision-brief: tmp/adr-0073-f1-decision-brief-2026-04-25.md
+- Validator post-draft: tmp/adr-0073-f1-validator-post.txt (9 errors / 30 warnings; baseline held exact)
+- Close-out: tmp/adr-0073-f1-close-out-manifest.txt (this file)
+
+## Push Status
+
+Spore commits `aed402f` (draft) + `120cb29` (active) on branch main; NOT pushed to origin
+(per operator instruction — awaiting /end authorization). IC + PM + koi-processor +
+darren-workflow untouched.

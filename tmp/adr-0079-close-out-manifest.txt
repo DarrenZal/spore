@@ -1,0 +1,172 @@
+spore:ADR-0079 F9 maintenance-economics foundation-doc admission — close-out manifest
+========================================================================================
+
+Date: 2026-04-26
+Phase: Phase 4 Tier C SECOND admission (after F7 ADR-0078)
+Shape: First Tier C all-NEW foundation-doc admission
+
+COMMIT SHAS
+-----------
+PREEXEC_SHA: 9861cab (ADR-0078 F7 just landed; baseline)
+DRAFT:       34a6b33 "draft: F9 maintenance-economics foundation-doc admission (ADR-0079)"
+ACTIVE:      4fc58ad "canon: activate ADR-0079 F9 maintenance-economics foundation-doc admission"
+PUSHED:      origin/main updated 9861cab..4fc58ad — clean
+
+FILES TOUCHED (5-file atomic-bundle, F1 axis)
+---------------------------------------------
+NEW:    docs/research/canon-decisions/0079-maintenance-economics-foundation-doc-admission.md
+NEW:    docs/foundations/maintenance-economics.md (8-category B5 SELECTIVE doctrine; 2 HEAVY + 6 SELECTIVE)
+EDIT:   docs/research/planning/canon-review-protocol.md (§1 alphabetical insert)
+EDIT:   docs/README.md (Foundations listing alphabetical insert)
+EDIT:   docs/research/concepts-p2p-wiki.yaml (v18 → v19; +2 slug entries)
+
+SIBLING-REPO ZERO-CHANGE VERIFIED
+---------------------------------
+IC HEAD:               cef35fe (unchanged)
+PM HEAD:               349e3ac (unchanged)
+koi-processor HEAD:    22463cf4 (unchanged)
+darren-workflow HEAD:  3cc190f (unchanged)
+
+CANON STATE DELTA
+-----------------
+Foundation docs:                12 → 13 (added maintenance-economics.md)
+Concepts yaml:                  v18 → v19
+Derived glossary slugs:         14 → 16 (added reproductive-infrastructure + compensation-pattern-layer)
+Canon-rebuild arc:              30 → 31 canon-decisions (0044–0058, 0061–0079, 0059a)
+Phase 4 progress:               6/9 → 7/9 deficits closed
+                                (Tier A: F1+F4; Tier B: F6+F5+F3; Tier C: F7+F9)
+                                Tier C remaining: F8 + F2
+
+PRESERVED (no change)
+---------------------
+Canon object-class inventory:   4 categories (primitives / doctrines / modes / properties)
+Primitives:                     9
+Doctrines:                      3
+Modes:                          2
+Properties:                     2
+Patterns (in-scope):            7
+Validator baseline:             9 errors / 30 warnings — EXACT held across both commits
+
+10-AXIS DISPOSITION (operator pre-pinned + Step 0.5 confirmed)
+--------------------------------------------------------------
+A scope:        A1 full-doctrine all-NEW foundation doc
+B structure:    B5 SELECTIVE per-category synthesis-depth (2 HEAVY + 6 SELECTIVE)
+C rule-stack:   C1 inherit ADR-0046 Ostrom 3-level (6th Phase-4 / 2nd Tier C)
+D slugs:        D2 admit 2 (reproductive-infrastructure + compensation-pattern-layer)
+E forward-refs: E1 full discharge (F1 §4.3 + F3 §4.6 sub-shape 4)
+F registration: F1 5-file atomic-bundle
+G appeal:       G2 cite-don't-redefine (F4 §5.3 + F1 §4.3 + F3 §4.6 wholesale)
+H structural:   H3 4-way (3 substrate-parents + 2 operational-pair-siblings)
+I cross-repo:   I1 narrow Spore-only
+J scope:        J1 narrow
+
+DH-PM-1 HARD-PAUSE CHECK: NOT FIRED
+-----------------------------------
+F9 doctrine-layer at canon-legibility + foundation-vs-pattern boundary scope.
+PM accounting-dependence held-tension operates at OPERATIONAL-INSTANCE pricing
+layer downstream of any pattern-layer compensation-protocol admission.
+F9 makes no operational-pricing commitments; held-tension intact.
+Recorded in §Context.
+
+FORWARD-REFERENCES DISCHARGED (atomic; per ADR-0077 §233 anticipation)
+----------------------------------------------------------------------
+1. F1 sensor-oracle-governance §4.3 (L88-100) — implicit forward-ref to economic-substrate
+   intersection. Discharged at F9 §4.2 (maintainer-economics canon-legibility +
+   maintainer-succession economic-continuity).
+2. F3 actor-governance §4.6 sub-shape 4 (L147) — explicit "Specific compensation-protocols
+   are pattern-layer" deferral. Discharged at F9 §4.3 (foundation-vs-pattern boundary
+   as load-bearing canon-discipline) + F9 §4.7 (labor-class standing economic-substrate
+   complement).
+
+FORWARD-REFERENCES REMAINING OPEN
+---------------------------------
+F8 external-validation-loop — F9 doctrine's pattern-layer compensation-protocols admission
+                              discipline (§4.3) may be subject to F8 external-validation
+                              feedback when patterns admit; F8 will route external feedback
+                              through governance-body channels per F3 §4.7.
+
+THREE METHOD-PRECEDENTS (per orchestrator directive; named in §Consequences)
+-----------------------------------------------------------------------------
+1. **First Tier C all-NEW foundation-doc admission** — distinct shape from F7 ADR-0078
+   promote-and-extend variant. Tier C admit-shape-flexibility validated: F7 promote-and-
+   extend (existing doc) + F9 all-NEW (no prior doc) both legitimate per substrate state.
+   Reusable for F8 + future Tier admissions.
+
+2. **H3 4-way relational shape** — extends ADR-0077 H3 3-way (1 substrate-parent +
+   2 operational-pair-siblings) to H3 4-way (3 substrate-parents + 2 operational-pair-
+   siblings). Foundation docs can carry MULTIPLE vertical substrate-couplings simultaneously
+   when doctrine inherits from substrate-cluster. Matches ADR-0077 §231 prediction exactly.
+
+3. **Foundation-doctrine-vs-pattern-layer boundary as load-bearing canon-discipline** —
+   when prior canon defers a sub-area to pattern-layer, a subsequent foundation doc can
+   carry the boundary as foundation-doctrine even though it doesn't prescribe the deferred
+   mechanisms. Three load-bearing components: (a) foundation-doctrine commitments enumerated;
+   (b) pattern-layer holds enumerated; (c) boundary canon-legibility requirement; plus
+   substitution-trap-prevention discipline. Reusable for F8 + future foundation docs whose
+   substrate includes prior pattern-layer deferrals.
+
+ACCEPTANCE CRITERIA (target ≥15; achieved 20)
+---------------------------------------------
+[x] AC1  ADR file exists at docs/research/canon-decisions/0079-... with required frontmatter
+[x] AC2  Foundation doc exists at docs/foundations/maintenance-economics.md
+[x] AC3  F1 §4.3 + F3 §4.6 forward-refs both discharged in F9 prose (§4.2 + §4.3 + §4.7)
+[x] AC4  Substrate cited: ADR-0042 + ADR-0002 + ADR-0049 + federation-protocol.md:28
+         5-citation cluster (Federici/Mies/Bresnihan/Bhattacharya/Gibson-Graham)
+[x] AC5  B5 SELECTIVE per-category depth applied (2 HEAVY: §4.1 + §4.3; 6 SELECTIVE:
+         §4.2 + §4.4 + §4.5 + §4.6 + §4.7 + §4.8)
+[x] AC6  H-axis multi-way shape documented (H3 4-way: 3 substrate-parents + 2 op-pair-sibs)
+[x] AC7  Compensation-protocols explicitly NOT prescribed (§4.3 foundation-vs-pattern
+         boundary as load-bearing doctrine; pattern-layer per F3 §4.6 + ADR-0065 workflow)
+[x] AC8  Validator 9/30 baseline held EXACT (across draft + active commits)
+[x] AC9  IC HEAD cef35fe unchanged
+[x] AC10 PM HEAD 349e3ac unchanged
+[x] AC11 koi-processor HEAD 22463cf4 unchanged
+[x] AC12 darren-workflow HEAD 3cc190f unchanged
+[x] AC13 Draft + active commits recorded (34a6b33 + 4fc58ad)
+[x] AC14 Both commits pushed to origin/main (9861cab..4fc58ad)
+[x] AC15 No tracked files outside ADR allowlist modified
+[x] AC16 docs/README.md foundations listing includes maintenance-economics.md
+[x] AC17 docs/research/planning/canon-review-protocol.md §1 references maintenance-economics.md
+[x] AC18 Decision-brief + close-out manifest written to tmp/
+         (tmp/adr-0079-decision-brief-2026-04-26.md + tmp/adr-0079-close-out-manifest.txt)
+[x] AC19 DH-PM-1 hard-pause check verdict recorded in §Context (NOT-FIRED confirmed)
+[x] AC20 Session-atomic span recorded (see below)
+
+SESSION-ATOMIC SPAN
+-------------------
+Step 3 (draft commit) → Step 5 (active commit): approximately 2-3 minutes
+                       (status-line-only between the two commits — sub-minute window)
+Full Steps 0-6:        approximately 7-9 minutes (within projection 10-18 min;
+                       slightly faster due to substrate maturity + decision-gated
+                       structure putting Step 0/0.5/1/2 outside session-atomic window)
+Inheritance:           F3 ADR-0077 (closest analog: synthesis-heavy + B5 SELECTIVE +
+                       multi-forward-ref discharge) — F9 within ADR-0077's footprint
+
+CONSTRAINT-10 STATUS
+--------------------
+CLAUDE.md: NOT TOUCHED throughout execution (parent-session-tracked; orchestrator handles
+          housekeeping). Constraint-10 preserved.
+
+PARKING ITEMS FOR NEXT-SESSION QUEUE
+------------------------------------
+1. F8 external-validation-loop foundation-doc admission (Tier C remaining; gated by
+   honest-rigor cluster-counting per audit §3 — Johar-heavy substrate; willingness to
+   land as ADR-0069-shape decline-with-triggers if non-Johar full clusters fail to surface).
+2. F2 translation-mapping-governance disposition (Tier C remaining; per audit §4 lean is
+   defer-with-triggers OR reclassify-as-spec per ADR-0066 K3a precedent at
+   docs/governance/concepts-registry-governance-spec.md).
+3. ADR-0059c-shape cascade-miss at docs/foundations/governance-artifacts-and-graph-
+   projections.md:134-143 (compounded across F1+F4+F6+F5+F3+F7+F9 admissions; remains
+   operator-discretion follow-on).
+4. Cross-repo IC + PM Phase 2c alignment (Wave-N parking; propagate F7 ADR-0078 + F9
+   ADR-0079 if downstream pressure surfaces).
+5. Phase 5 section-level status labels (separate-layer corpus-wide sweep; tag-agnostic).
+6. Canon-rebuild arc method retrospective extension §11 — when Tier C closes, extend
+   docs/research/connections/canon-rebuild-arc-method-retrospective.md with 2026-04-26
+   arc method-precedents (F7 + F9 + future F8/F2). Defer until Tier C natural pause.
+7. Specific compensation-protocols pattern-admissions (admit via ADR-0065 pattern-library-
+   infrastructure-spec workflow; F9 §4.3 boundary canon-legibility requirement applies —
+   every compensation-pattern admitted MUST cite F9 doctrine at admission with foundation-
+   doctrine clause attribution).
+
+END CLOSE-OUT MANIFEST.
