@@ -1,0 +1,6 @@
+intelligence-commons       c3b6af3
+poietic-match              593fa43
+bioregional-coordination   fd6ead6
+koi-processor              d247e3c6
+darren-workflow            f377335
+BKC                        3ad6472
