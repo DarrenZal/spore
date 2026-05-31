@@ -1,9 +1,10 @@
 ---
 doc_id: spore.connection.sheaf-substrate-multi-source-synthesis
 doc_kind: connection
-status: draft
+status: active
 research_subkind: synthesis
 authored: 2026-05-30
+promoted_to_active: 2026-05-31
 depends_on: []
 relates_to:
   - spore.connection.sahely-entanglement-to-governance
