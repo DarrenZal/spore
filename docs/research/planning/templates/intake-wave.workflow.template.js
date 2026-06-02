@@ -103,9 +103,16 @@ const VERIFIERS_PER_NOTE = 1   // set 2 for canon-critical waves; run both, requ
 
 // VERIFIER_AGENT_TYPE — the registered read-only skeptic subagent (darren-workflow
 // plugin: agents/skeptic.md — default-FAIL, re-reads the file on disk, structured
-// {check, quoted_offender, why} refutations). Falls back to 'Explore' if the agent
-// registry hasn't reloaded since the type was added (a manually-added subagent needs
-// a session restart to register; both are read-only so the fallback is behaviorally close).
+// {check, quoted_offender, why} refutations). Falls back to 'Explore' if the registry
+// has not loaded the type (read-only either way, so the fallback is behaviorally close).
+// NOTE (corrected 2026-05-31): a newly-added agent file is NOT picked up by a plain
+// session restart — the @local plugin snapshots its agent set at install/scan time, so
+// registering a new agent needs a /plugin re-scan/update (disable+enable), not a restart.
+// See feedback_darren_workflow_agent_registration.md.
+// PAIRED DEPENDENCY: this string and darren-workflow/agents/skeptic.md are ONE unit —
+// rename/remove EITHER without the other and the verify stage silently falls back to
+// 'Explore' (you lose the registered checklist with no error). Documented in 3 places:
+// (a) HERE, (b) agents/skeptic-coverage/README.md, (c) learning-field-intake-protocol.md §4f.
 const VERIFIER_AGENT_TYPE = 'darren-workflow:skeptic'   // fallback if unregistered: 'Explore'
 
 // ---------------------------------------------------------------------------
