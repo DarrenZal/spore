@@ -244,6 +244,8 @@ When an intake's findings must land in more than one canon-bearing repo (the ups
 - **Topology determines mechanism.** Downstream-aligned siblings (IC, PM) propagate via alignment ADRs at write-time; peer instance-family repos (BKC, bregion — peers of each other, both citing the upstream grammar canon) close gaps via bridge notes at read-time. Choose the mechanism the relationship calls for. See `feedback_peer_instance_family_vs_downstream_aligned.md` + `feedback_upstream_downstream_canon_propagation.md`.
 - **One repo's writes at a time; freeze the siblings.** Capture every sibling repo's HEAD SHA at the start of a repo's write window and re-verify unchanged at each commit (no cross-repo leakage).
 
+> This topology is also available in machine-consultable form as `darren-workflow/config/repo-instances.yaml`, applied by the pure `config/route_topology.py` `route()` helper and surfaced by the `comparative-intake` skill's routing-consult (suggestion-mode; operator-confirmed). This prose section stays the source of truth; the yaml is pinned to it by `darren-workflow/agents/routing-coverage/`.
+
 ## 14. Serial polite fetch and untrusted content (fresh-fetch waves)
 
 When an intake wave fetches live web content (vs. citing already-extracted local records), the fetch is serial and polite, and the fetched bytes are untrusted:
