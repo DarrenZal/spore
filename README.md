@@ -46,11 +46,12 @@ The full argument lives in [project-vision.md](docs/project-vision.md).
 - [**Project Vision**](docs/project-vision.md) — what Spore is, why it exists, what it is for
 - [**Coordination Grammar**](docs/synthesis/coordination-grammar.md) — working synthesis of the grammar's primitives and patterns
 - [**Documentation Map**](docs/README.md) — full map of foundations, patterns, protocols, and governance docs
+- [**Self-Improving Learning Field**](docs/positioning/self-improving-learning-field.md) — how the canon became self-querying, self-routing, and self-improving
 - [**Roadmap**](docs/roadmap.md) — where the project is headed
 
 Spore learns from the wider coordination ecosystem through a learning membrane — a comparative intake process that ingests external frameworks, translates them into bridge notes, comparative notes, and claims as appropriate, and selectively promotes what proves useful into canon. The membrane exercises the same boundary-crossing operations that govern all exchange in the grammar. Bridge notes are source-specific; comparative notes record multi-tradition support for enacted canon/foundation language. These research connections live in [docs/research/connections/](docs/research/connections/).
 
-In this vocabulary, the learning membrane tends a knowledge garden within the wider learning field. The canonical definition of `field` lives in [docs/foundations/lexicon/field.md](docs/foundations/lexicon/field.md).
+In this vocabulary, the learning membrane tends a knowledge garden within the wider learning field. The canonical definition of `field` lives in [docs/foundations/lexicon/field.md](docs/foundations/lexicon/field.md). That field is now operational along three loops — it can be queried, it routes new material to the right place, and it improves its own intake under adversarial verification; see [docs/positioning/self-improving-learning-field.md](docs/positioning/self-improving-learning-field.md).
 
 ## What Encounter Looks Like
 
