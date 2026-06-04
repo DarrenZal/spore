@@ -1,0 +1,29 @@
+PARTICIPATORY MAPPING v0.6 (clean rerun) — L0/L1/L2 ladder + recovery vs 4 baselines
+====================================================================================
+
+[SETUP] 40 grids x 16x16; sigma=0.08; CONSTANT coherent field; seam = INTRA-place contested band (tautology guard).
+
+[NO-SEAM GUARD]  delta^0 energy on a pure-coherent field = 5.2741  [FAIL -> L2 numbers do NOT count]
+
+[GATE 1] SEAM-DETECTION RECALL (contested vs coherent)
+  method                      recall@P>=0.95   recall@P>=0.99
+  L0 per-place                0.886            0.842
+  L1 standalone               0.458            0.344
+  L2 standalone               0.001            0.001
+  L1 augmented (L0 ∪ L1)      0.842            0.842    (component-FP@P~0.95 = 0.028)
+  L2 augmented (L0 ∪ L2)      0.842            0.842    (component-FP@P~0.95 = 0.028)
+  --> GATE 1 VERDICT: NO-LIFT — neither aggregation beats per-place L0 (honest negative)
+
+[GATE 2] FIXABLE-vs-IRREDUCIBLE — one threshold-rule (argmax val acc), held-out TEST accuracy
+  majority-class floor 0.706   (base rate; at/below this = non-classifier)
+  sheaf-frame-aware    0.660  (frame-aware)
+  sheaf-recovery-dyn   0.785  (frame-aware)
+  static-bare-gap      0.601  (frame-aware)
+  DeGroot              0.912  (frame-blind lift)
+  Friedkin-Johnsen     0.705  (frame-blind lift)
+  bounded-conf         0.562  (frame-blind lift)
+  --> GATE 2 VERDICT: NARROW — best baseline DeGroot (0.912) >= sheaf-frame-aware (0.660)
+
+[HONEST READ] L2 = real delta^0 cochain (NOT H1). Tautology guard = L0/L1/L2 on one
+  intra-place fixture. Recovery credited only if it beats static + DeGroot + FJ + bounded-conf
+  under one threshold rule. Synthetic; Stosch 2022 grounds the phenomenon, not the method.
