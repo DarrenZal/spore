@@ -1,0 +1,35 @@
+PARTICIPATORY MAPPING — seam detection + fixable/irreducible (v0.5)
+================================================================
+
+[GUARDS]
+  lenses heterogeneous (per-observer lift is rank-2 projection, not full I): True
+  degenerate: coherent places (low noise) -> sheaf says 'coherent' 30/30 (True)
+
+[EXPERIMENT]  80 scenarios x 18 places = 1440 places, sigma=0.08
+  class mix (true): coherent=622 fixable=462 irreducible=356
+
+  3-class accuracy:   SHEAF = 0.89   |   naive(lift+variance) = 0.37
+  seam DETECTION (contested vs coherent):  sheaf P/R = 1.00/0.82   |   naive P/R = 0.59/0.99
+  fixable-vs-irreducible CLASSIFICATION accuracy: sheaf = 0.81   |   naive = 0.57
+
+  confusion (rows=true [coherent,fixable,irreducible], cols=pred):
+    SHEAF:
+[[622   0   0]
+ [ 30 429   3]
+ [120   2 234]]
+    naive:
+[[ 66 314 242]
+ [  4 221 237]
+ [  6 107 243]]
+
+  FLATTENING harm (naive single-consensus error vs the two true sections):
+    on IRREDUCIBLE places = 0.388  (the sovereignty-erasure: one value forced where there are two)
+    on coherent  places = 0.268  (near 0 — consensus is legitimate there)
+
+[HONEST READ]
+  - The heterogeneous lens is the crux: the naive per-observer lift is underdetermined
+    (fills the unseen value-dim with 0), injecting artifact variance even at coherent
+    places -> poor detection precision. The sheaf joint-lift combines lenses correctly.
+  - If naive classification ~= sheaf, the sheaf isn't needed here (reported honestly).
+  - Flattening: averaging into one consensus map mis-values irreducible places by the
+    above margin -> that is the divergence the sheaf preserves instead of erasing.
