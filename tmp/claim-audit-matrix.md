@@ -76,7 +76,8 @@
 
 | Claim | Status | Use rule | Source |
 |---|---|---|---|
-| Coherence-ready ingestion schema objects + consent-transport rules + provenance contract | **safe** (design/spec proposal) | Usable as a proposal; it is a **draft**, not a settled standard. | `coherence-ready-ingestion-schema.md` (draft, sheaf-explorer) |
+| Coherence-ready ingestion schema objects + consent-transport rules + provenance contract | **safe** (design/spec proposal) | Usable as a proposal; it is a **draft** (now v3-draft), not a settled standard. | `coherence-ready-ingestion-schema.md` (v3-draft, sheaf-explorer) |
+| Data schema stress-tested against blind, realistic-but-synthetic workshop content (two independent blind runs) → revised to v3 (protective obfuscation, withheld-knowledge markers, category-level prohibitions, inter-feature masking, bundle/coherence-conditional + relational-not-transactional commitments). | **safe** (schema-fit / design evidence; **synthetic**) | May say "the data structure was stress-tested on realistic workshop content and refined." **Forbidden:** do NOT present as evidence the coherence *method* works on real data — **schema fit only**. | `tmp/victoria-schema-falsification/falsification-run.md` → canonical **SCHEMA-4** (`sheaf-research-claim-matrix`, `source-only`/`protocol-ready`; consolidates both blind runs) |
 
 ---
 
