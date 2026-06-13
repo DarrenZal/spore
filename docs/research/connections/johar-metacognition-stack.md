@@ -5,7 +5,7 @@ research_subkind: bridge_note
 status: draft
 depends_on:
   - spore.project-vision
-  - spore.connection.johar-sheaf-theory-formalization
+  - spore.connection.sheaf-theory-formalization
 relates_to:
   - ic.connection.johar-metacognition-stack
   - spore.connection.bosca-ghrist-local-to-global
