@@ -1,7 +1,7 @@
 ---
 doc_id: spore.foundational-reframing.reframing-spore-identity
 doc_kind: proposal
-status: eligible
+status: authorized-ADR
 covers: []
 proposal_kind: canon-scope
 author: Darren Zal
@@ -9,7 +9,8 @@ approver: Darren Zal
 opened-on: 2026-06-02
 eligible-on: 2026-06-09
 consultation_artifact: tmp/cross-repo-consultation-reframing-spore-identity.md
-authorized_adrs: []
+authorized_adrs:
+  - spore.canon-decision.spore-identity-coordination-grammar-reframe
 ---
 
 # Reframing Proposal: Spore Identity — Coordination Grammar
