@@ -1,7 +1,7 @@
 ---
 doc_id: spore.canon-decision.spore-identity-coordination-grammar-reframe
 doc_kind: decision-record
-status: draft
+status: active
 adr_number: "0091"
 decision: edit
 opened-on: 2026-06-15
@@ -33,7 +33,7 @@ shared_framing: ""
 
 ## Status
 
-Draft — decision recorded; the four identity edits land in the active commit.
+Active. Reframed identity sentence ratified and applied to four surfaces (`README.md:7`, `README.md:13`, `docs/project-vision.md:10`, `docs/README.md:3`) on 2026-06-15. Authorized by foundational-reframing proposal `reframing-spore-identity`.
 
 ## Context
 

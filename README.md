@@ -4,13 +4,13 @@
 
 # Spore
 
-An infrastructure for collective agency — a common grammar for plural, sovereign coordination across scales and scopes.
+Spore is a coordination grammar for collective agency across plural, sovereign systems — for local-to-global coherence at the scales it has reached.
 
 The project develops **Agent Commons**: a pattern language, protocol family, and governance-memory pattern for coordination and coherence without surrendering sovereignty. Here "agent" means any entity with enough coherence to perceive, decide, and act — a person, an AI, a team, an organization, a federation, a mixed human-AI collective.
 
 **Spore** is the project. **Agent Commons** is the protocol family it publishes.
 
-Why "Spore"? A spore is portable, generative, and context-sensitive: it moves through larger living networks, lands in a place, and unfolds locally. Spore follows the same logic — a shared coordination grammar that can land across projects, grow in different forms, and remain interoperable without requiring centralization.
+Why "Spore"? A spore is portable, generative, and context-sensitive: it moves through larger living networks, lands in a place, and unfolds locally. Spore follows the same logic — a shared coordination grammar that can land across projects, grow in different forms, and remain interoperable and stay coherent across them without requiring centralization.
 
 At a high level, Spore's grammar has two kinds of primitives. **Structural primitives** (fields, holons, membranes) describe the substrate of coordination — the shape of the coordination space. **Coordination verbs** (intents, commitments, joint-commitments, evidence, signals, reproduction) describe the operations through which agents coordinate across that substrate. A field is the shared coordination space between holons; a holon is a part-whole recursive unit (a person, a team, a federation are holons at their respective scales); a membrane is the semi-permeable interface between a holon and its field, or between holons. Gardens are cultivated regions within a field where knowledge is actively tended.
 

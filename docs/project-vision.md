@@ -7,7 +7,7 @@ depends_on: []
 
 # Spore — Project Vision
 
-Spore is an infrastructure for collective agency — a common grammar for plural, sovereign coordination across scales and scopes. It operates across the normative commitments that shape how agents see, value, know, and act (ontological, axiological, epistemological, practical). It develops and publishes **Agent Commons**: a pattern language, protocol family, and governance-memory pattern that enables coordination and coherence without surrendering sovereignty. Here "agent" means any entity with enough coherence to perceive, decide, and act: a person, an AI, a team, an organization, a federation, a mixed human-AI collective.
+Spore is a coordination grammar for collective agency across plural, sovereign systems — for local-to-global coherence at the scales it has reached. As shared infrastructure for that agency, it operates across the normative commitments that shape how agents see, value, know, and act (ontological, axiological, epistemological, practical). It develops and publishes **Agent Commons**: a pattern language, protocol family, and governance-memory pattern that enables coordination and coherence without surrendering sovereignty. Here "agent" means any entity with enough coherence to perceive, decide, and act: a person, an AI, a team, an organization, a federation, a mixed human-AI collective.
 
 The formal name for the protocol family is **Agent Commons**. Spore is the project that develops, tests, and publishes it.
 

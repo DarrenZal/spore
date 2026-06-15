@@ -1,6 +1,6 @@
 # Spore — Documentation Map
 
-Spore is an infrastructure for collective agency — a common grammar for plural, sovereign coordination across scales and scopes. It develops and publishes **Agent Commons**: a pattern language, protocol family, and governance-memory pattern that enables coordination and coherence without surrendering sovereignty.
+Spore is a coordination grammar for collective agency across plural, sovereign systems — for local-to-global coherence at the scales it has reached. It develops and publishes **Agent Commons**: a pattern language, protocol family, and governance-memory pattern that enables coordination and coherence without surrendering sovereignty.
 
 ## Repo Taxonomy
 
