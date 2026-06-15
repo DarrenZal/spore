@@ -1,7 +1,7 @@
 ---
 doc_id: spore.foundational-reframing.reframing-spore-identity
 doc_kind: proposal
-status: cooling-off
+status: eligible
 covers: []
 proposal_kind: canon-scope
 author: Darren Zal
@@ -170,7 +170,7 @@ The only rollback risk is downstream drift: if any downstream doc was refreshed 
 
 ## Execution record
 
-Not yet executed — proposal in `draft`. Cooling-off begins at the first commit that adds this file (FR-13, measured by Git author-date). Earliest ADR-drafting date: 2026-06-09. (Affected-repo SHAs filled in at execution per FR-27.)
+**`eligible` 2026-06-15.** Cooling-off elapsed (proposal committed `652e021` 2026-06-02; `eligible-on: 2026-06-09`; first eligible-flip commit author-date 2026-06-15 ≥ eligible-on, FR-13/FR-14 satisfied). Consultation artifact (`tmp/cross-repo-consultation-reframing-spore-identity.md`) records `frame-change-required: yes` and `ADR drafting may begin: on or after 2026-06-09`. No `depends-on:` parents (FR-14.6 N/A). ADR drafting authorized. (Affected-repo SHAs filled in at `executed` per FR-27.)
 
 ## Open questions
 
