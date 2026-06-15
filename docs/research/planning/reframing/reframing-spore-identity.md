@@ -1,7 +1,7 @@
 ---
 doc_id: spore.foundational-reframing.reframing-spore-identity
 doc_kind: proposal
-status: authorized-ADR
+status: executed
 covers: []
 proposal_kind: canon-scope
 author: Darren Zal
@@ -171,7 +171,18 @@ The only rollback risk is downstream drift: if any downstream doc was refreshed 
 
 ## Execution record
 
-**`eligible` 2026-06-15.** Cooling-off elapsed (proposal committed `652e021` 2026-06-02; `eligible-on: 2026-06-09`; first eligible-flip commit author-date 2026-06-15 ≥ eligible-on, FR-13/FR-14 satisfied). Consultation artifact (`tmp/cross-repo-consultation-reframing-spore-identity.md`) records `frame-change-required: yes` and `ADR drafting may begin: on or after 2026-06-09`. No `depends-on:` parents (FR-14.6 N/A). ADR drafting authorized. (Affected-repo SHAs filled in at `executed` per FR-27.)
+**`eligible` 2026-06-15.** Cooling-off elapsed (proposal committed `652e021` 2026-06-02; `eligible-on: 2026-06-09`; first eligible-flip commit author-date 2026-06-15 ≥ eligible-on, FR-13/FR-14 satisfied). Consultation artifact (`tmp/cross-repo-consultation-reframing-spore-identity.md`) records `frame-change-required: yes` and `ADR drafting may begin: on or after 2026-06-09`. No `depends-on:` parents (FR-14.6 N/A). ADR drafting authorized.
+
+**`executed` 2026-06-15** via **ADR-0091** (`spore.canon-decision.spore-identity-coordination-grammar-reframe`). Affected repo: **Spore only**. Commit set on `main` (push held at execution time, pending operator authorization — SHAs are local):
+
+| Lifecycle step | Commit | Contents |
+|---|---|---|
+| `cooling-off → eligible` | `de3904f` | proposal status flip (gate cleared) |
+| ADR-0091 draft + `eligible → authorized-ADR` | `5fc8d9c` | ADR decision recorded; `authorized_adrs` populated |
+| ADR-0091 active + apply 4 edits | `b66cbe9` | README.md:7, README.md:13, docs/project-vision.md:10, docs/README.md:3 reframed |
+| `authorized-ADR → executed` (this commit) | _this commit_ | proposal closed; execution record |
+
+Rollback (FR-27/FR-28): `git revert` newest-first over `b66cbe9` (and, if backing out the whole ceremony, `5fc8d9c` then `de3904f`); non-destructive, no history rewrite. Validator held **8/267 EXACT** across all four commits. No downstream surface refreshed (consultation audit found no verbatim downstream quote), so no cross-repo rollback dependency.
 
 ## Open questions
 
