@@ -12,7 +12,7 @@ sources:
   - path: docs/research/connections/sheaf-theory-formalization.md
     title: "Sheaf Theory as Formal Lens for Federation Architecture (Spore bridge note)"
     type: internal-derived
-    note: "Inherits the 8 primary academic anchors (Curry, Robinson, Hansen-Ghrist, Bodnar, Barbero, Alcantara, Yokoyama) — those remain the evidentiary basis; this note extends, does not re-anchor."
+    note: "Inherits the 8 primary academic anchors (Curry, Robinson, Hansen-Ghrist, Bodnar, Barbero, Felber-Hummes Flores-Rincon Galeana, Yokoyama) — those remain the evidentiary basis; this note extends, does not re-anchor."
   - path: docs/research/connections/sheaf-substrate-multi-source-synthesis.md
     title: "Sheaf substrate multi-source synthesis (sheaf-Laplacian <-> free-energy bridge)"
     type: internal-derived

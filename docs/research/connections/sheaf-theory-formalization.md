@@ -30,7 +30,7 @@ sources:
   - title: "Barbero et al. (2022), Sheaf Neural Networks with Connection Laplacians"
     type: primary
     url: https://proceedings.mlr.press/v196/barbero22a.html
-  - title: "Alcántara et al. (2025), Sheaf-Theoretic Characterization of Tasks in Distributed Systems"
+  - title: "Felber, Hummes Flores & Rincon Galeana (2025), A Sheaf-Theoretic Characterization of Tasks in Distributed Systems"
     type: primary
     url: https://arxiv.org/abs/2503.02556
   - title: "Yokoyama & Robinson (2026), Relative Obstructions and Spectral Diagnostics"
@@ -55,7 +55,7 @@ A technically rigorous assessment of sheaf theory as a mathematical and computat
 
 **Artifact profile:**
 - Type: research synthesis (not a single paper)
-- Source lineage: pure mathematics (Grothendieck, Leray) → applied cellular sheaves (Curry) → sensor fusion (Robinson) → spectral sheaf theory (Hansen, Ghrist) → sheaf neural networks (Bodnar, Barbero) → distributed task solvability (Alcántara) → relative obstruction diagnostics (Yokoyama 2026)
+- Source lineage: pure mathematics (Grothendieck, Leray) → applied cellular sheaves (Curry) → sensor fusion (Robinson) → spectral sheaf theory (Hansen, Ghrist) → sheaf neural networks (Bodnar, Barbero) → distributed task solvability (Felber, Hummes Flores & Rincon Galeana) → relative obstruction diagnostics (Yokoyama 2026)
 - Evidence reliability: primary sources are published in peer-reviewed ML venues (NeurIPS, PMLR) and distributed through academic preprint/repository channels (arXiv, UPenn repository)
 
 **Source hygiene note:** The full report cites 41 sources including secondary commentary (Hacker News, Medium, blog posts, duplicate ResearchGate links). This bridge note anchors claims only to the 8 primary academic sources listed in frontmatter. The report remains the intake artifact; the papers are the evidentiary anchors.
@@ -68,7 +68,7 @@ Spore's architectural value is not universal gluing but governed visibility into
 
 - A **sheaf** is a mathematical structure for managing local data subject to consistency constraints. It attaches data (stalks) to nodes and defines rules (restriction maps) for how data transforms across boundaries.
 - The **gluing axiom** formalizes what it means for local views to be compatible: if local sections agree on overlaps, they extend to a wider section. This is exactly Spore's "translate, don't unify" posture.
-- **Obstruction theory** (H1 cohomology) formalizes what it means for local views to be incompatible: a non-zero obstruction is a mathematical proof that local canons cannot be merged, and it localizes exactly where the conflict lives.
+- **Obstruction theory** (H1 cohomology) formalizes what it means for a *given* family of local commitments to fail to extend to a global one: a non-zero obstruction class localizes exactly where that extension is blocked. *(Corrected 2026-08-19: earlier wording called this "a mathematical proof that local canons cannot be merged." That overstates it. H¹ ≠ 0 does **not** imply there is no global section — in the linear setting `H⁰ = ker(d⁰)` always contains the zero section, and the constant ℝ sheaf on a cycle has `H⁰ = ℝ` and `H¹ = ℝ` at once. What H¹ obstructs is the extension of a particular local family, not merging as such.)*
 
 The report's key finding: the current sheaf description in the foundation doc overemphasizes the success case (global consistency / H0) and undernames the failure case (obstruction / H1). For Spore, the failure case is at least as architecturally important.
 
@@ -88,7 +88,7 @@ The report's key finding: the current sheaf description in the foundation doc ov
 
 | Spore Concept | Sheaf Counterpart | Status | Anchor |
 |:---|:---|:---|:---|
-| Governed state transitions | Global sections / task solvability — a task is solvable iff a global section exists | Promising but narrower than Spore's whole governance model | Alcántara et al. 2025 |
+| Governed state transitions | Global sections / task solvability — a task is solvable iff a global section exists | Promising but narrower than Spore's whole governance model | Felber, Hummes Flores & Rincon Galeana 2025 |
 | Selective materialization | Sheaf-cosheaf duality — sheaves for constraints/queries, cosheaves for accumulation/assembly | Moderate, exploratory | Robinson 2016 (multi-model); Curry 2014 |
 
 ### Demoted
@@ -105,9 +105,9 @@ The report's key finding: the current sheaf description in the foundation doc ov
 
 ## 5. What Is New
 
-**Obstruction detection as first-class concern.** The prior sheaf description in the foundation doc emphasized the success mode: "coherent local views that glue together globally." The research argues that the failure mode — where local canons *cannot* be merged — is equally important for Spore. (The wording was tightened in the same commit as this note; see C2.) Non-zero H1 cohomology is a mathematical proof that globalization fails, and it localizes exactly where. This gives Spore a precise language for "compatible locally, impossible globally."
+**Obstruction detection as first-class concern.** The prior sheaf description in the foundation doc emphasized the success mode: "coherent local views that glue together globally." The research argues that the failure mode — where local canons *cannot* be merged — is equally important for Spore. (The wording was tightened in the same commit as this note; see C2.) Non-zero H1 cohomology obstructs the extension of a **given** family of local commitments to a global one, and it localizes exactly where that extension is blocked. This gives Spore a precise language for "compatible locally, blocked globally." *(Corrected 2026-08-19: earlier wording read "a mathematical proof that globalization fails." False as stated — H¹ ≠ 0 does not imply there is no global section; the constant ℝ sheaf on a cycle has H⁰ = ℝ and H¹ = ℝ simultaneously. The same claim was corrected on the sheaf.lol bundle on 2026-08-17; this copy was missed then and is corrected now.)*
 
-**Presheaf/sheaf governance distinction.** Spore in its raw state is more like a presheaf: local data with restriction maps, but no guarantee that local views actually glue. Governance review is the process that tests or enforces local consistency — the mechanism that attempts sheafification. Intake and provisional mappings are presheaf-like; governance review is where the gluing axiom gets checked. This maps well onto the learning membrane lifecycle.
+**Presheaf/sheaf governance distinction.** Spore in its raw state is more like a presheaf: local data with restriction maps, but no guarantee that local views actually glue. Governance review is where the federation *decides whether to* sheafify. *(Corrected 2026-08-19 against Rosiak 2022 §8.2 and Curry 2014 Def 2.5.6: earlier wording called governance "the mechanism that attempts sheafification." Sheafification is a left adjoint to `Sh ↪ PSh` — it is total, never fails, and leaves every stalk isomorphic, so it is neither a test nor something that can touch a local canon. The operation governance owns is the decision to sheafify, not the sheafification itself. Same 2026-08-17 propagation gap as above.)* Intake and provisional mappings are presheaf-like; governance review is where the gluing axiom gets checked. This maps well onto the learning membrane lifecycle.
 
 **Soft consistency metrics.** The Sheaf Laplacian provides graduated measurement of disagreement (Dirichlet energy), not binary compatible/incompatible. Small eigenvalues indicate near-consistency; large eigenvalues indicate sharp conflicts. This aligns with Spore's posture against forced convergence: you can *measure* how well local canons align without requiring a binary verdict.
 
@@ -141,7 +141,7 @@ The following are explicitly outside the core claim set. They are noted as promi
 
 - **Sheaf Laplacian / Dirichlet energy** as future federation health diagnostic. Provides graduated consistency metrics without requiring binary judgments. Would need vector-space embeddings of federation state. (Hansen & Ghrist 2019)
 - **Sheaf Neural Networks** for automated restriction map learning. SNNs learn the "geometry" of semantic translation, overcoming oversmoothing in heterophilic graphs. Adjacent ML research, not current Spore architecture. (Bodnar et al. 2022; Barbero et al. 2022)
-- **Distributed task sheaves** for protocol solvability. A task is solvable iff a global section exists in the task sheaf. Promising formal result for federation protocol design, but still a specialized characterization, not yet a clean mapping to Spore's whole governance model. (Alcántara et al. 2025)
+- **Distributed task sheaves** for protocol solvability. A task is solvable iff a global section exists in the task sheaf. Promising formal result for federation protocol design, but still a specialized characterization, not yet a clean mapping to Spore's whole governance model. (Felber, Hummes Flores & Rincon Galeana 2025)
 - **Cosheaf duality** for query/materialization precision. Sheaves model constraints; cosheaves model accumulation. Could clarify Spore's distinction between querying and materializing, but needs further exploration. (Robinson 2016, multi-model; Curry 2014)
 - **Relative obstruction / grounding sheaves** for conflict diagnosis. Distinguishes intrinsic contradictions from grounding-induced incompatibilities. Promising for federation conflict localization. (Yokoyama & Robinson 2026)
 

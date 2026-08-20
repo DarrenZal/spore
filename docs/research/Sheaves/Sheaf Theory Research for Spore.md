@@ -46,7 +46,7 @@ The research landscape for applied sheaf theory is relatively young but highly s
 | **Topological Signal Processing** | Michael Robinson | Sensors as sheaves, canonical data structures for integration.3 | Established | Proves sheaves as the "correct" way to handle heterogeneous data sources. |
 | **Spectral Sheaf Theory** | Jakob Hansen, Robert Ghrist | Sheaf Laplacians, diffusion on graphs, spectral theory of cellular sheaves.16 | Established | Provides the metrics for "consensus" and "energy" in local views. |
 | **Sheaf Neural Networks (SNN)** | Bodnar et al., Barbero et al. | Neural Sheaf Diffusion, learning restriction maps, solving heterophily.9 | Emerging | Automation of translation rules between disparate canons. |
-| **Distributed Task Sheaves** | Alcántara et al., Rajsbaum | Task solvability, global sections as terminating solutions.11 | Emerging (2025) | Formal proof framework for federation protocols and solvability. |
+| **Distributed Task Sheaves** | Felber, Hummes Flores & Rincon Galeana; Rajsbaum | Task solvability, global sections as terminating solutions.11 | Emerging (2025) | Formal proof framework for federation protocols and solvability. |
 | **Relative Inconsistency** | Shin Yokoyama, Robinson | Mapping cones, grounding sheaves, diagnosing structural failure.4 | Emerging (2026) | Direct methodology for identifying "failures to globalize." |
 
 ## **Sheaves Across Fields**
