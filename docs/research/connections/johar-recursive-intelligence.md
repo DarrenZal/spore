@@ -25,6 +25,13 @@ concepts:
   - epistemic-translation
   - category-adequacy
   - recursive-instability
+canonDependencies:
+  - canonAssertion: spore:connection:johar-recursive-intelligence:C5
+    evidenceDependencies:
+      - orn:koi-net.claim:a9ebdbee4e0c90913cf1813fdb24c76a
+  - canonAssertion: spore:connection:johar-recursive-intelligence:C1
+    evidenceDependencies:
+      - orn:koi-net.claim:2c7738b48e91ee9a4420ed5f5f8c90be
 ---
 
 # Johar — Don't Become a Generalist. Become Recursive.
