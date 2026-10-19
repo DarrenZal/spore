@@ -24,14 +24,16 @@
  *     author failed), the verdict, and `result`: the detailed verifier result to retain
  *     (every verifier pass in full) with the file it belongs in (`result_path`). A
  *     candidate passes only when the author reported the candidate's own path, exactly
- *     one verifier pass came back from its one verifier call, labelled with slot 1 and the
- *     call id label the template gave that call (a consistency label, not proof of the call), and
+ *     one verifier pass is retained and its labels are consistent (slot 1 and the call id
+ *     label the template assigned, which are public and deterministic and do not show that
+ *     a verifier call happened), and
  *     every pass checked that same path for that same stem, recorded the sha256 of the same
  *     bytes, judged them consistent, reported every check in REQUIRED_CHECKS, and reported no
  *     check false. Each result names its registered verifier policy (id and sha256,
  *     VERIFIER_POLICIES below), which intake_record.py checks against its own registry. The ORCHESTRATOR (main loop) then reviews
- *     verdicts, fixes any failure (a hand-patched note is re-verified, because each
- *     verifier pass records the sha256 of the bytes it read), and does all the
+ *     verdicts and fixes any failure. After a manual edit, re-run the candidate through
+ *     this script, which re-authors and verifies it. There is no verify-only path, so
+ *     promote only the output of that run. The main loop also does all the
  *     irreversible/human-gated steps
  *     (below) — those stay OUT of this workflow.
  *
