@@ -63,7 +63,7 @@ Annotate a production-scale commitment from Ruddick/GE/Sarafu/CLC operations. Th
 |--------|-----------------|--------|
 | Celo mainnet (deployed July 2023) | On-chain voucher issuance, swaps, pool activity | Public blockchain explorer or Celo SDK |
 | Sarafu.network | Pool metadata, voucher directories, community profiles | Public web |
-| GE published reports | Impact data: 26,367 users, 188 active pools, 745 vouchers, $320K+ swap volume, 1,200 acres restored, 84% positive income impact | Published documents |
+| GE published reports | Self-reported figures, not independently verified: activity counts (26,367 users, 188 active pools, 745 active vouchers on Celo, 5 Jul 2023 to 20 Jul 2025, [GE research page](https://grassrootseconomics.org/research)), over 1,200 acres restored ([2024 impact report, archived](https://web.archive.org/web/20250624141243/https://grassecon.net/impacts-2024)) and 84% of surveyed active users reporting a positive income effect ([2025 study results](https://grassecon.substack.com/p/2025-sarafu-network-study-results)). Ruddick, Cahana and Shael ([arXiv:2606.23922](https://arxiv.org/abs/2606.23922)) say Sarafu data do not establish causal welfare effects. *(Corrected 2026-10-28: earlier row listed "$320K+ swap volume, 1,200 acres restored, 84% positive income impact" as impact data without sources or dates.)* | Published documents |
 | Will Ruddick's writing | Operational rationale, metabolic model, design decisions | Substack, academic papers |
 
 ### Capture Steps
