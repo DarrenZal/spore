@@ -79,6 +79,14 @@ sources:
     title: "Trust Stackers: Engineering the New Trust Layer for the Internet"
     rid: orn:source:truststackers
     type: corroborating
+  - url: https://speakerjohnash.substack.com/p/trust-demystified
+    title: "Trust Demystified (Speaker John Ash)"
+    rid: orn:source:ash-trust-demystified
+    type: corroborating
+    version: "published 2025-06-26; accessed 2026-10-29"
+    note: >-
+      Single-author argued essay. No implementation, data or evaluation was found.
+      The maintainer knows the author personally.
 ---
 
 # Decentralized Trust Graph: trust edges as credential pairs
@@ -140,7 +148,7 @@ Kaliya presents multisig stewardship of issuing wallets as the remedy for groupw
 
 ## 5. Disposition
 
-**Disposition: unresolved tension.** The DTG supplies a running reference for multilateral trust built entirely from unilateral, issuer-revocable credential pairs and community-issued membership. Spore canon holds two readings of federation membership, joint-commitment ([project-vision.md:58](../../project-vision.md)) and unilaterally revocable trust edge ([federation-protocol.md:131](../../foundations/federation-protocol.md)), and does not yet say which governs its Future multilateral layer. This note does not resolve that, admit a slug, or edit federation-protocol's Future list. R1 to R4 record what a future revision would need to address. No deferral trigger is claimed to have fired. Notes in sibling repos that draw on the same sources should `relates_to` this doc_id rather than restate the credential-pair analysis.
+**Disposition: unresolved tension.** The DTG supplies a running reference for multilateral trust built entirely from unilateral, issuer-revocable credential pairs and community-issued membership. Spore canon holds two readings of federation membership, joint-commitment ([project-vision.md:58](../../project-vision.md)) and unilaterally revocable trust edge ([federation-protocol.md:131](../../foundations/federation-protocol.md)), and does not yet say which governs its Future multilateral layer. This note does not resolve that, admit a slug, or edit federation-protocol's Future list. R1 to R5 record what a future revision would need to address. No deferral trigger is claimed to have fired. Notes in sibling repos that draw on the same sources should `relates_to` this doc_id rather than restate the credential-pair analysis.
 
 ## 6. Claim Register
 
@@ -174,6 +182,12 @@ Project Weave, which in Kaliya's account brings the DTG protocols to local commu
 **C10** [confidence: high] [anchor: §Technical Protocols Are the Same Kind of Thing · orn:source:iw-protocols-grammar-of-life]
 Kaliya defines protocols as "agreements about how to coordinate without anyone being in charge of everyone else" and holds that "The technical protocols and the social protocols are the same kind of thing." "The grammar is the same; only the medium is different." She extends the claim to biology without qualification: "This is not a metaphor. This is literally how living systems work." Of mycorrhizal exchange she writes: "The wood wide web is not a poetic image." She names Galloway's *Protocol: How Control Exists After Decentralization* as formative, and under §The Protocols We Can’t See Are the Ones Running Us, citing Easterling and Terranova, says of everyday tool choices: "None of them are technical neutrality. All of them are governance".
 
+**C11** [confidence: high] [anchor: §Intermediaries / registries, L178-L180 · orn:source:sideways-verifiable-community-spec]
+Sideways refuses scores outright. After arguing that score algorithms are "somewhat opaque" and open to being weighted by whoever runs them, the v1.2 spec concludes: "Because of the need for value judgements by centralized authorities, we have decided **NOT** to implement ratings or scores." The refusal rests on who judges, not on the arithmetic.
+
+**C12** [confidence: medium] [anchor: §Why This Is Revolutionary, items 2 and 4; §Problems This Helps Solve Immediately · orn:source:ash-trust-demystified]
+Trust Demystified states the conversion of track record into standing as a design goal: "Coordination protocols where people who’ve earned attention get heard first. In short: resource allocation without money." Accuracy is judged after the fact, and the essay names the judge: "a model sees, for example, that someone staked a claim about pandemic risks in 2019, and that claim aligns with later events. That source now holds more epistemic weight the next time we ask a related question." It gives no procedure for contesting an accuracy judgment or the weight that follows, though it says users can "verify or challenge the lineage" of an output and that "Every community can fork its own Iris, tune Ŧrust locally, and still interoperate." Medium because this is one author's argued essay with no implementation or evaluation.
+
 ## 7. Review Claims
 
 **R1** [review claim] [target: spore.federation-protocol] [concept: trust]
@@ -191,3 +205,7 @@ The decentralization-theater declination names "multi-sig membership control" an
 **R4** [review claim] [target: spore.structural-legitimacy] [concept: power-capture]
 Structural legitimacy names forkability as the last-resort corrective when coupling breaks. The DTG and Weave give it a testable form at the identity layer: keys and credentials leave with the holder, and Weave's test of any architecture is "can you leave?". Credential pairs make the scope of exit precise. A member who leaves keeps the relationship credentials peers issued to them, each revocable only by its issuer, and loses community-issued membership, which the community can revoke. Review whether the Forkability surface should distinguish what survives exit (peer-issued attestations) from what does not (collectively issued standing).
 *R4 is supported by C2, C8, C9.*
+
+**R5** [review claim] [target: spore.federation-protocol] [concept: reputation-market]
+The Multilateral Trust (Future) list says "Reputation: Event history builds a track record (consistent, timely, accurate contributions)" ([federation-protocol.md:138](../../foundations/federation-protocol.md)). That is a conversion of history into standing, and it names no judge of "accurate" and no way to contest a judgment. The sources show the two ways this can go. Sideways refuses scores because they need value judgements by central authorities, and Trust Demystified makes the conversion explicit and lets a model decide what proved accurate. When the list is next revised, review whether the Reputation item should say who judges accuracy and how a member contests that judgment, or be marked unspecified, as R1 already asks for the negative path.
+*R5 is supported by C6, C11, C12.*
