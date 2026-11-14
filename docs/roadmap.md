@@ -18,7 +18,7 @@ Working implementations exist at each layer, though not yet at scale:
 
 - **Governance memory** (spec DAG): Multiple projects using frontmatter-based doc governance with cross-project dependency validation (Agent Commons, BKC, personal workflow and creative/bioregional projects)
 - **Federation**: BKC operates 4 bioregional nodes (Salish Sea, Greater Victoria, Cowichan Valley, Front Range) with bidirectional KOI-net federation
-- **Commitment pooling**: 2 pools activated on Celo mainnet (Victoria Landscape Hub, Cascadia Bioregion Stewardship), 23+ commitments, 33,400 VCV minted, routing visualization live
+- **Commitment pooling** (hackathon demo only): a March 2026 hackathon demo activated 2 pools on Celo mainnet (Victoria Landscape Hub, Cascadia Bioregion Stewardship), minted 33,400 VCV across 23+ commitments (test data) and launched a routing visualization. This shows the mechanism, not validated use. *(Corrected 2026-11-13: these figures come from the March 2026 hackathon demo. Its commitments came from a scripted demo workshop transcript and other demo inputs, so they are test data, not operational evidence.)*
 - **AI coordination**: Personal workflow implementations and dobby demonstrate agent memory, context injection, skill routing, meeting-to-entity pipelines
 - **Knowledge operations**: 1,000+ entities across BKC nodes, hybrid retrieval (BM25+RRF+FlashRank), contextual enrichment
 

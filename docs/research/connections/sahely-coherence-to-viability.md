@@ -205,7 +205,7 @@ Sibling-repo identity disambiguated by doc_id prefix per `feedback_intake_to_voc
 
 **bregion** — **MODERATE descriptive resonance**: bregion canon-internal sheaf work (per `bioregional-coordination.connection.living-coherence-hypergraph-sheaves-and-plurality` cited in Spore CLAUDE.md session log) composes via C7 Trigger iii pathway IF bregion admits sheaf-substrate via own ADR. This bridge note is descriptive only — does NOT recommend bregion canon-shift. The probe-finding HERE (Trigger v unfired) is independent of Trigger iii; bregion's separate admission pathway remains open if operationally pressured.
 
-**IC + BKC + PM** — WEAK descriptive resonance: this paper does not strongly engage IC's knowledge-commoning territory, BKC's commitment-pool operational territory, or PM's matchmaking territory beyond what W1.5 + W2.3 already cover via their primary substrate articulation.
+**IC + BKC + PM** — WEAK descriptive resonance: this paper does not strongly engage IC's knowledge-commoning territory, BKC's commitment-pool territory (hackathon-demo stage), or PM's matchmaking territory beyond what W1.5 + W2.3 already cover via their primary substrate articulation. *(Corrected 2026-11-13: earlier wording said "commitment-pool operational territory". BKC's commitment-pooling deployment is the March 2026 hackathon demo. Of that demo's 23 commitments, 10 came from a voice memo of a scripted demo workshop transcript, 7 were agent self-commitments and the rest were earlier test entries, so they are test data.)*
 
 **NO write recommendations to any sibling repo.**
 

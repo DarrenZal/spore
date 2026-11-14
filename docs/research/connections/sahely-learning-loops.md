@@ -154,7 +154,7 @@ Per `feedback_workstream_scope_discipline.md`, descriptive comparison only — n
 
 - **IC** (Indigenomics; collective-intelligence / knowledge-commoning): Mulgan's collective-intelligence framing (organizing intelligence into loops; C2) is the closest sibling-territory to IC's intelligence-primitives layer. The three-loop / rule-level resonance could be read against IC's own learning machinery at framing-layer. Descriptive only.
 - **bregion** (`bioregional-coordination`; canon arm): C10's selectivity-applies-to-sensors and C11's stable-vs-unstable-environment framing touch bregion's sensing-the-living-ground territory. Descriptive only.
-- **BKC** (`BioregionKnowledgeCommoning`; production arm): no strong direct resonance — this post is off the commitment-pooling / commitment-economy spine. Descriptive only.
+- **BKC** (`BioregionKnowledgeCommoning`; implementation arm, hackathon-demo stage): no strong direct resonance — this post is off the commitment-pooling / commitment-economy spine. Descriptive only. *(Corrected 2026-11-13: earlier wording said "production arm". BKC's commitment-pooling deployment is the March 2026 hackathon demo. Of that demo's 23 commitments, 10 came from a voice memo of a scripted demo workshop transcript, 7 were agent self-commitments and the rest were earlier test entries, so they are test data.)*
 - **PM** (Poietic Match): no strong direct resonance. Descriptive only.
 
 Per Bundle α discipline, vocab/doctrine admissions do **not** propagate as Wave-N+1 alignment ADRs unless siblings carry their own concepts-registry (IC + PM both H2-decline). Since this Phase 3 note admits nothing, no Wave-N+1 question arises.

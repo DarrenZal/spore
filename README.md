@@ -69,7 +69,9 @@ Spore defines a grammar and publishes patterns and protocols. Others adopt and i
 | **Intelligence Commons** (IC) | Intelligence primitives — retrieval, memory layers, grounding, agentic control | Downstream-aligned; tracks Spore via cross-repo alignment ADRs |
 | **Poietic Match** (PM) | Sovereignty-preserving compositional matchmaking — protocol-objects (Intent, CommitmentBundle, TrustAttestation, MatchProposal) | Downstream-aligned; tracks Spore via cross-repo alignment ADRs |
 | **[bioregional-coordination](https://github.com/DarrenZal/bioregional-coordination)** | Agentic bioregionalism — meta-articulation of Spore primitives at bioregional scope | Peer instance-family member; cites Spore at upstream-reference layer (not fork; not downstream sibling) |
-| **[BKC / Octo](https://github.com/BioregionalKnowledgeCommons/Octo)** | Operational instance — seven-layer stack (mapping → graph → commitment-pool → flow-funding → AI agents → federation → bioregional finance), Greater Victoria pilot | Peer instance-family member; downstream-by-citation (frontmatter `depends_on: spore.<slug>`); peer in the family of instances |
+| **[BKC / Octo](https://github.com/BioregionalKnowledgeCommons/Octo)** | Operational instance — seven-layer stack (mapping → graph → commitment-pool → flow-funding → AI agents → federation → bioregional finance), Greater Victoria pilot. Its commitment-pool layer is at hackathon-demo stage, with test data | Peer instance-family member; downstream-by-citation (frontmatter `depends_on: spore.<slug>`); peer in the family of instances |
+
+*(Corrected 2026-11-13: the BKC / Octo row now qualifies its commitment-pool layer. That layer's only documented deployment is the March 2026 hackathon demo. Of that demo's 23 commitments, 10 came from a voice memo of a scripted demo workshop transcript, 7 were agent self-commitments and the rest were earlier test entries, so they are test data, not operational evidence.)*
 
 **Cite Spore for:** any coordination-grammar question, any ADR-numbered decision, any pattern-library entry, the `spore:ADR-NNNN-<slug>` cross-canon citation convention.
 

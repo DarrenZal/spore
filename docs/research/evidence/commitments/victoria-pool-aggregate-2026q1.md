@@ -28,6 +28,8 @@ outcome_note: ""
 snapshot_date: 2026-04-06
 ---
 
+**Corrected 2026-11-13: this record rests on hackathon demo test data.** The pool facts below come from the March 2026 hackathon demo, whose commitments came from a scripted demo workshop transcript and other demo inputs, so they are test data, not operational evidence. The "What is known" items describe that demo, not observed operation. The frontmatter fields `state: active`, `coordination_context` and `mode_rationale` still carry the original reading and are left for review.
+
 ## Source Basis
 
 **This is a seed record, not operational evidence.** It aggregates
@@ -41,9 +43,9 @@ annotation discipline.
 - `docs/roadmap.md` — "2 pools activated on Celo mainnet (Victoria Landscape Hub, Cascadia Bioregion Stewardship), 23+ commitments, 33,400 VCV minted"
 - `docs/protocols/claims-evidence-attestation.md` — BKC attestation example (Celo EAS, steward approval gates)
 
-**What is known:**
-- Pool exists and is operational
-- 23+ commitments tracked
+**What is known (from the March 2026 hackathon demo, test data, not observed operation):**
+- Pool exists on Celo mainnet (activated in the demo; operation not observed)
+- 23+ commitments tracked (demo test data)
 - Lifecycle states are tracked (PROPOSED through REDEEMED)
 - Steward review gates commitment activation
 - Token settlement via VCV on Celo

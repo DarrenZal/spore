@@ -146,7 +146,7 @@ proposed --> verified --> active --> evidence_linked --> redeemed
                             |
                         expired
 ```
-(Source: BKC commitment pooling lifecycle, validated at `commitment-pooling.md`)
+(Source: BKC commitment pooling lifecycle, documented at `commitment-pooling.md` and demonstrated in a March 2026 hackathon demo with test data.) *(Corrected 2026-11-13: earlier wording said "validated at". The demo's commitments came from a scripted demo workshop transcript and other demo inputs, so they are test data, not operational evidence.)*
 
 ### Attestations
 Attestations do not follow a simple linear lifecycle. They **strengthen** through corroboration (multiple independent attesters) or **decay** through contradiction, elapsed time, or revocation.
@@ -270,13 +270,13 @@ The primitives are not a neutral data model. They encode commitments across five
 
 ### Trace 2: BKC Commitment Pooling
 
-**Context:** Victoria Landscape Hub and Cascadia Bioregion Stewardship pools, 23+ commitments, 33,400 VCV minted on Celo, federated across 4 bioregional nodes.
+**Context:** Victoria Landscape Hub and Cascadia Bioregion Stewardship pools, activated in a March 2026 hackathon demo with 23+ commitments (test data) and 33,400 VCV minted on Celo, federated across 4 bioregional nodes. This trace maps the demo implementation, not live coordination. *(Corrected 2026-11-13: these figures come from the March 2026 hackathon demo. Its commitments came from a scripted demo workshop transcript and other demo inputs, so they are test data, not operational evidence. The Sense row's mapping-workshop input was that scripted transcript, not a real workshop.)*
 
 | Loop Phase | Implementation | Primitives Used |
 |-----------|---------------|-----------------|
 | **Sense** | Mapping workshops surface needs/offers/gaps across landscape groups | Signal (needs, offers, alerts) |
 | **Interpret** | Needs structured as typed intents (SWAP, WANT, OFFER, CONDITIONAL) | Claim (about capacity/need) |
-| **Claim** | "Victoria has 23+ commitments worth 33,400 VCV" — verifiable on-chain | Claim, Evidence |
+| **Claim** | "Victoria has 23+ commitments worth 33,400 VCV" — the demo mints are verifiable on-chain, but the commitments are hackathon test data | Claim, Evidence |
 | **Attest** | On-chain anchoring (Celo EAS), steward approval gates | Attestation |
 | **Intend** | Intent publication layer: standing offers, needs, conditional commitments | Intent (4 types) |
 | **Commit** | Commitments enter pools, follow lifecycle (PROPOSED-->REDEEMED) | Commitment |

@@ -19,11 +19,11 @@ Johar remainder (design contribution, design hypothesis, Johar-distinctive integ
 ### 2.1 Commitment Pooling Records (BKC)
 
 **What is already observable:**
-- 2 pools (Victoria + Cascadia) with 23+ commitments tracked
+- 2 pools (Victoria + Cascadia) with 23+ commitments tracked, all from a March 2026 hackathon demo (test data)
 - Commitment lifecycle states: PROPOSED → VERIFIED → ACTIVE → EVIDENCE_LINKED → REDEEMED (+ DISPUTED → RESOLVED branch)
 - Pool federation routing with scoring criteria (bioregional alignment, capacity overlap, timeframe compatibility, governance fit)
-- 33,400 VCV on Celo mainnet (parallel token settlement)
-- Commitment-pooling pattern is documented and active (`docs/patterns/commitment-pooling.md`)
+- 33,400 VCV on Celo mainnet (parallel token settlement), minted in the same demo
+- Commitment-pooling pattern is documented (`docs/patterns/commitment-pooling.md`) and was exercised in that demo
 
 **What is missing:**
 - No commitment-type metadata (delivery / discovery / stewardship / risk)
@@ -32,7 +32,7 @@ Johar remainder (design contribution, design hypothesis, Johar-distinctive integ
 - No structured record of who bore consequences for which governance decisions
 - No renegotiation event log
 
-**Reliability:** The lifecycle state machine is well-defined and the BKC pools are operational. The surface is solid for adding metadata. The gap is annotation, not infrastructure.
+**Reliability:** The lifecycle state machine is well-defined, and the BKC pools exist, but their records are hackathon demo test data. The surface is solid for adding metadata. The gap is annotation, not infrastructure. *(Corrected 2026-11-13: earlier wording said the BKC pools "are operational" and the pattern "active". The figures in this section come from the March 2026 hackathon demo. Its commitments came from a scripted demo workshop transcript and other demo inputs, so they are test data, not operational evidence.)*
 
 ### 2.2 Governance and Review Traces
 
@@ -106,7 +106,7 @@ Johar remainder (design contribution, design hypothesis, Johar-distinctive integ
 ### 2.6 Coordination Notes and Logs
 
 **What is already observable:**
-- BKC referenced as operational instance with 2 pools, steward reviews, mapping workshops
+- BKC referenced as operational instance with 2 pools, steward reviews, mapping workshops, although the pool records and workshop input come from a March 2026 hackathon demo with test data *(Corrected 2026-11-13: the demo's commitments came from a scripted demo workshop transcript and other demo inputs, so they are test data, not operational evidence.)*
 - CLC / Grassroots Economics referenced as parallel implementation
 - Johar corpus program planning trail (program index, prep memos, review packets, outcome memos, enactment memos, wording refinements)
 
@@ -121,9 +121,11 @@ Johar remainder (design contribution, design hypothesis, Johar-distinctive integ
 
 | Target | What It Would Validate | Existing Hook | Needs Discipline Or Instrumentation | Difficulty | Main Risk |
 |--------|----------------------|---------------|-------------------------------------|------------|-----------|
-| **1. Commitment lifecycle with type and consequence annotation** | Whether commitment-type differentiation correlates with coordination quality; whether consequence-bearing participants have effective voice (human-economy-and-commitment, legitimacy-and-shared-consequence) | BKC commitment pools (23+ commitments, lifecycle states tracked); commitment-pooling pattern with defined state machine | Metadata extension: commitment-type tag, consequence-bearer field, standing-condition annotation, renegotiation event log | Medium | Annotation overhead discourages adoption; type taxonomy imposed rather than discovered; evidence mistaken for validation of 4-type taxonomy when it only tests differentiation |
+| **1. Commitment lifecycle with type and consequence annotation** | Whether commitment-type differentiation correlates with coordination quality; whether consequence-bearing participants have effective voice (human-economy-and-commitment, legitimacy-and-shared-consequence) | BKC commitment pools (23+ commitments from a March 2026 hackathon demo, test data; lifecycle states tracked); commitment-pooling pattern with defined state machine | Metadata extension: commitment-type tag, consequence-bearer field, standing-condition annotation, renegotiation event log | Medium | Annotation overhead discourages adoption; type taxonomy imposed rather than discovered; evidence mistaken for validation of 4-type taxonomy when it only tests differentiation |
 | **2. Discourse revision depth tracking** | Whether the grammar's mechanisms actually resist linguistic closure; whether revision genuinely reopens inquiry vs administrative versioning (linguistic-closure, legitimacy-and-shared-consequence, holding-complexity-beyond-control) | Claims-evidence-attestation lifecycle; discourse-as-governance pattern; Johar corpus governance trail as candidate observation case | Discipline: revision-depth annotation on governance decisions and claim transitions; instrumentation: revision-type tag on claim lifecycle transitions | Medium-high | Circularity if Johar corpus program is primary evidence source; revision-depth judgment is inherently subjective; low volume of governance decisions limits statistical confidence |
 | **3. Context-change coordination comparison in BKC pools** | Whether context variables predict coordination quality more strongly than composition variables (relational-topology-and-context-design, human-economy-and-commitment) | BKC pool federation with overlapping participants and different governance arrangements; multiple pools as natural comparison surface | New instrumentation: define "coordination quality" measurably; create context-change and composition-change event log; structured coordination outcome snapshots | High | "Coordination quality" is hard to operationalize; context and composition changes co-occur; sample size limited by pool count and activity level |
+
+*(Corrected 2026-11-13: the BKC pool figures in this table come from the March 2026 hackathon demo. Its commitments came from a scripted demo workshop transcript and other demo inputs, so they are test data, not operational evidence.)*
 
 ## 4. Per-Target Design
 
@@ -167,17 +169,17 @@ A single commitment record in a BKC pool that carries: (a) a commitment-type tag
 
 #### F. Observation Window
 
-Minimum: one full commitment cycle (PROPOSED through REDEEMED or DISPUTED) for at least 3 commitments of different types — likely 3–6 months given BKC's current operational cadence. Meaningful comparison: 2 full cycles covering at least 10 annotated commitments, likely 6–12 months. The observation window must be long enough that renegotiation events can occur naturally, not be manufactured.
+Minimum: one full commitment cycle (PROPOSED through REDEEMED or DISPUTED) for at least 3 commitments of different types — likely 3–6 months given BKC's expected cadence once real commitments enter its pools, whose existing records are March 2026 hackathon demo test data. Meaningful comparison: 2 full cycles covering at least 10 annotated commitments, likely 6–12 months. The observation window must be long enough that renegotiation events can occur naturally, not be manufactured. *(Corrected 2026-11-13: earlier wording said "given BKC's current operational cadence". When this memo was written, the pools held only demo test data: of the demo's 23 commitments, 10 came from a voice memo of a scripted demo workshop transcript, 7 were agent self-commitments and the rest were earlier test entries.)*
 
 #### G. Existing Hook Vs New Instrumentation
 
-The commitment lifecycle state machine is already operational in BKC pools. The PROPOSED → VERIFIED → ACTIVE → EVIDENCE_LINKED → REDEEMED pipeline exists. Adding type, consequence-bearer, and standing annotations is a metadata extension on existing records, not new infrastructure. The main new instrumentation is the renegotiation event log and the outcome quality note at lifecycle completion — these do not currently exist in any form. The governance-decision-refs field connects to existing BKC decision logs. Overall, this target rides primarily on existing surfaces with modest metadata extension.
+The commitment lifecycle state machine is implemented in BKC pools and was exercised in a March 2026 hackathon demo with test data. The PROPOSED → VERIFIED → ACTIVE → EVIDENCE_LINKED → REDEEMED pipeline exists. Adding type, consequence-bearer, and standing annotations is a metadata extension on existing records, not new infrastructure. The main new instrumentation is the renegotiation event log and the outcome quality note at lifecycle completion — these do not currently exist in any form. The governance-decision-refs field connects to existing BKC decision logs. Overall, this target rides primarily on existing surfaces with modest metadata extension.
 
 #### H. Minimal Implementation Shape
 
 **Light metadata extension.**
 
-The commitment pooling surface is operational. What is needed is: (a) 5–8 new metadata fields on commitment records, (b) a lightweight renegotiation event log, and (c) an outcome annotation convention at lifecycle completion. No new systems, no new protocols. The extension can be adopted incrementally — annotating new commitments as they enter pools, with no requirement to back-annotate the existing 23+.
+The commitment pooling surface exists and was exercised in that demo. What is needed is: (a) 5–8 new metadata fields on commitment records, (b) a lightweight renegotiation event log, and (c) an outcome annotation convention at lifecycle completion. No new systems, no new protocols. The extension can be adopted incrementally — annotating new commitments as they enter pools, with no requirement to back-annotate the existing 23+ demo commitments. *(Corrected 2026-11-13: earlier wording in G and H called the lifecycle and the pooling surface "operational". The existing 23+ commitments come from the March 2026 hackathon demo, which drew them from a scripted demo workshop transcript and other demo inputs, so they are test data, not operational evidence.)*
 
 ---
 
@@ -339,7 +341,7 @@ These 4 artifacts compose the minimum evidence stack. Together they cover all 3 
 
 ### First: Target 1 — Commitment Lifecycle With Type And Consequence Annotation
 
-**Why first:** Lowest implementation difficulty. Rides almost entirely on existing BKC commitment pool infrastructure. Requires only metadata extension on existing records, not new artifact types. Generates evidence for 2 canon entries (human-economy-and-commitment, legitimacy-and-shared-consequence). BKC pools are the most mature operational surface in the Spore ecosystem — the evidence will be grounded in real coordination, not research-process artifacts. Can start immediately with process discipline: annotate the next commitment that enters a pool.
+**Why first:** Lowest implementation difficulty. Rides almost entirely on existing BKC commitment pool infrastructure. Requires only metadata extension on existing records, not new artifact types. Generates evidence for 2 canon entries (human-economy-and-commitment, legitimacy-and-shared-consequence). BKC pools are the most mature commitment surface in the Spore ecosystem, but their existing records are March 2026 hackathon demo test data, so the evidence will be grounded in real coordination only from the first real commitment onward, not in research-process artifacts. Can start immediately with process discipline: annotate the next commitment that enters a pool. *(Corrected 2026-11-13: earlier wording said BKC pools are "the most mature operational surface" and that "the evidence will be grounded in real coordination". Their records come from the March 2026 hackathon demo, whose commitments came from a scripted demo workshop transcript and other demo inputs, so they are test data, not operational evidence.)*
 
 **Dependency / leverage:** Establishes the `commitment_type`, `consequence_bearer`, and `revision_type` conventions that Target 2 and Target 3 will also use. Creates the shared schema foundation.
 
@@ -365,7 +367,7 @@ These 4 artifacts compose the minimum evidence stack. Together they cover all 3 
 
 **Move next to implementation-scoping.**
 
-Why: The instrumentation designs in this memo are concrete enough to scope implementation work — defining the exact fields, templates, and adoption steps for the minimum evidence stack. The deferred-family triage reassessment and corpus comparative note design are both valuable, but neither is blocked by the current state. Implementation scoping is the most time-sensitive next step because: (a) BKC pools are operationally active now, and every commitment that enters a pool without type/consequence annotation is a missed evidence opportunity; (b) the Johar corpus governance trail is recent enough that revision-depth annotations can still be applied while the reasoning is fresh; (c) the coordination quality vocabulary must be developed through practice, and practice starts with the first annotated commitment and the first coordination snapshot. Delaying implementation-scoping in favor of triage or comparative work would mean the evidence stack starts later and the observation windows shift further out.
+Why: The instrumentation designs in this memo are concrete enough to scope implementation work — defining the exact fields, templates, and adoption steps for the minimum evidence stack. The deferred-family triage reassessment and corpus comparative note design are both valuable, but neither is blocked by the current state. Implementation scoping is the most time-sensitive next step because: (a) BKC pools exist, though their records were hackathon demo test data when this memo was written, and every real commitment that enters a pool without type/consequence annotation is a missed evidence opportunity; (b) the Johar corpus governance trail is recent enough that revision-depth annotations can still be applied while the reasoning is fresh; (c) the coordination quality vocabulary must be developed through practice, and practice starts with the first annotated commitment and the first coordination snapshot. Delaying implementation-scoping in favor of triage or comparative work would mean the evidence stack starts later and the observation windows shift further out. *(Corrected 2026-11-13: earlier wording of point (a) said "BKC pools are operationally active now". Their records come from the March 2026 hackathon demo, whose commitments came from a scripted demo workshop transcript and other demo inputs, so they are test data, not operational evidence. Point (a) assumed live pools.)*
 
 The deferred-family triage and corpus comparative note design should follow promptly — they are not deprioritized, only sequenced after the implementation scope is defined.
 

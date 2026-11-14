@@ -49,14 +49,18 @@ Key: **S** = strong (mature instance), **E** = emerging (precursor or partial), 
 | governance-memory | **S** (self-hosting spec DAG, 14+ docs, cross-project deps) | **S** (canonical doc DAG across 4 nodes) | **S** (4 docs canonicalized, plan review workflow) | **E** (semantic roadmap JSON, but no spec DAG) |
 | federated-knowledge-exchange | **S** (pattern doc + cross-project edge validation) | **S** (4-node federation, 1000+ entities, bidirectional KOI-net) | **E** (entity resolution backend, mentionedIn sync) | **--** |
 | intent-publication-and-activation | **D** (pattern doc describes vector framing, not yet protocol) | **S** (intent-publication.md: 4 types, agent architecture, mapping workshop pipeline) | **E** (skill router infers intent from natural language) | **--** |
-| commitment-pooling | **D** (pattern doc) | **S** (2 pools, 23+ commitments, 33,400 VCV on Celo, NOAM clearing) | **--** | **--** |
+| commitment-pooling | **D** (pattern doc) | **E** (2 pools, 23+ commitments, 33,400 VCV on Celo, NOAM clearing, all from a March 2026 hackathon demo with test data; lowered from **S**) | **--** | **--** |
 | worldview-commoning (candidate) | **D** (grammar encodes 5 worldview layers) | **E** (ontology-commoning framework: mapping lifecycle, governance, consent) | **--** | **E** (4 worldview layers explicit, OCAP as membrane config, but no formal commoning protocol) |
 | discourse-as-governance (candidate) | **D** (discourse graph listed as projection) | **E** (decision logs in pilots, steward review) | **E** (plan review = adversarial discourse on plans) | **--** |
 
+*(Corrected 2026-11-13: the BKC commitment-pooling figures come from the March 2026 hackathon demo. Its commitments came from a scripted demo workshop transcript and other demo inputs, so they are test data, not operational evidence. The **S** rating rests on that demo and needs revisiting, as do the observations below that count it.)*
+
+*(Corrected 2026-11-13: the BKC commitment-pooling rating is lowered one level on this matrix's key, from **S** (strong, mature instance) to **E** (emerging, precursor or partial), because its only instance is the March 2026 hackathon demo, whose 23 commitments were test data: 10 from a voice memo of a scripted demo workshop transcript, 7 agent self-commitments and the rest earlier test entries. BKC now has strong instances for 3 of 6 patterns.)*
+
 **Observations:**
-- **BKC is the richest validation site** — 4 of 6 patterns have strong instances.
+- **BKC is the richest validation site** — 3 of 6 patterns have strong instances, after commitment-pooling was lowered to **E** on hackathon demo data (see the notes above).
 - **governance-memory is the most widely adopted pattern** — strong in 3 projects, emerging in a 4th.
-- **commitment-pooling has deep depth but narrow breadth** — only BKC has a working instance.
+- **commitment-pooling has deep depth but narrow breadth** — only BKC has an instance, and it is a March 2026 hackathon demo with test data, not an operational one.
 - **worldview-commoning has no strong instance anywhere** — BKC's ontology-commoning is closest but operates at one layer (ontological) rather than the full stack.
 - **IndigenomicsAI has the richest worldview content** but has not yet formalized coordination patterns.
 
@@ -119,9 +123,11 @@ Key: **H** = high (primary function), **M** = medium (significant), **L** = low 
 |-------------|-----------|-----------|-------------|----------|-------------|----------|
 | Pattern authority (Spore) | M (tracks pattern validity) | H (defines coordination norms) | M (spec DAG governs artifacts) | -- | H (pattern language is meaning-making) | H (patterns evolve through adoption) |
 | Personal workflow node (DW) | H (entity resolution, backend) | L (follows Spore norms) | H (skill routing, meeting pipeline) | -- | M (meeting transcription) | M (entity corrections, memory revision) |
-| Bioregional commons (BKC) | H (1000+ entities, evidence, provenance) | H (3-plane architecture, meta-protocol) | H (4-node federation, steward governance) | H (commitment pools, VCV, TBFF) | M (mapping workshops, decision logs) | M (ontology commoning, mapping re-evaluation) |
+| Bioregional commons (BKC) | H (1000+ entities, evidence, provenance) | H (3-plane architecture, meta-protocol) | H (4-node federation, steward governance) | M (commitment pools, VCV, TBFF, all at hackathon-demo stage; lowered from H) | M (mapping workshops, decision logs) | M (ontology commoning, mapping re-evaluation) |
 | Sovereign compute node (IndigenomicsAI) | H (ontology v1, 25 themes, classifiers) | H (4 worldview layers, OCAP) | L (team coordination, not systemic) | M (economic measurement, $100B narrative) | H (worldview formalization, T'iithluup) | M (methodology evolution, transgenerational design) |
 | Governance-memory project (generic) | L | M | H | -- | L | M |
+
+*(Corrected 2026-11-13: BKC's Economic rating is lowered one level on this matrix's key, from **H** (high, primary function) to **M** (medium, significant). Its commitment pools, VCV and TBFF settlement come from the March 2026 hackathon demo, whose 23 commitments were test data: 10 from a voice memo of a scripted demo workshop transcript, 7 agent self-commitments and the rest earlier test entries. BKC still rates M or higher on all six dimensions.)*
 
 **Key insight:** Each profile has a different functional center of gravity. BKC is the only node that operates significantly across all 6 dimensions. IndigenomicsAI is uniquely strong in interpretive + normative (worldview formalization). DW is strongest in epistemic + coordination (personal knowledge operations). This functional diversity is evidence that the grammar supports plural coordination styles, not just one.
 

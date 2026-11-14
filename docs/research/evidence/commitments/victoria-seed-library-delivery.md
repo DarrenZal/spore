@@ -27,6 +27,8 @@ outcome_note: >
 snapshot_date: 2026-04-06
 ---
 
+**Corrected 2026-11-13: this record rests on an illustrative example, not on an observed commitment.** Its only source is an "Example" cell in the claims-evidence-attestation protocol. Searches of this repo's docs, the BKC Celo hackathon pilot and Octo's Celo scripts found no primary record of a seed library delivery, a commitment "#47" or a Saanich group. The "What is known" items below are therefore illustrative, not observed. The frontmatter fields `state: redeemed`, `consequence_bearers`, `coordination_context` and `outcome_note` still carry the original reading and are left for review.
+
 ## Source Basis
 
 **This is a source-incomplete stub, not operational evidence.** It is
@@ -45,10 +47,10 @@ commitment identifier "#47" appears only in this example and is not
 referenced elsewhere in the repo. No operational detail exists beyond
 the one-sentence example.
 
-**What is known:**
-- A seed library delivery commitment existed in the Victoria pool
-- It reached the REDEEMED state
-- It was delivered to the Saanich group
+**What is known (illustrative only, from the protocol's example cell; not observed):**
+- A seed library delivery commitment existed in the Victoria pool (illustrative; no record of it was found)
+- It reached the REDEEMED state (illustrative)
+- It was delivered to the Saanich group (illustrative)
 
 **What is unknown:**
 - Stable commitment identifier (the "#47" is illustrative)

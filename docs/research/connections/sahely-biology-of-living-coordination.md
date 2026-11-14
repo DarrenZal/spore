@@ -212,7 +212,7 @@ C-7 ("civilization as an extended niche that may become salugenic or pathogenic"
 
 ### BKC (`bkc.*`)
 
-Not strongly engaged. BKC's territory is commitment-pooling + flow-funding + commons workshop / production-implementation (per cross-repo audit at Ruddick (2026) §7 corrigendum 2026-05-04). Sahely's autopoiesis-enactive substrate is adjacent-but-orthogonal: BKC's commitment-pooling operates at finance / mutual-aid grammar; Sahely's substrate operates at biological-coordination grammar. The two share the "commons-as-verb / commoning-as-practice" frame (`commons-as-verb` slug; Bresnihan / De Angelis) at the abstract layer, but production-implementation doesn't engage Sahely-shape concerns directly.
+Not strongly engaged. BKC's territory is commitment-pooling + flow-funding + commons workshop / implementation at hackathon-demo stage (per cross-repo audit at Ruddick (2026) §7 corrigendum 2026-05-04). Sahely's autopoiesis-enactive substrate is adjacent-but-orthogonal: BKC's commitment-pooling operates at finance / mutual-aid grammar; Sahely's substrate operates at biological-coordination grammar. The two share the "commons-as-verb / commoning-as-practice" frame (`commons-as-verb` slug; Bresnihan / De Angelis) at the abstract layer, but production-implementation doesn't engage Sahely-shape concerns directly. *(Corrected 2026-11-13: earlier wording said "commons workshop / production-implementation". BKC's commitment-pooling deployment is the March 2026 hackathon demo. Of that demo's 23 commitments, 10 came from a voice memo of a scripted demo workshop transcript, 7 were agent self-commitments and the rest were earlier test entries, so they are test data.)*
 
 ### PM (Poietic Match; `pm.*`)
 

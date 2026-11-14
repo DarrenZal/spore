@@ -201,8 +201,8 @@ Settlement can take multiple forms: in-kind fulfillment, token settlement (commi
 
 ### Current Implementations
 
-- **BKC Victoria + Cascadia pools**: 2 pools activated, 23+ commitments tracked, routing visualization live
-- **VCV on Celo**: Victoria Commitment Vouchers on Celo mainnet (33,400 VCV minted)
+- **BKC Victoria + Cascadia pools** (hackathon demo only): a March 2026 hackathon demo activated 2 pools, tracked 23+ commitments (test data) and launched a routing visualization
+- **VCV on Celo**: the same demo deployed Victoria Commitment Vouchers on Celo mainnet and minted 33,400 VCV *(Corrected 2026-11-13: the figures in these two entries come from the March 2026 hackathon demo. Its commitments came from a scripted demo workshop transcript and other demo inputs, so they are test data, not operational evidence.)*
 - **Grassroots Economics / CLC protocol**: Community Inclusion Currencies and the commitment voucher framework developed by Will Ruddick
 
 ---
@@ -298,7 +298,9 @@ No new primitives are needed. The discourse graph fills the Revise phase of the 
 
 ---
 
-# SECTION 7: THE BIOREGIONAL KNOWLEDGE COMMONS (BKC) — PRODUCTION PROVING GROUND
+# SECTION 7: THE BIOREGIONAL KNOWLEDGE COMMONS (BKC) — PRODUCTION PROVING GROUND (COMMITMENT POOLING: HACKATHON DEMO ONLY)
+
+*(Corrected 2026-11-13: the commitment-pooling figures in this section come from the March 2026 hackathon demo. Of its 23 commitments, 10 came from a voice memo of a scripted demo workshop transcript, 7 were agent self-commitments and the rest were earlier test entries, so they are test data, not production evidence.)*
 
 ## What BKC Is
 
@@ -338,8 +340,8 @@ This is the cosmolocal principle applied to knowledge infrastructure: light prot
 
 - 4 federated nodes (Salish Sea, Greater Victoria, Cowichan Valley, Front Range)
 - 1,000+ entities across nodes
-- 2 commitment pools activated (Victoria Landscape Hub, Cascadia Bioregion Stewardship)
-- 23+ commitments, 33,400 VCV minted on Celo mainnet
+- 2 commitment pools activated in a March 2026 hackathon demo (Victoria Landscape Hub, Cascadia Bioregion Stewardship)
+- 23+ commitments (test data), 33,400 VCV minted on Celo mainnet in that demo *(Corrected 2026-11-13: these figures come from the March 2026 hackathon demo. Its commitments came from a scripted demo workshop transcript and other demo inputs, so they are test data, not operational evidence.)*
 - Hybrid retrieval (BM25 + RRF + FlashRank cross-encoder reranking)
 - Full bidirectional KOI-net federation
 
@@ -413,7 +415,7 @@ Open Civics is structurally adjacent to Spore but operates at a different regist
 - Federation specification (sovereignty invariants, trust establishment, domain events, failure modes)
 - 10 named primitives, 13 relations, 7 membrane operations, and lifecycle transitions
 - Epistemic infrastructure (claims-evidence-attestation protocol)
-- Economic coordination (commitment pooling validated on Celo mainnet)
+- Economic coordination (commitment pooling demonstrated on Celo mainnet in a March 2026 hackathon demo, test data only) *(Corrected 2026-11-13: earlier wording said "validated". The demo's commitments came from a scripted demo workshop transcript and other demo inputs, so they are test data, not operational evidence.)*
 - Five-layer worldview grammar
 
 **What OC adds that Spore doesn't have:**
@@ -562,7 +564,7 @@ AT Protocol (Bluesky, 23M+ users) is the only production-validated peer. Its spe
 
 - **Governance memory** (spec DAG): Multiple projects using frontmatter-based doc governance
 - **Federation**: BKC operates 4 bioregional nodes with bidirectional KOI-net federation
-- **Commitment pooling**: 2 pools on Celo mainnet, 23+ commitments, 33,400 VCV minted
+- **Commitment pooling** (hackathon demo only): a March 2026 hackathon demo activated 2 pools on Celo mainnet and minted 33,400 VCV across 23+ commitments (test data). This shows the mechanism, not validated use. *(Corrected 2026-11-13: these figures come from the March 2026 hackathon demo. Its commitments came from a scripted demo workshop transcript and other demo inputs, so they are test data, not operational evidence.)*
 - **AI coordination**: Personal workflow + Dobby demonstrate agent memory, context injection, skill routing
 - **Knowledge operations**: 1,000+ entities, hybrid retrieval, contextual enrichment
 - **Learning membrane**: One full intake cycle (v1 core -> v1.5 workflow -> v1.5.1 hardening)
@@ -747,7 +749,7 @@ The grammar describes a coordination ecology that cycles through phases: sense �
 
 ### Aligned incentives → commitment pooling
 
-Commitment pooling coordinates many commitments from many agents without centralizing control. The BKC operates two commitment pools on Celo mainnet: 23+ commitments, 33,400 VCV minted.
+Commitment pooling coordinates many commitments from many agents without centralizing control. In a March 2026 hackathon demo, the BKC activated two commitment pools on Celo mainnet and minted 33,400 VCV across 23+ commitments (test data). *(Corrected 2026-11-13: earlier wording said the BKC "operates" these pools. These figures come from the March 2026 hackathon demo. Its commitments came from a scripted demo workshop transcript and other demo inputs, so they are test data, not operational evidence.)*
 
 ### Non-enclosability → forkability + contestability
 

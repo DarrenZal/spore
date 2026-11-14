@@ -257,7 +257,7 @@ Sibling-repo identity disambiguated by doc_id prefix per `feedback_intake_to_voc
 **BKC** (`BioregionalKnowledgeCommoning`) — **STRONG descriptive resonance**:
 - Civil Commons + commons-governance + life-value (Ch4) compose with BKC's commitment-pooling foundation framework (per 2026-05-04 §7 corrigendum to Ruddick bridge note).
 - McMurtry citation in this paper (Ch4) + BKC's foundation cite same McMurtry tradition (via Cosmo-Local Credit + Kinship Earth lineage at `bkc.commitment-economy-vision`).
-- Externalization-as-deferred-collapse (C11) names operationally what BKC's commitment-pooling-substrate engages at on-chain Celo deployment layer (commitment as cycle-clearing-against-extraction).
+- Externalization-as-deferred-collapse (C11) names operationally what BKC's commitment-pooling-substrate engages at on-chain Celo deployment layer, shown in a March 2026 hackathon demo with test data (commitment as cycle-clearing-against-extraction). *(Corrected 2026-11-13: earlier wording gave the Celo deployment without the hackathon qualifier. Of the demo's 23 commitments, 10 came from a voice memo of a scripted demo workshop transcript, 7 were agent self-commitments and the rest were earlier test entries, so they are test data, not operational evidence.)*
 - Flag for operator. No write-side recommendation here.
 
 **PM** (Poietic Match) — WEAK descriptive resonance:

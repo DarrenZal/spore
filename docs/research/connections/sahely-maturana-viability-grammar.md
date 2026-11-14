@@ -226,7 +226,7 @@ All Spore-side `relates_to:` and `concepts:` entries verified against live state
 **bregion** (`bioregional-coordination`; canon arm; peer-instance-family of BKC per `feedback_peer_instance_family_vs_downstream_aligned.md`):
 - Sahely's *ecological coherence* keyword (p3) + C-5 life-coherence definition's inclusion of *ecological conditions* engages bregion's life-ground territory. bregion is the natural locus for ecological-coherence operational-pressure that Spore canon only partially admits via `reproduction-continuity` + `maintenance-economics`. **Descriptive observation only; no recommendation.** Anchor #7 (Toward Life-Coherent Peace in the Middle East) is the Phase-2 anchor where this cross-reference will surface more strongly.
 
-**BKC** (`BioregionKnowledgeCommoning`; workshop / production-implementation arm):
+**BKC** (`BioregionKnowledgeCommoning`; workshop / implementation arm, hackathon-demo stage): *(Corrected 2026-11-13: earlier wording said "workshop / production-implementation arm". BKC's commitment-pooling deployment is the March 2026 hackathon demo. Of that demo's 23 commitments, 10 came from a voice memo of a scripted demo workshop transcript, 7 were agent self-commitments and the rest were earlier test entries, so they are test data.)*
 - This anchor does not strongly engage BKC's commitment-pooling / commitment-economy substrate. BKC engagement may surface from other Sahely anchors (#10 *From Money Growth to Life Coherence*; #11 *Life-Value Manifesto*; #6 *Ethics as a Science of Viability*) where McMurtry-economics and life-value onto-axiology engage civil commons + commitment economy directly. **Not engaged here.**
 
 **PM** (Poietic Match; matchmaking with commitments):

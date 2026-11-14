@@ -57,7 +57,7 @@ The loop operates at every scale. A person revising their understanding of a pro
 
 [Commitment pooling](../patterns/commitment-pooling.md) coordinates many commitments from many agents without centralizing control. Agents declare intents, make promises, accept commitments with scope-bound accountability. The legibility progression — from intent to promise to commitment — makes each stage more visible, more accountable, and more operative.
 
-This is not speculative. The Bioregional Knowledge Commons operates two commitment pools on Celo mainnet: 23+ commitments, 33,400 VCV minted. Demurrage (configurable decay) encourages circulation. Forkability preserves exit. Settlement can be in-kind, token-based, or hybrid. The mechanism works because accountability flows from the commitment structure, not from managerial authority.
+A March 2026 hackathon demo shows the mechanism: the Bioregional Knowledge Commons activated two commitment pools on Celo mainnet and minted 33,400 VCV across 23+ commitments (test data). Demurrage (configurable decay) encourages circulation. Forkability preserves exit. Settlement can be in-kind, token-based, or hybrid. The mechanism is designed so that accountability flows from the commitment structure, not from managerial authority. *(Corrected 2026-11-13: earlier wording opened with "This is not speculative", said BKC "operates" the pools and said "The mechanism works". These figures come from the March 2026 hackathon demo. Its commitments came from a scripted demo workshop transcript and other demo inputs, so they are test data, not operational evidence.)*
 
 ### Non-enclosability → forkability + contestability
 

@@ -132,7 +132,7 @@ Per `feedback_workstream_scope_discipline.md`, stream-scope discipline applies t
 
 - **IC** (Indigenomics; knowledge-commoning): C-9's note that *"traditional systems call vitality"* a projection of the same organizing principle, plus the §9 TCM/Ayurveda mappings (Qi / Prāṇa / Shen / Ojas as felt viability flow, per cited-authors), engage IC's Indigenous/traditional-knowledge framing layer. **Descriptive only.**
 - **bregion** (`bioregional-coordination`; canon arm; peer-instance-family): the viability-stack's life-ground emphasis (life regulating itself; viability-from-the-inside) is closest to bregion's ecological/life-ground territory at the framing layer. **Descriptive only.**
-- **BKC** (`BioregionKnowledgeCommoning`; workshop/production arm): this biological-selfhood paper does not engage BKC's commitment-pooling / commitment-economy substrate. **Not engaged.**
+- **BKC** (`BioregionKnowledgeCommoning`; workshop/implementation arm, hackathon-demo stage): this biological-selfhood paper does not engage BKC's commitment-pooling / commitment-economy substrate. **Not engaged.** *(Corrected 2026-11-13: earlier wording said "workshop/production arm". BKC's commitment-pooling deployment is the March 2026 hackathon demo. Of that demo's 23 commitments, 10 came from a voice memo of a scripted demo workshop transcript, 7 were agent self-commitments and the rest were earlier test entries, so they are test data.)*
 - **PM** (Poietic Match; matchmaking with commitments): C-6 trauma-as-interface-injury and the regulatory-flexibility framing engage PM only weakly (well-being-of-participants framing at most). **Descriptive only.**
 
 No write-side recommendations. The note authors a single Spore-side connection artifact.

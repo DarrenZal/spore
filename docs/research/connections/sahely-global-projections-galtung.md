@@ -131,7 +131,7 @@ Per `feedback_workstream_scope_discipline.md`, stream-scope discipline applies t
 
 - **IC** (Indigenomics; knowledge-commoning): C3's "Genocide of Native Americans" trauma-archetype and C5's covenanted-nations chosenness engage IC's Indigenous-standpoint territory at framing-layer — the perception-as-power lens names whose account of settler-colonial violence becomes representable. Descriptive only; no recommendation.
 - **bregion** (`bioregional-coordination`; canon arm): the "sacred land" chosenness archetype (C3) touches bregion's land-ground territory at framing-layer only. Not strongly engaged here.
-- **BKC** (workshop / production arm): not engaged — this post carries no commitment-pooling / commitment-economy substrate.
+- **BKC** (workshop / implementation arm, hackathon-demo stage): not engaged — this post carries no commitment-pooling / commitment-economy substrate. *(Corrected 2026-11-13: earlier wording said "workshop / production arm". BKC's commitment-pooling deployment is the March 2026 hackathon demo. Of that demo's 23 commitments, 10 came from a voice memo of a scripted demo workshop transcript, 7 were agent self-commitments and the rest were earlier test entries, so they are test data.)*
 - **PM** (Poietic Match): C5 isomorphism (Self-recognition-in-the-Other) is the *negative image* of PM's matchmaking-as-mutual-legitimation — recognition narrowed to license shared violence against an out-group, rather than widened to surface compatible coordination. Descriptive contrast only; no recommendation.
 
 ### No write-side recommendations

@@ -101,7 +101,7 @@ Open Civics and Spore operate at different registers. OC is a normative thesis; 
 - Evidence from Spore: coordination-grammar.md worldview grammar section
 - Disposition: unresolved tension
 
-**C7: Spore's membrane operations fill OC's boundary-crossing gap.** OC's design principles call for composable, interoperable civic utilities but do not specify how boundary crossing is authorized, how translation between organizational contexts works, or how disputes are resolved. Spore's seven membrane operations provide this specification, validated in three ground-truth traces (relay pilot, BKC commitment pooling, personal workflow).
+**C7: Spore's membrane operations fill OC's boundary-crossing gap.** OC's design principles call for composable, interoperable civic utilities but do not specify how boundary crossing is authorized, how translation between organizational contexts works, or how disputes are resolved. Spore's seven membrane operations provide this specification, validated in three ground-truth traces (relay pilot, BKC commitment pooling, personal workflow). The BKC commitment-pooling trace maps a March 2026 hackathon demo with test data, so it shows the mapping, not validation. *(Corrected 2026-11-13: the BKC trace's figures come from the March 2026 hackathon demo. Its commitments came from a scripted demo workshop transcript and other demo inputs, so they are test data, not operational evidence.)*
 - Evidence from OC: pp.21-22 (design principles)
 - Evidence from Spore: [holonic-network-architecture.md](../../foundations/holonic-network-architecture.md):18-26, 3 ground-truth traces
 - Disposition: no change
@@ -118,7 +118,7 @@ OC's concepts map cleanly to existing grammar in several areas:
 
 4. **Design principles.** OC's four (modular, composable, inclusive, interoperable) are a subset of Spore's seven constitutional commitments. Spore adds provenance, authorized boundary crossing, and explicit reviewable authority.
 
-5. **Aligned incentives.** Commitment pooling (validated: 2 pools, 23+ commitments, 33,400 VCV on Celo mainnet) provides specific lifecycle states, routing, demurrage, and settlement — the mechanism OC describes as a requirement.
+5. **Aligned incentives.** Commitment pooling (demonstrated in a March 2026 BKC hackathon demo: 2 pools, 23+ commitments, 33,400 VCV on Celo mainnet, test data) provides specific lifecycle states, routing, demurrage, and settlement — the mechanism OC describes as a requirement. *(Corrected 2026-11-13: earlier wording said "validated". These figures come from the March 2026 hackathon demo. Its commitments came from a scripted demo workshop transcript and other demo inputs, so they are test data, not operational evidence.)*
 
 ## What Is Thinner in Spore
 
@@ -144,11 +144,11 @@ Where Spore's operational specification exceeds what OC describes:
 
 3. **Epistemic infrastructure.** Spore's [claims-evidence-attestation](../../protocols/claims-evidence-attestation.md) protocol provides a specific mechanism for making knowledge trustworthy across boundaries — who attests, what counts as evidence, how claims are challenged. OC discusses "self-correcting feedback" without specifying grounding.
 
-4. **Economic coordination.** Spore's commitment pooling (validated with BKC: 2 pools, 23+ commitments, on Celo) provides lifecycle states, routing, demurrage, and settlement. OC has "aligned incentives" without mechanism.
+4. **Economic coordination.** Spore's commitment pooling (demonstrated with BKC in a March 2026 hackathon demo: 2 pools, 23+ commitments, on Celo, test data) provides lifecycle states, routing, demurrage, and settlement. OC has "aligned incentives" without mechanism.
 
 5. **Worldview grammar depth.** Spore explicitly encodes five worldview layers and has passed pluralism tests against three worldview positions (Indigenous/OCAP, bioregional/ecological, personal/pragmatic). OC's five-component model is descriptive rather than generative.
 
-6. **Implementation evidence.** Spore has ground-truth traces against BKC (4 federated nodes, 1000+ entities, commitment pooling on Celo), a validated relay pilot, and a personal workflow node. OC's implementation evidence is thinner (Patricia's 3 agents, the OpenCivics Network as aspiration).
+6. **Implementation evidence.** Spore has ground-truth traces against BKC (4 federated nodes, 1000+ entities, and commitment pooling on Celo from a March 2026 hackathon demo with test data), a validated relay pilot, and a personal workflow node. OC's implementation evidence is thinner (Patricia's 3 agents, the OpenCivics Network as aspiration). *(Corrected 2026-11-13: earlier wording in items 4 and 6 said BKC commitment pooling was "validated". Its figures come from the March 2026 hackathon demo, whose commitments came from a scripted demo workshop transcript and other demo inputs, so they are test data, not operational evidence.)*
 
 ## Evolution Notes
 

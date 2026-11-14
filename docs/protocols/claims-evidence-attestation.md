@@ -144,7 +144,7 @@ Three membrane operations are central to the attestation layer:
 - **Ecological claims**: Regen Ledger for bioregional ecological claims (species observations, land stewardship evidence).
 - **Commitment lifecycle**: The commitment lifecycle (proposed → verified → active → evidence_linked → redeemed) exercises claim and evidence linking at the economic coordination layer.
 
-*Note: BKC's 33,400 VCV and commitment lifecycle are primarily evidence for the commitment-pooling pattern. The attestation-relevant aspects are the steward approval gates and on-chain anchoring mechanics, not the commitment economics themselves.*
+*Note: BKC's 33,400 VCV and commitment lifecycle relate primarily to the commitment-pooling pattern. The VCV figure comes from a March 2026 hackathon demo, so it demonstrates that pattern rather than evidencing it. The attestation-relevant aspects are the steward approval gates and on-chain anchoring mechanics, not the commitment economics themselves.* *(Corrected 2026-11-13: earlier wording called them "primarily evidence for the commitment-pooling pattern". The demo's commitments came from a scripted demo workshop transcript and other demo inputs, so they are test data, not operational evidence.)*
 
 ### Personal Workflow: Epistemic Grounding
 

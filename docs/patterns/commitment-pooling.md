@@ -80,8 +80,8 @@ Pooled commitments **instantiate and mobilize** what visions orient. They are th
 
 ## Current Adopters / Related Implementations
 
-- **BKC Victoria + Cascadia pools**: 2 pools activated, 23+ commitments tracked, routing visualization live.
-- **VCV on Celo**: Victoria Commitment Vouchers on Celo mainnet (33,400 VCV minted). This is a parallel implementation of token-based settlement, not a direct adoption of this pattern.
+- **BKC Victoria + Cascadia pools** (hackathon demo only): a March 2026 hackathon demo activated 2 pools, tracked 23+ commitments (test data) and launched a routing visualization.
+- **VCV on Celo**: the same demo deployed Victoria Commitment Vouchers on Celo mainnet and minted 33,400 VCV. This is a parallel implementation of token-based settlement, not a direct adoption of this pattern. *(Corrected 2026-11-13: the figures in these two entries come from the March 2026 hackathon demo. Its commitments came from a scripted demo workshop transcript and other demo inputs, so they are test data, not operational evidence.)*
 - **Grassroots Economics / CLC protocol**: Community Inclusion Currencies and the commitment voucher framework developed by Will Ruddick. A key influence on the settlement and demurrage design.
 
 ## Related Patterns

@@ -32,6 +32,8 @@ outcome_note: ""
 snapshot_date: 2026-04-06
 ---
 
+**Corrected 2026-11-13: this record rests on hackathon demo test data, not on mapping workshops.** The 23 commitments it counts were minted in the March 2026 hackathon demo. That demo's workshop candidates were extracted from a voice memo of a scripted demo workshop transcript with fictional participants, and the rest came from agent self-commitments and other demo inputs. No real mapping workshop produced these commitments. Both cited sources are illustrative: the claims-evidence-attestation line is an "Example" cell, and the coordination-grammar line describes the design. The "What is known" items below are therefore illustrative, not observed. The frontmatter fields `state: active`, `coordination_context`, `mode_rationale`, `consequence_bearers` and `standing_context` still carry the original reading and are left for review.
+
 ## Source Basis
 
 **This is a seed record, not operational evidence.** It summarizes
@@ -50,11 +52,11 @@ shape and start the annotation discipline.
   `"Mapping workshops surface needs/offers/gaps across landscape groups"`
   (BKC coordination loop, Sense phase)
 
-**What is known:**
-- Mapping workshops are the primary source of commitment proposals
-- At least 23 commitments were documented through this process
-- Commitments enter the pool via steward-review verification
-- The process surfaces needs, offers, and gaps across landscape groups
+**What is known (illustrative, from an example cell and design descriptions; not observed):**
+- Mapping workshops are designed to be the primary source of commitment proposals
+- At least 23 commitments were documented through this process (in fact the 23 were minted in the hackathon demo from a scripted transcript and other demo inputs, not from a workshop)
+- Commitments enter the pool via steward-review verification (as designed)
+- The process surfaces needs, offers, and gaps across landscape groups (as designed)
 
 **What is unknown:**
 - Individual commitment details from any specific workshop

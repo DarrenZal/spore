@@ -25,7 +25,9 @@ Canon-safe claims remain the upper bound of what is currently confirmed. Evidenc
 | **Governance memory / spec-DAG** (`docs/patterns/governance-memory.md`) | Frontmatter DAG with doc_id, doc_kind, status, depends_on. Validated acyclicity. Tiered adoption (0–2). | Partially — tracks document lifecycle but not decision lifecycle. Knows what depends on what, not who bore consequences for what. | No decision-level metadata. No revision-depth field. No contestability log. | Extend frontmatter convention with optional evidence fields on governance artifacts |
 | **Claims-evidence-attestation protocol** (`docs/protocols/claims-evidence-attestation.md`) | Claim lifecycle (proposed → supported → challenged → superseded → reinstated), evidence types, attestation strength/decay, membrane operations | Designed but not exercised — no claim has been tracked through this lifecycle in a running system. The Johar corpus program used promotion_status but not the full claim lifecycle. | No operational claim records. No transition logs. No attestation-decay events. | Use the claim lifecycle as the reference model for revision event typing, without requiring full operational instantiation |
 | **Project metadata** (`docs/_meta/project.json`) | Project registration (id, name, uri, docs_root, repos, tier) | Not directly — this is project-level, not evidence-level metadata | No evidence-collection metadata | Leave as-is; evidence artifacts use their own frontmatter |
-| **BKC references** (scattered across pattern docs, decision memo, evidence mapping) | BKC described as operational instance with 2 pools, 23+ commitments, steward reviews. No BKC-specific directory or data in this repo. | No — BKC data is external. This repo contains pattern descriptions and references, not operational data. | No mechanism to import or mirror BKC operational data | Design commitment evidence records as Spore-side annotations that reference BKC commitments by identifier without duplicating BKC's own records |
+| **BKC references** (scattered across pattern docs, decision memo, evidence mapping) | BKC described as operational instance with 2 pools, 23+ commitments, steward reviews, but the pool figures come from a March 2026 hackathon demo with test data. No BKC-specific directory or data in this repo. | No — BKC data is external. This repo contains pattern descriptions and references, not operational data. | No mechanism to import or mirror BKC operational data | Design commitment evidence records as Spore-side annotations that reference BKC commitments by identifier without duplicating BKC's own records |
+
+*(Corrected 2026-11-13: the BKC pool figures in this table come from the March 2026 hackathon demo. Its commitments came from a scripted demo workshop transcript and other demo inputs, so they are test data, not operational evidence.)*
 
 ## 3. Evidence Stack Scoping Table
 
@@ -42,7 +44,7 @@ Canon-safe claims remain the upper bound of what is currently confirmed. Evidenc
 
 #### A. Purpose
 
-Create lightweight evidence records that annotate BKC pool commitments with epistemic-mode, consequence, and standing metadata. Each record is a standalone markdown file in the Spore repo referencing a specific BKC commitment, carrying the evidence fields that BKC's own records do not currently include. These are observation records, not replacements for BKC's operational data.
+Create lightweight evidence records that annotate BKC pool commitments with epistemic-mode, consequence, and standing metadata. Each record is a standalone markdown file in the Spore repo referencing a specific BKC commitment, carrying the evidence fields that BKC's own records do not currently include. These are observation records, not replacements for BKC's operational data (which, for its pools, was March 2026 hackathon demo test data when this memo was written). *(Corrected 2026-11-13: of the demo's 23 commitments, 10 came from a voice memo of a scripted demo workshop transcript, 7 were agent self-commitments and the rest were earlier test entries, so they are test data, not operational evidence.)*
 
 #### B. Exact Fields / Enum Values
 
@@ -106,7 +108,7 @@ No additional observations yet. Will annotate at evidence-linked stage.
 
 #### F. Adoption Notes
 
-Annotation is performed by whoever is closest to the BKC pool's governance — likely Darren or a BKC steward. Burden is low per commitment (~5 minutes to fill out the frontmatter for a commitment whose context is already known). The critical adoption risk is not effort per record but remembering to create the record. A monthly review cadence ("which commitments transitioned since last check?") is more realistic than real-time annotation. No back-annotation of existing 23+ commitments is required — begin with the next commitment that transitions or enters a pool.
+Annotation is performed by whoever is closest to the BKC pool's governance — likely Darren or a BKC steward. Burden is low per commitment (~5 minutes to fill out the frontmatter for a commitment whose context is already known). The critical adoption risk is not effort per record but remembering to create the record. A monthly review cadence ("which commitments transitioned since last check?") is more realistic than real-time annotation. No back-annotation of the existing 23+ commitments, which are hackathon demo test data, is required — begin with the next real commitment that transitions or enters a pool. *(Corrected 2026-11-13: the existing 23+ commitments come from the March 2026 hackathon demo, which drew them from a scripted demo workshop transcript and other demo inputs, so they are test data, not operational evidence.)*
 
 ---
 
@@ -475,7 +477,7 @@ The direct implementation pass should create: (a) the `docs/research/evidence/` 
 
 **Expected artifact:** `docs/research/evidence/commitments/` directory with 2–3 files; inline `## Revision Log` section on at least one governance artifact; brief implementation note if schema adjustments are needed.
 
-**Why it comes first:** The schema is scoped. The fastest way to validate it is to use it. Every week without commitment records is a missed evidence opportunity. BKC pools are active now.
+**Why it comes first:** The schema is scoped. The fastest way to validate it is to use it. Every week without commitment records is a missed evidence opportunity. BKC pools exist, but when this memo was written they held only March 2026 hackathon demo test data. *(Corrected 2026-11-13: earlier wording said "BKC pools are active now." The demo's commitments came from a scripted demo workshop transcript and other demo inputs, so they are test data, not operational evidence.)*
 
 ### Run 2: Deferred-Family Triage Reassessment
 

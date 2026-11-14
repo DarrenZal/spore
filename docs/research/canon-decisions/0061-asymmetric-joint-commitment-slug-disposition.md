@@ -6,6 +6,10 @@ adr_number: "0061"
 opened-on: 2026-04-23
 closed-on: 2026-04-23
 decision: decline
+# Corrected 2026-11-13: in r_claim_statement below, "BKC pool stewardship within commitment pools" is listed
+# among "five operational candidates", but BKC's pools held only March 2026 hackathon demo test data when
+# this ADR was written, so it is a structural case, not an operational one. The decision (decline) does not
+# depend on it. The field text is left unchanged as the decision record.
 r_claim_statement: |
   The composition of ADR-0047 Layer 2 (`asymmetric-commitment` on Commitment primitive) with ADR-0050 (`joint-commitment` as 9th primitive / 6th coordination verb) produces a pattern — joint-commitments where parties bind disproportionately — that ADR-0050 §"Relationship to ADR-0047 asymmetric-commitment" (lines 135-137) explicitly named `asymmetric-joint-commitment` and deferred slug admission "unless operational pressure surfaces." The term currently appears four times in Spore canon prose (project-vision.md:57 joint-commitment bullet, governance-artifacts-and-graph-projections.md:44, ADR-0050:137, ADR-0050:215) as canon-legible prose composition without dedicated slug. Phase-3b + post-3b dedicated-ADR queue from `project_canon_rebuild_phase_3b.md` memory § Pending listed `asymmetric-joint-commitment` as first-pick from four parked dedicated-ADR candidates — smallest surface, clean earning test.
 

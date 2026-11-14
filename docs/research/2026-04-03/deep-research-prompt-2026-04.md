@@ -1,5 +1,7 @@
 # Deep Research Prompt — Spore / Agent Commons (April 2026)
 
+*(Corrected 2026-11-13: this file is the prompt as it was sent, so the text below is left unchanged. Three passages overstate BKC commitment pooling. The "Bioregional knowledge commons (production proving ground)" bullet cites "23+ commitment pool entries, $33.4K in community currency minted on Celo", the "Validated:" line lists "commitment pooling (on-chain with real community currency)", and Cluster 4 calls commitment pooling "the most production-validated economic mechanism ($33.4K in community currency on Celo)". These figures come from the March 2026 hackathon demo. Its commitments came from a scripted demo workshop transcript and other demo inputs, so they are test data, not production or operational evidence. The "$33.4K" figure has no source. The demo minted 33,400 VCV, and the only VCV price found is the demo SwapPool's 1:1 quote against cUSD, which is pool pricing, not a valuation of the minted supply.)*
+
 ## Purpose
 
 This prompt is designed for a multi-hour deep research session. The goal is not a literature survey — it is a **synthesis** that identifies which intellectual traditions, formal methods, adjacent projects, and scientific theories can deepen Spore's foundations, fill its known gaps, and position it relative to a rapidly evolving ecosystem of coordination technologies.
